@@ -1,0 +1,88 @@
+import React, { useState } from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
+import { smoothies } from '../data/smoothies';
+import { fruits } from '../data/fruits';
+import { superfoods } from '../data/superfoods';
+import { Search as SearchIcon, Lock } from 'lucide-react';
+import FruitCard from '../components/FruitCard';
+import SuperfoodCard from '../components/SuperfoodCard';
+import SmoothieCard from '../components/SmoothieCard';
+
+const Search = () => {
+    const [searchParams] = useSearchParams();
+    const [query, setQuery] = useState("");
+    const navigate = useNavigate();
+    const q = query.toLowerCase();
+
+    const category = searchParams.get('category');
+    const showFruits = !category || category === 'fruits';
+    const showSmoothies = !category || category === 'smoothies';
+    const showSuperfoods = !category || category === 'superfoods';
+
+    // Filtros ultra-seguros: si algo falla, devuelve un array vacío pero no rompe la app
+    const fruitResults = q ? (fruits || []).filter(f => f.name && f.name.toLowerCase().includes(q)) : (fruits || []);
+    const smoothieResults = q ? (smoothies || []).filter(s =>
+        (s.name && s.name.toLowerCase().includes(q)) ||
+        (s.ingredients && s.ingredients.some(i => i.toLowerCase().includes(q)))
+    ) : (smoothies || []);
+    const superfoodResults = q ? (superfoods || []).filter(s => s.name && s.name.toLowerCase().includes(q)) : (superfoods || []);
+
+    return (
+        <div className="max-w-6xl mx-auto p-4 min-h-screen font-sans">
+            <div className="relative my-8">
+                <input
+                    type="text"
+                    className="w-full pl-12 pr-4 py-5 rounded-3xl bg-white dark:bg-gray-800 shadow-xl border-none text-lg"
+                    placeholder="Search fruit or smoothie..."
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                />
+                <SearchIcon className="absolute left-4 top-1/2 -translate-y-1/2 text-fruit-green" />
+            </div>
+
+            <div className="space-y-12">
+                {/* FRUTAS - IMÁGENES GRANDES */}
+                    {showFruits && fruitResults.length > 0 && (
+                        <section>
+                            <h2 className="text-2xl font-black mb-6 uppercase text-fruit-green">Fruits</h2>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                {fruitResults.map((f, i) => (
+                                    <FruitCard key={f.id} fruit={f} index={i} />
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
+                    {/* SUPERFOODS - IMÁGENES GRANDES */}
+                    {showSuperfoods && superfoodResults.length > 0 && (
+                        <section>
+                            <h2 className="text-2xl font-black mb-6 uppercase text-fruit-green">Superfoods</h2>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                {superfoodResults.map((s, i) => (
+                                    <SuperfoodCard key={s.id} superfood={s} index={i} />
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
+                    {/* SMOOTHIES */}
+                    {showSmoothies && smoothieResults.length > 0 && (
+                        <section>
+                            <h2 className="text-2xl font-black mb-6 uppercase text-fruit-green">Smoothies</h2>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                {smoothieResults.map((s, i) => (
+                                    <SmoothieCard key={s.id} smoothie={s} index={i} />
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
+                    {(!showFruits || fruitResults.length === 0) && (!showSmoothies || smoothieResults.length === 0) && (!showSuperfoods || superfoodResults.length === 0) && (
+                        <div className="text-center py-10 opacity-30">No results found</div>
+                    )}
+                </div>
+        </div>
+    );
+};
+
+export default Search;

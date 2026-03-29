@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "category": "Immunity",
+    "text": "Amla (Indian Gooseberry) contains nearly 20 times more Vitamin C than an orange, making it the ultimate immune shield.",
+    "fruit": "Amla"
+  },
+  {
+    "id": 2,
+    "category": "Energy",
+    "text": "Raw Cacao is one of the highest plant-based sources of iron and magnesium, perfect for a gentle, lasting energy lift.",
+    "fruit": "Cacao"
+  },
+  {
+    "id": 3,
+    "category": "Immunity",
+    "text": "Acerola cherries degrade rapidly after picking; freeze-drying is the best way to preserve their massive antioxidant profile.",
+    "fruit": "Acerola"
+  },
+  {
+    "id": 4,
+    "category": "Digestion",
+    "text": "Langsat fruit is naturally rich in riboflavin (Vitamin B2), which heavily aids your body in breaking down carbohydrates.",
+    "fruit": "Langsat"
+  },
+  {
+    "id": 5,
+    "category": "Heart Health",
+    "text": "Pomegranate seeds actively prevent the oxidation of LDL cholesterol, helping keep your arterial walls clear.",
+    "fruit": "Pomegranate"
+  },
+  {
+    "id": 6,
+    "category": "Skin Skin Glow",
+    "text": "Avocado contains profound levels of oleic acid, deeply hydrating your skin cells from the inside out.",
+    "fruit": "Avocado"
+  },
+  {
+    "id": 7,
+    "category": "Brain Health",
+    "text": "Blueberries are packed with potent anthocyanins that cross the blood-brain barrier to protect delicate neurons.",
+    "fruit": "Blueberries"
+  },
+  {
+    "id": 8,
+    "category": "Anti-Inflammatory",
+    "text": "Adding a tiny pinch of black pepper to turmeric increases the absorption of curcumin by 2000%.",
+    "fruit": "Turmeric"
+  },
+  {
+    "id": 9,
+    "category": "Digestion",
+    "text": "Papaya is exclusively rich in papain, an elite enzyme that immediately helps digest heavy protein meals.",
+    "fruit": "Papaya"
+  },
+  {
+    "id": 10,
+    "category": "Energy",
+    "text": "Maca root acts as a powerful adaptogen that actively balances your hormones while safely increasing physical stamina.",
+    "fruit": "Maca"
+  },
+  {
+    "id": 11,
+    "category": "Sleep",
+    "text": "Tart cherries are one of the few natural foods that contain pure, bioavailable melatonin for deep sleep.",
+    "fruit": "Tart Cherry"
+  },
+  {
+    "id": 12,
+    "category": "Detox",
+    "text": "Lemon juice paired with warm water in the morning gently signals your liver to begin its daily flushing process.",
+    "fruit": "Lemon"
+  },
+  {
+    "id": 13,
+    "category": "Heart Health",
+    "text": "Walnuts are uniquely shaped like a brain, but they are most famous for providing elite levels of cardiovascular Omega-3s.",
+    "fruit": "Walnuts"
+  },
+  {
+    "id": 14,
+    "category": "Skin Glow",
+    "text": "Sea Buckthorn is arguably the best natural source of Omega-7, a rare fatty acid critical for glowing, elastic skin.",
+    "fruit": "Sea Buckthorn"
+  },
+  {
+    "id": 15,
+    "category": "Focus",
+    "text": "Lion's Mane mushroom is scientifically proven to stimulate Nerve Growth Factor, actively repairing neural pathways.",
+    "fruit": "Lion's Mane"
+  },
+  {
+    "id": 16,
+    "category": "Energy",
+    "text": "Matcha leaves are shade-grown before harvest, skyrocketing their chlorophyll and L-Theanine levels for calm focus.",
+    "fruit": "Matcha"
+  },
+  {
+    "id": 17,
+    "category": "Immunity",
+    "text": "Elderberry syrup actively binds to viruses, drastically reducing their ability to enter and infect your cells.",
+    "fruit": "Elderberry"
+  },
+  {
+    "id": 18,
+    "category": "Stress Relief",
+    "text": "Ashwagandha has been shown in hundreds of clinical trials to dramatically lower circulating cortisol levels.",
+    "fruit": "Ashwagandha"
+  },
+  {
+    "id": 19,
+    "category": "Digestion",
+    "text": "Aloe Vera gel contains enzymes that soothe the stomach lining, acting as an internal cooling agent.",
+    "fruit": "Aloe Vera"
+  },
+  {
+    "id": 20,
+    "category": "Skin Glow",
+    "text": "Maqui berries have the absolute highest ORAC (antioxidant) value of any known fruit on Earth.",
+    "fruit": "Maqui Berry"
+  },
+  {
+    "id": 21,
+    "category": "Energy",
+    "text": "Jackfruit is an excellent source of clean, starchy complex carbohydrates, perfect for intense physical labor.",
+    "fruit": "Jackfruit"
+  },
+  {
+    "id": 22,
+    "category": "Digestion",
+    "text": "Kiwi fruit consumed right before bed has been proven to improve sleep quality while gently cleaning the gut.",
+    "fruit": "Kiwi"
+  },
+  {
+    "id": 23,
+    "category": "Anti-Inflammatory",
+    "text": "Mangosteen rind contains extremely rare compounds called xanthones which instantly neutralize systemic inflammation.",
+    "fruit": "Mangosteen"
+  },
+  {
+    "id": 24,
+    "category": "Hydration",
+    "text": "Coconut water is incredibly similar to human blood plasma and is nature's purest form of isotonic hydration.",
+    "fruit": "Coconut"
+  },
+  {
+    "id": 25,
+    "category": "Immunity",
+    "text": "Camu Camu grows natively in flooded Amazonian regions, surviving by pulling massive levels of Vitamin C from the rich soil.",
+    "fruit": "Camu Camu"
+  },
+  {
+    "id": 26,
+    "category": "Energy",
+    "text": "Lucuma is known as the 'Gold of the Incas', providing a maple-like sweet flavor with an exceptionally low glycemic index.",
+    "fruit": "Lucuma"
+  },
+  {
+    "id": 27,
+    "category": "Digestion",
+    "text": "Prickly Pear cactus fruit significantly lowers gut inflammation and helps hydrate the beneficial gut flora.",
+    "fruit": "Prickly Pear"
+  },
+  {
+    "id": 28,
+    "category": "Heart Health",
+    "text": "Beetroot juice is incredibly rich in natural dietary nitrates, directly dilating blood vessels and lowering blood pressure.",
+    "fruit": "Beetroot"
+  },
+  {
+    "id": 29,
+    "category": "Focus",
+    "text": "Goji Berries contain specialized polysaccharides that actively defend the optic nerve, sharpening long-term vision.",
+    "fruit": "Goji Berries"
+  },
+  {
+    "id": 30,
+    "category": "Detox",
+    "text": "Cilantro acts as a profound chelating botanical, binding tightly to heavy metals and forcing them out of the blood.",
+    "fruit": "Cilantro"
+  },
+  {
+    "id": 31,
+    "category": "Heart Health",
+    "text": "Strawberries are rich in fisetin, a flavonoid currently highly studied for its extreme anti-aging and cardioprotective effects.",
+    "fruit": "Strawberries"
+  },
+  {
+    "id": 32,
+    "category": "Sleep",
+    "text": "Jujube dates contain potent natural saponins that gently sedate the nervous system, curing restless mind loops.",
+    "fruit": "Jujube"
+  },
+  {
+    "id": 33,
+    "category": "Digestion",
+    "text": "Ginger root directly accelerates the emptying of the stomach, making it the perfect immediate cure for severe bloating.",
+    "fruit": "Ginger"
+  },
+  {
+    "id": 34,
+    "category": "Stress Relief",
+    "text": "Reishi mushroom is referred to as the 'Mushroom of Immortality', specifically renowned for regulating emotional imbalance.",
+    "fruit": "Reishi"
+  },
+  {
+    "id": 35,
+    "category": "Immunity",
+    "text": "Starfruit is highly effective at sweeping heavy toxins from the body, though it should be avoided by those with kidney issues.",
+    "fruit": "Starfruit"
+  },
+  {
+    "id": 36,
+    "category": "Energy",
+    "text": "Breadfruit roasted over an open fire acts entirely like a fresh loaf of bread, providing massive levels of sustained energy.",
+    "fruit": "Breadfruit"
+  },
+  {
+    "id": 37,
+    "category": "Heart Health",
+    "text": "Blackberries contain incredibly distinct tannins that tighten tissues and actively restrict bleeding in the digestive tract.",
+    "fruit": "Blackberries"
+  },
+  {
+    "id": 38,
+    "category": "Energy",
+    "text": "Sapodilla tastes exactly like brown sugar and rapidly cures physical exhaustion via its unique fructose structure.",
+    "fruit": "Sapodilla"
+  },
+  {
+    "id": 39,
+    "category": "Immunity",
+    "text": "Soursop is traditionally revered in tropical regions for instantaneously breaking high fevers and fighting severe acute infections.",
+    "fruit": "Soursop"
+  },
+  {
+    "id": 40,
+    "category": "Skin Glow",
+    "text": "Passionfruit seeds are packed with piceatannol, a compound that visibly protects the skin against aggressive sun damage.",
+    "fruit": "Passionfruit"
+  },
+  {
+    "id": 41,
+    "category": "Digestion",
+    "text": "Baobab fruit naturally dries on the tree branch, producing a citrusy powder that acts as an elite prebiotic for your gut.",
+    "fruit": "Baobab"
+  },
+  {
+    "id": 42,
+    "category": "Heart Health",
+    "text": "Blood Oranges derive their dark color from anthocyanins, making them the only citrus fruit with massive cardiovascular benefits.",
+    "fruit": "Blood Orange"
+  },
+  {
+    "id": 43,
+    "category": "Energy",
+    "text": "Pawpaw is the largest edible fruit native to North America, boasting an intensely high protein profile for a fruit.",
+    "fruit": "Pawpaw"
+  },
+  {
+    "id": 44,
+    "category": "Immunity",
+    "text": "Guava surprisingly contains over four times the Vitamin C of a standard orange, primarily stored right beneath the skin.",
+    "fruit": "Guava"
+  },
+  {
+    "id": 45,
+    "category": "Digestion",
+    "text": "Pineapple cores contain the absolute highest concentration of bromelain, perfect for reducing inflammation and aiding digestion.",
+    "fruit": "Pineapple"
+  },
+  {
+    "id": 46,
+    "category": "Heart Health",
+    "text": "Acai berries contain nearly zero sugar, making them essentially a pure delivery system for heart-protecting healthy fats.",
+    "fruit": "Acai"
+  },
+  {
+    "id": 47,
+    "category": "Skin Glow",
+    "text": "Watermelon is roughly 92% water, providing immense cellular hydration which immediately plumps up tired, dry skin.",
+    "fruit": "Watermelon"
+  },
+  {
+    "id": 48,
+    "category": "Energy",
+    "text": "Dates are widely considered nature's perfect energy gel, efficiently delivering complex carbs without crashing blood sugar.",
+    "fruit": "Dates"
+  },
+  {
+    "id": 49,
+    "category": "Immunity",
+    "text": "Yuzu peel has a uniquely high concentration of flavonoids; simply inhaling its aroma has been proven to significantly drop cortisol.",
+    "fruit": "Yuzu"
+  },
+  {
+    "id": 50,
+    "category": "Digestion",
+    "text": "Apple skins contain copious amounts of pectin, an exceptional soluble fiber that perfectly regulates daily bowel movements.",
+    "fruit": "Apple"
+  }
+]
