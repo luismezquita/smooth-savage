@@ -26,7 +26,7 @@ export default function Favorites() {
                 </div>
                 <div>
                     <h1 className="text-3xl md:text-4xl font-black">Your Favorites</h1>
-                    <p className="text-gray-500 dark:text-gray-400">Saved fruits for quick access</p>
+                    <p className="text-gray-500 dark:text-gray-400">Saved fresh ingredients for quick access</p>
                 </div>
             </motion.div>
 
@@ -38,10 +38,7 @@ export default function Favorites() {
                 >
                     <Heart className="w-16 h-16 mx-auto text-gray-300 dark:text-gray-600 mb-4" />
                     <h2 className="text-xl font-bold mb-2">No favorites yet</h2>
-                    <p className="text-gray-500 dark:text-gray-400 mb-6">Start exploring fruits and save your favorites here!</p>
-                    <Link to="/" className="inline-flex bg-fruit-green text-white px-6 py-3 rounded-xl font-bold hover:bg-green-600 transition-colors">
-                        Explore Fruits
-                    </Link>
+                    <p className="text-gray-500 dark:text-gray-400">Save items you love to find them here.</p>
                 </motion.div>
             ) : (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-8">

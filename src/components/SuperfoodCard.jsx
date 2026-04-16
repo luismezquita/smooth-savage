@@ -40,8 +40,8 @@ export default function SuperfoodCard({ superfood, index }) {
                     <div className="p-5 flex-grow flex flex-col">
                         <div className="flex items-center justify-between mb-2 gap-2">
                             <h3 className="text-xl font-bold">{superfood.name}</h3>
-                            <span className={`px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider whitespace-nowrap ${getBenefitStyle(superfood.benefits[0])}`}>
-                                {superfood.benefits[0]}
+                            <span className={`px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider whitespace-nowrap ${getBenefitStyle(superfood.benefit)}`}>
+                                {superfood.benefit}
                             </span>
                         </div>
                         <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-3">

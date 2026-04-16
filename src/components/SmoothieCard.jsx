@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Heart } from 'lucide-react';
+import { Heart, CupSoda } from 'lucide-react';
 import { useFavorites } from '../hooks/useFavorites';
 
 import { getBenefitStyle } from '../utils/benefitColors';
@@ -11,8 +11,8 @@ export default function SmoothieCard({ smoothie, index = 0 }) {
     const isFav = isFavorite(smoothie.id);
 
     // Dynamic Premium Fallback Logic
-    const imagePath = smoothie.image && smoothie.image.endsWith('.webp') 
-        ? smoothie.image 
+    const imagePath = smoothie.img && smoothie.img.endsWith('.webp')
+        ? smoothie.img
         : '/images/smoothies/elderberry-shield.webp';
 
     return (
@@ -47,6 +47,7 @@ export default function SmoothieCard({ smoothie, index = 0 }) {
                     <div className="p-5 flex-grow flex flex-col">
                         <div className="flex items-center justify-between mb-2 gap-2">
                             <h3 className="text-xl font-bold flex items-center gap-2">
+                                {smoothie.icon === 'vaso' && <CupSoda className="w-5 h-5 text-fruit-green dark:text-fruit-light" />}
                                 {smoothie.name}
                                 {smoothie.isHero && (
                                     <span className="bg-gradient-to-r from-yellow-400 to-amber-500 text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider shadow-sm">
@@ -54,8 +55,8 @@ export default function SmoothieCard({ smoothie, index = 0 }) {
                                     </span>
                                 )}
                             </h3>
-                            <span className={`px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider whitespace-nowrap ${getBenefitStyle(smoothie.category)}`}>
-                                {smoothie.category}
+                            <span className={`px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider whitespace-nowrap ${getBenefitStyle(smoothie.benefit)}`}>
+                                {smoothie.benefit}
                             </span>
                         </div>
                         <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-3">

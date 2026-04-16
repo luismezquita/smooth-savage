@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
@@ -20,15 +20,20 @@ function App() {
                 <Layout>
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/fruit/:id" element={<FruitDetail />} />
                         <Route path="/superfoods" element={<Superfoods />} />
+                        <Route path="/smoothies" element={<Smoothies />} />
+
+                        {/* Details */}
+                        <Route path="/fruit/:id" element={<FruitDetail />} />
                         <Route path="/superfood/:id" element={<SuperfoodDetail />} />
                         <Route path="/smoothie/:id" element={<SmoothieDetail />} />
-                        <Route path="/smoothies" element={<Smoothies />} />
+
+                        {/* Others */}
                         <Route path="/favorites" element={<Favorites />} />
                         <Route path="/search" element={<Search />} />
                         <Route path="/benefits" element={<Benefits />} />
                         <Route path="/benefits/:id" element={<BenefitDetail />} />
+
                         <Route path="*" element={<Navigate to="/" replace />} />
                     </Routes>
                 </Layout>

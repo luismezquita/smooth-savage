@@ -1,5 +1,6 @@
 import { fruits } from "./fruits";
 import { superfoods } from "./superfoods";
+import { smoothies } from "./smoothies";
 
 export const benefitCategories = [
     { id: 'immunity', title: 'Immunity Boost', icon: '🛡️', tagline: 'Fortify your natural defenses', color: 'from-orange-400 to-red-500' },
@@ -14,45 +15,12 @@ export const benefitCategories = [
     { id: 'antioxidant', title: 'Antioxidant Power', icon: '🫐', tagline: 'Protect cells from aging', color: 'from-fuchsia-500 to-purple-600' },
 ];
 
-const itemToCategoryMap = {
-    // Immunity Boost
-    "blood_orange": "immunity", "camu-camu": "immunity", "cranberry": "immunity", "elderberry": "immunity", "grapefruit": "immunity", "guava": "immunity", "kiwi": "immunity", "kumquat": "immunity", "lemon": "immunity", "lemons": "immunity", "lime": "immunity", "lychee": "immunity", "orange": "immunity", "oranges": "immunity", "pomelo": "immunity", "starfruit": "immunity", "ugly_fruit": "immunity", "bell-pepper": "immunity", "broccoli": "immunity", "kakadu-plum": "immunity", "sea-moss": "immunity",
-    // Energy & Vitality
-    "bananas": "energy", "blue_java_banana": "energy", "coconut": "energy", "durian": "energy", "jacckfruit": "energy", "jackfruit": "energy", "mango": "energy", "plantain": "energy", "rambutan": "energy", "chia-seeds": "energy", "cordyceps": "energy", "hemp-hearts": "energy", "maca-root": "energy", "sweet-potato": "energy",
-    // Digestion & Gut Health
-    "apple": "digestion", "apples": "digestion", "blacksapote": "digestion", "fig": "digestion", "papaya": "digestion", "pear": "digestion", "pineapple": "digestion", "plum": "digestion", "prickly_pear": "digestion", "quince": "digestion", "tamarind": "digestion", "aloe-vera": "digestion", "asparagus": "digestion", "celery": "digestion", "fennel": "digestion", "flaxseeds": "digestion", "greek-yogurt": "digestion", "zucchini": "digestion",
-    // Stress Relief & Calm
-    "longan": "stress", "passionfruit": "stress", "ashwagandha": "stress", "reishi": "stress",
-    // Anti-Inflammatory
-    "cape_goosberry": "anti-inflammatory", "mangosteen": "anti-inflammatory", "mulberry": "anti-inflammatory", "ginger": "anti-inflammatory", "olive-oil": "anti-inflammatory", "turmeric": "anti-inflammatory",
-    // Skin Glow & Beauty
-    "apricot": "skin", "cantaloupe": "skin", "nectarines": "skin", "peach": "skin", "avocado": "skin", "cucumber": "skin", "pumpkin": "skin",
-    // Heart Health
-    "custard_apple": "heart", "grapes": "heart", "loquat": "heart", "pomegranate": "heart", "beetroot": "heart",
-    // Detox & Cleansing
-    "honeydew": "detox", "watermelon": "detox", "arugula": "detox", "bok-choy": "detox", "brussels-sprouts": "detox", "carrot": "detox", "cauliflower": "detox", "chlorella": "detox", "cilantro": "detox", "collard-greens": "detox", "dandelion-greens": "detox", "kale": "detox", "kohlrabi": "detox", "parsley": "detox", "purslane": "detox", "red-cabbage": "detox", "spinach": "detox", "spirulina": "detox", "swiss-chard": "detox", "water-cress": "detox", "wheatgrass": "detox",
-    // Sleep & Recovery
-    "cherries": "sleep",
-    // Antioxidant Power
-    "acai_berries": "antioxidant", "acai-berries": "antioxidant", "blackberries": "antioxidant", "blackcurrant": "antioxidant", "blueberries": "antioxidant", "dragonfruit": "antioxidant", "persimon": "antioxidant", "physalis": "antioxidant", "plumcot": "antioxidant", "raspberries": "antioxidant", "red_currant": "antioxidant", "strawberries": "antioxidant", "chaga-mushroom": "antioxidant", "goji-berries": "antioxidant", "lions-mane": "antioxidant", "matcha": "antioxidant", "moringa": "antioxidant", "moring": "antioxidant"
-};
-
 export const getItemsForBenefit = (benefitId) => {
-    const finalFruits = fruits.filter(f => {
-        let key1 = f.id;
-        let key2 = f.name.toLowerCase().replace(/ /g, '_');
-        let mapped = itemToCategoryMap[key1] || itemToCategoryMap[key2];
-        if (!mapped) mapped = 'antioxidant'; 
-        return mapped === benefitId;
-    });
+    const categoryName = benefitCategories.find(c => c.id === benefitId)?.title || '';
 
-    const finalSuperfoods = superfoods.filter(s => {
-        let key1 = s.id;
-        let key2 = s.name.toLowerCase().replace(/ /g, '-');
-        let mapped = itemToCategoryMap[key1] || itemToCategoryMap[key2];
-        if (!mapped) mapped = 'antioxidant';
-        return mapped === benefitId;
-    });
+    const finalFruits = fruits.filter(f => f.benefit === categoryName);
+    const finalSuperfoods = superfoods.filter(s => s.benefit === categoryName);
+    const finalSmoothies = smoothies.filter(s => s.benefit === categoryName);
 
-    return { fruits: finalFruits, superfoods: finalSuperfoods };
+    return { fruits: finalFruits, superfoods: finalSuperfoods, smoothies: finalSmoothies };
 };

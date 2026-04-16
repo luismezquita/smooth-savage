@@ -3,7 +3,6 @@ export const smoothies = [
         "id": 1,
         "name": "Ultimate Immunity Hero",
         "title": "Ultimate Immunity Hero",
-        "category": "Immunity Boost",
         "teaser": "The ultimate vitamin C fortress",
         "color": "orange",
         "description": "The ultimate vitamin C fortress.",
@@ -13,7 +12,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/ultimate_immunity hero.webp",
         "ingredients": [
             "Orange",
             "Ginger",
@@ -22,13 +20,15 @@ export const smoothies = [
         ],
         "steps": "Peel 1 whole orange and add it to the blender. Add 1 teaspoon of freshly grated ginger, 1 teaspoon of camu camu powder, and 1/4 teaspoon of turmeric powder. Pour in 1/2 cup of water and blend on high speed for 60 seconds until perfectly smooth.",
         "tier": "free",
-        "isHero": true
+        "isHero": true,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/ultimate_immunity hero.webp",
+        "icon": "vaso"
     },
     {
         "id": 2,
         "name": "Vitamin C Nuclear Bomb",
         "title": "Vitamin C Nuclear Bomb",
-        "category": "Immunity Boost",
         "teaser": "Nature’s strongest immunity shield",
         "color": "orange",
         "description": "Nature’s strongest immunity shield.",
@@ -38,7 +38,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/vitaminc_nuclear_bomb.webp",
         "ingredients": [
             "Acerola Cherry",
             "Lemon",
@@ -47,13 +46,15 @@ export const smoothies = [
         ],
         "steps": "Combine 1/2 cup of fresh acerola cherry pulp, 1 peeled kiwi, 1 tablespoon of freshly squeezed lemon juice, and 1 tablespoon of Manuka honey. Blend on high for 45 seconds until completely liquid.",
         "tier": "free",
-        "isHero": true
+        "isHero": true,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/vitaminc_nuclear_bomb.webp",
+        "icon": "vaso"
     },
     {
         "id": 3,
         "name": "Adaptogen Calm Hero",
         "title": "Adaptogen Calm Hero",
-        "category": "Stress Relief & Calm",
         "teaser": "Deep calm in every sip",
         "color": "purple",
         "description": "Deep calm in every sip.",
@@ -63,7 +64,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/adaptogen_calm_hero.webp",
         "ingredients": [
             "Ashwagandha",
             "Almond Milk",
@@ -72,13 +72,15 @@ export const smoothies = [
         ],
         "steps": "Mix 1 scoop (approx 1 teaspoon) of premium ashwagandha root powder with 1 cup of cold almond milk, 1/2 cup of frozen blueberries, and 1/4 cup of rolled oats. Blend for 90 seconds into a thick, creamy shake.",
         "tier": "free",
-        "isHero": true
+        "isHero": true,
+        "benefit": "Stress Relief & Calm",
+        "img": "/images/smoothies/adaptogen_calm_hero.webp",
+        "icon": "vaso"
     },
     {
         "id": 4,
         "name": "Brain & Focus Hero",
         "title": "Brain & Focus Hero",
-        "category": "Energy & Vitality",
         "teaser": "Unlock sharp focus and mental clarity",
         "color": "amber",
         "description": "Unlock sharp focus and mental clarity.",
@@ -88,7 +90,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/brain_&_focus_hero.webp",
         "ingredients": [
             "Matcha",
             "Lion's Mane",
@@ -97,13 +98,15 @@ export const smoothies = [
         ],
         "steps": "Whisk 1 teaspoon of matcha green tea powder gently in a small bowl, then transfer to the blender. Add 1 frozen banana, 1/2 teaspoon of Lion's Mane mushroom extract, and 1 cup of hydrating coconut water. Blend until frothy.",
         "tier": "free",
-        "isHero": true
+        "isHero": true,
+        "benefit": "Energy & Vitality",
+        "img": "/images/smoothies/brain_&_focus_hero.webp",
+        "icon": "vaso"
     },
     {
         "id": 5,
         "name": "Energy & Stamina Hero",
         "title": "Energy & Stamina Hero",
-        "category": "Energy & Vitality",
         "teaser": "Natural power for body and mind",
         "color": "amber",
         "description": "Natural power for body and mind.",
@@ -113,7 +116,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/energy_stamina_hero.webp",
         "ingredients": [
             "Maca Root",
             "Raw Cacao",
@@ -122,13 +124,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 teaspoon of maca root powder, 1 tablespoon of raw cacao powder, 3 pitted dates, and 1 generous tablespoon of peanut butter with 1 cup of water until rich, creamy, and indulgent.",
         "tier": "free",
-        "isHero": true
+        "isHero": true,
+        "benefit": "Energy & Vitality",
+        "img": "/images/smoothies/energy_stamina_hero.webp",
+        "icon": "vaso"
     },
     {
         "id": 6,
         "name": "Gut Healing Hero",
         "title": "Gut Healing Hero",
-        "category": "Digestion & Gut Health",
         "teaser": "Heal your gut from within",
         "color": "yellow",
         "description": "Heal your gut from within.",
@@ -138,7 +142,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/gut_healing_hero.webp",
         "ingredients": [
             "Papaya",
             "Aloe Vera",
@@ -147,13 +150,15 @@ export const smoothies = [
         ],
         "steps": "Extract 2 tablespoons of fresh aloe vera gel and blend with 1 cup of ripe papaya chunks, 1 tablespoon of ground flaxseed, and 1 cup of probiotic kefir. Blend on low speed for 30 seconds to preserve probiotics.",
         "tier": "free",
-        "isHero": true
+        "isHero": true,
+        "benefit": "Digestion & Gut Health",
+        "img": "/images/smoothies/gut_healing_hero.webp",
+        "icon": "vaso"
     },
     {
         "id": 7,
         "name": "Anti-Inflammatory Hero",
         "title": "Anti-Inflammatory Hero",
-        "category": "Anti-Inflammatory",
         "teaser": "Fight inflammation naturally",
         "color": "red",
         "description": "Fight inflammation naturally.",
@@ -163,7 +168,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/anti_inflammatory_hero.webp",
         "ingredients": [
             "Pineapple",
             "Curcumin",
@@ -172,13 +176,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 cup of sweet pineapple chunks with 1/2 teaspoon of pure curcumin extract, 1 tiny pinch of black pepper (to activate the curcumin), and 1 tablespoon of soaked chia seeds. Blend with 1/2 cup of water.",
         "tier": "free",
-        "isHero": true
+        "isHero": true,
+        "benefit": "Anti-Inflammatory",
+        "img": "/images/smoothies/anti_inflammatory_hero.webp",
+        "icon": "vaso"
     },
     {
         "id": 8,
         "name": "Beauty & Glow Hero",
         "title": "Beauty & Glow Hero",
-        "category": "Skin Glow & Beauty",
         "teaser": "Radiate beauty from the inside",
         "color": "pink",
         "description": "Radiate beauty from the inside.",
@@ -188,7 +194,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/beauty_and_glow_hero.webp",
         "ingredients": [
             "Strawberries",
             "Collagen Peptides",
@@ -197,13 +202,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 cup of fresh strawberries with 1/4 of a ripe avocado, 1 handful of fresh baby spinach, and 1 scoop of unflavored collagen peptides. Mix with 1/2 cup of water until completely smooth.",
         "tier": "free",
-        "isHero": true
+        "isHero": true,
+        "benefit": "Skin Glow & Beauty",
+        "img": "/images/smoothies/beauty_and_glow_hero.webp",
+        "icon": "vaso"
     },
     {
         "id": 9,
         "name": "Deep Sleep & Recovery Hero",
         "title": "Deep Sleep & Recovery Hero",
-        "category": "Sleep & Recovery",
         "teaser": "Restorative sleep in a glass",
         "color": "indigo",
         "description": "Restorative sleep in a glass.",
@@ -213,7 +220,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/deep_sleep_and _recovery_hero.webp",
         "ingredients": [
             "Tart Cherry",
             "Lavender",
@@ -222,13 +228,15 @@ export const smoothies = [
         ],
         "steps": "Mix 1/2 cup of pure tart cherry juice with 1 small pinch of culinary-grade dried lavender, 1 measuring scoop of powdered magnesium supplement, and 1 cup of warm oat milk. Stir or blend gently.",
         "tier": "free",
-        "isHero": true
+        "isHero": true,
+        "benefit": "Sleep & Recovery",
+        "img": "/images/smoothies/deep_sleep_and _recovery_hero.webp",
+        "icon": "vaso"
     },
     {
         "id": 10,
         "name": "Antioxidant God Mode",
         "title": "Antioxidant God Mode",
-        "category": "Antioxidant Power",
         "teaser": "Maximum antioxidant protection",
         "color": "purple",
         "description": "Maximum antioxidant protection.",
@@ -238,7 +246,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/anti_oxidant_god_mode.webp",
         "ingredients": [
             "Acai",
             "Goji Berries",
@@ -247,13 +254,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 frozen acai packet (100g) with 1 tablespoon of rehydrated goji berries, 1/2 cup of pure pomegranate juice, and a 1/2 ounce shaving of 85% dark chocolate until thoroughly combined.",
         "tier": "free",
-        "isHero": true
+        "isHero": true,
+        "benefit": "Antioxidant Power",
+        "img": "/images/smoothies/anti_oxidant_god_mode.webp",
+        "icon": "vaso"
     },
     {
         "id": "elderberry-shield",
         "name": "Elderberry Shield",
         "title": "Elderberry Shield",
-        "category": "Immunity",
         "teaser": "Ancient berry defense system",
         "color": "orange",
         "description": "Ancient berry defense system.",
@@ -263,7 +272,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/elderberry-shield.webp",
         "ingredients": [
             "Elderberry Syrup",
             "Blackberries",
@@ -272,13 +280,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 tablespoon of elderberry syrup with 1 cup of fresh blackberries, 1/2 teaspoon of cinnamon, and 1 cup of filtered water. Drink immediately for maximum effect.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/elderberry-shield.webp",
+        "icon": "vaso"
     },
     {
         "id": "tropical-immunity",
         "name": "Tropical Immunity",
         "title": "Tropical Immunity",
-        "category": "Immunity",
         "teaser": "Tropical immune support",
         "color": "orange",
         "description": "Tropical immune support.",
@@ -288,7 +298,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/tropical_immunity.webp",
         "ingredients": [
             "Mango",
             "Pineapple",
@@ -297,13 +306,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1/2 cup of fresh mango and 1/2 cup of pineapple chunks with 1/2 cup of rich coconut yogurt and the freshly squeezed juice of 1 lime.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/tropical_immunity.webp",
+        "icon": "vaso"
     },
     {
         "id": "berry-immune",
         "name": "Berry Immune",
         "title": "Berry Immune",
-        "category": "Immunity",
         "teaser": "Berry-powered immune boost",
         "color": "orange",
         "description": "Berry-powered immune boost.",
@@ -313,7 +324,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/berry_immune.webp",
         "ingredients": [
             "Raspberries",
             "Strawberries",
@@ -322,13 +332,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1/2 cup of frozen raspberries, 1/2 cup of strawberries, 1 tablespoon of heart-healthy hemp seeds, and 1 cup of almond milk until completely smooth.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/berry_immune.webp",
+        "icon": "vaso"
     },
     {
         "id": "star-defense",
         "name": "Star Defense",
         "title": "Star Defense",
-        "category": "Immunity",
         "teaser": "Starfruit immunity guardian",
         "color": "orange",
         "description": "Starfruit immunity guardian.",
@@ -338,7 +350,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/star_defense.webp",
         "ingredients": [
             "Starfruit",
             "Green Apple",
@@ -347,13 +358,15 @@ export const smoothies = [
         ],
         "steps": "Slice 1 whole starfruit (removing seeds) and blend with 1 green apple, 5 fresh mint leaves, and 1/2 cup of crisp cucumber slices.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/star_defense.webp",
+        "icon": "vaso"
     },
     {
         "id": "soursop-guardian",
         "name": "Soursop Guardian",
         "title": "Soursop Guardian",
-        "category": "Immunity",
         "teaser": "Powerful tropical protector",
         "color": "orange",
         "description": "Powerful tropical protector.",
@@ -363,7 +376,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/soursop_guardian.webp",
         "ingredients": [
             "Soursop Pulp",
             "Banana",
@@ -372,13 +384,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1/2 cup of fresh or frozen soursop pulp with 1 ripe banana, the scraped seeds of 1/2 authentic vanilla bean, and 1 cup of coconut water.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/soursop_guardian.webp",
+        "icon": "vaso"
     },
     {
         "id": "lucuma-power",
         "name": "Lucuma Power",
         "title": "Lucuma Power",
-        "category": "Functional Smoothies",
         "teaser": "Sustainable natural energy",
         "color": "amber",
         "description": "Sustainable natural energy.",
@@ -388,7 +402,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/lucuma_power.webp",
         "ingredients": [
             "Lucuma Powder",
             "Cashews",
@@ -397,13 +410,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 tablespoon of sweet lucuma powder with 1/4 cup of soaked cashews, 2 pitted dates, and 1 cup of oat milk for a caramel-like energy drink.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Energy & Vitality",
+        "img": "/images/smoothies/lucuma_power.webp",
+        "icon": "vaso"
     },
     {
         "id": "green-matcha-surge",
         "name": "Green Matcha Surge",
         "title": "Green Matcha Surge",
-        "category": "Functional Smoothies",
         "teaser": "Clean focused energy boost",
         "color": "amber",
         "description": "Clean focused energy boost.",
@@ -413,7 +428,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/green_matcha_surge.webp",
         "ingredients": [
             "Matcha",
             "Spinach",
@@ -422,13 +436,15 @@ export const smoothies = [
         ],
         "steps": "Whisk 1 teaspoon of matcha powder and blend with 1 large handful of baby spinach, 1/2 cup of sweet mango chunks, and 1 cup of soy milk.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Energy & Vitality",
+        "img": "/images/smoothies/green_matcha_surge.webp",
+        "icon": "vaso"
     },
     {
         "id": "tropical-stamina",
         "name": "Tropical Stamina",
         "title": "Tropical Stamina",
-        "category": "Functional Smoothies",
         "teaser": "Tropical endurance fuel",
         "color": "amber",
         "description": "Tropical endurance fuel.",
@@ -438,7 +454,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/tropical_stamina.webp",
         "ingredients": [
             "Banana",
             "Mango",
@@ -447,13 +462,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 banana and 1/2 cup of mango with 1 tablespoon of pre-soaked chia seeds and 1 cup of pure coconut water.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Energy & Vitality",
+        "img": "/images/smoothies/tropical_stamina.webp",
+        "icon": "vaso"
     },
     {
         "id": "jackfruit-fuel",
         "name": "Jackfruit Fuel",
         "title": "Jackfruit Fuel",
-        "category": "Functional Smoothies",
         "teaser": "Heavyweight natural energy",
         "color": "amber",
         "description": "Heavyweight natural energy.",
@@ -463,7 +480,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/jackfruit_fuel.webp",
         "ingredients": [
             "Jackfruit",
             "Protein Powder",
@@ -472,13 +488,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 cup of sweet, ripe jackfruit pods with 1 scoop of your favorite vanilla protein powder, 1 tablespoon of almond butter, and 1 cup of water.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Energy & Vitality",
+        "img": "/images/smoothies/jackfruit_fuel.webp",
+        "icon": "vaso"
     },
     {
         "id": "papaya-digestive",
         "name": "Papaya Digestive",
         "title": "Papaya Digestive",
-        "category": "Functional Smoothies",
         "teaser": "Enzyme-rich digestion support",
         "color": "yellow",
         "description": "Enzyme-rich digestion support.",
@@ -488,7 +506,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/papaya_digestive.webp",
         "ingredients": [
             "Papaya",
             "Ginger",
@@ -497,13 +514,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 generous cup of papaya with 1/2 teaspoon of raw grated ginger, the juice of 1/2 lime, and 1/2 cup of water.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Digestion & Gut Health",
+        "img": "/images/smoothies/papaya_digestive.webp",
+        "icon": "vaso"
     },
     {
         "id": "kiwi-cleanse",
         "name": "Kiwi Cleanse",
         "title": "Kiwi Cleanse",
-        "category": "Functional Smoothies",
         "teaser": "Gentle daily gut cleanse",
         "color": "yellow",
         "description": "Gentle daily gut cleanse.",
@@ -513,7 +532,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/kiwi_cleanse.webp",
         "ingredients": [
             "Kiwi",
             "Celery",
@@ -522,13 +540,15 @@ export const smoothies = [
         ],
         "steps": "Blend 2 unpeeled kiwis (for extra fiber) with 1 stalk of crisp celery, 1/2 green apple, and 1 tablespoon of ground flaxseed.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Digestion & Gut Health",
+        "img": "/images/smoothies/kiwi_cleanse.webp",
+        "icon": "vaso"
     },
     {
         "id": "prickly-gut-reset",
         "name": "Prickly Gut Reset",
         "title": "Prickly Gut Reset",
-        "category": "Functional Smoothies",
         "teaser": "Powerful prickly pear reset",
         "color": "yellow",
         "description": "Powerful prickly pear reset.",
@@ -538,7 +558,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/prickly_gut_reset.webp",
         "ingredients": [
             "Prickly Pear",
             "Watermelon",
@@ -547,13 +566,15 @@ export const smoothies = [
         ],
         "steps": "Carefully extract the flesh of 1 prickly pear and blend with 1 cup of watermelon, 3 mint leaves, and 1/4 cup of soothing aloe vera juice.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Digestion & Gut Health",
+        "img": "/images/smoothies/prickly_gut_reset.webp",
+        "icon": "vaso"
     },
     {
         "id": 23,
         "name": "Apple Ginger Soothe",
         "title": "Apple Ginger Soothe",
-        "category": "Digestion & Gut Health",
         "teaser": "Soothing digestive aid",
         "color": "yellow",
         "description": "Soothing digestive aid.",
@@ -563,7 +584,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/apple_ginger_soothe.webp",
         "ingredients": [
             "Red Apple",
             "Ginger",
@@ -572,13 +592,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 sweet red apple with 1 thumb of ginger and 1/2 teaspoon of cinnamon using 1 cup of warm water for a soothing drink.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Digestion & Gut Health",
+        "img": "/images/smoothies/apple_ginger_soothe.webp",
+        "icon": "vaso"
     },
     {
         "id": "ashwagandha-calm",
         "name": "Ashwagandha Calm",
         "title": "Ashwagandha Calm",
-        "category": "Functional Smoothies",
         "teaser": "Stress-melting adaptogenic blend",
         "color": "purple",
         "description": "Stress-melting adaptogenic blend.",
@@ -588,7 +610,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/ashwagandha_calm.webp",
         "ingredients": [
             "Ashwagandha",
             "Banana",
@@ -597,13 +618,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 teaspoon of standard ashwagandha powder with 1 sweet banana, 1 tablespoon of rich cacao powder, and 1 cup of almond milk.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Stress Relief & Calm",
+        "img": "/images/smoothies/ashwagandha_calm.webp",
+        "icon": "vaso"
     },
     {
         "id": "tropical-calm",
         "name": "Tropical Calm",
         "title": "Tropical Calm",
-        "category": "Functional Smoothies",
         "teaser": "Tropical relaxation in a glass",
         "color": "purple",
         "description": "Tropical relaxation in a glass.",
@@ -613,7 +636,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/tropical_calm.webp",
         "ingredients": [
             "Passionfruit",
             "Mango",
@@ -622,13 +644,15 @@ export const smoothies = [
         ],
         "steps": "Brew 1 cup of chamomile tea and let it chill. Blend with the pulp of 1 passionfruit, 1/2 cup of sweet mango, and 1 teaspoon of honey.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Stress Relief & Calm",
+        "img": "/images/smoothies/tropical_calm.webp",
+        "icon": "vaso"
     },
     {
         "id": "cherry-reishi-dream",
         "name": "Cherry Reishi Dream",
         "title": "Cherry Reishi Dream",
-        "category": "Functional Smoothies",
         "teaser": "Calm mind and better sleep",
         "color": "purple",
         "description": "Calm mind and better sleep.",
@@ -638,7 +662,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/cherry_reishi_dream.webp",
         "ingredients": [
             "Tart Cherry",
             "Reishi Mushroom",
@@ -647,13 +670,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1/2 teaspoon of reishi mushroom powder with 1/2 cup of sleep-inducing tart cherry juice, 1/2 cup of oat milk, and a dash (1/4 tsp) of vanilla extract.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Stress Relief & Calm",
+        "img": "/images/smoothies/cherry_reishi_dream.webp",
+        "icon": "vaso"
     },
     {
         "id": 27,
         "name": "Golden Anti-Inflammatory",
         "title": "Golden Anti-Inflammatory",
-        "category": "Anti-Inflammatory",
         "teaser": "Golden inflammation fighter",
         "color": "red",
         "description": "Golden inflammation fighter.",
@@ -663,7 +688,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/golden_anti_inflammatory.webp",
         "ingredients": [
             "Turmeric",
             "Mango",
@@ -672,13 +696,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 inch of fresh turmeric root with 1/2 cup of sweet mango, 1 grated carrot, and 1 small teaspoon of coconut oil to properly absorb the curcumin.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Anti-Inflammatory",
+        "img": "/images/smoothies/golden_anti_inflammatory.webp",
+        "icon": "vaso"
     },
     {
         "id": 28,
         "name": "Cherry Beet Recovery",
         "title": "Cherry Beet Recovery",
-        "category": "Anti-Inflammatory",
         "teaser": "Recovery and renewal blend",
         "color": "red",
         "description": "Recovery and renewal blend.",
@@ -688,7 +714,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/cherry_beet_recovery.webp",
         "ingredients": [
             "Beetroot",
             "Cherry",
@@ -697,13 +722,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1/2 cup of cooked or raw beetroot chunks with 1/2 cup of sweet cherries, 1 large handful of spinach, and 1 cup of water.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Anti-Inflammatory",
+        "img": "/images/smoothies/cherry_beet_recovery.webp",
+        "icon": "vaso"
     },
     {
         "id": 29,
         "name": "Mangosteen Relief",
         "title": "Mangosteen Relief",
-        "category": "Anti-Inflammatory",
         "teaser": "Mangosteen anti-inflammatory power",
         "color": "red",
         "description": "Mangosteen anti-inflammatory power.",
@@ -713,7 +740,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/mangosteen_relief.webp",
         "ingredients": [
             "Mangosteen",
             "Pineapple",
@@ -722,13 +748,15 @@ export const smoothies = [
         ],
         "steps": "Carefully extract the delicate flesh of 2 mangosteens and blend with 1/2 cup of pineapple, 4 mint leaves, and 1 cup of coconut water.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Anti-Inflammatory",
+        "img": "/images/smoothies/mangosteen_relief.webp",
+        "icon": "vaso"
     },
     {
         "id": 30,
         "name": "Acai Beauty Bowl",
         "title": "Acai Beauty Bowl",
-        "category": "Skin Glow & Beauty",
         "teaser": "Super berry beauty fuel",
         "color": "pink",
         "description": "Super berry beauty fuel.",
@@ -738,7 +766,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/acai_beauty_bowl.webp",
         "ingredients": [
             "Acai Base",
             "Blueberries",
@@ -747,13 +774,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1 unsweetened acai packet (100g) with 1/2 cup of blueberries, 1 scoop of collagen, and 1/2 cup of almond milk for a thick, luxurious base.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Skin Glow & Beauty",
+        "img": "/images/smoothies/acai_beauty_bowl.webp",
+        "icon": "vaso"
     },
     {
         "id": 31,
         "name": "Sea Buckthorn Glow",
         "title": "Sea Buckthorn Glow",
-        "category": "Skin Glow & Beauty",
         "teaser": "Omega-rich skin radiance",
         "color": "pink",
         "description": "Omega-rich skin radiance.",
@@ -763,7 +792,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/sea_buckthorn_glow.webp",
         "ingredients": [
             "Sea Buckthorn Juice",
             "Orange",
@@ -772,13 +800,15 @@ export const smoothies = [
         ],
         "steps": "Blend 2 tablespoons of tart sea buckthorn juice with 1 sweet orange, 1 fresh carrot, and 1/2 inch of ginger.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Skin Glow & Beauty",
+        "img": "/images/smoothies/sea_buckthorn_glow.webp",
+        "icon": "vaso"
     },
     {
         "id": 32,
         "name": "Maqui Radiance",
         "title": "Maqui Radiance",
-        "category": "Skin Glow & Beauty",
         "teaser": "Deep purple glow from within",
         "color": "pink",
         "description": "Deep purple glow from within.",
@@ -788,7 +818,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/maqui_radiance.webp",
         "ingredients": [
             "Maqui Berry Powder",
             "Banana",
@@ -797,13 +826,15 @@ export const smoothies = [
         ],
         "steps": "Mix 1 teaspoon of potent maqui berry powder with 1 ripening banana, 1 handful of spinach, and 1 cup of oat milk for an impossibly deep purple smoothie.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Skin Glow & Beauty",
+        "img": "/images/smoothies/maqui_radiance.webp",
+        "icon": "vaso"
     },
     {
         "id": 33,
         "name": "Heart Protector",
         "title": "Heart Protector",
-        "category": "Heart Health",
         "teaser": "Daily heart protection",
         "color": "red",
         "description": "Daily heart protection.",
@@ -813,7 +844,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/heart_protector.webp",
         "ingredients": [
             "Pomegranate",
             "Strawberries",
@@ -822,13 +852,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1/4 cup of pure pomegranate seeds with 1/2 cup of strawberries, 1 tablespoon of chia seeds, and 3/4 cup of water.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Heart Health",
+        "img": "/images/smoothies/heart_protector.webp",
+        "icon": "vaso"
     },
     {
         "id": 34,
         "name": "Beet Berry Heart",
         "title": "Beet Berry Heart",
-        "category": "Heart Health",
         "teaser": "Heart-loving berry blend",
         "color": "red",
         "description": "Heart-loving berry blend.",
@@ -838,7 +870,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/beet_berry_heart.webp",
         "ingredients": [
             "Beetroot",
             "Raspberries",
@@ -847,13 +878,15 @@ export const smoothies = [
         ],
         "steps": "Blend 1/2 cup of vibrant beetroot with 1/2 cup of raspberries, 1 tablespoon (approx 4 halves) of heart-healthy walnuts, and 1 cup of almond milk.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Heart Health",
+        "img": "/images/smoothies/beet_berry_heart.webp",
+        "icon": "vaso"
     },
     {
         "id": 35,
         "name": "Deep Detox",
         "title": "Deep Detox",
-        "category": "Detox & Cleansing",
         "teaser": "Gentle daily detox support",
         "color": "green",
         "description": "Gentle daily detox support.",
@@ -863,7 +896,6 @@ export const smoothies = [
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
-        "image": "/images/smoothies/deep_detox.webp",
         "ingredients": [
             "Cilantro",
             "Green Apple",
@@ -872,6 +904,897 @@ export const smoothies = [
         ],
         "steps": "Blend 1 small handful of cilantro with 1 chopped green apple, the juice of 1 lemon, and 1/2 of a cucumber.",
         "tier": "free",
-        "isHero": false
+        "isHero": false,
+        "benefit": "Detox & Cleansing",
+        "img": "/images/smoothies/deep_detox.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "alkaline_king",
+        "name": "Alkaline King",
+        "title": "Alkaline King",
+        "img": "/images/smoothies/alkaline_king.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "androgenic_peak",
+        "name": "Androgenic Peak",
+        "title": "Androgenic Peak",
+        "img": "/images/smoothies/androgenic_peak.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "anti_viral_star",
+        "name": "Anti Viral Star",
+        "title": "Anti Viral Star",
+        "img": "/images/smoothies/anti_viral_star.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "ashwagandha-calm",
+        "name": "Ashwagandha-calm",
+        "title": "Ashwagandha-calm",
+        "img": "/images/smoothies/ashwagandha-calm.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "berry-immune",
+        "name": "Berry-immune",
+        "title": "Berry-immune",
+        "img": "/images/smoothies/berry-immune.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "black_seed_cure",
+        "name": "Black Seed Cure",
+        "title": "Black Seed Cure",
+        "img": "/images/smoothies/black_seed_cure.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "camu_camu_titan",
+        "name": "Camu Camu Titan",
+        "title": "Camu Camu Titan",
+        "img": "/images/smoothies/camu_camu_titan.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "cherry-reishi-dream",
+        "name": "Cherry-reishi-dream",
+        "title": "Cherry-reishi-dream",
+        "img": "/images/smoothies/cherry-reishi-dream.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "deep_sea_mineral",
+        "name": "Deep Sea Mineral",
+        "title": "Deep Sea Mineral",
+        "img": "/images/smoothies/deep_sea_mineral.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "digestive_star",
+        "name": "Digestive Star",
+        "title": "Digestive Star",
+        "img": "/images/smoothies/digestive_star.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "electric_violet",
+        "name": "Electric Violet",
+        "title": "Electric Violet",
+        "img": "/images/smoothies/electric_violet.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "goji_zen",
+        "name": "Goji Zen",
+        "title": "Goji Zen",
+        "img": "/images/smoothies/goji_zen.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "golden_shield",
+        "name": "Golden Shield",
+        "title": "Golden Shield",
+        "img": "/images/smoothies/golden_shield.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "green-matcha-surge",
+        "name": "Green-matcha-surge",
+        "title": "Green-matcha-surge",
+        "img": "/images/smoothies/green-matcha-surge.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "heavy_metal_cleanse",
+        "name": "Heavy Metal Cleanse",
+        "title": "Heavy Metal Cleanse",
+        "img": "/images/smoothies/heavy_metal_cleanse.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "himalayan_resin",
+        "name": "Himalayan Resin",
+        "title": "Himalayan Resin",
+        "img": "/images/smoothies/himalayan_resin.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "jackfruit-fuel",
+        "name": "Jackfruit-fuel",
+        "title": "Jackfruit-fuel",
+        "img": "/images/smoothies/jackfruit-fuel.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "kiwi-cleanse",
+        "name": "Kiwi-cleanse",
+        "title": "Kiwi-cleanse",
+        "img": "/images/smoothies/kiwi-cleanse.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "lucuma-power",
+        "name": "Lucuma-power",
+        "title": "Lucuma-power",
+        "img": "/images/smoothies/lucuma-power.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "mesozoic_fiber",
+        "name": "Mesozoic Fiber",
+        "title": "Mesozoic Fiber",
+        "img": "/images/smoothies/mesozoic_fiber.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "omega_7_radiance",
+        "name": "Omega 7 Radiance",
+        "title": "Omega 7 Radiance",
+        "img": "/images/smoothies/omega_7_radiance.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "papaya-digestive",
+        "name": "Papaya-digestive",
+        "title": "Papaya-digestive",
+        "img": "/images/smoothies/papaya-digestive.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "prickly-gut-reset",
+        "name": "Prickly-gut-reset",
+        "title": "Prickly-gut-reset",
+        "img": "/images/smoothies/prickly-gut-reset.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "saffron_sun",
+        "name": "Saffron Sun",
+        "title": "Saffron Sun",
+        "img": "/images/smoothies/saffron_sun.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "shatavari_bloom",
+        "name": "Shatavari Bloom",
+        "title": "Shatavari Bloom",
+        "img": "/images/smoothies/shatavari_bloom.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "star-defense",
+        "name": "Star-defense",
+        "title": "Star-defense",
+        "img": "/images/smoothies/star-defense.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "telomere_tonic",
+        "name": "Telomere Tonic",
+        "title": "Telomere Tonic",
+        "img": "/images/smoothies/telomere_tonic.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "the_empress_glow",
+        "name": "The Empress Glow",
+        "title": "The Empress Glow",
+        "img": "/images/smoothies/the_empress_glow.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "the_five_flavour_runner",
+        "name": "The Five Flavour Runner",
+        "title": "The Five Flavour Runner",
+        "img": "/images/smoothies/the_five_flavour_runner.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "the_fluid_flush",
+        "name": "The Fluid Flush",
+        "title": "The Fluid Flush",
+        "img": "/images/smoothies/the_fluid_flush.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "the_great_wall",
+        "name": "The Great Wall",
+        "title": "The Great Wall",
+        "img": "/images/smoothies/the_great_wall.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "tremella_dew",
+        "name": "Tremella Dew",
+        "title": "Tremella Dew",
+        "img": "/images/smoothies/tremella_dew.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "tropical-calm",
+        "name": "Tropical-calm",
+        "title": "Tropical-calm",
+        "img": "/images/smoothies/tropical-calm.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "tropical-immunity",
+        "name": "Tropical-immunity",
+        "title": "Tropical-immunity",
+        "img": "/images/smoothies/tropical-immunity.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "tropical-stamina",
+        "name": "Tropical-stamina",
+        "title": "Tropical-stamina",
+        "img": "/images/smoothies/tropical-stamina.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "viking_focus",
+        "name": "Viking Focus",
+        "title": "Viking Focus",
+        "img": "/images/smoothies/viking_focus.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
+    },
+    {
+        "id": "white_pearl_zen",
+        "name": "White Pearl Zen",
+        "title": "White Pearl Zen",
+        "img": "/images/smoothies/white_pearl_zen.webp",
+        "icon": "vaso",
+        "teaser": "A New Smooth Savage Exclusive Blend",
+        "color": "amber",
+        "description": "Packed with energy and vital nutrients to power you through the day.",
+        "benefits": "A synergistic blend of our best ingredients for maximum smooth savage benefits.",
+        "healthTags": [
+            "Wellness",
+            "Energy & Vitality"
+        ],
+        "synergies": "Superfoods + Fresh Fruits",
+        "ingredients": [
+            "Acai",
+            "Goji Berries"
+        ],
+        "steps": "Blend all ingredients until smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power"
     }
 ];

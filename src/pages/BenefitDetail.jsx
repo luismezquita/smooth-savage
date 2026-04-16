@@ -5,12 +5,13 @@ import { ArrowLeft } from 'lucide-react';
 import { benefitCategories, getItemsForBenefit } from '../data/benefits';
 import FruitCard from '../components/FruitCard';
 import SuperfoodCard from '../components/SuperfoodCard';
+import SmoothieCard from '../components/SmoothieCard';
 
 export default function BenefitDetail() {
     const { id } = useParams();
     const category = benefitCategories.find(c => c.id === id);
 
-    const { fruits, superfoods } = useMemo(() => getItemsForBenefit(id), [id]);
+    const { fruits, superfoods, smoothies } = useMemo(() => getItemsForBenefit(id), [id]);
 
     if (!category) {
         return <div className="pt-32 text-center text-3xl font-bold text-gray-900 dark:text-white">Benefit category not found.</div>;
@@ -65,8 +66,22 @@ export default function BenefitDetail() {
                     </div>
                 </div>
             )}
+
+            {smoothies.length > 0 && (
+                <div className="mb-10">
+                    <div className="flex items-center gap-3 mb-8">
+                        <h2 className="text-3xl font-bold text-gray-900 dark:text-white tracking-tight">Healing Smoothies</h2>
+                        <span className="bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 py-1 px-3 rounded-full text-sm font-bold">{smoothies.length} items</span>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 xl:gap-8">
+                        {smoothies.map((smoothie, index) => (
+                            <SmoothieCard key={smoothie.id} smoothie={smoothie} index={index} />
+                        ))}
+                    </div>
+                </div>
+            )}
             
-            {fruits.length === 0 && superfoods.length === 0 && (
+            {fruits.length === 0 && superfoods.length === 0 && smoothies.length === 0 && (
                 <div className="text-center py-20 bg-gray-50 dark:bg-gray-800/50 rounded-3xl border border-gray-100 dark:border-gray-800 text-gray-500">
                     <p className="text-xl">No specific items found for this benefit yet.</p>
                 </div>

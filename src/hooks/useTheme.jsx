@@ -10,7 +10,8 @@ export function ThemeProvider({ children }) {
             if (savedTheme) {
                 return savedTheme === 'dark';
             }
-            return window.matchMedia('(prefers-color-scheme: dark)').matches;
+            // Default to light mode as requested
+            return false;
         }
         return false;
     });

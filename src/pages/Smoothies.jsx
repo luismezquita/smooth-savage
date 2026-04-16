@@ -10,7 +10,7 @@ export default function Smoothies() {
         window.scrollTo(0, 0);
     }, []);
 
-    const featuredSmoothies = smoothies.slice(0, 4);
+    const displayedSmoothies = smoothies;
 
     return (
         <div className="min-h-screen pt-8 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
@@ -30,16 +30,16 @@ export default function Smoothies() {
 
             <div className="flex justify-between items-end mb-8">
                 <div>
-                    <h2 className="text-3xl font-bold mb-2">Featured Smoothies</h2>
-                    <p className="text-gray-500 dark:text-gray-400">Popular everyday blends</p>
+                    <h2 className="text-3xl font-bold mb-2">All Smoothies</h2>
+                    <p className="text-gray-500 dark:text-gray-400">Explore our delicious blends</p>
                 </div>
                 <Link to="/search?category=smoothies" className="hidden md:flex items-center gap-2 text-fruit-green font-semibold hover:gap-3 transition-all">
-                    View All <ArrowRight className="w-5 h-5" />
+                    Search <ArrowRight className="w-5 h-5" />
                 </Link>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 max-w-6xl mx-auto">
-                {featuredSmoothies.map((smoothie, i) => (
+                {displayedSmoothies.map((smoothie, i) => (
                     <SmoothieCard key={smoothie.id} smoothie={smoothie} index={i} />
                 ))}
             </div>

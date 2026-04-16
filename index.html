@@ -4,12 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a0033" />
+  <link rel="manifest" href="/manifest.json" />
   <title>smooth savage | Wild Nutrition, Refined</title>
 </head>
 
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then((registration) => {
+          console.log('[Service Worker] Registration successful with scope: ', registration.scope);
+        }, (err) => {
+          console.log('[Service Worker] Registration failed: ', err);
+        });
+      });
+    }
+  </script>
 </body>
 
 </html>
