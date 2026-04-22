@@ -38,9 +38,9 @@ export default function FruitCard({ fruit, index }) {
                         </div>
                     </div>
                     <div className="p-5 flex-grow flex flex-col">
-                        <div className="flex items-center justify-between mb-2 gap-2">
+                        <div className="mb-2">
                             <h3 className="text-xl font-bold">{fruit.name}</h3>
-                            <span className={`px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider whitespace-nowrap ${getBenefitStyle(fruit.benefit)}`}>
+                            <span className={`inline-block mt-1 px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider ${getBenefitStyle(fruit.benefit)}`}>
                                 {fruit.benefit}
                             </span>
                         </div>

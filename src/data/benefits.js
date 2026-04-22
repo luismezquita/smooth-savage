@@ -1,5 +1,5 @@
 import { fruits } from "./fruits";
-import { superfoods } from "./superfoods";
+import { savageFoods as superfoods } from "./superfoods";
 import { smoothies } from "./smoothies";
 
 export const benefitCategories = [
@@ -13,6 +13,7 @@ export const benefitCategories = [
     { id: 'detox', title: 'Detox & Cleansing', icon: '💧', tagline: 'Flush toxins and reset', color: 'from-cyan-400 to-blue-500' },
     { id: 'sleep', title: 'Sleep & Recovery', icon: '🌙', tagline: 'Deep, restorative rest', color: 'from-violet-500 to-fuchsia-600' },
     { id: 'antioxidant', title: 'Antioxidant Power', icon: '🫐', tagline: 'Protect cells from aging', color: 'from-fuchsia-500 to-purple-600' },
+    { id: 'brain', title: 'Brain & Memory', icon: '🧠', tagline: 'Sharpen focus and cognitive power', color: 'from-blue-500 to-indigo-600' },
 ];
 
 export const getItemsForBenefit = (benefitId) => {

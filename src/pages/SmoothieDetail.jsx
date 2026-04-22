@@ -45,7 +45,7 @@ export default function SmoothieDetail() {
                 </button>
 
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent z-10" />
-                <img src={smoothie.image} alt={smoothie.name} className="w-full h-full object-cover" />
+                <img src={smoothie.img || smoothie.image} alt={smoothie.name} className="w-full h-full object-cover" />
 
                 <div className="absolute bottom-6 left-6 right-6 z-20 text-white max-w-7xl mx-auto">
                     <motion.div
@@ -53,9 +53,16 @@ export default function SmoothieDetail() {
                         animate={{ opacity: 1, y: 0 }}
                     >
                         <div className="flex flex-wrap gap-2 mb-3">
-                            <span className={`px-3 py-1 text-xs font-bold rounded-full bg-${smoothie.color}-500/80 backdrop-blur border text-white uppercase tracking-wider`}>
-                                {smoothie.category}
-                            </span>
+                            {smoothie.category && (
+                                <span className={`px-3 py-1 text-xs font-bold rounded-full bg-${smoothie.color}-500/80 backdrop-blur border text-white uppercase tracking-wider`}>
+                                    {smoothie.category}
+                                </span>
+                            )}
+                            {smoothie.benefit && !smoothie.category && (
+                                <span className={`px-3 py-1 text-xs font-bold rounded-full bg-${smoothie.color}-500/80 backdrop-blur border text-white uppercase tracking-wider`}>
+                                    {smoothie.benefit}
+                                </span>
+                            )}
                         </div>
                         <h1 className="text-4xl md:text-6xl font-black mb-2">{smoothie.name}</h1>
                         <p className="text-lg md:text-xl text-gray-200 font-medium">{smoothie.description}</p>

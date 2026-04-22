@@ -138,7 +138,7 @@ export const fruits = [
         "id": "cape_goosberry",
         "name": "Cape Gooseberry",
         "color": "orange",
-        "image": "/images/fresh/cape_goosberry.webp",
+        "image": "/images/fresh/cape_gooseberry.webp",
         "teaser": "The Golden Inca Berry",
         "benefit": "Immunity Boost",
         "nutrients": ["Vitamin C", "Vitamin A", "Iron"]
@@ -282,7 +282,7 @@ export const fruits = [
         "id": "jackfruit",
         "name": "Jackfruit",
         "color": "yellow",
-        "image": "/images/fresh/jacckfruit.webp",
+        "image": "/images/fresh/jackfruit.webp",
         "teaser": "The Plant-based Energy Giant",
         "benefit": "Energy & Vitality",
         "nutrients": ["Vitamin C", "Potassium", "Fiber", "Protein"]
@@ -507,7 +507,7 @@ export const fruits = [
         "id": "persimon",
         "name": "Persimmon",
         "color": "orange",
-        "image": "/images/fresh/persimon.webp",
+        "image": "/images/fresh/persimmon.webp",
         "teaser": "The Autumn Honey Fruit",
         "benefit": "Antioxidant Power",
         "nutrients": ["Vitamin A", "Vitamin C", "Fiber"]
@@ -772,5 +772,410 @@ export const fruits = [
         "teaser": "The Aromatic Citrus Elixir",
         "benefit": "Immunity Boost",
         "nutrients": ["Vitamin C", "Flavonoids", "Fiber"]
+    },
+    {
+        "id": "arugula",
+        "name": "Arugula",
+        "color": "green",
+        "image": "/images/fresh/arugula.webp",
+        "teaser": "The Detox Rocket",
+        "benefit": "Detox & Cleansing",
+        "nutrients": ["Vitamin K", "Folate", "Nitrates"]
+    },
+    {
+        "id": "asparagus",
+        "name": "Asparagus",
+        "color": "green",
+        "image": "/images/fresh/asparagus.webp",
+        "teaser": "The Prebiotic Stalk",
+        "benefit": "Digestion & Gut Health",
+        "nutrients": ["Inulin", "Vitamin K", "Folate"]
+    },
+    {
+        "id": "beetroot",
+        "name": "Beetroot",
+        "color": "red",
+        "image": "/images/fresh/beetroot.webp",
+        "teaser": "The Blood Pressure Beet",
+        "benefit": "Heart Health",
+        "nutrients": ["Nitrates", "Folate", "Betalains"]
+    },
+    {
+        "id": "bell_pepper",
+        "name": "Bell Pepper",
+        "color": "red",
+        "image": "/images/fresh/bell_pepper.webp",
+        "teaser": "Vitamin C Superstar",
+        "benefit": "Immunity Boost",
+        "nutrients": ["Vitamin C", "Vitamin B6", "Folate"]
+    },
+    {
+        "id": "bilberry",
+        "name": "Bilberry",
+        "color": "purple",
+        "image": "/images/fresh/bilberry.webp",
+        "teaser": "The Vision & Memory Berry",
+        "benefit": "Brain & Memory",
+        "nutrients": ["Anthocyanins", "Vitamin C", "Manganese"]
+    },
+    {
+        "id": "bok_choy",
+        "name": "Bok Choy",
+        "color": "green",
+        "image": "/images/fresh/bok_choy.webp",
+        "teaser": "The Asian Healing Green",
+        "benefit": "Anti-Inflammatory",
+        "nutrients": ["Vitamin C", "Vitamin K", "Calcium"]
+    },
+    {
+        "id": "breadfruit",
+        "name": "Breadfruit",
+        "color": "green",
+        "image": "/images/fresh/breadfruit.webp",
+        "teaser": "The Tropical Energy Fruit",
+        "benefit": "Energy & Vitality",
+        "nutrients": ["Complex Carbs", "Vitamin C", "Potassium"]
+    },
+    {
+        "id": "brussels_sprouts",
+        "name": "Brussels Sprouts",
+        "color": "green",
+        "image": "/images/fresh/brussels-sprouts.webp",
+        "teaser": "The Detox Crucifer",
+        "benefit": "Detox & Cleansing",
+        "nutrients": ["Glucosinolates", "Vitamin C", "Vitamin K"]
+    },
+    {
+        "id": "carrot",
+        "name": "Carrot",
+        "color": "orange",
+        "image": "/images/fresh/carrot.webp",
+        "teaser": "The Skin Glow Root",
+        "benefit": "Skin Glow & Beauty",
+        "nutrients": ["Beta-Carotene", "Vitamin A", "Fiber"]
+    },
+    {
+        "id": "canistel",
+        "name": "Canistel",
+        "color": "yellow",
+        "image": "/images/fresh/canistel.webp",
+        "teaser": "The Egg Fruit",
+        "benefit": "Energy & Vitality",
+        "nutrients": ["Vitamin B3", "Vitamin C", "Riboflavin"]
+    },
+    {
+        "id": "cauliflower",
+        "name": "Cauliflower",
+        "color": "green",
+        "image": "/images/fresh/cauliflower.webp",
+        "teaser": "The White Detoxer",
+        "benefit": "Detox & Cleansing",
+        "nutrients": ["Sulforaphane", "Vitamin C", "Choline"]
+    },
+    {
+        "id": "celery",
+        "name": "Celery",
+        "color": "green",
+        "image": "/images/fresh/celery.webp",
+        "teaser": "The Digestive Cleanser",
+        "benefit": "Digestion & Gut Health",
+        "nutrients": ["Apigenin", "Luteolin", "Vitamin K"]
+    },
+    {
+        "id": "cempedak",
+        "name": "Cempedak",
+        "color": "yellow",
+        "image": "/images/fresh/cempedak.webp",
+        "teaser": "The Tropical Immunity Fruit",
+        "benefit": "Immunity Boost",
+        "nutrients": ["Vitamin C", "Beta-Carotene", "Flavonoids"]
+    },
+    {
+        "id": "cherimoya",
+        "name": "Cherimoya",
+        "color": "green",
+        "image": "/images/fresh/cherimoya.webp",
+        "teaser": "The Custard Immunity Fruit",
+        "benefit": "Immunity Boost",
+        "nutrients": ["Vitamin C", "Vitamin B6", "Magnesium"]
+    },
+    {
+        "id": "cilantro",
+        "name": "Cilantro",
+        "color": "green",
+        "image": "/images/fresh/cilantro.webp",
+        "teaser": "The Heavy Metal Detoxer",
+        "benefit": "Detox & Cleansing",
+        "nutrients": ["Chlorophyll", "Vitamin K", "Apigenin"]
+    },
+    {
+        "id": "coconut_water",
+        "name": "Coconut Water",
+        "color": "yellow",
+        "image": "/images/fresh/coconut_water.webp",
+        "teaser": "Nature's Sports Drink",
+        "benefit": "Energy & Vitality",
+        "nutrients": ["Electrolytes", "Potassium", "Magnesium"]
+    },
+    {
+        "id": "coconut_yogurt",
+        "name": "Coconut Yogurt",
+        "color": "yellow",
+        "image": "/images/fresh/coconut_yogurt.webp",
+        "teaser": "The Probiotic Tropical",
+        "benefit": "Digestion & Gut Health",
+        "nutrients": ["Probiotics", "MCTs", "Calcium"]
+    },
+    {
+        "id": "collard_greens",
+        "name": "Collard Greens",
+        "color": "green",
+        "image": "/images/fresh/collard_greens.webp",
+        "teaser": "The Southern Superfood Green",
+        "benefit": "Anti-Inflammatory",
+        "nutrients": ["Vitamin K", "Vitamin C", "Calcium"]
+    },
+    {
+        "id": "cucumber",
+        "name": "Cucumber",
+        "color": "green",
+        "image": "/images/fresh/cucumber.webp",
+        "teaser": "The Hydration Vegetable",
+        "benefit": "Skin Glow & Beauty",
+        "nutrients": ["Silica", "Vitamin K", "Cucurbitacins"]
+    },
+    {
+        "id": "cupuacu",
+        "name": "Cupuacu",
+        "color": "yellow",
+        "image": "/images/fresh/cupuacu.webp",
+        "teaser": "The Amazon Superfruit",
+        "benefit": "Antioxidant Power",
+        "nutrients": ["Theacrine", "Polyphenols", "Vitamin B3"]
+    },
+    {
+        "id": "dandelion_greens",
+        "name": "Dandelion Greens",
+        "color": "green",
+        "image": "/images/fresh/dandelion-greens.webp",
+        "teaser": "The Liver Cleanser",
+        "benefit": "Detox & Cleansing",
+        "nutrients": ["Taraxacin", "Vitamin A", "Potassium"]
+    },
+    {
+        "id": "dates",
+        "name": "Dates",
+        "color": "orange",
+        "image": "/images/fresh/dates.webp",
+        "teaser": "Nature's Energy Candy",
+        "benefit": "Energy & Vitality",
+        "nutrients": ["Natural Sugars", "Iron", "Potassium"]
+    },
+    {
+        "id": "eggplant",
+        "name": "Eggplant",
+        "color": "purple",
+        "image": "/images/fresh/eggplant.webp",
+        "teaser": "The Heart-Smart Purple",
+        "benefit": "Heart Health",
+        "nutrients": ["Nasunin", "Chlorogenic Acid", "Fiber"]
+    },
+    {
+        "id": "fennel",
+        "name": "Fennel",
+        "color": "green",
+        "image": "/images/fresh/fennel.webp",
+        "teaser": "The Digestive Herb",
+        "benefit": "Digestion & Gut Health",
+        "nutrients": ["Anethole", "Fiber", "Vitamin C"]
+    },
+    {
+        "id": "ginger_fresh",
+        "name": "Ginger",
+        "color": "yellow",
+        "image": "/images/fresh/ginger.webp",
+        "teaser": "The Inflammation Fighter",
+        "benefit": "Anti-Inflammatory",
+        "nutrients": ["Gingerol", "Shogaol", "Zinc"]
+    },
+    {
+        "id": "greek_yogurt",
+        "name": "Greek Yogurt",
+        "color": "yellow",
+        "image": "/images/fresh/greek-yogurt.webp",
+        "teaser": "The Probiotic Powerhouse",
+        "benefit": "Digestion & Gut Health",
+        "nutrients": ["Probiotics", "Protein", "Calcium"]
+    },
+    {
+        "id": "kale",
+        "name": "Kale",
+        "color": "green",
+        "image": "/images/fresh/kale.webp",
+        "teaser": "The King of Greens",
+        "benefit": "Immunity Boost",
+        "nutrients": ["Vitamin A", "Vitamin C", "Vitamin K"]
+    },
+    {
+        "id": "kefir",
+        "name": "Kefir",
+        "color": "yellow",
+        "image": "/images/fresh/kefir_milk.webp",
+        "teaser": "The Gut Healing Ferment",
+        "benefit": "Digestion & Gut Health",
+        "nutrients": ["Probiotics", "Protein", "Calcium"]
+    },
+    {
+        "id": "kohlrabi",
+        "name": "Kohlrabi",
+        "color": "green",
+        "image": "/images/fresh/kohlrabi.webp",
+        "teaser": "The Forgotten Superfood",
+        "benefit": "Immunity Boost",
+        "nutrients": ["Vitamin C", "Fiber", "Potassium"]
+    },
+    {
+        "id": "nectarine",
+        "name": "Nectarine",
+        "color": "orange",
+        "image": "/images/fresh/nectarine.webp",
+        "teaser": "The Skin Nourishing Stone Fruit",
+        "benefit": "Skin Glow & Beauty",
+        "nutrients": ["Vitamin A", "Vitamin C", "Beta-Carotene"]
+    },
+    {
+        "id": "olive_oil",
+        "name": "Olive Oil",
+        "color": "green",
+        "image": "/images/fresh/olive_oil.webp",
+        "teaser": "Liquid Gold for the Heart",
+        "benefit": "Heart Health",
+        "nutrients": ["Oleocanthal", "Polyphenols", "Vitamin E"]
+    },
+    {
+        "id": "almond_milk",
+        "name": "Almond Milk",
+        "color": "yellow",
+        "image": "/images/fresh/almond_milk.webp",
+        "teaser": "The Brain-Nourishing Milk",
+        "benefit": "Brain & Memory",
+        "nutrients": ["Vitamin E", "Calcium", "Riboflavin"]
+    },
+    {
+        "id": "parsley",
+        "name": "Parsley",
+        "color": "green",
+        "image": "/images/fresh/parsley.webp",
+        "teaser": "The Blood Cleanser",
+        "benefit": "Detox & Cleansing",
+        "nutrients": ["Chlorophyll", "Apigenin", "Vitamin K"]
+    },
+    {
+        "id": "pumpkin",
+        "name": "Pumpkin",
+        "color": "orange",
+        "image": "/images/fresh/pumpkin.webp",
+        "teaser": "The Beta-Carotene Powerhouse",
+        "benefit": "Immunity Boost",
+        "nutrients": ["Beta-Carotene", "Vitamin A", "Zinc"]
+    },
+    {
+        "id": "purslane",
+        "name": "Purslane",
+        "color": "green",
+        "image": "/images/fresh/purslane.webp",
+        "teaser": "The Omega-3 Weed",
+        "benefit": "Heart Health",
+        "nutrients": ["Omega-3 ALA", "Vitamin C", "Magnesium"]
+    },
+    {
+        "id": "red_cabbage",
+        "name": "Red Cabbage",
+        "color": "purple",
+        "image": "/images/fresh/red_cabbage.webp",
+        "teaser": "The Purple Antioxidant",
+        "benefit": "Antioxidant Power",
+        "nutrients": ["Anthocyanins", "Vitamin C", "Glucosinolates"]
+    },
+    {
+        "id": "red_chillies",
+        "name": "Red Chillies",
+        "color": "red",
+        "image": "/images/fresh/red_chillies.webp",
+        "teaser": "The Metabolic Fire Starter",
+        "benefit": "Energy & Vitality",
+        "nutrients": ["Capsaicin", "Vitamin C", "Vitamin A"]
+    },
+    {
+        "id": "rose_apple",
+        "name": "Rose Apple",
+        "color": "red",
+        "image": "/images/fresh/rose_apple.webp",
+        "teaser": "The Tropical Bell Fruit",
+        "benefit": "Immunity Boost",
+        "nutrients": ["Vitamin C", "Fiber", "Jambosine"]
+    },
+    {
+        "id": "soy_milk",
+        "name": "Soy Milk",
+        "color": "yellow",
+        "image": "/images/fresh/soy_milk.webp",
+        "teaser": "The Plant Protein Milk",
+        "benefit": "Energy & Vitality",
+        "nutrients": ["Complete Protein", "Calcium", "Iron"]
+    },
+    {
+        "id": "spinach",
+        "name": "Spinach",
+        "color": "green",
+        "image": "/images/fresh/spinach.webp",
+        "teaser": "The Brain Food Green",
+        "benefit": "Brain & Memory",
+        "nutrients": ["Lutein", "Folate", "Iron"]
+    },
+    {
+        "id": "swiss_chard",
+        "name": "Swiss Chard",
+        "color": "green",
+        "image": "/images/fresh/swiss_chard.webp",
+        "teaser": "The Rainbow Chard",
+        "benefit": "Heart Health",
+        "nutrients": ["Betalains", "Vitamin K", "Magnesium"]
+    },
+    {
+        "id": "ugli_fruit_new",
+        "name": "Ugli Fruit",
+        "color": "orange",
+        "image": "/images/fresh/ugly_fruit.webp",
+        "teaser": "The Ugly Beauty Citrus",
+        "benefit": "Immunity Boost",
+        "nutrients": ["Vitamin C", "Flavonoids", "Fiber"]
+    },
+    {
+        "id": "walnuts",
+        "name": "Walnuts",
+        "color": "yellow",
+        "image": "/images/fresh/walnuts.webp",
+        "teaser": "The Brain Nut",
+        "benefit": "Brain & Memory",
+        "nutrients": ["DHA Omega-3", "Polyphenols", "Vitamin E"]
+    },
+    {
+        "id": "watercress",
+        "name": "Watercress",
+        "color": "green",
+        "image": "/images/fresh/water_cress.webp",
+        "teaser": "The Ancient Detox Green",
+        "benefit": "Detox & Cleansing",
+        "nutrients": ["Isothiocyanates", "Vitamin K", "Vitamin C"]
+    },
+    {
+        "id": "zucchini",
+        "name": "Zucchini",
+        "color": "green",
+        "image": "/images/fresh/zucchini.webp",
+        "teaser": "The Gentle Gut Healer",
+        "benefit": "Digestion & Gut Health",
+        "nutrients": ["Soluble Fiber", "Vitamin C", "Potassium"]
     }
 ];

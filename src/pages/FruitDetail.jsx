@@ -53,7 +53,12 @@ export default function FruitDetail() {
                         animate={{ opacity: 1, y: 0 }}
                     >
                         <div className="flex flex-wrap gap-2 mb-3">
-                            {fruit.benefits.map(b => (
+                            {fruit.benefit && (
+                                <span className={`px-3 py-1 text-xs font-bold rounded-full bg-${fruit.color}-500/80 backdrop-blur border text-white uppercase tracking-wider`}>
+                                    {fruit.benefit}
+                                </span>
+                            )}
+                            {fruit.benefits && fruit.benefits.map(b => (
                                 <span key={b} className={`px-3 py-1 text-xs font-bold rounded-full bg-${fruit.color}-500/80 backdrop-blur border text-white uppercase tracking-wider`}>
                                     {b}
                                 </span>
@@ -70,46 +75,50 @@ export default function FruitDetail() {
 
                     <div className="md:col-span-2 space-y-8">
                         {/* Main Benefits */}
-                        <motion.section
-                            initial={{ opacity: 0, x: -20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ delay: 0.2 }}
-                            className="bg-white dark:bg-gray-800 rounded-3xl p-6 md:p-8 shadow-sm border border-gray-100 dark:border-gray-700"
-                        >
-                            <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                                <Target className={`text-${fruit.color}-500`} />
-                                Main Health Benefits
-                            </h2>
-                            <div className="space-y-6">
-                                {fruit.mainBenefits.map((benefit, i) => (
-                                    <div key={i} className="flex gap-4">
-                                        <div className={`mt-1 bg-${fruit.color}-100 dark:bg-${fruit.color}-900/30 p-2 rounded-xl h-fit`}>
-                                            <CheckCircle2 className={`w-5 h-5 text-${fruit.color}-600 dark:text-${fruit.color}-400`} />
+                        {fruit.mainBenefits && (
+                            <motion.section
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ delay: 0.2 }}
+                                className="bg-white dark:bg-gray-800 rounded-3xl p-6 md:p-8 shadow-sm border border-gray-100 dark:border-gray-700"
+                            >
+                                <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+                                    <Target className={`text-${fruit.color}-500`} />
+                                    Main Health Benefits
+                                </h2>
+                                <div className="space-y-6">
+                                    {fruit.mainBenefits.map((benefit, i) => (
+                                        <div key={i} className="flex gap-4">
+                                            <div className={`mt-1 bg-${fruit.color}-100 dark:bg-${fruit.color}-900/30 p-2 rounded-xl h-fit`}>
+                                                <CheckCircle2 className={`w-5 h-5 text-${fruit.color}-600 dark:text-${fruit.color}-400`} />
+                                            </div>
+                                            <div>
+                                                <h3 className="text-lg font-bold mb-1 text-gray-900 dark:text-gray-100">{benefit.title}</h3>
+                                                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{benefit.description}</p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <h3 className="text-lg font-bold mb-1 text-gray-900 dark:text-gray-100">{benefit.title}</h3>
-                                            <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{benefit.description}</p>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </motion.section>
+                                    ))}
+                                </div>
+                            </motion.section>
+                        )}
 
                         {/* Daily Tip */}
-                        <motion.section
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.3 }}
-                            className={`bg-${fruit.color}-50 dark:bg-${fruit.color}-900/10 rounded-3xl p-6 md:p-8 border border-${fruit.color}-100 dark:border-${fruit.color}-900/30`}
-                        >
-                            <h2 className={`text-xl font-bold mb-3 flex items-center gap-2 text-${fruit.color}-800 dark:text-${fruit.color}-400`}>
-                                <Sparkles className="w-5 h-5" />
-                                Daily Tip
-                            </h2>
-                            <p className={`text-${fruit.color}-900 dark:text-${fruit.color}-200/80 leading-relaxed`}>
-                                {fruit.tips}
-                            </p>
-                        </motion.section>
+                        {fruit.tips && (
+                            <motion.section
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.3 }}
+                                className={`bg-${fruit.color}-50 dark:bg-${fruit.color}-900/10 rounded-3xl p-6 md:p-8 border border-${fruit.color}-100 dark:border-${fruit.color}-900/30`}
+                            >
+                                <h2 className={`text-xl font-bold mb-3 flex items-center gap-2 text-${fruit.color}-800 dark:text-${fruit.color}-400`}>
+                                    <Sparkles className="w-5 h-5" />
+                                    Daily Tip
+                                </h2>
+                                <p className={`text-${fruit.color}-900 dark:text-${fruit.color}-200/80 leading-relaxed`}>
+                                    {fruit.tips}
+                                </p>
+                            </motion.section>
+                        )}
                     </div>
 
                     <div className="space-y-6">
@@ -125,7 +134,7 @@ export default function FruitDetail() {
                                 Key Nutrients
                             </h2>
                             <div className="flex flex-wrap gap-2">
-                                {fruit.nutrients.map((n, i) => (
+                                {fruit.nutrients && fruit.nutrients.map((n, i) => (
                                     <span key={i} className="px-3 py-1.5 bg-gray-100 dark:bg-gray-700/50 text-gray-700 dark:text-gray-300 rounded-lg text-sm font-medium">
                                         {n}
                                     </span>
@@ -133,7 +142,7 @@ export default function FruitDetail() {
                             </div>
                         </motion.section>
 
-                        
+
                     </div>
 
                 </div>

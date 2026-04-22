@@ -1,21 +1,23 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Heart, Sparkles, CupSoda } from 'lucide-react';
+import { Heart, Zap, CupSoda } from 'lucide-react';
 import { StrawberryIcon } from './StrawberryIcon';
 
 const iconMap = {
     'fresa-icon': StrawberryIcon,
-    'spark-icon': Sparkles,
+    'spark-icon': Zap,
     'vaso-icon': CupSoda,
     'heart-icon': Heart
 };
 
 const navItems = [
     { id: 'fresh', path: '/', label: 'Fresh', icon: 'fresa-icon' },
-    { id: 'superfoods', path: '/superfoods', label: 'Superfoods', icon: 'spark-icon' },
+    { id: 'savage', path: '/savage', label: 'Savage', icon: 'spark-icon' },
     { id: 'smoothies', path: '/smoothies', label: 'Smoothies', icon: 'vaso-icon' },
     { id: 'favorites', path: '/favorites', label: 'Favorites', icon: 'heart-icon' }
 ];
+
+const scrollToTop = () => window.scrollTo(0, 0);
 
 export default function BottomNav() {
     return (
@@ -24,7 +26,7 @@ export default function BottomNav() {
                 {navItems.map(({ id, path, label, icon }) => {
                     const IconComponent = iconMap[icon];
                     return (
-                        <NavLink key={id} to={path} className={({ isActive }) => `nav-item flex flex-col items-center gap-1 ${isActive ? 'active' : ''} hover:text-[#ffcc00] opacity-90 hover:opacity-100`}>
+                        <NavLink key={id} to={path} onClick={scrollToTop} className={({ isActive }) => `nav-item flex flex-col items-center gap-1 ${isActive ? 'active' : ''} hover:text-[#ffcc00] opacity-90 hover:opacity-100`}>
                             <div className="icon-container">
                                 <IconComponent className="w-6 h-6" strokeWidth={2} />
                             </div>

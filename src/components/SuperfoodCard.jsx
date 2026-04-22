@@ -15,13 +15,13 @@ export default function SuperfoodCard({ superfood, index }) {
             transition={{ duration: 0.4, delay: index * 0.1 }}
         >
             <Link to={`/superfood/${superfood.id}`} className="block group h-full">
-                <div className="bg-white dark:bg-fruit-dark border border-gray-100 dark:border-gray-800 rounded-3xl md:overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-2 flex flex-col h-full">
-                    <div className="relative h-[30vh] md:h-64 w-full md:overflow-hidden rounded-t-3xl md:rounded-none bg-gray-50/50 dark:bg-gray-800/20 md:bg-transparent">
+                <div className="savage-card bg-white dark:bg-fruit-dark border border-gray-100 dark:border-gray-800 rounded-3xl md:overflow-hidden shadow-sm hover:shadow-[0_0_20px_rgba(168,85,247,0.4)] transition-all duration-300 transform group-hover:-translate-y-2 flex flex-col h-full relative">
+<div className="relative w-full overflow-hidden rounded-t-3xl md:rounded-none bg-gray-50/50 dark:bg-gray-800/20 md:bg-transparent aspect-video">
                         <div className="absolute inset-0 bg-black/5 md:bg-black/20 group-hover:bg-transparent transition-colors z-10 rounded-t-3xl md:rounded-none" />
                         <img
                             src={superfood.image}
                             alt={superfood.name}
-                            className="block w-full h-full object-contain md:object-cover transform group-hover:scale-105 md:group-hover:scale-110 transition-transform duration-700 p-4 md:p-0"
+                            className="block w-full h-full object-cover transform group-hover:scale-105 md:group-hover:scale-110 transition-transform duration-700"
                             loading="lazy"
                         />
                         <div
@@ -38,9 +38,9 @@ export default function SuperfoodCard({ superfood, index }) {
                         </div>
                     </div>
                     <div className="p-5 flex-grow flex flex-col">
-                        <div className="flex items-center justify-between mb-2 gap-2">
+                        <div className="mb-2">
                             <h3 className="text-xl font-bold">{superfood.name}</h3>
-                            <span className={`px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider whitespace-nowrap ${getBenefitStyle(superfood.benefit)}`}>
+                            <span className={`inline-block mt-1 px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider ${getBenefitStyle(superfood.benefit)}`}>
                                 {superfood.benefit}
                             </span>
                         </div>

@@ -15,7 +15,7 @@ export default function Benefits() {
                     Explore <span className="text-transparent bg-clip-text bg-gradient-to-r from-fruit-green to-emerald-500">Benefits</span>
                 </h1>
                 <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                    Discover the profound healing powers of nature. Select a premium health goal to find precisely which fruits and superfoods support your wellness journey.
+                    Discover the profound healing powers of nature. Select a premium health goal to find precisely which fresh and savage foods support your wellness journey.
                 </p>
             </motion.div>
 

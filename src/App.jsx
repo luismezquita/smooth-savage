@@ -4,7 +4,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import FruitDetail from './pages/FruitDetail';
 import SuperfoodDetail from './pages/SuperfoodDetail';
-import Superfoods from './pages/Superfoods';
+import Savage from './pages/Savage';
 import SmoothieDetail from './pages/SmoothieDetail';
 import Smoothies from './pages/Smoothies';
 import Favorites from './pages/Favorites';
@@ -20,7 +20,7 @@ function App() {
                 <Layout>
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/superfoods" element={<Superfoods />} />
+                        <Route path="/savage" element={<Savage />} />
                         <Route path="/smoothies" element={<Smoothies />} />
 
                         {/* Details */}

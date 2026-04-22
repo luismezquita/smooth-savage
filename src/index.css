@@ -10,6 +10,32 @@
   body {
     @apply bg-fruit-light text-fruit-dark dark:bg-fruit-dark dark:text-fruit-light transition-colors duration-300 antialiased font-sans;
   }
+  :root {
+    --purple-glow: rgba(168, 85, 247, 0.4);
+    --savage-purple: #A855F7;
+  }
+}
+
+.savage-card:hover {
+  box-shadow: 0 0 20px var(--purple-glow) !important;
+}
+
+.savage-btn-glow {
+  width: 100%;
+  padding: 1rem;
+  margin: 2rem 0;
+  background: transparent;
+  border: 1px solid var(--savage-purple);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.savage-btn-glow:hover {
+  box-shadow: 0 0 15px var(--savage-purple);
+  background: var(--savage-purple);
 }
 
 /* Scrollbar personalizada */

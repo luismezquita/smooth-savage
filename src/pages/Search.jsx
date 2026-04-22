@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { fruits } from '../data/fruits';
-import { superfoods } from '../data/superfoods';
+import { savageFoods as superfoods } from '../data/superfoods';
 import { Search as SearchIcon, Lock } from 'lucide-react';
 import FruitCard from '../components/FruitCard';
 import SuperfoodCard from '../components/SuperfoodCard';
@@ -21,7 +21,7 @@ const Search = () => {
 
     const category = searchParams.get('category');
     const showFruits = !category || category === 'fresh';
-    const showSuperfoods = !category || category === 'superfoods';
+    const showSuperfoods = !category || category === 'savage' || category === 'superfoods';
 
     // Filtros ultra-seguros: si algo falla, devuelve un array vacío pero no rompe la app
     const fruitResults = q ? (fruits || []).filter(f => f.name && f.name.toLowerCase().includes(q)) : (fruits || []);
@@ -57,7 +57,7 @@ const Search = () => {
                     {/* SUPERFOODS - IMÁGENES GRANDES */}
                     {showSuperfoods && superfoodResults.length > 0 && (
                         <section>
-                            <h2 className="text-2xl font-black mb-6 uppercase text-fruit-green">Superfoods</h2>
+                            <h2 className="text-2xl font-black mb-6 uppercase tracking-widest text-[#A855F7]">SAVAGE</h2>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 {superfoodResults.map((s, i) => (
                                     <SuperfoodCard key={s.id} superfood={s} index={i} />

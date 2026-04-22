@@ -45,7 +45,7 @@ export default function SmoothieCard({ smoothie, index = 0 }) {
                         </div>
                     </div>
                     <div className="p-5 flex-grow flex flex-col">
-                        <div className="flex items-center justify-between mb-2 gap-2">
+                        <div className="mb-2">
                             <h3 className="text-xl font-bold flex items-center gap-2">
                                 {smoothie.icon === 'vaso' && <CupSoda className="w-5 h-5 text-fruit-green dark:text-fruit-light" />}
                                 {smoothie.name}
@@ -55,7 +55,7 @@ export default function SmoothieCard({ smoothie, index = 0 }) {
                                     </span>
                                 )}
                             </h3>
-                            <span className={`px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider whitespace-nowrap ${getBenefitStyle(smoothie.benefit)}`}>
+                            <span className={`inline-block mt-1 px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider ${getBenefitStyle(smoothie.benefit)}`}>
                                 {smoothie.benefit}
                             </span>
                         </div>

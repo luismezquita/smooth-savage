@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom'; // Added hooks
-import { Moon, Sun, Search, Sparkles, CupSoda, Heart } from 'lucide-react';
+import { Moon, Sun, Search, Zap, CupSoda, Heart } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 import { StrawberryIcon } from './StrawberryIcon';
 
 const iconMap = {
     'fresa-icon': StrawberryIcon,
-    'spark-icon': Sparkles,
+    'spark-icon': Zap,
     'vaso-icon': CupSoda,
     'heart-icon': Heart
 };
@@ -60,8 +60,8 @@ export default function Navbar() {
                             Fresh
                         </NavLink>
 
-                        <NavLink to="/superfoods" className="flex items-center gap-1.5 font-medium text-gray-600 dark:text-gray-300 hover:text-fruit-green">
-                            <Sparkles className="w-4 h-4" /> Superfoods
+                        <NavLink to="/savage" className="flex items-center gap-1.5 font-medium text-gray-600 dark:text-gray-300 hover:text-fruit-green">
+                            <Zap className="w-4 h-4" /> Savage
                         </NavLink>
 
                         <NavLink to="/smoothies" className="flex items-center gap-1.5 font-medium text-gray-600 dark:text-gray-300 hover:text-fruit-green">
