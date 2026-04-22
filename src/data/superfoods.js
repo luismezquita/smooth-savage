@@ -11,7 +11,7 @@ export const savageFoods = [
     { id: "matcha_alt", name: "Matcha Blend", color: "green", image: "/images/savage/matcha.webp", benefit: "Energy & Stamina", teaser: "Metabolic Fire", nutrients: ["Chlorophyll"], synergy: "Great for pre-workout." },
     { id: "cordyceps", name: "Cordyceps", color: "yellow", image: "/images/savage/cordyceps.webp", benefit: "Energy & Stamina", teaser: "Cellular Oxygen Optimizer", nutrients: ["Cordycepin", "Adenosine"], synergy: "Pair with Maca." },
     { id: "moringa", name: "Moringa", color: "green", image: "/images/savage/moringa.webp", benefit: "Energy & Stamina", teaser: "The Miracle Tree Leaf", nutrients: ["Vitamin A", "Calcium"], synergy: "Pair with Spirulina." },
-    { id: "shilajit", name: "Shilajit", color: "purple", image: "/images/savage/shilajit.webp", benefit: "Energy & Stamina", teaser: "The Destroyer of Weakness", nutrients: ["Fulvic Acid", "84+ Minerals"], synergy: "Take with warm water." },
+    { id: "shilajit", name: "Shilajit", color: "purple", image: "/images/savage/shilajit_resin.webp", benefit: "Energy & Stamina", teaser: "The Destroyer of Weakness", nutrients: ["Fulvic Acid", "84+ Minerals"], synergy: "Take with warm water." },
 
     // --- ANTI-INFLAMMATORY ---
     { id: "curcumin", name: "Turmeric", color: "red", image: "/images/savage/curcumin.webp", benefit: "Anti-Inflammatory", teaser: "Nature's Golden Healer", nutrients: ["Curcumin"], synergy: "Always pair with Black Pepper." },
@@ -78,5 +78,17 @@ export const savageFoods = [
     { id: "turmeric_root", name: "Turmeric", color: "yellow", image: "/images/savage/turmeric.webp", benefit: "Anti-Inflammatory", teaser: "The Golden Healer", nutrients: ["Curcumin", "Turmerone", "Bisdemethoxycurcumin"], synergy: "Always pair with Black Pepper." },
 
     // --- DETOX ---
-    { id: "wheatgrass", name: "Wheatgrass", color: "green", image: "/images/savage/wheatgrass.webp", benefit: "Detox", teaser: "The Green Detox Shot", nutrients: ["Chlorophyll", "Enzymes", "Amino Acids"], synergy: "Take on empty stomach for best absorption." }
+    { id: "wheatgrass", name: "Wheatgrass", color: "green", image: "/images/savage/wheatgrass.webp", benefit: "Detox", teaser: "The Green Detox Shot", nutrients: ["Chlorophyll", "Enzymes", "Amino Acids"], synergy: "Take on empty stomach for best absorption." },
+
+    // --- ADAPTOGENS & RARE SUPERFOODS ---
+    { id: "astragalus", name: "Astragalus", color: "yellow", image: "/images/savage/astragalus_root.webp", benefit: "Immunity", teaser: "The Longevity Root", nutrients: ["Polysaccharides", "Saponins", "Flavonoids"], synergy: "Pair with Reishi for deep immune support." },
+    { id: "black_goji", name: "Black Goji", color: "purple", image: "/images/savage/dried_black_goji_berries.webp", benefit: "Antioxidant", teaser: "The Anthocyanin Powerhouse", nutrients: ["Anthocyanins", "OPC", "Iron"], synergy: "Pair with Camu Camu." },
+    { id: "bladderwrack", name: "Bladderwrack", color: "green", image: "/images/savage/bladderwrack_seaweed.webp", benefit: "Detox", teaser: "The Iodine-Rich Sea Herb", nutrients: ["Iodine", "Fucoidan", "Alginic Acid"], synergy: "Always pair with Sea Moss." },
+    { id: "maqui_berry", name: "Maqui Berry", color: "purple", image: "/images/savage/maqui_berry.webp", benefit: "Antioxidant", teaser: "The World's Most Antioxidant Berry", nutrients: ["Delphinidins", "Anthocyanins", "Vitamin C"], synergy: "Pair with Acai for max antioxidant punch." },
+    { id: "mesquite", name: "Mesquite", color: "yellow", image: "/images/savage/mesquite_powder.webp", benefit: "Energy & Stamina", teaser: "The Desert Protein Pod", nutrients: ["Protein", "Lysine", "Fiber"], synergy: "Pair with Cacao for a caramel-like boost." },
+    { id: "pine_pollen", name: "Pine Pollen", color: "yellow", image: "/images/savage/pine_pollen_powder.webp", benefit: "Brain & Memory", teaser: "Nature's Testosterone Booster", nutrients: ["Phyto-Androgens", "DHEA", "Amino Acids"], synergy: "Pair with Ashwagandha." },
+    { id: "psyllium", name: "Psyllium", color: "green", image: "/images/savage/psyllium.webp", benefit: "Detox", teaser: "The Gut Broom", nutrients: ["Soluble Fiber", "Psyllium Husk", "Mucilage"], synergy: "Always take with plenty of water." },
+    { id: "saffron", name: "Saffron", color: "yellow", image: "/images/savage/saffron.webp", benefit: "Brain & Memory", teaser: "The Golden Mood Lifter", nutrients: ["Crocin", "Safranal", "Kaempferol"], synergy: "Pair with Turmeric for anti-inflammatory synergy." },
+    { id: "schisandra", name: "Schisandra", color: "red", image: "/images/savage/schisandra_berries.webp", benefit: "Energy & Stamina", teaser: "The Five-Flavor Berry Adaptogen", nutrients: ["Schisandrin", "Lignans", "Vitamin C"], synergy: "Pair with Ashwagandha for stress resilience." },
+    { id: "tremella", name: "Tremella", color: "yellow", image: "/images/savage/tremella_mushroom.webp", benefit: "Beauty/Glow", teaser: "The Beauty Mushroom", nutrients: ["Polysaccharides", "Vitamin D", "Glucuronoxylomannan"], synergy: "Pair with Collagen for maximum skin hydration." }
 ];

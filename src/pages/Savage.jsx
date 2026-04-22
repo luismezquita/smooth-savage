@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Zap, HeartPulse, ArrowRight, Search, X } from 'lucide-react';
+import { Zap, ArrowRight, Search, X } from 'lucide-react';
 import { savageFoods } from '../data/superfoods';
 import SuperfoodCard from '../components/SuperfoodCard';
 import tips from '../data/tips.json';
@@ -39,43 +38,33 @@ export default function Savage() {
                 <div className="absolute bottom-[10%] right-[-10%] w-[70%] h-[50%] bg-green-600/10 dark:bg-green-600/20 blur-[120px] rounded-full" />
             </div>
 
-            {/* HERO SECTION: COVER IMAGE & TITLE */}
-            <section className="relative z-10 pt-4 px-4 mb-16">
-                <div className="max-w-md mx-auto text-center">
-                    {dailyTip && (
-                        <div className="mb-4 bg-purple-50/30 dark:bg-purple-900/10 p-4 rounded-2xl border border-purple-100/40 backdrop-blur-md">
-                            <p className="text-[14px] italic text-gray-600 dark:text-gray-300">
-                                <Zap className="inline w-3.5 h-3.5 mb-0.5 mr-1 text-purple-500" />
-                                "{dailyTip.text}" — <span className="font-bold text-purple-500 not-italic">{dailyTip.fruit}</span>
-                            </p>
-                        </div>
-                    )}
+            {/* HERO SECTION: FULL-WIDTH COVER */}
+            <div className="relative z-10 w-full h-[55vh] min-h-[320px] mb-12 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent z-10" />
+                <img
+                    src="/images/savage/savage_cover.webp"
+                    className="w-full h-full object-cover"
+                    alt="Savage Foods"
+                />
+                <div className="absolute bottom-0 left-0 right-0 z-20 px-6 pb-8 text-white text-center">
+                    <p className="text-[10px] font-bold tracking-[0.5em] text-purple-300 uppercase mb-3">HIGH POTENCY BOOSTERS</p>
+                    <h1 className="text-4xl font-black leading-[1.1] tracking-tighter">
+                        Unleash Your <br /> <span className="text-purple-400">Savage Power</span>
+                    </h1>
+                </div>
+            </div>
 
-                    <div className="mb-6">
-                        <Link to="/benefits" className="inline-flex items-center gap-2 bg-purple-600 text-white px-8 py-3 rounded-full font-black shadow-lg text-[10px] uppercase tracking-[0.2em] active:scale-95 transition-all">
-                            <HeartPulse className="w-4 h-4" /> Explore Benefits
-                        </Link>
-                    </div>
-
-                    {/* THE SAVAGE COVER IMAGE */}
-                    <div className="w-full mb-8 overflow-hidden rounded-[45px] shadow-2xl border border-white/5">
-                        <img
-                            src="/images/savage/cacao.webp"
-                            className="w-full object-cover h-[35vh] min-h-[260px]"
-                            style={{ objectPosition: 'center center' }}
-                            alt="Savage Cover"
-                        />
-                    </div>
-
-                    {/* THE SAVAGE TITLE */}
-                    <div className="mt-12 px-2">
-                        <p className="text-[10px] font-bold tracking-[0.5em] text-gray-400 uppercase mb-3">HIGH POTENCY BOOSTERS</p>
-                        <h1 className="text-3xl font-black text-gray-900 dark:text-white leading-[1.1] tracking-tighter">
-                            Unleash Your <br /> <span className="text-purple-500">Savage Power</span> <br /> with Nature
-                        </h1>
+            {/* DAILY TIP */}
+            {dailyTip && (
+                <div className="relative z-10 px-4 mb-10 max-w-md mx-auto">
+                    <div className="bg-purple-50/30 dark:bg-purple-900/10 p-4 rounded-2xl border border-purple-100/40 backdrop-blur-md text-center">
+                        <p className="text-[14px] italic text-gray-600 dark:text-gray-300">
+                            <Zap className="inline w-3.5 h-3.5 mb-0.5 mr-1 text-purple-500" />
+                            "{dailyTip.text}" — <span className="font-bold text-purple-500 not-italic">{dailyTip.fruit}</span>
+                        </p>
                     </div>
                 </div>
-            </section>
+            )}
 
             {/* CONTENT SECTION: GRID */}
             <section className="relative z-10 py-12 border-t border-gray-100 dark:border-gray-800/50 max-w-xl mx-auto px-6">

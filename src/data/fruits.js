@@ -1177,5 +1177,59 @@ export const fruits = [
         "teaser": "The Gentle Gut Healer",
         "benefit": "Digestion & Gut Health",
         "nutrients": ["Soluble Fiber", "Vitamin C", "Potassium"]
+    },
+    {
+        "id": "broccoli",
+        "name": "Broccoli",
+        "color": "green",
+        "image": "/images/fresh/broccoli.webp",
+        "teaser": "The Cancer-Fighting Crucifer",
+        "benefit": "Immunity Boost",
+        "nutrients": ["Vitamin C", "Vitamin K", "Sulforaphane"]
+    },
+    {
+        "id": "dark_chocolate",
+        "name": "Dark Chocolate",
+        "color": "purple",
+        "image": "/images/fresh/dark_chocolate.webp",
+        "teaser": "The Guilt-Free Antioxidant Fix",
+        "benefit": "Brain & Heart Health",
+        "nutrients": ["Flavonoids", "Magnesium", "Iron"]
+    },
+    {
+        "id": "haskap_berry",
+        "name": "Haskap Berry",
+        "color": "purple",
+        "image": "/images/fresh/haskap_berry.webp",
+        "teaser": "The Arctic Antioxidant Berry",
+        "benefit": "Antioxidant",
+        "nutrients": ["Anthocyanins", "Vitamin C", "Potassium"]
+    },
+    {
+        "id": "lavender",
+        "name": "Lavender",
+        "color": "purple",
+        "image": "/images/fresh/lavender.webp",
+        "teaser": "The Calming Floral Herb",
+        "benefit": "Stress & Sleep",
+        "nutrients": ["Linalool", "Antioxidants", "Calcium"]
+    },
+    {
+        "id": "oat_milk",
+        "name": "Oat Milk",
+        "color": "yellow",
+        "image": "/images/fresh/oat_milk.webp",
+        "teaser": "The Creamy Plant-Based Base",
+        "benefit": "Heart Health",
+        "nutrients": ["Beta-Glucan", "Vitamin D", "Calcium"]
+    },
+    {
+        "id": "oats",
+        "name": "Oats",
+        "color": "yellow",
+        "image": "/images/fresh/oats.webp",
+        "teaser": "The Heart-Healthy Grain",
+        "benefit": "Energy & Stamina",
+        "nutrients": ["Beta-Glucan", "Fiber", "Manganese"]
     }
 ];

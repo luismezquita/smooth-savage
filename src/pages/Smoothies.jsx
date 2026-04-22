@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Droplets, ArrowRight, Search, X } from 'lucide-react';
+import { ArrowRight, Search, X } from 'lucide-react';
 import { smoothies } from '../data/smoothies';
 import SmoothieCard from '../components/SmoothieCard';
 
@@ -37,14 +37,20 @@ export default function Smoothies() {
                 animate={{ opacity: 1, y: 0 }}
                 className="mb-12 text-center max-w-2xl mx-auto"
             >
-                <div className="inline-flex items-center justify-center p-3 bg-blue-100 dark:bg-blue-900/30 rounded-2xl mb-4 text-blue-600 dark:text-blue-400">
-                    <Droplets className="w-8 h-8" />
-                </div>
-                <h1 className="text-4xl md:text-5xl font-black mb-4">Functional Smoothies</h1>
+                <h1 className="text-4xl md:text-5xl font-black mb-4">Savage Smoothies</h1>
                 <p className="text-lg text-gray-600 dark:text-gray-400">
-                    Delicious combinations designed to maximize nutrient absorption and deliver specific health benefits through ingredient synergy.
+                    60 blends. Every one built to do something.
                 </p>
             </motion.div>
+
+            {/* Hero image */}
+            <div className="w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
+                <img
+                    src="/images/smoothies/mesozoic_fiber.webp"
+                    alt="Savage Smoothies"
+                    className="w-full h-full object-cover"
+                />
+            </div>
 
             {/* Ingredient search bar */}
             <div className="max-w-xl mx-auto mb-8">

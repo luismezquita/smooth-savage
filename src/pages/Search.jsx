@@ -34,7 +34,7 @@ const Search = () => {
                     ref={inputRef}
                     type="text"
                     className="w-full pl-12 pr-4 py-5 rounded-3xl bg-white dark:bg-gray-800 shadow-xl border-none text-lg"
-                    placeholder="Search fruit or superfood..."
+                    placeholder="Search Fresh Foods or Savage Foods..."
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                 />
