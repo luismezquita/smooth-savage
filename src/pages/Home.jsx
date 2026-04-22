@@ -37,36 +37,31 @@ export default function Home() {
             {/* 3. THE SAVAGE GLOWS (Purple & Green Atmosphere) */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none z-0">
                 <div className="absolute top-[-5%] left-[-10%] w-[90%] h-[60%] bg-purple-600/20 dark:bg-purple-900/40 blur-[140px] rounded-full" />
-                <div className="absolute bottom-[10%] right-[-10%] w-[70%] h-[50%] bg-green-600/10 dark:bg-green-600/20 blur-[120px] rounded-full" />
+                <div className="absolute bottom-[10%] right-[-10%] w-[70%] h-[50%] bg-orange-400/10 dark:bg-orange-500/20 blur-[120px] rounded-full" />
             </div>
 
             <section className="relative z-10 pt-4 px-4 mb-16">
                 <div className="max-w-md mx-auto text-center">
                     {dailyTip && (
-                        <div className="mb-4 bg-green-50/30 dark:bg-green-900/10 p-4 rounded-2xl border border-green-100/40 backdrop-blur-md">
-                            <p className="text-[14px] italic text-gray-600 dark:text-gray-300">
-                                <Leaf className="inline w-3.5 h-3.5 mb-0.5 mr-1 text-[#22C55E]" />
-                                "{dailyTip.text}" — <span className="font-bold text-[#22C55E] not-italic">{dailyTip.fruit}</span>
+                        <div className="mb-4 bg-orange-50/40 dark:bg-orange-900/10 p-5 rounded-2xl border border-orange-100/50 backdrop-blur-md">
+                            <p className="text-xl font-black text-gray-800 dark:text-white leading-snug">
+                                <Leaf className="inline w-4 h-4 mb-0.5 mr-1.5 text-orange-500" />
+                                "{dailyTip.text}"
                             </p>
+                            <p className="mt-2 text-sm font-bold text-orange-500 uppercase tracking-widest not-italic">{dailyTip.fruit}</p>
                         </div>
                     )}
 
                     <div className="mb-6">
-                        <Link to="/benefits" className="inline-flex items-center gap-2 bg-[#22C55E] text-white px-8 py-3 rounded-full font-black shadow-lg text-[10px] uppercase tracking-[0.2em] active:scale-95 transition-all">
+                        <Link to="/benefits" className="inline-flex items-center gap-2 bg-orange-500 text-gray-900 px-10 py-3 rounded-full font-black shadow-lg text-[10px] uppercase tracking-[0.2em] active:scale-95 transition-all whitespace-nowrap">
                             <HeartPulse className="w-4 h-4" /> Explore Benefits
                         </Link>
                     </div>
 
-                    <div className="w-full mb-8 overflow-hidden rounded-[45px] shadow-2xl border border-white/5">
-                        <img src="/images/smoothies/anti_oxidant_god_mode.webp" className="w-full object-cover h-[35vh] min-h-[260px]" style={{ objectPosition: 'center 5%' }} alt="Hero" />
+                    <div className="w-screen relative left-1/2 -translate-x-1/2 mb-8 aspect-square overflow-hidden">
+                        <img src="/images/smoothies/black_seed_cure.webp" className="w-full h-full object-cover" alt="Fresh Foods Hero" />
                     </div>
 
-                    <div className="mt-12 px-2">
-                        <p className="text-[10px] font-bold tracking-[0.5em] text-gray-400 uppercase mb-3">ANTIOXIDANT GOD MODE</p>
-                        <h1 className="text-3xl font-black text-gray-900 dark:text-white leading-[1.1] tracking-tighter">
-                            Discover the <br /> <span className="text-[#22C55E]">Healing Power</span> <br /> of Nature
-                        </h1>
-                    </div>
                 </div>
             </section>
 
@@ -84,7 +79,7 @@ export default function Home() {
                         value={query}
                         onChange={e => handleQueryChange(e.target.value)}
                         placeholder="Search Fresh Foods..."
-                        className="w-full pl-12 pr-10 py-3 rounded-2xl bg-gray-100 dark:bg-white/5 text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+                        className="w-full pl-12 pr-10 py-3 rounded-2xl bg-gray-100 dark:bg-white/5 text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 transition"
                     />
                     {query && (
                         <button onClick={() => handleQueryChange('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">

@@ -42,9 +42,9 @@ export default function Navbar() {
                     {/* LOGO SECTION */}
                     <NavLink to="/" onClick={handleFreshClick} className="flex items-center group">
                         <div className="flex items-center transform group-hover:scale-105 transition-transform duration-300">
-                            <span className="text-2xl flex items-center gap-1.5" style={{ fontFamily: "'Poppins', sans-serif" }}>
-                                <span className="text-[#22C55E] font-bold">smooth</span>
-                                <span className="text-[#1A1A1A] dark:text-white font-normal lowercase" style={{ letterSpacing: '0.05em' }}>savage</span>
+                            <span className="text-4xl flex items-center gap-1.5" style={{ fontFamily: "'Poppins', sans-serif" }}>
+                                <span className="font-black" style={{ color: '#16a34a', textShadow: '0 0 18px rgba(34,197,94,0.7), 0 0 6px rgba(34,197,94,0.4)' }}>smooth</span>
+                                <span className="font-black text-gray-900 dark:text-white" style={{ letterSpacing: '0.03em' }}>savage</span>
                             </span>
                         </div>
                     </NavLink>
@@ -77,7 +77,7 @@ export default function Navbar() {
                         <NavLink to="/search" className="p-2 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100">
                             <Search className="w-5 h-5" />
                         </NavLink>
-                        <button onClick={toggleTheme} className="p-2 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100">
+                        <button onClick={toggleTheme} className="text-gray-600 dark:text-gray-300">
                             {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
                         </button>
                     </div>
