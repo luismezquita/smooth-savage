@@ -48,13 +48,14 @@ export default function Savage() {
             {/* Search bar */}
             <div className="max-w-xl mx-auto mb-8">
                 <div className="relative">
-                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
+                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 pointer-events-none" style={{ color: '#F97316' }} />
                     <input
                         type="text"
                         value={query}
                         onChange={e => handleQueryChange(e.target.value)}
                         placeholder="Search Savage Foods..."
-                        className="w-full pl-12 pr-10 py-3 rounded-2xl bg-gray-100 dark:bg-white/5 text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+                        className="savage-search w-full pl-12 pr-10 py-3 rounded-2xl focus:outline-none focus:ring-2 focus:ring-orange-500 transition"
+                        style={{ background: '#FFF8F0', border: '2px solid #F97316', color: '#111827' }}
                     />
                     {query && (
                         <button onClick={() => handleQueryChange('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">

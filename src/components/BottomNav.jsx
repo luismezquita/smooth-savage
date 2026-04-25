@@ -30,7 +30,7 @@ export default function BottomNav() {
                             <div className="icon-container">
                                 <IconComponent className="w-6 h-6" strokeWidth={2} />
                             </div>
-                            <span className="text-[10px] font-medium">{label}</span>
+                            <span className="text-xs font-medium">{label}</span>
                         </NavLink>
                     );
                 })}

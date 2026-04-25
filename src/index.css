@@ -20,6 +20,10 @@
   }
 }
 
+.savage-search::placeholder {
+  color: #374151;
+}
+
 .savage-card:hover {
   box-shadow: 0 0 20px var(--purple-glow) !important;
 }
