@@ -6,6 +6,7 @@ import FruitCard from '../components/FruitCard';
 import SmoothieCard from '../components/SmoothieCard';
 import SuperfoodCard from '../components/SuperfoodCard';
 import { Link } from 'react-router-dom';
+import { savageFoods } from '../data/superfoods';
 
 export default function Favorites() {
     const { favorites } = useFavorites();
@@ -26,7 +27,6 @@ export default function Favorites() {
                 </div>
                 <div>
                     <h1 className="text-3xl md:text-4xl font-black">Your Favorites</h1>
-                    <p className="text-gray-500 dark:text-gray-400">Saved fresh ingredients for quick access</p>
                 </div>
             </motion.div>
 
@@ -43,7 +43,7 @@ export default function Favorites() {
             ) : (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-8">
                     {favorites.map((item, i) => {
-                        if (item.type === 'superfood') {
+                        if (savageFoods.find(s => s.id === item.id)) {
                             return <SuperfoodCard key={`superfood-${item.id}`} superfood={item} index={i} />;
                         }
                         if (item.ingredients) {

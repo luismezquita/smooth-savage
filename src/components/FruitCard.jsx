@@ -16,12 +16,12 @@ export default function FruitCard({ fruit, index }) {
         >
             <Link to={`/fruit/${fruit.id}`} className="block group h-full">
                 <div className="bg-white dark:bg-fruit-dark border border-gray-100 dark:border-gray-800 rounded-3xl md:overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-2 flex flex-col h-full">
-                    <div className="relative h-[30vh] md:h-64 w-full md:overflow-hidden rounded-t-3xl md:rounded-none bg-gray-50/50 dark:bg-gray-800/20 md:bg-transparent">
-                        <div className="absolute inset-0 bg-black/5 md:bg-black/20 group-hover:bg-transparent transition-colors z-10 rounded-t-3xl md:rounded-none" />
+                    <div className="relative w-full aspect-square overflow-hidden rounded-t-3xl">
+                        <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors z-10" />
                         <img
                             src={fruit.image}
                             alt={fruit.name}
-                            className="block w-full h-full object-contain md:object-cover transform group-hover:scale-105 md:group-hover:scale-110 transition-transform duration-700 p-4 md:p-0"
+                            className="block w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                             loading="lazy"
                         />
                         <div

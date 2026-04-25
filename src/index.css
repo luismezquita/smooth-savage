@@ -7,6 +7,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scrollbar-gutter: stable;
+    @apply bg-fruit-light dark:bg-fruit-dark;
+  }
   body {
     @apply bg-fruit-light text-fruit-dark dark:bg-fruit-dark dark:text-fruit-light transition-colors duration-300 antialiased font-sans;
   }

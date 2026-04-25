@@ -8,7 +8,8 @@ import tips from '../data/tips.json';
 const INITIAL_LIMIT = 20;
 
 export default function Home() {
-    const [showAll, setShowAll] = useState(false);
+    // If returning via back button with a hash, restore the full list immediately
+    const [showAll, setShowAll] = useState(() => !!window.location.hash);
     const [query, setQuery] = useState('');
     const [dailyTip, setDailyTip] = useState(null);
 
@@ -16,13 +17,24 @@ export default function Home() {
         ? fruits.filter(f => f.name.toLowerCase().includes(query.toLowerCase()))
         : fruits;
 
-    const displayFruits = showAll ? filtered : filtered.slice(0, INITIAL_LIMIT);
+    const displayFruits = showAll
+        ? [...filtered].sort((a, b) => a.name.localeCompare(b.name))
+        : filtered.slice(0, INITIAL_LIMIT);
     const hasMore = !showAll && filtered.length > INITIAL_LIMIT;
 
     const handleQueryChange = (val) => {
         setQuery(val);
         setShowAll(false);
     };
+
+    // Scroll to the anchored item after the list renders on back-navigation
+    useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+            const el = document.getElementById(hash.slice(1));
+            if (el) el.scrollIntoView({ block: 'center' });
+        }
+    }, []);
 
     useEffect(() => {
         if (tips && tips.length > 0) {
@@ -53,7 +65,7 @@ export default function Home() {
                     )}
 
                     <div className="mb-6">
-                        <Link to="/benefits" className="inline-flex items-center gap-2 bg-orange-500 text-gray-900 px-10 py-3 rounded-full font-black shadow-lg text-[10px] uppercase tracking-[0.2em] active:scale-95 transition-all whitespace-nowrap">
+                        <Link to="/benefits" className="inline-flex items-center gap-2 bg-orange-500 text-gray-900 px-10 py-3 rounded-full font-black shadow-lg text-[13px] uppercase tracking-[0.2em] active:scale-95 transition-all whitespace-nowrap">
                             <HeartPulse className="w-4 h-4" /> Explore Benefits
                         </Link>
                     </div>
@@ -90,7 +102,13 @@ export default function Home() {
 
                 <div className="grid grid-cols-1 gap-14 mb-12">
                     {displayFruits.map((fruit, i) => (
-                        <FruitCard key={fruit.id || i} fruit={fruit} index={i} />
+                        <div
+                            key={fruit.id || i}
+                            id={fruit.id}
+                            onClickCapture={() => window.history.replaceState(null, '', '#' + fruit.id)}
+                        >
+                            <FruitCard fruit={fruit} index={i} />
+                        </div>
                     ))}
                     {filtered.length === 0 && (
                         <p className="text-center text-gray-400 py-8">No results for "{query}"</p>

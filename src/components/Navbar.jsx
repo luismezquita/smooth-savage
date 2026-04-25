@@ -77,7 +77,7 @@ export default function Navbar() {
                         <NavLink to="/search" className="p-2 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100">
                             <Search className="w-5 h-5" />
                         </NavLink>
-                        <button onClick={toggleTheme} className="text-gray-600 dark:text-gray-300">
+                        <button onClick={toggleTheme} className="text-gray-600 dark:text-gray-300 outline-none focus:outline-none focus-visible:outline-none">
                             {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
                         </button>
                     </div>
