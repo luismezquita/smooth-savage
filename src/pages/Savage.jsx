@@ -4,13 +4,27 @@ import { savageFoods } from '../data/superfoods';
 import SuperfoodCard from '../components/SuperfoodCard';
 
 const INITIAL_LIMIT = 8;
+const SCROLL_KEY = 'savageListScrollPos';
+const SHOW_ALL_KEY = 'savageListShowAll';
 
 export default function Savage() {
-    const [showAll, setShowAll] = useState(false);
+    const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
     const [query, setQuery] = useState('');
 
     useEffect(() => {
-        window.scrollTo(0, 0);
+        const saved = sessionStorage.getItem(SCROLL_KEY);
+        if (saved !== null) {
+            const pos = parseInt(saved, 10);
+            sessionStorage.removeItem(SCROLL_KEY);
+            sessionStorage.removeItem(SHOW_ALL_KEY);
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    window.scrollTo(0, pos);
+                });
+            });
+        } else {
+            window.scrollTo(0, 0);
+        }
     }, []);
 
     const filtered = query.trim()
@@ -73,7 +87,15 @@ export default function Savage() {
             {/* Grid */}
             <div className="grid grid-cols-1 gap-14 max-w-xl mx-auto mb-12">
                 {displaySavage.map((food, i) => (
-                    <SuperfoodCard key={food.id || i} superfood={food} index={i} />
+                    <div
+                        key={food.id || i}
+                        onClickCapture={() => {
+                            sessionStorage.setItem(SCROLL_KEY, window.scrollY);
+                            sessionStorage.setItem(SHOW_ALL_KEY, showAll);
+                        }}
+                    >
+                        <SuperfoodCard superfood={food} index={i} />
+                    </div>
                 ))}
                 {filtered.length === 0 && (
                     <p className="text-center text-gray-400 py-8">No results for "{query}"</p>

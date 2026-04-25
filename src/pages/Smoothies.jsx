@@ -5,13 +5,27 @@ import { smoothies } from '../data/smoothies';
 import SmoothieCard from '../components/SmoothieCard';
 
 const INITIAL_LIMIT = 10;
+const SCROLL_KEY = 'smoothiesListScrollPos';
+const SHOW_ALL_KEY = 'smoothiesListShowAll';
 
 export default function Smoothies() {
     const [query, setQuery] = useState('');
-    const [showAll, setShowAll] = useState(false);
+    const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
 
     useEffect(() => {
-        window.scrollTo(0, 0);
+        const saved = sessionStorage.getItem(SCROLL_KEY);
+        if (saved !== null) {
+            const pos = parseInt(saved, 10);
+            sessionStorage.removeItem(SCROLL_KEY);
+            sessionStorage.removeItem(SHOW_ALL_KEY);
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    window.scrollTo(0, pos);
+                });
+            });
+        } else {
+            window.scrollTo(0, 0);
+        }
     }, []);
 
     const filtered = query.trim()
@@ -88,7 +102,15 @@ export default function Smoothies() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 max-w-6xl mx-auto">
                 {displayed.map((smoothie, i) => (
-                    <SmoothieCard key={smoothie.id} smoothie={smoothie} index={i} />
+                    <div
+                        key={smoothie.id}
+                        onClickCapture={() => {
+                            sessionStorage.setItem(SCROLL_KEY, window.scrollY);
+                            sessionStorage.setItem(SHOW_ALL_KEY, showAll);
+                        }}
+                    >
+                        <SmoothieCard smoothie={smoothie} index={i} />
+                    </div>
                 ))}
             </div>
 

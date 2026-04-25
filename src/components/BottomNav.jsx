@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Heart, Zap, CupSoda } from 'lucide-react';
+import { Heart, CupSoda, MountainSnow } from 'lucide-react';
 import { StrawberryIcon } from './StrawberryIcon';
 
 const iconMap = {
     'fresa-icon': StrawberryIcon,
-    'spark-icon': Zap,
+    'spark-icon': MountainSnow,
     'vaso-icon': CupSoda,
     'heart-icon': Heart
 };

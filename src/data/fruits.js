@@ -490,16 +490,6 @@ export const fruits = [
         "tips": "Mulberries contain a unique compound called DNJ that inhibits the enzymes that break down dietary carbohydrates, producing a meaningful blood-sugar-lowering effect not found in other common berries."
     },
     {
-        "id": "nectarines",
-        "name": "Nectarines",
-        "color": "orange",
-        "image": "/images/fresh/nectarines.webp",
-        "teaser": "The Sweet Skin Protector",
-        "benefit": "Skin Glow & Beauty",
-        "nutrients": ["Vitamin A", "Vitamin C", "Potassium"],
-        "tips": "Unlike peaches, nectarines have a smooth skin that concentrates flavonoids right at the surface, meaning you get a higher antioxidant dose in every bite without needing to peel."
-    },
-    {
         "id": "oranges",
         "name": "Oranges",
         "color": "orange",
@@ -867,7 +857,8 @@ export const fruits = [
         "teaser": "The Detox Rocket",
         "benefit": "Detox & Cleansing",
         "nutrients": ["Vitamin K", "Folate", "Nitrates"],
-        "tips": "Arugula is exceptionally high in dietary nitrates that the body converts to nitric oxide, dilating blood vessels and measurably increasing athletic endurance in clinical studies with trained athletes."
+        "tips": "Arugula is exceptionally high in dietary nitrates that the body converts to nitric oxide, dilating blood vessels and measurably increasing athletic endurance in clinical studies with trained athletes.",
+        "imagePosition": "center center"
     },
     {
         "id": "asparagus",
@@ -1037,7 +1028,8 @@ export const fruits = [
         "teaser": "The Southern Superfood Green",
         "benefit": "Anti-Inflammatory",
         "nutrients": ["Vitamin K", "Vitamin C", "Calcium"],
-        "tips": "Collard greens' glucosinolates bind to bile acids in the gut, forcing the liver to use blood cholesterol to synthesize new bile — producing clinically meaningful LDL reductions with regular consumption."
+        "tips": "Collard greens' glucosinolates bind to bile acids in the gut, forcing the liver to use blood cholesterol to synthesize new bile — producing clinically meaningful LDL reductions with regular consumption.",
+        "imagePosition": "center center"
     },
     {
         "id": "cucumber",
@@ -1097,7 +1089,8 @@ export const fruits = [
         "teaser": "The Digestive Herb",
         "benefit": "Digestion & Gut Health",
         "nutrients": ["Anethole", "Fiber", "Vitamin C"],
-        "tips": "Fennel's anethole — the compound responsible for its distinctive anise flavor — directly relaxes the smooth muscles of the gastrointestinal tract, providing near-instant relief from gas and bloating."
+        "tips": "Fennel's anethole — the compound responsible for its distinctive anise flavor — directly relaxes the smooth muscles of the gastrointestinal tract, providing near-instant relief from gas and bloating.",
+        "imagePosition": "center center"
     },
     {
         "id": "ginger_fresh",
@@ -1270,16 +1263,6 @@ export const fruits = [
         "tips": "Swiss chard contains syringic acid, a compound that inhibits alpha-glucosidase, producing a significant blood sugar-stabilizing effect after meals — particularly relevant for managing pre-diabetes."
     },
     {
-        "id": "ugli_fruit_new",
-        "name": "Ugli Fruit",
-        "color": "orange",
-        "image": "/images/fresh/ugly_fruit.webp",
-        "teaser": "The Ugly Beauty Citrus",
-        "benefit": "Immunity Boost",
-        "nutrients": ["Vitamin C", "Flavonoids", "Fiber"],
-        "tips": "Ugli fruit delivers medicinal flavanones from both its grapefruit and orange lineage — naringenin for fat metabolism and hesperidin for blood vessel protection — in a single, unusually sweet citrus."
-    },
-    {
         "id": "walnuts",
         "name": "Walnuts",
         "color": "yellow",
@@ -1297,7 +1280,8 @@ export const fruits = [
         "teaser": "The Ancient Detox Green",
         "benefit": "Detox & Cleansing",
         "nutrients": ["Isothiocyanates", "Vitamin K", "Vitamin C"],
-        "tips": "Watercress isothiocyanates — particularly phenethyl isothiocyanate — have demonstrated the ability to inhibit HDAC enzymes in cancer cells, reactivating tumor suppressor genes through an epigenetic mechanism."
+        "tips": "Watercress isothiocyanates — particularly phenethyl isothiocyanate — have demonstrated the ability to inhibit HDAC enzymes in cancer cells, reactivating tumor suppressor genes through an epigenetic mechanism.",
+        "imagePosition": "center center"
     },
     {
         "id": "zucchini",
@@ -1320,16 +1304,6 @@ export const fruits = [
         "tips": "Broccoli's sulforaphane is deactivated by high heat — so chopping and waiting before cooking, or eating raw, maximizes this potent cancer-fighting compound that activates the body's own antioxidant defenses."
     },
     {
-        "id": "dark_chocolate",
-        "name": "Dark Chocolate",
-        "color": "purple",
-        "image": "/images/fresh/dark_chocolate.webp",
-        "teaser": "The Guilt-Free Antioxidant Fix",
-        "benefit": "Brain & Heart Health",
-        "nutrients": ["Flavonoids", "Magnesium", "Iron"],
-        "tips": "Dark chocolate's flavanols increase nitric oxide production in blood vessels, measurably improving blood flow to the brain with effects that last for hours after consumption."
-    },
-    {
         "id": "haskap_berry",
         "name": "Haskap Berry",
         "color": "purple",
@@ -1338,26 +1312,6 @@ export const fruits = [
         "benefit": "Antioxidant",
         "nutrients": ["Anthocyanins", "Vitamin C", "Potassium"],
         "tips": "Haskap berries contain the highest concentration of anthocyanins of any commercially grown berry, with studies showing simultaneous improvements in visual acuity, blood vessel integrity, and post-exercise muscle recovery."
-    },
-    {
-        "id": "lavender",
-        "name": "Lavender",
-        "color": "purple",
-        "image": "/images/fresh/lavender.webp",
-        "teaser": "The Calming Floral Herb",
-        "benefit": "Stress & Sleep",
-        "nutrients": ["Linalool", "Antioxidants", "Calcium"],
-        "tips": "Lavender's linalool directly modulates GABA-A receptors in the central nervous system, producing an anti-anxiety effect comparable to pharmaceutical anxiolytics in double-blind clinical trials — without dependency risk."
-    },
-    {
-        "id": "oat_milk",
-        "name": "Oat Milk",
-        "color": "yellow",
-        "image": "/images/fresh/oat_milk.webp",
-        "teaser": "The Creamy Plant-Based Base",
-        "benefit": "Heart Health",
-        "nutrients": ["Beta-Glucan", "Vitamin D", "Calcium"],
-        "tips": "Oat milk contains beta-glucan — the same soluble fiber responsible for oatmeal's cholesterol-lowering reputation — forming a gel in the gut that traps bile acids and reduces cardiovascular risk."
     },
     {
         "id": "oats",

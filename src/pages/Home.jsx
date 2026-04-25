@@ -6,10 +6,11 @@ import FruitCard from '../components/FruitCard';
 import tips from '../data/tips.json';
 
 const INITIAL_LIMIT = 20;
+const SCROLL_KEY = 'freshListScrollPos';
+const SHOW_ALL_KEY = 'freshListShowAll';
 
 export default function Home() {
-    // If returning via back button with a hash, restore the full list immediately
-    const [showAll, setShowAll] = useState(() => !!window.location.hash);
+    const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
     const [query, setQuery] = useState('');
     const [dailyTip, setDailyTip] = useState(null);
 
@@ -27,12 +28,18 @@ export default function Home() {
         setShowAll(false);
     };
 
-    // Scroll to the anchored item after the list renders on back-navigation
+    // Restore scroll position after returning from a detail card
     useEffect(() => {
-        const hash = window.location.hash;
-        if (hash) {
-            const el = document.getElementById(hash.slice(1));
-            if (el) el.scrollIntoView({ block: 'center' });
+        const saved = sessionStorage.getItem(SCROLL_KEY);
+        if (saved !== null) {
+            const pos = parseInt(saved, 10);
+            sessionStorage.removeItem(SCROLL_KEY);
+            sessionStorage.removeItem(SHOW_ALL_KEY);
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    window.scrollTo(0, pos);
+                });
+            });
         }
     }, []);
 
@@ -85,13 +92,14 @@ export default function Home() {
                 </div>
 
                 <div className="relative mb-10">
-                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
+                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 pointer-events-none" style={{ color: '#F97316' }} />
                     <input
                         type="text"
                         value={query}
                         onChange={e => handleQueryChange(e.target.value)}
                         placeholder="Search Fresh Foods..."
-                        className="w-full pl-12 pr-10 py-3 rounded-2xl bg-gray-100 dark:bg-white/5 text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 transition"
+                        className="savage-search w-full pl-12 pr-10 py-3 rounded-2xl focus:outline-none focus:ring-2 focus:ring-orange-500 transition"
+                        style={{ background: '#FFF8F0', border: '2px solid #F97316', color: '#111827' }}
                     />
                     {query && (
                         <button onClick={() => handleQueryChange('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">
@@ -104,8 +112,10 @@ export default function Home() {
                     {displayFruits.map((fruit, i) => (
                         <div
                             key={fruit.id || i}
-                            id={fruit.id}
-                            onClickCapture={() => window.history.replaceState(null, '', '#' + fruit.id)}
+                            onClickCapture={() => {
+                                sessionStorage.setItem(SCROLL_KEY, window.scrollY);
+                                sessionStorage.setItem(SHOW_ALL_KEY, showAll);
+                            }}
                         >
                             <FruitCard fruit={fruit} index={i} />
                         </div>
