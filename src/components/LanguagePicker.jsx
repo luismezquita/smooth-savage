@@ -32,6 +32,7 @@ export function useLanguage() {
 
 export default function LanguagePicker({ isOpen, onClose, language, changeLanguage }) {
     const [closing, setClosing] = useState(false);
+    const autoCloseRef = React.useRef(null);
 
     // When isOpen goes false from outside, trigger closing animation
     useEffect(() => {
@@ -39,6 +40,11 @@ export default function LanguagePicker({ isOpen, onClose, language, changeLangua
     }, [isOpen]);
 
     const handleClose = () => {
+        // Clear any pending auto-close timer
+        if (autoCloseRef.current) {
+            clearTimeout(autoCloseRef.current);
+            autoCloseRef.current = null;
+        }
         setClosing(true);
         setTimeout(() => {
             setClosing(false);
@@ -48,8 +54,10 @@ export default function LanguagePicker({ isOpen, onClose, language, changeLangua
 
     const handleSelect = (code) => {
         changeLanguage(code);
-        // Show the green highlight for 900ms before closing
-        setTimeout(() => handleClose(), 900);
+        // Clear any previous timer
+        if (autoCloseRef.current) clearTimeout(autoCloseRef.current);
+        // Auto-close after 3.5s if user doesn't press Done
+        autoCloseRef.current = setTimeout(() => handleClose(), 3500);
     };
 
     if (!isOpen && !closing) return null;
