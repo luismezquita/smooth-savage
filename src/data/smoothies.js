@@ -1063,8 +1063,8 @@ export const smoothies = [
     },
     {
         "id": "nightshade_pulse",
-        "name": "Orellana Nicotine",
-        "title": "Orellana Nicotine",
+        "name": "Orellana's Secret",
+        "title": "Orellana's Secret",
         "teaser": "Nature's nicotine — clean and plant-based",
         "color": "purple",
         "description": "Nature's nicotine — clean and plant-based.",
