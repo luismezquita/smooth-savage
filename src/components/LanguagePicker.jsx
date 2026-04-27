@@ -9,6 +9,7 @@ const LANGUAGES = [
     { code: 'ko', label: 'Korean',    native: '한국어',      flag: '🇰🇷', dir: 'ltr' },
     { code: 'es', label: 'Spanish',   native: 'Español',    flag: '🇪🇸', dir: 'ltr' },
     { code: 'ar', label: 'Arabic',    native: 'العربية',    flag: '🇸🇦', dir: 'rtl' },
+    { code: 'fr', label: 'French',    native: 'Français',   flag: '🇫🇷', dir: 'ltr' },
 ];
 
 export function useLanguage() {
@@ -94,17 +95,18 @@ export default function LanguagePicker({ isOpen, onClose, language, changeLangua
                     }
                 `}</style>
 
-                <div className="bg-white dark:bg-gray-900 rounded-t-3xl shadow-2xl px-6 pt-5 pb-10 max-w-lg mx-auto">
+                <div className="rounded-t-3xl shadow-2xl px-6 pt-5 pb-10 max-w-lg mx-auto" style={{ background: '#FDF6E3' }}>
 
                     {/* Handle bar */}
-                    <div className="w-10 h-1 bg-gray-300 dark:bg-gray-600 rounded-full mx-auto mb-5" />
+                    <div className="w-10 h-1 rounded-full mx-auto mb-5" style={{ background: '#D4A84B' }} />
 
                     {/* Header */}
                     <div className="flex items-center justify-between mb-6">
-                        <h2 className="text-lg font-bold text-gray-900 dark:text-white">Language</h2>
+                        <h2 className="text-lg font-bold text-gray-900">Language</h2>
                         <button
                             onClick={handleClose}
-                            className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500"
+                            className="p-2 rounded-full text-amber-700 transition-colors"
+                            style={{ background: 'rgba(212,168,75,0.15)' }}
                         >
                             <X className="w-5 h-5" />
                         </button>
@@ -120,16 +122,19 @@ export default function LanguagePicker({ isOpen, onClose, language, changeLangua
                                     onClick={() => handleSelect(lang.code)}
                                     className={`w-full flex items-center gap-4 px-4 py-3.5 rounded-2xl transition-all duration-200 ${
                                         isSelected
-                                            ? 'bg-green-50 dark:bg-green-900/30 border-2 border-green-500'
-                                            : 'bg-gray-50 dark:bg-gray-800 border-2 border-transparent hover:border-gray-200 dark:hover:border-gray-600'
+                                            ? 'border-2 border-green-500'
+                                            : 'border-2 border-transparent'
                                     }`}
+                                    style={{
+                                        background: isSelected ? 'rgba(34,197,94,0.08)' : 'rgba(212,168,75,0.12)',
+                                    }}
                                 >
                                     <span className="text-3xl">{lang.flag}</span>
                                     <div className="flex flex-col items-start">
-                                        <span className={`font-semibold text-base ${isSelected ? 'text-green-700 dark:text-green-400' : 'text-gray-900 dark:text-white'}`}>
+                                        <span className={`font-semibold text-base ${isSelected ? 'text-green-700' : 'text-gray-900'}`}>
                                             {lang.native}
                                         </span>
-                                        <span className="text-xs text-gray-400">{lang.label}</span>
+                                        <span className="text-xs text-amber-700">{lang.label}</span>
                                     </div>
                                     {isSelected && (
                                         <div className="ml-auto w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
