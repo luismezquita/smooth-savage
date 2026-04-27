@@ -13,8 +13,16 @@ export default {
                 'fruit-green': '#22C55E', // El verde principal
             },
             fontFamily: {
-                // Usaremos 'sans' para que toda la app cambie a una letra moderna
                 sans: ['Inter', 'system-ui', 'sans-serif'],
+            },
+            keyframes: {
+                'slide-up': {
+                    '0%': { transform: 'translateY(100%)' },
+                    '100%': { transform: 'translateY(0)' },
+                },
+            },
+            animation: {
+                'slide-up': 'slide-up 0.3s cubic-bezier(0.32, 0.72, 0, 1)',
             },
         },
     },

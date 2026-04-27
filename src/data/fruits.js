@@ -150,16 +150,6 @@ export const fruits = [
         "tips": "The adenosine in cantaloupe has been studied for its ability to keep blood flowing smoothly by reducing platelet aggregation, directly lowering the risk of stroke and heart attack."
     },
     {
-        "id": "cape_goosberry",
-        "name": "Cape Gooseberry",
-        "color": "orange",
-        "image": "/images/fresh/cape_gooseberry.webp",
-        "teaser": "The Golden Inca Berry",
-        "benefit": "Immunity Boost",
-        "nutrients": ["Vitamin C", "Vitamin A", "Iron"],
-        "tips": "Cape gooseberries contain withanolides — the same class of compounds found in ashwagandha — which help regulate the immune response and reduce systemic inflammation at a cellular level."
-    },
-    {
         "id": "cherries",
         "name": "Cherries",
         "color": "red",
@@ -300,16 +290,6 @@ export const fruits = [
         "tips": "Its copper content supports the production of melanin — the pigment that protects skin from UV damage — and is essential for the structural integrity of connective tissue throughout the body."
     },
     {
-        "id": "jaboticaba",
-        "name": "Jaboticaba",
-        "color": "green",
-        "image": "/images/fresh/jaboticaba.webp",
-        "teaser": "Intense Tropical Antioxidants",
-        "benefit": "Immunity Boost",
-        "nutrients": ["Antioxidants", "Vitamin C", "Iron"],
-        "tips": "Jaboticaba's skin is exceptionally rich in anthocyanins and ellagic acid, giving it one of the highest antioxidant densities of any tropical fruit."
-    },
-    {
         "id": "jackfruit",
         "name": "Jackfruit",
         "color": "yellow",
@@ -318,16 +298,6 @@ export const fruits = [
         "benefit": "Energy & Vitality",
         "nutrients": ["Vitamin C", "Potassium", "Fiber", "Protein"],
         "tips": "Jackfruit is the only tropical fruit that provides meaningful protein per serving, and its isoflavones and saponins act as prebiotics that selectively feed immune-boosting T-cell populations in the gut."
-    },
-    {
-        "id": "jambolan",
-        "name": "Jambolan",
-        "color": "purple",
-        "image": "/images/fresh/jambolan.webp",
-        "teaser": "The Blood Sugar Balancer",
-        "benefit": "Heart Health",
-        "nutrients": ["Vitamin C", "Iron", "Antioxidants"],
-        "tips": "Jambolan seeds contain jambosine, an alkaloid that specifically inhibits the conversion of starch to glucose — one of the most studied natural compounds for supporting healthy blood sugar management."
     },
     {
         "id": "jujube",
@@ -358,16 +328,6 @@ export const fruits = [
         "benefit": "Immunity Boost",
         "nutrients": ["Vitamin C", "Fiber", "Vitamin A", "Calcium"],
         "tips": "Unlike all other citrus, you eat the entire kumquat — skin and all — and the skin is the most medicinal part, containing the highest concentration of limonene and hesperidin."
-    },
-    {
-        "id": "langsat",
-        "name": "Langsat",
-        "color": "yellow",
-        "image": "/images/fresh/langsat.webp",
-        "teaser": "The Sweet and Sour Gem",
-        "benefit": "Immunity Boost",
-        "nutrients": ["Vitamin C", "Vitamin A", "Riboflavin"],
-        "tips": "Its bark and seeds contain tetranortriterpenoids — specialized compounds studied for their antimicrobial properties against malaria-causing pathogens and other tropical diseases."
     },
     {
         "id": "lemons",
@@ -640,16 +600,6 @@ export const fruits = [
         "tips": "Its betalain pigments — the same compounds responsible for its vivid color — are potent anti-inflammatory agents that protect liver cells from chemical and oxidative stress."
     },
     {
-        "id": "purple_cabbage",
-        "name": "Purple Cabbage",
-        "color": "green",
-        "image": "/images/fresh/purple_cabbage.webp",
-        "teaser": "Systemic Detox Powerhouse",
-        "benefit": "Immunity Boost",
-        "nutrients": ["Vitamins", "Minerals", "Antioxidants"],
-        "tips": "Its glucosinolates produce isothiocyanates when chewed, activating detoxifying liver enzymes and demonstrating potent anti-cancer properties in multiple epidemiological studies."
-    },
-    {
         "id": "quince",
         "name": "Quince",
         "color": "yellow",
@@ -658,16 +608,6 @@ export const fruits = [
         "benefit": "Digestion & Gut Health",
         "nutrients": ["Vitamin C", "Copper", "Pectin"],
         "tips": "Quince seed mucilage has been studied as a natural prebiotic that specifically stimulates the growth of Bifidobacterium strains in the large intestine, supporting deep gut health."
-    },
-    {
-        "id": "rambutan",
-        "name": "Rambutan",
-        "color": "red",
-        "image": "/images/fresh/rambutan.webp",
-        "teaser": "Sweet Tropical Gem",
-        "benefit": "Energy & Vitality",
-        "nutrients": ["Vitamin C", "Iron", "Manganese"],
-        "tips": "Rambutan contains gallic acid, a polyphenol with potent antiviral properties that has shown activity against dengue virus and hepatitis C in preliminary laboratory studies."
     },
     {
         "id": "raspberries",
@@ -688,16 +628,6 @@ export const fruits = [
         "benefit": "Skin Glow & Beauty",
         "nutrients": ["Vitamin C", "Vitamin K", "Manganese"],
         "tips": "Red currants are exceptionally rich in proanthocyanidins, with anti-inflammatory effects that specifically target the skin's collagen-degrading enzymes and preserve structural integrity."
-    },
-    {
-        "id": "santol",
-        "name": "Santol",
-        "color": "green",
-        "image": "/images/fresh/santol.webp",
-        "teaser": "Tart Immunity Support",
-        "benefit": "Immunity Boost",
-        "nutrients": ["Vitamin C", "Antioxidants", "Fiber"],
-        "tips": "Santol contains catechins similar to those in green tea, providing antioxidant and anti-inflammatory benefits that complement its traditional use as an antimicrobial in Southeast Asian medicine."
     },
     {
         "id": "sapodilla",
@@ -780,16 +710,6 @@ export const fruits = [
         "tips": "The purple variety contains anthocyanins with neuroprotective properties specifically studied for reducing cognitive decline and protecting neural tissue in aging populations."
     },
     {
-        "id": "sweetsop",
-        "name": "Sweetsop",
-        "color": "green",
-        "image": "/images/fresh/sweetsop.webp",
-        "teaser": "Body Relaxation Mineral Surge",
-        "benefit": "Immunity Boost",
-        "nutrients": ["Vitamins", "Minerals", "Antioxidants"],
-        "tips": "Sweetsop contains significant amounts of Vitamin B6 and magnesium — a combination that directly supports GABA production, the brain's primary calming neurotransmitter."
-    },
-    {
         "id": "tamarillo",
         "name": "Tamarillo",
         "color": "green",
@@ -830,16 +750,6 @@ export const fruits = [
         "tips": "Watermelon is the richest dietary source of L-citrulline, an amino acid that converts to nitric oxide in the bloodstream — directly dilating blood vessels and accelerating muscle recovery after exercise."
     },
     {
-        "id": "white_sapote",
-        "name": "White Sapote",
-        "color": "green",
-        "image": "/images/fresh/white_sapote.webp",
-        "teaser": "Restorative Compound for Sleep",
-        "benefit": "Immunity Boost",
-        "nutrients": ["Vitamins", "Minerals", "Antioxidants"],
-        "tips": "White sapote contains zapotidine, a compound that inhibits histamine receptors — producing genuinely documented sleep-promoting effects backed by centuries of traditional use in Mexican medicine."
-    },
-    {
         "id": "yuzu",
         "name": "Yuzu",
         "color": "yellow",
@@ -848,27 +758,6 @@ export const fruits = [
         "benefit": "Immunity Boost",
         "nutrients": ["Vitamin C", "Flavonoids", "Fiber"],
         "tips": "Yuzu peel contains nobiletin, a citrus flavonoid that activates CLOCK genes involved in circadian rhythm regulation, simultaneously improving memory consolidation and sleep quality."
-    },
-    {
-        "id": "arugula",
-        "name": "Arugula",
-        "color": "green",
-        "image": "/images/fresh/arugula.webp",
-        "teaser": "The Detox Rocket",
-        "benefit": "Detox & Cleansing",
-        "nutrients": ["Vitamin K", "Folate", "Nitrates"],
-        "tips": "Arugula is exceptionally high in dietary nitrates that the body converts to nitric oxide, dilating blood vessels and measurably increasing athletic endurance in clinical studies with trained athletes.",
-        "imagePosition": "center center"
-    },
-    {
-        "id": "asparagus",
-        "name": "Asparagus",
-        "color": "green",
-        "image": "/images/fresh/asparagus.webp",
-        "teaser": "The Prebiotic Stalk",
-        "benefit": "Digestion & Gut Health",
-        "nutrients": ["Inulin", "Vitamin K", "Folate"],
-        "tips": "Asparagus is one of the richest sources of inulin, a prebiotic fiber that selectively feeds Bifidobacterium and Lactobacillus — two of the most protective bacterial species in the human gut."
     },
     {
         "id": "beetroot",
@@ -901,16 +790,6 @@ export const fruits = [
         "tips": "Bilberries contain far more anthocyanins per gram than commercially grown blueberries, significantly improving blood flow to the retina and slowing age-related macular degeneration with regular consumption."
     },
     {
-        "id": "bok_choy",
-        "name": "Bok Choy",
-        "color": "green",
-        "image": "/images/fresh/bok_choy.webp",
-        "teaser": "The Asian Healing Green",
-        "benefit": "Anti-Inflammatory",
-        "nutrients": ["Vitamin C", "Vitamin K", "Calcium"],
-        "tips": "Bok choy contains indole-3-carbinol, a glucosinolate compound that promotes the metabolism of harmful estrogen metabolites, supporting hormonal balance at a cellular level."
-    },
-    {
         "id": "breadfruit",
         "name": "Breadfruit",
         "color": "green",
@@ -921,16 +800,6 @@ export const fruits = [
         "tips": "Breadfruit's artocarpine and cycloartobiloxanthone flavonoids have demonstrated antibacterial activity against streptococcus and staphylococcus — two of the most common bacterial pathogens in human disease."
     },
     {
-        "id": "brussels_sprouts",
-        "name": "Brussels Sprouts",
-        "color": "green",
-        "image": "/images/fresh/brussels-sprouts.webp",
-        "teaser": "The Detox Crucifer",
-        "benefit": "Detox & Cleansing",
-        "nutrients": ["Glucosinolates", "Vitamin C", "Vitamin K"],
-        "tips": "Brussels sprouts have one of the highest glucosinolate concentrations of any vegetable, releasing sulforaphane and indole-3-carbinol when chopped — two of the most studied natural cancer-fighting compounds in nutrition research."
-    },
-    {
         "id": "carrot",
         "name": "Carrot",
         "color": "orange",
@@ -939,16 +808,6 @@ export const fruits = [
         "benefit": "Skin Glow & Beauty",
         "nutrients": ["Beta-Carotene", "Vitamin A", "Fiber"],
         "tips": "Consuming carrots with fat significantly increases the bioavailability of their beta-carotene, with research showing absorption increases dramatically when eaten alongside olive oil or avocado."
-    },
-    {
-        "id": "canistel",
-        "name": "Canistel",
-        "color": "yellow",
-        "image": "/images/fresh/canistel.webp",
-        "teaser": "The Egg Fruit",
-        "benefit": "Energy & Vitality",
-        "nutrients": ["Vitamin B3", "Vitamin C", "Riboflavin"],
-        "tips": "Canistel is one of the richest fruit sources of Vitamin B3 (niacin), essential for DNA repair, energy metabolism, and the production of stress hormones in the adrenal glands."
     },
     {
         "id": "cauliflower",
@@ -969,16 +828,6 @@ export const fruits = [
         "benefit": "Digestion & Gut Health",
         "nutrients": ["Apigenin", "Luteolin", "Vitamin K"],
         "tips": "Celery's phthalides have been clinically shown to relax the smooth muscle of arterial walls, reducing blood pressure in a manner comparable to calcium channel blockers."
-    },
-    {
-        "id": "cempedak",
-        "name": "Cempedak",
-        "color": "yellow",
-        "image": "/images/fresh/cempedak.webp",
-        "teaser": "The Tropical Immunity Fruit",
-        "benefit": "Immunity Boost",
-        "nutrients": ["Vitamin C", "Beta-Carotene", "Flavonoids"],
-        "tips": "Cempedak contains morusin and artocarpanone — flavonoids studied for their antibacterial effects against antibiotic-resistant bacterial strains."
     },
     {
         "id": "cherimoya",
@@ -1021,17 +870,6 @@ export const fruits = [
         "tips": "Coconut yogurt contains live probiotic cultures that survive the gut journey to colonize the large intestine, where they produce vitamins B12 and K2 and actively compete with harmful pathogens."
     },
     {
-        "id": "collard_greens",
-        "name": "Collard Greens",
-        "color": "green",
-        "image": "/images/fresh/collard_greens.webp",
-        "teaser": "The Southern Superfood Green",
-        "benefit": "Anti-Inflammatory",
-        "nutrients": ["Vitamin K", "Vitamin C", "Calcium"],
-        "tips": "Collard greens' glucosinolates bind to bile acids in the gut, forcing the liver to use blood cholesterol to synthesize new bile — producing clinically meaningful LDL reductions with regular consumption.",
-        "imagePosition": "center center"
-    },
-    {
         "id": "cucumber",
         "name": "Cucumber",
         "color": "green",
@@ -1050,16 +888,6 @@ export const fruits = [
         "benefit": "Antioxidant Power",
         "nutrients": ["Theacrine", "Polyphenols", "Vitamin B3"],
         "tips": "Cupuaçu contains theobromine and theacrine — two stimulant compounds that provide a smoother, longer-lasting energy lift than caffeine without the jitteriness or post-energy crash."
-    },
-    {
-        "id": "dandelion_greens",
-        "name": "Dandelion Greens",
-        "color": "green",
-        "image": "/images/fresh/dandelion-greens.webp",
-        "teaser": "The Liver Cleanser",
-        "benefit": "Detox & Cleansing",
-        "nutrients": ["Taraxacin", "Vitamin A", "Potassium"],
-        "tips": "Taraxacin and taraxacerin, dandelion's bitter compounds, stimulate bile production in the liver and gallbladder, directly improving fat digestion and supporting the elimination of toxins through the digestive system."
     },
     {
         "id": "dates",
@@ -1082,17 +910,6 @@ export const fruits = [
         "tips": "Eggplant's deep purple skin contains nasunin, an anthocyanin that specifically protects lipids in brain cell membranes from oxidative damage and has been shown to improve cerebral blood flow."
     },
     {
-        "id": "fennel",
-        "name": "Fennel",
-        "color": "green",
-        "image": "/images/fresh/fennel.webp",
-        "teaser": "The Digestive Herb",
-        "benefit": "Digestion & Gut Health",
-        "nutrients": ["Anethole", "Fiber", "Vitamin C"],
-        "tips": "Fennel's anethole — the compound responsible for its distinctive anise flavor — directly relaxes the smooth muscles of the gastrointestinal tract, providing near-instant relief from gas and bloating.",
-        "imagePosition": "center center"
-    },
-    {
         "id": "ginger_fresh",
         "name": "Ginger",
         "color": "yellow",
@@ -1101,16 +918,6 @@ export const fruits = [
         "benefit": "Anti-Inflammatory",
         "nutrients": ["Gingerol", "Shogaol", "Zinc"],
         "tips": "Fresh ginger contains gingerol, a compound that inhibits the COX-2 enzyme with similar efficacy to ibuprofen — providing measurable pain relief without the gastrointestinal damage of long-term medication use."
-    },
-    {
-        "id": "greek_yogurt",
-        "name": "Greek Yogurt",
-        "color": "yellow",
-        "image": "/images/fresh/greek-yogurt.webp",
-        "teaser": "The Probiotic Powerhouse",
-        "benefit": "Digestion & Gut Health",
-        "nutrients": ["Probiotics", "Protein", "Calcium"],
-        "tips": "The conjugated linoleic acid (CLA) in full-fat Greek yogurt has been linked to reduced body fat mass, improved insulin sensitivity, and lower inflammatory markers in multiple clinical trials."
     },
     {
         "id": "kale",
@@ -1133,16 +940,6 @@ export const fruits = [
         "tips": "Kefir contains an exceptional diversity of probiotic strains — including Lactobacillus kefiri exclusive to kefir — with unique immune-modulating properties not found in standard yogurt."
     },
     {
-        "id": "kohlrabi",
-        "name": "Kohlrabi",
-        "color": "green",
-        "image": "/images/fresh/kohlrabi.webp",
-        "teaser": "The Forgotten Superfood",
-        "benefit": "Immunity Boost",
-        "nutrients": ["Vitamin C", "Fiber", "Potassium"],
-        "tips": "Kohlrabi provides nearly the same glucosinolate content as broccoli but with a milder flavor, making it one of the most underappreciated cruciferous vegetables for cancer-protective compounds."
-    },
-    {
         "id": "nectarine",
         "name": "Nectarine",
         "color": "orange",
@@ -1153,16 +950,6 @@ export const fruits = [
         "tips": "Chlorogenic acid in nectarines activates AMPK — the body's cellular energy sensor — which improves insulin sensitivity and promotes the burning of stored fat as fuel."
     },
     {
-        "id": "olive_oil",
-        "name": "Olive Oil",
-        "color": "green",
-        "image": "/images/fresh/olive_oil.webp",
-        "teaser": "Liquid Gold for the Heart",
-        "benefit": "Heart Health",
-        "nutrients": ["Oleocanthal", "Polyphenols", "Vitamin E"],
-        "tips": "Oleocanthal in extra virgin olive oil inhibits the COX-1 and COX-2 inflammatory enzymes — the same enzymes targeted by ibuprofen — producing a natural anti-inflammatory effect without gastrointestinal damage."
-    },
-    {
         "id": "almond_milk",
         "name": "Almond Milk",
         "color": "yellow",
@@ -1171,16 +958,6 @@ export const fruits = [
         "benefit": "Brain & Memory",
         "nutrients": ["Vitamin E", "Calcium", "Riboflavin"],
         "tips": "Almond milk is rich in Vitamin E, a fat-soluble antioxidant that protects cell membranes from oxidative damage and has been associated with reduced Alzheimer's risk in population studies."
-    },
-    {
-        "id": "parsley",
-        "name": "Parsley",
-        "color": "green",
-        "image": "/images/fresh/parsley.webp",
-        "teaser": "The Blood Cleanser",
-        "benefit": "Detox & Cleansing",
-        "nutrients": ["Chlorophyll", "Apigenin", "Vitamin K"],
-        "tips": "Parsley is one of the most concentrated sources of apigenin — a flavonoid studied for its ability to reduce anxiety, promote neurogenesis, and inhibit the growth of cancer stem cells."
     },
     {
         "id": "pumpkin",
@@ -1203,26 +980,6 @@ export const fruits = [
         "tips": "Purslane has more omega-3 fatty acids per gram than any other leafy green vegetable, making it the most valuable plant source of ALA omega-3 for cardiovascular and brain health."
     },
     {
-        "id": "red_cabbage",
-        "name": "Red Cabbage",
-        "color": "purple",
-        "image": "/images/fresh/red_cabbage.webp",
-        "teaser": "The Purple Antioxidant",
-        "benefit": "Antioxidant Power",
-        "nutrients": ["Anthocyanins", "Vitamin C", "Glucosinolates"],
-        "tips": "Indole-3-carbinol in red cabbage — released when chewed or chopped — promotes the breakdown of excess estrogen in the liver, making it a clinically studied food for hormonal balance."
-    },
-    {
-        "id": "red_chillies",
-        "name": "Red Chillies",
-        "color": "red",
-        "image": "/images/fresh/red_chillies.webp",
-        "teaser": "The Metabolic Fire Starter",
-        "benefit": "Energy & Vitality",
-        "nutrients": ["Capsaicin", "Vitamin C", "Vitamin A"],
-        "tips": "Capsaicin in red chillies triggers the release of endorphins — the body's natural pain-killing neurotransmitters — creating a genuine mood-elevating effect that goes well beyond heat tolerance."
-    },
-    {
         "id": "rose_apple",
         "name": "Rose Apple",
         "color": "red",
@@ -1231,16 +988,6 @@ export const fruits = [
         "benefit": "Immunity Boost",
         "nutrients": ["Vitamin C", "Fiber", "Jambosine"],
         "tips": "Rose apple contains jambosine — an alkaloid that specifically inhibits alpha-glucosidase, slowing the conversion of dietary starch to glucose and supporting healthy blood sugar regulation."
-    },
-    {
-        "id": "soy_milk",
-        "name": "Soy Milk",
-        "color": "yellow",
-        "image": "/images/fresh/soy_milk.webp",
-        "teaser": "The Plant Protein Milk",
-        "benefit": "Energy & Vitality",
-        "nutrients": ["Complete Protein", "Calcium", "Iron"],
-        "tips": "Soy milk's isoflavones — genistein and daidzein — act as selective estrogen receptor modulators, clinically reducing menopausal hot flashes without the risks of synthetic hormone therapy."
     },
     {
         "id": "spinach",
@@ -1253,16 +1000,6 @@ export const fruits = [
         "tips": "Lutein and zeaxanthin in spinach accumulate in the brain's hippocampus, where research consistently shows they correlate with sharper reasoning, faster processing speed, and better memory across all adult age groups."
     },
     {
-        "id": "swiss_chard",
-        "name": "Swiss Chard",
-        "color": "green",
-        "image": "/images/fresh/swiss_chard.webp",
-        "teaser": "The Rainbow Chard",
-        "benefit": "Heart Health",
-        "nutrients": ["Betalains", "Vitamin K", "Magnesium"],
-        "tips": "Swiss chard contains syringic acid, a compound that inhibits alpha-glucosidase, producing a significant blood sugar-stabilizing effect after meals — particularly relevant for managing pre-diabetes."
-    },
-    {
         "id": "walnuts",
         "name": "Walnuts",
         "color": "yellow",
@@ -1273,27 +1010,6 @@ export const fruits = [
         "tips": "Ellagitannins in walnut skins are converted by gut bacteria to urolithins, compounds that trigger mitophagy — the cellular cleanup of damaged mitochondria — a key anti-aging mechanism."
     },
     {
-        "id": "watercress",
-        "name": "Watercress",
-        "color": "green",
-        "image": "/images/fresh/water_cress.webp",
-        "teaser": "The Ancient Detox Green",
-        "benefit": "Detox & Cleansing",
-        "nutrients": ["Isothiocyanates", "Vitamin K", "Vitamin C"],
-        "tips": "Watercress isothiocyanates — particularly phenethyl isothiocyanate — have demonstrated the ability to inhibit HDAC enzymes in cancer cells, reactivating tumor suppressor genes through an epigenetic mechanism.",
-        "imagePosition": "center center"
-    },
-    {
-        "id": "zucchini",
-        "name": "Zucchini",
-        "color": "green",
-        "image": "/images/fresh/zucchini.webp",
-        "teaser": "The Gentle Gut Healer",
-        "benefit": "Digestion & Gut Health",
-        "nutrients": ["Soluble Fiber", "Vitamin C", "Potassium"],
-        "tips": "Zucchini is one of the richest vegetable sources of lutein and zeaxanthin, two carotenoids that provide the most potent dietary protection against blue light damage and macular degeneration."
-    },
-    {
         "id": "broccoli",
         "name": "Broccoli",
         "color": "green",
@@ -1302,16 +1018,6 @@ export const fruits = [
         "benefit": "Immunity Boost",
         "nutrients": ["Vitamin C", "Vitamin K", "Sulforaphane"],
         "tips": "Broccoli's sulforaphane is deactivated by high heat — so chopping and waiting before cooking, or eating raw, maximizes this potent cancer-fighting compound that activates the body's own antioxidant defenses."
-    },
-    {
-        "id": "haskap_berry",
-        "name": "Haskap Berry",
-        "color": "purple",
-        "image": "/images/fresh/haskap_berry.webp",
-        "teaser": "The Arctic Antioxidant Berry",
-        "benefit": "Antioxidant",
-        "nutrients": ["Anthocyanins", "Vitamin C", "Potassium"],
-        "tips": "Haskap berries contain the highest concentration of anthocyanins of any commercially grown berry, with studies showing simultaneous improvements in visual acuity, blood vessel integrity, and post-exercise muscle recovery."
     },
     {
         "id": "oats",

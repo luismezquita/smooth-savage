@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom'; // Added hooks
-import { Moon, Sun, Search, Zap, CupSoda, Heart } from 'lucide-react';
+import { Moon, Sun, Search, Zap, CupSoda, Heart, Globe } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 import { StrawberryIcon } from './StrawberryIcon';
+import LanguagePicker, { useLanguage } from './LanguagePicker';
 
 const iconMap = {
     'fresa-icon': StrawberryIcon,
@@ -15,6 +16,8 @@ export default function Navbar() {
     const { isDark, toggleTheme } = useTheme();
     const navigate = useNavigate();
     const location = useLocation();
+    const [langOpen, setLangOpen] = useState(false);
+    const { language, changeLanguage } = useLanguage();
 
     // SAVAGE SCROLL LOGIC: 
     // If on Home, scroll to top. If elsewhere, go to Home.
@@ -74,6 +77,13 @@ export default function Navbar() {
                     </div>
 
                     <div className="flex items-center gap-4">
+                        <button
+                            onClick={() => setLangOpen(true)}
+                            className="p-2 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                            aria-label="Select language"
+                        >
+                            <Globe className="w-5 h-5" />
+                        </button>
                         <NavLink to="/search" className="p-2 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100">
                             <Search className="w-5 h-5" />
                         </NavLink>
@@ -81,6 +91,13 @@ export default function Navbar() {
                             {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
                         </button>
                     </div>
+
+                    <LanguagePicker
+                        isOpen={langOpen}
+                        onClose={() => setLangOpen(false)}
+                        language={language}
+                        changeLanguage={changeLanguage}
+                    />
                 </div>
             </div>
         </nav>
