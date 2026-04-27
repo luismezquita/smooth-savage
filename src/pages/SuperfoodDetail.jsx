@@ -28,7 +28,7 @@ export default function SuperfoodDetail() {
     const isFav = isFavorite(superfood.id);
 
     return (
-        <div className="pb-16 bg-gray-50/50 dark:bg-fruit-dark/50 min-h-[calc(100vh-64px)]">
+        <div className="pb-16 bg-fruit-light/60 dark:bg-fruit-dark/50 min-h-[calc(100vh-64px)]">
             {/* Hero Image */}
             <div className="relative h-72 md:h-96 w-full">
                 <button

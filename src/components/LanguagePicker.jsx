@@ -31,19 +31,61 @@ export function useLanguage() {
 }
 
 export default function LanguagePicker({ isOpen, onClose, language, changeLanguage }) {
-    if (!isOpen) return null;
+    const [closing, setClosing] = useState(false);
+
+    // When isOpen goes false from outside, trigger closing animation
+    useEffect(() => {
+        if (!isOpen) setClosing(false);
+    }, [isOpen]);
+
+    const handleClose = () => {
+        setClosing(true);
+        setTimeout(() => {
+            setClosing(false);
+            onClose();
+        }, 450);
+    };
+
+    const handleSelect = (code) => {
+        changeLanguage(code);
+        // Show the green highlight for 900ms before closing
+        setTimeout(() => handleClose(), 900);
+    };
+
+    if (!isOpen && !closing) return null;
 
     return createPortal(
         <>
             {/* Backdrop */}
             <div
-                className="fixed inset-0 bg-black/40 backdrop-blur-sm"
-                style={{ zIndex: 9998 }}
-                onClick={onClose}
+                className="fixed inset-0 backdrop-blur-sm transition-all duration-280"
+                style={{
+                    zIndex: 9998,
+                    backgroundColor: closing ? 'rgba(0,0,0,0)' : 'rgba(0,0,0,0.4)',
+                    transition: 'background-color 0.28s ease',
+                }}
+                onClick={handleClose}
             />
 
             {/* Bottom Sheet */}
-            <div className="fixed bottom-0 left-0 right-0 animate-slide-up" style={{ zIndex: 9999 }}>
+            <div
+                className="fixed bottom-0 left-0 right-0"
+                style={{
+                    zIndex: 9999,
+                    transform: closing ? 'translateY(100%)' : 'translateY(0)',
+                    transition: closing
+                        ? 'transform 0.45s cubic-bezier(0.32, 0.72, 0, 1)'
+                        : 'transform 0.4s cubic-bezier(0.32, 0.72, 0, 1)',
+                    animation: closing ? 'none' : 'slideUp 0.4s cubic-bezier(0.32, 0.72, 0, 1)',
+                }}
+            >
+                <style>{`
+                    @keyframes slideUp {
+                        from { transform: translateY(100%); }
+                        to { transform: translateY(0); }
+                    }
+                `}</style>
+
                 <div className="bg-white dark:bg-gray-900 rounded-t-3xl shadow-2xl px-6 pt-5 pb-10 max-w-lg mx-auto">
 
                     {/* Handle bar */}
@@ -53,7 +95,7 @@ export default function LanguagePicker({ isOpen, onClose, language, changeLangua
                     <div className="flex items-center justify-between mb-6">
                         <h2 className="text-lg font-bold text-gray-900 dark:text-white">Language</h2>
                         <button
-                            onClick={onClose}
+                            onClick={handleClose}
                             className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500"
                         >
                             <X className="w-5 h-5" />
@@ -67,7 +109,7 @@ export default function LanguagePicker({ isOpen, onClose, language, changeLangua
                             return (
                                 <button
                                     key={lang.code}
-                                    onClick={() => { changeLanguage(lang.code); onClose(); }}
+                                    onClick={() => handleSelect(lang.code)}
                                     className={`w-full flex items-center gap-4 px-4 py-3.5 rounded-2xl transition-all duration-200 ${
                                         isSelected
                                             ? 'bg-green-50 dark:bg-green-900/30 border-2 border-green-500'
@@ -92,6 +134,14 @@ export default function LanguagePicker({ isOpen, onClose, language, changeLangua
                             );
                         })}
                     </div>
+
+                    {/* Done button */}
+                    <button
+                        onClick={handleClose}
+                        className="mt-5 w-full py-3.5 rounded-2xl bg-green-500 hover:bg-green-600 active:bg-green-700 text-white font-bold text-base transition-colors duration-200"
+                    >
+                        Done
+                    </button>
                 </div>
             </div>
         </>,

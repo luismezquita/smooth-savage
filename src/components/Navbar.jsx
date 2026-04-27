@@ -38,7 +38,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="sticky top-0 z-50 bg-white/80 dark:bg-fruit-dark/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
+        <nav className="sticky top-0 z-50 bg-fruit-light/90 dark:bg-fruit-dark/80 backdrop-blur-md border-b border-amber-300/70 dark:border-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
 
@@ -79,15 +79,15 @@ export default function Navbar() {
                     <div className="flex items-center gap-4">
                         <button
                             onClick={() => setLangOpen(true)}
-                            className="p-2 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                            className="p-2 rounded-full text-amber-800 dark:text-gray-300 hover:bg-amber-200/50 dark:hover:bg-gray-800 transition-colors"
                             aria-label="Select language"
                         >
                             <Globe className="w-5 h-5" />
                         </button>
-                        <NavLink to="/search" className="p-2 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100">
+                        <NavLink to="/search" className="p-2 rounded-full text-amber-800 dark:text-gray-300 hover:bg-amber-200/50 dark:hover:bg-gray-800 transition-colors">
                             <Search className="w-5 h-5" />
                         </NavLink>
-                        <button onClick={toggleTheme} className="text-gray-600 dark:text-gray-300 outline-none focus:outline-none focus-visible:outline-none">
+                        <button onClick={toggleTheme} className="p-2 rounded-full text-amber-800 dark:text-yellow-300 hover:bg-amber-200/50 dark:hover:bg-gray-800 transition-colors outline-none focus:outline-none focus-visible:outline-none">
                             {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
                         </button>
                     </div>

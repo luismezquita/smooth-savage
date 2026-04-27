@@ -8,7 +8,7 @@ export default {
     theme: {
         extend: {
             colors: {
-                'fruit-light': '#F0F4F0', // Fondo suave
+                'fruit-light': '#F2DFA0', // Golden Ochre day mode
                 'fruit-dark': '#2E1065',  // Fondo oscuro elegante púrpura oscuro (Tailwind violet-950)
                 'fruit-green': '#22C55E', // El verde principal
             },

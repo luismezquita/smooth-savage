@@ -50,19 +50,13 @@ export default function Home() {
     }, []);
 
     return (
-        /* 2. THE BACKGROUND FIX: Transparent background lets the theme glows shine through */
-        <div className="relative min-h-screen bg-white dark:bg-transparent pb-32 overflow-hidden">
-            
-            {/* 3. THE SAVAGE GLOWS (Purple & Green Atmosphere) */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none z-0">
-                <div className="absolute top-[-5%] left-[-10%] w-[90%] h-[60%] bg-purple-600/20 dark:bg-purple-900/40 blur-[140px] rounded-full" />
-                <div className="absolute bottom-[10%] right-[-10%] w-[70%] h-[50%] bg-orange-400/10 dark:bg-orange-500/20 blur-[120px] rounded-full" />
-            </div>
+        <div className="relative min-h-screen pb-32">
 
-            <section className="relative z-10 pt-4 px-4 mb-16">
+            {/* DAILY TIP + EXPLORE BENEFITS — at top like original */}
+            <section className="relative z-10 pt-4 px-4 mb-6">
                 <div className="max-w-md mx-auto text-center">
                     {dailyTip && (
-                        <div className="mb-4 bg-orange-50/40 dark:bg-orange-900/10 p-5 rounded-2xl border border-orange-100/50 backdrop-blur-md">
+                        <div className="mb-5 bg-orange-50/60 dark:bg-orange-900/10 p-5 rounded-2xl border border-orange-200/60 dark:border-orange-100/20 backdrop-blur-md">
                             <p className="text-xl font-black text-gray-800 dark:text-white leading-snug">
                                 <Leaf className="inline w-4 h-4 mb-0.5 mr-1.5 text-orange-500" />
                                 "{dailyTip.text}"
@@ -70,27 +64,26 @@ export default function Home() {
                             <p className="mt-2 text-sm font-bold text-orange-500 uppercase tracking-widest not-italic">{dailyTip.fruit}</p>
                         </div>
                     )}
-
-                    <div className="mb-6">
-                        <Link to="/benefits" className="inline-flex items-center gap-2 bg-orange-500 text-gray-900 px-10 py-3 rounded-full font-black shadow-lg text-[13px] uppercase tracking-[0.2em] active:scale-95 transition-all whitespace-nowrap">
-                            <HeartPulse className="w-4 h-4" /> Explore Benefits
-                        </Link>
-                    </div>
-
-                    <div className="w-screen relative left-1/2 -translate-x-1/2 mb-8 aspect-square overflow-hidden">
-                        <img src="/images/smoothies/black_seed_cure.webp" className="w-full h-full object-cover" alt="Fresh Foods Hero" />
-                    </div>
-
+                    <Link to="/benefits" className="inline-flex items-center gap-2 bg-orange-500 text-gray-900 px-10 py-3 rounded-full font-black shadow-lg text-[13px] uppercase tracking-[0.2em] active:scale-95 transition-all whitespace-nowrap">
+                        <HeartPulse className="w-4 h-4" /> Explore Benefits
+                    </Link>
                 </div>
             </section>
 
-            <section className="relative z-10 py-12 border-t border-gray-100 dark:border-gray-800/50 max-w-xl mx-auto px-6">
-                <div className="flex justify-between items-center mb-6">
-                    <h2 className="text-2xl font-black text-gray-900 dark:text-white flex items-center gap-2 uppercase tracking-tighter">
-                        <span>🍓</span> Fresh Foods
-                    </h2>
-                </div>
+            {/* HERO IMAGE: smoothie image like original */}
+            <div className="w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
+                <img src="/images/smoothies/black_seed_cure.webp" className="w-full h-full object-cover" alt="Fresh Foods Hero" />
+            </div>
 
+            {/* TITLE — below hero image, before the list */}
+            <div className="pb-4 text-center max-w-2xl mx-auto px-4">
+                <h1 className="text-4xl md:text-5xl font-black mb-2">Fresh Foods</h1>
+                <p className="text-lg text-gray-600 dark:text-gray-400">
+                    103 exotic fruits & foods. Each one worth knowing.
+                </p>
+            </div>
+
+            <section className="relative z-10 py-12 border-t border-amber-300/50 dark:border-gray-800/50 max-w-xl mx-auto px-6">
                 <div className="relative mb-10">
                     <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 pointer-events-none" style={{ color: '#F97316' }} />
                     <input
