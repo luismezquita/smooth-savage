@@ -78,14 +78,9 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* HERO MOSAIC */}
-            <div className="w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
-                <div className="w-full h-full grid grid-cols-2 grid-rows-2">
-                    <img src="/images/fresh/dragonfruit.webp" className="w-full h-full object-cover" alt="" />
-                    <img src="/images/fresh/mango.webp" className="w-full h-full object-cover" alt="" />
-                    <img src="/images/fresh/pomegranate.webp" className="w-full h-full object-cover" alt="" />
-                    <img src="/images/fresh/blueberries.webp" className="w-full h-full object-cover" alt="" />
-                </div>
+            {/* HERO */}
+            <div className="fresh-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
+                <img src="/images/fresh/cover_hero.jpg" className="w-full h-full object-cover object-center" alt="" />
             </div>
 
             {/* TITLE — below hero image, before the list */}

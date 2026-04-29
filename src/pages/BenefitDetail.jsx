@@ -12,10 +12,10 @@ import benefitCategoriesI18n from '../data/benefit_categories_i18n';
 export default function BenefitDetail() {
     const t = useT();
     const { language } = useLanguage();
-    const catTitle = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.title) || category?.title || '';
-    const catTagline = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.tagline) || category?.tagline || '';
     const { id } = useParams();
     const category = benefitCategories.find(c => c.id === id);
+    const catTitle = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.title) || category?.title || '';
+    const catTagline = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.tagline) || category?.tagline || '';
 
     const FRESH_CAP = 8;
     const SAVAGE_CAP = 8;

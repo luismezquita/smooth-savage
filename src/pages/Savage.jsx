@@ -52,14 +52,9 @@ export default function Savage() {
                 </p>
             </div>
 
-            {/* Hero mosaic */}
-            <div className="w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
-                <div className="w-full h-full grid grid-cols-2 grid-rows-2">
-                    <img src="/images/savage/lions_mane.webp" className="w-full h-full object-cover" alt="" />
-                    <img src="/images/savage/curcumin.webp" className="w-full h-full object-cover" alt="" />
-                    <img src="/images/savage/spirulina.webp" className="w-full h-full object-cover" alt="" />
-                    <img src="/images/savage/chaga_mushroom.webp" className="w-full h-full object-cover" alt="" />
-                </div>
+            {/* Hero */}
+            <div className="savage-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
+                <img src="/images/savage/cover_hero.jpg" className="w-full h-full object-cover object-center" alt="" />
             </div>
 
             {/* Search bar */}
