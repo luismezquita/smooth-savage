@@ -3,10 +3,13 @@ import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
 import { benefitCategories } from '../data/benefits';
-import { useT } from '../i18n/LanguageContext';
+import { useT, useLanguage } from '../i18n/LanguageContext';
+import benefitCategoriesI18n from '../data/benefit_categories_i18n';
 
 export default function Benefits() {
     const t = useT();
+    const { language } = useLanguage();
+    const getCatLabel = (id, field) => (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.[field]) || null;
     const navigate = useNavigate();
 
     return (
@@ -46,8 +49,8 @@ export default function Benefits() {
                             <div className="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-white/20 rounded-full blur-2xl group-hover:bg-white/30 transition-all duration-500 ease-out" />
                             <div className="absolute top-6 left-6 text-4xl mb-4 relative z-10 transition-transform duration-300 group-hover:scale-110 origin-bottom-left">{category.icon}</div>
                             <div className="mt-auto">
-                                <h3 className="text-2xl font-bold mb-1 relative z-10 leading-tight">{category.title}</h3>
-                                <p className="text-white/80 text-sm font-medium relative z-10 max-w-[90%]">{category.tagline}</p>
+                                <h3 className="text-2xl font-bold mb-1 relative z-10 leading-tight">{getCatLabel(category.id, 'title') || category.title}</h3>
+                                <p className="text-white/80 text-sm font-medium relative z-10 max-w-[90%]">{getCatLabel(category.id, 'tagline') || category.tagline}</p>
                             </div>
                         </motion.div>
                     </Link>

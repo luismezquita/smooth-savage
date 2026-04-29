@@ -6,6 +6,11 @@ import { savageFoods } from '../data/superfoods';
 import { useFavorites } from '../hooks/useFavorites';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import itemTipsI18n from '../data/item_tips_i18n';
+import itemNamesI18n from '../data/item_names_i18n';
+import itemTeasersI18n from '../data/item_teasers_i18n';
+import benefitLabelsI18n from '../data/benefit_labels_i18n';
+import nutrientsI18n from '../data/nutrients_i18n';
+import synergiesI18n from '../data/synergies_i18n';
 
 export default function SuperfoodDetail() {
     const t = useT();
@@ -30,6 +35,11 @@ export default function SuperfoodDetail() {
     }
 
     const isFav = isFavorite(superfood.id);
+    const displayName = (language !== 'en' && itemNamesI18n[language]?.[superfood.id]) || superfood.name;
+    const displayTeaser = (language !== 'en' && itemTeasersI18n[language]?.[superfood.id]) || superfood.teaser;
+    const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[superfood.benefit]) || superfood.benefit;
+    const displaySynergy = (language !== 'en' && synergiesI18n[language]?.[superfood.id]) || superfood.synergy;
+    const translateNutrient = (n) => (language !== 'en' && nutrientsI18n[language]?.[n]) || n;
 
     return (
         <div className="pb-16 bg-fruit-light/60 dark:bg-fruit-dark/50 min-h-[calc(100vh-64px)]">
@@ -56,12 +66,12 @@ export default function SuperfoodDetail() {
                         {superfood.benefit && (
                             <div className="flex flex-wrap gap-2 mb-3">
                                 <span className={`px-3 py-1 text-xs font-bold rounded-full bg-${superfood.color || 'purple'}-500/80 backdrop-blur border border-white/20 text-white uppercase tracking-wider`}>
-                                    {superfood.benefit}
+                                    {displayBenefit}
                                 </span>
                             </div>
                         )}
-                        <h1 className="text-4xl md:text-6xl font-black mb-2">{superfood.name}</h1>
-                        <p className="text-lg md:text-xl text-gray-200 font-medium">{superfood.teaser}</p>
+                        <h1 className="text-4xl md:text-6xl font-black mb-2">{displayName}</h1>
+                        <p className="text-lg md:text-xl text-gray-200 font-medium">{displayTeaser}</p>
                     </motion.div>
                 </div>
             </div>
@@ -111,7 +121,7 @@ export default function SuperfoodDetail() {
                                     {t('detail.synergy')}
                                 </h2>
                                 <p className={`text-${superfood.color || 'purple'}-900 dark:text-${superfood.color || 'purple'}-200/80 leading-relaxed`}>
-                                    {superfood.synergy}
+                                    {displaySynergy}
                                 </p>
                             </motion.section>
                         )}
@@ -150,6 +160,8 @@ export default function SuperfoodDetail() {
                                 </h2>
                                 <div className="flex flex-wrap gap-2">
                                     {superfood.nutrients.map((n, i) => (
+                                        // translated nutrient
+
                                         <span key={i} className="px-3 py-1.5 bg-gray-100 dark:bg-gray-700/50 text-gray-700 dark:text-gray-300 rounded-lg text-sm font-medium">
                                             {n}
                                         </span>

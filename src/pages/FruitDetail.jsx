@@ -6,6 +6,10 @@ import { fruits } from '../data/fruits';
 import { useFavorites } from '../hooks/useFavorites';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import itemTipsI18n from '../data/item_tips_i18n';
+import itemNamesI18n from '../data/item_names_i18n';
+import itemTeasersI18n from '../data/item_teasers_i18n';
+import benefitLabelsI18n from '../data/benefit_labels_i18n';
+import nutrientsI18n from '../data/nutrients_i18n';
 
 export default function FruitDetail() {
     const t = useT();
@@ -30,6 +34,10 @@ export default function FruitDetail() {
     }
 
     const isFav = isFavorite(fruit.id);
+    const displayName = (language !== 'en' && itemNamesI18n[language]?.[fruit.id]) || fruit.name;
+    const displayTeaser = (language !== 'en' && itemTeasersI18n[language]?.[fruit.id]) || fruit.teaser;
+    const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[fruit.benefit]) || fruit.benefit;
+    const translateNutrient = (n) => (language !== 'en' && nutrientsI18n[language]?.[n]) || n;
 
     return (
         <div className="pb-16 bg-fruit-light/60 dark:bg-fruit-dark/50 min-h-[calc(100vh-64px)]">
@@ -59,7 +67,7 @@ export default function FruitDetail() {
                         <div className="flex flex-wrap gap-2 mb-3">
                             {fruit.benefit && (
                                 <span className={`px-3 py-1 text-xs font-bold rounded-full bg-${fruit.color}-500/80 backdrop-blur border text-white uppercase tracking-wider`}>
-                                    {fruit.benefit}
+                                    {displayBenefit}
                                 </span>
                             )}
                             {fruit.benefits && fruit.benefits.map(b => (
@@ -68,8 +76,8 @@ export default function FruitDetail() {
                                 </span>
                             ))}
                         </div>
-                        <h1 className="text-4xl md:text-6xl font-black mb-2">{fruit.name}</h1>
-                        <p className="text-lg md:text-xl text-gray-200 font-medium">{fruit.teaser}</p>
+                        <h1 className="text-4xl md:text-6xl font-black mb-2">{displayName}</h1>
+                        <p className="text-lg md:text-xl text-gray-200 font-medium">{displayTeaser}</p>
                     </motion.div>
                 </div>
             </div>

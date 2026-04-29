@@ -4,10 +4,18 @@ import { motion } from 'framer-motion';
 import { Heart } from 'lucide-react';
 import { useFavorites } from '../hooks/useFavorites';
 import { getBenefitStyle } from '../utils/benefitColors';
+import { useLanguage } from '../i18n/LanguageContext';
+import itemNamesI18n from '../data/item_names_i18n';
+import itemTeasersI18n from '../data/item_teasers_i18n';
+import benefitLabelsI18n from '../data/benefit_labels_i18n';
 
 export default function SuperfoodCard({ superfood, index }) {
     const { isFavorite, toggleFavorite } = useFavorites();
+    const { language } = useLanguage();
     const isFav = isFavorite(superfood.id);
+    const displayName = (language !== 'en' && itemNamesI18n[language]?.[superfood.id]) || superfood.name;
+    const displayTeaser = (language !== 'en' && itemTeasersI18n[language]?.[superfood.id]) || superfood.teaser;
+    const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[superfood.benefit]) || superfood.benefit;
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -40,13 +48,13 @@ export default function SuperfoodCard({ superfood, index }) {
                     </div>
                     <div className="p-5 flex-grow flex flex-col">
                         <div className="mb-2">
-                            <h3 className="text-xl font-bold">{superfood.name}</h3>
+                            <h3 className="text-xl font-bold">{displayName}</h3>
                             <span className={`inline-block mt-1 px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider ${getBenefitStyle(superfood.benefit)}`}>
-                                {superfood.benefit}
+                                {displayBenefit}
                             </span>
                         </div>
                         <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-3">
-                            {superfood.teaser}
+                            {displayTeaser}
                         </p>
                     </div>
                 </div>

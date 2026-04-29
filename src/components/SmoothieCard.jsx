@@ -5,10 +5,17 @@ import { Heart, CupSoda } from 'lucide-react';
 import { useFavorites } from '../hooks/useFavorites';
 
 import { getBenefitStyle } from '../utils/benefitColors';
+import { useLanguage } from '../i18n/LanguageContext';
+import smoothieI18n from '../data/smoothie_i18n';
+import benefitLabelsI18n from '../data/benefit_labels_i18n';
 
 export default function SmoothieCard({ smoothie, index = 0 }) {
     const { isFavorite, toggleFavorite } = useFavorites();
     const isFav = isFavorite(smoothie.id);
+    const { language } = useLanguage();
+    const displayName = (language !== 'en' && smoothieI18n[language]?.[smoothie.id]?.name) || smoothie.name;
+    const displayTeaser = (language !== 'en' && smoothieI18n[language]?.[smoothie.id]?.teaser) || smoothie.teaser;
+    const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[smoothie.benefit]) || smoothie.benefit;
 
     // Dynamic Premium Fallback Logic
     const imagePath = smoothie.img && smoothie.img.endsWith('.webp')
@@ -48,7 +55,7 @@ export default function SmoothieCard({ smoothie, index = 0 }) {
                         <div className="mb-2">
                             <h3 className="text-xl font-bold flex items-center gap-2">
                                 {smoothie.icon === 'vaso' && <CupSoda className="w-5 h-5 text-fruit-green dark:text-fruit-light" />}
-                                {smoothie.name}
+                                {displayName}
                                 {smoothie.isHero && (
                                     <span className="bg-gradient-to-r from-yellow-400 to-amber-500 text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider shadow-sm">
                                         Hero
@@ -56,11 +63,11 @@ export default function SmoothieCard({ smoothie, index = 0 }) {
                                 )}
                             </h3>
                             <span className={`inline-block mt-1 px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider ${getBenefitStyle(smoothie.benefit)}`}>
-                                {smoothie.benefit}
+                                {displayBenefit}
                             </span>
                         </div>
                         <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-3">
-                            {smoothie.teaser}
+                            {displayTeaser}
                         </p>
                         <div className="flex flex-wrap gap-2 text-sm font-bold text-fruit-green italic mt-3">
                             {smoothie.ingredients?.join(" • ")}

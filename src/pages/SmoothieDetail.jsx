@@ -4,7 +4,9 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Heart, Target, Sparkles, CheckCircle2 } from 'lucide-react';
 import { smoothies } from '../data/smoothies';
 import { useFavorites } from '../hooks/useFavorites';
-import { useT } from '../i18n/LanguageContext';
+import { useT, useLanguage } from '../i18n/LanguageContext';
+import smoothieI18n from '../data/smoothie_i18n';
+import benefitLabelsI18n from '../data/benefit_labels_i18n';
 
 export default function SmoothieDetail() {
     const t = useT();
@@ -28,6 +30,10 @@ export default function SmoothieDetail() {
     }
 
     const isFav = isFavorite(smoothie.id);
+    const { language } = useLanguage();
+    const displayName = (language !== 'en' && smoothieI18n[language]?.[smoothie.id]?.name) || smoothie.name;
+    const displayTeaser = (language !== 'en' && smoothieI18n[language]?.[smoothie.id]?.teaser) || smoothie.teaser;
+    const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[smoothie.benefit]) || smoothie.benefit;
 
     return (
         <div className="pb-16 bg-fruit-light/60 dark:bg-fruit-dark/50 min-h-[calc(100vh-64px)]">
@@ -62,11 +68,11 @@ export default function SmoothieDetail() {
                             )}
                             {smoothie.benefit && !smoothie.category && (
                                 <span className={`px-3 py-1 text-xs font-bold rounded-full bg-${smoothie.color}-500/80 backdrop-blur border text-white uppercase tracking-wider`}>
-                                    {smoothie.benefit}
+                                    {displayBenefit}
                                 </span>
                             )}
                         </div>
-                        <h1 className="text-4xl md:text-6xl font-black mb-2">{smoothie.name}</h1>
+                        <h1 className="text-4xl md:text-6xl font-black mb-2">{displayName}</h1>
                         <p className="text-lg md:text-xl text-gray-200 font-medium">{smoothie.description}</p>
                     </motion.div>
                 </div>

@@ -6,10 +6,14 @@ import { benefitCategories, getItemsForBenefit } from '../data/benefits';
 import FruitCard from '../components/FruitCard';
 import SuperfoodCard from '../components/SuperfoodCard';
 import SmoothieCard from '../components/SmoothieCard';
-import { useT } from '../i18n/LanguageContext';
+import { useT, useLanguage } from '../i18n/LanguageContext';
+import benefitCategoriesI18n from '../data/benefit_categories_i18n';
 
 export default function BenefitDetail() {
     const t = useT();
+    const { language } = useLanguage();
+    const catTitle = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.title) || category?.title || '';
+    const catTagline = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.tagline) || category?.tagline || '';
     const { id } = useParams();
     const category = benefitCategories.find(c => c.id === id);
 
@@ -39,10 +43,10 @@ export default function BenefitDetail() {
             >
                 <div className="text-7xl mb-6 relative z-10 drop-shadow-lg">{category.icon}</div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 relative z-10 tracking-tight">
-                    {category.title}
+                    {catTitle}
                 </h1>
                 <p className="text-xl md:text-2xl text-white/90 max-w-3xl relative z-10 font-medium">
-                    {category.tagline}. {t('benefitDetail.itemSuffix')}
+                    {catTagline}. {t('benefitDetail.itemSuffix')}
                 </p>
                 <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none" />
                 <div className="absolute bottom-0 left-0 w-64 h-64 bg-black/5 rounded-full blur-2xl -ml-10 -mb-10 pointer-events-none" />
