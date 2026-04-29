@@ -4,8 +4,12 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Heart, Info, Target, Sparkles, CheckCircle2 } from 'lucide-react';
 import { fruits } from '../data/fruits';
 import { useFavorites } from '../hooks/useFavorites';
+import { useT, useLanguage } from '../i18n/LanguageContext';
+import itemTipsI18n from '../data/item_tips_i18n';
 
 export default function FruitDetail() {
+    const t = useT();
+    const { language } = useLanguage();
     const { id } = useParams();
     const navigate = useNavigate();
     const { isFavorite, toggleFavorite } = useFavorites();
@@ -84,7 +88,7 @@ export default function FruitDetail() {
                             >
                                 <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
                                     <Target className={`text-${fruit.color}-500`} />
-                                    Main Health Benefits
+                                    {t('detail.mainBenefits')}
                                 </h2>
                                 <div className="space-y-6">
                                     {fruit.mainBenefits.map((benefit, i) => (
@@ -112,10 +116,10 @@ export default function FruitDetail() {
                             >
                                 <h2 className={`text-xl font-bold mb-3 flex items-center gap-2 text-${fruit.color}-800 dark:text-${fruit.color}-400`}>
                                     <Sparkles className="w-5 h-5" />
-                                    Daily Tip
+                                    {t('detail.dailyTip')}
                                 </h2>
                                 <p className={`text-${fruit.color}-900 dark:text-${fruit.color}-200/80 leading-relaxed`}>
-                                    {fruit.tips}
+                                    {(language !== 'en' && itemTipsI18n[language]?.[fruit.id]) || fruit.tips}
                                 </p>
                             </motion.section>
                         )}
@@ -131,7 +135,7 @@ export default function FruitDetail() {
                         >
                             <h2 className="text-lg font-bold mb-4 flex items-center gap-2">
                                 <Info className="w-5 h-5 text-gray-400" />
-                                Key Nutrients
+                                {t('detail.keyNutrients')}
                             </h2>
                             <div className="flex flex-wrap gap-2">
                                 {fruit.nutrients && fruit.nutrients.map((n, i) => (

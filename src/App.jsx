@@ -12,9 +12,11 @@ import Search from './pages/Search';
 import Benefits from './pages/Benefits';
 import BenefitDetail from './pages/BenefitDetail';
 import { ThemeProvider } from './hooks/useTheme';
+import { LanguageProvider } from './i18n/LanguageContext';
 
 function App() {
     return (
+        <LanguageProvider>
         <ThemeProvider>
             <BrowserRouter>
                 <Layout>
@@ -39,6 +41,7 @@ function App() {
                 </Layout>
             </BrowserRouter>
         </ThemeProvider>
+        </LanguageProvider>
     );
 }
 

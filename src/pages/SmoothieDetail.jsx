@@ -4,8 +4,10 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Heart, Target, Sparkles, CheckCircle2 } from 'lucide-react';
 import { smoothies } from '../data/smoothies';
 import { useFavorites } from '../hooks/useFavorites';
+import { useT } from '../i18n/LanguageContext';
 
 export default function SmoothieDetail() {
+    const t = useT();
     const { id } = useParams();
     const navigate = useNavigate();
     const { isFavorite, toggleFavorite } = useFavorites();
@@ -83,7 +85,7 @@ export default function SmoothieDetail() {
                         >
                             <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
                                 <Target className={`text-${smoothie.color}-500`} />
-                                Health Benefits
+                                {t('detail.healthBenefits')}
                             </h2>
                             <div className="flex gap-4">
                                 <div className={`mt-1 bg-${smoothie.color}-100 dark:bg-${smoothie.color}-900/30 p-2 rounded-xl h-fit`}>
@@ -92,7 +94,7 @@ export default function SmoothieDetail() {
                                 <div>
                                     <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-lg">{smoothie.benefits}</p>
                                     <div className="mt-4 inline-flex items-center gap-2 px-3 py-1.5 bg-gray-50 dark:bg-gray-800/50 rounded-lg text-sm font-medium text-gray-700 dark:text-gray-300">
-                                        <span className="text-fruit-green">✨ Synergies:</span> {smoothie.synergies}
+                                        <span className="text-fruit-green">✨ {t('detail.synergies')}:</span> {smoothie.synergies}
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +109,7 @@ export default function SmoothieDetail() {
                         >
                             <h2 className={`text-xl font-bold mb-4 flex items-center gap-2 text-${smoothie.color}-800 dark:text-${smoothie.color}-400`}>
                                 <Sparkles className="w-5 h-5" />
-                                What's Inside (Ingredients)
+                                {t('detail.ingredients')}
                             </h2>
                             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                 {smoothie.ingredients.map((ing, i) => (
@@ -129,7 +131,7 @@ export default function SmoothieDetail() {
                             className="bg-white dark:bg-gray-800 rounded-3xl p-6 shadow-sm border border-gray-100 dark:border-gray-700 h-full"
                         >
                             <h2 className="text-xl font-black mb-4 flex items-center gap-2 text-gray-800 dark:text-gray-200 uppercase tracking-widest border-b pb-4 dark:border-gray-700">
-                                Preparation
+                                {t('detail.preparation')}
                             </h2>
                             <p className="text-gray-700 dark:text-gray-300 leading-relaxed font-medium">
                                 {smoothie.steps}

@@ -3,16 +3,20 @@ import { Link } from 'react-router-dom';
 import { HeartPulse, Leaf, ArrowRight, Search, X } from 'lucide-react';
 import { fruits } from '../data/fruits';
 import FruitCard from '../components/FruitCard';
-import tips from '../data/tips.json';
+import tipsEN from '../data/tips.json';
+import tipsTranslations from '../data/tips_i18n';
+import { useT, useLanguage } from '../i18n/LanguageContext';
 
 const INITIAL_LIMIT = 20;
 const SCROLL_KEY = 'freshListScrollPos';
 const SHOW_ALL_KEY = 'freshListShowAll';
 
 export default function Home() {
+    const t = useT();
+    const { language } = useLanguage();
     const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
     const [query, setQuery] = useState('');
-    const [dailyTip, setDailyTip] = useState(null);
+    const [dailyTipIndex, setDailyTipIndex] = useState(null);
 
     const filtered = query.trim()
         ? fruits.filter(f => f.name.toLowerCase().includes(query.toLowerCase()))
@@ -44,10 +48,14 @@ export default function Home() {
     }, []);
 
     useEffect(() => {
-        if (tips && tips.length > 0) {
-            setDailyTip(tips[Math.floor(Math.random() * tips.length)]);
+        if (tipsEN && tipsEN.length > 0) {
+            setDailyTipIndex(Math.floor(Math.random() * tipsEN.length));
         }
     }, []);
+
+    // Pick tip in current language, fall back to English
+    const tips = language !== 'en' && tipsTranslations[language] ? tipsTranslations[language] : tipsEN;
+    const dailyTip = dailyTipIndex !== null ? tips[dailyTipIndex] : null;
 
     return (
         <div className="relative min-h-screen pb-32">
@@ -65,21 +73,26 @@ export default function Home() {
                         </div>
                     )}
                     <Link to="/benefits" className="inline-flex items-center gap-2 bg-orange-500 text-gray-900 px-10 py-3 rounded-full font-black shadow-lg text-[13px] uppercase tracking-[0.2em] active:scale-95 transition-all whitespace-nowrap">
-                        <HeartPulse className="w-4 h-4" /> Explore Benefits
+                        <HeartPulse className="w-4 h-4" /> {t('home.exploreBtn')}
                     </Link>
                 </div>
             </section>
 
-            {/* HERO IMAGE: smoothie image like original */}
+            {/* HERO MOSAIC */}
             <div className="w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
-                <img src="/images/smoothies/black_seed_cure.webp" className="w-full h-full object-cover" alt="Fresh Foods Hero" />
+                <div className="w-full h-full grid grid-cols-2 grid-rows-2">
+                    <img src="/images/fresh/dragonfruit.webp" className="w-full h-full object-cover" alt="" />
+                    <img src="/images/fresh/mango.webp" className="w-full h-full object-cover" alt="" />
+                    <img src="/images/fresh/pomegranate.webp" className="w-full h-full object-cover" alt="" />
+                    <img src="/images/fresh/blueberries.webp" className="w-full h-full object-cover" alt="" />
+                </div>
             </div>
 
             {/* TITLE — below hero image, before the list */}
             <div className="pb-4 text-center max-w-2xl mx-auto px-4">
-                <h1 className="text-4xl md:text-5xl font-black mb-2">Fresh Foods</h1>
+                <h1 className="text-4xl md:text-5xl font-black mb-2">{t('home.title')}</h1>
                 <p className="text-lg text-gray-600 dark:text-gray-400">
-                    103 exotic fruits & foods. Each one worth knowing.
+                    {t('home.subtitle')}
                 </p>
             </div>
 
@@ -90,7 +103,7 @@ export default function Home() {
                         type="text"
                         value={query}
                         onChange={e => handleQueryChange(e.target.value)}
-                        placeholder="Search Fresh Foods..."
+                        placeholder={t('home.searchPlaceholder')}
                         className="savage-search w-full pl-12 pr-10 py-3 rounded-2xl focus:outline-none focus:ring-2 focus:ring-orange-500 transition"
                         style={{ background: '#FFF8F0', border: '2px solid #F97316', color: '#111827' }}
                     />
@@ -114,7 +127,7 @@ export default function Home() {
                         </div>
                     ))}
                     {filtered.length === 0 && (
-                        <p className="text-center text-gray-400 py-8">No results for "{query}"</p>
+                        <p className="text-center text-gray-400 py-8">{t('home.noResults', { query })}</p>
                     )}
                 </div>
 
@@ -124,7 +137,7 @@ export default function Home() {
                             onClick={() => setShowAll(true)}
                             className="group flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-10 py-4 rounded-2xl text-xs font-black uppercase tracking-widest shadow-lg active:scale-95 transition-all"
                         >
-                            View All Fresh Items <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-all" />
+                            {t('home.viewAll')} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-all" />
                         </button>
                     </div>
                 )}

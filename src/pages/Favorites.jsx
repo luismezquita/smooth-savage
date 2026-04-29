@@ -7,17 +7,20 @@ import SmoothieCard from '../components/SmoothieCard';
 import SuperfoodCard from '../components/SuperfoodCard';
 import { Link } from 'react-router-dom';
 import { savageFoods } from '../data/superfoods';
+import { useT } from '../i18n/LanguageContext';
 
+// Internal keys stay in English so categorize() matches correctly
 const FILTERS = ['Fresh', 'Savage', 'Smoothies'];
 
 export default function Favorites() {
+    const t = useT();
     const { favorites } = useFavorites();
     const [active, setActive] = useState(new Set(FILTERS));
 
-    const toggle = (label) => {
+    const toggle = (key) => {
         setActive(prev => {
             const next = new Set(prev);
-            next.has(label) ? next.delete(label) : next.add(label);
+            next.has(key) ? next.delete(key) : next.add(key);
             return next;
         });
     };
@@ -29,6 +32,12 @@ export default function Favorites() {
     };
 
     const displayed = favorites.filter(item => active.has(categorize(item)));
+
+    const filterLabels = {
+        Fresh: t('favorites.filterFresh'),
+        Savage: t('favorites.filterSavage'),
+        Smoothies: t('favorites.filterSmoothies'),
+    };
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -45,18 +54,18 @@ export default function Favorites() {
                     <Heart className="w-8 h-8 fill-current" />
                 </div>
                 <div>
-                    <h1 className="text-3xl md:text-4xl font-black">Your Favorites</h1>
+                    <h1 className="text-3xl md:text-4xl font-black">{t('favorites.title')}</h1>
                 </div>
             </motion.div>
 
             <div className="flex gap-3 mb-8 flex-wrap">
-                {FILTERS.map(label => (
+                {FILTERS.map(key => (
                     <button
-                        key={label}
-                        onClick={() => toggle(label)}
-                        className={`px-5 py-2 rounded-full text-sm font-bold transition-colors ${active.has(label) ? 'bg-green-500 text-white' : 'bg-orange-500 text-white'}`}
+                        key={key}
+                        onClick={() => toggle(key)}
+                        className={`px-5 py-2 rounded-full text-sm font-bold transition-colors ${active.has(key) ? 'bg-green-500 text-white' : 'bg-orange-500 text-white'}`}
                     >
-                        {label}
+                        {filterLabels[key]}
                     </button>
                 ))}
             </div>
@@ -68,8 +77,8 @@ export default function Favorites() {
                     className="text-center py-20 bg-gray-50 dark:bg-gray-800/50 rounded-3xl border border-dashed border-gray-200 dark:border-gray-700"
                 >
                     <Heart className="w-16 h-16 mx-auto text-gray-300 dark:text-gray-600 mb-4" />
-                    <h2 className="text-xl font-bold mb-2">No favorites yet</h2>
-                    <p className="text-gray-500 dark:text-gray-400">Save items you love to find them here.</p>
+                    <h2 className="text-xl font-bold mb-2">{t('favorites.emptyTitle')}</h2>
+                    <p className="text-gray-500 dark:text-gray-400">{t('favorites.emptyDesc')}</p>
                 </motion.div>
             ) : (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-8">

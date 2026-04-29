@@ -3,12 +3,14 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Search, X } from 'lucide-react';
 import { smoothies } from '../data/smoothies';
 import SmoothieCard from '../components/SmoothieCard';
+import { useT } from '../i18n/LanguageContext';
 
 const INITIAL_LIMIT = 10;
 const SCROLL_KEY = 'smoothiesListScrollPos';
 const SHOW_ALL_KEY = 'smoothiesListShowAll';
 
 export default function Smoothies() {
+    const t = useT();
     const [query, setQuery] = useState('');
     const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
 
@@ -51,9 +53,9 @@ export default function Smoothies() {
                 animate={{ opacity: 1, y: 0 }}
                 className="mb-12 text-center max-w-2xl mx-auto"
             >
-                <h1 className="text-4xl md:text-5xl font-black mb-4">Savage Smoothies</h1>
+                <h1 className="text-4xl md:text-5xl font-black mb-4">{t('smoothies.title')}</h1>
                 <p className="text-lg text-gray-600 dark:text-gray-400">
-                    60 blends. Every one built to do something.
+                    {t('smoothies.subtitle')}
                 </p>
             </motion.div>
 
@@ -74,7 +76,7 @@ export default function Smoothies() {
                         type="text"
                         value={query}
                         onChange={e => handleQueryChange(e.target.value)}
-                        placeholder="Search by ingredient..."
+                        placeholder={t('smoothies.searchPlaceholder')}
                         className="w-full pl-12 pr-10 py-3 rounded-2xl bg-gray-100 dark:bg-white/5 text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                     />
                     {query && (
@@ -88,15 +90,17 @@ export default function Smoothies() {
                 </div>
                 {query && (
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400 text-center">
-                        {filtered.length} smoothie{filtered.length !== 1 ? 's' : ''} with "{query}"
+                        {filtered.length !== 1
+                            ? t('smoothies.searchResultsPlural', { n: filtered.length, query })
+                            : t('smoothies.searchResults', { n: filtered.length, query })}
                     </p>
                 )}
             </div>
 
             <div className="flex justify-between items-end mb-8">
                 <div>
-                    <h2 className="text-3xl font-bold mb-2">All Smoothies</h2>
-                    <p className="text-gray-500 dark:text-gray-400">Explore our delicious blends</p>
+                    <h2 className="text-3xl font-bold mb-2">{t('smoothies.allHeading')}</h2>
+                    <p className="text-gray-500 dark:text-gray-400">{t('smoothies.allSub')}</p>
                 </div>
             </div>
 
@@ -115,7 +119,7 @@ export default function Smoothies() {
             </div>
 
             {filtered.length === 0 && (
-                <p className="text-center text-gray-400 mt-12">No smoothies found with that ingredient.</p>
+                <p className="text-center text-gray-400 mt-12">{t('smoothies.noResults')}</p>
             )}
 
             {hasMore && (
@@ -124,7 +128,7 @@ export default function Smoothies() {
                         onClick={() => setShowAll(true)}
                         className="group flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-10 py-4 rounded-2xl text-xs font-black uppercase tracking-widest shadow-lg active:scale-95 transition-all"
                     >
-                        View All Smoothies <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-all" />
+                        {t('smoothies.viewAll')} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-all" />
                     </button>
                 </div>
             )}

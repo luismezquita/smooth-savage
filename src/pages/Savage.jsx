@@ -2,12 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, Search, X } from 'lucide-react';
 import { savageFoods } from '../data/superfoods';
 import SuperfoodCard from '../components/SuperfoodCard';
+import { useT } from '../i18n/LanguageContext';
 
 const INITIAL_LIMIT = 8;
 const SCROLL_KEY = 'savageListScrollPos';
 const SHOW_ALL_KEY = 'savageListShowAll';
 
 export default function Savage() {
+    const t = useT();
     const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
     const [query, setQuery] = useState('');
 
@@ -44,19 +46,20 @@ export default function Savage() {
 
             {/* Header */}
             <div className="mb-10 text-center max-w-2xl mx-auto">
-                <h1 className="text-4xl md:text-5xl font-black mb-4">Savage Foods</h1>
+                <h1 className="text-4xl md:text-5xl font-black mb-4">{t('savage.title')}</h1>
                 <p className="text-lg text-gray-600 dark:text-gray-400">
-                    49 superfoods. All of them savage.
+                    {t('savage.subtitle')}
                 </p>
             </div>
 
-            {/* Hero image */}
+            {/* Hero mosaic */}
             <div className="w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
-                <img
-                    src="/images/savage/savage_cover.webp"
-                    alt="Savage Foods"
-                    className="w-full h-full object-cover"
-                />
+                <div className="w-full h-full grid grid-cols-2 grid-rows-2">
+                    <img src="/images/savage/lions_mane.webp" className="w-full h-full object-cover" alt="" />
+                    <img src="/images/savage/curcumin.webp" className="w-full h-full object-cover" alt="" />
+                    <img src="/images/savage/spirulina.webp" className="w-full h-full object-cover" alt="" />
+                    <img src="/images/savage/chaga_mushroom.webp" className="w-full h-full object-cover" alt="" />
+                </div>
             </div>
 
             {/* Search bar */}
@@ -67,7 +70,7 @@ export default function Savage() {
                         type="text"
                         value={query}
                         onChange={e => handleQueryChange(e.target.value)}
-                        placeholder="Search Savage Foods..."
+                        placeholder={t('savage.searchPlaceholder')}
                         className="savage-search w-full pl-12 pr-10 py-3 rounded-2xl focus:outline-none focus:ring-2 focus:ring-orange-500 transition"
                         style={{ background: '#FFF8F0', border: '2px solid #F97316', color: '#111827' }}
                     />
@@ -79,7 +82,9 @@ export default function Savage() {
                 </div>
                 {query && (
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400 text-center">
-                        {filtered.length} superfood{filtered.length !== 1 ? 's' : ''} with "{query}"
+                        {filtered.length !== 1
+                            ? t('savage.searchResultsPlural', { n: filtered.length, query })
+                            : t('savage.searchResults', { n: filtered.length, query })}
                     </p>
                 )}
             </div>
@@ -98,7 +103,7 @@ export default function Savage() {
                     </div>
                 ))}
                 {filtered.length === 0 && (
-                    <p className="text-center text-gray-400 py-8">No results for "{query}"</p>
+                    <p className="text-center text-gray-400 py-8">{t('savage.noResults', { query })}</p>
                 )}
             </div>
 
@@ -108,7 +113,7 @@ export default function Savage() {
                         onClick={() => setShowAll(true)}
                         className="group flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-10 py-4 rounded-2xl text-xs font-black uppercase tracking-widest shadow-lg active:scale-95 transition-all"
                     >
-                        View All Savage Foods <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-all" />
+                        {t('savage.viewAll')} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-all" />
                     </button>
                 </div>
             )}

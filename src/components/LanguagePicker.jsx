@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { X } from 'lucide-react';
+import { useLanguage } from '../i18n/LanguageContext';
 
-const LANGUAGES = [
+export const LANGUAGES = [
     { code: 'en', label: 'English',   native: 'English',    flag: '🇬🇧', dir: 'ltr' },
     { code: 'zh', label: 'Chinese',   native: '中文',        flag: '🇨🇳', dir: 'ltr' },
     { code: 'ja', label: 'Japanese',  native: '日本語',      flag: '🇯🇵', dir: 'ltr' },
@@ -12,36 +13,16 @@ const LANGUAGES = [
     { code: 'fr', label: 'French',    native: 'Français',   flag: '🇫🇷', dir: 'ltr' },
 ];
 
-export function useLanguage() {
-    const [language, setLanguage] = useState(() => {
-        return localStorage.getItem('ss_language') || 'en';
-    });
-
-    const changeLanguage = (code) => {
-        localStorage.setItem('ss_language', code);
-        setLanguage(code);
-        document.documentElement.lang = code;
-        // RTL support will be activated when translations are added
-    };
-
-    useEffect(() => {
-        document.documentElement.lang = language;
-    }, []);
-
-    return { language, changeLanguage, languages: LANGUAGES };
-}
-
-export default function LanguagePicker({ isOpen, onClose, language, changeLanguage }) {
+export default function LanguagePicker({ isOpen, onClose }) {
+    const { language, changeLanguage, t } = useLanguage();
     const [closing, setClosing] = useState(false);
     const autoCloseRef = React.useRef(null);
 
-    // When isOpen goes false from outside, trigger closing animation
     useEffect(() => {
         if (!isOpen) setClosing(false);
     }, [isOpen]);
 
     const handleClose = () => {
-        // Clear any pending auto-close timer
         if (autoCloseRef.current) {
             clearTimeout(autoCloseRef.current);
             autoCloseRef.current = null;
@@ -55,9 +36,7 @@ export default function LanguagePicker({ isOpen, onClose, language, changeLangua
 
     const handleSelect = (code) => {
         changeLanguage(code);
-        // Clear any previous timer
         if (autoCloseRef.current) clearTimeout(autoCloseRef.current);
-        // Auto-close after 3.5s if user doesn't press Done
         autoCloseRef.current = setTimeout(() => handleClose(), 3500);
     };
 
@@ -102,7 +81,7 @@ export default function LanguagePicker({ isOpen, onClose, language, changeLangua
 
                     {/* Header */}
                     <div className="flex items-center justify-between mb-6">
-                        <h2 className="text-lg font-bold text-gray-900">Language</h2>
+                        <h2 className="text-lg font-bold text-gray-900">{t('langPicker.title')}</h2>
                         <button
                             onClick={handleClose}
                             className="p-2 rounded-full text-amber-700 transition-colors"
@@ -153,7 +132,7 @@ export default function LanguagePicker({ isOpen, onClose, language, changeLangua
                         onClick={handleClose}
                         className="mt-5 w-full py-3.5 rounded-2xl bg-green-500 hover:bg-green-600 active:bg-green-700 text-white font-bold text-base transition-colors duration-200"
                     >
-                        Done
+                        {t('langPicker.done')}
                     </button>
                 </div>
             </div>

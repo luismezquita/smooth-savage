@@ -1,37 +1,22 @@
 import React, { useState } from 'react';
-import { NavLink, useNavigate, useLocation } from 'react-router-dom'; // Added hooks
+import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { Moon, Sun, Search, Zap, CupSoda, Heart, Globe } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 import { StrawberryIcon } from './StrawberryIcon';
-import LanguagePicker, { useLanguage } from './LanguagePicker';
-
-const iconMap = {
-    'fresa-icon': StrawberryIcon,
-    'spark-icon': Zap,
-    'vaso-icon': CupSoda,
-    'heart-icon': Heart
-};
+import LanguagePicker from './LanguagePicker';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export default function Navbar() {
     const { isDark, toggleTheme } = useTheme();
     const navigate = useNavigate();
     const location = useLocation();
     const [langOpen, setLangOpen] = useState(false);
-    const { language, changeLanguage } = useLanguage();
+    const { t } = useLanguage();
 
-    // SAVAGE SCROLL LOGIC: 
-    // If on Home, scroll to top. If elsewhere, go to Home.
     const handleFreshClick = (e) => {
         if (location.pathname === '/') {
-            // If already on the home page, prevent navigation and force scroll
             e.preventDefault();
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'smooth'
-            });
-
-            // Backup: Force-jump if smooth behavior fails
+            window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
             document.documentElement.scrollTop = 0;
             document.body.scrollTop = 0;
         }
@@ -42,7 +27,7 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
 
-                    {/* LOGO SECTION */}
+                    {/* LOGO */}
                     <NavLink to="/" onClick={handleFreshClick} className="flex items-center group">
                         <div className="flex items-center transform group-hover:scale-105 transition-transform duration-300">
                             <span className="text-4xl flex items-center gap-1.5" style={{ fontFamily: "'Poppins', sans-serif" }}>
@@ -52,7 +37,7 @@ export default function Navbar() {
                         </div>
                     </NavLink>
 
-                    {/* DESKTOP NAV: Updated Fresh link with scroll logic */}
+                    {/* DESKTOP NAV */}
                     <div className="hidden md:flex items-center gap-8">
                         <NavLink
                             to="/"
@@ -60,19 +45,19 @@ export default function Navbar() {
                             className={({ isActive }) => `flex items-center gap-1.5 font-medium transition-colors ${isActive ? 'text-fruit-green' : 'text-gray-600 dark:text-gray-300 hover:text-fruit-green'}`}
                         >
                             <StrawberryIcon className="w-4 h-4" strokeWidth={2} />
-                            Fresh
+                            {t('nav.fresh')}
                         </NavLink>
 
                         <NavLink to="/savage" className="flex items-center gap-1.5 font-medium text-gray-600 dark:text-gray-300 hover:text-fruit-green">
-                            <Zap className="w-4 h-4" /> Savage
+                            <Zap className="w-4 h-4" /> {t('nav.savage')}
                         </NavLink>
 
                         <NavLink to="/smoothies" className="flex items-center gap-1.5 font-medium text-gray-600 dark:text-gray-300 hover:text-fruit-green">
-                            <CupSoda className="w-4 h-4" /> Smoothies
+                            <CupSoda className="w-4 h-4" /> {t('nav.smoothies')}
                         </NavLink>
 
                         <NavLink to="/favorites" className="flex items-center gap-1.5 font-medium text-gray-600 dark:text-gray-300 hover:text-fruit-green">
-                            <Heart className="w-4 h-4" /> Favorites
+                            <Heart className="w-4 h-4" /> {t('nav.favorites')}
                         </NavLink>
                     </div>
 
@@ -80,7 +65,7 @@ export default function Navbar() {
                         <button
                             onClick={() => setLangOpen(true)}
                             className="p-2 rounded-full text-amber-800 dark:text-gray-300 hover:bg-amber-200/50 dark:hover:bg-gray-800 transition-colors"
-                            aria-label="Select language"
+                            aria-label={t('nav.language')}
                         >
                             <Globe className="w-5 h-5" />
                         </button>
@@ -95,8 +80,6 @@ export default function Navbar() {
                     <LanguagePicker
                         isOpen={langOpen}
                         onClose={() => setLangOpen(false)}
-                        language={language}
-                        changeLanguage={changeLanguage}
                     />
                 </div>
             </div>

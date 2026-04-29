@@ -1,11 +1,15 @@
 import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Heart, Info, Sparkles, Zap } from 'lucide-react';
+import { ArrowLeft, Heart, Info, Sparkles, Zap, Target, CheckCircle2 } from 'lucide-react';
 import { savageFoods } from '../data/superfoods';
 import { useFavorites } from '../hooks/useFavorites';
+import { useT, useLanguage } from '../i18n/LanguageContext';
+import itemTipsI18n from '../data/item_tips_i18n';
 
 export default function SuperfoodDetail() {
+    const t = useT();
+    const { language } = useLanguage();
     const { id } = useParams();
     const navigate = useNavigate();
     const { isFavorite, toggleFavorite } = useFavorites();
@@ -66,6 +70,34 @@ export default function SuperfoodDetail() {
                 <div className="grid md:grid-cols-3 gap-8">
 
                     <div className="md:col-span-2 space-y-8">
+                        {/* Main Benefits */}
+                        {superfood.mainBenefits && (
+                            <motion.section
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ delay: 0.2 }}
+                                className="bg-white dark:bg-gray-800 rounded-3xl p-6 md:p-8 shadow-sm border border-gray-100 dark:border-gray-700"
+                            >
+                                <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+                                    <Target className={`text-${superfood.color || 'purple'}-500`} />
+                                    {t('detail.mainBenefits')}
+                                </h2>
+                                <div className="space-y-6">
+                                    {superfood.mainBenefits.map((benefit, i) => (
+                                        <div key={i} className="flex gap-4">
+                                            <div className={`mt-1 bg-${superfood.color || 'purple'}-100 dark:bg-${superfood.color || 'purple'}-900/30 p-2 rounded-xl h-fit`}>
+                                                <CheckCircle2 className={`w-5 h-5 text-${superfood.color || 'purple'}-600 dark:text-${superfood.color || 'purple'}-400`} />
+                                            </div>
+                                            <div>
+                                                <h3 className="text-lg font-bold mb-1 text-gray-900 dark:text-gray-100">{benefit.title}</h3>
+                                                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{benefit.description}</p>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </motion.section>
+                        )}
+
                         {/* Synergy tip */}
                         {superfood.synergy && (
                             <motion.section
@@ -76,7 +108,7 @@ export default function SuperfoodDetail() {
                             >
                                 <h2 className={`text-xl font-bold mb-3 flex items-center gap-2 text-${superfood.color || 'purple'}-800 dark:text-${superfood.color || 'purple'}-400`}>
                                     <Zap className="w-5 h-5" />
-                                    Synergy Pairing
+                                    {t('detail.synergy')}
                                 </h2>
                                 <p className={`text-${superfood.color || 'purple'}-900 dark:text-${superfood.color || 'purple'}-200/80 leading-relaxed`}>
                                     {superfood.synergy}
@@ -94,10 +126,10 @@ export default function SuperfoodDetail() {
                             >
                                 <h2 className={`text-xl font-bold mb-3 flex items-center gap-2 text-${superfood.color || 'purple'}-800 dark:text-${superfood.color || 'purple'}-400`}>
                                     <Sparkles className="w-5 h-5" />
-                                    Daily Tip
+                                    {t('detail.dailyTip')}
                                 </h2>
                                 <p className={`text-${superfood.color || 'purple'}-900 dark:text-${superfood.color || 'purple'}-200/80 leading-relaxed`}>
-                                    {superfood.tips}
+                                    {(language !== 'en' && itemTipsI18n[language]?.[superfood.id]) || superfood.tips}
                                 </p>
                             </motion.section>
                         )}
@@ -114,7 +146,7 @@ export default function SuperfoodDetail() {
                             >
                                 <h2 className="text-lg font-bold mb-4 flex items-center gap-2">
                                     <Info className="w-5 h-5 text-gray-400" />
-                                    Key Nutrients
+                                    {t('detail.keyNutrients')}
                                 </h2>
                                 <div className="flex flex-wrap gap-2">
                                     {superfood.nutrients.map((n, i) => (
