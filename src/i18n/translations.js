@@ -51,7 +51,7 @@ const translations = {
             emptyDesc: 'Save items you love to find them here.',
         },
         search: {
-            placeholder: 'Search smoothies by name or ingredient...',
+            placeholder: 'Search by ingredient...',
             freshSection: 'Fresh',
             savageSection: 'Savage',
             noResults: 'No results found',
@@ -138,7 +138,7 @@ const translations = {
             emptyDesc: 'Guarda los que te gusten para encontrarlos aquí.',
         },
         search: {
-            placeholder: 'Buscar batidos por nombre o ingrediente...',
+            placeholder: 'Buscar por ingrediente...',
             freshSection: 'Fresco',
             savageSection: 'Salvaje',
             noResults: 'Sin resultados',
@@ -225,7 +225,7 @@ const translations = {
             emptyDesc: 'Sauvegardez vos coups de cœur pour les retrouver ici.',
         },
         search: {
-            placeholder: 'Rechercher des smoothies par nom ou ingrédient...',
+            placeholder: 'Rechercher par ingrédient...',
             freshSection: 'Frais',
             savageSection: 'Sauvage',
             noResults: 'Aucun résultat trouvé',
@@ -312,7 +312,7 @@ const translations = {
             emptyDesc: '收藏喜欢的内容，在这里找到它们。',
         },
         search: {
-            placeholder: '按名称或食材搜索果昔...',
+            placeholder: '按食材搜索...',
             freshSection: '新鲜',
             savageSection: '野性',
             noResults: '未找到结果',
@@ -399,7 +399,7 @@ const translations = {
             emptyDesc: 'お気に入りに保存してここで確認。',
         },
         search: {
-            placeholder: '名前や材料でスムージーを検索...',
+            placeholder: '食材で検索...',
             freshSection: 'フレッシュ',
             savageSection: 'サベージ',
             noResults: '結果が見つかりません',
@@ -486,7 +486,7 @@ const translations = {
             emptyDesc: '마음에 드는 항목을 저장하면 여기서 찾을 수 있어요.',
         },
         search: {
-            placeholder: '이름 또는 재료로 스무디 검색...',
+            placeholder: '재료로 검색...',
             freshSection: '신선',
             savageSection: '새비지',
             noResults: '결과를 찾을 수 없습니다',
@@ -573,7 +573,7 @@ const translations = {
             emptyDesc: 'احفظ ما تحبه لتجده هنا.',
         },
         search: {
-            placeholder: 'ابحث عن العصائر بالاسم أو المكون...',
+            placeholder: 'ابحث بالمكون...',
             freshSection: 'طازج',
             savageSection: 'وحشي',
             noResults: 'لا نتائج',
