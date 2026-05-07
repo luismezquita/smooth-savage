@@ -1,0 +1,2568 @@
+{
+  "blueberries": [
+    {
+      "title": "Memoria y Cognición",
+      "description": "Las antocianinas se acumulan en los centros de memoria del cerebro, mejorando el aprendizaje, la memoria de trabajo y el recuerdo a largo plazo con un consumo regular."
+    },
+    {
+      "title": "Protección Neuronal",
+      "description": "Los polifenoles reducen el estrés oxidativo en el tejido cerebral y protegen las neuronas del daño asociado al envejecimiento, frenando el deterioro cognitivo más que la mayoría de las frutas."
+    },
+    {
+      "title": "Reducción de la Presión Arterial",
+      "description": "El consumo regular reduce la presión sistólica al relajar las paredes de los vasos sanguíneos a través de múltiples mecanismos antioxidantes, beneficiando la salud cardiovascular a largo plazo."
+    },
+    {
+      "title": "Reparación del ADN",
+      "description": "El pterostilbeno activa los mecanismos celulares de reparación del ADN, ofreciendo efectos antienvejecimiento a nivel genético que no se encuentran en otras frutas."
+    }
+  ],
+  "apples": [
+    {
+      "title": "Potencia Prebiótica",
+      "description": "La fibra de pectina fermenta en el intestino y produce butirato, el combustible preferido de las células del colon, mejorando la integridad del revestimiento intestinal y reduciendo la inflamación digestiva."
+    },
+    {
+      "title": "Regulador del Azúcar en Sangre",
+      "description": "La fibra soluble ralentiza la liberación de glucosa, previniendo picos y bajadas que generan hambre, fatiga y disfunción metabólica a largo plazo."
+    },
+    {
+      "title": "Aliado del Corazón",
+      "description": "La quercetina y las catequinas reducen la oxidación del LDL y protegen la salud arterial, asociándose con un menor riesgo cardiovascular en quienes las consumen regularmente."
+    },
+    {
+      "title": "Diversidad del Microbioma",
+      "description": "El consumo habitual aumenta de forma notable las bacterias beneficiosas como Lactobacillus y Bifidobacterium, fortaleciendo tanto la salud digestiva como el sistema inmunitario."
+    }
+  ],
+  "bananas": [
+    {
+      "title": "Energía Sostenida",
+      "description": "Tres azúcares naturales —glucosa, fructosa y sacarosa— más fibra soluble proporcionan un impulso inmediato seguido de una liberación de energía lenta y constante durante horas."
+    },
+    {
+      "title": "Elevador Natural del Ánimo",
+      "description": "El triptófano se convierte en serotonina en el cuerpo, mejorando directamente el estado de ánimo, reduciendo la ansiedad y apoyando el bienestar emocional a lo largo del día."
+    },
+    {
+      "title": "Recuperación Muscular",
+      "description": "El potasio y el magnesio reponen los electrolitos perdidos durante el ejercicio, reduciendo los calambres y acelerando la recuperación física."
+    },
+    {
+      "title": "Función Cerebral Mejorada",
+      "description": "La vitamina B6 es esencial para la producción de dopamina y serotonina, neurotransmisores clave para el enfoque, la motivación y la claridad mental."
+    }
+  ],
+  "oranges": [
+    {
+      "title": "Potencia Inmunitaria",
+      "description": "Una naranja mediana aporta casi el 100% de la vitamina C diaria necesaria, activando la producción de células inmunitarias y ofreciendo una amplia protección antioxidante."
+    },
+    {
+      "title": "Hesperidina para la Salud Vascular",
+      "description": "Una de las fuentes más ricas en hesperidina, un flavonoide que refuerza las paredes de los vasos sanguíneos, reduce la inflamación y ha mostrado efectos neuroprotectores."
+    },
+    {
+      "title": "Folato para la Salud Celular",
+      "description": "Buena fuente de folato, que apoya la síntesis de ADN, la formación de glóbulos rojos y la división celular saludable, especialmente importante durante el embarazo."
+    },
+    {
+      "title": "Soporte para la Producción de Colágeno",
+      "description": "La vitamina C es el cofactor esencial para la síntesis de colágeno, manteniendo la firmeza de la piel, la integridad articular, la cicatrización y la salud arterial."
+    }
+  ],
+  "strawberries": [
+    {
+      "title": "Acción Senolítica de la Fisetina",
+      "description": "Las fresas son la principal fuente alimentaria de fisetina, un flavonoide que elimina selectivamente las células senescentes que liberan señales inflamatorias y aceleran el envejecimiento."
+    },
+    {
+      "title": "Protección Cardiovascular",
+      "description": "Las antocianinas y el ácido elágico reducen la inflamación arterial, protegen el LDL de la oxidación y mejoran la función de los vasos sanguíneos."
+    },
+    {
+      "title": "Potencia Inmunitaria",
+      "description": "Una de las frutas más ricas en vitamina C, aportando más del 100% de las necesidades diarias en una sola ración, con una activación inmediata del sistema inmunitario."
+    },
+    {
+      "title": "Colágeno y Salud de la Piel",
+      "description": "La vitamina C y el ácido elágico trabajan juntos para estimular la síntesis de colágeno y proteger la piel del daño UV y el envejecimiento oxidativo."
+    }
+  ],
+  "avocado": [
+    {
+      "title": "Reductor del Colesterol LDL",
+      "description": "El beta-sitosterol bloquea físicamente la absorción intestinal del colesterol dietético, produciendo reducciones mensurables del LDL con un consumo regular."
+    },
+    {
+      "title": "Grasas Protectoras del Corazón",
+      "description": "El ácido oleico —la misma grasa monoinsaturada del aceite de oliva— reduce la inflamación sistémica y ha demostrado reducir la presión arterial en múltiples estudios."
+    },
+    {
+      "title": "Potencia de Potasio",
+      "description": "Contiene más potasio que los plátanos, ayudando a regular la presión arterial, mantener el ritmo cardíaco y equilibrar los electrolitos en todo el cuerpo."
+    },
+    {
+      "title": "Amplificador de Absorción de Nutrientes",
+      "description": "Las vitaminas liposolubles A, D, E y K se absorben hasta 15 veces más eficientemente al consumirlas junto con aguacate, potenciando cualquier comida rica en vegetales."
+    }
+  ],
+  "kiwi": [
+    {
+      "title": "Vitamina C de Grado Inmunitario",
+      "description": "Un kiwi mediano aporta más del 100% de las necesidades diarias de vitamina C, con una protección antioxidante superior a la de muchas frutas cítricas."
+    },
+    {
+      "title": "Ayuda a la Digestión de Proteínas",
+      "description": "La enzima actinidina digiere eficazmente las proteínas de lácteos, carnes y pescados, convirtiéndolo en un digestivo natural ideal tras comidas ricas en proteínas."
+    },
+    {
+      "title": "Mejora la Calidad del Sueño",
+      "description": "Los precursores de serotonina y los antioxidantes del kiwi han demostrado en estudios clínicos mejorar el inicio, la duración y la calidad del sueño con su consumo regular antes de dormir."
+    },
+    {
+      "title": "Anticoagulante Natural",
+      "description": "Los polifenoles reducen la agregación plaquetaria de forma similar a la aspirina en dosis bajas, beneficiando la salud cardiovascular sin los riesgos gastrointestinales de los medicamentos."
+    }
+  ],
+  "pineapple": [
+    {
+      "title": "Poder Digestivo de la Bromelina",
+      "description": "La única fuente alimentaria de bromelina, una enzima proteolítica tan potente que se usa como fármaco en medicina europea para reducir la inflamación postquirúrgica."
+    },
+    {
+      "title": "Antiinflamatorio Articular",
+      "description": "La bromelina reduce la inflamación y el dolor en articulaciones y lesiones con una eficacia comparable a algunos antiinflamatorios, sin los efectos adversos gastrointestinales."
+    },
+    {
+      "title": "Activación del Sistema Inmunitario",
+      "description": "La vitamina C y el manganeso juntos apoyan la producción de células inmunitarias y la función de las enzimas antioxidantes, proporcionando una protección inmunitaria completa."
+    },
+    {
+      "title": "Soporte para Huesos y Tejido Conectivo",
+      "description": "El manganeso es esencial para la formación de la matriz ósea y el cartílago, haciendo del piña una fruta valiosa para la salud articular y la prevención de lesiones."
+    }
+  ],
+  "mango": [
+    {
+      "title": "Campeón del Sistema Inmunitario",
+      "description": "Rico en vitaminas A y C, el mango ofrece un apoyo inmunitario dual: activa la producción de glóbulos blancos y protege las células inmunitarias del daño oxidativo."
+    },
+    {
+      "title": "Protección Cerebral con Mangiferina",
+      "description": "La mangiferina es un polifenol único del mango que combate los radicales libres y protege las células cerebrales del daño oxidativo asociado al envejecimiento cognitivo."
+    },
+    {
+      "title": "Apoyo a las Enzimas Digestivas",
+      "description": "Contiene amilasas que ayudan a descomponer los hidratos de carbono complejos, mejorando la digestión y la absorción de nutrientes de los alimentos ricos en almidón."
+    },
+    {
+      "title": "Brillo y Renovación de la Piel",
+      "description": "El betacaroteno y la vitamina C juntos apoyan la renovación celular de la piel, la producción de colágeno y la protección contra el envejecimiento por UV."
+    }
+  ],
+  "raspberries": [
+    {
+      "title": "Campeona en Fibra Digestiva",
+      "description": "Entre las frutas con mayor contenido en fibra, apoya la regularidad intestinal, alimenta las bacterias beneficiosas del intestino y contribuye a una gestión saludable del colesterol."
+    },
+    {
+      "title": "Protección Anticancerígena con Ácido Elágico",
+      "description": "El ácido elágico se une a los carcinógenos en el intestino y el torrente sanguíneo facilitando su eliminación antes de que puedan dañar el ADN celular."
+    },
+    {
+      "title": "Control del Azúcar en Sangre",
+      "description": "Bajo índice glucémico combinado con alta fibra y polifenoles que mejoran la sensibilidad a la insulina, haciendo de la frambuesa una de las frutas más beneficiosas para el metabolismo."
+    },
+    {
+      "title": "Acción Antiinflamatoria",
+      "description": "Las antocianinas y elagitaninos reducen la inflamación en todo el cuerpo, apoyando la salud articular, la protección cardiovascular y la recuperación tras el esfuerzo físico."
+    }
+  ],
+  "papaya": [
+    {
+      "title": "Enzima Digestiva Papaína",
+      "description": "Contiene papaína, una enzima proteolítica tan potente que se extrae para ablandadores de carne comerciales, convirtiéndola en el digestivo natural más eficaz tras comidas abundantes en proteína."
+    },
+    {
+      "title": "Apoyo Inmunitario y Antioxidante",
+      "description": "Las vitaminas A y C combinadas con el licopeno ofrecen una protección inmunitaria y antioxidante en tres capas, beneficiando tanto la inmunidad inmediata como la salud celular a largo plazo."
+    },
+    {
+      "title": "Renovación y Luminosidad de la Piel",
+      "description": "El betacaroteno y las enzimas de papaína trabajan interna y externamente para activar la renovación celular, reducir imperfecciones y mantener un cutis uniforme y luminoso."
+    },
+    {
+      "title": "Acción Antiinflamatoria",
+      "description": "La quimiopapaína y la papaína juntas reducen la inflamación sistémica y han sido estudiadas por su capacidad de aliviar el dolor y la hinchazón en articulaciones y tejidos."
+    }
+  ],
+  "lemons": [
+    {
+      "title": "Poder Inmunitario y Antioxidante",
+      "description": "El alto contenido en vitamina C activa las células inmunitarias y neutraliza los radicales libres, proporcionando una amplia protección antioxidante con solo una pequeña cantidad diaria."
+    },
+    {
+      "title": "Prevención de Cálculos Renales",
+      "description": "El ácido cítrico aumenta los niveles de citrato en la orina, inhibiendo físicamente la formación de cristales de oxalato cálcico, uno de los remedios naturales con más evidencia para los cálculos renales."
+    },
+    {
+      "title": "Activación de la Desintoxicación Hepática",
+      "description": "El d-limoneno de la cáscara de limón estimula las enzimas de desintoxicación del hígado, mejorando su capacidad para procesar y eliminar toxinas ambientales y residuos metabólicos."
+    },
+    {
+      "title": "Propiedades Antimicrobianas",
+      "description": "Los compuestos del zumo y la cáscara de limón inhiben el crecimiento de patógenos comunes, apoyando la salud bucal y las defensas naturales del organismo contra infecciones."
+    }
+  ],
+  "grapes": [
+    {
+      "title": "Protección Cardiovascular",
+      "description": "El resveratrol activa las sirtuinas —los genes de la longevidad que también activa la restricción calórica— protegiendo las paredes vasculares y frenando los mecanismos biológicos del envejecimiento cardiovascular."
+    },
+    {
+      "title": "Propiedades Anticoagulantes",
+      "description": "Los polifenoles previenen la agregación plaquetaria en el torrente sanguíneo, reduciendo significativamente el riesgo de trombos peligrosos, ictus e infarto."
+    },
+    {
+      "title": "Producción de Óxido Nítrico",
+      "description": "Los flavonoides estimulan la síntesis de óxido nítrico, que relaja las paredes vasculares, reduce la presión arterial y mejora la circulación en todo el organismo."
+    },
+    {
+      "title": "Potencial Anticancerígeno",
+      "description": "El resveratrol y la quercetina han demostrado en estudios de laboratorio su capacidad para frenar el crecimiento de células anómalas, ofreciendo un mecanismo natural prometedor de prevención del cáncer."
+    }
+  ],
+  "pomegranate": [
+    {
+      "title": "Rejuvenecimiento Mitocondrial",
+      "description": "Las punicalagins se convierten en el intestino en urolitina A, un compuesto que rejuvenece las mitocondrias envejecidas —uno de los mecanismos antienvejecimiento más potentes identificados en la ciencia de la nutrición."
+    },
+    {
+      "title": "Complejo Antiinflamatorio",
+      "description": "Las punicalagins son antiinflamatorios excepcionalmente potentes que reducen la inflamación en todo el cuerpo, apoyando la salud cardíaca, cerebral e inmunitaria."
+    },
+    {
+      "title": "Protección Cardiovascular",
+      "description": "Los antioxidantes protegen el LDL de la oxidación, reducen la formación de placas arteriales y mejoran el flujo sanguíneo, convirtiéndolo en uno de los alimentos cardioprotectores más estudiados."
+    },
+    {
+      "title": "Supremacía Antioxidante",
+      "description": "Contiene entre 2 y 3 veces más potencia antioxidante que el vino tinto o el té verde, protegiendo las células del daño oxidativo en todos los tejidos del cuerpo."
+    }
+  ],
+  "watermelon": [
+    {
+      "title": "L-Citrulina para el Rendimiento Muscular",
+      "description": "La fuente alimentaria más rica en L-citrulina, un aminoácido que se convierte en óxido nítrico en el torrente sanguíneo, dilatando los vasos, reduciendo la presión arterial y acelerando la recuperación muscular."
+    },
+    {
+      "title": "Poder Antioxidante del Licopeno",
+      "description": "Contiene más licopeno biodisponible que el tomate, un carotenoide con fuerte evidencia para reducir el riesgo de cáncer de próstata y enfermedades cardiovasculares."
+    },
+    {
+      "title": "Hidratación Superior",
+      "description": "El 92% de su contenido es agua con electrolitos naturales, proporcionando una hidratación celular rápida y eficiente tras el ejercicio, la exposición al calor o la enfermedad."
+    },
+    {
+      "title": "Antiinflamatorio e Inmunidad",
+      "description": "Las vitaminas A y C junto con el licopeno y la cucurbitacina E ofrecen una protección antioxidante multivía y activación inmunitaria en cada ración."
+    }
+  ],
+  "cherries": [
+    {
+      "title": "Auxiliar Natural del Sueño",
+      "description": "Uno de los pocos alimentos enteros que contiene melatonina de forma natural —la hormona que regula el ciclo sueño-vigilia— mejorando la rapidez de conciliación y la calidad general del descanso."
+    },
+    {
+      "title": "Potencia Antiinflamatoria",
+      "description": "Las antocianinas reducen la inflamación con una eficacia comparable a algunos antiinflamatorios, con evidencia sólida para aliviar el dolor y la hinchazón articular en la artritis."
+    },
+    {
+      "title": "Acelerador de la Recuperación Deportiva",
+      "description": "Reduce las agujetas y acelera la recuperación tras el ejercicio intenso, neutralizando el daño oxidativo inducido por el esfuerzo en el tejido muscular."
+    },
+    {
+      "title": "Alivio de la Gota",
+      "description": "Los compuestos de la cereza reducen los niveles de ácido úrico en sangre, disminuyendo de forma mensurable la frecuencia y la intensidad de los ataques de gota con un consumo regular."
+    }
+  ],
+  "peach": [
+    {
+      "title": "Nutrición y Luminosidad de la Piel",
+      "description": "El betacaroteno se convierte en vitamina A para la renovación celular de la piel, mientras la vitamina C apoya la síntesis de colágeno, manteniendo una piel firme y luminosa."
+    },
+    {
+      "title": "Estabilización del Azúcar en Sangre",
+      "description": "El ácido clorogénico ralentiza la liberación de glucosa del hígado, aplana los picos postprandiales y prolonga la ventana de energía estable tras comer."
+    },
+    {
+      "title": "Salud Ocular y Visual",
+      "description": "La luteína y la zeaxantina se acumulan en la retina, filtrando la luz azul dañina y protegiendo contra la degeneración macular y el desarrollo de cataratas."
+    },
+    {
+      "title": "Activación Inmunitaria",
+      "description": "Las vitaminas A y C combinadas apoyan los sistemas inmunitarios innato y adaptativo, mejorando la capacidad del organismo para reconocer y responder a las amenazas."
+    }
+  ],
+  "pear": [
+    {
+      "title": "Fibra Reductora del Colesterol",
+      "description": "Una de las mejores fuentes de fibra de pectina, que forma un gel en el intestino atrapando físicamente el colesterol y evitando que se absorba en el torrente sanguíneo."
+    },
+    {
+      "title": "Apoyo Digestivo Suave",
+      "description": "El alto contenido en fibra promueve la regularidad intestinal y alimenta las bacterias beneficiosas del intestino sin las molestias digestivas de otros alimentos ricos en fibra."
+    },
+    {
+      "title": "Salud Cardíaca",
+      "description": "La fibra soluble, el potasio y los antioxidantes trabajan juntos para reducir la presión arterial, bajar el colesterol y proteger las arterias de la inflamación y el daño oxidativo."
+    },
+    {
+      "title": "Equilibrio del Azúcar en Sangre",
+      "description": "El bajo índice glucémico combinado con el alto contenido en fibra ralentiza la absorción de glucosa, apoyando niveles estables de azúcar en sangre y reduciendo los bajones de energía tras las comidas."
+    }
+  ],
+  "plum": [
+    {
+      "title": "Digestivo Natural",
+      "description": "Rica en sorbitol, un alcohol de azúcar que estimula la producción de fluidos digestivos y el movimiento intestinal —uno de los remedios alimenticios más eficaces para el estreñimiento crónico."
+    },
+    {
+      "title": "Protección de la Densidad Ósea",
+      "description": "La vitamina K, el potasio y el boro trabajan juntos para optimizar la utilización del calcio en el tejido óseo, reduciendo la pérdida de masa ósea especialmente en mujeres."
+    },
+    {
+      "title": "Poder Antioxidante",
+      "description": "Las antocianinas y el ácido clorogénico ofrecen una potente protección antioxidante, reduciendo el daño celular de los radicales libres y el riesgo de enfermedades crónicas."
+    },
+    {
+      "title": "Apoyo a la Salud Cardíaca",
+      "description": "La fibra y el potasio juntos controlan la presión arterial y el colesterol, mientras que los antioxidantes protegen las paredes arteriales del daño oxidativo que impulsa las enfermedades cardiovasculares."
+    }
+  ],
+  "grapefruit": [
+    {
+      "title": "Potente Activador Inmunitario",
+      "description": "Media toronja aporta casi el 100% de las necesidades diarias de vitamina C, activando el sistema inmunitario y proporcionando una protección antioxidante integral en una sola ración."
+    },
+    {
+      "title": "Potenciador Metabólico",
+      "description": "La nariginina activa la misma vía metabólica que el ayuno, induciendo al hígado a quemar grasa y reducir los niveles de insulina, lo que hace de la toronja una fruta especialmente eficaz para el control del peso."
+    },
+    {
+      "title": "Reducción de la Presión Arterial",
+      "description": "El consumo regular reduce la presión sistólica a través de múltiples mecanismos, incluyendo la relajación arterial y los efectos antiinflamatorios sobre las paredes vasculares."
+    },
+    {
+      "title": "Riqueza en Licopeno",
+      "description": "Las variedades rosa y roja contienen licopeno significativo, un potente antioxidante con fuerte evidencia para reducir el riesgo de cáncer de próstata y enfermedades cardiovasculares."
+    }
+  ],
+  "coconut": [
+    {
+      "title": "Energía Rápida a través de los TCM",
+      "description": "Los triglicéridos de cadena media se convierten directamente en energía en el hígado sin acumularse como grasa, proporcionando un combustible rápido y limpio sin picos de azúcar."
+    },
+    {
+      "title": "Defensa Antimicrobiana",
+      "description": "El ácido láurico se convierte en monolaurina en el cuerpo, desorganizando las membranas lipídicas de bacterias, virus y hongos perjudiciales, reforzando las defensas naturales del organismo."
+    },
+    {
+      "title": "Combustible Cerebral a través de Cetonas",
+      "description": "Los TCM se convierten en cetonas que proporcionan una fuente de energía alternativa para el cerebro, mejorando la claridad mental, el enfoque y el rendimiento cognitivo."
+    },
+    {
+      "title": "Restauración Natural de Electrolitos",
+      "description": "El potasio, el sodio y el magnesio reponen los electrolitos perdidos durante el ejercicio o la enfermedad, apoyando la hidratación, el ritmo cardíaco y la función muscular."
+    }
+  ],
+  "lychee": [
+    {
+      "title": "Oligonol para el Flujo Sanguíneo",
+      "description": "El lichi contiene oligonol, un polifenol único que mejora mensurablemente el flujo sanguíneo hacia la piel, reduce la grasa visceral abdominal y apoya una circulación saludable."
+    },
+    {
+      "title": "Apoyo al Sistema Inmunitario",
+      "description": "El alto contenido en vitamina C activa la producción de células inmunitarias mientras los antioxidantes las protegen del daño oxidativo durante la respuesta inmunitaria."
+    },
+    {
+      "title": "Salud y Belleza de la Piel",
+      "description": "El oligonol y la vitamina C juntos apoyan la producción de colágeno y mejoran la textura de la piel, reduciendo los efectos visibles de la exposición solar y el envejecimiento ambiental."
+    },
+    {
+      "title": "Propiedades Antivirales",
+      "description": "Los compuestos del lichi han demostrado propiedades antivirales frente a la gripe, apoyando la capacidad del sistema inmunitario para neutralizar infecciones virales."
+    }
+  ],
+  "fig": [
+    {
+      "title": "Regulador Digestivo",
+      "description": "El alto contenido en fibra soluble e insoluble mejora la regularidad intestinal, alimenta las bacterias beneficiosas y apoya todo el proceso digestivo desde la boca al colon."
+    },
+    {
+      "title": "Soporte para la Salud Ósea",
+      "description": "Contiene calcio y magnesio en cantidades apreciables, dos minerales que actúan juntos para mantener la densidad ósea, especialmente valiosos para quienes evitan los lácteos."
+    },
+    {
+      "title": "Regulación de la Presión Arterial",
+      "description": "El potasio abundante combinado con el bajo contenido en sodio crea un perfil mineral ideal para manejar la presión arterial de forma natural y proteger la salud arterial a largo plazo."
+    },
+    {
+      "title": "Efecto Prebiótico Intestinal",
+      "description": "Los fructooligosacáridos alimentan selectivamente las especies de Bifidobacterium en el colon, mejorando la salud intestinal, la función inmunitaria y la síntesis de vitaminas del grupo B."
+    }
+  ],
+  "guava": [
+    {
+      "title": "Extraordinarios Niveles de Vitamina C",
+      "description": "Contiene entre 4 y 5 veces más vitamina C que las naranjas —una de las concentraciones más altas de cualquier alimento entero— para un apoyo inmunitario y una protección antioxidante sin igual."
+    },
+    {
+      "title": "Protección con Licopeno",
+      "description": "Las variedades de pulpa roja contienen niveles de licopeno comparables al tomate, protegiendo el ADN del daño oxidativo y reduciendo el riesgo de enfermedades inflamatorias crónicas."
+    },
+    {
+      "title": "Regulación del Azúcar en Sangre",
+      "description": "La fibra y los polifenoles reducen significativamente los picos de glucosa postprandiales, haciendo de la guayaba una de las frutas tropicales más favorables para el metabolismo."
+    },
+    {
+      "title": "Defensa Antimicrobiana",
+      "description": "Compuestos únicos de la hoja y el fruto de guayaba inhiben el crecimiento de bacterias perjudiciales comunes como E. coli y Staphylococcus, reforzando la función inmunitaria natural."
+    }
+  ],
+  "dragonfruit": [
+    {
+      "title": "Potenciador del Microbioma Intestinal",
+      "description": "La fibra prebiótica aumenta drásticamente las poblaciones de bacterias intestinales beneficiosas, mejorando la digestión, la función inmunitaria y la producción de ácidos grasos de cadena corta que protegen el colon."
+    },
+    {
+      "title": "Eficiencia en la Absorción de Hierro",
+      "description": "Contiene hierro de origen vegetal y vitamina C de forma simultánea, haciendo que el hierro sea altamente biodisponible —una combinación poco habitual en una sola fruta."
+    },
+    {
+      "title": "Activación del Sistema Inmunitario",
+      "description": "El alto contenido en vitamina C y carotenoides estimula la producción de células inmunitarias y mejora la capacidad del organismo para responder a infecciones y al estrés celular."
+    },
+    {
+      "title": "Modulación del Azúcar en Sangre",
+      "description": "La fibra y los oligosacáridos únicos ayudan a estabilizar la glucosa en sangre tras las comidas, reduciendo los picos postprandiales y apoyando la salud metabólica."
+    }
+  ],
+  "passionfruit": [
+    {
+      "title": "Calma Mediada por el GABA",
+      "description": "La crisina y la pasiflorina interactúan directamente con los receptores GABA del cerebro, reduciendo la ansiedad y mejorando el tiempo de inicio del sueño sin provocar somnolencia matutina."
+    },
+    {
+      "title": "Reducción de la Ansiedad y el Estrés",
+      "description": "Los alcaloides de la maracuyá calman la respuesta al estrés del sistema nervioso, siendo un remedio natural suave pero eficaz para la ansiedad y la tensión cotidianas."
+    },
+    {
+      "title": "Activación del Sistema Inmunitario",
+      "description": "El contenido en vitaminas A y C apoya conjuntamente la producción de células inmunitarias y la defensa antioxidante, fortaleciendo la capacidad del cuerpo para combatir infecciones."
+    },
+    {
+      "title": "Apoyo a la Salud Ocular",
+      "description": "El betacaroteno y la vitamina A protegen la retina del daño oxidativo y favorecen la visión nocturna y la agudeza visual general."
+    }
+  ],
+  "apricot": [
+    {
+      "title": "Renovación de las Células de la Piel",
+      "description": "El alto contenido en betacaroteno se convierte en vitamina A en el cuerpo, esencial para la renovación de las células cutáneas, manteniendo una tez suave y radiante incluso bajo estrés ambiental."
+    },
+    {
+      "title": "Constructor de Colágeno",
+      "description": "La vitamina C apoya la síntesis continua de colágeno, manteniendo la piel firme y elástica y acelerando la cicatrización de heridas y pequeñas imperfecciones."
+    },
+    {
+      "title": "Protección Ocular",
+      "description": "Los carotenoides luteína y zeaxantina se acumulan en la retina y actúan como filtro natural contra el daño UV, reduciendo el riesgo de cataratas y degeneración macular."
+    },
+    {
+      "title": "Hidratación Celular",
+      "description": "El alto contenido en agua combinado con el potasio mantiene la hidratación celular y el equilibrio electrolítico, apoyando una presión arterial y una función renal saludables."
+    }
+  ],
+  "blackberries": [
+    {
+      "title": "Alta Densidad en Antocianinas",
+      "description": "El color púrpura-negro intenso indica un contenido extraordinario en antocianinas, entre los más altos de cualquier fruta común, con una potente protección antioxidante en todo el organismo."
+    },
+    {
+      "title": "Protección del Envejecimiento Cerebral",
+      "description": "Los polifenoles cruzan la barrera hematoencefálica y protegen las neuronas del daño oxidativo, asociándose con un deterioro cognitivo más lento y una mejor retención de la memoria."
+    },
+    {
+      "title": "Control del Azúcar en Sangre",
+      "description": "La fibra y los polifenoles trabajan juntos para ralentizar la absorción de azúcar y mejorar la sensibilidad a la insulina, haciendo de la mora una de las frutas más favorables para el metabolismo."
+    },
+    {
+      "title": "Vitamina K para la Salud Ósea",
+      "description": "Una de las mejores fuentes de vitamina K entre las frutas, esencial para dirigir el calcio hacia el tejido óseo y apoyar el proceso de remodelación ósea durante toda la adultez."
+    }
+  ],
+  "cantaloupe": [
+    {
+      "title": "Potenciador del Brillo de la Piel",
+      "description": "El alto contenido en betacaroteno da a la piel un tono cálido y saludable y la protege del daño UV, apoyando un tono uniforme y reduciendo el envejecimiento solar visible."
+    },
+    {
+      "title": "Campeón de la Hidratación Profunda",
+      "description": "El 90% de agua combinado con electrolitos hace del melón cantalupo un aliado ideal para la hidratación celular profunda, especialmente tras el ejercicio o en días de calor."
+    },
+    {
+      "title": "Apoyo a la Salud Ocular",
+      "description": "Las concentraciones de luteína y zeaxantina apoyan la salud macular y reducen el riesgo de cataratas y degeneración macular relacionada con la edad con un consumo regular."
+    },
+    {
+      "title": "Activación Inmunitaria Doble",
+      "description": "Las vitaminas A y C juntas proporcionan un apoyo inmunitario en capas, estimulando tanto la producción como la función de los glóbulos blancos."
+    }
+  ],
+  "cranberry": [
+    {
+      "title": "Defensa del Tracto Urinario",
+      "description": "Las proantocianidinas de tipo A únicas impiden que las bacterias se adhieran a las paredes del tracto urinario, reduciendo el riesgo de infecciones sin antibióticos —mecanismo probado en investigación clínica."
+    },
+    {
+      "title": "Protección de la Salud Bucal",
+      "description": "Los mismos compuestos anti-adhesión impiden que las bacterias perjudiciales colonicen dientes y encías, reduciendo la formación de placa y el riesgo de enfermedad periodontal."
+    },
+    {
+      "title": "Antiinflamatorio Sistémico",
+      "description": "El complejo de polifenoles reduce los marcadores de inflamación en todo el cuerpo, apoyando la salud cardiovascular a largo plazo y el equilibrio inmunitario."
+    },
+    {
+      "title": "Apoyo al Microbioma Intestinal",
+      "description": "La fibra prebiótica alimenta selectivamente las bacterias Lactobacillus beneficiosas, fortaleciendo el revestimiento intestinal y apoyando las células inmunitarias que residen en el tracto digestivo."
+    }
+  ],
+  "acerola_fruit": [
+    {
+      "title": "Densidad Extraordinaria de Vitamina C",
+      "description": "Contiene entre 50 y 100 veces más vitamina C por gramo que una naranja, convirtiéndola en uno de los potenciadores inmunitarios naturales más potentes disponibles en forma de alimento entero."
+    },
+    {
+      "title": "Acelerador de la Síntesis de Colágeno",
+      "description": "Sus bioflavonoides trabajan mano a mano con la vitamina C para acelerar drásticamente la producción de colágeno, apoyando la firmeza de la piel, la cicatrización y la fortaleza del tejido conectivo."
+    },
+    {
+      "title": "Escudo Antioxidante",
+      "description": "Rica en antocianinas y carotenoides que neutralizan los radicales libres antes de que puedan dañar las células, frenando el envejecimiento y reduciendo el riesgo de enfermedad crónica."
+    },
+    {
+      "title": "Apoyo a la Salud Visual",
+      "description": "El beta-caroteno protege la integridad de la retina y reduce el riesgo de deterioro visual asociado al envejecimiento, especialmente la degeneración macular."
+    }
+  ],
+  "amla_fruit": [
+    {
+      "title": "Protector del Revestimiento Intestinal",
+      "description": "Los taninos y flavonoides crean una capa protectora a lo largo de la pared intestinal, reduciendo la inflamación y apoyando la reparación de úlceras e irritaciones digestivas."
+    },
+    {
+      "title": "Estimulador de Enzimas Digestivas",
+      "description": "Los compuestos del amla activan la secreción de enzimas digestivas, mejorando considerablemente la descomposición y absorción de nutrientes después de las comidas."
+    },
+    {
+      "title": "Potenciador de la Absorción de Hierro",
+      "description": "Su alto contenido en vitamina C mejora drásticamente la absorción del hierro no hemo de los alimentos vegetales, convirtiéndolo en un aliado clave para prevenir la anemia ferropénica."
+    },
+    {
+      "title": "Tónico Hepático",
+      "description": "El ácido gálico protege las células del hígado del daño oxidativo y potencia activamente las vías de desintoxicación, mejorando la capacidad del hígado para filtrar toxinas."
+    }
+  ],
+  "bael_fruit": [
+    {
+      "title": "Reparador del Revestimiento Intestinal",
+      "description": "El compuesto marmelosina calma la pared intestinal y lleva siglos utilizándose en la medicina ayurvédica para tratar trastornos digestivos crónicos como el colon irritable y las úlceras gástricas."
+    },
+    {
+      "title": "Acción Antidiarreica",
+      "description": "El contenido en taninos endurece las heces blandas y calma los espasmos intestinales sin efectos secundarios agresivos, siendo uno de los remedios naturales más fiables para el malestar digestivo agudo."
+    },
+    {
+      "title": "Equilibrio del Azúcar en Sangre",
+      "description": "Los compuestos del bael ayudan a moderar los picos de glucosa tras las comidas, apoyando la salud metabólica y siendo un alimento valioso para quienes buscan un mejor control glucémico."
+    },
+    {
+      "title": "Apoyo Antiinflamatorio Intestinal",
+      "description": "Sus flavonoides reducen la inflamación intestinal asociada a la EII, la colitis y otras afecciones digestivas crónicas, contribuyendo a la salud intestinal y la regulación inmunitaria a largo plazo."
+    }
+  ],
+  "baobab": [
+    {
+      "title": "Campeón Prebiótico",
+      "description": "Su fibra soluble excepcionalmente rica alimenta las bacterias intestinales beneficiosas, mejorando de forma notable la diversidad del microbioma y apoyando tanto la salud digestiva como la función inmunitaria."
+    },
+    {
+      "title": "Estabilizador del Azúcar en Sangre",
+      "description": "La matriz de fibra ralentiza la absorción de glucosa en el intestino, reduciendo los picos de azúcar en sangre tras las comidas hasta un 30% en comparación con comer los mismos alimentos sin baobab."
+    },
+    {
+      "title": "Bomba de Vitamina C",
+      "description": "Gramo a gramo, posee una de las concentraciones más altas de vitamina C de cualquier fruta del planeta, apoyando la activación inmunitaria, la producción de colágeno y la absorción de hierro."
+    },
+    {
+      "title": "Fuente de Calcio para los Huesos",
+      "description": "Aporta un calcio significativo para el mantenimiento de la densidad ósea —un perfil nutricional notable para una fruta— y resulta especialmente valioso en dietas basadas en plantas."
+    }
+  ],
+  "blackcurrant": [
+    {
+      "title": "Contenido Excepcional de Vitamina C",
+      "description": "Contiene entre 3 y 4 veces más vitamina C que las naranjas, ofreciendo una activación inmunitaria potente y una protección antioxidante amplia en un fruto pequeño y fácil de consumir."
+    },
+    {
+      "title": "Ácido Graso GLA Excepcional",
+      "description": "El ácido gamma-linolénico reduce la inflamación sistémica; es un omega-6 poco frecuente que actúa de forma antiinflamatoria en lugar de proinflamatoria, a diferencia de la mayoría de los aceites de semillas."
+    },
+    {
+      "title": "Protector de la Salud Visual",
+      "description": "Las antocianinas mejoran la visión nocturna y protegen la retina del estrés oxidativo, con beneficios demostrados para quienes padecen fatiga visual por pantallas o deterioro asociado al envejecimiento."
+    },
+    {
+      "title": "Defensa Antiviral",
+      "description": "Compuestos del grosellero negro han demostrado capacidad para inhibir la replicación del virus de la gripe, convirtiéndolo en una adición valiosa durante la temporada de resfriados y gripes."
+    }
+  ],
+  "blacksapote": [
+    {
+      "title": "Contenido Destacado de Vitamina C",
+      "description": "Es una de las fuentes más ricas en vitamina C entre las frutas tropicales, apoyando la producción de células inmunitarias, la defensa antioxidante y la síntesis de colágeno en todo el organismo."
+    },
+    {
+      "title": "Potenciador de la Absorción de Hierro",
+      "description": "Su alto contenido en vitamina C multiplica la absorción del hierro vegetal, convirtiéndolo en un alimento estratégico para combatir la anemia ferropénica en dietas basadas en plantas."
+    },
+    {
+      "title": "Rico en Carotenoides",
+      "description": "Contiene beta-caroteno y licopeno, dos carotenoides potentes que protegen las células del daño en el ADN y reducen el riesgo de enfermedades inflamatorias crónicas."
+    },
+    {
+      "title": "Apoyo de Fibra Digestiva",
+      "description": "Su fibra prebiótica favorece los movimientos intestinales regulares y alimenta las bacterias intestinales beneficiosas, contribuyendo a la salud digestiva a largo plazo y la protección del colon."
+    }
+  ],
+  "blood_orange": [
+    {
+      "title": "Perfil Único de Antocianinas",
+      "description": "A diferencia de cualquier otro cítrico, la naranja sanguina contiene antocianinas —los mismos antioxidantes potentes de los arándanos y el açaí— que ofrecen una protección cardiovascular y antienvejecimiento extraordinaria."
+    },
+    {
+      "title": "Poder Antiinflamatorio",
+      "description": "El flavonoide hesperidina reduce las vías de inflamación sistémica vinculadas a enfermedades crónicas, afecciones cardíacas y el envejecimiento celular acelerado."
+    },
+    {
+      "title": "Escudo Cardiovascular",
+      "description": "Sus antioxidantes protegen el colesterol LDL de la oxidación, reduciendo la formación de placas arteriales y disminuyendo de forma significativa el riesgo de enfermedad cardíaca con el tiempo."
+    },
+    {
+      "title": "Folato para la Salud Celular",
+      "description": "Buena fuente de folato, esencial para la síntesis de ADN y la división celular, con especial importancia durante el embarazo para el desarrollo correcto del tubo neural."
+    }
+  ],
+  "blue_java_banana": [
+    {
+      "title": "Energía Cremosa y Sostenida",
+      "description": "Los azúcares naturales combinados con la fibra proporcionan energía inmediata seguida de una liberación lenta y constante, convirtiéndolo en el aperitivo ideal antes del entrenamiento o a media tarde."
+    },
+    {
+      "title": "Estado de Ánimo y Bienestar",
+      "description": "El triptófano y la vitamina B6 apoyan la producción de serotonina, elevando de forma natural el estado de ánimo y reduciendo las sensaciones de estrés o ansiedad a lo largo del día."
+    },
+    {
+      "title": "Apoyo Muscular",
+      "description": "La combinación de potasio y magnesio es ideal para la recuperación antes y después del ejercicio, ayudando a prevenir calambres y a reponer los electrolitos perdidos durante la actividad física."
+    },
+    {
+      "title": "Beneficio Digestivo Prebiótico",
+      "description": "Su mayor contenido en almidón resistente en comparación con el plátano amarillo convencional actúa como prebiótico, alimentando selectivamente las bacterias intestinales beneficiosas y apoyando la salud digestiva."
+    }
+  ],
+  "custard_apple": [
+    {
+      "title": "Apoyo Neurológico",
+      "description": "La vitamina B6 es esencial para la producción de serotonina y dopamina, los neurotransmisores que sustentan la estabilidad emocional, la claridad mental y la resiliencia ante el estrés."
+    },
+    {
+      "title": "Estabilizador del Estado de Ánimo",
+      "description": "El magnesio regula el sistema nervioso y reduce los síntomas de ansiedad y bajo ánimo, ya que la deficiencia de este mineral se asocia estrechamente con mayores tasas de depresión."
+    },
+    {
+      "title": "Antioxidantes Antienvejecimiento",
+      "description": "Las acetogeninas son compuestos potentes que protegen las células del estrés oxidativo y se han estudiado por su potencial en la longevidad celular y la prevención del daño genético."
+    },
+    {
+      "title": "Corazón y Presión Arterial",
+      "description": "El potasio y el magnesio juntos apoyan la regulación saludable de la presión arterial y mantienen el ritmo cardíaco adecuado, reduciendo la tensión cardiovascular a lo largo del tiempo."
+    }
+  ],
+  "durian": [
+    {
+      "title": "Perfil Completo de Vitaminas del Grupo B",
+      "description": "Contiene B1, B2, B3 y B6 —un espectro completo de vitaminas B esenciales para la producción de energía a nivel celular y el correcto funcionamiento del sistema nervioso."
+    },
+    {
+      "title": "Impulso Natural de Serotonina",
+      "description": "El triptófano apoya la síntesis de serotonina en el cerebro, mejorando el estado de ánimo, reduciendo la respuesta al estrés y favoreciendo un sueño reparador."
+    },
+    {
+      "title": "Denso en Electrolitos",
+      "description": "El alto contenido en potasio y cobre restaura de forma eficiente el equilibrio electrolítico tras el ejercicio o la exposición al calor, apoyando el ritmo cardíaco y la función muscular."
+    },
+    {
+      "title": "Fuente Completa de Macronutrientes",
+      "description": "Es una de las pocas frutas tropicales que contiene los tres macronutrientes —hidratos de carbono, proteínas y grasas saludables— en cantidades nutricionalmente significativas."
+    }
+  ],
+  "feijoa": [
+    {
+      "title": "Contenido Excepcional de Vitamina C",
+      "description": "Es una de las fuentes más ricas en vitamina C entre las frutas subtropicales, apoyando la activación inmunitaria, la síntesis de colágeno y la protección antioxidante en todo el organismo."
+    },
+    {
+      "title": "Fuente Rara de Yodo",
+      "description": "Es una de las pocas frutas que contiene yodo en cantidad significativa, mineral imprescindible para la producción de hormonas tiroideas y habitualmente deficitario en las dietas basadas en plantas."
+    },
+    {
+      "title": "Rico en Folato",
+      "description": "Esencial para la síntesis de ADN y la división celular, lo que convierte a la feijoa en un alimento valioso para apoyar embarazos saludables, la regeneración celular y la producción de glóbulos rojos."
+    },
+    {
+      "title": "Propiedades Antimicrobianas",
+      "description": "Sus compuestos terpénicos únicos han demostrado actividad contra patógenos comunes, apoyando las defensas naturales del organismo frente a amenazas bacterianas y virales."
+    }
+  ],
+  "green_apple": [
+    {
+      "title": "Mejora de la Flora Intestinal",
+      "description": "La fibra de pectina actúa como un prebiótico potente, alimentando selectivamente las especies beneficiosas de Lactobacillus y Bifidobacterium, mejorando la salud digestiva y la función inmunitaria."
+    },
+    {
+      "title": "Estabilidad del Azúcar en Sangre",
+      "description": "Su menor contenido en azúcar respecto a las manzanas rojas, combinado con una alta cantidad de fibra, ofrece un excelente control glucémico, ideal para la salud metabólica y la energía sostenida."
+    },
+    {
+      "title": "Apoyo Hepático",
+      "description": "El ácido málico estimula la producción de bilis en el hígado, apoyando la digestión de grasas, la gestión del colesterol y las vías naturales de desintoxicación del órgano."
+    },
+    {
+      "title": "Salud Bucal",
+      "description": "Masticar manzana verde estimula la producción de saliva, que neutraliza los ácidos, elimina los residuos de alimentos y protege el esmalte dental de forma natural frente a la erosión."
+    }
+  ],
+  "honeydew": [
+    {
+      "title": "Hidratación Profunda de la Piel",
+      "description": "Su contenido de agua del 90% combinado con potasio mantiene las células cutáneas tersa e hidratadas desde dentro, mejorando visiblemente la textura de la piel y reduciendo las líneas finas."
+    },
+    {
+      "title": "Apoyo al Colágeno",
+      "description": "La vitamina C favorece la síntesis continua de colágeno, manteniendo la elasticidad y la integridad estructural de la piel para un aspecto firme y juvenil."
+    },
+    {
+      "title": "Apoyo Renal y de Electrolitos",
+      "description": "Su alto contenido en agua y potasio promueve una función renal saludable, facilita la eliminación de residuos y ayuda a mantener el equilibrio electrolítico adecuado."
+    },
+    {
+      "title": "Metabolismo Óseo",
+      "description": "Contiene vitamina K y folato, ambos importantes para el metabolismo óseo, la utilización del calcio y la prevención de la pérdida de densidad ósea asociada al envejecimiento."
+    }
+  ],
+  "jackfruit": [
+    {
+      "title": "Energía Sostenida",
+      "description": "Los hidratos de carbono complejos combinados con la fibra liberan energía de forma constante sin bajones de azúcar, convirtiéndolo en el combustible ideal para una actividad física o mental prolongada."
+    },
+    {
+      "title": "Central de Vitamina B6",
+      "description": "Es una de las fuentes más ricas en vitamina B6 entre las frutas, esencial para la producción de neurotransmisores, la formación de glóbulos rojos y el metabolismo proteico en todo el organismo."
+    },
+    {
+      "title": "Apoyo Muscular",
+      "description": "Su inusual contenido en proteínas para una fruta, combinado con el potasio, apoya la función muscular, el equilibrio electrolítico y la recuperación tras el esfuerzo físico."
+    },
+    {
+      "title": "Función Inmunitaria en Capas",
+      "description": "Las vitaminas A y C junto a las isoflavonas prebióticas ofrecen un apoyo inmunitario en capas: desde la inmunidad intestinal hasta la defensa antioxidante de primera línea frente a los patógenos."
+    }
+  ],
+  "jujube": [
+    {
+      "title": "Auxilio del Sueño Mediado por GABA",
+      "description": "Sus saponinas interactúan con los receptores GABA-A del cerebro —la misma vía calmante que los medicamentos sedantes— produciendo mejoras medibles en la velocidad de conciliación del sueño y su profundidad."
+    },
+    {
+      "title": "Reducción de la Ansiedad",
+      "description": "Los compuestos del jujube reducen la hiperactividad del sistema nervioso, calmando los pensamientos acelerados y la tensión física sin los efectos secundarios ni el riesgo de dependencia de las opciones farmacéuticas."
+    },
+    {
+      "title": "Protección Hepática",
+      "description": "Los polisacáridos del jujube protegen las células del hígado del daño químico y oxidativo, apoyando la capacidad del órgano para filtrar toxinas y procesar residuos de forma eficiente."
+    },
+    {
+      "title": "Hierro y Salud Sanguínea",
+      "description": "Contiene hierro junto con vitamina C, creando condiciones óptimas para una absorción eficiente del hierro y apoyando una producción saludable de glóbulos rojos."
+    }
+  ],
+  "almond_milk": [
+    {
+      "title": "Protección Cerebral con Vitamina E",
+      "description": "La vitamina E protege las membranas de las células cerebrales del daño oxidativo y se asocia sistemáticamente con un menor riesgo de deterioro cognitivo en estudios de largo plazo."
+    },
+    {
+      "title": "Salud Ósea Accesible",
+      "description": "Las versiones enriquecidas aportan calcio y vitamina D en forma biodisponible, cubriendo las necesidades de quienes no consumen lácteos sin sacrificar la densidad ósea."
+    },
+    {
+      "title": "Protección Cardiovascular",
+      "description": "La vitamina E y las grasas insaturadas reducen la oxidación del LDL y la inflamación arterial, protegiendo el corazón a largo plazo sin la carga de grasas saturadas de los lácteos."
+    }
+  ],
+  "beetroot": [
+    {
+      "title": "Control de Presión con Óxido Nítrico",
+      "description": "Los nitratos dietéticos se convierten en óxido nítrico, que dilata las paredes arteriales y baja la presión sanguínea de forma respaldada por evidencia clínica como intervención antihipertensiva natural."
+    },
+    {
+      "title": "Potenciador del Rendimiento Físico",
+      "description": "El óxido nítrico mejora la eficiencia del oxígeno muscular, permitiendo entrenar más tiempo con menos fatiga, con mejoras demostrables en rendimiento de resistencia."
+    },
+    {
+      "title": "Protección Hepática",
+      "description": "Las betalaínas protegen las células del hígado del daño oxidativo y refuerzan su capacidad para filtrar toxinas y metabolizar residuos de manera eficiente."
+    },
+    {
+      "title": "Folato para la Salud Celular",
+      "description": "Rico en folato, esencial para la síntesis de ADN, la formación de glóbulos rojos y una división celular saludable, especialmente importante durante el embarazo."
+    }
+  ],
+  "bell_pepper": [
+    {
+      "title": "Campeón en Vitamina C",
+      "description": "El pimiento rojo contiene 2-3 veces más vitamina C que las naranjas, ofreciendo una activación inmunitaria y protección antioxidante excepcionales en un alimento versátil."
+    },
+    {
+      "title": "Capsantina Antiinflamatoria",
+      "description": "Las variedades rojas contienen capsantina, un carotenoide con potentes propiedades antiinflamatorias y protectoras que se intensifican ligeramente con la cocción suave."
+    },
+    {
+      "title": "Salud Visual",
+      "description": "La luteína y la zeaxantina protegen la mácula y actúan como filtros UV naturales en la retina, reduciendo el riesgo de degeneración macular y cataratas."
+    }
+  ],
+  "bilberry": [
+    {
+      "title": "Circulación Retinal y Visión",
+      "description": "Contiene muchas más antocianinas por gramo que los arándanos cultivados, mejorando de forma medible el flujo sanguíneo en la retina y frenando la degeneración macular."
+    },
+    {
+      "title": "Salud Cerebral y Memoria",
+      "description": "Las antocianinas atraviesan la barrera hematoencefálica y se acumulan en los centros de memoria, protegiendo neuronas del daño oxidativo y mejorando el rendimiento cognitivo."
+    },
+    {
+      "title": "Regulación del Azúcar en Sangre",
+      "description": "Los compuestos del arándano silvestre mejoran la sensibilidad a la insulina y reducen los picos de glucosa post-comida, siendo valiosos para la salud metabólica."
+    }
+  ],
+  "breadfruit": [
+    {
+      "title": "Energía Compleja y Sostenida",
+      "description": "Rico en carbohidratos complejos y fibra que proporcionan energía estable y duradera sin picos de glucosa, ideal como combustible para el rendimiento físico y mental."
+    },
+    {
+      "title": "Salud Intestinal",
+      "description": "El alto contenido de fibra favorece la regularidad intestinal, alimenta las bacterias beneficiosas del intestino y contribuye a proteger el colon a largo plazo."
+    },
+    {
+      "title": "Defensa Antibacteriana",
+      "description": "Los flavonoides artocarpina y cicloartobiloxantona han demostrado actividad antibacteriana contra Streptococcus y Staphylococcus, patógenos comunes en infecciones humanas."
+    }
+  ],
+  "broccoli": [
+    {
+      "title": "Activación NRF2 con Sulforafano",
+      "description": "El sulforafano activa la vía NRF2, desencadenando la producción propia del cuerpo de enzimas antioxidantes como el glutatión durante horas tras una sola porción."
+    },
+    {
+      "title": "Glucosinolatos Protectores",
+      "description": "Los glucosinolatos estimulan las enzimas hepáticas de Fase 2 que neutralizan y eliminan carcinógenos antes de que puedan causar daño al ADN celular."
+    },
+    {
+      "title": "Salud Ósea con Vitamina K y Calcio",
+      "description": "Es uno de los pocos vegetales que aporta vitamina K y calcio juntos, combinación ideal para mantener la densidad ósea y prevenir fracturas."
+    }
+  ],
+  "carrot": [
+    {
+      "title": "Visión y Salud Ocular",
+      "description": "La fuente común más rica en beta-caroteno, que se convierte en vitamina A esencial para la visión nocturna, la integridad de la retina y la protección contra la degeneración macular."
+    },
+    {
+      "title": "Luminosidad y Protección de la Piel",
+      "description": "El beta-caroteno se acumula en el tejido cutáneo, aportando un tono natural cálido y actuando como filtro UV interno que reduce el daño oxidativo por exposición solar."
+    },
+    {
+      "title": "Salud Intestinal y del Colon",
+      "description": "La pectina alimenta las bacterias intestinales beneficiosas, reduce la inflamación en el colon y se ha estudiado por su capacidad para reducir el riesgo de cáncer colorrectal."
+    }
+  ],
+  "cauliflower": [
+    {
+      "title": "Activación NRF2 con Sulforafano",
+      "description": "El sulforafano activa la vía antioxidante NRF2, estimulando la producción de glutatión y otras enzimas protectoras en el propio organismo durante horas tras cada porción."
+    },
+    {
+      "title": "Apoyo a la Desintoxicación",
+      "description": "Los glucosinolatos activan las enzimas hepáticas de Fase 2, potenciando la capacidad del cuerpo para neutralizar y eliminar carcinógenos y toxinas ambientales."
+    },
+    {
+      "title": "Salud Digestiva",
+      "description": "La fibra favorece la regularidad intestinal y alimenta las bacterias beneficiosas, mientras que sus compuestos prebióticos únicos fomentan la diversidad del microbioma a largo plazo."
+    }
+  ],
+  "celery": [
+    {
+      "title": "Reducción de la Presión Arterial",
+      "description": "Los ftalatos relajan el músculo liso de las paredes arteriales de forma comparable a los bloqueadores de canales de calcio, produciendo reducciones medibles y clínicamente relevantes en la presión."
+    },
+    {
+      "title": "Apoyo Digestivo",
+      "description": "La fibra natural y las enzimas digestivas favorecen la regularidad intestinal, mientras que sus compuestos antiinflamatorios calman el revestimiento del intestino."
+    },
+    {
+      "title": "Acción Antiinflamatoria",
+      "description": "La apigenina y la luteolina son flavonoides que inhiben múltiples vías de inflamación simultáneamente, ofreciendo una protección antiinflamatoria amplia en todo el organismo."
+    }
+  ],
+  "cherimoya": [
+    {
+      "title": "Activación Inmunitaria",
+      "description": "Su alto contenido de vitamina C activa la producción de células inmunitarias y proporciona protección antioxidante frente a infecciones y el estrés ambiental."
+    },
+    {
+      "title": "Apoyo Neurológico",
+      "description": "Sus alcaloides se estudian por efectos neuroprotectores y la capacidad de inhibir selectivamente el crecimiento celular anormal, generando interés en investigación sobre salud cerebral."
+    },
+    {
+      "title": "Energía Sostenida y Estado de Ánimo",
+      "description": "La vitamina B6 y los azúcares naturales apoyan la producción de neurotransmisores y proporcionan energía estable, contribuyendo a un estado de ánimo y rendimiento mental equilibrados."
+    }
+  ],
+  "cilantro": [
+    {
+      "title": "Desintoxicación de Metales Pesados",
+      "description": "Actúa como quelante que se une a metales pesados como el mercurio y el plomo en el torrente sanguíneo, movilizándolos para su eliminación a través del hígado y los riñones."
+    },
+    {
+      "title": "Apoyo Digestivo",
+      "description": "Sus compuestos naturales estimulan la producción de enzimas digestivas, reducen la hinchazón y los gases, y favorecen una motilidad intestinal fluida."
+    },
+    {
+      "title": "Acción Antiinflamatoria y Antioxidante",
+      "description": "La quercetina, la clorofila y la apigenina reducen la inflamación sistémica y proporcionan actividad antimicrobiana frente a patógenos comunes en el sistema digestivo."
+    }
+  ],
+  "coconut_water": [
+    {
+      "title": "Hidratación Óptima con Electrolitos",
+      "description": "Su composición electrolítica es casi idéntica al plasma sanguíneo, siendo clínicamente eficaz para la rehidratación sin la carga excesiva de azúcar de las bebidas deportivas comerciales."
+    },
+    {
+      "title": "Salud Renal y Prevención de Cálculos",
+      "description": "El alto contenido de potasio y magnesio, combinado con sus propiedades diuréticas naturales, apoya la función renal y reduce el riesgo de formación de cálculos renales."
+    },
+    {
+      "title": "Apoyo Cardiovascular Natural",
+      "description": "El potasio contrarresta los efectos hipertensivos del sodio dietético, apoyando un tono arterial saludable y la función cardiovascular general."
+    }
+  ],
+  "coconut_yogurt": [
+    {
+      "title": "Colonización Intestinal con Probióticos",
+      "description": "Contiene cultivos probióticos vivos que sobreviven el tránsito intestinal para colonizar el intestino grueso, donde producen vitaminas B12 y K2 y compiten con patógenos dañinos."
+    },
+    {
+      "title": "Apoyo Digestivo",
+      "description": "Las cepas probióticas mejoran la digestión, reducen la hinchazón y refuerzan la integridad del revestimiento intestinal, con consumo regular vinculado a mejoras en síntomas del síndrome de intestino irritable."
+    },
+    {
+      "title": "Modulación del Sistema Inmunitario",
+      "description": "Los probióticos residentes en el intestino interactúan con las células inmunitarias que recubren la mucosa, entrenando y fortaleciendo la respuesta inmune ante estímulos externos."
+    }
+  ],
+  "cucumber": [
+    {
+      "title": "Hidratación y Luminosidad de la Piel",
+      "description": "Su 96% de contenido en agua, combinado con sílice y vitamina K, hidrata profundamente las células de la piel y apoya la estructura del colágeno, reduciendo visiblemente la hinchazón."
+    },
+    {
+      "title": "Antiedad Celular con Fisetina",
+      "description": "La fisetina actúa como senolítico que destruye selectivamente las células senescentes, las 'células zombi' que impulsan la inflamación crónica y la degradación tisular."
+    },
+    {
+      "title": "Control del Azúcar en Sangre",
+      "description": "Las cucurbitacinas inhiben las enzimas de absorción de glucosa, reduciendo los picos de azúcar tras las comidas y apoyando la sensibilidad a la insulina durante el día."
+    }
+  ],
+  "cupuacu": [
+    {
+      "title": "Potencia Antioxidante",
+      "description": "Contiene un perfil excepcionalmente rico en polifenoles con propiedades antioxidantes que protegen las células de todo el cuerpo del daño oxidativo y las enfermedades inflamatorias crónicas."
+    },
+    {
+      "title": "Energía Suave con Teacrina",
+      "description": "La teobromina y la teacrina proporcionan una energía más suave y duradera que la cafeína, sin el nerviosismo ni el bajón energético asociados al café."
+    },
+    {
+      "title": "Nutrición para la Piel",
+      "description": "Los polifenoles y las grasas saludables del cupuazú refuerzan la barrera cutánea, reducen el envejecimiento oxidativo y contribuyen a un tono de piel sano y uniforme."
+    }
+  ],
+  "dates": [
+    {
+      "title": "Densidad Energética Natural",
+      "description": "Es uno de los frutos enteros más calóricos, con glucosa y fructosa naturales que aportan energía rápida y disponible, ideal antes del ejercicio o en momentos de alta demanda calórica."
+    },
+    {
+      "title": "Hierro para la Sangre",
+      "description": "Su contenido de hierro apoya la producción de glóbulos rojos y el transporte de oxígeno, ayudando a combatir la fatiga y sostener el metabolismo energético."
+    },
+    {
+      "title": "Salud Ósea con Boro",
+      "description": "Es una de las mejores fuentes naturales de boro, un mineral traza que potencia la eficacia de la vitamina D y mejora la absorción de calcio en el tejido óseo."
+    }
+  ],
+  "eggplant": [
+    {
+      "title": "Protección Cerebral con Nasunina",
+      "description": "La piel de la berenjena contiene nasunina, una antocianina que protege específicamente los lípidos de las membranas de las células cerebrales del daño oxidativo y mejora el flujo sanguíneo cerebral."
+    },
+    {
+      "title": "Salud Cardiovascular y Colesterol",
+      "description": "El ácido clorogénico y la nasunina protegen el LDL de la oxidación y reducen la inflamación arterial, contribuyendo a la protección cardiovascular a largo plazo."
+    },
+    {
+      "title": "Control del Azúcar en Sangre",
+      "description": "La fibra y el ácido clorogénico ralentizan la absorción de glucosa y mejoran la sensibilidad a la insulina, apoyando la salud metabólica y niveles estables de azúcar."
+    }
+  ],
+  "ginger_fresh": [
+    {
+      "title": "Acción Antiinflamatoria COX-2",
+      "description": "El gingerol inhibe la enzima COX-2 con una eficacia comparable al ibuprofeno, proporcionando alivio del dolor y la inflamación sin el daño gastrointestinal del uso prolongado de medicamentos."
+    },
+    {
+      "title": "Alivio de Náuseas y Digestión",
+      "description": "Clínicamente probado para reducir las náuseas por mareo, quimioterapia y embarazo, con evidencia comparable a algunos antieméticos farmacéuticos."
+    },
+    {
+      "title": "Alivio Natural del Dolor",
+      "description": "Los shogaoles, que se forman cuando el jengibre se calienta, son agentes antiinflamatorios aún más potentes que los gingeroles, haciendo el jengibre cocido especialmente eficaz para el dolor crónico."
+    }
+  ],
+  "kale": [
+    {
+      "title": "Vitamina K y Salud Ósea",
+      "description": "Una de las fuentes más ricas en vitamina K1, esencial para activar las proteínas que construyen hueso y dirigir el calcio hacia el tejido óseo en lugar de las paredes arteriales."
+    },
+    {
+      "title": "Equilibrio Hormonal",
+      "description": "El indol-3-carbinol reduce la conversión de testosterona en metabolitos estrogénicos dañinos, apoyando el equilibrio hormonal y la reducción del riesgo de cáncer dependiente de hormonas."
+    },
+    {
+      "title": "Desintoxicación Hepática",
+      "description": "El sulforafano y los glucosinolatos activan las enzimas de Fase 2 del hígado, potenciando la eliminación de carcinógenos y toxinas ambientales del organismo."
+    }
+  ],
+  "kefir": [
+    {
+      "title": "Colonización Probiótica Diversa",
+      "description": "Contiene más de 30 cepas probióticas únicas, incluyendo el Lactobacillus kefiri exclusivo del kéfir, proporcionando una diversidad del microbioma superior al yogur estándar."
+    },
+    {
+      "title": "Reparación Intestinal",
+      "description": "Los probióticos y el kefiran reducen la inflamación intestinal, restauran la integridad de la barrera intestinal y mejoran de forma medible los síntomas del síndrome de intestino irritable."
+    },
+    {
+      "title": "Salud Ósea con Calcio y K2",
+      "description": "Aporta calcio altamente biodisponible junto con vitamina K2 producida por las bacterias probióticas, la combinación ideal para mantener la densidad ósea."
+    }
+  ],
+  "kumquat": [
+    {
+      "title": "Vitamina C en Fruto Entero",
+      "description": "A diferencia de otros cítricos, el kumquat entero —piel incluida— es comestible, y la piel concentra la mayor cantidad de vitamina C y flavonoides protectores del sistema inmune."
+    },
+    {
+      "title": "Limoneno Detoxificante",
+      "description": "La piel es rica en limoneno, un compuesto que estimula las enzimas hepáticas de desintoxicación y ha mostrado propiedades prometedoras de protección celular en investigación inicial."
+    },
+    {
+      "title": "Fibra Digestiva",
+      "description": "Su alto contenido de fibra relativo a su tamaño favorece los movimientos intestinales, alimenta las bacterias beneficiosas y ayuda a regular el azúcar en sangre tras las comidas."
+    }
+  ],
+  "lime": [
+    {
+      "title": "Apoyo Digestivo",
+      "description": "El ácido cítrico y los flavonoides de la lima estimulan la producción de enzimas digestivas, mejorando la descomposición de los alimentos y reduciendo la hinchazón y el malestar postprandial."
+    },
+    {
+      "title": "Defensa contra Cálculos Renales",
+      "description": "El ácido cítrico del zumo de lima aumenta los niveles de citrato urinario, bloqueando físicamente la formación de cristales de oxalato de calcio y reduciendo el riesgo de cálculos renales."
+    },
+    {
+      "title": "Mejora de la Absorción de Hierro",
+      "description": "La vitamina C de la lima potencia notablemente la absorción del hierro de origen vegetal cuando se consume junto a alimentos ricos en hierro, apoyando la salud de los glóbulos rojos."
+    }
+  ],
+  "longan": [
+    {
+      "title": "Activación de Células Natural Killer",
+      "description": "Los polisacáridos del longan aumentan significativamente la actividad de las células natural killer, la primera línea de defensa del sistema inmune frente a infecciones virales y células anómalas."
+    },
+    {
+      "title": "Energía Calmante",
+      "description": "Proporciona energía sostenida mediante azúcares naturales mientras sus polisacáridos calmantes reducen la sobreactivación del sistema nervioso, aportando foco sin nerviosismo."
+    },
+    {
+      "title": "Hierro y Circulación",
+      "description": "Es una de las mejores fuentes frutales de hierro, apoyando la producción de glóbulos rojos, el transporte de oxígeno y los niveles de energía, especialmente útil en dietas vegetales."
+    }
+  ],
+  "loquat": [
+    {
+      "title": "Visión y Salud Ocular",
+      "description": "El beta-caroteno se convierte en vitamina A, apoyando la salud de la retina y la visión con poca luz, mientras protege los ojos del daño oxidativo relacionado con la radiación UV."
+    },
+    {
+      "title": "Salud Respiratoria",
+      "description": "El ácido ursólico y compuestos relacionados tienen propiedades antiinflamatorias que apoyan la salud bronquial y pulmonar, aliviando la congestión y la irritación de las vías respiratorias."
+    },
+    {
+      "title": "Regulación del Azúcar en Sangre",
+      "description": "Compuestos únicos del níspero modulan el metabolismo de la glucosa, reduciendo los picos de azúcar postprandiales y mejorando la sensibilidad a la insulina con el tiempo."
+    }
+  ],
+  "lucuma": [
+    {
+      "title": "Energía de Liberación Lenta",
+      "description": "Los carbohidratos complejos combinados con fibra proporcionan una liberación de energía estable y sostenida sin el pico y caída de glucosa asociados a los edulcorantes de alto índice glucémico."
+    },
+    {
+      "title": "Hierro y Apoyo Sanguíneo",
+      "description": "Su notable contenido de hierro apoya la producción de glóbulos rojos y el transporte de oxígeno, ayudando a combatir la fatiga y mantener los niveles de energía durante el día."
+    },
+    {
+      "title": "Nutrición para la Piel",
+      "description": "El beta-caroteno se convierte en vitamina A en el organismo, apoyando la renovación celular de la piel y manteniendo un cutis sano y luminoso desde adentro."
+    }
+  ],
+  "mamey_sapote": [
+    {
+      "title": "Protección con Beta-Criptoxantina",
+      "description": "Contiene beta-criptoxantina, un carotenoide asociado a un riesgo significativamente menor de cáncer de pulmón e inflamación crónica en múltiples estudios poblacionales de gran escala."
+    },
+    {
+      "title": "Apoyo Cardiovascular",
+      "description": "El potasio y las grasas saludables apoya la función cardiovascular manteniendo la presión arterial y reduciendo la oxidación del LDL, protegiendo la salud arterial a largo plazo."
+    },
+    {
+      "title": "Energía Sostenida",
+      "description": "Su densa carga calórica con azúcares naturales y fibra proporciona una energía sustancial y sostenida, convirtiéndolo en un combustible excelente para días de alta actividad."
+    }
+  ],
+  "mangosteen": [
+    {
+      "title": "El Antiinflamatorio Frutal Más Potente",
+      "description": "Las xantonas, especialmente la alfa y gamma mangostina, están entre los compuestos antiinflamatorios más poderosos que se encuentran en cualquier fruta, inhibiendo la inflamación más rápido que muchos antiinflamatorios comunes."
+    },
+    {
+      "title": "Activación del Sistema Inmune",
+      "description": "Las xantonas y la vitamina C juntas potencian la función de las células inmunitarias y la producción de glóbulos blancos, reforzando las defensas del cuerpo frente a infecciones."
+    },
+    {
+      "title": "Salud Intestinal y Microbioma",
+      "description": "La fibra y los polifenoles favorecen el crecimiento de bacterias intestinales beneficiosas y reducen la inflamación intestinal, creando un entorno ideal para la salud digestiva a largo plazo."
+    }
+  ],
+  "mint": [
+    {
+      "title": "Alivio Digestivo Inmediato",
+      "description": "El mentol activa los receptores de frío TRPM8 en el intestino, reduciendo las náuseas, calmando los espasmos intestinales y aliviando la hinchazón casi de forma inmediata."
+    },
+    {
+      "title": "Alivio de Dolor de Cabeza",
+      "description": "El uso tópico y aromático del mentol ha demostrado clínicamente reducir la intensidad de la cefalea tensional con una eficacia comparable al paracetamol en algunos ensayos."
+    },
+    {
+      "title": "Defensa Antimicrobiana",
+      "description": "Los aceites esenciales de la menta tienen potentes propiedades antibacterianas contra patógenos orales y digestivos comunes, apoyando tanto la salud bucal como la inmunidad intestinal."
+    }
+  ],
+  "miracle_fruit": [
+    {
+      "title": "Modulación del Sabor para Reducir el Azúcar",
+      "description": "La glicoproteína miraculina se une a los receptores del gusto y transforma los sabores ácidos en dulzura hasta por una hora, permitiendo disfrutar alimentos bajos en azúcar y nutritivos sin sacrificar el placer."
+    },
+    {
+      "title": "Protección Antioxidante",
+      "description": "Rico en antioxidantes que protegen las células del estrés oxidativo, apoyando la salud inmune y reduciendo el riesgo de enfermedades inflamatorias crónicas."
+    },
+    {
+      "title": "Perfil Bajo en Glucemia",
+      "description": "Extremadamente bajo en calorías y azúcares, ofrece beneficios únicos de modificación del sabor sin impactar el azúcar en sangre, siendo una herramienta valiosa para gestionar el antojo dulce."
+    }
+  ],
+  "mulberry": [
+    {
+      "title": "Regulación del Azúcar con DNJ",
+      "description": "Contiene un compuesto único llamado DNJ que inhibe las enzimas que descomponen los carbohidratos dietéticos, produciendo un efecto reductor del azúcar en sangre no presente en otras bayas comunes."
+    },
+    {
+      "title": "Corazón y Circulación",
+      "description": "El resveratrol y las antocianinas protegen las paredes de los vasos sanguíneos, reducen la oxidación del LDL y mejoran la circulación, apoyando la salud cardiovascular a largo plazo."
+    },
+    {
+      "title": "Salud Cerebral y Nerviosa",
+      "description": "Las antocianinas mejoran el flujo sanguíneo al cerebro y protegen el tejido neural del daño oxidativo, apoyando la memoria, la concentración y la salud cognitiva a largo plazo."
+    }
+  ],
+  "nectarine": [
+    {
+      "title": "Renovación de Piel",
+      "description": "El beta-caroteno se convierte en vitamina A para la renovación celular de la piel, mientras que la vitamina C apoya la producción de colágeno, manteniendo una piel firme, lisa y luminosa."
+    },
+    {
+      "title": "Activación del Metabolismo con AMPK",
+      "description": "El ácido clorogénico activa la AMPK, el sensor de energía celular del cuerpo, mejorando la sensibilidad a la insulina y promoviendo el uso de grasa como combustible principal."
+    },
+    {
+      "title": "Protección Ocular",
+      "description": "La luteína y la zeaxantina protegen la retina del daño UV y de la luz azul, reduciendo el riesgo de degeneración macular y apoyando la salud visual a largo plazo."
+    }
+  ],
+  "oats": [
+    {
+      "title": "Reducción del Colesterol con Beta-Glucano",
+      "description": "La fibra beta-glucano forma un gel que atrapa físicamente el LDL en el intestino, impidiendo su absorción, siendo una de las intervenciones alimentarias más validadas clínicamente para reducir el colesterol."
+    },
+    {
+      "title": "Estabilidad del Azúcar en Sangre",
+      "description": "El alto contenido de fibra soluble ralentiza la digestión y absorción de glucosa, proporcionando energía sostenida y previniendo los picos de azúcar postprandiales que generan fatiga y hambre."
+    },
+    {
+      "title": "Energía Física Sostenida",
+      "description": "Los carbohidratos complejos y el beta-glucano juntos aportan energía estable y duradera que apoya el rendimiento atlético, la concentración mental y el esfuerzo físico constante."
+    }
+  ],
+  "pawpaw": [
+    {
+      "title": "Energía Nativa Completa",
+      "description": "Los carbohidratos complejos, las grasas saludables y la proteína juntos ofrecen un perfil energético notablemente completo y sostenido, inusual para una fruta."
+    },
+    {
+      "title": "Acción Antiparasitaria",
+      "description": "Las acetogeninas asimicina y bullatacina interrumpen selectivamente la mitocondria de los parásitos intestinales sin dañar las células humanas, siendo un mecanismo de defensa natural altamente dirigido."
+    },
+    {
+      "title": "Apoyo Digestivo e Inmunitario",
+      "description": "Las enzimas naturales y la fibra favorecen una digestión fluida y un entorno intestinal saludable, mientras que la vitamina C y los carotenoides refuerzan las defensas del organismo."
+    }
+  ],
+  "persimon": [
+    {
+      "title": "Perfil Antioxidante Potente",
+      "description": "Rico en shibuol y ácido betulínico, concentrados en la piel, con potente actividad antioxidante que protege las células del daño oxidativo ligado al envejecimiento."
+    },
+    {
+      "title": "Apoyo Hepático y Detox",
+      "description": "Los compuestos del caqui apoyan la función hepática y la producción de bilis, facilitando la digestión de grasas y la eliminación de residuos metabólicos."
+    },
+    {
+      "title": "Corazón y Visión",
+      "description": "Los catequinos y flavonoides reducen la oxidación del LDL y la inflamación vascular, mientras que la vitamina A apoya la integridad de la retina y la salud ocular."
+    }
+  ],
+  "physalis": [
+    {
+      "title": "Potencia Inmunitaria",
+      "description": "Su excepcional contenido de vitamina C apoya la activación inmune rápida, la defensa antioxidante y la función de los glóbulos blancos, ofreciendo una sólida protección en un fruto pequeño."
+    },
+    {
+      "title": "Efecto Adaptogénico con Witaferín A",
+      "description": "La physalis es una de las pocas frutas que contiene witaferín A, el mismo principio activo de la ashwaganda, aportando propiedades adaptogénicas y antiestrés no presentes en otras frutas comunes."
+    },
+    {
+      "title": "Salud Visual",
+      "description": "El beta-caroteno y otros carotenoides apoya la salud retinal, protegen contra el daño ocular por UV y reducen el riesgo de degeneración macular relacionada con la edad."
+    }
+  ],
+  "plantain": [
+    {
+      "title": "Almidón Resistente para la Salud Intestinal",
+      "description": "Los plátanos verdes son extremadamente ricos en almidón resistente, que fermenta en el colon produciendo ácidos grasos de cadena corta que reparan el revestimiento intestinal y reducen la inflamación."
+    },
+    {
+      "title": "Energía Sostenida",
+      "description": "Los carbohidratos complejos aportan energía estable y duradera sin picos de azúcar, siendo un combustible excelente para el rendimiento atlético o jornadas largas."
+    },
+    {
+      "title": "Salud Cardiovascular",
+      "description": "El alto potasio apoya una presión arterial saludable, mientras que la vitamina B6 reduce los niveles de homocisteína, un factor de riesgo independiente de enfermedades cardíacas y accidentes cerebrovasculares."
+    }
+  ],
+  "plumcot": [
+    {
+      "title": "Sinergia Antioxidante Combinada",
+      "description": "Combina la riqueza en beta-caroteno del albaricoque con las antocianinas antioxidantes de la ciruela en un solo fruto, creando un perfil antioxidante excepcionalmente amplio."
+    },
+    {
+      "title": "Luminosidad e Inmunidad",
+      "description": "El beta-caroteno y la vitamina C juntos apoyan la renovación celular de la piel, la producción de colágeno y la activación del sistema inmune de forma simultánea."
+    },
+    {
+      "title": "Fibra Digestiva",
+      "description": "La fibra soluble e insoluble favorece la motilidad intestinal, alimenta las bacterias beneficiosas y ayuda a regular el azúcar en sangre tras las comidas."
+    }
+  ],
+  "pomelo": [
+    {
+      "title": "Activación del Metabolismo de Grasas",
+      "description": "Su contenido de naringenina, entre los más altos de todos los cítricos, activa las enzimas quemagrasa del hígado, produciendo reducciones medibles en los triglicéridos sanguíneos."
+    },
+    {
+      "title": "Potencia Inmunitaria",
+      "description": "Su muy alto contenido de vitamina C proporciona una activación inmune intensa y defensa antioxidante, apoyando la respuesta rápida del organismo frente a infecciones."
+    },
+    {
+      "title": "Control de Presión Arterial",
+      "description": "El potasio y los flavonoides relajan las paredes de los vasos sanguíneos, reducen la tensión arterial y contribuyen a una gestión natural de la presión sanguínea."
+    }
+  ],
+  "prickly_pear": [
+    {
+      "title": "Hidratación Celular Profunda",
+      "description": "Su alto contenido de agua con electrolitos proporciona una hidratación celular profunda, siendo ideal para la recuperación tras el calor, el ejercicio o una enfermedad."
+    },
+    {
+      "title": "Protección Hepática con Betalaínas",
+      "description": "Los pigmentos betalaínicos son potentes agentes hepatoprotectores que protegen las células del hígado del estrés químico y oxidativo, apoyando la capacidad de desintoxicación."
+    },
+    {
+      "title": "Control del Azúcar en Sangre",
+      "description": "Los compuestos del nopal moderan los picos de glucosa postprandiales y mejoran la sensibilidad a la insulina, siendo valioso para la gestión de la salud metabólica."
+    }
+  ],
+  "pumpkin": [
+    {
+      "title": "Vitamina A para la Inmunidad y la Barrera Protectora",
+      "description": "Extraordinariamente rica en beta-caroteno que se convierte en vitamina A, esencial para mantener la integridad de la piel y las mucosas que bloquean la entrada de patógenos."
+    },
+    {
+      "title": "Salud Ocular con Zeaxantina",
+      "description": "La zeaxantina se absorbe preferentemente en la región macular del ojo, filtrando la luz azul de alta energía y protegiendo contra la degeneración macular relacionada con la edad."
+    },
+    {
+      "title": "Luminosidad de la Piel",
+      "description": "El beta-caroteno se acumula en la piel aportando un tono cálido natural y actuando como defensa antioxidante interna frente al daño celular por radiación UV."
+    }
+  ],
+  "purslane": [
+    {
+      "title": "Mayor Omega-3 entre las Verduras de Hoja",
+      "description": "Contiene más ácidos grasos ALA omega-3 por gramo que cualquier otra verdura de hoja verde, aportando beneficios cardiovasculares y antiinflamatorios significativos desde una fuente vegetal."
+    },
+    {
+      "title": "Protección Cardiovascular",
+      "description": "Los omega-3 y los flavonoides juntos reducen los triglicéridos, bajan la presión arterial y disminuyen la inflamación arterial, haciendo de la verdolaga una de las plantas de hoja más cardioprotectoras."
+    },
+    {
+      "title": "Nutrición para la Piel",
+      "description": "Los ácidos grasos esenciales refuerzan la barrera lipídica de la piel, manteniendo la hidratación, reduciendo la sensibilidad y contribuyendo a un cutis sano y resistente."
+    }
+  ],
+  "quince": [
+    {
+      "title": "Prebiótico para el Microbioma",
+      "description": "El mucílago de las semillas de membrillo estimula específicamente el crecimiento de Bifidobacterium en el intestino grueso, apoyando la salud intestinal profunda y la producción de compuestos inmunoreguladores."
+    },
+    {
+      "title": "Curación Digestiva",
+      "description": "La fibra pectina y los taninos astringentes calman el tejido intestinal irritado, reducen la inflamación digestiva y apoyan la recuperación de condiciones como la gastritis."
+    },
+    {
+      "title": "Vitamina C y Apoyo Inmune",
+      "description": "Su contenido de vitamina C apoya la activación inmune, la síntesis de colágeno y la defensa antioxidante, cubriendo las necesidades nutricionales diarias en una forma de alimento entero única."
+    }
+  ],
+  "red_currant": [
+    {
+      "title": "Defensa del Colágeno",
+      "description": "Rico en proantocianidinas que inhiben específicamente las enzimas que degradan el colágeno en la piel, preservando su integridad estructural y reduciendo la tasa de envejecimiento cutáneo."
+    },
+    {
+      "title": "Potencia en Vitamina C",
+      "description": "Su excepcional contenido de vitamina C apoya la activación inmune, la producción de colágeno y la absorción de hierro, aportando un valor nutricional integral en una pequeña baya."
+    },
+    {
+      "title": "Protección Antioxidante",
+      "description": "Su perfil único de polifenoles proporciona una amplia cobertura antioxidante, protegiendo las células del daño oxidativo vinculado a enfermedades cardiovasculares y deterioro neurológico."
+    }
+  ],
+  "rose_apple": [
+    {
+      "title": "Regulación del Azúcar con Jambosina",
+      "description": "Contiene jambosina, un alcaloide que inhibe específicamente la actividad de la alfa-glucosidasa, ralentizando la conversión del almidón en glucosa y apoyando una glucemia saludable tras las comidas."
+    },
+    {
+      "title": "Salud Digestiva e Intestinal",
+      "description": "El contenido de fibra favorece la regularidad intestinal y alimenta las bacterias beneficiosas, contribuyendo a un microbioma saludable y a la función digestiva en general."
+    },
+    {
+      "title": "Hidratación Celular Profunda",
+      "description": "Su alto contenido de agua combinado con electrolitos apoya la hidratación celular, la función renal y el equilibrio hídrico general, especialmente valioso en climas cálidos."
+    }
+  ],
+  "sapodilla": [
+    {
+      "title": "Refuerzo del Revestimiento Intestinal",
+      "description": "Su excepcional contenido de taninos leucocianidina consolida los tejidos intestinales y reduce la permeabilidad del intestino, siendo un remedio natural altamente eficaz para el síndrome de intestino irritable."
+    },
+    {
+      "title": "Fuente de Energía Sostenida",
+      "description": "Los azúcares naturales combinados con fibra proporcionan energía estable y duradera sin bajadas de azúcar, apoyando el rendimiento físico y mental a lo largo del día."
+    },
+    {
+      "title": "Acción Antidiarreica",
+      "description": "Los taninos calman los espasmos intestinales y firman las heces blandas sin los efectos secundarios farmacéuticos, ofreciendo alivio natural del malestar digestivo agudo."
+    }
+  ],
+  "sea_buckthorn": [
+    {
+      "title": "Los Cuatro Ácidos Grasos Omega",
+      "description": "La única planta conocida que contiene los cuatro ácidos grasos omega simultáneamente, con el raro omega-7 especialmente beneficioso para restaurar la hidratación de mucosas y piel."
+    },
+    {
+      "title": "Vitamina C Excepcional",
+      "description": "Concentración de vitamina C entre las más altas de cualquier alimento vegetal, ofreciendo una activación inmune y protección antioxidante extraordinarias."
+    },
+    {
+      "title": "Restauración de la Piel",
+      "description": "El ácido palmitoleico omega-7 es estructuralmente idéntico a la grasa de las células de la piel humana, haciendo del espino amarillo un remedio excepcionalmente eficaz para reparar y nutrir la piel desde dentro."
+    }
+  ],
+  "snake_fruit": [
+    {
+      "title": "Memoria y Función Cognitiva",
+      "description": "Contiene pectina en cantidades significativas, una fibra asociada con la mejora cognitiva y la reducción del colesterol sanguíneo, siendo uno de los pocos frutos con beneficios directos para la salud cerebral."
+    },
+    {
+      "title": "Energía Sostenida",
+      "description": "Los azúcares naturales y carbohidratos proporcionan energía limpia y constante, convirtiéndolo en un snack ideal antes del ejercicio o a media tarde."
+    },
+    {
+      "title": "Salud Intestinal",
+      "description": "La fibra de pectina alimenta la microbiota beneficiosa y apoya la regularidad intestinal, contribuyendo a un entorno digestivo saludable y a la diversidad del microbioma."
+    }
+  ],
+  "soursop": [
+    {
+      "title": "Defensa Inmune y Antioxidante",
+      "description": "El alto contenido de vitamina C y antioxidantes activa las células inmunes y neutraliza los radicales libres, ofreciendo protección frente a infecciones y daño celular."
+    },
+    {
+      "title": "Acción Antiinflamatoria",
+      "description": "Las acetogeninas y alcaloides reducen la inflamación sistémica, apoyando la salud articular, la protección cardiovascular y la recuperación de condiciones inflamatorias crónicas."
+    },
+    {
+      "title": "Ayuda para el Sueño",
+      "description": "Compuestos de la guanábana interactúan con los receptores de serotonina, induciendo calma y un sueño más profundo sin el aturdimiento asociado a los somníferos farmacéuticos."
+    }
+  ],
+  "spinach": [
+    {
+      "title": "Luteína para el Cerebro",
+      "description": "La luteína y la zeaxantina se acumulan en el hipocampo, correlacionando de forma consistente con mayor agudeza mental, velocidad de procesamiento y memoria en adultos de todas las edades."
+    },
+    {
+      "title": "Hierro y Producción de Energía",
+      "description": "Su alto contenido en hierro vegetal apoya la producción de glóbulos rojos y el transporte de oxígeno, mientras que la vitamina C presente en la espinaca potencia simultáneamente la absorción del mineral."
+    },
+    {
+      "title": "Salud Ósea con Vitamina K",
+      "description": "Una de las fuentes más ricas en vitamina K1, que activa proteínas formadoras de hueso y dirige el calcio hacia el tejido óseo, apoyando la densidad y la prevención de fracturas a largo plazo."
+    }
+  ],
+  "star_apple": [
+    {
+      "title": "Calcio Excepcional",
+      "description": "Uno de los niveles más altos de calcio entre las frutas tropicales, aportando una contribución real a la densidad ósea en poblaciones con acceso limitado a lácteos."
+    },
+    {
+      "title": "Apoyo Inmune",
+      "description": "Las vitaminas C y A activan la producción de células inmunes y ofrecen protección antioxidante, reforzando las defensas del organismo frente a infecciones y estrés ambiental."
+    },
+    {
+      "title": "Salud Intestinal y Digestión",
+      "description": "El contenido en fibra favorece la regularidad intestinal, alimenta la microbiota beneficiosa y contribuye a un entorno digestivo saludable en todo el tracto gastrointestinal."
+    }
+  ],
+  "starfruit": [
+    {
+      "title": "Poder Antioxidante Sinérgico",
+      "description": "Contiene epicatequina y quercetina en concentraciones combinadas inusualmente altas, creando un efecto antioxidante sinérgico significativamente más potente que cada compuesto por separado."
+    },
+    {
+      "title": "Salud Cardiovascular",
+      "description": "El potasio, la fibra y los antioxidantes actúan en conjunto para regular la presión arterial, reducir la oxidación del LDL y proteger las paredes arteriales del daño inflamatorio."
+    },
+    {
+      "title": "Equilibrio de Azúcar en Sangre",
+      "description": "Su bajo índice glucémico y el contenido en fibra soluble ralentizan la absorción de glucosa tras las comidas, contribuyendo a niveles estables de azúcar y energía sostenida."
+    }
+  ],
+  "sweet_potato": [
+    {
+      "title": "Beta-Caroteno y Vitamina A",
+      "description": "Extraordinariamente rico en beta-caroteno que se convierte en vitamina A, esencial para mantener la integridad de la piel y las membranas mucosas, primera línea de defensa del organismo."
+    },
+    {
+      "title": "Control del Azúcar en Sangre",
+      "description": "A pesar de su dulzor, el boniato tiene un impacto glucémico menor que la patata blanca, con fibra y almidón resistente que moderan eficazmente la absorción de glucosa."
+    },
+    {
+      "title": "Neuroprotección y Cerebro",
+      "description": "Las variedades moradas contienen antocianinas con propiedades neuroprotectoras específicamente estudiadas para reducir el deterioro cognitivo y proteger el tejido neural del envejecimiento oxidativo."
+    }
+  ],
+  "tamarillo": [
+    {
+      "title": "Reducción de la Presión Arterial",
+      "description": "El ácido clorogénico ha sido estudiado por sus efectos antihipertensivos, con el consumo regular de tamarillo reduciendo mediblemente la presión sistólica en adultos con hipertensión."
+    },
+    {
+      "title": "Apoyo Inmune y Antioxidante",
+      "description": "Las vitaminas A y C combinadas con antocianinas ofrecen activación inmune completa y protección antioxidante celular en todo el organismo."
+    },
+    {
+      "title": "Protección de la Vista",
+      "description": "El beta-caroteno y la zeaxantina apoyan la salud retinal y protegen frente al daño inducido por UV, reduciendo el riesgo de degeneración macular y formación de cataratas."
+    }
+  ],
+  "tamarind": [
+    {
+      "title": "Ácido Tartárico Antioxidante",
+      "description": "Excepcionalmente rico en ácido tartárico, que actúa como antioxidante potente y ha demostrado inhibir la formación de cálculos renales al unirse a los cristales de oxalato de calcio."
+    },
+    {
+      "title": "Apoyo Digestivo",
+      "description": "Los compuestos laxantes naturales, incluyendo el ácido tartárico y el potasio, estimulan suavemente el tránsito intestinal, haciendo del tamarindo un remedio tradicional eficaz para el estreñimiento."
+    },
+    {
+      "title": "Hierro y Energía",
+      "description": "Su destacado contenido en hierro apoya la producción de glóbulos rojos y el transporte de oxígeno, mientras que la vitamina C del tamarindo potencia simultáneamente la biodisponibilidad del mineral."
+    }
+  ],
+  "ugli_fruit": [
+    {
+      "title": "Gran Fuente de Vitamina C",
+      "description": "Su alto contenido en vitamina C ofrece una potente activación inmune y protección antioxidante, apoyando la producción de glóbulos blancos y las defensas del organismo frente a infecciones."
+    },
+    {
+      "title": "Protección Cardiovascular con Hesperidina",
+      "description": "Como otros cítricos, contiene hesperidina que fortalece las paredes de los vasos sanguíneos y reduce la inflamación, apoyando la salud del corazón y la circulación a largo plazo."
+    },
+    {
+      "title": "Fibra para la Digestión",
+      "description": "Su contenido en fibra soluble favorece la regularidad intestinal, reduce el colesterol y alimenta la microbiota beneficiosa, contribuyendo a una salud digestiva integral."
+    }
+  ],
+  "walnuts": [
+    {
+      "title": "DHA Omega-3 para el Cerebro",
+      "description": "La fuente vegetal más rica en ALA omega-3 convertible a DHA, apoyando la integridad de las membranas de las células cerebrales, la función sináptica y la salud cognitiva a largo plazo."
+    },
+    {
+      "title": "Protección Cardiovascular",
+      "description": "Los omega-3, polifenoles y arginina reducen los triglicéridos, mejoran la flexibilidad vascular y disminuyen la inflamación, convirtiendo las nueces en uno de los mejores alimentos para el corazón."
+    },
+    {
+      "title": "Autofagia Mitocondrial y Antienvejecimiento",
+      "description": "Los elagitaninos de la piel de la nuez se convierten en urolitinas, activando la mitofagia —la limpieza celular de mitocondrias dañadas— un mecanismo clave para el envejecimiento saludable a nivel celular."
+    }
+  ],
+  "yuzu": [
+    {
+      "title": "Nobiletina para la Memoria y el Sueño",
+      "description": "La piel del yuzu contiene nobiletina, un flavonoide cítrico que activa genes CLOCK implicados en la regulación del ritmo circadiano, mejorando simultáneamente la consolidación de la memoria y la calidad del sueño."
+    },
+    {
+      "title": "Vitamina C Excepcional",
+      "description": "Mayor concentración de vitamina C que la mayoría de los cítricos comunes, ofreciendo una potente activación inmune y defensa antioxidante con solo pequeñas cantidades."
+    },
+    {
+      "title": "Reducción del Estrés y Mejora del Estado de Ánimo",
+      "description": "Los compuestos aromáticos del yuzu han demostrado clínicamente reducir los niveles de cortisol y mejorar el estado de ánimo en minutos de inhalación, un beneficio nutricional aromaterapéutico único."
+    }
+  ],
+  "cacao": [
+    {
+      "title": "Magnesio para el Cerebro y los Músculos",
+      "description": "Una de las fuentes alimentarias más ricas en magnesio, mineral esencial para más de 300 reacciones enzimáticas, incluyendo la síntesis de neurotransmisores, la relajación muscular y la producción de energía."
+    },
+    {
+      "title": "Teobromina para la Concentración",
+      "description": "La teobromina bloquea los receptores de adenosina y proporciona una alerta sostenida y tranquila sin la ansiedad ni el bajón del café, convirtiendo al cacao en el potenciador cognitivo ideal."
+    },
+    {
+      "title": "Elevación del Ánimo con PEA",
+      "description": "Contiene feniletilamina, un compuesto que dispara la liberación de dopamina y serotonina, produciendo una mejora natural del estado de ánimo y sensación de bienestar."
+    },
+    {
+      "title": "Flavonoides Cardiovasculares",
+      "description": "Los flavanoles mejoran la flexibilidad de los vasos sanguíneos, reducen la presión arterial y protegen el LDL de la oxidación, con efectos más potentes en cacao crudo que en chocolate procesado."
+    }
+  ],
+  "lions_mane": [
+    {
+      "title": "Estimulación del Factor de Crecimiento Nervioso",
+      "description": "Las hericenones estimulan la síntesis de NGF en el cerebro, convirtiendo a la melena de león en uno de los pocos alimentos demostrados para apoyar la regeneración y el mantenimiento del tejido neural."
+    },
+    {
+      "title": "Mejora de la Memoria y la Cognición",
+      "description": "Estudios clínicos muestran mejoras mensurables en memoria, enfoque y velocidad de procesamiento cognitivo con un consumo regular, especialmente en adultos mayores."
+    },
+    {
+      "title": "Apoyo al Ánimo y la Ansiedad",
+      "description": "Los beta-glucanos modulan el eje intestino-cerebro, reduciendo la ansiedad y los síntomas depresivos a través de su influencia en el microbioma intestinal y la producción de serotonina."
+    },
+    {
+      "title": "Protección del Tracto Digestivo",
+      "description": "Los polisacáridos protegen y sanan el revestimiento del estómago, con evidencia clínica de reducción de la colonización por H. pylori y apoyo en la recuperación de úlceras gástricas."
+    }
+  ],
+  "ashwaganda": [
+    {
+      "title": "Reducción del Cortisol",
+      "description": "Los withanólidos reducen mensurablemente el cortisol —la principal hormona del estrés— restaurando el equilibrio hormonal alterado por el estrés crónico en pocas semanas de uso constante."
+    },
+    {
+      "title": "Fuerza y Resistencia Física",
+      "description": "Estudios clínicos muestran aumentos significativos en fuerza muscular, velocidad de recuperación y VO2 máximo en personas que suplementan con ashwagandha durante entrenamiento de resistencia."
+    },
+    {
+      "title": "Equilibrio Tiroideo y Hormonal",
+      "description": "Apoya la producción de hormonas tiroideas y los niveles de testosterona en hombres, abordando dos desequilibrios hormonales frecuentes asociados al estrés crónico y la mala alimentación."
+    },
+    {
+      "title": "Mejora de la Calidad del Sueño",
+      "description": "El trietilenglicol de la ashwagandha favorece el inicio del sueño y mejora la duración del sueño profundo, siendo eficaz tanto para el alivio del estrés como para la optimización del descanso."
+    }
+  ],
+  "nutmeg_seed": [
+    {
+      "title": "Inhibición de la MAO para el Estado de Ánimo",
+      "description": "La miristicina inhibe la monoaminooxidasa, amplificando el efecto de la serotonina y produciendo un notable efecto de mejora del ánimo que convierte a la nuez moscada en una potente especia neuroactiva."
+    },
+    {
+      "title": "Protección Cognitiva",
+      "description": "El compuesto maceliganán ha sido estudiado por su capacidad de inhibir la acetilcolinesterasa, apoyando la memoria y el aprendizaje de manera similar a los primeros medicamentos para el Alzheimer."
+    },
+    {
+      "title": "Calmante Digestivo",
+      "description": "La miristicina y el elemicina calman el intestino, reduciendo la hinchazón, los gases y los espasmos intestinales, con uso tradicional ayurvédico para el malestar digestivo de siglos de antigüedad."
+    },
+    {
+      "title": "Acción Antiinflamatoria",
+      "description": "El eugenol y la miristicina reducen los marcadores inflamatorios en el cuerpo, apoyando la salud articular y proporcionando protección antiinflamatoria sistémica en dosis pequeñas."
+    }
+  ],
+  "maca_root": [
+    {
+      "title": "Energía Suprarrenal sin Estimulantes",
+      "description": "Los glucosinolatos apoyan la función suprarrenal, proporcionando energía sostenida al optimizar el eje suprarrenal-cortisol sin sobreestimularlo como lo hace la cafeína u otras hierbas estimulantes."
+    },
+    {
+      "title": "Equilibrio Hormonal y Libido",
+      "description": "Demostrado clínicamente para mejorar la libido en hombres y mujeres sin afectar directamente los niveles de hormonas sexuales, actuando a través de vías únicas de glucosinolatos y alcaloides."
+    },
+    {
+      "title": "Resiliencia Mental y Estado de Ánimo",
+      "description": "Los flavonoides y alcaloides reducen la ansiedad y los síntomas depresivos, apoyando la resiliencia emocional especialmente en períodos de cambio hormonal como la menopausia."
+    },
+    {
+      "title": "Rendimiento Físico",
+      "description": "Mejora la resistencia y la potencia física al apoyar la producción de energía mitocondrial y reducir el daño oxidativo inducido por el ejercicio en el tejido muscular."
+    }
+  ],
+  "green_matcha": [
+    {
+      "title": "Sinergia L-Teanina y EGCG",
+      "description": "La L-teanina y el EGCG trabajan juntos: la L-teanina cruza la barrera hematoencefálica para producir calma alerta, mientras el EGCG protege simultáneamente el tejido neural del estrés oxidativo."
+    },
+    {
+      "title": "Energía Sostenida sin Nerviosismo",
+      "description": "La combinación de cafeína con L-teanina produce energía enfocada y estable sin la ansiedad ni el bajón del café, ideal para trabajo cognitivo y rendimiento creativo."
+    },
+    {
+      "title": "Metabolismo y Quema de Grasa",
+      "description": "El EGCG activa la termogénesis y la oxidación de grasas, con estudios clínicos que muestran que el matcha aumenta el gasto calórico tanto en reposo como durante el ejercicio."
+    },
+    {
+      "title": "Protección Antioxidante Celular",
+      "description": "Contiene la mayor concentración de EGCG de cualquier alimento, proporcionando una extraordinaria protección antioxidante contra el daño de los radicales libres a nivel celular."
+    }
+  ],
+  "cordyceps": [
+    {
+      "title": "Producción de ATP y Energía Celular",
+      "description": "La cordycepina mejora la producción de ATP a nivel celular, aumentando directamente la energía disponible para cada célula y extendiendo mensurablemente la capacidad de resistencia."
+    },
+    {
+      "title": "Eficiencia en el Uso del Oxígeno",
+      "description": "Aumenta el VO2 máximo y la eficiencia en la utilización del oxígeno, permitiendo al cuerpo extraer más energía de cada respiración, validado en múltiples estudios de rendimiento atlético."
+    },
+    {
+      "title": "Apoyo Renal y Suprarrenal",
+      "description": "El uso tradicional y clínico apoya la función renal y la resiliencia suprarrenal, ayudando al cuerpo a recuperarse de la fatiga y gestionar el estrés físico y mental de forma más eficaz."
+    },
+    {
+      "title": "Modulación Inmunitaria",
+      "description": "Los beta-glucanos activan las células asesinas naturales y los macrófagos, fortaleciendo la vigilancia inmunitaria contra células anómalas y patógenos sin sobreestimular la respuesta inmunitaria."
+    }
+  ],
+  "moringa": [
+    {
+      "title": "Perfil Completo de Aminoácidos",
+      "description": "Una de las pocas plantas que contiene los nueve aminoácidos esenciales junto con calcio, hierro y vitamina A significativos, convirtiéndola en una fuente alimentaria genuinamente completa."
+    },
+    {
+      "title": "Isotiocianatos Antiinflamatorios",
+      "description": "Los isotiocianatos inhiben el NF-kB —el interruptor maestro de la inflamación— proporcionando una protección antiinflamatoria amplia comparable a la cúrcuma, pero a través de una vía bioquímica diferente."
+    },
+    {
+      "title": "Regulación del Azúcar en Sangre",
+      "description": "Los isotiocianatos y el ácido clorogénico trabajan juntos para reducir los picos de glucosa postprandiales y mejorar la sensibilidad a la insulina, apoyando la salud metabólica con uso regular."
+    },
+    {
+      "title": "Densidad Antioxidante",
+      "description": "Contiene más de 46 antioxidantes incluyendo quercetina, ácido clorogénico y betacaroteno, proporcionando una protección celular integral contra el daño oxidativo y el envejecimiento."
+    }
+  ],
+  "shilajit": [
+    {
+      "title": "Transporte Mineral con Ácido Fúlvico",
+      "description": "El ácido fúlvico transporta minerales directamente a través de las membranas celulares, mejorando drásticamente la biodisponibilidad de cada nutriente consumido junto a él."
+    },
+    {
+      "title": "Producción de Energía Mitocondrial",
+      "description": "Apoya la función de la CoQ10 y la síntesis de ATP dentro de las mitocondrias, aumentando la producción de energía celular y reduciendo la fatiga al nivel biológico más fundamental."
+    },
+    {
+      "title": "Apoyo Testosterónico y Hormonal",
+      "description": "Estudios clínicos muestran aumentos mensurables de testosterona libre en hombres que usan shilajit de forma constante, apoyando la vitalidad, la masa muscular y la resiliencia hormonal."
+    },
+    {
+      "title": "Función Cognitiva y Prevención del Alzheimer",
+      "description": "El ácido fúlvico previene la agregación de la proteína tau —un factor clave en el Alzheimer— mientras apoya la síntesis de neurotransmisores y el metabolismo energético cerebral."
+    }
+  ],
+  "black_pepper": [
+    {
+      "title": "Potenciador de la Biodisponibilidad de la Curcumina",
+      "description": "La piperina bloquea la enzima hepática que elimina rápidamente la curcumina del torrente sanguíneo, aumentando su biodisponibilidad hasta un 2000%, haciendo la pimienta negra imprescindible con la cúrcuma."
+    },
+    {
+      "title": "Estimulación de Enzimas Digestivas",
+      "description": "Estimula la secreción de enzimas digestivas del páncreas, mejorando la descomposición de proteínas, carbohidratos y grasas para una mejor absorción general de nutrientes."
+    },
+    {
+      "title": "Impulso Metabólico Termogénico",
+      "description": "La piperina tiene propiedades termogénicas que aumentan la tasa metabólica y la oxidación de grasas, apoyando el control del peso junto a otros hábitos de vida beneficiosos."
+    },
+    {
+      "title": "Antiinflamatorio y Antioxidante",
+      "description": "La piperina reduce directamente los marcadores inflamatorios y actúa como antioxidante, aportando beneficios protectores independientes más allá de su conocido papel como potenciador de absorción."
+    }
+  ],
+  "ginger": [
+    {
+      "title": "Inhibición de COX-2 para el Alivio del Dolor",
+      "description": "El gingerol inhibe la enzima inflamatoria COX-2 con una eficacia comparable al ibuprofeno, proporcionando alivio natural del dolor y la inflamación sin daño gastrointestinal a largo plazo."
+    },
+    {
+      "title": "Eliminación de las Náuseas",
+      "description": "Demostrado clínicamente para reducir las náuseas por mareo, quimioterapia y embarazo, con evidencia que iguala la efectividad de algunos antieméticos farmacéuticos."
+    },
+    {
+      "title": "Apoyo a la Motilidad Digestiva",
+      "description": "Acelera el vaciado gástrico y estimula la producción de enzimas digestivas, reduciendo la hinchazón, los gases y el malestar de una digestión lenta o perezosa."
+    },
+    {
+      "title": "Potencia Antiinflamatoria del Shogaol",
+      "description": "El jengibre seco y calentado produce shogaoles —compuestos significativamente más potentes que los gingeroles crudos— haciendo de esta forma del jengibre la más eficaz para la inflamación crónica."
+    }
+  ],
+  "cayenne": [
+    {
+      "title": "Quema de Grasa Termogénica",
+      "description": "La capsaicina activa los receptores TRPV1 en todo el cuerpo, desencadenando termogénesis que eleva la tasa metabólica y aumenta la oxidación de grasas durante horas tras su consumo."
+    },
+    {
+      "title": "Circulación y Flujo Sanguíneo",
+      "description": "Dilata los vasos sanguíneos y mejora la circulación periférica, apoyando la salud cardiovascular y reduciendo el riesgo de coágulos y eventos cardiovasculares."
+    },
+    {
+      "title": "Alivio Natural del Dolor",
+      "description": "La capsaicina agota la sustancia P —el principal neurotransmisor que señaliza el dolor— proporcionando un alivio natural y sostenido del dolor nervioso, articular y las cefaleas."
+    },
+    {
+      "title": "Estimulación Digestiva",
+      "description": "Dosis bajas estimulan la producción de enzimas digestivas y mejoran la motilidad intestinal, demostrando además propiedades prebióticas que apoyan las bacterias intestinales beneficiosas."
+    }
+  ],
+  "cloves": [
+    {
+      "title": "Mayor Antioxidante entre las Especias",
+      "description": "Los clavos tienen la mayor capacidad antioxidante medida de cualquier especia culinaria, con el eugenol aportando una extraordinaria protección neutralizadora de radicales libres en todo el cuerpo."
+    },
+    {
+      "title": "Acción Antimicrobiana Natural",
+      "description": "El eugenol tiene potentes propiedades antimicrobianas frente a bacterias, hongos y virus —incluyendo actividad contra cepas resistentes a antibióticos— apoyando la defensa inmunitaria natural."
+    },
+    {
+      "title": "Control del Azúcar en Sangre",
+      "description": "Los compuestos de los clavos imitan la señalización de la insulina y mejoran la captación de glucosa por las células, apoyando niveles saludables de azúcar en sangre con cada uso."
+    },
+    {
+      "title": "Protección Hepática",
+      "description": "El eugenol previene la inflamación y la fibrosis hepática causada por dietas ricas en grasas y la exposición química, apoyando la capacidad del hígado de funcionar como órgano primario de desintoxicación."
+    }
+  ],
+  "cinnamon": [
+    {
+      "title": "Mimetismo de la Insulina para el Azúcar en Sangre",
+      "description": "El cinamaldehído imita la señalización de la insulina en las células, mejorando directamente la captación de glucosa y convirtiendo a la canela en una de las especias más estudiadas para el control del azúcar en sangre."
+    },
+    {
+      "title": "Reducción del Colesterol y los Triglicéridos",
+      "description": "Los polifenoles de la canela reducen el colesterol LDL y los triglicéridos mientras elevan el HDL, proporcionando un apoyo metabólico cardiovascular integral."
+    },
+    {
+      "title": "Antiinflamatorio y Antioxidante",
+      "description": "Los compuestos de cinamato reducen la actividad inflamatoria del NF-kB y ofrecen una fuerte protección antioxidante, apoyando la salud sistémica y reduciendo el riesgo de enfermedades crónicas."
+    },
+    {
+      "title": "Propiedades Antimicrobianas",
+      "description": "El cinamaldehído tiene una potente actividad antibacteriana frente a patógenos comunes como E. coli y Salmonella, apoyando la seguridad alimentaria y la función inmunitaria natural."
+    }
+  ],
+  "chlorella": [
+    {
+      "title": "Desintoxicación de Metales Pesados",
+      "description": "Los complejos clorofila-proteína se unen a metales pesados como mercurio, plomo y cadmio en el torrente sanguíneo y facilitan su eliminación a través de las vías hepática y renal."
+    },
+    {
+      "title": "Fuente Completa de Proteína",
+      "description": "Más del 50% de proteína en peso seco con todos los aminoácidos esenciales, haciendo de la chlorella una de las fuentes de proteína vegetal más concentradas disponibles."
+    },
+    {
+      "title": "Activación del Sistema Inmunitario",
+      "description": "Los beta-glucanos y el Factor de Crecimiento Chlorella (CGF) activan macrófagos y células asesinas naturales, proporcionando una profunda fortificación inmunitaria con uso constante."
+    },
+    {
+      "title": "Vitamina B12 para Dietas Vegetales",
+      "description": "Uno de los pocos alimentos vegetales que contiene vitamina B12 activa, siendo invaluable para veganos y vegetarianos en riesgo de deficiencia de esta vitamina neurológica crítica."
+    }
+  ],
+  "spirulina": [
+    {
+      "title": "Poder Antioxidante de la Ficocianina",
+      "description": "La ficocianina —el pigmento azul exclusivo de la espirulina— neutraliza los radicales libres directamente en el torrente sanguíneo con una potencia antioxidante que protege las células de todo el cuerpo."
+    },
+    {
+      "title": "Antiinflamatorio en el Origen",
+      "description": "La ficocianina inhibe simultáneamente las vías inflamatorias de la ciclooxigenasa y el NF-kB, abordando la inflamación en múltiples niveles biológicos con un solo compuesto."
+    },
+    {
+      "title": "Matriz Proteica Completa",
+      "description": "Entre el 60 y el 70% de proteína en peso seco con un perfil de aminoácidos superior, convirtiendo a la espirulina en el alimento entero más rico en proteínas por peso disponible."
+    },
+    {
+      "title": "Reducción del Colesterol y los Triglicéridos",
+      "description": "Estudios clínicos muestran que la espirulina reduce significativamente el colesterol LDL y los triglicéridos mientras eleva el HDL, con evidencia sólida para la salud metabólica cardiovascular."
+    }
+  ],
+  "sea_moss": [
+    {
+      "title": "Espectro de 92 Minerales",
+      "description": "Contiene hasta 92 de los 102 minerales presentes en el cuerpo humano, proporcionando la suplementación mineral de mayor espectro disponible en una sola fuente de alimento entero."
+    },
+    {
+      "title": "Apoyo a la Hormona Tiroidea",
+      "description": "El yodo y otros oligoelementos apoyan directamente la síntesis de la hormona tiroidea, siendo el musgo marino esencial para quienes tienen función tiroidea lenta o dietas deficientes en yodo."
+    },
+    {
+      "title": "Sanación del Revestimiento Intestinal",
+      "description": "Los compuestos mucilaginosos recubren y calman el revestimiento intestinal, reduciendo la inflamación y apoyando la recuperación del intestino permeable, el SII y la irritación digestiva."
+    },
+    {
+      "title": "Modulación Inmunitaria",
+      "description": "El fucoidano y la carragenina activan el sistema inmunitario innato, mejorando las defensas de primera respuesta del organismo frente a virus y patógenos bacterianos."
+    }
+  ],
+  "kokum": [
+    {
+      "title": "Propiedades Anticancerígenas del Garcinol",
+      "description": "El garcinol inhibe histona acetiltransferasas y enzimas inflamatorias clave, con una notable actividad anticancerígena demostrada frente a múltiples líneas celulares en investigación de laboratorio."
+    },
+    {
+      "title": "Enfriamiento Intestinal y Antiinflamatorio",
+      "description": "Reduce el calor y la acidez en el intestino, usado tradicionalmente en Ayurveda para úlceras gástricas e hiperacidez, con investigación moderna que confirma sus propiedades protectoras de la mucosa."
+    },
+    {
+      "title": "Protección Hepática",
+      "description": "El garcinol protege las células hepáticas del daño oxidativo y químico, apoyando la capacidad de desintoxicación del hígado y la salud hepática a largo plazo."
+    },
+    {
+      "title": "Defensa Antioxidante",
+      "description": "Rico en ácido hidroxicítrico y garcinol —dos poderosos antioxidantes que protegen las células del daño de los radicales libres y reducen el estrés oxidativo subyacente a las enfermedades crónicas."
+    }
+  ],
+  "chaga": [
+    {
+      "title": "Antioxidante Superóxido Dismutasa",
+      "description": "Contiene una de las mayores concentraciones de superóxido dismutasa (SOD) de cualquier espécimen biológico —una enzima antioxidante que neutraliza los radicales libres más dañinos del organismo."
+    },
+    {
+      "title": "Fortificación del Sistema Inmunitario",
+      "description": "Los beta-glucanos activan macrófagos, linfocitos T y células asesinas naturales, proporcionando una profunda y multicapa de inmunidad en lugar de una simple estimulación a corto plazo."
+    },
+    {
+      "title": "Propiedades Antitumorales",
+      "description": "El ácido betulínico derivado de la corteza de abedul en el chaga ha demostrado actividad antitumoral selectiva en múltiples estudios, atacando células anómalas mientras respeta el tejido sano."
+    },
+    {
+      "title": "Resistencia al Estrés Adaptogénica",
+      "description": "Los compuestos adaptogénicos del chaga ayudan al organismo a resistir el estrés físico y mental, apoyando la salud suprarrenal y mejorando la respuesta al estrés con uso constante."
+    }
+  ],
+  "reishi": [
+    {
+      "title": "Modulación y Equilibrio Inmunitario",
+      "description": "Los triterpenos y beta-glucanos modulan la respuesta inmunitaria: calmando la inmunidad hiperactiva en condiciones autoinmunes mientras la refuerzan frente a patógenos y células cancerosas."
+    },
+    {
+      "title": "Potenciación del Sueño Profundo",
+      "description": "Los triterpenos suprimen la histamina e interactúan con las vías GABA, mejorando naturalmente la profundidad y duración del sueño sin el riesgo de dependencia de los medicamentos para dormir."
+    },
+    {
+      "title": "Protección Hepática y Desintoxicación",
+      "description": "Los triterpenos protegen las células hepáticas del daño y apoyan la desintoxicación hepática en Fase 1 y Fase 2, mejorando la capacidad del organismo para procesar y eliminar toxinas ambientales."
+    },
+    {
+      "title": "Salud Cardiovascular y Presión Arterial",
+      "description": "Reduce la presión arterial, el colesterol LDL y la inflamación arterial a través de múltiples mecanismos, convirtiendo al reishi en uno de los adaptógenos más completos para la salud cardíaca."
+    }
+  ],
+  "elderberry": [
+    {
+      "title": "Barrera Antiviral de Defensa",
+      "description": "Las antocianinas se unen físicamente a las proteínas hemaglutininas en la superficie del virus de la influenza, bloqueando la entrada viral en las células humanas en múltiples estudios clínicos."
+    },
+    {
+      "title": "Activación Rápida de la Respuesta Inmunitaria",
+      "description": "Estimula la producción de citocinas y activa los glóbulos blancos en horas, acelerando la capacidad del sistema inmunitario de contener infecciones antes de que se establezcan."
+    },
+    {
+      "title": "Apoyo en la Recuperación Respiratoria",
+      "description": "Múltiples estudios clínicos confirman que el saúco acorta la duración y la gravedad de los resfriados y la gripe, con evidencia consistente de reducción de la intensidad de los síntomas."
+    },
+    {
+      "title": "Antioxidante y Antiinflamatorio",
+      "description": "El complejo de antocianinas reduce la inflamación y el estrés oxidativo asociados a la infección y la activación inmunitaria crónica, apoyando una recuperación más rápida y resiliencia inmunitaria a largo plazo."
+    }
+  ],
+  "manuka_honey": [
+    {
+      "title": "Acción Antibacteriana del MGO",
+      "description": "El metilglioxal (MGO) daña directamente el ADN bacteriano y las paredes celulares, proporcionando actividad antibacteriana contra cepas resistentes a los antibióticos convencionales, incluyendo el SARM."
+    },
+    {
+      "title": "Cicatrización de Heridas y Tejidos",
+      "description": "Crea un entorno de cicatrización húmedo y antibacteriano que acelera la reparación tisular, con uso clínico en hospitales de todo el mundo para heridas infectadas y sitios quirúrgicos."
+    },
+    {
+      "title": "Apoyo al Microbioma Intestinal",
+      "description": "Los oligosacáridos prebióticos alimentan selectivamente las bacterias beneficiosas mientras el MGO antibacteriano elimina los patógenos nocivos, mejorando el equilibrio microbiano intestinal general."
+    },
+    {
+      "title": "Protección de la Salud Bucal",
+      "description": "Reduce el Streptococcus mutans y otras bacterias orales perjudiciales responsables de la caries y la enfermedad periodontal, con evidencia clínica de mejora de la salud de las encías con uso regular."
+    }
+  ],
+  "cashews": [
+    {
+      "title": "Cobre para el Colágeno y la Melanina",
+      "description": "El cobre apoya la enzima tirosinasa, responsable de producir simultáneamente melanina y colágeno, convirtiendo a los anacardos en un alimento mineral genuinamente de belleza para piel, cabello y tejido conectivo."
+    },
+    {
+      "title": "Grasas Protectoras del Corazón",
+      "description": "El alto contenido en ácido oleico reduce el colesterol LDL y la inflamación vascular, con estudios que vinculan el consumo regular de frutos secos a un riesgo cardiovascular significativamente menor."
+    },
+    {
+      "title": "Magnesio para el Sistema Nervioso",
+      "description": "Ricos en magnesio, que relaja el sistema nervioso, reduce la ansiedad, apoya la calidad del sueño y previene los calambres musculares asociados a la deficiencia de este mineral."
+    },
+    {
+      "title": "Salud Ocular con Zinc y Antioxidantes",
+      "description": "El zinc y los antioxidantes apoyan la salud retiniana y reducen el riesgo de degeneración macular, contribuyendo a la protección visual a largo plazo con un consumo regular."
+    }
+  ],
+  "almond_butter": [
+    {
+      "title": "Vitamina E para el Cerebro y la Piel",
+      "description": "Rico en vitamina E, un antioxidante liposoluble que protege las membranas celulares del daño oxidativo, con asociaciones consistentes a la reducción del riesgo de Alzheimer en estudios poblacionales a largo plazo."
+    },
+    {
+      "title": "Grasas Monoinsaturadas Cardioprotectoras",
+      "description": "El ácido oleico reduce la oxidación del LDL y la inflamación arterial, convirtiendo a la mantequilla de almendras en una de las cremas de frutos secos más protectoras para el corazón."
+    },
+    {
+      "title": "Estabilidad del Azúcar en Sangre",
+      "description": "La combinación de grasas saludables, proteínas y fibra ralentiza la absorción de glucosa, haciendo de la mantequilla de almendras una adición estabilizadora para comidas con energía sostenida y reducción del hambre."
+    },
+    {
+      "title": "Salud Ósea con Calcio y Magnesio",
+      "description": "Aporta calcio y magnesio en combinación, apoyando el mantenimiento de la densidad ósea y la señalización nervio-músculo que depende de un adecuado equilibrio mineral."
+    }
+  ],
+  "peanut_butter": [
+    {
+      "title": "Biotina para Cabello, Piel y Uñas",
+      "description": "La biotina apoya la producción de queratina, fortaleciendo directamente las proteínas estructurales del cabello, la piel y las uñas, convirtiendo a la mantequilla de cacahuete en un alimento de belleza práctico."
+    },
+    {
+      "title": "Protección Cardiovascular con Resveratrol",
+      "description": "Contiene resveratrol —el mismo compuesto de longevidad de las uvas rojas— que protege las paredes vasculares y activa las vías celulares antienvejecimiento."
+    },
+    {
+      "title": "Energía Sostenida y Saciedad",
+      "description": "El alto contenido en proteínas y grasas saludables proporciona energía sostenida, reduce el hambre y previene los bajones de azúcar en sangre asociados a los snacks ricos en carbohidratos."
+    },
+    {
+      "title": "Niacina para la Salud Metabólica",
+      "description": "Buena fuente de niacina (vitamina B3), que apoya el metabolismo energético, el control del colesterol y la reparación del daño del ADN a nivel celular."
+    }
+  ],
+  "collagen": [
+    {
+      "title": "Firmeza y Elasticidad de la Piel",
+      "description": "Aporta glicina y prolina —los dos aminoácidos más necesarios para la síntesis de colágeno cutáneo— apoyando directamente la firmeza, la elasticidad y la reducción de la profundidad de las arrugas."
+    },
+    {
+      "title": "Reparación Articular y del Cartílago",
+      "description": "Estudios clínicos demuestran que los péptidos de colágeno reducen el dolor articular y mejoran la densidad del cartílago en la osteoartritis, siendo el apoyo dietético más directo para la estructura articular disponible."
+    },
+    {
+      "title": "Restauración del Revestimiento Intestinal",
+      "description": "La glicina es el principal componente de la mucosa intestinal, con la suplementación de colágeno demostrada para ayudar a reparar el intestino permeable y reducir la inflamación intestinal."
+    },
+    {
+      "title": "Apoyo a la Densidad Ósea",
+      "description": "El colágeno constituye el 30% del hueso en peso seco, y la suplementación ha demostrado en estudios clínicos aumentar la densidad mineral ósea en mujeres posmenopáusicas."
+    }
+  ],
+  "hemp_seeds": [
+    {
+      "title": "Balance Ideal de Ácidos Grasos Omega",
+      "description": "Aporta omega-6 y omega-3 en la proporción antiinflamatoria ideal de 3:1 para la salud humana, a diferencia de la mayoría de aceites y semillas que son dominantemente omega-6."
+    },
+    {
+      "title": "Proteína Vegetal Completa",
+      "description": "Contiene los nueve aminoácidos esenciales en una forma fácilmente digerible, proporcionando una fuente de proteína genuinamente completa que puede apoyar la síntesis muscular sin productos animales."
+    },
+    {
+      "title": "GLA para la Salud Hormonal y la Piel",
+      "description": "El ácido gamma-linolénico es un omega-6 raro con propiedades antiinflamatorias que apoya el equilibrio hormonal, reduce los síntomas del SPM y mejora la hidratación y textura de la piel."
+    },
+    {
+      "title": "Apoyo Cardiovascular",
+      "description": "El contenido en arginina apoya la producción de óxido nítrico, relajando los vasos sanguíneos y reduciendo la presión arterial, mientras los omega-3 reducen los triglicéridos y la inflamación arterial."
+    }
+  ],
+  "coconut_oil": [
+    {
+      "title": "Energía Rápida para el Cerebro y el Cuerpo con TCM",
+      "description": "Los triglicéridos de cadena media se convierten directamente en energía en el hígado sin almacenarse como grasa, proporcionando combustible rápido y limpio tanto para el cerebro como para el cuerpo sin pico de azúcar."
+    },
+    {
+      "title": "Defensa Antimicrobiana con Ácido Láurico",
+      "description": "El ácido láurico se convierte en monolaurina en el cuerpo, desorganizando las membranas lipídicas de virus y bacterias perjudiciales, proporcionando defensa inmunitaria a nivel de membrana celular."
+    },
+    {
+      "title": "Producción de Cetonas para la Salud Cerebral",
+      "description": "Los TCM se convierten en cetonas que proporcionan al cerebro una fuente de energía alternativa que mejora la claridad mental, el enfoque y puede apoyar la salud cognitiva en el envejecimiento."
+    },
+    {
+      "title": "Nutrición para la Piel y el Cabello",
+      "description": "Tópica e internamente, el ácido láurico y los TCM apoyan la barrera lipídica de la piel, reducen la pérdida de humedad y nutren profundamente los folículos capilares y el cuero cabelludo."
+    }
+  ],
+  "camomile": [
+    {
+      "title": "Activación de los Receptores GABA con Apigenina",
+      "description": "La apigenina se une a los receptores benzodiazepínicos del cerebro, produciendo una sedación calmante sin el riesgo de tolerancia o dependencia de los alternativos farmacéuticos."
+    },
+    {
+      "title": "Inicio y Calidad del Sueño",
+      "description": "Estudios clínicos confirman que la manzanilla mejora significativamente la velocidad de inicio del sueño y la calidad general del descanso, especialmente cuando se combina con magnesio antes de acostarse."
+    },
+    {
+      "title": "Calmante Digestivo y Antiespasmódico",
+      "description": "El bisabolol y los flavonoides relajan el músculo liso del intestino, reduciendo los espasmos, calambres, hinchazón y el malestar del SII con uso regular."
+    },
+    {
+      "title": "Cicatrización y Antiinflamatorio Cutáneo",
+      "description": "Tópica e internamente, la manzanilla reduce el enrojecimiento, la irritación y la inflamación cutánea gracias a sus poderosos compuestos antiinflamatorios y cicatrizantes."
+    }
+  ],
+  "magnesium_sup": [
+    {
+      "title": "Producción de GABA para el Sueño Profundo",
+      "description": "El glicinato de magnesio es la forma más biodisponible del magnesio, apoyando directamente la síntesis de GABA —el principal neurotransmisor inhibidor que permite el sueño profundo y reparador."
+    },
+    {
+      "title": "Relajación del Sistema Nervioso",
+      "description": "Regula los receptores NMDA para prevenir la sobreexcitación del sistema nervioso, reduciendo la ansiedad, la tensión muscular y la respuesta de estrés fisiológico en todo el cuerpo."
+    },
+    {
+      "title": "Recuperación Muscular y Prevención de Calambres",
+      "description": "Esencial para la relajación muscular tras la contracción, la deficiencia es la causa principal de calambres y espasmos musculares, especialmente en deportistas y personas activas."
+    },
+    {
+      "title": "Más de 300 Reacciones Enzimáticas",
+      "description": "Actúa como cofactor en más de 300 reacciones enzimáticas del cuerpo, incluyendo producción de energía, reparación del ADN, síntesis de proteínas y regulación de neurotransmisores."
+    }
+  ],
+  "vanilla": [
+    {
+      "title": "Vainillina Neuroprotectora",
+      "description": "La vainillina ha demostrado propiedades neuroprotectoras y la capacidad de reducir la polimerización de células falciformes en investigación de laboratorio, revelando una profundidad medicinal detrás de su aroma familiar."
+    },
+    {
+      "title": "Antioxidante y Antiinflamatorio",
+      "description": "La vainillina inhibe las citocinas inflamatorias y proporciona protección antioxidante, reduciendo la inflamación sistémica vinculada a las enfermedades crónicas y el envejecimiento acelerado."
+    },
+    {
+      "title": "Apoyo al Ánimo y la Ansiedad",
+      "description": "Los compuestos aromáticos de la vainilla han demostrado efectos ansiolíticos, calmando el sistema nervioso y reduciendo las respuestas de ansiedad con exposición aromática regular."
+    },
+    {
+      "title": "Propiedades Antimicrobianas",
+      "description": "La vainillina ha mostrado actividad frente a una variedad de patógenos bacterianos y es estudiada como conservante natural de alimentos y agente antimicrobiano."
+    }
+  ],
+  "cilantro_seeds": [
+    {
+      "title": "Linalool Modulador del GABA",
+      "description": "El linalool modula los receptores GABA del cerebro, produciendo reducciones mensurables de la ansiedad y promoviendo la relajación física y mental sin sedación."
+    },
+    {
+      "title": "Activación de Enzimas Digestivas",
+      "description": "Estimula la secreción de enzimas digestivas en el intestino, mejorando la descomposición de carbohidratos complejos, proteínas y grasas para una mejor absorción de nutrientes."
+    },
+    {
+      "title": "Regulación del Azúcar en Sangre",
+      "description": "Los compuestos de las semillas de cilantro estimulan la secreción de insulina del páncreas y mejoran la captación de glucosa por las células, apoyando un control saludable del azúcar en sangre."
+    },
+    {
+      "title": "Control del Colesterol",
+      "description": "La evidencia clínica muestra que las semillas de cilantro reducen el colesterol total y los triglicéridos mientras elevan el colesterol HDL protector a través de la modulación de las enzimas hepáticas."
+    }
+  ],
+  "star_anise": [
+    {
+      "title": "Acción Antiviral del Ácido Shikímico",
+      "description": "El ácido shikímico del anís estrellado es el precursor farmacéutico usado para sintetizar el Tamiflu —el principal antiviral para el tratamiento de la gripe— demostrando actividad anti-influenza directa."
+    },
+    {
+      "title": "Propiedades Antibacterianas",
+      "description": "El trans-anetol y otros compuestos inhiben el crecimiento de una amplia gama de bacterias, incluidas cepas resistentes a los fármacos, apoyando la defensa inmunitaria natural frente a infecciones."
+    },
+    {
+      "title": "Alivio Digestivo y Antiespasmódico",
+      "description": "El anetol relaja el músculo liso del tracto digestivo, reduciendo la hinchazón, los gases, el cólico y los calambres asociados al SII y al malestar digestivo."
+    },
+    {
+      "title": "Antioxidante y Antiinflamatorio",
+      "description": "Rico en quercetina, kaempferol y anetol —compuestos que reducen la inflamación y el daño de los radicales libres en todo el cuerpo con cada uso culinario."
+    }
+  ],
+  "acai_berries": [
+    {
+      "title": "Supremacía Antioxidante",
+      "description": "Supera a la mayoría de frutas comunes en las pruebas de capacidad antioxidante estandarizadas, con antocianinas y polifenoles combinados que proporcionan una extraordinaria neutralización de radicales libres."
+    },
+    {
+      "title": "Protección Cardiovascular",
+      "description": "Las antocianinas y los ácidos grasos omega-6 juntos reducen la oxidación del LDL, mejoran la flexibilidad vascular y bajan la inflamación arterial, proporcionando protección cardíaca integral."
+    },
+    {
+      "title": "Salud Cerebral y Neuroprotección",
+      "description": "Los polifenoles cruzan la barrera hematoencefálica y protegen las neuronas del daño oxidativo, con estudios en animales que muestran mejoras en la memoria y la función motora."
+    },
+    {
+      "title": "Apoyo Metabólico y al Azúcar en Sangre",
+      "description": "La fibra y las antocianinas mejoran la sensibilidad a la insulina y reducen los picos de glucosa postprandiales, apoyando la salud metabólica y una energía sostenida a lo largo del día."
+    }
+  ],
+  "goji_berries": [
+    {
+      "title": "Zeaxantina para la Protección Ocular",
+      "description": "La zeaxantina se acumula preferentemente en la mácula retiniana, filtrando la luz azul y proporcionando una de las protecciones dietéticas más específicas contra la degeneración macular disponibles."
+    },
+    {
+      "title": "Activación Inmunitaria con Polisacáridos",
+      "description": "Los polisacáridos LBP activan macrófagos, linfocitos T y células asesinas naturales, proporcionando una activación inmunitaria amplia estudiada tanto en prevención del cáncer como en resistencia a infecciones."
+    },
+    {
+      "title": "Protección Hepática y Desintoxicación",
+      "description": "La betaína y los polisacáridos protegen las células hepáticas del daño químico y oxidativo, apoyando la capacidad de desintoxicación del hígado y la salud hepática a largo plazo."
+    },
+    {
+      "title": "Longevidad y Antienvejecimiento",
+      "description": "Usado durante siglos en la medicina china como alimento de longevidad, con investigación moderna que confirma efectos antioxidantes y antienvejecimiento a nivel celular y hormonal."
+    }
+  ],
+  "kakadu_plum": [
+    {
+      "title": "La Mayor Concentración de Vitamina C del Mundo",
+      "description": "Contiene la mayor concentración registrada de vitamina C de cualquier alimento del planeta, superando con creces a las naranjas y otras frutas en una forma de alta biodisponibilidad."
+    },
+    {
+      "title": "Protección Anticancerígena con Ácido Elágico",
+      "description": "El ácido elágico se une a los carcinógenos y facilita su eliminación, demostrando además efectos inhibidores directos sobre el crecimiento de células cancerosas en investigación de laboratorio."
+    },
+    {
+      "title": "Antioxidante con Ácido Gálico",
+      "description": "El ácido gálico proporciona potente protección antioxidante y antiinflamatoria, reduciendo el daño celular de los radicales libres y apoyando la protección a largo plazo frente a enfermedades crónicas."
+    },
+    {
+      "title": "Luminosidad de la Piel y Colágeno",
+      "description": "El excepcional contenido en vitamina C impulsa la síntesis de colágeno y reduce la hiperpigmentación al inhibir la tirosinasa, convirtiendo al kakadu plum en ingrediente estrella del cuidado natural de la piel."
+    }
+  ],
+  "camu_camu": [
+    {
+      "title": "Vitamina C Potenciada con Bioflavonoides",
+      "description": "La vitamina C natural se aporta junto con bioflavonoides cofactores que mejoran su biodisponibilidad y efecto antioxidante más allá de lo que puede lograr el ácido ascórbico aislado."
+    },
+    {
+      "title": "Antiinflamatorio y Antiviral",
+      "description": "El ácido elágico y los polifenoles reducen la inflamación sistémica mientras proporcionan protección antiviral, convirtiendo al camu camu en un potente alimento inmunitario de doble acción."
+    },
+    {
+      "title": "Apoyo al Ánimo y la Serotonina",
+      "description": "El contenido en aminoácidos valina y leucina apoya el equilibrio de neurotransmisores, contribuyendo a la estabilidad emocional y la reducción de la ansiedad con consumo regular."
+    },
+    {
+      "title": "Colágeno y Vitalidad de la Piel",
+      "description": "La excepcional vitamina C impulsa la síntesis de colágeno a un ritmo acelerado, apoyando la firmeza de la piel, la cicatrización y la protección contra el envejecimiento ambiental."
+    }
+  ],
+  "chia_seeds": [
+    {
+      "title": "Sinergia de Omega-3 y Fibra Intestinal",
+      "description": "El ALA omega-3 reduce la inflamación cardiovascular mientras la fibra soluble apoya la regularidad digestiva y la diversidad del microbioma, aportando un doble beneficio de una sola semilla."
+    },
+    {
+      "title": "Energía Sostenida con Carbohidratos Lentos",
+      "description": "La fibra que forma gel ralentiza la digestión de los carbohidratos, proporcionando horas de energía estable sin picos de azúcar en sangre, utilizada históricamente por los corredores aztecas."
+    },
+    {
+      "title": "Densidad Mineral para la Salud Ósea",
+      "description": "Mayor contenido de calcio por gramo que la leche entera, combinado con magnesio y fósforo, convierte a las semillas de chía en uno de los mejores alimentos vegetales de apoyo óseo disponibles."
+    },
+    {
+      "title": "Saciedad y Control del Peso",
+      "description": "Se expanden hasta 10 veces su tamaño en el estómago cuando se hidratan, creando una sensación de plenitud que reduce la ingesta calórica total y apoya un control saludable del peso."
+    }
+  ],
+  "flaxseeds": [
+    {
+      "title": "Equilibrio Hormonal con Lignanos",
+      "description": "Los lignanos son convertidos por las bacterias intestinales en enterolactona, que modula el metabolismo del estrógeno, asociándose con un menor riesgo de cánceres sensibles a hormonas."
+    },
+    {
+      "title": "Antiinflamatorio con ALA Omega-3",
+      "description": "La fuente vegetal más rica en ácidos grasos ALA omega-3, reduciendo la inflamación cardiovascular, bajando los triglicéridos y apoyando la salud del cerebro y el sistema nervioso."
+    },
+    {
+      "title": "Reducción del Colesterol con Fibra",
+      "description": "La fibra soluble forma un gel que atrapa el colesterol LDL en el intestino, impidiendo físicamente su absorción y proporcionando beneficios clínicamente validados de reducción del colesterol."
+    },
+    {
+      "title": "Regularidad Digestiva y Salud Intestinal",
+      "description": "La combinación de fibra soluble e insoluble apoya la regularidad intestinal, reduce el estreñimiento y alimenta las bacterias intestinales beneficiosas para la salud del microbioma a largo plazo."
+    }
+  ],
+  "hemp_hearts": [
+    {
+      "title": "Perfil Completo de Aminoácidos Esenciales",
+      "description": "Contiene los nueve aminoácidos esenciales en forma de proteína edestina altamente digerible, siendo uno de los pocos alimentos vegetales equivalentes a la proteína animal para la síntesis muscular."
+    },
+    {
+      "title": "GLA para la Acción Antiinflamatoria",
+      "description": "El ácido gamma-linolénico es un omega-6 raro con potentes propiedades antiinflamatorias que reduce los síntomas del SPM, la inflamación articular y condiciones cutáneas como el eccema."
+    },
+    {
+      "title": "Proporción Ideal Omega 3:6",
+      "description": "La proporción omega-6 a omega-3 de 3:1 refleja el equilibrio antiinflamatorio ideal para la fisiología humana, a diferencia de la mayoría de aceites y semillas que son dominantemente omega-6."
+    },
+    {
+      "title": "Salud Cerebral y Apoyo Cognitivo",
+      "description": "Los ácidos grasos omega-3 y la proteína completa juntos apoyan la integridad de la membrana de las células cerebrales, la producción de neurotransmisores y la función cognitiva en todas las edades."
+    }
+  ],
+  "aloe_vera": [
+    {
+      "title": "Activación Inmunitaria con Acemanano",
+      "description": "El polisacárido acemanano activa macrófagos y linfocitos T, estimulando tanto la inmunidad innata como la adaptativa a nivel celular cuando se consume internamente."
+    },
+    {
+      "title": "Sanación del Revestimiento Intestinal",
+      "description": "Los compuestos calmantes recubren y sanan el revestimiento digestivo, reduciendo la inflamación y apoyando la recuperación de úlceras gástricas, reflujo ácido y síndrome del intestino irritable."
+    },
+    {
+      "title": "Cicatrización e Hidratación de la Piel",
+      "description": "Tópica e internamente, el aloe vera acelera la cicatrización de heridas, reduce el daño cutáneo por UV y proporciona hidratación profunda a través de su única matriz de polisacáridos."
+    },
+    {
+      "title": "Regulación del Azúcar en Sangre",
+      "description": "Estudios clínicos muestran que el gel de aloe vera reduce la glucosa en ayunas y los niveles de HbA1c en personas prediabéticas, apoyando la salud metabólica con uso regular."
+    }
+  ],
+  "turmeric_root": [
+    {
+      "title": "Turmerona para las Células Madre Neurales",
+      "description": "La turmerona mejora la proliferación de células madre neurales en el cerebro mientras apoya independientemente la absorción de curcumina, proporcionando beneficios neurológicos duales distintos de la curcumina sola."
+    },
+    {
+      "title": "Complejo Antiinflamatorio de Curcumina",
+      "description": "La raíz de cúrcuma completa aporta curcumina junto con bisdemetoxicurcumina y turmerona, creando un complejo antiinflamatorio más potente y biodisponible que la curcumina aislada."
+    },
+    {
+      "title": "Apoyo Hepático y Biliar",
+      "description": "Estimula la producción de bilis y protege las células hepáticas del daño oxidativo, apoyando la digestión de grasas, la eliminación del colesterol y las vías de desintoxicación del hígado."
+    },
+    {
+      "title": "Alivio Articular y de la Artritis",
+      "description": "La raíz de cúrcuma completa proporciona el espectro antiinflamatorio total de curcuminoides, con evidencia clínica de reducción del dolor y la rigidez articular en la osteoartritis y la artritis reumatoide."
+    }
+  ],
+  "wheatgrass": [
+    {
+      "title": "Clorofila para la Sangre y el Oxígeno",
+      "description": "Estructuralmente similar a la hemoglobina, la clorofila apoya la producción de glóbulos rojos y el transporte de oxígeno, siendo el pasto de trigo una de las herramientas vegetales más directas para mejorar la salud sanguínea."
+    },
+    {
+      "title": "Desintoxicación Enzimática",
+      "description": "Rico en enzimas desintoxicantes como SOD, catalasa y citocromo oxidasa que neutralizan los radicales libres y apoyan los sistemas de defensa antioxidante celular del organismo."
+    },
+    {
+      "title": "Efecto Alcalinizante",
+      "description": "El pH altamente alcalino contrarresta la acidez de las dietas modernas, reduciendo el entorno ácido crónico de bajo grado vinculado a la inflamación, la fatiga y la supresión inmunitaria."
+    },
+    {
+      "title": "Perfil Completo de Micronutrientes",
+      "description": "Contiene vitaminas A, C, E, K y la mayoría de las vitaminas del grupo B junto con minerales y aminoácidos en un solo concentrado, proporcionando cobertura micronutricional amplia en pequeño volumen."
+    }
+  ],
+  "astragalus": [
+    {
+      "title": "Activación Profunda de Linfocitos T y Células NK",
+      "description": "Los polisacáridos activan los linfocitos T y aumentan el número de células asesinas naturales, proporcionando una inmunidad profunda que se construye durante semanas de uso, no solo estimulación a corto plazo."
+    },
+    {
+      "title": "Alargamiento de los Telómeros",
+      "description": "El TA-65, derivado del astragalus, es el primer compuesto estudiado clínicamente para activar la telomerasa —la enzima que alarga los telómeros— pudiendo ralentizar el envejecimiento celular."
+    },
+    {
+      "title": "Resistencia al Estrés Adaptogénica",
+      "description": "Apoya la función suprarrenal y reduce los efectos físicos del estrés crónico, mejorando la resiliencia y ayudando al organismo a mantener la homeostasis bajo presión prolongada."
+    },
+    {
+      "title": "Protección Cardiovascular",
+      "description": "Los astragalósidos mejoran la función cardíaca, reducen la inflamación arterial y han sido estudiados para apoyar la recuperación de condiciones cardíacas en la medicina clínica china."
+    }
+  ],
+  "black_goji": [
+    {
+      "title": "Supremacía Antioxidante con OPC",
+      "description": "Las proantocianidinas oligoméricas (OPC) de las bayas de goji negro son de los antioxidantes más potentes encontrados en cualquier baya, con una neutralización de radicales libres significativamente superior al goji común."
+    },
+    {
+      "title": "Protección Ocular y Visual",
+      "description": "El contenido extraordinariamente alto en antocianinas mejora el flujo sanguíneo a la retina y protege contra la degeneración macular, superando a las bayas de goji comunes en beneficios para la vista."
+    },
+    {
+      "title": "Protección Celular Antienvejecimiento",
+      "description": "Las profundas antocianinas púrpuras protegen el ADN del daño oxidativo, reducen los marcadores inflamatorios del envejecimiento y apoyan la longevidad celular en un nivel excepcional incluso entre las superberries."
+    },
+    {
+      "title": "Hierro y Salud Sanguínea",
+      "description": "El contenido significativo de hierro combinado con antioxidantes que protegen los glóbulos rojos apoya el transporte saludable de oxígeno y combate la fatiga asociada a la deficiencia de hierro."
+    }
+  ],
+  "bladderwrack": [
+    {
+      "title": "Fucoidano Antiviral y Antitumoral",
+      "description": "El fucoidano ha demostrado propiedades antivirales, antitumorales y anticoagulantes en múltiples líneas de investigación, siendo uno de los compuestos más bioactivos de toda la flora marina."
+    },
+    {
+      "title": "Apoyo Tiroideo y de Yodo",
+      "description": "Rico en yodo esencial para la síntesis de hormonas tiroideas, apoyando la tasa metabólica, la producción de energía y la regulación hormonal que gobierna casi todos los sistemas corporales."
+    },
+    {
+      "title": "Desintoxicación Intestinal con Ácido Algínico",
+      "description": "El ácido algínico se une a los metales pesados y elementos radiactivos en el intestino facilitando su eliminación antes de ser absorbidos, aportando un mecanismo de desintoxicación único de origen marino."
+    },
+    {
+      "title": "Polifenoles Marinos Antiinflamatorios",
+      "description": "Los florotaninos exclusivos de las algas pardas proporcionan una potente protección antiinflamatoria, reduciendo la inflamación sistémica vinculada a enfermedades crónicas y trastornos metabólicos."
+    }
+  ],
+  "maqui_berry": [
+    {
+      "title": "Delfínidinas — Las Antocianinas más Raras",
+      "description": "Las delfínidinas son la subclase más rara y potente de antocianinas, presentes en concentraciones excepcionales en la baya maqui, otorgándole una capacidad antiinflamatoria superior a la mayoría de frutas."
+    },
+    {
+      "title": "Regulación del Azúcar en Sangre y la Insulina",
+      "description": "Las delfínidinas inhiben específicamente una enzima implicada en la digestión de carbohidratos, reduciendo los picos de glucosa postprandiales y mejorando la sensibilidad a la insulina con uso regular."
+    },
+    {
+      "title": "Supremacía Antioxidante",
+      "description": "Consistentemente entre las puntuaciones ORAC más altas de cualquier fruta conocida, proporcionando una extraordinaria protección celular frente al daño de los radicales libres."
+    },
+    {
+      "title": "Salud Ocular y Película Lagrimal",
+      "description": "Compuestos únicos del maqui han sido estudiados por reducir la sequedad ocular y mejorar la estabilidad de la película lagrimal, ofreciendo beneficios para la fatiga ocular por pantallas y el síndrome del ojo seco."
+    }
+  ],
+  "mesquite": [
+    {
+      "title": "Lisina para Perfiles Proteicos Completos",
+      "description": "Rico en lisina —el aminoácido más deficiente en dietas ricas en cereales— completando el perfil proteico de las comidas vegetales y apoyando la síntesis de colágeno en todo el cuerpo."
+    },
+    {
+      "title": "Energía Sostenida de Bajo Índice Glucémico",
+      "description": "Los azúcares naturales ligados a la fibra proporcionan energía de liberación lenta con un impacto glucémico mínimo, convirtiendo al mezquite en un edulcorante natural excelente para el control del azúcar en sangre."
+    },
+    {
+      "title": "Apoyo Prebiótico Intestinal",
+      "description": "La fibra soluble alimenta las bacterias intestinales beneficiosas y apoya la regularidad intestinal, contribuyendo a un microbioma saludable y los beneficios inmunitarios que se derivan de él."
+    },
+    {
+      "title": "Densidad Mineral",
+      "description": "Contiene calcio, magnesio, potasio, hierro y zinc, proporcionando una contribución significativa en múltiples minerales procedentes de un edulcorante natural de alimento entero."
+    }
+  ],
+  "pine_pollen": [
+    {
+      "title": "Apoyo Hormonal con Fito-Andrógenos",
+      "description": "Contiene DHEA y otros fito-andrógenos que apoyan la producción de precursores de testosterona en hombres, ofreciendo un apoyo natural a la vitalidad hormonal raro en el reino vegetal."
+    },
+    {
+      "title": "Perfil Nutricional Completo",
+      "description": "Uno de los alimentos más completos de la naturaleza, con más de 200 nutrientes bioactivos incluyendo vitaminas, minerales, aminoácidos, enzimas y antioxidantes en una sola fuente."
+    },
+    {
+      "title": "Activación del Sistema Inmunitario",
+      "description": "Los polisacáridos y flavonoides activan las células inmunitarias y proporcionan protección antioxidante, apoyando las defensas del organismo frente a patógenos y el estrés celular."
+    },
+    {
+      "title": "Antioxidantes Antienvejecimiento",
+      "description": "El SOD y otras enzimas antioxidantes ayudan a neutralizar los radicales libres y reducen el envejecimiento oxidativo, contribuyendo a la longevidad celular con uso constante."
+    }
+  ],
+  "psyllium": [
+    {
+      "title": "Trampa de Colesterol en Gel",
+      "description": "El mucílago forma un denso gel atrapa-colesterol en el intestino que impide físicamente la absorción del LDL, proporcionando una reducción del colesterol clínicamente validada con uso regular."
+    },
+    {
+      "title": "Mecanismo de Ralentización del Azúcar en Sangre",
+      "description": "La matriz de gel ralentiza la digestión y absorción de glucosa de toda la comida, reduciendo los picos de azúcar en sangre postprandiales y mejorando el control glucémico en personas diabéticas y prediabéticas."
+    },
+    {
+      "title": "Fermentación Prebiótica Intestinal",
+      "description": "Fermentado por las bacterias beneficiosas para producir ácidos grasos de cadena corta incluyendo butirato, que sana el revestimiento intestinal y reduce la inflamación que impulsa el SII y el intestino permeable."
+    },
+    {
+      "title": "Regularidad Intestinal en Ambas Direcciones",
+      "description": "Únicamente eficaz tanto para el estreñimiento como para la diarrea: el gel absorbe el exceso de agua en las deposiciones sueltas mientras lubrica y ablanda las compactadas."
+    }
+  ],
+  "saffron": [
+    {
+      "title": "Inhibición de la Recaptación de Serotonina",
+      "description": "La crocina inhibe la recaptación de serotonina con una eficacia comparable a ciertos antidepresivos en estudios clínicos, posicionando al azafrán como uno de los elevadores naturales del ánimo más estudiados."
+    },
+    {
+      "title": "Antidepresivo y Ansiolítico",
+      "description": "Múltiples ensayos controlados aleatorizados confirman que el azafrán reduce los síntomas de la depresión leve a moderada y la ansiedad con un perfil de seguridad superior a los alternativos farmacéuticos."
+    },
+    {
+      "title": "Protección de la Memoria y la Cognición",
+      "description": "La crocina y el safranal protegen las neuronas del daño oxidativo y mejoran la consolidación de la memoria, con estudios que muestran beneficios para el declive cognitivo asociado a la edad."
+    },
+    {
+      "title": "Regulación del Apetito",
+      "description": "El safranal reduce el apetito y el picoteo modulando las vías serotoninérgicas, con estudios clínicos que muestran reducciones mensurables en la ingesta calórica entre comidas."
+    }
+  ],
+  "schisandra": [
+    {
+      "title": "Protección y Regeneración Hepática",
+      "description": "La esquisandrina B protege las células hepáticas del daño químico y oxidativo mientras estimula las propias enzimas de desintoxicación del hígado, un efecto protector y regenerador dual raro en un solo compuesto."
+    },
+    {
+      "title": "Equilibrio Adaptogénico de los Cinco Sabores",
+      "description": "El único alimento que contiene los cinco sabores simultáneamente, activando distintos sistemas orgánicos según la medicina tradicional china, apoyando el equilibrio energético y la resiliencia global del organismo."
+    },
+    {
+      "title": "Modulación del Cortisol y el Estrés",
+      "description": "Reduce los picos de cortisol y adrenalina frente al estrés mental y físico, apoyando la salud suprarrenal y mejorando la respuesta al estrés con uso adaptogénico constante."
+    },
+    {
+      "title": "Rendimiento Mental bajo Presión",
+      "description": "Mejora la memoria de trabajo, la concentración y la resistencia mental bajo estrés, siendo el schisandra especialmente valioso en períodos de alta demanda cognitiva o fatiga física."
+    }
+  ],
+  "tremella": [
+    {
+      "title": "Hidratación de la Piel Similar al Ácido Hialurónico",
+      "description": "Los polisacáridos de la tremella retienen muchas veces su peso en agua a nivel celular, proporcionando una hidratación cutánea profunda desde dentro que rivaliza con el ácido hialurónico para la retención de humedad."
+    },
+    {
+      "title": "Apoyo a la Síntesis de Colágeno",
+      "description": "Estimula la actividad de los fibroblastos y la producción de colágeno en la piel, reduciendo la apariencia de las líneas finas y apoyando la firmeza y elasticidad cutánea a largo plazo."
+    },
+    {
+      "title": "Propiedades Neuroprotectoras",
+      "description": "Los polisacáridos demuestran efectos neuroprotectores y apoyan la producción de NGF, pudiendo ralentizar el declive cognitivo relacionado con la edad y proteger el tejido neural a lo largo del tiempo."
+    },
+    {
+      "title": "Inmunomodulador y Antiinflamatorio",
+      "description": "Los beta-glucanos modulan la respuesta inmunitaria y reducen la inflamación crónica, apoyando tanto la defensa inmunitaria como la reducción del envejecimiento cutáneo impulsado por la inflamación."
+    }
+  ]
+}

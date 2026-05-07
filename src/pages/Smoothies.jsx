@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Search, X } from 'lucide-react';
 import { smoothies } from '../data/smoothies';
 import SmoothieCard from '../components/SmoothieCard';
-import { useT } from '../i18n/LanguageContext';
+import { useT, useLanguage } from '../i18n/LanguageContext';
+import smoothiesTranslations from '../data/smoothies_translations';
 
 const INITIAL_LIMIT = 10;
 const SCROLL_KEY = 'smoothiesListScrollPos';
@@ -11,6 +12,7 @@ const SHOW_ALL_KEY = 'smoothiesListShowAll';
 
 export default function Smoothies() {
     const t = useT();
+    const { language } = useLanguage();
     const [query, setQuery] = useState('');
     const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
 
@@ -31,11 +33,10 @@ export default function Smoothies() {
     }, []);
 
     const filtered = query.trim()
-        ? smoothies.filter(s =>
-            s.ingredients?.some(ing =>
-                ing.toLowerCase().includes(query.toLowerCase())
-            )
-        )
+        ? smoothies.filter(s => {
+            const ingredients = (language !== 'en' && smoothiesTranslations[language]?.[s.id]?.ingredients) || s.ingredients;
+            return ingredients?.some(ing => ing.toLowerCase().includes(query.toLowerCase()));
+        })
         : smoothies;
 
     const displayed = showAll ? filtered : filtered.slice(0, INITIAL_LIMIT);

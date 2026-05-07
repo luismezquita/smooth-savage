@@ -29,7 +29,7 @@ export default function FruitCard({ fruit, index }) {
                         <img
                             src={fruit.image}
                             alt={fruit.name}
-                            className="block w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                            className="block w-full aspect-square object-cover transform group-hover:scale-105 transition-transform duration-700"
                             style={fruit.imagePosition ? { objectPosition: fruit.imagePosition } : undefined}
                             loading="lazy"
                         />

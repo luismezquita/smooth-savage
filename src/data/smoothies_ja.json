@@ -1,0 +1,2243 @@
+[
+    {
+        "id": "ultimate_immunity_hero",
+        "name": "アキレスの盾",
+        "title": "アキレスの盾",
+        "teaser": "究極のビタミンC要塞",
+        "color": "orange",
+        "description": "究極のビタミンC要塞。",
+        "benefits": "ビタミンCと強力な抗酸化物質を大量に供給します。季節の変わり目の不調を跳ね返し、免疫防御を即座に強化します。",
+        "healthTags": [
+            "免疫力アップ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "オレンジ",
+            "生姜",
+            "Camu Camu",
+            "ターメリック"
+        ],
+        "steps": "オレンジを丸ごと1個むいてミキサーに入れます。すりおろした生姜小さじ1、Camu Camuパウダー小さじ1、ターメリックパウダー小さじ1/4を加えます。水1/2カップを注ぎ、完全に滑らかになるまで高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/ultimate_immunity_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "vitaminc_nuclear_bomb",
+        "name": "ソーラーキャノン",
+        "title": "ソーラーキャノン",
+        "teaser": "自然界最強の免疫シールド",
+        "color": "orange",
+        "description": "自然界最強の免疫シールド。",
+        "benefits": "極限レベルのビタミンCを爆発させ、白血球の働きを直接刺激し、外部の脅威から細胞を最大限に保護します。",
+        "healthTags": [
+            "免疫力アップ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "Acerola",
+            "レモン",
+            "キウイ",
+            "マヌカハニー"
+        ],
+        "steps": "新鮮なAcerolaパルプ1/2カップ、皮をむいたキウイ1個、絞りたてのレモン汁大さじ1、マヌカハニー大さじ1を合わせます。完全に液体になるまで高速で45秒間ブレンドします。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/vitaminc_nuclear_bomb.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "adaptogen_calm_hero",
+        "name": "山の静寂",
+        "title": "山の静寂",
+        "teaser": "一口ごとに広がる深い落ち着き",
+        "color": "purple",
+        "description": "一口ごとに広がる深い落ち着き。",
+        "benefits": "コルチゾール値を劇的に下げ、神経系を深くリラックスさせ、日々のストレスや精神的疲労を溶かします。",
+        "healthTags": [
+            "ストレス緩和＆リラックス",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "Ashwagandha",
+            "Reishi",
+            "バナナ",
+            "アーモンドミルク"
+        ],
+        "steps": "Ashwagandhaルートパウダー小さじ1とReishiマッシュルームパウダー小さじ1/2を、冷たいアーモンドミルク1.5カップと熟したバナナ1本に加えます。クリーミーで滑らかになるまで高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "ストレス緩和＆リラックス",
+        "img": "/images/smoothies/adaptogen_calm_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "brain_and_focus_hero",
+        "name": "オラクル",
+        "title": "オラクル",
+        "teaser": "鋭い集中力とクリアな思考を解き放つ",
+        "color": "amber",
+        "description": "鋭い集中力とクリアな思考を解き放つ。",
+        "benefits": "認知機能を活性化し、記憶力を高め、イライラするクラッシュなしにクリーンで持続的な精神エネルギーを提供します。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "ヤマブシタケ",
+            "ブルーベリー",
+            "クルミ"
+        ],
+        "steps": "ヤマブシタケエキス小さじ1/2と冷凍ブルーベリー1カップ、少量のクルミをブレンドします。水1カップを加え、滑らかになるまで高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/brain_and_focus_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "energy_stamina_hero",
+        "name": "ウォードラム",
+        "title": "ウォードラム",
+        "teaser": "心と体のための自然な力",
+        "color": "amber",
+        "description": "心と体のための自然な力。",
+        "benefits": "古代の適応促進ルート（アダプトゲン）と複合炭水化物を使用し、肉体的な持久力とスタミナを急速に高め、持続的なパフォーマンスを実現します。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "Maca",
+            "Cordyceps",
+            "デーツ"
+        ],
+        "steps": "Macaルートパウダー小さじ1、Cordycepsマッシュルームパウダー小さじ1/2、種抜きデーツ4個を水1カップとブレンドします。濃厚で滑らかになるまで高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/energy_stamina_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "gut_healing_hero",
+        "name": "インナーテンプル",
+        "title": "インナーテンプル",
+        "teaser": "内側から腸を癒す",
+        "color": "yellow",
+        "description": "内側から腸を癒す。",
+        "benefits": "デリケートな胃の粘膜を落ち着かせながら、有益なプロバイオティクスと消化酵素を大量に届け、腸内環境（マイクロバイオーム）を修復します。",
+        "healthTags": [
+            "消化＆腸内環境",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "パパイヤ",
+            "アロエベラ",
+            "フラックスシード",
+            "ケフィア"
+        ],
+        "steps": "新鮮なアロエベラジェル大さじ2を抽出し、熟したパパイヤの塊1カップ、挽いたフラックスシード大さじ1、プロバイオティクス入りケフィア1カップとブレンドします。プロバイオティクスを保つため、低速で30秒間ブレンドします。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "消化＆腸内環境",
+        "img": "/images/smoothies/gut_healing_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "anti_inflammatory_hero",
+        "name": "アイスドラゴン",
+        "title": "アイスドラゴン",
+        "teaser": "自然の力で炎症と戦う",
+        "color": "red",
+        "description": "自然の力で炎症と戦う。",
+        "benefits": "分子レベルで炎症経路を阻害し、関節の痛みや全身の腫れを効果的に和らげます。",
+        "healthTags": [
+            "抗炎症",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "ターメリック",
+            "生姜",
+            "パイナップル"
+        ],
+        "steps": "新鮮なターメリック小さじ1、親指大の生姜、パイナップルの塊1カップをミキサーに入れます。水1/2カップを加え、滑らかになるまで高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "抗炎症",
+        "img": "/images/smoothies/anti_inflammatory_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "beauty_and_glow_hero",
+        "name": "ジェイドエンプレス",
+        "title": "ジェイドエンプレス",
+        "teaser": "内側から輝く美しさ",
+        "color": "pink",
+        "description": "内側から輝く美しさ。",
+        "benefits": "肌の弾力を刺激し、肌の老化と積極的に戦い、目に見えて輝く内面からの美しさをもたらします。",
+        "healthTags": [
+            "美肌＆ビューティー",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "イチゴ",
+            "コラーゲンペプチド",
+            "アボカド",
+            "ほうれん草"
+        ],
+        "steps": "新鮮なイチゴ1カップ、熟したアボカド1/4個、新鮮なベビーほうれん草一掴み、無香料コラーゲンペプチド1スクープをブレンドします。水1/2カップを加え、完全に滑らかになるまで混ぜます。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "美肌＆ビューティー",
+        "img": "/images/smoothies/beauty_and_glow_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "deep_sleep_and_recovery_hero",
+        "name": "モルフェウス",
+        "title": "モルフェウス",
+        "teaser": "グラス一杯の回復睡眠",
+        "color": "indigo",
+        "description": "グラス一杯の回復睡眠。",
+        "benefits": "メラトニンの生成を自然に高め、深く途切れないレム睡眠と、夜間の強力な筋肉回復を保証します。",
+        "healthTags": [
+            "睡眠＆疲労回復",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "バレリアン",
+            "カモミール",
+            "バナナ"
+        ],
+        "steps": "バレリアンルートパウダー小さじ1/2とカモミールティー濃縮液大さじ1を、熟したバナナ1本、オーツミルク1カップと一緒にブレンドします。滑らかでクリーミーになるまで混ぜます。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "睡眠＆疲労回復",
+        "img": "/images/smoothies/deep_sleep_and_recovery_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "anti_oxidant_god_mode",
+        "name": "ゴッドモード",
+        "title": "ゴッドモード",
+        "teaser": "最大限の抗酸化保護",
+        "color": "purple",
+        "description": "最大限の抗酸化保護。",
+        "benefits": "広範囲のアントシアニンを体内に溢れさせ、フリーラジカルを中和し、細胞のダメージをその場で食い止めます。",
+        "healthTags": [
+            "抗酸化パワー",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "Acai",
+            "ゴジベリー",
+            "ザクロ",
+            "ダークチョコレート"
+        ],
+        "steps": "冷凍Acaiパック（100g）1個と、戻したゴジベリー大さじ1、純粋なザクロジュース1/2カップ、85%ダークチョコレート削り節15gをブレンドします。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/anti_oxidant_god_mode.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "apple_ginger_soothe",
+        "name": "オータムサムライ",
+        "title": "オータムサムライ",
+        "teaser": "心を落ち着かせる消化サポート",
+        "color": "yellow",
+        "description": "心を落ち着かせる消化サポート。",
+        "benefits": "吐き気を即座に止め、消化管を優しく温める、信じられないほど心地よいブレンドです。",
+        "healthTags": [
+            "消化＆腸内環境",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "リンゴ",
+            "生姜",
+            "ミント"
+        ],
+        "steps": "甘いリンゴ1個、親指大の新鮮な生姜、新鮮なミントの葉少量をブレンドします。水1カップを加え、高速で45秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "消化＆腸内環境",
+        "img": "/images/smoothies/apple_ginger_soothe.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "ashwagandha_calm",
+        "name": "ヒマラヤンモンク",
+        "title": "ヒマラヤンモンク",
+        "teaser": "ストレスを溶かすアダプトゲンブレンド",
+        "color": "purple",
+        "description": "ストレスを溶かすアダプトゲンブレンド。",
+        "benefits": "日々の不安を大幅に和らげ、ストレスの引き金に対する体の長期的な回復力を構築します。",
+        "healthTags": [
+            "ストレス緩和＆リラックス",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "Ashwagandha",
+            "バナナ",
+            "Lucuma"
+        ],
+        "steps": "Ashwagandhaルートパウダー小さじ1を、熟したバナナ1本、Lucumaパウダー大さじ1とブレンドします。アーモンドミルク1カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "ストレス緩和＆リラックス",
+        "img": "/images/smoothies/ashwagandha_calm.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "golden_anti_inflammatory",
+        "name": "ゴールデンカーン",
+        "title": "ゴールデンカーン",
+        "teaser": "黄金の抗炎症エリクサー",
+        "color": "red",
+        "description": "黄金の抗炎症エリクサー。",
+        "benefits": "吸収性の高い天然の抗炎症成分を体に浸透させるために特別に設計された黄金のエリクサーです。",
+        "healthTags": [
+            "抗炎症",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "ターメリック",
+            "黒胡椒",
+            "ココナッツ"
+        ],
+        "steps": "ターメリックパウダー小さじ1、ひとつまみの黒胡椒、新鮮なココナッツの果肉1/2カップをブレンドします。ココナッツウォーター1カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗炎症",
+        "img": "/images/smoothies/golden_anti_inflammatory.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherry_beet_recovery",
+        "name": "クリムゾンリバイバル",
+        "title": "クリムゾンリバイバル",
+        "teaser": "回復と再生のブレンド",
+        "color": "red",
+        "description": "回復と再生のブレンド。",
+        "benefits": "一酸化窒素の生成を促進して血流を劇的に改善し、筋肉の回復を加速させます。",
+        "healthTags": [
+            "抗炎症",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "タルトチェリー",
+            "ビーツ",
+            "セロリ"
+        ],
+        "steps": "タルトチェリー1/2カップ、生のビーツの塊1/2カップ、セロリ2本をブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗炎症",
+        "img": "/images/smoothies/cherry_beet_recovery.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "mangosteen_relief",
+        "name": "クイーンオブシャム",
+        "title": "クイーンオブシャム",
+        "teaser": "マンゴスチンの抗炎症パワー",
+        "color": "red",
+        "description": "マンゴスチンの抗炎症パワー。",
+        "benefits": "慢性の細胞炎症と酸化ストレスを減らすことが直接証明されている強力なキサントンを利用します。",
+        "healthTags": [
+            "抗炎症",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "マンゴスチン",
+            "桃",
+            "梨"
+        ],
+        "steps": "マンゴスチン2個の果肉を取り出し、熟した桃1個、熟した梨1個とブレンドします。水1/2カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗炎症",
+        "img": "/images/smoothies/mangosteen_relief.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "acai_beauty_bowl",
+        "name": "アマゾンゴッデス",
+        "title": "アマゾンゴッデス",
+        "teaser": "スーパーベリーの美の燃料",
+        "color": "pink",
+        "description": "スーパーベリーの美の燃料。",
+        "benefits": "シワを積極的に防ぎ、肌の輝きを高める抗酸化物質の濃縮液を提供します。",
+        "healthTags": [
+            "美肌＆ビューティー",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "Acaiベース",
+            "ブルーベリー",
+            "コラーゲン",
+            "アーモンドミルク"
+        ],
+        "steps": "Acaiパック（100g）1個とブルーベリー1/2カップ、コラーゲン1スクープ、アーモンドミルク1/2カップをブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "美肌＆ビューティー",
+        "img": "/images/smoothies/acai_beauty_bowl.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "sea_buckthorn_glow",
+        "name": "バイキングゴールド",
+        "title": "バイキングゴールド",
+        "teaser": "オメガ豊富な肌の輝き",
+        "color": "pink",
+        "description": "オメガ豊富な肌の輝き。",
+        "benefits": "輝くような深い潤いのある肌を保つために不可欠な、非常に希少なオメガ7脂肪酸を提供します。",
+        "healthTags": [
+            "美肌＆ビューティー",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "サジージュース",
+            "オレンジ",
+            "ニンジン",
+            "生姜"
+        ],
+        "steps": "サジージュース大さじ2と、甘いオレンジ1個、新鮮なニンジン1本、生姜1センチをブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "美肌＆ビューティー",
+        "img": "/images/smoothies/sea_buckthorn_glow.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "maqui_radiance",
+        "name": "パタゴニアンファイア",
+        "title": "パタゴニアンファイア",
+        "teaser": "内側からの深い紫の輝き",
+        "color": "pink",
+        "description": "内側からの深い紫の輝き。",
+        "benefits": "すべての果物の中で最も高い抗酸化スコアを持ち、紫外線や汚染のダメージから肌を守ります。",
+        "healthTags": [
+            "美肌＆ビューティー",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "Maquiベリーパウダー",
+            "バナナ",
+            "ほうれん草",
+            "オーツミルク"
+        ],
+        "steps": "Maquiベリーパウダー小さじ1と、バナナ1本、ほうれん草一掴み、オーツミルク1カップを混ぜます。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "美肌＆ビューティー",
+        "img": "/images/smoothies/maqui_radiance.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "heart_protector",
+        "name": "センチネル",
+        "title": "センチネル",
+        "teaser": "毎日の心臓保護",
+        "color": "red",
+        "description": "毎日の心臓保護。",
+        "benefits": "血中脂質プロファイルを効果的に改善し、動脈壁をきれいに保ちります。",
+        "healthTags": [
+            "心臓の健康",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "ザクロ",
+            "クルミ",
+            "オーツ麦"
+        ],
+        "steps": "ザクロの種1/2カップと少量のクルミ、ロールドオーツ1/4カップをブレンドします。水1カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "心臓の健康",
+        "img": "/images/smoothies/heart_protector.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "beet_berry_heart",
+        "name": "クリムゾンコベナント",
+        "title": "クリムゾンコベナント",
+        "teaser": "心臓を愛するベリーブレンド",
+        "color": "red",
+        "description": "心臓を愛するベリーブレンド。",
+        "benefits": "血管を安全に広げて血圧を調整し、重要なオメガ3脂肪酸を提供します。",
+        "healthTags": [
+            "心臓の健康",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "ザクロ",
+            "ビーツ",
+            "ブルーベリー"
+        ],
+        "steps": "ザクロの種1/4カップと、生のビーツの塊1/2カップ、ブルーベリー1/2カップをブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "心臓の健康",
+        "img": "/images/smoothies/beet_berry_heart.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "deep_detox",
+        "name": "シャドウクレンズ",
+        "title": "シャドウクレンズ",
+        "teaser": "毎日の優しいデトックスサポート",
+        "color": "green",
+        "description": "毎日の優しいデトックスサポート。",
+        "benefits": "血流中の重金属に結合し、肝臓が毒素を排出するのを助けます。",
+        "healthTags": [
+            "デトックス＆クレンズ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "Chlorella",
+            "Spirulina",
+            "レモン"
+        ],
+        "steps": "Chlorellaパウダー小さじ1とSpirulinaパウダー小さじ1を、新鮮なレモン1個分の果汁と混ぜます。冷水1カップを加え、30秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "デトックス＆クレンズ",
+        "img": "/images/smoothies/deep_detox.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "alkaline_king",
+        "name": "アルカラインキング",
+        "title": "アルカラインキング",
+        "teaser": "アルカリ性のグリーンパワー",
+        "color": "green",
+        "description": "一日を乗り切るためのエネルギーと必須栄養素が詰まっています。",
+        "benefits": "スムースサベージのメリットを最大限に引き出す相乗効果のあるブレンド。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ケール",
+            "ブロッコリー",
+            "パイナップル"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/alkaline_king.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "androgenic_peak",
+        "name": "スパルタン",
+        "title": "スパルタン",
+        "teaser": "古代のホルモンサポート",
+        "color": "amber",
+        "description": "ハイパフォーマンスな生活のための自然な力。",
+        "benefits": "松の花粉と熱帯のミネラルを使用して活力を高めます。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "マンゴー",
+            "ココナッツ",
+            "松の花粉"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/androgenic_peak.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "anti_viral_star",
+        "name": "コリアンスター",
+        "title": "コリアンスター",
+        "teaser": "スターフルーツの抗ウイルス防御",
+        "color": "amber",
+        "description": "トロピカルなひねりを加えた免疫サポート。",
+        "benefits": "高いビタミンCとスターフルーツ独自の抗酸化物質。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "梨",
+            "キウイ",
+            "八角"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/anti_viral_star.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "black_seed_cure",
+        "name": "ブラックシードキュア",
+        "title": "ブラックシードキュア",
+        "teaser": "伝説のウェルネスブースト",
+        "color": "amber",
+        "description": "現代生活のための古代の医学。",
+        "benefits": "システム全体の健康のための強力なブラックシードオイルの利点。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "エルダーベリー",
+            "ブルーベリー",
+            "ブラックシードオイル"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/black_seed_cure.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "camu_camu_titan",
+        "name": "アマゾンサンダー",
+        "title": "アマゾンサンダー",
+        "teaser": "ビタミンCの優位性",
+        "color": "amber",
+        "description": "チタン級の免疫のための最大用量のビタミンC。",
+        "benefits": "Camu Camuベリーを活用して最高のウェルネスを実現します。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "グアバ",
+            "イチゴ",
+            "Camu Camu"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/camu_camu_titan.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherry_reishi_dream",
+        "name": "サムライの休息",
+        "title": "サムライの休息",
+        "teaser": "夜間の回復ブレンド",
+        "color": "purple",
+        "description": "より深く夢を見て、よりスッキリと目覚めます。",
+        "benefits": "Reishiマッシュルームとメラトニン豊富なチェリーの組み合わせ。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "チェリー",
+            "ブルーベリー",
+            "Reishi"
+        ],
+        "steps": "タルトチェリー1/2カップとブルーベリー1/2カップを、Reishiマッシュルームパウダー小さじ1/2と一緒にブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/cherry_reishi_dream.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "deep_sea_mineral",
+        "name": "ポセイドンの朝食",
+        "title": "ポセイドンの朝食",
+        "teaser": "海底からの水分補給",
+        "color": "amber",
+        "description": "体が必要とする102種類のミネラルのうち92種類を含みます。",
+        "benefits": "シーモス（海苔）とヒバマタのミネラル注入。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "シーモス",
+            "パイナップル",
+            "ヒバマタ"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/deep_sea_mineral.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "digestive_star",
+        "name": "シルクロードの腹",
+        "title": "シルクロードの腹",
+        "teaser": "酵素の発電所",
+        "color": "amber",
+        "description": "即効性のある安心のためのパパイン酵素。",
+        "benefits": "クリーンで健康的な腸内環境（マイクロバイオーム）をサポートします。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "パパイヤ",
+            "生姜",
+            "八角"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/digestive_star.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "electric_violet",
+        "name": "エレクトリックバイオレット",
+        "title": "エレクトリックバイオレット",
+        "teaser": "アントシアニンの急増",
+        "color": "amber",
+        "description": "ブラックゴジベリーからの電気的なエネルギー。",
+        "benefits": "紫色の色合いを持つ強力な抗酸化保護。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ブラックゴジ",
+            "ハスカップ",
+            "ブドウ"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/electric_violet.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "goji_zen",
+        "name": "レッドブッダ",
+        "title": "レッドブッダ",
+        "teaser": "長寿と内なる平和",
+        "color": "amber",
+        "description": "集中した心のためのバランスの取れたエネルギー。",
+        "benefits": "視力と長期的な活力をサポートします。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ブラックゴジ",
+            "ブラックベリー",
+            "バニラ"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/goji_zen.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "golden_shield",
+        "name": "ゴールデンシールド",
+        "title": "ゴールデンシールド",
+        "teaser": "ターメリックの防壁",
+        "color": "amber",
+        "description": "炎症に対する毎日の保護。",
+        "benefits": "最大の生体利用効率のための活性化クルクミン。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "パイナップル",
+            "ターメリック",
+            "黒胡椒"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/golden_shield.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "green_matcha_surge",
+        "name": "キョウトサージ",
+        "title": "キョウトサージ",
+        "teaser": "L-テアニンによる安定したエネルギー",
+        "color": "amber",
+        "description": "最も過酷な日のための穏やかな集中力。",
+        "benefits": "イライラしないカフェイン。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "Matcha",
+            "ほうれん草",
+            "マンゴー"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/green_matcha_surge.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "heavy_metal_cleanse",
+        "name": "アイアンエグザイル",
+        "title": "アイアンエグザイル",
+        "teaser": "深い全身の浄化",
+        "color": "amber",
+        "description": "Chlorellaとパクチーで重金属を排出します。",
+        "benefits": "よりクリーンなシステムのための深い細胞デトックス。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "Chlorella",
+            "グリーンアップル",
+            "レモン",
+            "パクチー"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/heavy_metal_cleanse.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "himalayan_resin",
+        "name": "ヒマラヤンレジン",
+        "title": "ヒマラヤンレジン",
+        "teaser": "フルボ酸の活力",
+        "color": "amber",
+        "description": "最大のパフォーマンスのためのShilajitエネルギー。",
+        "benefits": "一滴一滴にミネラルとサポートを。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "バナナ",
+            "Shilajit",
+            "ピーナッツバター",
+            "Mesquite"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/himalayan_resin.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "jackfruit_fuel",
+        "name": "グリーンゴリアテ",
+        "title": "グリーンゴリアテ",
+        "teaser": "食物繊維たっぷりのスタミナ",
+        "color": "amber",
+        "description": "長時間の活動のための持続的な燃料。",
+        "benefits": "高食物繊維と複合的なトロピカル栄養素。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ジャックフルーツ",
+            "ココナッツ",
+            "フラックスシード"
+        ],
+        "steps": "熟したジャックフルーツの塊1カップと、新鮮なココナッツの果肉1/2カップ、挽いたフラックスシード大さじ1をブレンドします。ココナッツウォーター3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/jackfruit_fuel.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "kiwi_cleanse",
+        "name": "エメラルドフラッシュ",
+        "title": "エメラルドフラッシュ",
+        "teaser": "食物繊維の掃除による腸内リセット",
+        "color": "amber",
+        "description": "アクチニジン酵素でシステムを浄化します。",
+        "benefits": "規則正しいお通じと腸の軽快感。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "キウイ",
+            "リンゴ",
+            "フラックスシード"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/kiwi_cleanse.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "lucuma_power",
+        "name": "インカゴールド",
+        "title": "インカゴールド",
+        "teaser": "低GIのキャラメルエネルギー",
+        "color": "amber",
+        "description": "安定した血糖値、高いエネルギー。",
+        "benefits": "毎日の活力のための「インカの黄金」。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "Lucuma",
+            "カシューナッツ",
+            "デーツ"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/lucuma_power.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "mesozoic_fiber",
+        "name": "メソゾイックファイバー",
+        "title": "メソゾイックファイバー",
+        "teaser": "古代の食物繊維の基盤",
+        "color": "amber",
+        "description": "先史時代の消化の要塞。",
+        "benefits": "深い腸内洗浄のための食物繊維が豊富なフルーツ。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "イチジク",
+            "プラム",
+            "サイリウム"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/mesozoic_fiber.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "omega_7_radiance",
+        "name": "ノーザンライト",
+        "title": "ノーザンライト",
+        "teaser": "粘膜と肌の健康",
+        "color": "amber",
+        "description": "サジーによる深い保湿。",
+        "benefits": "輝くような艶のための希少な脂肪酸。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "サジー",
+            "マンゴー",
+            "アボカド",
+            "オレンジ"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/omega_7_radiance.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "papaya_digestive",
+        "name": "マヤの夜明け",
+        "title": "マヤの夜明け",
+        "teaser": "タンパク質分解酵素のブースト",
+        "color": "amber",
+        "description": "究極の食後リセット。",
+        "benefits": "タンパク質を素早く分解するパパイヤとライム。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "パパイヤ",
+            "ライム",
+            "生姜"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/papaya_digestive.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "prickly_gut_reset",
+        "name": "デザートプロフェット",
+        "title": "デザートプロフェット",
+        "teaser": "サボテンパワーで腸を癒す",
+        "color": "amber",
+        "description": "ウチワサボテンの繊維で炎症を鎮めます。",
+        "benefits": "腸壁の深い水分補給。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ウチワサボテン",
+            "スイカ",
+            "アロエベラ"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/prickly_gut_reset.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "saffron_sun",
+        "name": "サフランサン",
+        "title": "サフランサン",
+        "teaser": "ドーパミンを高めるネクター",
+        "color": "amber",
+        "description": "古代のサフランで気分を高めます。",
+        "benefits": "精神的なウェルネスと感情のバランス。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "アプリコット",
+            "パパイヤ",
+            "サフラン"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/saffron_sun.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "shatavari_bloom",
+        "name": "Shatavariブルーム",
+        "title": "Shatavariブルーム",
+        "teaser": "ホルモンの調和",
+        "color": "amber",
+        "description": "女性のホルモンバランスのためのアダプトゲン。",
+        "benefits": "生殖の健康と輝きをサポートします。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "アプリコット",
+            "ニンジン",
+            "ネクタリン",
+            "フラックスシード"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/shatavari_bloom.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "star_defense",
+        "name": "セレスティアルガード",
+        "title": "セレスティアルガード",
+        "teaser": "ポリフェノールの要塞",
+        "color": "amber",
+        "description": "免疫のためのユニークなトロピカル微量栄養素。",
+        "benefits": "亜鉛プロファイルが高い防衛システム。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "スターフルーツ",
+            "レモン",
+            "キュウリ"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/star_defense.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "telomere_tonic",
+        "name": "テロメアトニック",
+        "title": "テロメアトニック",
+        "teaser": "細胞の長寿のための燃料",
+        "color": "amber",
+        "description": "アストラガルスとベリーによるDNA保護。",
+        "benefits": "生体内時計を遅らせます。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ゴジベリー",
+            "ほうれん草",
+            "ブルーベリー"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/telomere_tonic.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_empress_glow",
+        "name": "エンプレスグロウ",
+        "title": "エンプレスグロウ",
+        "teaser": "皇帝の陶器のような肌",
+        "color": "amber",
+        "description": "Tremellaマッシュルームと真珠パウダーの輝き。",
+        "benefits": "最大の水分補給と細胞の修復。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "桃",
+            "ココナッツ",
+            "Tremella",
+            "真珠"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/the_empress_glow.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_five_flavour_runner",
+        "name": "ファイブフレーバーランナー",
+        "title": "ファイブフレーバーランナー",
+        "teaser": "アダプトゲンの持久力",
+        "color": "amber",
+        "description": "アスリートのパフォーマンスのためのSchisandraベリー。",
+        "benefits": "多臓器のサポートと集中したスタミナ。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ビーツ",
+            "スイカ",
+            "ライム",
+            "Schisandra"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/the_five_flavour_runner.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_fluid_flush",
+        "name": "リバー・オブ・ゴッズ",
+        "title": "リバー・オブ・ゴッズ",
+        "teaser": "腎臓とリンパのデトックス",
+        "color": "amber",
+        "description": "タンポポとセロリでむくみを取り、解毒します。",
+        "benefits": "余分な水分と毒素を安全に排出します。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "セロリ",
+            "キュウリ",
+            "ライム",
+            "タンポポ"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/the_fluid_flush.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_great_wall",
+        "name": "グレートウォール",
+        "title": "グレートウォール",
+        "teaser": "強化された全身のバリア",
+        "color": "amber",
+        "description": "アストラガルスと生姜による免疫力の構築。",
+        "benefits": "現代の環境防御のための古代のハーブ。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "生姜",
+            "レモン",
+            "アストラガルス"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/the_great_wall.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tremella_dew",
+        "name": "Tremellaの雫",
+        "title": "Tremellaの雫",
+        "teaser": "ヒアルロン酸の自然な代替品",
+        "color": "amber",
+        "description": "内側から輝く肌へ。",
+        "benefits": "自身の重量の500倍の保水力を持つTremellaマッシュルーム。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "アロエベラ",
+            "冬瓜",
+            "キュウリ",
+            "Tremella"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/tremella_dew.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "viking_focus",
+        "name": "バイキングフォーカス",
+        "title": "バイキングフォーカス",
+        "teaser": "北欧の認知的サージ",
+        "color": "amber",
+        "description": "戦士の心のためのMCT燃料。",
+        "benefits": "カカオとハスカップベリーによる鋭い集中力。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "Matcha",
+            "ハスカップ",
+            "グリーンアップル"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/viking_focus.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "white_pearl_zen",
+        "name": "ホワイトパール禅",
+        "title": "ホワイトパール禅",
+        "teaser": "純粋な静けさと平穏",
+        "color": "amber",
+        "description": "肌と神経のための真珠パウダー。",
+        "benefits": "ライチとバニラの後味を持つ贅沢な落ち着き。",
+        "healthTags": [
+            "ウェルネス",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ライチ",
+            "バナナ",
+            "真珠"
+        ],
+        "steps": "滑らかになるまで全ての材料をブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/white_pearl_zen.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "elderberry_shield",
+        "name": "ノルディックランパート",
+        "title": "ノルディックランパート",
+        "teaser": "グラス一杯の古代の抗ウイルス防御",
+        "color": "purple",
+        "description": "グラス一杯の古代の抗ウイルス防御。",
+        "benefits": "エルダーベリーの強力な抗ウイルス成分がウイルスの複製をブロックし、クローブとリンゴが免疫力を高める抗酸化物質を提供します。",
+        "healthTags": [
+            "免疫力アップ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "エルダーベリー",
+            "クローブ",
+            "リンゴ"
+        ],
+        "steps": "エルダーベリーシロップ1/2カップと、リンゴ丸ごと1個、挽いたクローブひとつまみをブレンドします。水1/2カップを加え、高速で45秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/elderberry_shield.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tropical_immunity",
+        "name": "アイランドフォートレス",
+        "title": "アイランドフォートレス",
+        "teaser": "トロピカルなビタミンCの爆発",
+        "color": "orange",
+        "description": "トロピカルなビタミンCの爆発。",
+        "benefits": "グアバとAcerolaが大量のビタミンCをもたらし、オレンジが免疫細胞の活動を増幅させるフラボノイドを加えます。",
+        "healthTags": [
+            "免疫力アップ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "グアバ",
+            "オレンジ",
+            "Acerola"
+        ],
+        "steps": "グアバ丸ごと1個と、皮をむいたオレンジ1個、新鮮なAcerolaパルプ1/4カップをブレンドします。水1/2カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/tropical_immunity.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "berry_immune",
+        "name": "フォレストウォリアー",
+        "title": "フォレストウォリアー",
+        "teaser": "ベリーの免疫要塞",
+        "color": "red",
+        "description": "ベリーの免疫要塞。",
+        "benefits": "野生ベリーの濃縮ブレンドがアントシアニンをもたらし、Camu Camuからの極限のビタミンCが迅速な免疫反応をサポートします。",
+        "healthTags": [
+            "免疫力アップ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ミックスベリー",
+            "Camu Camu"
+        ],
+        "steps": "冷凍ミックスベリー1カップとCamu Camuパウダー小さじ1をブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/berry_immune.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "soursop_guardian",
+        "name": "グラヴィオラゴッド",
+        "title": "グラヴィオラゴッド",
+        "teaser": "サワーソップの細胞保護",
+        "color": "green",
+        "description": "サワーソップの細胞保護。",
+        "benefits": "サワーソップとグラヴィオラは、細胞の防御と免疫の回復力をサポートする強力なアセトゲニンで伝説的です。",
+        "healthTags": [
+            "免疫力アップ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "サワーソップ",
+            "Graviola",
+            "リンゴ"
+        ],
+        "steps": "サワーソップの果肉1カップと、グラヴィオラエキス大さじ2、甘いリンゴ丸ごと1個をブレンドします。水1/2カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Immunity Boost",
+        "img": "/images/smoothies/soursop_guardian.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tropical_stamina",
+        "name": "パシフィックサンダー",
+        "title": "パシフィックサンダー",
+        "teaser": "持久力のためのトロピカル燃料",
+        "color": "amber",
+        "description": "持久力のためのトロピカル燃料。",
+        "benefits": "ココナッツが素早く吸収される中鎖脂肪酸を提供し、Macaとパイナップルが持続的な肉体的エネルギーと回復を促進します。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ココナッツ",
+            "Maca",
+            "パイナップル"
+        ],
+        "steps": "新鮮なココナッツの果肉1/2カップと、Macaルートパウダー小さじ1、パイナップルの塊1カップをブレンドします。ココナッツウォーター3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Energy & Vitality",
+        "img": "/images/smoothies/tropical_stamina.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tropical_calm",
+        "name": "バリの静寂",
+        "title": "バリの静寂",
+        "teaser": "トロピカルなストレス緩和",
+        "color": "purple",
+        "description": "トロピカルなストレス緩和。",
+        "benefits": "パッションフルーツが自然に不安を減らし、マグネシウムが神経系をリラックスさせて、深く無理のない落ち着きをもたらします。",
+        "healthTags": [
+            "ストレス緩和＆リラックス",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "パッションフルーツ",
+            "マグネシウム"
+        ],
+        "steps": "新鮮なパッションフルーツ3個分の果肉と、イオン化マグネシウムサプリメント1スクープをブレンドします。冷水1カップを加え、高速で45秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Stress Relief & Calm",
+        "img": "/images/smoothies/tropical_calm.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "nightshade_pulse",
+        "name": "オレリャーナの秘密",
+        "title": "オレリャーナの秘密",
+        "teaser": "自然界のニコチン — クリーンで植物性",
+        "color": "purple",
+        "description": "自然界のニコチン — クリーンで植物性。",
+        "benefits": "ナスとカリフラワーは、自然界で最もニコチンが豊富な植物源の一つであり、より鋭い認知力、集中力、神経系のバランスのためのアセチルコリン産生をサポートします。タバコの依存性や化学物質はありません。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ナス",
+            "カリフラワー",
+            "梨"
+        ],
+        "steps": "ナス1/2カップとカリフラワー1/2カップを軽く蒸し、冷まします。熟した梨1個と冷水3/4カップと一緒にブレンドします。完全に滑らかになるまで高速で90秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Energy & Vitality",
+        "img": "/images/smoothies/nightshade_pulse.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "ashwaganshi",
+        "name": "Ashwaganshi",
+        "title": "Ashwaganshi",
+        "teaser": "ダブルアダプトゲンのストレスシールド",
+        "color": "purple",
+        "description": "ダブルアダプトゲンのストレスシールド。",
+        "benefits": "AshwagandhaとReishiという、ストレスを調整する最も強力な2つのアダプトゲンを組み合わせることで、コルチゾールを深く下げ、神経系を落ち着かせ、日々のストレスに対する長期的な回復力を構築します。",
+        "healthTags": [
+            "ストレス緩和＆リラックス",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ アダプトゲン",
+        "ingredients": [
+            "Reishi",
+            "Ashwagandha",
+            "アーモンドミルク"
+        ],
+        "steps": "Reishiマッシュルームパウダー小さじ1/2とAshwagandhaルートパウダー小さじ1を冷たいアーモンドミルク1.5カップに加えます。滑らかでクリーミーになるまで高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "ストレス緩和＆リラックス",
+        "img": "/images/smoothies/ashwaganshi.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "dark_cacao_rush",
+        "name": "アステカダーク",
+        "title": "アステカダーク",
+        "teaser": "生チョコレートの気分高揚",
+        "color": "amber",
+        "description": "生チョコレートの気分高揚。",
+        "benefits": "生カカオが脳をテオブロミンとフェニルエチルアミンで満たし、カフェインのクラッシュなしに自然な気分の高揚と持続的なエネルギーを引き起こします。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "カカオ",
+            "バナナ",
+            "アーモンドミルク"
+        ],
+        "steps": "生カカオパウダー大さじ1を、熟した冷凍バナナ1本とアーモンドミルク1.5カップと一緒にブレンドします。濃厚でクリーミーになるまで高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/dark_cacao_rush.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "moringa_green",
+        "name": "ミラクルツリー",
+        "title": "ミラクルツリー",
+        "teaser": "グラスの中の奇跡の木",
+        "color": "green",
+        "description": "グラスの中の奇跡の木。",
+        "benefits": "Moringaは92の栄養素と46の抗酸化物質を含み、細胞の修復、解毒、持続的な毎日の活力をサポートします。",
+        "healthTags": [
+            "デトックス＆クレンズ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "Moringa",
+            "マンゴー",
+            "ココナッツウォーター"
+        ],
+        "steps": "Moringaリーフパウダー小さじ1を冷凍マンゴーの塊1カップ、ココナッツウォーター1カップと一緒にブレンドします。高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "デトックス＆クレンズ",
+        "img": "/images/smoothies/moringa_green.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "chaga_shield",
+        "name": "シベリアンアーマー",
+        "title": "シベリアンアーマー",
+        "teaser": "キノコの王様の防御力",
+        "color": "amber",
+        "description": "キノコの王様の防御力。",
+        "benefits": "Chagaは地球上のあらゆる食品の中で最も高いORAC抗酸化スコアを持ち、フリーラジカルを中和し、細胞レベルで免疫防御を強化します。",
+        "healthTags": [
+            "免疫力アップ",
+            "抗酸化パワー"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "Chaga",
+            "ブルーベリー",
+            "オーツミルク"
+        ],
+        "steps": "Chagaパウダー小さじ1をぬるま湯で淹れ、冷まします。冷凍ブルーベリー1カップ、オーツミルク1カップと一緒に60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/chaga_shield.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "green_shot",
+        "name": "アサシン",
+        "title": "アサシン",
+        "teaser": "ウィートグラスの毎日リセット",
+        "color": "green",
+        "description": "ウィートグラスの毎日リセット。",
+        "benefits": "ウィートグラスはクロロフィルを血流に直接届け、体をアルカリ化し、肝臓を解毒し、素早いエネルギーブーストを提供します。",
+        "healthTags": [
+            "デトックス＆クレンズ",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ウィートグラス",
+            "リンゴ",
+            "レモン"
+        ],
+        "steps": "ウィートグラスパウダー小さじ1を、リンゴ丸ごと1個、レモン半分の絞り汁と一緒にブレンドします。水3/4カップを加え、高速で45秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "デトックス＆クレンズ",
+        "img": "/images/smoothies/green_shot.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "hemp_protein",
+        "name": "バイキングストレングス",
+        "title": "バイキングストレングス",
+        "teaser": "完全な植物性プロテインブレンド",
+        "color": "amber",
+        "description": "完全な植物性プロテインブレンド。",
+        "benefits": "ヘンプシードは9つの必須アミノ酸すべてを含む数少ない植物源の1つであり、完全なタンパク質と完璧な比率のオメガ3およびオメガ6を提供します。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ヘンプシード",
+            "バナナ",
+            "アーモンドミルク"
+        ],
+        "steps": "生のヘンプシード大さじ2を冷凍バナナ1本、アーモンドミルク1.5カップと一緒にブレンドします。滑らかになるまで高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/hemp_protein.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "chia_power",
+        "name": "アステカウォリアー",
+        "title": "アステカウォリアー",
+        "teaser": "古代戦士の持久力燃料",
+        "color": "amber",
+        "description": "古代戦士の持久力燃料。",
+        "benefits": "チアシードは胃の中で10倍に膨らみ、消化を遅らせ、持続的な水分補給、食物繊維、オメガ3を何時間も提供します。",
+        "healthTags": [
+            "消化＆腸内環境",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "チアシード",
+            "マンゴー",
+            "ココナッツミルク"
+        ],
+        "steps": "チアシード大さじ1をココナッツミルクに10分間浸します。冷凍マンゴー1カップと残りのココナッツミルクと一緒に滑らかになるまでブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/chia_power.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "dream_dust",
+        "name": "ドリームダスト",
+        "title": "ドリームダスト",
+        "teaser": "グラス一杯の温かい睡眠儀式",
+        "color": "purple",
+        "description": "グラス一杯の温かい睡眠儀式。",
+        "benefits": "カモミールはGABA受容体に結合して神経系を落ち着かせ、ナツメグには睡眠の質を深め、夜中の目覚めを減らすミリスチシンが含まれています。",
+        "healthTags": [
+            "睡眠＆疲労回復",
+            "ストレス緩和＆リラックス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "カモミール",
+            "ナツメグ",
+            "バナナ",
+            "オーツミルク"
+        ],
+        "steps": "カモミールティーを温かいオーツミルクで5分間浸し、冷まします。熟したバナナ1本、ひとつまみのナツメグと一緒に45秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "睡眠＆疲労回復",
+        "img": "/images/smoothies/dream_dust.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "fire_starter",
+        "name": "ファイアスターター",
+        "title": "ファイアスターター",
+        "teaser": "熱発生代謝イグナイター",
+        "color": "red",
+        "description": "熱発生代謝イグナイター。",
+        "benefits": "カイエンヌのカプサイシンが熱発生を活性化して脂肪を燃焼させ、生姜が消化の火を高め、パイナップルのブロメラインが栄養素の吸収を加速させます。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "デトックス＆クレンズ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "カイエンヌ",
+            "パイナップル",
+            "生姜"
+        ],
+        "steps": "パイナップルの塊1カップと、親指大の新鮮な生姜、少量のカイエンヌペッパーをブレンドします。水3/4カップを加え、高速で45秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/fire_starter.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cinnamon_butter",
+        "name": "スパイスロード",
+        "title": "スパイスロード",
+        "teaser": "血糖バランスと温かさ",
+        "color": "amber",
+        "description": "血糖バランスと温かさ。",
+        "benefits": "シナモンのシンナムアルデヒドがインスリンを模倣して血糖値を安定させ、アーモンドバターがグルコースの吸収を自然に遅らせる健康的な脂肪を提供します。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "シナモン",
+            "アーモンドバター",
+            "バナナ"
+        ],
+        "steps": "シナモンパウダー小さじ1を、生のアーモンドバター大さじ1、冷凍バナナ1本と一緒にブレンドします。オーツミルク1カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/cinnamon_butter.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "amla_boost",
+        "name": "ヴェーディックサン",
+        "title": "ヴェーディックサン",
+        "teaser": "オレンジの20倍のビタミンC",
+        "color": "green",
+        "description": "オレンジの20倍のビタミンC。",
+        "benefits": "Amlaは地球上で最も高い天然ビタミンC濃度の1つを提供し、他のどの果物とも異なり、安定して生体利用可能な状態を保つタンニンが含まれています。",
+        "healthTags": [
+            "免疫力アップ",
+            "美肌＆ビューティー"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "Amla",
+            "生姜",
+            "ハチミツ"
+        ],
+        "steps": "新鮮なAmlaの果肉大さじ2と親指大の生姜、生ハチミツ小さじ1をブレンドします。水1カップを加え、高速で45秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/amla_boost.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cupuacu_dream",
+        "name": "アマゾンシルク",
+        "title": "アマゾンシルク",
+        "teaser": "ブラジル最強のスーパーフルーツ",
+        "color": "amber",
+        "description": "ブラジル最強のスーパーフルーツ。",
+        "benefits": "Cupuacuは自重の3.5倍の水分を吸収して細胞を深く潤し、独自のテアクリン化合物がイライラすることなく長期的なエネルギーを提供します。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "美肌＆ビューティー"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "Cupuacu",
+            "バナナ",
+            "ココナッツ"
+        ],
+        "steps": "Cupuacuの果肉1/2カップと熟したバナナ1本、新鮮なココナッツの果肉1/4カップをブレンドします。ココナッツウォーター3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/cupuacu_dream.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "purple_berry_blast",
+        "name": "パープルレイン",
+        "title": "パープルレイン",
+        "teaser": "ダークベリーのトリプル抗酸化ヒット",
+        "color": "purple",
+        "description": "ダークベリーのトリプル抗酸化ヒット。",
+        "benefits": "ビルベリー、ブラックカラント、レッドカラントは、地球上で最もアントシアニンが豊富な3つのベリーを組み合わせ、最大限の視力保護と細胞防御を実現します。",
+        "healthTags": [
+            "抗酸化パワー",
+            "美肌＆ビューティー"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ビルベリー",
+            "ブラックカラント",
+            "レッドカラント"
+        ],
+        "steps": "ビルベリー、ブラックカラント、レッドカラントをそれぞれ1/3カップずつブレンドします。水1カップを加え、滑らかになるまで高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/purple_berry_blast.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "ruby_berry",
+        "name": "ルビーベリー",
+        "title": "ルビーベリー",
+        "teaser": "酸味のあるベリーの免疫力アップ",
+        "color": "red",
+        "description": "酸味のあるベリーの免疫力アップ。",
+        "benefits": "ラズベリーとクランベリーにはエラグ酸とプロアントシアニジンが豊富に含まれており、感染症と戦い、炎症を抑え、尿路を保護します。",
+        "healthTags": [
+            "免疫力アップ",
+            "抗酸化パワー"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ラズベリー",
+            "クランベリー",
+            "リンゴ"
+        ],
+        "steps": "ラズベリー1/2カップとクランベリー1/4カップ、甘いリンゴ1個をブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/ruby_berry.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "longan_loquat",
+        "name": "ドラゴンアイ",
+        "title": "ドラゴンアイ",
+        "teaser": "アジアの長寿フルーツ",
+        "color": "amber",
+        "description": "アジアの長寿フルーツ。",
+        "benefits": "伝統中医学において、龍眼は心臓に栄養を与え心を落ち着かせ、ビワは呼吸器系を和らげ、強力なベータカロテンを提供します。",
+        "healthTags": [
+            "ウェルネス",
+            "免疫力アップ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "龍眼",
+            "ビワ",
+            "梨"
+        ],
+        "steps": "6個の龍眼と3個のビワの皮と種を取り除きます。熟した梨1個と水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/longan_loquat.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "feijoa_physalis",
+        "name": "サザンジェイド",
+        "title": "サザンジェイド",
+        "teaser": "珍しいエキゾチックな免疫の融合",
+        "color": "green",
+        "description": "珍しいエキゾチックな免疫の融合。",
+        "benefits": "フェイジョアの独自のヨウ素含有量は甲状腺機能をサポートし、ホオズキのウィタノリドは免疫反応を高め、酸化ストレスから保護します。",
+        "healthTags": [
+            "免疫力アップ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "フェイジョア",
+            "ホオズキ",
+            "ライム"
+        ],
+        "steps": "4個のフェイジョアの果肉を取り出し、8個のホオズキの実、ライム1個の絞り汁と一緒にブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/feijoa_physalis.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "citrus_trinity",
+        "name": "シトラストリニティ",
+        "title": "シトラストリニティ",
+        "teaser": "3つの希少な柑橘類の一撃",
+        "color": "yellow",
+        "description": "3つの希少な柑橘類の一撃。",
+        "benefits": "ポメロ、グレープフルーツ、柚子は、独自のフラボノイドであるナリンゲニンとヘスペリジンを組み合わせることで、コレステロールを下げ、代謝を高め、強力なビタミンCを提供します。",
+        "healthTags": [
+            "免疫力アップ",
+            "心臓の健康"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ポメロ",
+            "グレープフルーツ",
+            "柚子"
+        ],
+        "steps": "ポメロ1/4、グレープフルーツ1/2の皮と薄皮をむき、柚子1個の果汁を絞ります。水1/2カップと一緒に高速で45秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/citrus_trinity.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherry_mulberry",
+        "name": "シルクロードクリムゾン",
+        "title": "シルクロードクリムゾン",
+        "teaser": "ダークフルーツの長寿トリオ",
+        "color": "red",
+        "description": "ダークフルーツの長寿トリオ。",
+        "benefits": "チェリー、マルベリー、ナツメは、長寿、肝臓の保護、強力なアントシアニン含有量のために伝統医学で崇められています。",
+        "healthTags": [
+            "抗酸化パワー",
+            "睡眠＆疲労回復"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "チェリー",
+            "マルベリー",
+            "ナツメ"
+        ],
+        "steps": "種を抜いたチェリー1/2カップ、マルベリー1/3カップ、種を抜いたナツメ4個をブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/cherry_mulberry.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "pawpaw_plantain",
+        "name": "サバンナゴールド",
+        "title": "サバンナゴールド",
+        "teaser": "トロピカルなでんぷんと酵素の燃料",
+        "color": "yellow",
+        "description": "トロピカルなでんぷんと酵素の燃料。",
+        "benefits": "パパイヤのパパイン酵素がタンパク質を分解して膨満感を和らげ、プランテンが有益な腸内細菌を養う難消化性デンプンを提供します。",
+        "healthTags": [
+            "消化＆腸内環境",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "パパイヤ",
+            "プランテン",
+            "ココナッツ"
+        ],
+        "steps": "熟したパパイヤの果肉1カップ、熟したプランテン半分、新鮮なココナッツ1/4カップをブレンドします。ココナッツウォーター3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "消化＆腸内環境",
+        "img": "/images/smoothies/pawpaw_plantain.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "golden_root",
+        "name": "ゴールデンルート",
+        "title": "ゴールデンルート",
+        "teaser": "大地に根ざした根菜の力",
+        "color": "amber",
+        "description": "大地に根ざした根菜の力。",
+        "benefits": "サツマイモとカボチャには、ビタミンAに変換されるベータカロテンが豊富に含まれており、視力、皮膚、免疫機能を同時に保護します。",
+        "healthTags": [
+            "免疫力アップ",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "サツマイモ",
+            "カボチャ",
+            "生姜"
+        ],
+        "steps": "サツマイモとカボチャを1/2カップずつ蒸して冷まします。親指大の新鮮な生姜、アーモンドミルク1カップと一緒に高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/golden_root.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherimoya_mist",
+        "name": "チェリモヤミスト",
+        "title": "チェリモヤミスト",
+        "teaser": "マーク・トウェインが愛した最も美味しい果物",
+        "color": "green",
+        "description": "マーク・トウェインが愛した最も美味しい果物。",
+        "benefits": "チェリモヤには、強力な抗がん作用が研究されているアセトゲニンのほか、神経機能とエネルギーをサポートする豊富なビタミンB群が含まれています。",
+        "healthTags": [
+            "免疫力アップ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "チェリモヤ",
+            "ライム",
+            "ココナッツウォーター"
+        ],
+        "steps": "熟したチェリモヤ1個の果肉をスプーンで取り出し、種を取り除きます。ライム1個の絞り汁、ココナッツウォーター1カップと一緒に高速で45秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/cherimoya_mist.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "sapote_silk",
+        "name": "サポテシルク",
+        "title": "サポテシルク",
+        "teaser": "シルクのようなメソアメリカのスーパーフルーツ",
+        "color": "amber",
+        "description": "シルクのようなメソアメリカのスーパーフルーツ。",
+        "benefits": "サポジラとマメイサポテはどちらも、腸壁の完全性をサポートする希少なポリフェノールと、セロトニン生成のための高レベルのビタミンB6を提供します。",
+        "healthTags": [
+            "消化＆腸内環境",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "サポジラ",
+            "マメイサポテ",
+            "バナナ"
+        ],
+        "steps": "サポジラの果肉1/2カップとマメイサポテ1/2カップ、熟したバナナ1本をブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "消化＆腸内環境",
+        "img": "/images/smoothies/sapote_silk.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tamarind_tang",
+        "name": "バビロンスティング",
+        "title": "バビロンスティング",
+        "teaser": "古代の消化トニック",
+        "color": "amber",
+        "description": "古代の消化トニック。",
+        "benefits": "タマリンドには酒石酸とヒドロキシクエン酸が豊富に含まれており、胆汁の分泌を刺激して脂肪の消化を早め、肝臓を自然に浄化します。",
+        "healthTags": [
+            "消化＆腸内環境",
+            "デトックス＆クレンズ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "タマリンド",
+            "マンゴー",
+            "生姜"
+        ],
+        "steps": "タマリンドペースト大さじ2をぬるま湯に溶かします。冷凍マンゴー1カップ、親指大の生姜と一緒にブレンドします。水3/4カップを加え、60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "消化＆腸内環境",
+        "img": "/images/smoothies/tamarind_tang.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tamarillo_fire",
+        "name": "タマリロファイア",
+        "title": "タマリロファイア",
+        "teaser": "ツリートマトの抗酸化サージ",
+        "color": "red",
+        "description": "ツリートマトの抗酸化サージ。",
+        "benefits": "タマリロには血糖値を下げることが証明されているクロロゲン酸と、黄斑変性から保護する独自のカロテノイドプロファイルが含まれています。",
+        "healthTags": [
+            "抗酸化パワー",
+            "心臓の健康"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "タマリロ",
+            "オレンジ",
+            "生姜"
+        ],
+        "steps": "タマリロ2個を半分に切り、果肉をスプーンで取り出します。皮をむいたオレンジ1個、親指大の生姜と一緒にブレンドします。水1/2カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化パワー",
+        "img": "/images/smoothies/tamarillo_fire.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "kumquat_zest",
+        "name": "ゴールドバレット",
+        "title": "ゴールドバレット",
+        "teaser": "丸ごと食べるフルーツ",
+        "color": "orange",
+        "description": "丸ごと食べるフルーツ。",
+        "benefits": "キンカンの皮には果肉よりも多くのリモネンとヘスペリジンが含まれており（柑橘類の中では珍しい）、果実全体が強力な抗炎症剤であり、代謝のブースターとなります。",
+        "healthTags": [
+            "免疫力アップ",
+            "抗炎症"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "キンカン",
+            "オレンジ",
+            "ターメリック"
+        ],
+        "steps": "キンカン6個（皮付きのまま）と、皮をむいたオレンジ1個、ターメリック小さじ1/2をブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/kumquat_zest.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "breadfruit_power",
+        "name": "ポリネシアンジャイアント",
+        "title": "ポリネシアンジャイアント",
+        "teaser": "ポリネシアのでんぷんエネルギー",
+        "color": "green",
+        "description": "ポリネシアのでんぷんエネルギー。",
+        "benefits": "パンノキの実は、植物性食品としては珍しく、すべての必須アミノ酸を含む完全なタンパク源であり、何時間も腸内細菌を養う高繊維を含んでいます。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "消化＆腸内環境"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "パンノキの実",
+            "ココナッツ",
+            "シナモン"
+        ],
+        "steps": "熟したパンノキの実1カップを柔らかくなるまで蒸し、冷まします。新鮮なココナッツ1/4カップ、シナモン小さじ1/2と一緒にブレンドします。ココナッツミルク1カップを加え、60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/breadfruit_power.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "quince_persimmon",
+        "name": "ペルシアンオータム",
+        "title": "ペルシアンオータム",
+        "teaser": "忘れられた秋のスーパーフルーツ",
+        "color": "amber",
+        "description": "忘れられた秋のスーパーフルーツ。",
+        "benefits": "マルメロには腸壁を治癒する強力なタンニンとペクチンが含まれており、柿のベツリン酸は研究で抗腫瘍特性が実証されています。",
+        "healthTags": [
+            "消化＆腸内環境",
+            "抗酸化パワー"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "マルメロ",
+            "柿",
+            "リンゴ"
+        ],
+        "steps": "マルメロ半分を柔らかくなるまで調理し、冷まします。熟した柿1個の果肉、甘いリンゴ1個と一緒にブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "消化＆腸内環境",
+        "img": "/images/smoothies/quince_persimmon.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "baobab_sun",
+        "name": "バオバブサン",
+        "title": "バオバブサン",
+        "teaser": "アフリカの生命の木",
+        "color": "orange",
+        "description": "アフリカの生命の木。",
+        "benefits": "Baobabにはオレンジの6倍のビタミンCと牛乳以上のカルシウムが含まれており、コラーゲン生成、骨密度、免疫力を同時にサポートします。",
+        "healthTags": [
+            "免疫力アップ",
+            "エネルギー＆バイタリティ"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "Baobab",
+            "マンゴー",
+            "ライム"
+        ],
+        "steps": "Baobabパウダー大さじ1を冷凍マンゴー1カップ、ライム1個の絞り汁と一緒にブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力アップ",
+        "img": "/images/smoothies/baobab_sun.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "durian_gold",
+        "name": "ドリアンゴールド",
+        "title": "ドリアンゴールド",
+        "teaser": "フルーツの王様が解き放たれる",
+        "color": "amber",
+        "description": "フルーツの王様が解き放たれる。",
+        "benefits": "ドリアンはビタミンB群、銅、トリプトファンを非常に豊富に含んでおり、エネルギーと気分を高めるための最も完全な天然食品の1つです。",
+        "healthTags": [
+            "エネルギー＆バイタリティ",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ フレッシュフルーツ",
+        "ingredients": [
+            "ドリアン",
+            "ココナッツ",
+            "バナナ"
+        ],
+        "steps": "新鮮なドリアンの果肉1/2カップと、ココナッツの果肉1/4カップ、冷凍バナナ1本をブレンドします。ココナッツウォーター3/4カップを加え、高速で60秒間ブレンドします。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "エネルギー＆バイタリティ",
+        "img": "/images/smoothies/durian_gold.webp",
+        "icon": "vaso"
+    }
+]

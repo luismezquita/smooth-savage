@@ -5,14 +5,17 @@ import { savageFoods as superfoods } from '../data/superfoods';
 import { Search as SearchIcon, Lock } from 'lucide-react';
 import FruitCard from '../components/FruitCard';
 import SuperfoodCard from '../components/SuperfoodCard';
-import { useT } from '../i18n/LanguageContext';
+import { useLanguage } from '../i18n/LanguageContext';
+import { item_names_i18n } from '../i18n/item_names_i18n';
 const Search = () => {
-    const t = useT();
+    const { t, language } = useLanguage();
     const [searchParams] = useSearchParams();
     const [query, setQuery] = useState("");
     const navigate = useNavigate();
     const q = query.toLowerCase();
     const inputRef = React.useRef(null);
+
+    const translatedNames = item_names_i18n[language] || {};
 
     React.useEffect(() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -26,8 +29,21 @@ const Search = () => {
     const showSuperfoods = !category || category === 'savage' || category === 'superfoods';
 
     // Filtros ultra-seguros: si algo falla, devuelve un array vacío pero no rompe la app
-    const fruitResults = q ? (fruits || []).filter(f => f.name && f.name.toLowerCase().includes(q)) : (fruits || []);
-    const superfoodResults = q ? (superfoods || []).filter(s => s.name && s.name.toLowerCase().includes(q)) : (superfoods || []);
+    // Busca contra el nombre en inglés Y el nombre traducido al idioma activo
+    const fruitResults = q
+        ? (fruits || []).filter(f => {
+            const en = (f.name || '').toLowerCase();
+            const translated = (translatedNames[f.id] || '').toLowerCase();
+            return en.includes(q) || translated.includes(q);
+        })
+        : (fruits || []);
+    const superfoodResults = q
+        ? (superfoods || []).filter(s => {
+            const en = (s.name || '').toLowerCase();
+            const translated = (translatedNames[s.id] || '').toLowerCase();
+            return en.includes(q) || translated.includes(q);
+        })
+        : (superfoods || []);
 
     return (
         <div className="max-w-6xl mx-auto p-4 min-h-screen font-sans">

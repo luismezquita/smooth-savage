@@ -1,0 +1,2243 @@
+[
+    {
+        "id": "ultimate_immunity_hero",
+        "name": "Bouclier d'Achille",
+        "title": "Bouclier d'Achille",
+        "teaser": "La forteresse ultime de vitamine C",
+        "color": "orange",
+        "description": "La forteresse ultime de vitamine C.",
+        "benefits": "Apporte une mégadose de vitamine C et de puissants antioxydants. Combat les maladies saisonnières et renforce instantanément vos défenses immunitaires.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Orange",
+            "Gingembre",
+            "Camu Camu",
+            "Curcuma"
+        ],
+        "steps": "Pelez 1 orange entière et ajoutez-la au blender. Ajoutez 1 cuillère à café de gingembre fraîchement râpé, 1 cuillère à café de poudre de camu camu et 1/4 de cuillère à café de curcuma en poudre. Versez 1/2 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/ultimate_immunity_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "vitaminc_nuclear_bomb",
+        "name": "Canon Solaire",
+        "title": "Canon Solaire",
+        "teaser": "Le bouclier immunitaire le plus puissant de la nature",
+        "color": "orange",
+        "description": "Le bouclier immunitaire le plus puissant de la nature.",
+        "benefits": "Explose avec des niveaux extrêmes de vitamine C, stimulant directement l'activité des globules blancs et maximisant la protection cellulaire contre les menaces externes.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Acerola",
+            "Citron",
+            "Kiwi",
+            "Miel de Manuka"
+        ],
+        "steps": "Mélangez 1/2 tasse de pulpe fraîche d'acerola, 1 kiwi pelé, 1 cuillère à soupe de jus de citron fraîchement pressé et 1 cuillère à soupe de miel de Manuka. Mixez à haute vitesse pendant 45 secondes jusqu'à obtenir un liquide parfait.",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/vitaminc_nuclear_bomb.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "adaptogen_calm_hero",
+        "name": "Silence de Montagne",
+        "title": "Silence de Montagne",
+        "teaser": "Un calme profond à chaque gorgée",
+        "color": "purple",
+        "description": "Un calme profond à chaque gorgée.",
+        "benefits": "Réduit considérablement les niveaux de cortisol et procure une relaxation profonde du système nerveux, dissipant le stress quotidien et la fatigue mentale.",
+        "healthTags": [
+            "Soulagement du Stress et Calme",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Ashwagandha",
+            "Reishi",
+            "Banane",
+            "Lait d'Amande"
+        ],
+        "steps": "Ajoutez 1 cuillère à café de poudre de racine d'ashwagandha et 1/2 cuillère à café de poudre de champignon reishi à 1,5 tasse de lait d'amande froid avec 1 banane mûre. Mixez à haute vitesse pendant 60 secondes jusqu'à obtenir une texture crémeuse.",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "Soulagement du Stress et Calme",
+        "img": "/images/smoothies/adaptogen_calm_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "brain_and_focus_hero",
+        "name": "L'Oracle",
+        "title": "L'Oracle",
+        "teaser": "Débloquez une concentration et une clarté mentale optimales",
+        "color": "amber",
+        "description": "Débloquez une concentration et une clarté mentale optimales.",
+        "benefits": "Stimule la fonction cognitive, améliore la rétention de la mémoire et fournit une énergie mentale propre et durable, sans nervosité.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Crinière de Lion",
+            "Myrtilles",
+            "Noix"
+        ],
+        "steps": "Mixez 1/2 cuillère à café d'extrait de champignon crinière de lion avec 1 tasse de myrtilles surgelées et une petite poignée de noix. Ajoutez 1 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/brain_and_focus_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "energy_stamina_hero",
+        "name": "Tambour de Guerre",
+        "title": "Tambour de Guerre",
+        "teaser": "Énergie naturelle pour le corps et l'esprit",
+        "color": "amber",
+        "description": "Énergie naturelle pour le corps et l'esprit.",
+        "benefits": "Augmente rapidement l'endurance physique grâce à des racines adaptogènes ancestrales et des glucides complexes pour un effort soutenu.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Maca",
+            "Cordyceps",
+            "Dattes"
+        ],
+        "steps": "Mixez 1 cuillère à café de poudre de racine de maca, 1/2 cuillère à café de poudre de champignon cordyceps et 4 dattes dénoyautées avec 1 tasse d'eau. Mixez à haute vitesse pendant 60 secondes jusqu'à obtenir un mélange épais et homogène.",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/energy_stamina_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "gut_healing_hero",
+        "name": "Temple Intérieur",
+        "title": "Temple Intérieur",
+        "teaser": "Guérissez votre intestin de l'intérieur",
+        "color": "yellow",
+        "description": "Guérissez votre intestin de l'intérieur.",
+        "benefits": "Apaise la muqueuse délicate de l'estomac tout en apportant d'énormes quantités de probiotiques bénéfiques et d'enzymes digestives pour réparer le microbiome intestinal.",
+        "healthTags": [
+            "Digestion et Santé Intestinale",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Papaye",
+            "Aloe Vera",
+            "Graines de Lin",
+            "Kéfir"
+        ],
+        "steps": "Extrayez 2 cuillères à soupe de gel d'aloe vera frais et mixez-les avec 1 tasse de morceaux de papaye mûre, 1 cuillère à soupe de graines de lin moulues et 1 tasse de kéfir probiotique. Mixez à basse vitesse pendant 30 secondes pour préserver les probiotiques.",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "Digestion et Santé Intestinale",
+        "img": "/images/smoothies/gut_healing_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "anti_inflammatory_hero",
+        "name": "Dragon de Glace",
+        "title": "Dragon de Glace",
+        "teaser": "Combattez l'inflammation naturellement",
+        "color": "red",
+        "description": "Combattez l'inflammation naturellement.",
+        "benefits": "Inhibe les voies inflammatoires au niveau moléculaire, soulageant efficacement les douleurs articulaires et les gonflements systémiques.",
+        "healthTags": [
+            "Anti-inflammatoire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Curcuma",
+            "Gingembre",
+            "Ananas"
+        ],
+        "steps": "Ajoutez 1 cuillère à café de curcuma frais, 1 pouce de gingembre et 1 tasse de morceaux d'ananas au blender. Ajoutez 1/2 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "Anti-inflammatoire",
+        "img": "/images/smoothies/anti_inflammatory_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "beauty_and_glow_hero",
+        "name": "Impératrice de Jade",
+        "title": "Impératrice de Jade",
+        "teaser": "Rayonnez de beauté de l'intérieur",
+        "color": "pink",
+        "description": "Rayonnez de beauté de l'intérieur.",
+        "benefits": "Stimule l'élasticité de la peau et combat agressivement le vieillissement cutané, vous offrant un éclat intérieur radieux et visible.",
+        "healthTags": [
+            "Éclat de la Peau et Beauté",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Fraises",
+            "Peptides de Collagène",
+            "Avocat",
+            "Épinards"
+        ],
+        "steps": "Mixez 1 tasse de fraises fraîches avec 1/4 d'avocat mûr, 1 poignée d'épinards frais et 1 dose de peptides de collagène sans saveur. Mélangez avec 1/2 tasse d'eau jusqu'à obtenir un liquide parfaitement lisse.",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "Éclat de la Peau et Beauté",
+        "img": "/images/smoothies/beauty_and_glow_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "deep_sleep_and_recovery_hero",
+        "name": "Morphée",
+        "title": "Morphée",
+        "teaser": "Le sommeil réparateur dans un verre",
+        "color": "indigo",
+        "description": "Le sommeil réparateur dans un verre.",
+        "benefits": "Élève naturellement la production de mélatonine, garantissant un sommeil paradoxal profond et ininterrompu ainsi qu'une puissante récupération musculaire nocturne.",
+        "healthTags": [
+            "Sommeil et Récupération",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Valériane",
+            "Camomille",
+            "Banane"
+        ],
+        "steps": "Mixez 1/2 cuillère à café de poudre de racine de valériane et 1 cuillère à soupe de concentré de thé à la camomille avec 1 banane mûre et 1 tasse de lait d'avoine. Mixez jusqu'à obtenir une texture lisse et crémeuse.",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "Sommeil et Récupération",
+        "img": "/images/smoothies/deep_sleep_and_recovery_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "anti_oxidant_god_mode",
+        "name": "Mode Dieu",
+        "title": "Mode Dieu",
+        "teaser": "Protection antioxydante maximale",
+        "color": "purple",
+        "description": "Protection antioxydante maximale.",
+        "benefits": "Inonde votre corps d'un spectre massif d'anthocyanes, neutralisant les radicaux libres et stoppant instantanément les dommages cellulaires.",
+        "healthTags": [
+            "Pouvoir Antioxydant",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Acai",
+            "Baies de Goji",
+            "Grenade",
+            "Chocolat Noir"
+        ],
+        "steps": "Mixez 1 sachet d'acai surgelé (100 g) avec 1 cuillère à soupe de baies de goji réhydratées, 1/2 tasse de pur jus de grenade et 15 g de copeaux de chocolat noir à 85 %.",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/anti_oxidant_god_mode.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "apple_ginger_soothe",
+        "name": "Samouraï d'Automne",
+        "title": "Samouraï d'Automne",
+        "teaser": "Aide digestive apaisante",
+        "color": "yellow",
+        "description": "Aide digestive apaisante.",
+        "benefits": "Un mélange incroyablement réconfortant qui stoppe les nausées net et réchauffe doucement le tractus digestif.",
+        "healthTags": [
+            "Digestion et Santé Intestinale",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Pomme",
+            "Gingembre",
+            "Menthe"
+        ],
+        "steps": "Mixez 1 pomme douce avec 1 pouce de gingembre frais et une petite poignée de feuilles de menthe fraîche. Ajoutez 1 tasse d'eau et mixez à haute vitesse pendant 45 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Digestion et Santé Intestinale",
+        "img": "/images/smoothies/apple_ginger_soothe.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "ashwagandha_calm",
+        "name": "Moine de l'Himalaya",
+        "title": "Moine de l'Himalaya",
+        "teaser": "Mélange adaptogène anti-stress",
+        "color": "purple",
+        "description": "Mélange adaptogène anti-stress.",
+        "benefits": "Atténue considérablement l'anxiété quotidienne et renforce la résilience à long terme de votre corps face au stress.",
+        "healthTags": [
+            "Soulagement du Stress et Calme",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Ashwagandha",
+            "Banane",
+            "Lucuma"
+        ],
+        "steps": "Mixez 1 cuillère à café de poudre de racine d'ashwagandha avec 1 banane mûre et 1 cuillère à soupe de poudre de lucuma. Ajoutez 1 tasse de lait d'amande et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Soulagement du Stress et Calme",
+        "img": "/images/smoothies/ashwagandha_calm.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "golden_anti_inflammatory",
+        "name": "Khan Doré",
+        "title": "Khan Doré",
+        "teaser": "Élixir doré anti-inflammatoire",
+        "color": "red",
+        "description": "Élixir doré anti-inflammatoire.",
+        "benefits": "Un élixir doré conçu spécifiquement pour inonder votre corps d'agents anti-inflammatoires naturels hautement absorbables.",
+        "healthTags": [
+            "Anti-inflammatoire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Curcuma",
+            "Poivre Noir",
+            "Noix de Coco"
+        ],
+        "steps": "Mixez 1 cuillère à café de curcuma en poudre avec une pincée de poivre noir et 1/2 tasse de chair de noix de coco fraîche. Ajoutez 1 tasse d'eau de coco et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Anti-inflammatoire",
+        "img": "/images/smoothies/golden_anti_inflammatory.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherry_beet_recovery",
+        "name": "Renaissance Cramoisie",
+        "title": "Renaissance Cramoisie",
+        "teaser": "Mélange de récupération et de renouveau",
+        "color": "red",
+        "description": "Mélange de récupération et de renouveau.",
+        "benefits": "Booste la production d'oxyde nitrique pour améliorer massivement le flux sanguin et accélérer la récupération musculaire.",
+        "healthTags": [
+            "Anti-inflammatoire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Cerise Griotte",
+            "Betterave",
+            "Céleri"
+        ],
+        "steps": "Mixez 1/2 tasse de cerises griottes avec 1/2 tasse de morceaux de betterave crue et 2 branches de céleri. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Anti-inflammatoire",
+        "img": "/images/smoothies/cherry_beet_recovery.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "mangosteen_relief",
+        "name": "Reine de Siam",
+        "title": "Reine de Siam",
+        "teaser": "Le pouvoir anti-inflammatoire du mangoustan",
+        "color": "red",
+        "description": "Le pouvoir anti-inflammatoire du mangoustan.",
+        "benefits": "Exploite de puissantes xanthones directement prouvées pour réduire l'inflammation cellulaire chronique et le stress oxydatif.",
+        "healthTags": [
+            "Anti-inflammatoire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Mangoustan",
+            "Pêche",
+            "Poire"
+        ],
+        "steps": "Extrayez la chair de 2 mangoustans et mixez-la avec 1 pêche mûre et 1 poire mûre. Ajoutez 1/2 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Anti-inflammatoire",
+        "img": "/images/smoothies/mangosteen_relief.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "acai_beauty_bowl",
+        "name": "Déesse de l'Amazone",
+        "title": "Déesse de l'Amazone",
+        "teaser": "Carburant de beauté aux super-baies",
+        "color": "pink",
+        "description": "Carburant de beauté aux super-baies.",
+        "benefits": "Fournit une concentration d'antioxydants qui préviennent activement les rides et améliorent la luminosité de la peau.",
+        "healthTags": [
+            "Éclat de la Peau et Beauté",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Base d'Açaï",
+            "Myrtilles",
+            "Collagène",
+            "Lait d'Amande"
+        ],
+        "steps": "Mixez 1 sachet d'açaï (100 g) avec 1/2 tasse de myrtilles, 1 dose de collagène et 1/2 tasse de lait d'amande.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Éclat de la Peau et Beauté",
+        "img": "/images/smoothies/acai_beauty_bowl.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "sea_buckthorn_glow",
+        "name": "Or Viking",
+        "title": "Or Viking",
+        "teaser": "Éclat de la peau riche en oméga",
+        "color": "pink",
+        "description": "Éclat de la peau riche en oméga.",
+        "benefits": "Fournit des acides gras Oméga-7 extrêmement rares, vitaux pour maintenir une peau éclatante et profondément hydratée.",
+        "healthTags": [
+            "Éclat de la Peau et Beauté",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Jus d'Argousier",
+            "Orange",
+            "Carotte",
+            "Gingembre"
+        ],
+        "steps": "Mixez 2 cuillères à soupe de jus d'argousier avec 1 orange douce, 1 carotte fraîche et 1/2 pouce de gingembre.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Éclat de la Peau et Beauté",
+        "img": "/images/smoothies/sea_buckthorn_glow.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "maqui_radiance",
+        "name": "Feu Patagonien",
+        "title": "Feu Patagonien",
+        "teaser": "Un éclat intérieur violet profond",
+        "color": "pink",
+        "description": "Un éclat intérieur violet profond.",
+        "benefits": "Le score antioxydant le plus élevé de tous les fruits, protégeant votre peau des dommages liés aux UV et à la pollution.",
+        "healthTags": [
+            "Éclat de la Peau et Beauté",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Poudre de Baie de Maqui",
+            "Banane",
+            "Épinards",
+            "Lait d'Avoine"
+        ],
+        "steps": "Mélangez 1 cuillère à café de poudre de baie de maqui avec 1 banane, 1 poignée d'épinards et 1 tasse de lait d'avoine.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Éclat de la Peau et Beauté",
+        "img": "/images/smoothies/maqui_radiance.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "heart_protector",
+        "name": "La Sentinelle",
+        "title": "La Sentinelle",
+        "teaser": "Protection cardiovasculaire quotidienne",
+        "color": "red",
+        "description": "Protection cardiovasculaire quotidienne.",
+        "benefits": "Améliore efficacement les profils lipidiques sanguins et garde les parois artérielles dégagées.",
+        "healthTags": [
+            "Santé Cardiovasculaire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Grenade",
+            "Noix",
+            "Avoine"
+        ],
+        "steps": "Mixez 1/2 tasse de graines de grenade avec une petite poignée de noix et 1/4 de tasse de flocons d'avoine. Ajoutez 1 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Santé Cardiovasculaire",
+        "img": "/images/smoothies/heart_protector.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "beet_berry_heart",
+        "name": "Pacte Cramoisi",
+        "title": "Pacte Cramoisi",
+        "teaser": "Mélange de baies pour le cœur",
+        "color": "red",
+        "description": "Mélange de baies pour le cœur.",
+        "benefits": "Dilate les vaisseaux sanguins en toute sécurité pour réguler la tension artérielle et fournit des acides gras Oméga-3 essentiels.",
+        "healthTags": [
+            "Santé Cardiovasculaire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Grenade",
+            "Betterave",
+            "Myrtilles"
+        ],
+        "steps": "Mixez 1/4 de tasse de graines de grenade avec 1/2 tasse de morceaux de betterave crue et 1/2 tasse de myrtilles. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Santé Cardiovasculaire",
+        "img": "/images/smoothies/beet_berry_heart.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "deep_detox",
+        "name": "Purification dans l'Ombre",
+        "title": "Purification dans l'Ombre",
+        "teaser": "Soutien détox quotidien doux",
+        "color": "green",
+        "description": "Soutien détox quotidien doux.",
+        "benefits": "Se lie aux métaux lourds dans la circulation sanguine et aide le foie à éliminer les toxines.",
+        "healthTags": [
+            "Détox et Purification",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Chlorelle",
+            "Spiruline",
+            "Citron"
+        ],
+        "steps": "Mélangez 1 cuillère à café de poudre de chlorelle et 1 cuillère à café de poudre de spiruline avec le jus d'un citron frais. Ajoutez 1 tasse d'eau froide et mixez pendant 30 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Détox et Purification",
+        "img": "/images/smoothies/deep_detox.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "alkaline_king",
+        "name": "Roi Alcalin",
+        "title": "Roi Alcalin",
+        "teaser": "Puissance verte alcalinisante",
+        "color": "green",
+        "description": "Rempli d'énergie et de nutriments vitaux pour vous propulser tout au long de la journée.",
+        "benefits": "Un mélange synergique pour des bénéfices Smooth Savage maximaux.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Chou Kale",
+            "Brocoli",
+            "Ananas"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/alkaline_king.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "androgenic_peak",
+        "name": "Le Spartiate",
+        "title": "Le Spartiate",
+        "teaser": "Soutien hormonal ancien",
+        "color": "amber",
+        "description": "Puissance naturelle pour une vie à haute performance.",
+        "benefits": "Stimule la vitalité en utilisant du pollen de pin et des minéraux tropicaux.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Mangue",
+            "Noix de Coco",
+            "Pollen de Pin"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/androgenic_peak.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "anti_viral_star",
+        "name": "Étoile Coréenne",
+        "title": "Étoile Coréenne",
+        "teaser": "Défense antivirale à la carambole",
+        "color": "amber",
+        "description": "Soutien immunitaire avec une touche tropicale.",
+        "benefits": "Haute teneur en vitamine C et antioxydants uniques de carambole.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Poire",
+            "Kiwi",
+            "Anis Étoilé"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/anti_viral_star.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "black_seed_cure",
+        "name": "Remède à la Graine Noire",
+        "title": "Remède à la Graine Noire",
+        "teaser": "Le boost de bien-être légendaire",
+        "color": "amber",
+        "description": "Médecine ancienne pour la vie moderne.",
+        "benefits": "Puissants bienfaits de l'huile de nigelle pour la santé globale du système.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Sureau",
+            "Myrtilles",
+            "Huile de Nigelle"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/black_seed_cure.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "camu_camu_titan",
+        "name": "Tonnerre de l'Amazone",
+        "title": "Tonnerre de l'Amazone",
+        "teaser": "Dominance de la vitamine C",
+        "color": "amber",
+        "description": "Dose maximale de vitamine C pour une immunité en titane.",
+        "benefits": "Exploite les baies de camu-camu pour un bien-être optimal.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Goyave",
+            "Fraises",
+            "Camu Camu"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/camu_camu_titan.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherry_reishi_dream",
+        "name": "Le Repos du Samouraï",
+        "title": "Le Repos du Samouraï",
+        "teaser": "Mélange de récupération nocturne",
+        "color": "purple",
+        "description": "Rêvez plus profondément et réveillez-vous l'esprit vif.",
+        "benefits": "Champignons Reishi associés à des cerises riches en mélatonine.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Cerise",
+            "Myrtilles",
+            "Reishi"
+        ],
+        "steps": "Mixez 1/2 tasse de cerises acidulées et 1/2 tasse de myrtilles avec 1/2 cuillère à café de poudre de champignon reishi. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/cherry_reishi_dream.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "deep_sea_mineral",
+        "name": "Petit-Déjeuner de Poséidon",
+        "title": "Petit-Déjeuner de Poséidon",
+        "teaser": "Hydratation du fond de l'océan",
+        "color": "amber",
+        "description": "92 des 102 minéraux dont votre corps a besoin.",
+        "benefits": "Infusion minérale de mousse de mer et de fucus.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Mousse de Mer",
+            "Ananas",
+            "Fucus"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/deep_sea_mineral.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "digestive_star",
+        "name": "Ventre de la Route de la Soie",
+        "title": "Ventre de la Route de la Soie",
+        "teaser": "La centrale enzymatique",
+        "color": "amber",
+        "description": "Enzymes de papaïne pour un soulagement instantané.",
+        "benefits": "Soutient un microbiome intestinal propre et sain.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Papaye",
+            "Gingembre",
+            "Anis Étoilé"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/digestive_star.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "electric_violet",
+        "name": "Violet Électrique",
+        "title": "Violet Électrique",
+        "teaser": "Poussée d'anthocyanes",
+        "color": "amber",
+        "description": "Énergie électrique des baies de goji noir.",
+        "benefits": "Protection antioxydante massive avec une teinte violette.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Goji Noir",
+            "Baie d'Haskap",
+            "Raisins"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/electric_violet.webp",
+        "icon": "vaso"
+    },
+{
+        "id": "goji_zen",
+        "name": "Bouddha Rouge",
+        "title": "Bouddha Rouge",
+        "teaser": "Longévité et paix intérieure",
+        "color": "amber",
+        "description": "Énergie équilibrée pour un esprit centré.",
+        "benefits": "Soutient la vision et la vitalité à long terme.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Goji Noir",
+            "Mûres",
+            "Vanille"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/goji_zen.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "golden_shield",
+        "name": "Bouclier Doré",
+        "title": "Bouclier Doré",
+        "teaser": "La barricade de curcuma",
+        "color": "amber",
+        "description": "Protection quotidienne contre l'inflammation.",
+        "benefits": "Curcumine activée pour une biodisponibilité maximale.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Ananas",
+            "Curcuma",
+            "Poivre Noir"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/golden_shield.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "green_matcha_surge",
+        "name": "Impulsion de Kyoto",
+        "title": "Impulsion de Kyoto",
+        "teaser": "Énergie stable avec L-théanine",
+        "color": "amber",
+        "description": "Concentration calme pour les journées les plus exigeantes.",
+        "benefits": "Caféine sans nervosité.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Matcha",
+            "Épinards",
+            "Mangue"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/green_matcha_surge.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "heavy_metal_cleanse",
+        "name": "Exil de Fer",
+        "title": "Exil de Fer",
+        "teaser": "Purification systémique profonde",
+        "color": "amber",
+        "description": "Élimine les métaux lourds avec de la chlorelle et de la coriandre.",
+        "benefits": "Détox cellulaire profond pour un système plus propre.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Chlorelle",
+            "Pomme Verte",
+            "Citron",
+            "Coriandre"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/heavy_metal_cleanse.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "himalayan_resin",
+        "name": "Résine de l'Himalaya",
+        "title": "Résine de l'Himalaya",
+        "teaser": "Vitalité de l'acide fulvique",
+        "color": "amber",
+        "description": "Énergie du shilajit pour une performance maximale.",
+        "benefits": "Minéralisation et soutien à chaque goutte.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Banane",
+            "Shilajit",
+            "Beurre de Cacahuète",
+            "Mesquite"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/himalayan_resin.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "jackfruit_fuel",
+        "name": "Goliath Vert",
+        "title": "Goliath Vert",
+        "teaser": "Endurance riche en fibres",
+        "color": "amber",
+        "description": "Carburant soutenu pour les longues distances.",
+        "benefits": "Riche en fibres et nutriments tropicaux complexes.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Jacquier",
+            "Noix de Coco",
+            "Graines de Lin"
+        ],
+        "steps": "Mixez 1 tasse de jacquier mûr en morceaux avec 1/2 tasse de chair de noix de coco fraîche et 1 cuillère à soupe de graines de lin moulues. Ajoutez 3/4 de tasse d'eau de coco et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/jackfruit_fuel.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "kiwi_cleanse",
+        "name": "Décharge Émeraude",
+        "title": "Décharge Émeraude",
+        "teaser": "Réinitialisation intestinale avec balayage de fibres",
+        "color": "amber",
+        "description": "Nettoyez votre système avec l'enzyme actinidine.",
+        "benefits": "Régularité et sensation de légèreté intestinale.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Kiwi",
+            "Pomme",
+            "Graines de Lin"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/kiwi_cleanse.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "lucuma_power",
+        "name": "Or Inca",
+        "title": "Or Inca",
+        "teaser": "Énergie caramel à faible indice glycémique",
+        "color": "amber",
+        "description": "Glycémie stable, haute énergie.",
+        "benefits": "L'« Or des Incas » pour la force quotidienne.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Lucuma",
+            "Noix de Cajou",
+            "Dattes"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/lucuma_power.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "mesozoic_fiber",
+        "name": "Fibre Mésozoïque",
+        "title": "Fibre Mésozoïque",
+        "teaser": "Base de fibres ancestrale",
+        "color": "amber",
+        "description": "Forteresse digestive préhistorique.",
+        "benefits": "Fruits riches en fibres pour un nettoyage intestinal profond.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Figue",
+            "Prune",
+            "Psyllium"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/mesozoic_fiber.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "omega_7_radiance",
+        "name": "Lumière du Nord",
+        "title": "Lumière du Nord",
+        "teaser": "Santé des muqueuses et de la peau",
+        "color": "amber",
+        "description": "Hydratation profonde à l'argousier.",
+        "benefits": "Acides gras rares pour un éclat lumineux.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Argousier",
+            "Mangue",
+            "Avocat",
+            "Orange"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/omega_7_radiance.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "papaya_digestive",
+        "name": "Aube Maya",
+        "title": "Aube Maya",
+        "teaser": "Impulsion d'enzymes protéolytiques",
+        "color": "amber",
+        "description": "La réinitialisation post-repas ultime.",
+        "benefits": "Papaye et citron vert pour une dégradation rapide des protéines.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Papaye",
+            "Citron Vert",
+            "Gingembre"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/papaya_digestive.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "prickly_gut_reset",
+        "name": "Prophète du Désert",
+        "title": "Prophète du Désert",
+        "teaser": "Soulagement intestinal avec le pouvoir du cactus",
+        "color": "amber",
+        "description": "Apaisez l'inflammation avec des fibres de nopal.",
+        "benefits": "Hydratation profonde des parois intestinales.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Figue de Barbarie",
+            "Pastèque",
+            "Aloe Vera"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/prickly_gut_reset.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "saffron_sun",
+        "name": "Soleil de Safran",
+        "title": "Soleil de Safran",
+        "teaser": "Nectar stimulateur de dopamine",
+        "color": "amber",
+        "description": "Élevez votre humeur avec le safran ancestral.",
+        "benefits": "Bien-être mental et équilibre émotionnel.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Abricot",
+            "Papaye",
+            "Safran"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/saffron_sun.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "shatavari_bloom",
+        "name": "Fleur de Shatavari",
+        "title": "Fleur de Shatavari",
+        "teaser": "Harmonie hormonale",
+        "color": "amber",
+        "description": "Adaptogènes pour l'équilibre hormonal féminin.",
+        "benefits": "Soutient la santé reproductive et l'éclat.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Abricot",
+            "Carotte",
+            "Nectarine",
+            "Graines de Lin"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/shatavari_bloom.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "star_defense",
+        "name": "Gardien Céleste",
+        "title": "Gardien Céleste",
+        "teaser": "Forteresse de polyphénols",
+        "color": "amber",
+        "description": "Micronutriments tropicaux uniques pour l'immunité.",
+        "benefits": "Système de défense à profil élevé en zinc.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Carambole",
+            "Citron",
+            "Concombre"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/star_defense.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "telomere_tonic",
+        "name": "Tonique de Télomères",
+        "title": "Tonique de Télomères",
+        "teaser": "Carburant pour la longévité cellulaire",
+        "color": "amber",
+        "description": "Protection de l'ADN avec de l'astragale et des baies.",
+        "benefits": "Ralentissez l'horloge biologique.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Baies de Goji",
+            "Épinards",
+            "Myrtilles"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/telomere_tonic.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_empress_glow",
+        "name": "L'Éclat de l'Impératrice",
+        "title": "L'Éclat de l'Impératrice",
+        "teaser": "Peau de porcelaine impériale",
+        "color": "amber",
+        "description": "Éclat avec la poudre de perle et le champignon tremella.",
+        "benefits": "Hydratation maximale et réparation cellulaire.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Pêche",
+            "Noix de Coco",
+            "Tremella",
+            "Perle"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/the_empress_glow.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_five_flavour_runner",
+        "name": "Le Coureur des Cinq Saveurs",
+        "title": "Le Coureur des Cinq Saveurs",
+        "teaser": "Endurance adaptogène",
+        "color": "amber",
+        "description": "Baies de schisandra pour la performance athlétique.",
+        "benefits": "Soutien multi-organes et endurance ciblée.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Betterave",
+            "Pastèque",
+            "Citron Vert",
+            "Schisandra"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/the_five_flavour_runner.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_fluid_flush",
+        "name": "Rivière des Dieux",
+        "title": "Rivière des Dieux",
+        "teaser": "Détox rénale et lymphatique",
+        "color": "amber",
+        "description": "Dégonflez et détoxifiez avec du pissenlit et du céleri.",
+        "benefits": "Éliminez l'excès d'eau et les toxines en toute sécurité.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Céleri",
+            "Concombre",
+            "Citron Vert",
+            "Pissenlit"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/the_fluid_flush.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_great_wall",
+        "name": "La Grande Muraille",
+        "title": "La Grande Muraille",
+        "teaser": "Barrière systémique renforcée",
+        "color": "amber",
+        "description": "Construction immunitaire avec de l'astragale et du gingembre.",
+        "benefits": "Herbes ancestrales pour la défense environnementale moderne.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Gingembre",
+            "Citron",
+            "Astragale"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/the_great_wall.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tremella_dew",
+        "name": "Rosée de Tremella",
+        "title": "Rosée de Tremella",
+        "teaser": "Alternative naturelle à l'acide hyaluronique",
+        "color": "amber",
+        "description": "Peau lumineuse de l'intérieur vers l'extérieur.",
+        "benefits": "Champignon tremella pour une rétention d'eau de 500 fois son poids.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Aloe Vera",
+            "Melon d'Hiver",
+            "Concombre",
+            "Tremella"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/tremella_dew.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "viking_focus",
+        "name": "Foco Viking",
+        "title": "Foco Viking",
+        "teaser": "Poussée cognitive nordique",
+        "color": "amber",
+        "description": "Carburant MCT pour l'esprit guerrier.",
+        "benefits": "Concentration aiguë avec du cacao et des baies d'haskap.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Matcha",
+            "Baie d'Haskap",
+            "Pomme Verte"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/viking_focus.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "white_pearl_zen",
+        "name": "Perle Blanche Zen",
+        "title": "Perle Blanche Zen",
+        "teaser": "Calme et sérénité purs",
+        "color": "amber",
+        "description": "Poudre de perle pour la peau et les nerfs.",
+        "benefits": "Calme indulgent avec une finale litchi-vanille.",
+        "healthTags": [
+            "Bien-être",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Litchi",
+            "Banane",
+            "Perle"
+        ],
+        "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/white_pearl_zen.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "elderberry_shield",
+        "name": "Bastion Nordique",
+        "title": "Bastion Nordique",
+        "teaser": "Défense antivirale ancestrale dans un verre",
+        "color": "purple",
+        "description": "Défense antivirale ancestrale dans un verre.",
+        "benefits": "Les puissants composés antiviraux du sureau bloquent la réplication virale, tandis que le clou de girofle et la pomme apportent des antioxydants stimulants l'immunité.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Sureau",
+            "Clou de Girofle",
+            "Pomme"
+        ],
+        "steps": "Mixez 1/2 tasse de sirop de sureau avec 1 pomme entière et une pincée de clou de girofle moulu. Ajoutez 1/2 tasse d'eau et mixez à haute vitesse pendant 45 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/elderberry_shield.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tropical_immunity",
+        "name": "Forteresse Insulaire",
+        "title": "Forteresse Insulaire",
+        "teaser": "Explosion tropicale de vitamine C",
+        "color": "orange",
+        "description": "Explosion tropicale de vitamine C.",
+        "benefits": "La goyave et l'acérola apportent une dose massive de vitamine C, tandis que l'orange ajoute des flavonoïdes qui amplifient l'activité des cellules immunitaires.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Goyave",
+            "Orange",
+            "Acérola"
+        ],
+        "steps": "Mixez 1 goyave entière avec 1 orange pelée et 1/4 de tasse de pulpa fraîche d'acérola. Ajoutez 1/2 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/tropical_immunity.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "berry_immune",
+        "name": "Guerrier de la Forêt",
+        "title": "Guerrier de la Forêt",
+        "teaser": "Forteresse immunitaire aux baies",
+        "color": "red",
+        "description": "Forteresse immunitaire aux baies.",
+        "benefits": "Un mélange concentré de baies sauvages apporte des anthocyanes et une vitamine C extrême grâce au camu camu pour une réponse immunitaire rapide.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Mélange de Baies",
+            "Camu Camu"
+        ],
+        "steps": "Mixez 1 tasse de baies mixtes surgelées avec 1 cuillère à café de poudre de camu camu. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/berry_immune.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "soursop_guardian",
+        "name": "Dieu Graviola",
+        "title": "Dieu Graviola",
+        "teaser": "Protection cellulaire au graviola",
+        "color": "green",
+        "description": "Protection cellulaire au graviola.",
+        "benefits": "Le corossol et le graviola sont légendaires pour leurs puissantes acétogénines qui soutiennent la défense cellulaire et la résilience immunitaire.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Corossol",
+            "Graviola",
+            "Pomme"
+        ],
+        "steps": "Mixez 1 tasse de pulpe de corossol avec 2 cuillères à soupe d'extrait de graviola et 1 pomme douce entière. Ajoutez 1/2 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/soursop_guardian.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tropical_stamina",
+        "name": "Tonnerre du Pacifique",
+        "title": "Tonnerre du Pacifique",
+        "teaser": "Carburant tropical pour l'endurance",
+        "color": "amber",
+        "description": "Carburant tropical pour l'endurance.",
+        "benefits": "La noix de coco apporte des acides gras à chaîne moyenne à absorption rapide, tandis que la maca et l'ananas stimulent l'énergie physique soutenue et la récupération.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Noix de Coco",
+            "Maca",
+            "Ananas"
+        ],
+        "steps": "Mixez 1/2 tasse de chair de noix de coco fraîche avec 1 cuillère à café de poudre de racine de maca et 1 tasse de morceaux d'ananas. Ajoutez 3/4 de tasse d'eau de coco et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/tropical_stamina.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tropical_calm",
+        "name": "Silence de Bali",
+        "title": "Silence de Bali",
+        "teaser": "Soulagement tropical du stress",
+        "color": "purple",
+        "description": "Soulagement tropical du stress.",
+        "benefits": "Le fruit de la passion réduit l'anxiété naturellement, tandis que le magnésium détend le système nerveux pour un calme profond et sans effort.",
+        "healthTags": [
+            "Soulagement du Stress et Calme",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Fruit de la Passion",
+            "Magnésium"
+        ],
+        "steps": "Mixez la pulpe de 3 fruits de la passion frais avec 1 dose de supplément de magnésium ionique. Ajoutez 1 tasse d'eau froide et mixez à haute vitesse pendant 45 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Soulagement du Stress et Calme",
+        "img": "/images/smoothies/tropical_calm.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "nightshade_pulse",
+        "name": "Le Secret d'Orellana",
+        "title": "Le Secret d'Orellana",
+        "teaser": "La nicotine de la nature — propre et végétale",
+        "color": "purple",
+        "description": "La nicotine de la nature — propre et végétale.",
+        "benefits": "L'aubergine et le chou-fleur figurent parmi les sources végétales naturelles les plus riches en nicotine, soutenant la production d'acétylcholine pour une cognition plus vive, une meilleure concentration et l'équilibre du système nerveux — sans l'addiction ni les produits chimiques du tabac.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Aubergine",
+            "Chou-fleur",
+            "Poire"
+        ],
+        "steps": "Faites cuire légèrement à la vapeur 1/2 tasse d'aubergine et 1/2 tasse de chou-fleur, puis laissez refroidir. Mixez avec 1 poire mûre et 3/4 de tasse d'eau froide. Mixez à haute vitesse pendant 90 secondes jusqu'à obtenir un mélange parfaitement lisse.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/nightshade_pulse.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "ashwaganshi",
+        "name": "Ashwaganshi",
+        "title": "Ashwaganshi",
+        "teaser": "Double bouclier adaptogène contre le stress",
+        "color": "purple",
+        "description": "Double bouclier adaptogène contre le stress.",
+        "benefits": "Associe l'ashwagandha et le reishi — deux des adaptogènes régulateurs de stress les plus puissants — pour réduire profondément le cortisol, calmer le système nerveux et renforcer la résilience à long terme face au stress quotidien.",
+        "healthTags": [
+            "Soulagement du Stress et Calme",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Adaptogènes",
+        "ingredients": [
+            "Reishi",
+            "Ashwagandha",
+            "Lait d'Amande"
+        ],
+        "steps": "Ajoutez 1/2 cuillère à café de poudre de champignon reishi et 1 cuillère à café de poudre de racine d'ashwagandha à 1,5 tasse de lait d'amande froid. Mixez à haute vitesse pendant 60 secondes jusqu'à obtenir une texture lisse et crémeuse.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Soulagement du Stress et Calme",
+        "img": "/images/smoothies/ashwaganshi.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "dark_cacao_rush",
+        "name": "Aztèque Noir",
+        "title": "Aztèque Noir",
+        "teaser": "Élévation de l'humeur au chocolat cru",
+        "color": "amber",
+        "description": "Élévation de l'humeur au chocolat cru.",
+        "benefits": "Le cacao cru inonde le cerveau de théobromine et de phényléthylamine, déclenchant une élévation naturelle de l'humeur et une énergie soutenue sans le crash de la caféine.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Cacao",
+            "Banane",
+            "Lait d'Amande"
+        ],
+        "steps": "Mixez 1 cuillère à soupe de poudre de cacao cru avec 1 banane mûre surgelée et 1,5 tasse de lait d'amande. Mixez à haute vitesse pendant 60 secondes jusqu'à obtenir une texture épaisse et crémeuse.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/dark_cacao_rush.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "moringa_green",
+        "name": "L'Arbre Miracle",
+        "title": "L'Arbre Miracle",
+        "teaser": "L'arbre miracle dans un verre",
+        "color": "green",
+        "description": "L'arbre miracle dans un verre.",
+        "benefits": "Le moringa contient 92 nutriments et 46 antioxydants, soutenant la réparation cellulaire, la détoxification et une vitalité quotidienne soutenue.",
+        "healthTags": [
+            "Détox et Purification",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Moringa",
+            "Mangue",
+            "Eau de Coco"
+        ],
+        "steps": "Mixez 1 cuillère à café de poudre de feuilles de moringa avec 1 tasse de morceaux de mangue surgelée et 1 tasse d'eau de coco. Mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Détox et Purification",
+        "img": "/images/smoothies/moringa_green.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "chaga_shield",
+        "name": "Armure Sibérienne",
+        "title": "Armure Sibérienne",
+        "teaser": "La défense du roi des champignons",
+        "color": "amber",
+        "description": "La défense du roi des champignons.",
+        "benefits": "Le chaga possède le score antioxydant ORAC le plus élevé de tous les aliments sur terre, neutralisant les radicaux libres et fortifiant les défenses immunitaires au niveau cellulaire.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Pouvoir Antioxydant"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Chaga",
+            "Myrtilles",
+            "Lait d'Avoine"
+        ],
+        "steps": "Infusez 1 cuillère à café de poudre de chaga dans de l'eau tiède et laissez refroidir. Mixez avec 1 tasse de myrtilles surgelées et 1 tasse de lait d'avoine pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/chaga_shield.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "green_shot",
+        "name": "L'Assassin",
+        "title": "L'Assassin",
+        "teaser": "Réinitialisation quotidienne à l'herbe de blé",
+        "color": "green",
+        "description": "Réinitialisation quotidienne à l'herbe de blé.",
+        "benefits": "L'herbe de blé délivre la chlorophylle directement dans la circulation sanguine, alcalinisant le corps, détoxifiant le foie et fournissant un regain d'énergie rapide.",
+        "healthTags": [
+            "Détox et Purification",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Herbe de Blé",
+            "Pomme",
+            "Citron"
+        ],
+        "steps": "Mixez 1 cuillère à café de poudre d'herbe de blé avec 1 pomme entière et le jus d'un demi-citron. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 45 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Détox et Purification",
+        "img": "/images/smoothies/green_shot.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "hemp_protein",
+        "name": "Force Viking",
+        "title": "Force Viking",
+        "teaser": "Mélange complet de protéines végétales",
+        "color": "amber",
+        "description": "Mélange complet de protéines végétales.",
+        "benefits": "Les graines de chanvre sont l'une des rares sources végétales contenant les 9 acides aminés essentiels, fournissant des protéines complètes ainsi que des oméga-3 et oméga-6 dans des proportions parfaites.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Graines de Chanvre",
+            "Banane",
+            "Lait d'Amande"
+        ],
+        "steps": "Mixez 2 cuillères à soupe de graines de chanvre crues avec 1 banane surgelée et 1,5 tasse de lait d'amande. Mixez à haute vitesse pendant 60 secondes jusqu'à obtenir un mélange lisse.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/hemp_protein.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "chia_power",
+        "name": "Guerrier Aztèque",
+        "title": "Guerrier Aztèque",
+        "teaser": "Carburant d'endurance ancestral",
+        "color": "amber",
+        "description": "Carburant d'endurance ancestral.",
+        "benefits": "Les graines de chia se dilatent jusqu'à 10 fois leur taille dans l'estomac, ralentissant la digestion et fournissant une hydratation soutenue, des fibres et des oméga-3 pour des heures d'énergie.",
+        "healthTags": [
+            "Digestion et Santé Intestinale",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Graines de Chia",
+            "Mangue",
+            "Lait de Coco"
+        ],
+        "steps": "Faites tremper 1 cuillère à soupe de graines de chia dans du lait de coco pendant 10 minutes. Mixez avec 1 tasse de mangue surgelée et le reste du lait de coco jusqu'à obtenir un mélange lisse.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/chia_power.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "dream_dust",
+        "name": "Poussière de Rêve",
+        "title": "Poussière de Rêve",
+        "teaser": "Rituel de sommeil chaud dans un verre",
+        "color": "purple",
+        "description": "Rituel de sommeil chaud dans un verre.",
+        "benefits": "La camomille se lie aux récepteurs GABA pour calmer le système nerveux, tandis que la muscade contient de la myristicine qui approfondit la qualité du sommeil et réduit les réveils nocturnes.",
+        "healthTags": [
+            "Sommeil et Récupération",
+            "Soulagement du Stress et Calme"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Camomille",
+            "Muscade",
+            "Banane",
+            "Lait d'Avoine"
+        ],
+        "steps": "Faites infuser la camomille dans du lait d'avoine tiède pendant 5 minutes, puis laissez refroidir. Mixez avec 1 banane mûre et une pincée de muscade pendant 45 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Sommeil et Récupération",
+        "img": "/images/smoothies/dream_dust.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "fire_starter",
+        "name": "Allume-Feu",
+        "title": "Allume-Feu",
+        "teaser": "Activateur de métabolisme thermogénique",
+        "color": "red",
+        "description": "Activateur de métabolisme thermogénique.",
+        "benefits": "La capsaïcine du piment de Cayenne active la thermogenèse pour brûler les graisses, tandis que le gingembre stimule le feu digestif et la bromélaïne de l'ananas accélère l'absorption des nutriments.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Détox et Purification"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Piment de Cayenne",
+            "Ananas",
+            "Gingembre"
+        ],
+        "steps": "Mixez 1 tasse de morceaux d'ananas avec 1 pouce de gingembre frais et une petite pincée de piment de Cayenne. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 45 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/fire_starter.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cinnamon_butter",
+        "name": "Route des Épices",
+        "title": "Route des Épices",
+        "teaser": "Équilibre de la glycémie et chaleur",
+        "color": "amber",
+        "description": "Équilibre de la glycémie et chaleur.",
+        "benefits": "Le cinnamaldéhyde de la cannelle imite l'insuline pour stabiliser la glycémie, tandis que le beurre d'amande fournit des graisses saines qui ralentissent naturellement l'absorption du glucose.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Cannelle",
+            "Beurre d'Amande",
+            "Banane"
+        ],
+        "steps": "Mixez 1 cuillère à café de cannelle en poudre avec 1 cuillère à soupe de beurre d'amande cru et 1 banane surgelée. Ajoutez 1 tasse de lait d'avoine et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/cinnamon_butter.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "amla_boost",
+        "name": "Soleil Védique",
+        "title": "Soleil Védique",
+        "teaser": "20 fois plus de vitamine C qu'une orange",
+        "color": "green",
+        "description": "20 fois plus de vitamine C qu'une orange.",
+        "benefits": "L'amla offre l'une des plus fortes concentrations naturelles de vitamine C sur terre, avec des tanins qui la maintiennent stable et biodisponible comme aucun autre fruit.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Éclat de la Peau et Beauté"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Amla",
+            "Gingembre",
+            "Miel"
+        ],
+        "steps": "Mixez 2 cuillères à soupe de pulpe fraîche d'amla avec 1 pouce de gingembre et 1 cuillère à café de miel cru. Ajoutez 1 tasse d'eau et mixez à haute vitesse pendant 45 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/amla_boost.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cupuacu_dream",
+        "name": "Soie d'Amazonie",
+        "title": "Soie d'Amazonie",
+        "teaser": "Le superfruit le plus puissant du Brésil",
+        "color": "amber",
+        "description": "Le superfruit le plus puissant du Brésil.",
+        "benefits": "Le cupuaçu absorbe 3,5 fois son poids en eau, gardant les cellules profondément hydratées, tandis que son composé unique, la théacrine, fournit une énergie durable sans nervosité.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Éclat de la Peau et Beauté"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Cupuaçu",
+            "Banane",
+            "Noix de Coco"
+        ],
+        "steps": "Mixez 1/2 tasse de pulpe de cupuaçu avec 1 banane mûre et 1/4 de tasse de chair de noix de coco fraîche. Ajoutez 3/4 de tasse d'eau de coco et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/cupuacu_dream.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "purple_berry_blast",
+        "name": "Pluie Violette",
+        "title": "Pluie Violette",
+        "teaser": "Triple choc antioxydant de baies noires",
+        "color": "purple",
+        "description": "Triple choc antioxydant de baies noires.",
+        "benefits": "La myrtille sauvage, le cassis et la groseille combinent trois des baies les plus denses en anthocyanes sur terre pour une protection maximale de la vision et une défense cellulaire.",
+        "healthTags": [
+            "Pouvoir Antioxydant",
+            "Éclat de la Peau et Beauté"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Myrtille Sauvage",
+            "Cassis",
+            "Groseille"
+        ],
+        "steps": "Mixez 1/3 de tasse de myrtilles sauvages, 1/3 de tasse de cassis et 1/3 de tasse de groseilles. Ajoutez 1 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/purple_berry_blast.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "ruby_berry",
+        "name": "Baie Rubis",
+        "title": "Baie Rubis",
+        "teaser": "Boost immunitaire de baies acidulées",
+        "color": "red",
+        "description": "Boost immunitaire de baies acidulées.",
+        "benefits": "Les framboises et la canneberge sont riches en acide ellagique et en proanthocyanidines qui combattent les infections, réduisent l'inflammation et protègent les voies urinaires.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Pouvoir Antioxydant"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Framboises",
+            "Canneberge",
+            "Pomme"
+        ],
+        "steps": "Mixez 1/2 tasse de framboises avec 1/4 de tasse de canneberges et 1 pomme douce. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/ruby_berry.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "longan_loquat",
+        "name": "Œil de Dragon",
+        "title": "Œil de Dragon",
+        "teaser": "Fruits asiatiques de longévité",
+        "color": "amber",
+        "description": "Fruits asiatiques de longévité.",
+        "benefits": "Le longane nourrit le cœur et calme l'esprit dans la médecine traditionnelle chinoise, tandis que le nèfle apaise le système respiratoire et fournit un puissant bêta-carotène.",
+        "healthTags": [
+            "Bien-être",
+            "Renforcement Immunitaire"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Longane",
+            "Nèfle",
+            "Poire"
+        ],
+        "steps": "Pelez et dénoyautez 6 longanes et 3 nèfles. Mixez avec 1 poire mûre et 3/4 de tasse d'eau à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/longan_loquat.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "feijoa_physalis",
+        "name": "Jade du Sud",
+        "title": "Jade du Sud",
+        "teaser": "Fusion immunitaire d'exotiques rares",
+        "color": "green",
+        "description": "Fusion immunitaire d'exotiques rares.",
+        "benefits": "La teneur unique en iode du feijoa soutient la fonction thyroïdienne, tandis que les withanolides du physalis stimulent la réponse immunitaire et protègent contre le stress oxydatif.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Feijoa",
+            "Physalis",
+            "Citron Vert"
+        ],
+        "steps": "Extrayez la pulpe de 4 feijoas et mixez-la avec 8 baies de physalis et le jus d'un citron vert. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/feijoa_physalis.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "citrus_trinity",
+        "name": "Trinité d'Agrumes",
+        "title": "Trinité d'Agrumes",
+        "teaser": "Trois agrumes rares, un seul coup",
+        "color": "yellow",
+        "description": "Trois agrumes rares, un seul coup.",
+        "benefits": "Le pomélo, le pamplemousse et le yuzu combinent des flavonoïdes uniques — naringénine et hespéridine — pour réduire le cholestérol, stimuler le métabolisme et fournir une vitamine C intense.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Santé Cardiovasculaire"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Pomélo",
+            "Pamplemousse",
+            "Yuzu"
+        ],
+        "steps": "Pelez et segmentez 1/4 de pomélo, 1/2 pamplemousse, et pressez le jus d'un yuzu. Mixez avec 1/2 tasse d'eau à haute vitesse pendant 45 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/citrus_trinity.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherry_mulberry",
+        "name": "Cramoisi de la Route de la Soie",
+        "title": "Cramoisi de la Route de la Soie",
+        "teaser": "Trio de fruits noirs pour la longévité",
+        "color": "red",
+        "description": "Trio de fruits noirs pour la longévité.",
+        "benefits": "Les cerises, la mûre et le jujube sont vénérés dans la médecine traditionnelle pour la longévité, la protection du foie et leur puissante teneur en anthocyanes.",
+        "healthTags": [
+            "Pouvoir Antioxydant",
+            "Sommeil et Récupération"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Cerises",
+            "Mûre",
+            "Jujube"
+        ],
+        "steps": "Mixez 1/2 tasse de cerises dénoyautées avec 1/3 de tasse de mûres et 4 jujubes dénoyautés. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/cherry_mulberry.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "pawpaw_plantain",
+        "name": "Or de la Savane",
+        "title": "Or de la Savane",
+        "teaser": "Carburant d'amidon tropical et d'enzymes",
+        "color": "yellow",
+        "description": "Carburant d'amidon tropical et d'enzymes.",
+        "benefits": "Les enzymes papaïne de la papaye décomposent les protéines et réduisent les ballonnements, tandis que la banane plantain fournit de l'amidon résistant qui nourrit les bonnes bactéries intestinales.",
+        "healthTags": [
+            "Digestion et Santé Intestinale",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Papaye",
+            "Banane Plantain",
+            "Noix de Coco"
+        ],
+        "steps": "Mixez 1 tasse de pulpe de papaye mûre avec 1/2 banane plantain mûre et 1/4 de tasse de noix de coco fraîche. Ajoutez 3/4 de tasse d'eau de coco et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Digestion et Santé Intestinale",
+        "img": "/images/smoothies/pawpaw_plantain.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "golden_root",
+        "name": "Racine Dorée",
+        "title": "Racine Dorée",
+        "teaser": "Pouvoir terreux des racines",
+        "color": "amber",
+        "description": "Pouvoir terreux des racines.",
+        "benefits": "La patate douce et la citrouille sont chargées de bêta-carotène qui se convertit en vitamine A, protégeant simultanément la vision, la peau et la fonction immunitaire.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Patate Douce",
+            "Citrouille",
+            "Gingembre"
+        ],
+        "steps": "Faites cuire à la vapeur 1/2 tasse de patate douce et 1/2 tasse de citrouille, puis laissez refroidir. Mixez avec 1 pouce de gingembre frais et 1 tasse de lait d'amande à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/golden_root.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherimoya_mist",
+        "name": "Brume de Chérimole",
+        "title": "Brume de Chérimole",
+        "teaser": "Le fruit le plus délicieux selon Mark Twain",
+        "color": "green",
+        "description": "Le fruit le plus délicieux selon Mark Twain.",
+        "benefits": "La chérimole contient des acétogénines étudiées pour leurs puissantes propriétés anticancéreuses, ainsi qu'un riche complexe de vitamines B qui soutient la fonction nerveuse et l'énergie.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Chérimole",
+            "Citron Vert",
+            "Eau de Coco"
+        ],
+        "steps": "Extrayez la pulpe d'une chérimole mûre en retirant les graines. Mixez avec le jus d'un citron vert et 1 tasse d'eau de coco à haute vitesse pendant 45 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/cherimoya_mist.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "sapote_silk",
+        "name": "Soie de Sapotille",
+        "title": "Soie de Sapotille",
+        "teaser": "Superfruit soyeux mésoaméricain",
+        "color": "amber",
+        "description": "Superfruit soyeux mésoaméricain.",
+        "benefits": "La sapotille et le mamey sapote fournissent tous deux des polyphénols rares qui renforcent l'intégrité de la muqueuse intestinale, ainsi que des niveaux élevés de vitamine B6 pour la production de sérotonine.",
+        "healthTags": [
+            "Digestion et Santé Intestinale",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Sapotille",
+            "Mamey Sapote",
+            "Banane"
+        ],
+        "steps": "Mixez 1/2 tasse de pulpe de sapotille avec 1/2 tasse de mamey sapote et 1 banane mûre. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Digestion et Santé Intestinale",
+        "img": "/images/smoothies/sapote_silk.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tamarind_tang",
+        "name": "Piqûre de Babylone",
+        "title": "Piqûre de Babylone",
+        "teaser": "Tonique digestif ancestral",
+        "color": "amber",
+        "description": "Tonique digestif ancestral.",
+        "benefits": "Le tamarin est riche en acide tartrique et hydroxycitrique qui stimulent la production de bile pour une digestion plus rapide des graisses et un nettoyage naturel du foie.",
+        "healthTags": [
+            "Digestion et Santé Intestinale",
+            "Détox et Purification"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Tamarin",
+            "Mangue",
+            "Gingembre"
+        ],
+        "steps": "Dissolvez 2 cuillères à soupe de pâte de tamarin dans de l'eau tiède. Mixez avec 1 tasse de mangue surgelée et 1 pouce de gingembre. Ajoutez 3/4 de tasse d'eau et mixez pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Digestion et Santé Intestinale",
+        "img": "/images/smoothies/tamarind_tang.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tamarillo_fire",
+        "name": "Feu de Tamarillo",
+        "title": "Feu de Tamarillo",
+        "teaser": "Explosion antioxydante de la tomate en arbre",
+        "color": "red",
+        "description": "Explosion antioxydante de la tomate en arbre.",
+        "benefits": "Le tamarillo contient de l'acide chlorogénique prouvé pour abaisser la glycémie et un profil caroténoïde unique qui protège contre la dégénérescence maculaire.",
+        "healthTags": [
+            "Pouvoir Antioxydant",
+            "Santé Cardiovasculaire"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Tamarillo",
+            "Orange",
+            "Gingembre"
+        ],
+        "steps": "Coupez 2 tamarillos en deux et extrayez la pulpe. Mixez avec 1 orange pelée et 1 pouce de gingembre. Ajoutez 1/2 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/tamarillo_fire.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "kumquat_zest",
+        "name": "Balle d'Or",
+        "title": "Balle d'Or",
+        "teaser": "Le fruit qui se mange entier",
+        "color": "orange",
+        "description": "Le fruit qui se mange entier.",
+        "benefits": "La peau du kumquat contient plus de limonène et d'hespéridine que la pulpe — ce qui est unique parmi les agrumes — en faisant un puissant anti-inflammatoire et un accélérateur de métabolisme.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Anti-inflammatoire"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Kumquat",
+            "Orange",
+            "Curcuma"
+        ],
+        "steps": "Mixez 6 kumquats entiers (avec la peau) avec 1 orange pelée et 1/2 cuillère à café de curcuma. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/kumquat_zest.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "breadfruit_power",
+        "name": "Géant Polynésien",
+        "title": "Géant Polynésien",
+        "teaser": "Énergie d'amidon polynésien",
+        "color": "green",
+        "description": "Énergie d'amidon polynésien.",
+        "benefits": "Le fruit à pain est une source complète de protéines avec tous les acides aminés essentiels, ce qui est rare dans les aliments végétaux, ainsi qu'une teneur élevée en fibres qui nourrit le microbiome intestinal pendant des heures.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Digestion et Santé Intestinale"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Fruit à Pain",
+            "Noix de Coco",
+            "Cannelle"
+        ],
+        "steps": "Faites cuire à la vapeur 1 tasse de fruit à pain mûr jusqu'à ce qu'il soit tendre, puis laissez refroidir. Mixez avec 1/4 de tasse de noix de coco fraîche et 1/2 cuillère à café de cannelle. Ajoutez 1 tasse de lait de coco et mixez pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/breadfruit_power.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "quince_persimmon",
+        "name": "Automne Persan",
+        "title": "Automne Persan",
+        "teaser": "Superfruits d'automne oubliés",
+        "color": "amber",
+        "description": "Superfruits d'automne oubliés.",
+        "benefits": "Le coing contient de puissants tanins et de la pectine qui guérissent la muqueuse intestinale, tandis que l'acide bétulinique du kaki a démontré des propriétés antitumorales dans la recherche.",
+        "healthTags": [
+            "Digestion et Santé Intestinale",
+            "Pouvoir Antioxydant"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Coing",
+            "Kaki",
+            "Pomme"
+        ],
+        "steps": "Faites cuire 1/2 coing jusqu'à ce qu'il soit tendre, puis laissez refroidir. Mixez avec la pulpe d'un kaki mûr et 1 pomme douce. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Digestion et Santé Intestinale",
+        "img": "/images/smoothies/quince_persimmon.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "baobab_sun",
+        "name": "Soleil de Baobab",
+        "title": "Soleil de Baobab",
+        "teaser": "L'arbre de vie africain",
+        "color": "orange",
+        "description": "L'arbre de vie africain.",
+        "benefits": "Le baobab contient 6 fois plus de vitamine C que les oranges et plus de calcium que le lait, soutenant simultanément la production de collagène, la densité osseuse et la force immunitaire.",
+        "healthTags": [
+            "Renforcement Immunitaire",
+            "Énergie et Vitalité"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Baobab",
+            "Mangue",
+            "Citron Vert"
+        ],
+        "steps": "Mixez 1 cuillère à soupe de poudre de baobab avec 1 tasse de mangue surgelée et le jus d'un citron vert. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Renforcement Immunitaire",
+        "img": "/images/smoothies/baobab_sun.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "durian_gold",
+        "name": "Durian d'Or",
+        "title": "Durian d'Or",
+        "teaser": "Le roi des fruits déchaîné",
+        "color": "amber",
+        "description": "Le roi des fruits déchaîné.",
+        "benefits": "Le durian est exceptionnellement riche en vitamines B, en cuivre et en tryptophane, ce qui en fait l'un des aliments naturels les plus complets pour l'énergie et l'humeur.",
+        "healthTags": [
+            "Énergie et Vitalité",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Fruits Frais",
+        "ingredients": [
+            "Durian",
+            "Noix de Coco",
+            "Banane"
+        ],
+        "steps": "Mixez 1/2 tasse de pulpe fraîche de durian avec 1/4 de tasse de chair de noix de coco et 1 banane surgelée. Ajoutez 3/4 de tasse d'eau de coco et mixez à haute vitesse pendant 60 secondes.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Énergie et Vitalité",
+        "img": "/images/smoothies/durian_gold.webp",
+        "icon": "vaso"
+    }
+]

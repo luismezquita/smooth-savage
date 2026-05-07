@@ -22,9 +22,8 @@ export default function Home() {
         ? fruits.filter(f => f.name.toLowerCase().includes(query.toLowerCase()))
         : fruits;
 
-    const displayFruits = showAll
-        ? [...filtered].sort((a, b) => a.name.localeCompare(b.name))
-        : filtered.slice(0, INITIAL_LIMIT);
+    const sortedFruits = [...filtered].sort((a, b) => a.name.localeCompare(b.name));
+    const displayFruits = showAll ? sortedFruits : sortedFruits.slice(0, INITIAL_LIMIT);
     const hasMore = !showAll && filtered.length > INITIAL_LIMIT;
 
     const handleQueryChange = (val) => {

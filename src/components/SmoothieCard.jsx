@@ -7,14 +7,17 @@ import { useFavorites } from '../hooks/useFavorites';
 import { getBenefitStyle } from '../utils/benefitColors';
 import { useLanguage } from '../i18n/LanguageContext';
 import smoothieI18n from '../data/smoothie_i18n';
+import smoothiesTranslations from '../data/smoothies_translations';
 import benefitLabelsI18n from '../data/benefit_labels_i18n';
 
 export default function SmoothieCard({ smoothie, index = 0 }) {
     const { isFavorite, toggleFavorite } = useFavorites();
     const isFav = isFavorite(smoothie.id);
     const { language } = useLanguage();
-    const displayName = (language !== 'en' && smoothieI18n[language]?.[smoothie.id]?.name) || smoothie.name;
-    const displayTeaser = (language !== 'en' && smoothieI18n[language]?.[smoothie.id]?.teaser) || smoothie.teaser;
+    const tr = language !== 'en' ? smoothiesTranslations[language]?.[smoothie.id] : null;
+    const displayName = tr?.name || smoothie.name;
+    const displayTeaser = tr?.teaser || smoothie.teaser;
+    const displayIngredients = tr?.ingredients || smoothie.ingredients;
     const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[smoothie.benefit]) || smoothie.benefit;
 
     // Dynamic Premium Fallback Logic
@@ -70,7 +73,7 @@ export default function SmoothieCard({ smoothie, index = 0 }) {
                             {displayTeaser}
                         </p>
                         <div className="flex flex-wrap gap-2 text-sm font-bold text-fruit-green italic mt-3">
-                            {smoothie.ingredients?.join(" • ")}
+                            {displayIngredients?.join(" • ")}
                         </div>
                     </div>
                 </div>

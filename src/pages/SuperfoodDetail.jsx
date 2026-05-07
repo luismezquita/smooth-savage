@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Heart, Info, Sparkles, Zap, Target, CheckCircle2 } from 'lucide-react';
@@ -11,6 +11,7 @@ import itemTeasersI18n from '../data/item_teasers_i18n';
 import benefitLabelsI18n from '../data/benefit_labels_i18n';
 import nutrientsI18n from '../data/nutrients_i18n';
 import synergiesI18n from '../data/synergies_i18n';
+import { getMainBenefits } from '../i18n/mainBenefits_i18n';
 
 export default function SuperfoodDetail() {
     const t = useT();
@@ -34,12 +35,22 @@ export default function SuperfoodDetail() {
         );
     }
 
+    const [benefitsData, setBenefitsData] = useState({});
+    useEffect(() => {
+        if (language !== 'en') {
+            getMainBenefits(language).then(setBenefitsData);
+        } else {
+            setBenefitsData({});
+        }
+    }, [language]);
+
     const isFav = isFavorite(superfood.id);
     const displayName = (language !== 'en' && itemNamesI18n[language]?.[superfood.id]) || superfood.name;
     const displayTeaser = (language !== 'en' && itemTeasersI18n[language]?.[superfood.id]) || superfood.teaser;
     const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[superfood.benefit]) || superfood.benefit;
     const displaySynergy = (language !== 'en' && synergiesI18n[language]?.[superfood.id]) || superfood.synergy;
     const translateNutrient = (n) => (language !== 'en' && nutrientsI18n[language]?.[n]) || n;
+    const displayMainBenefits = (language !== 'en' && benefitsData[superfood.id]) || superfood.mainBenefits;
 
     return (
         <div className="pb-16 bg-fruit-light/60 dark:bg-fruit-dark/50 min-h-[calc(100vh-64px)]">
@@ -93,7 +104,7 @@ export default function SuperfoodDetail() {
                                     {t('detail.mainBenefits')}
                                 </h2>
                                 <div className="space-y-6">
-                                    {superfood.mainBenefits.map((benefit, i) => (
+                                    {displayMainBenefits.map((benefit, i) => (
                                         <div key={i} className="flex gap-4">
                                             <div className={`mt-1 bg-${superfood.color || 'purple'}-100 dark:bg-${superfood.color || 'purple'}-900/30 p-2 rounded-xl h-fit`}>
                                                 <CheckCircle2 className={`w-5 h-5 text-${superfood.color || 'purple'}-600 dark:text-${superfood.color || 'purple'}-400`} />

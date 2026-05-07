@@ -1,5 +1,16 @@
 # SMOOTH SAVAGE — Project Guide for Claude
 
+## Token & Resource Rules (MANDATORY — read first)
+- **One task at a time.** Do it, stop, report. Never chain tasks without approval.
+- **No summaries unless asked.** Skip preambles, postambles, recaps.
+- **Bash over Read.** Use shell scripts to process files — never read large files line by line in context.
+- **Diffs only.** When editing files, show only what changed — never reprint full files.
+- **Cowork directs, Code executes.** Cowork chat = decisions + direction. Claude Code = file edits + code. Never mix roles.
+- **Ask before batch work.** If a task touches >10 items, confirm scope first.
+- **Stop and flag** when approaching context limit — don't try to finish at any cost.
+
+---
+
 ## What This App Is
 A premium wellness PWA (Progressive Web App) called **Smooth Savage**. It covers exotic fresh foods, superfoods ("Savage"), and smoothie recipes. Built with React + Vite + Tailwind CSS. Offline-capable. Target platforms: Web PWA, Google Play, App Store.
 

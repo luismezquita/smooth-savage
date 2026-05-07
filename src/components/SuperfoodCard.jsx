@@ -29,7 +29,7 @@ export default function SuperfoodCard({ superfood, index }) {
                         <img
                             src={superfood.image}
                             alt={superfood.name}
-                            className="block w-full h-full object-cover transform group-hover:scale-105 md:group-hover:scale-110 transition-transform duration-700"
+                            className="block w-full aspect-square object-cover transform group-hover:scale-105 md:group-hover:scale-110 transition-transform duration-700"
                             loading="lazy"
                             onError={e => { e.currentTarget.src = '/images/savage/cacao.webp'; }}
                         />

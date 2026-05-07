@@ -1,0 +1,2241 @@
+[
+    {
+        "id": "ultimate_immunity_hero",
+        "name": "阿喀琉斯之盾",
+        "title": "阿喀琉斯之盾",
+        "teaser": "终极维生素C堡垒",
+        "color": "orange",
+        "description": "终极维生素C堡垒。",
+        "benefits": "提供超大剂量的维生素C和强大的抗氧化剂。击退季节性不适，瞬间增强免疫防御。",
+        "healthTags": [
+            "免疫力提升",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "橙子",
+            "生姜",
+            "Camu Camu",
+            "姜黄"
+        ],
+        "steps": "剥去1个全橙的皮并放入搅拌机。加入1茶匙现磨生姜、1茶匙 Camu Camu 粉和1/4茶匙姜黄粉。倒入1/2杯水，高速搅拌60秒至完全顺滑。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/ultimate_immunity_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "vitaminc_nuclear_bomb",
+        "name": "太阳大炮",
+        "title": "太阳大炮",
+        "teaser": "自然界最强的免疫护盾",
+        "color": "orange",
+        "description": "自然界最强的免疫护盾。",
+        "benefits": "爆发极高水平的维生素C，直接刺激白细胞活性，最大限度保护细胞免受外部威胁。",
+        "healthTags": [
+            "免疫力提升",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "Acerola",
+            "柠檬",
+            "猕猴桃",
+            "麦卢卡蜂蜜"
+        ],
+        "steps": "混合1/2杯新鲜 Acerola 果肉、1个去皮猕猴桃、1汤匙鲜榨柠檬汁和1汤匙麦卢卡蜂蜜。高速搅拌45秒至完美液态。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/vitaminc_nuclear_bomb.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "adaptogen_calm_hero",
+        "name": "群山之寂",
+        "title": "群山之寂",
+        "teaser": "每一口都带来深层宁静",
+        "color": "purple",
+        "description": "每一口都带来深层宁静。",
+        "benefits": "显著降低皮质醇水平，为神经系统提供深层放松，消除日常压力和精神疲劳。",
+        "healthTags": [
+            "缓解压力与平静",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "Ashwagandha",
+            "Reishi",
+            "香蕉",
+            "杏仁奶"
+        ],
+        "steps": "将1茶匙 Ashwagandha 根粉和1/2茶匙 Reishi 蘑菇粉加入1.5杯冷杏仁奶和1根熟香蕉中。高速搅拌60秒至呈现奶油般顺滑的质地。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "缓解压力与平静",
+        "img": "/images/smoothies/adaptogen_calm_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "brain_and_focus_hero",
+        "name": "神谕",
+        "title": "神谕",
+        "teaser": "解锁极致的专注与头脑清晰",
+        "color": "amber",
+        "description": "解锁极致的专注与头脑清晰。",
+        "benefits": "激发认知功能，提高记忆力，提供纯净持久的精神能量，且不会产生焦虑感。",
+        "healthTags": [
+            "能量与活力",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "猴头菇",
+            "蓝莓",
+            "核桃"
+        ],
+        "steps": "将1/2茶匙猴头菇提取物与1杯冷冻蓝莓和一小把核桃混合。加入1杯水，高速搅拌60秒至顺滑。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/brain_and_focus_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "energy_stamina_hero",
+        "name": "战鼓",
+        "title": "战鼓",
+        "teaser": "身心纯天然动力",
+        "color": "amber",
+        "description": "身心纯天然动力。",
+        "benefits": "利用古老的适应原根茎和复合碳水化合物，迅速提升体力与耐力，实现持久爆发。",
+        "healthTags": [
+            "能量与活力",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "Maca",
+            "Cordyceps",
+            "椰枣"
+        ],
+        "steps": "将1茶匙 Maca 根粉、1/2茶匙 Cordyceps 蘑菇粉、4颗去核椰枣与1杯水混合。高速搅拌60秒，直到浓郁顺滑。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/energy_stamina_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "gut_healing_hero",
+        "name": "内在圣殿",
+        "title": "内在圣殿",
+        "teaser": "由内而外治愈肠道",
+        "color": "yellow",
+        "description": "由内而外治愈肠道。",
+        "benefits": "舒缓脆弱的胃黏膜，同时输送大量有益益生菌和消化酶，修复肠道微生态。",
+        "healthTags": [
+            "消化与肠道健康",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "木瓜",
+            "芦荟",
+            "亚麻籽",
+            "开菲尔酸奶"
+        ],
+        "steps": "提取2汤匙新鲜芦荟凝胶，与1杯熟透的木瓜块、1汤匙研磨亚麻籽和1杯益生菌开菲尔酸奶混合。低速搅拌30秒以保留益生菌活性。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "消化与肠道健康",
+        "img": "/images/smoothies/gut_healing_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "anti_inflammatory_hero",
+        "name": "冰霜之龙",
+        "title": "冰霜之龙",
+        "teaser": "以自然之力对抗炎症",
+        "color": "red",
+        "description": "以自然之力对抗炎症。",
+        "benefits": "在分子水平上抑制炎症通路，有效缓解关节疼痛和全身肿胀。",
+        "healthTags": [
+            "抗炎",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "姜黄",
+            "生姜",
+            "菠萝"
+        ],
+        "steps": "将1茶匙新鲜姜黄、一小块生姜和1杯菠萝块放入搅拌机。加入1/2杯水，高速搅拌60秒至顺滑。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "抗炎",
+        "img": "/images/smoothies/anti_inflammatory_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "beauty_and_glow_hero",
+        "name": "翡翠女皇",
+        "title": "翡翠女皇",
+        "teaser": "散发由内而外的美丽",
+        "color": "pink",
+        "description": "散发由内而外的美丽。",
+        "benefits": "刺激皮肤弹性，积极对抗皮肤衰老，带给您肉眼可见的内在焕发之美。",
+        "healthTags": [
+            "肌肤焕发与美容",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "草莓",
+            "胶原蛋白肽",
+            "牛油果",
+            "菠菜"
+        ],
+        "steps": "将1杯新鲜草莓与1/4个熟牛油果、一把新鲜嫩菠菜和1勺无味胶原蛋白肽混合。加入1/2杯水搅拌至完全顺滑。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "肌肤焕发与美容",
+        "img": "/images/smoothies/beauty_and_glow_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "deep_sleep_and_recovery_hero",
+        "name": "墨菲斯",
+        "title": "墨菲斯",
+        "teaser": "一杯助眠的神奇饮品",
+        "color": "indigo",
+        "description": "一杯助眠的神奇饮品。",
+        "benefits": "自然提高褪黑素生成，确保深层、不间断的REM睡眠以及强大的夜间肌肉恢复。",
+        "healthTags": [
+            "睡眠与恢复",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "缬草",
+            "洋甘菊",
+            "香蕉"
+        ],
+        "steps": "将1/2茶匙缬草根粉和1汤匙洋甘菊茶浓缩液与1根熟香蕉及1杯燕麦奶混合。搅拌至质地顺滑如奶油。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "睡眠与恢复",
+        "img": "/images/smoothies/deep_sleep_and_recovery_hero.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "anti_oxidant_god_mode",
+        "name": "上帝模式",
+        "title": "上帝模式",
+        "teaser": "极限抗氧化保护",
+        "color": "purple",
+        "description": "极限抗氧化保护。",
+        "benefits": "用大量花青素淹没您的身体，中和自由基，瞬间阻止细胞损伤。",
+        "healthTags": [
+            "抗氧化能力",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "Acai",
+            "枸杞",
+            "石榴",
+            "黑巧克力"
+        ],
+        "steps": "混合1包冷冻 Acai (100克)、1汤匙泡发的枸杞、1/2杯纯石榴汁和15克85%黑巧克力碎。",
+        "tier": "free",
+        "isHero": true,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/anti_oxidant_god_mode.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "apple_ginger_soothe",
+        "name": "秋日武士",
+        "title": "秋日武士",
+        "teaser": "舒缓的消化助手",
+        "color": "yellow",
+        "description": "舒缓的消化助手。",
+        "benefits": "令人难以置信的舒适混合物，能瞬间止吐并温和温暖消化道。",
+        "healthTags": [
+            "消化与肠道健康",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "苹果",
+            "生姜",
+            "薄荷"
+        ],
+        "steps": "将1个甜苹果与一小块新鲜生姜、一小把新鲜薄荷叶混合。加入1杯水，高速搅拌45秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "消化与肠道健康",
+        "img": "/images/smoothies/apple_ginger_soothe.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "ashwagandha_calm",
+        "name": "喜马拉雅僧侣",
+        "title": "喜马拉雅僧侣",
+        "teaser": "融化压力的适应原特饮",
+        "color": "purple",
+        "description": "融化压力的适应原特饮。",
+        "benefits": "大幅缓解日常焦虑，建立身体对压力源的长期恢复力。",
+        "healthTags": [
+            "缓解压力与平静",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "Ashwagandha",
+            "香蕉",
+            "蛋黄果 (Lucuma)"
+        ],
+        "steps": "将1茶匙 Ashwagandha 根粉与1根熟香蕉和1汤匙蛋黄果粉混合。加入1杯杏仁奶，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "缓解压力与平静",
+        "img": "/images/smoothies/ashwagandha_calm.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "golden_anti_inflammatory",
+        "name": "黄金可汗",
+        "title": "黄金可汗",
+        "teaser": "黄金抗炎灵丹妙药",
+        "color": "red",
+        "description": "黄金抗炎灵丹妙药。",
+        "benefits": "专门配制的黄金饮品，让身体充满高吸收率的天然抗炎物质。",
+        "healthTags": [
+            "抗炎",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "姜黄",
+            "黑胡椒",
+            "椰子"
+        ],
+        "steps": "将1茶匙姜黄粉与少许黑胡椒和1/2杯新鲜椰肉混合。加入1杯椰子水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗炎",
+        "img": "/images/smoothies/golden_anti_inflammatory.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherry_beet_recovery",
+        "name": "绯红复苏",
+        "title": "绯红复苏",
+        "teaser": "恢复与再生的完美混合",
+        "color": "red",
+        "description": "恢复与再生的完美混合。",
+        "benefits": "促进一氧化氮生成，极大改善血液流动，加速肌肉恢复。",
+        "healthTags": [
+            "抗炎",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "酸樱桃",
+            "甜菜根",
+            "芹菜"
+        ],
+        "steps": "混合1/2杯酸樱桃、1/2杯生甜菜根块和2根芹菜。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗炎",
+        "img": "/images/smoothies/cherry_beet_recovery.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "mangosteen_relief",
+        "name": "暹罗女王",
+        "title": "暹罗女王",
+        "teaser": "山竹的抗炎力量",
+        "color": "red",
+        "description": "山竹的抗炎力量。",
+        "benefits": "利用强大的氧杂蒽酮化合物，直接证明能减少慢性细胞炎症和氧化应激。",
+        "healthTags": [
+            "抗炎",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "山竹",
+            "桃子",
+            "梨"
+        ],
+        "steps": "取出2个山竹的果肉，与1个熟桃子和1个熟梨混合。加入1/2杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗炎",
+        "img": "/images/smoothies/mangosteen_relief.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "acai_beauty_bowl",
+        "name": "亚马逊女神",
+        "title": "亚马逊女神",
+        "teaser": "超级浆果美容燃料",
+        "color": "pink",
+        "description": "超级浆果美容燃料。",
+        "benefits": "提供浓缩的抗氧化剂，积极预防皱纹并提升肌肤通透度。",
+        "healthTags": [
+            "肌肤焕发与美容",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "Acai 果泥",
+            "蓝莓",
+            "胶原蛋白",
+            "杏仁奶"
+        ],
+        "steps": "混合1包 Acai (100克)、1/2杯蓝莓、1勺胶原蛋白和1/2杯杏仁奶。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "肌肤焕发与美容",
+        "img": "/images/smoothies/acai_beauty_bowl.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "sea_buckthorn_glow",
+        "name": "维京之金",
+        "title": "维京之金",
+        "teaser": "富含欧米伽的肌肤光泽",
+        "color": "pink",
+        "description": "富含欧米伽的肌肤光泽。",
+        "benefits": "提供极其罕见的欧米伽-7脂肪酸，这是保持肌肤容光焕发和深层滋润的必需品。",
+        "healthTags": [
+            "肌肤焕发与美容",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "沙棘汁",
+            "橙子",
+            "胡萝卜",
+            "生姜"
+        ],
+        "steps": "将2汤匙沙棘汁与1个甜橙、1根新鲜胡萝卜和一小块生姜混合搅拌。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "肌肤焕发与美容",
+        "img": "/images/smoothies/sea_buckthorn_glow.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "maqui_radiance",
+        "name": "巴塔哥尼亚之火",
+        "title": "巴塔哥尼亚之火",
+        "teaser": "深紫色的内在光芒",
+        "color": "pink",
+        "description": "深紫色的内在光芒。",
+        "benefits": "所有水果中抗氧化评分最高，保护您的肌肤免受紫外线和污染伤害。",
+        "healthTags": [
+            "肌肤焕发与美容",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "马基莓粉",
+            "香蕉",
+            "菠菜",
+            "燕麦奶"
+        ],
+        "steps": "混合1茶匙马基莓粉、1根香蕉、一把菠菜和1杯燕麦奶。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "肌肤焕发与美容",
+        "img": "/images/smoothies/maqui_radiance.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "heart_protector",
+        "name": "守卫者",
+        "title": "守卫者",
+        "teaser": "每日心血管保护",
+        "color": "red",
+        "description": "每日心血管保护。",
+        "benefits": "有效改善血脂水平，保持动脉壁通畅无阻。",
+        "healthTags": [
+            "心血管健康",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "石榴",
+            "核桃",
+            "燕麦"
+        ],
+        "steps": "混合1/2杯石榴籽、一小把核桃和1/4杯燕麦片。加入1杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "心血管健康",
+        "img": "/images/smoothies/heart_protector.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "beet_berry_heart",
+        "name": "深红契约",
+        "title": "深红契约",
+        "teaser": "护心浆果之选",
+        "color": "red",
+        "description": "护心浆果之选。",
+        "benefits": "安全扩张血管以调节血压，并提供必需的欧米伽-3脂肪酸。",
+        "healthTags": [
+            "心血管健康",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "石榴",
+            "甜菜根",
+            "蓝莓"
+        ],
+        "steps": "混合1/4杯石榴籽、1/2杯生甜菜根块和1/2杯蓝莓。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "心血管健康",
+        "img": "/images/smoothies/beet_berry_heart.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "deep_detox",
+        "name": "暗影净化",
+        "title": "暗影净化",
+        "teaser": "温和的日常排毒支持",
+        "color": "green",
+        "description": "温和的日常排毒支持。",
+        "benefits": "吸附血液中的重金属，协助肝脏排出毒素。",
+        "healthTags": [
+            "排毒与净化",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "Chlorella",
+            "Spirulina",
+            "柠檬"
+        ],
+        "steps": "将1茶匙 Chlorella 粉、1茶匙 Spirulina 粉与1个新鲜柠檬的汁混合。加入1杯冷水搅拌30秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "排毒与净化",
+        "img": "/images/smoothies/deep_detox.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "alkaline_king",
+        "name": "碱性之王",
+        "title": "碱性之王",
+        "teaser": "碱性绿色能量",
+        "color": "green",
+        "description": "充满能量与维持一天动力所需的必需营养素。",
+        "benefits": "协同混合以实现 Smooth Savage 的最大功效。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "羽衣甘蓝",
+            "西兰花",
+            "菠萝"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/alkaline_king.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "androgenic_peak",
+        "name": "斯巴达勇士",
+        "title": "斯巴达勇士",
+        "teaser": "古老的荷尔蒙支持",
+        "color": "amber",
+        "description": "高绩效生活的自然动力。",
+        "benefits": "利用松花粉和热带矿物质提升活力。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "芒果",
+            "椰子",
+            "松花粉"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/androgenic_peak.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "anti_viral_star",
+        "name": "高丽之星",
+        "title": "高丽之星",
+        "teaser": "杨桃抗病毒防御",
+        "color": "amber",
+        "description": "带有热带风情的免疫支持。",
+        "benefits": "高含量的维生素C及杨桃独特的抗氧化成分。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "梨",
+            "猕猴桃",
+            "八角"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/anti_viral_star.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "black_seed_cure",
+        "name": "黑籽疗愈",
+        "title": "黑籽疗愈",
+        "teaser": "传奇的健康提升",
+        "color": "amber",
+        "description": "现代生活的古老医学。",
+        "benefits": "黑籽油对全身系统的强大益处。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "接骨木莓",
+            "蓝莓",
+            "黑籽油"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/black_seed_cure.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "camu_camu_titan",
+        "name": "亚马逊惊雷",
+        "title": "亚马逊惊雷",
+        "teaser": "维生素C统治者",
+        "color": "amber",
+        "description": "最大剂量的维生素C，打造钛金般免疫力。",
+        "benefits": "利用 Camu Camu 浆果实现最佳健康状态。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "番石榴",
+            "草莓",
+            "Camu Camu"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/camu_camu_titan.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherry_reishi_dream",
+        "name": "武士之息",
+        "title": "武士之息",
+        "teaser": "夜间恢复特饮",
+        "color": "purple",
+        "description": "做更深的梦，清爽地醒来。",
+        "benefits": "Reishi 蘑菇与富含褪黑素的樱桃的完美结合。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "樱桃",
+            "蓝莓",
+            "Reishi"
+        ],
+        "steps": "混合1/2杯酸樱桃、1/2杯蓝莓和1/2茶匙 Reishi 蘑菇粉。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/cherry_reishi_dream.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "deep_sea_mineral",
+        "name": "波塞冬的早餐",
+        "title": "波塞冬的早餐",
+        "teaser": "来自海底的滋润",
+        "color": "amber",
+        "description": "提供人体所需的102种矿物质中的92种。",
+        "benefits": "海苔与墨角藻的矿物质注入。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "海苔 (Sea Moss)",
+            "菠萝",
+            "墨角藻 (Bladderwrack)"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/deep_sea_mineral.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "digestive_star",
+        "name": "丝绸之路",
+        "title": "丝绸之路",
+        "teaser": "酶的动力室",
+        "color": "amber",
+        "description": "木瓜蛋白酶带来即刻舒缓。",
+        "benefits": "支持干净健康的肠道微生物群。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "木瓜",
+            "生姜",
+            "八角"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/digestive_star.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "electric_violet",
+        "name": "闪电紫",
+        "title": "闪电紫",
+        "teaser": "花青素狂潮",
+        "color": "amber",
+        "description": "来自黑枸杞的强劲能量。",
+        "benefits": "紫色色调带来的强大抗氧化保护。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "黑枸杞",
+            "蓝靛果",
+            "葡萄"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/electric_violet.webp",
+        "icon": "vaso"
+    },{
+        "id": "goji_zen",
+        "name": "红色佛陀",
+        "title": "红色佛陀",
+        "teaser": "长寿与内心平静",
+        "color": "amber",
+        "description": "专注精神的平衡能量。",
+        "benefits": "支持视力和长期活力。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "黑枸杞",
+            "黑莓",
+            "香草"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/goji_zen.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "golden_shield",
+        "name": "黄金护盾",
+        "title": "黄金护盾",
+        "teaser": "姜黄屏障",
+        "color": "amber",
+        "description": "抵御炎症的日常保护。",
+        "benefits": "激活姜黄素以实现最大生物利用度。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "菠萝",
+            "姜黄",
+            "黑胡椒"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/golden_shield.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "green_matcha_surge",
+        "name": "京都激流",
+        "title": "京都激流",
+        "teaser": "L-茶氨酸带来的稳定能量",
+        "color": "amber",
+        "description": "应对最艰难日子的平静专注力。",
+        "benefits": "无焦虑感的纯净咖啡因。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "Matcha",
+            "菠菜",
+            "芒果"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/green_matcha_surge.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "heavy_metal_cleanse",
+        "name": "钢铁放逐",
+        "title": "钢铁放逐",
+        "teaser": "深层全身净化",
+        "color": "amber",
+        "description": "使用 Chlorella 和香菜排出重金属。",
+        "benefits": "深层细胞排毒，使身体系统更纯净。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "Chlorella",
+            "青苹果",
+            "柠檬",
+            "香菜"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/heavy_metal_cleanse.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "himalayan_resin",
+        "name": "喜马拉雅树脂",
+        "title": "喜马拉雅树脂",
+        "teaser": "黄腐酸的生命力",
+        "color": "amber",
+        "description": "实现巅峰状态的 Shilajit 能量。",
+        "benefits": "每一滴都富含矿物质与支持。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "香蕉",
+            "Shilajit",
+            "花生酱",
+            "Mesquite"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/himalayan_resin.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "jackfruit_fuel",
+        "name": "绿色巨人",
+        "title": "绿色巨人",
+        "teaser": "富含纤维的耐力源泉",
+        "color": "amber",
+        "description": "长途跋涉的持久燃料。",
+        "benefits": "高纤维与复杂的热带营养素。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "菠萝蜜",
+            "椰子",
+            "亚麻籽"
+        ],
+        "steps": "将1杯熟菠萝蜜块、1/2杯新鲜椰肉和1汤匙研磨亚麻籽混合。加入3/4杯椰子水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/jackfruit_fuel.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "kiwi_cleanse",
+        "name": "翡翠净流",
+        "title": "翡翠净流",
+        "teaser": "纤维清扫重置肠道",
+        "color": "amber",
+        "description": "使用猕猴桃碱酶清洁系统。",
+        "benefits": "促进排便规律与肠道轻盈感。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "猕猴桃",
+            "苹果",
+            "亚麻籽"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/kiwi_cleanse.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "lucuma_power",
+        "name": "印加黄金",
+        "title": "印加黄金",
+        "teaser": "低GI焦糖能量",
+        "color": "amber",
+        "description": "稳定血糖，高能输出。",
+        "benefits": "赋予每日力量的“印加黄金”。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "Lucuma",
+            "腰果",
+            "椰枣"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/lucuma_power.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "mesozoic_fiber",
+        "name": "中生代纤维",
+        "title": "中生代纤维",
+        "teaser": "古老纤维的基础",
+        "color": "amber",
+        "description": "史前消化堡垒。",
+        "benefits": "高纤维水果用于深层肠道清洁。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "无花果",
+            "李子",
+            "洋车前子壳"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/mesozoic_fiber.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "omega_7_radiance",
+        "name": "北极光",
+        "title": "北极光",
+        "teaser": "黏膜与肌肤健康",
+        "color": "amber",
+        "description": "沙棘带来的深层保湿。",
+        "benefits": "稀有脂肪酸缔造发光肌肤。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "沙棘",
+            "芒果",
+            "牛油果",
+            "橙子"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/omega_7_radiance.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "papaya_digestive",
+        "name": "玛雅黎明",
+        "title": "玛雅黎明",
+        "teaser": "蛋白水解酶的助力",
+        "color": "amber",
+        "description": "完美的餐后重置。",
+        "benefits": "木瓜与青柠快速分解蛋白质。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "木瓜",
+            "青柠",
+            "生姜"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/papaya_digestive.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "prickly_gut_reset",
+        "name": "沙漠先知",
+        "title": "沙漠先知",
+        "teaser": "仙人掌之力疗愈肠道",
+        "color": "amber",
+        "description": "用胭脂仙人掌纤维舒缓炎症。",
+        "benefits": "肠道壁的深层水分补给。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "仙人掌果",
+            "西瓜",
+            "芦荟"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/prickly_gut_reset.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "saffron_sun",
+        "name": "藏红花之日",
+        "title": "藏红花之日",
+        "teaser": "多巴胺提升花蜜",
+        "color": "amber",
+        "description": "用古老的藏红花提升情绪。",
+        "benefits": "精神健康与情绪平衡。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "杏子",
+            "木瓜",
+            "藏红花"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/saffron_sun.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "shatavari_bloom",
+        "name": "Shatavari 绽放",
+        "title": "Shatavari 绽放",
+        "teaser": "荷尔蒙的和谐",
+        "color": "amber",
+        "description": "平衡女性荷尔蒙的适应原。",
+        "benefits": "支持生殖健康与焕发光彩。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "杏子",
+            "胡萝卜",
+            "油桃",
+            "亚麻籽"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/shatavari_bloom.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "star_defense",
+        "name": "星界守卫",
+        "title": "星界守卫",
+        "teaser": "多酚堡垒",
+        "color": "amber",
+        "description": "独特的免疫热带微量营养素。",
+        "benefits": "高锌含量的防御系统。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "杨桃",
+            "柠檬",
+            "黄瓜"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/star_defense.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "telomere_tonic",
+        "name": "端粒滋补饮",
+        "title": "端粒滋补饮",
+        "teaser": "细胞长寿的燃料",
+        "color": "amber",
+        "description": "用黄芪和浆果保护DNA。",
+        "benefits": "延缓生物钟的脚步。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "枸杞",
+            "菠菜",
+            "蓝莓"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/telomere_tonic.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_empress_glow",
+        "name": "女皇之光",
+        "title": "女皇之光",
+        "teaser": "皇家瓷感玉肌",
+        "color": "amber",
+        "description": "Tremella 蘑菇与珍珠粉的闪耀组合。",
+        "benefits": "极致补水与细胞修复。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "桃子",
+            "椰子",
+            "Tremella",
+            "珍珠"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/the_empress_glow.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_five_flavour_runner",
+        "name": "五味行者",
+        "title": "五味行者",
+        "teaser": "适应原耐力",
+        "color": "amber",
+        "description": "提升运动员表现的五味子浆果。",
+        "benefits": "多器官支持与专注耐力。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "甜菜根",
+            "西瓜",
+            "青柠",
+            "五味子"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/the_five_flavour_runner.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_fluid_flush",
+        "name": "众神之河",
+        "title": "众神之河",
+        "teaser": "肾脏与淋巴排毒",
+        "color": "amber",
+        "description": "用蒲公英和芹菜消肿排毒。",
+        "benefits": "安全排出多余水分与毒素。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "芹菜",
+            "黄瓜",
+            "青柠",
+            "蒲公英"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/the_fluid_flush.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "the_great_wall",
+        "name": "长城",
+        "title": "长城",
+        "teaser": "坚固的全身屏障",
+        "color": "amber",
+        "description": "用黄芪和生姜建立免疫防线。",
+        "benefits": "应对现代环境防御的古老草本。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "生姜",
+            "柠檬",
+            "黄芪"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/the_great_wall.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tremella_dew",
+        "name": "Tremella 晨露",
+        "title": "Tremella 晨露",
+        "teaser": "透明质酸的天然替代品",
+        "color": "amber",
+        "description": "由内而外透亮肌肤。",
+        "benefits": "Tremella 蘑菇锁住自身重量500倍的水分。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "芦荟",
+            "冬瓜",
+            "黄瓜",
+            "Tremella"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/tremella_dew.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "viking_focus",
+        "name": "维京专注",
+        "title": "维京专注",
+        "teaser": "北欧认知浪潮",
+        "color": "amber",
+        "description": "战士心灵的MCT燃料。",
+        "benefits": "可可与蓝靛果带来敏锐专注力。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "Matcha",
+            "蓝靛果",
+            "青苹果"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/viking_focus.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "white_pearl_zen",
+        "name": "白珍珠之禅",
+        "title": "白珍珠之禅",
+        "teaser": "纯净的宁静与安详",
+        "color": "amber",
+        "description": "滋养皮肤与神经的珍珠粉。",
+        "benefits": "荔枝与香草余味带来的奢华平静。",
+        "healthTags": [
+            "健康养生",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "荔枝",
+            "香蕉",
+            "珍珠"
+        ],
+        "steps": "将所有成分搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/white_pearl_zen.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "elderberry_shield",
+        "name": "北欧壁垒",
+        "title": "北欧壁垒",
+        "teaser": "杯中的古老抗病毒防御",
+        "color": "purple",
+        "description": "杯中的古老抗病毒防御。",
+        "benefits": "接骨木莓强大的抗病毒化合物能阻止病毒复制，而丁香与苹果则提供增强免疫力的抗氧化剂。",
+        "healthTags": [
+            "免疫力提升",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "接骨木莓",
+            "丁香",
+            "苹果"
+        ],
+        "steps": "将1/2杯接骨木莓糖浆与1个全苹果和一撮研磨丁香混合。加入1/2杯水，高速搅拌45秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/elderberry_shield.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tropical_immunity",
+        "name": "岛屿堡垒",
+        "title": "岛屿堡垒",
+        "teaser": "热带维生素C大爆发",
+        "color": "orange",
+        "description": "热带维生素C大爆发。",
+        "benefits": "番石榴和 Acerola 带来大量维生素C，而橙子则添加了放大免疫细胞活性的类黄酮。",
+        "healthTags": [
+            "免疫力提升",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "番石榴",
+            "橙子",
+            "Acerola"
+        ],
+        "steps": "将1个全番石榴与1个去皮橙子和1/4杯新鲜 Acerola 果肉混合。加入1/2杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/tropical_immunity.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "berry_immune",
+        "name": "森林勇士",
+        "title": "森林勇士",
+        "teaser": "浆果免疫堡垒",
+        "color": "red",
+        "description": "浆果免疫堡垒。",
+        "benefits": "浓缩野生浆果带来花青素，而 Camu Camu 则提供极限维生素C，促进快速免疫反应。",
+        "healthTags": [
+            "免疫力提升",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "混合浆果",
+            "Camu Camu"
+        ],
+        "steps": "将1杯冷冻混合浆果与1茶匙 Camu Camu 粉混合。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/berry_immune.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "soursop_guardian",
+        "name": "刺果番荔枝之神",
+        "title": "刺果番荔枝之神",
+        "teaser": "刺果番荔枝的细胞守护",
+        "color": "green",
+        "description": "刺果番荔枝的细胞守护。",
+        "benefits": "刺果番荔枝以其强大的番荔枝内酯而闻名，可支持细胞防御并提升免疫系统的恢复力。",
+        "healthTags": [
+            "免疫力提升",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "刺果番荔枝",
+            "Graviola",
+            "苹果"
+        ],
+        "steps": "将1杯刺果番荔枝果肉与2汤匙 Graviola 提取物和1个甜苹果混合。加入1/2杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/soursop_guardian.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tropical_stamina",
+        "name": "太平洋惊雷",
+        "title": "太平洋惊雷",
+        "teaser": "热带耐力燃料",
+        "color": "amber",
+        "description": "热带耐力燃料。",
+        "benefits": "椰子提供快速吸收的中链脂肪酸，而 Maca 和菠萝则促进持久的体能和恢复。",
+        "healthTags": [
+            "能量与活力",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "椰子",
+            "Maca",
+            "菠萝"
+        ],
+        "steps": "将1/2杯新鲜椰肉与1茶匙 Maca 根粉和1杯菠萝块混合。加入3/4杯椰子水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/tropical_stamina.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tropical_calm",
+        "name": "巴厘岛之寂",
+        "title": "巴厘岛之寂",
+        "teaser": "热带解压特饮",
+        "color": "purple",
+        "description": "热带解压特饮。",
+        "benefits": "百香果自然减轻焦虑，而镁能使神经系统放松，带来深层、轻松的平静。",
+        "healthTags": [
+            "缓解压力与平静",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "百香果",
+            "镁"
+        ],
+        "steps": "将3个新鲜百香果的果肉与1勺离子镁补充剂混合。加入1杯冷水，高速搅拌45秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "缓解压力与平静",
+        "img": "/images/smoothies/tropical_calm.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "nightshade_pulse",
+        "name": "奥雷利亚纳的秘密",
+        "title": "奥雷利亚纳的秘密",
+        "teaser": "大自然的尼古丁——纯净且植物提取",
+        "color": "purple",
+        "description": "大自然的尼古丁——纯净且植物提取。",
+        "benefits": "茄子和花椰菜是自然界中尼古丁含量最丰富的植物来源之一，支持乙酰胆碱的生成，从而提升认知力、专注力及神经系统平衡——完全没有烟草的成瘾性或化学物质。",
+        "healthTags": [
+            "能量与活力",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "茄子",
+            "花椰菜",
+            "梨"
+        ],
+        "steps": "将1/2杯茄子和1/2杯花椰菜稍微蒸熟，然后放凉。与1个熟梨和3/4杯冷水混合。高速搅拌90秒至完全顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/nightshade_pulse.webp",
+        "icon": "vaso"
+    },{
+        "id": "ashwaganshi",
+        "name": "阿什瓦甘希",
+        "title": "阿什瓦甘希",
+        "teaser": "双重适应原抗压护盾",
+        "color": "purple",
+        "description": "双重适应原抗压护盾。",
+        "benefits": "结合了最强大的两种压力调节适应原——Ashwagandha 和 Reishi，深度降低皮质醇，镇静神经系统，并建立对抗日常压力的长期恢复力。",
+        "healthTags": [
+            "缓解压力与平静",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 适应原",
+        "ingredients": [
+            "Reishi",
+            "Ashwagandha",
+            "杏仁奶"
+        ],
+        "steps": "将1/2茶匙 Reishi 蘑菇粉和1茶匙 Ashwagandha 根粉加入1.5杯冷杏仁奶中。高速搅拌60秒至呈现奶油般顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "缓解压力与平静",
+        "img": "/images/smoothies/ashwaganshi.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "dark_cacao_rush",
+        "name": "阿兹特克黑巧",
+        "title": "阿兹特克黑巧",
+        "teaser": "生可可提升情绪",
+        "color": "amber",
+        "description": "生可可提升情绪。",
+        "benefits": "生可可让大脑充满可可碱和苯乙胺，自然提升情绪并提供持久能量，而不会出现咖啡因崩溃。",
+        "healthTags": [
+            "能量与活力",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "可可",
+            "香蕉",
+            "杏仁奶"
+        ],
+        "steps": "将1汤匙生可可粉与1根冷冻熟香蕉和1.5杯杏仁奶混合。高速搅拌60秒至浓郁顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/dark_cacao_rush.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "moringa_green",
+        "name": "奇迹之树",
+        "title": "奇迹之树",
+        "teaser": "杯中的奇迹之树",
+        "color": "green",
+        "description": "杯中的奇迹之树。",
+        "benefits": "Moringa 含有92种营养素和46种抗氧化剂，支持细胞修复、排毒和持久的日常活力。",
+        "healthTags": [
+            "排毒与净化",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "Moringa",
+            "芒果",
+            "椰子水"
+        ],
+        "steps": "将1茶匙 Moringa 叶粉与1杯冷冻芒果块和1杯椰子水混合。高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "排毒与净化",
+        "img": "/images/smoothies/moringa_green.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "chaga_shield",
+        "name": "西伯利亚装甲",
+        "title": "西伯利亚装甲",
+        "teaser": "蘑菇之王的防御",
+        "color": "amber",
+        "description": "蘑菇之王的防御。",
+        "benefits": "Chaga 拥有地球上所有食物中最高的 ORAC 抗氧化评分，能中和自由基，在细胞水平上增强免疫防御。",
+        "healthTags": [
+            "免疫力提升",
+            "抗氧化能力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "Chaga",
+            "蓝莓",
+            "燕麦奶"
+        ],
+        "steps": "将1茶匙 Chaga 粉用温水泡开并放凉。与1杯冷冻蓝莓和1杯燕麦奶混合搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/chaga_shield.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "green_shot",
+        "name": "刺客",
+        "title": "刺客",
+        "teaser": "小麦草日常重置",
+        "color": "green",
+        "description": "小麦草日常重置。",
+        "benefits": "小麦草直接将叶绿素输送到血液中，碱化身体，为肝脏排毒，并提供快速的能量提升。",
+        "healthTags": [
+            "排毒与净化",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "小麦草",
+            "苹果",
+            "柠檬"
+        ],
+        "steps": "将1茶匙小麦草粉与1个全苹果和半个柠檬的汁混合。加入3/4杯水，高速搅拌45秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "排毒与净化",
+        "img": "/images/smoothies/green_shot.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "hemp_protein",
+        "name": "维京力量",
+        "title": "维京力量",
+        "teaser": "完整的植物蛋白混合物",
+        "color": "amber",
+        "description": "完整的植物蛋白混合物。",
+        "benefits": "大麻籽是少数含有全部9种必需氨基酸的植物来源之一，提供完整的蛋白质以及完美比例的欧米伽-3和欧米伽-6。",
+        "healthTags": [
+            "能量与活力",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "大麻籽",
+            "香蕉",
+            "杏仁奶"
+        ],
+        "steps": "将2汤匙生大麻籽与1根冷冻香蕉和1.5杯杏仁奶混合。高速搅拌60秒至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/hemp_protein.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "chia_power",
+        "name": "阿兹特克勇士",
+        "title": "阿兹特克勇士",
+        "teaser": "古老战士的耐力燃料",
+        "color": "amber",
+        "description": "古老战士的耐力燃料。",
+        "benefits": "奇亚籽在胃中膨胀至10倍大小，减缓消化，提供持久的水分、纤维和欧米伽-3，带来数小时的能量。",
+        "healthTags": [
+            "消化与肠道健康",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "奇亚籽",
+            "芒果",
+            "椰奶"
+        ],
+        "steps": "将1汤匙奇亚籽在椰奶中浸泡10分钟。与1杯冷冻芒果和剩余的椰奶一起搅拌至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/chia_power.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "dream_dust",
+        "name": "梦幻星尘",
+        "title": "梦幻星尘",
+        "teaser": "杯中的温暖睡眠仪式",
+        "color": "purple",
+        "description": "杯中的温暖睡眠仪式。",
+        "benefits": "洋甘菊与GABA受体结合以镇静神经系统，而肉豆蔻含有肉豆蔻醚，可加深睡眠质量并减少夜间醒来。",
+        "healthTags": [
+            "睡眠与恢复",
+            "缓解压力与平静"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "洋甘菊",
+            "肉豆蔻",
+            "香蕉",
+            "燕麦奶"
+        ],
+        "steps": "将洋甘菊茶在温燕麦奶中浸泡5分钟，然后放凉。与1根熟香蕉和一撮肉豆蔻混合搅拌45秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "睡眠与恢复",
+        "img": "/images/smoothies/dream_dust.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "fire_starter",
+        "name": "点火者",
+        "title": "点火者",
+        "teaser": "产热代谢点火器",
+        "color": "red",
+        "description": "产热代谢点火器。",
+        "benefits": "卡宴辣椒中的辣椒素激活产热作用以燃烧脂肪，生姜点燃消化之火，菠萝中的菠萝蛋白酶加速营养吸收。",
+        "healthTags": [
+            "能量与活力",
+            "排毒与净化"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "卡宴辣椒",
+            "菠萝",
+            "生姜"
+        ],
+        "steps": "将1杯菠萝块与一小块新鲜生姜和少许卡宴辣椒混合。加入3/4杯水，高速搅拌45秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/fire_starter.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cinnamon_butter",
+        "name": "香料之路",
+        "title": "香料之路",
+        "teaser": "血糖平衡与温暖",
+        "color": "amber",
+        "description": "血糖平衡与温暖。",
+        "benefits": "肉桂中的肉桂醛模拟胰岛素以稳定血糖，而杏仁酱提供健康脂肪，自然减缓葡萄糖的吸收。",
+        "healthTags": [
+            "能量与活力",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "肉桂",
+            "杏仁酱",
+            "香蕉"
+        ],
+        "steps": "将1茶匙肉桂粉与1汤匙生杏仁酱和1根冷冻香蕉混合。加入1杯燕麦奶，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/cinnamon_butter.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "amla_boost",
+        "name": "吠陀之日",
+        "title": "吠陀之日",
+        "teaser": "相当于橙子20倍的维生素C",
+        "color": "green",
+        "description": "相当于橙子20倍的维生素C。",
+        "benefits": "Amla 提供地球上最高浓度的天然维生素C之一，其中的单宁使其保持稳定且具有极高的生物利用度，这是其他水果无法比拟的。",
+        "healthTags": [
+            "免疫力提升",
+            "肌肤焕发与美容"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "Amla",
+            "生姜",
+            "生蜂蜜"
+        ],
+        "steps": "将2汤匙新鲜 Amla 果肉与一小块生姜和1茶匙生蜂蜜混合。加入1杯水，高速搅拌45秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/amla_boost.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cupuacu_dream",
+        "name": "亚马逊丝绸",
+        "title": "亚马逊丝绸",
+        "teaser": "巴西最强超级水果",
+        "color": "amber",
+        "description": "巴西最强超级水果。",
+        "benefits": "Cupuacu 吸收其重量3.5倍的水分，深层滋润细胞，其独特的茶氨酸复合物提供持久的能量且不产生焦虑。",
+        "healthTags": [
+            "能量与活力",
+            "肌肤焕发与美容"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "Cupuacu",
+            "香蕉",
+            "椰子"
+        ],
+        "steps": "将1/2杯 Cupuacu 果肉与1根熟香蕉和1/4杯新鲜椰肉混合。加入3/4杯椰子水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/cupuacu_dream.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "purple_berry_blast",
+        "name": "紫雨",
+        "title": "紫雨",
+        "teaser": "深色浆果的三重抗氧化冲击",
+        "color": "purple",
+        "description": "深色浆果的三重抗氧化冲击。",
+        "benefits": "越橘、黑加仑和红加仑结合了地球上花青素最密集的这三种浆果，实现最大的视力保护和细胞防御。",
+        "healthTags": [
+            "抗氧化能力",
+            "肌肤焕发与美容"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "越橘",
+            "黑加仑",
+            "红加仑"
+        ],
+        "steps": "将越橘、黑加仑和红加仑各1/3杯混合。加入1杯水，高速搅拌60秒至顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/purple_berry_blast.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "ruby_berry",
+        "name": "红宝石浆果",
+        "title": "红宝石浆果",
+        "teaser": "酸浆果的免疫力提升",
+        "color": "red",
+        "description": "酸浆果的免疫力提升。",
+        "benefits": "覆盆子和蔓越莓富含鞣花酸和原花青素，可对抗感染、减少炎症并保护尿路。",
+        "healthTags": [
+            "免疫力提升",
+            "抗氧化能力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "覆盆子",
+            "蔓越莓",
+            "苹果"
+        ],
+        "steps": "将1/2杯覆盆子与1/4杯蔓越莓和1个甜苹果混合。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/ruby_berry.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "longan_loquat",
+        "name": "龙眼",
+        "title": "龙眼",
+        "teaser": "亚洲长寿水果",
+        "color": "amber",
+        "description": "亚洲长寿水果。",
+        "benefits": "在传统医学中，龙眼养心安神，枇杷润肺并提供强大的 β-胡萝卜素。",
+        "healthTags": [
+            "健康养生",
+            "免疫力提升"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "龙眼",
+            "枇杷",
+            "梨"
+        ],
+        "steps": "将6颗龙眼和3颗枇杷去皮去核。与1个熟梨和3/4杯水混合，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/longan_loquat.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "feijoa_physalis",
+        "name": "南方翡翠",
+        "title": "南方翡翠",
+        "teaser": "罕见异国风情的免疫融合",
+        "color": "green",
+        "description": "罕见异国风情的免疫融合。",
+        "benefits": "斐济果独特的碘含量支持甲状腺功能，而姑娘果中的醉茄内酯增强免疫反应并防止氧化应激。",
+        "healthTags": [
+            "免疫力提升",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "斐济果",
+            "姑娘果",
+            "青柠"
+        ],
+        "steps": "挖出4个斐济果的果肉，与8颗姑娘果和1个青柠的汁混合。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/feijoa_physalis.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "citrus_trinity",
+        "name": "柑橘三位一体",
+        "title": "柑橘三位一体",
+        "teaser": "三种珍稀柑橘的强力冲击",
+        "color": "yellow",
+        "description": "三种珍稀柑橘的强力冲击。",
+        "benefits": "柚子、葡萄柚和日本柚子结合了独特的黄酮类化合物——柚皮素和橙皮苷，可降低胆固醇、促进新陈代谢并提供密集的维生素C。",
+        "healthTags": [
+            "免疫力提升",
+            "心血管健康"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "柚子",
+            "葡萄柚",
+            "日本柚子"
+        ],
+        "steps": "将1/4个柚子和1/2个葡萄柚去皮去络，挤入1个日本柚子的汁。与1/2杯水一起高速搅拌45秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/citrus_trinity.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherry_mulberry",
+        "name": "丝绸之路深红",
+        "title": "丝绸之路深红",
+        "teaser": "长寿深色水果三重奏",
+        "color": "red",
+        "description": "长寿深色水果三重奏。",
+        "benefits": "樱桃、桑葚和红枣在传统医学中因延年益寿、保护肝脏及其强大的花青素含量而备受推崇。",
+        "healthTags": [
+            "抗氧化能力",
+            "睡眠与恢复"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "樱桃",
+            "桑葚",
+            "红枣"
+        ],
+        "steps": "将1/2杯去核樱桃与1/3杯桑葚和4颗去核红枣混合。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/cherry_mulberry.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "pawpaw_plantain",
+        "name": "萨凡纳真金",
+        "title": "萨凡纳真金",
+        "teaser": "热带淀粉与酶的燃料",
+        "color": "yellow",
+        "description": "热带淀粉与酶的燃料。",
+        "benefits": "木瓜中的木瓜蛋白酶可分解蛋白质并减少腹胀，而大蕉提供滋养有益肠道细菌的抗性淀粉。",
+        "healthTags": [
+            "消化与肠道健康",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "木瓜",
+            "大蕉",
+            "椰子"
+        ],
+        "steps": "将1杯熟木瓜果肉与半根熟大蕉和1/4杯新鲜椰肉混合。加入3/4杯椰子水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "消化与肠道健康",
+        "img": "/images/smoothies/pawpaw_plantain.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "golden_root",
+        "name": "黄金根脉",
+        "title": "黄金根脉",
+        "teaser": "接地气的根茎力量",
+        "color": "amber",
+        "description": "接地气的根茎力量。",
+        "benefits": "红薯和南瓜富含转化为维生素A的 β-胡萝卜素，同时保护视力、皮肤和免疫功能。",
+        "healthTags": [
+            "免疫力提升",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "红薯",
+            "南瓜",
+            "生姜"
+        ],
+        "steps": "将1/2杯红薯和1/2杯南瓜蒸熟后放凉。与一小块新鲜生姜和1杯杏仁奶一起高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/golden_root.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "cherimoya_mist",
+        "name": "番荔枝晨雾",
+        "title": "番荔枝晨雾",
+        "teaser": "马克·吐温最爱的美味水果",
+        "color": "green",
+        "description": "马克·吐温最爱的美味水果。",
+        "benefits": "番荔枝含有正在研究其强大抗癌特性的番荔枝内酯，以及支持神经功能和能量的丰富维生素B群。",
+        "healthTags": [
+            "免疫力提升",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "番荔枝",
+            "青柠",
+            "椰子水"
+        ],
+        "steps": "挖出1个熟番荔枝的果肉并去籽。与1个青柠的汁和1杯椰子水一起高速搅拌45秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/cherimoya_mist.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "sapote_silk",
+        "name": "人心果丝绸",
+        "title": "人心果丝绸",
+        "teaser": "丝滑的中美洲超级水果",
+        "color": "amber",
+        "description": "丝滑的中美洲超级水果。",
+        "benefits": "人心果和马梅果都提供可增强肠道内壁完整性的稀有微量多酚，以及用于血清素生成的高水平维生素B6。",
+        "healthTags": [
+            "消化与肠道健康",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "人心果",
+            "马梅果",
+            "香蕉"
+        ],
+        "steps": "将1/2杯人心果果肉与1/2杯马梅果和1根熟香蕉混合。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "消化与肠道健康",
+        "img": "/images/smoothies/sapote_silk.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tamarind_tang",
+        "name": "巴比伦之刺",
+        "title": "巴比伦之刺",
+        "teaser": "古老的消化补品",
+        "color": "amber",
+        "description": "古老的消化补品。",
+        "benefits": "罗望子富含酒石酸和羟基柠檬酸，刺激胆汁生成以加速脂肪消化并自然清洁肝脏。",
+        "healthTags": [
+            "消化与肠道健康",
+            "排毒与净化"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "罗望子",
+            "芒果",
+            "生姜"
+        ],
+        "steps": "将2汤匙罗望子酱溶于温水中。与1杯冷冻芒果和一小块生姜混合。加入3/4杯水，搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "消化与肠道健康",
+        "img": "/images/smoothies/tamarind_tang.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "tamarillo_fire",
+        "name": "树番茄之火",
+        "title": "树番茄之火",
+        "teaser": "树番茄的抗氧化激增",
+        "color": "red",
+        "description": "树番茄的抗氧化激增。",
+        "benefits": "树番茄含有被证明可降低血糖的绿原酸，以及防止黄斑变性的独特类胡萝卜素成分。",
+        "healthTags": [
+            "抗氧化能力",
+            "心血管健康"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "树番茄",
+            "橙子",
+            "生姜"
+        ],
+        "steps": "将2个树番茄对半切开并挖出果肉。与1个去皮橙子和一小块生姜混合。加入1/2杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化能力",
+        "img": "/images/smoothies/tamarillo_fire.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "kumquat_zest",
+        "name": "黄金子弹",
+        "title": "黄金子弹",
+        "teaser": "连皮吃的完整水果",
+        "color": "orange",
+        "description": "连皮吃的完整水果。",
+        "benefits": "金桔皮比果肉含有更多的柠檬烯和橙皮苷——在柑橘类水果中非常独特——使其整个果实成为强大的抗炎药和新陈代谢促进剂。",
+        "healthTags": [
+            "免疫力提升",
+            "抗炎"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "金桔",
+            "橙子",
+            "姜黄"
+        ],
+        "steps": "将6个全金桔（带皮）与1个去皮橙子和1/2茶匙姜黄混合。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/kumquat_zest.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "breadfruit_power",
+        "name": "波利尼西亚巨人",
+        "title": "波利尼西亚巨人",
+        "teaser": "波利尼西亚的淀粉能量",
+        "color": "green",
+        "description": "波利尼西亚的淀粉能量。",
+        "benefits": "面包果是植物食品中罕见的含有所有必需氨基酸的完整蛋白质来源，同时含有高纤维，为肠道微生物提供数小时的营养。",
+        "healthTags": [
+            "能量与活力",
+            "消化与肠道健康"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "面包果",
+            "椰子",
+            "肉桂"
+        ],
+        "steps": "将1杯熟面包果蒸软后放凉。与1/4杯新鲜椰肉和1/2茶匙肉桂混合。加入1杯椰奶，搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/breadfruit_power.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "quince_persimmon",
+        "name": "波斯之秋",
+        "title": "波斯之秋",
+        "teaser": "被遗忘的秋季超级水果",
+        "color": "amber",
+        "description": "被遗忘的秋季超级水果。",
+        "benefits": "榅桲含有强大的单宁和果胶，可治愈肠道内壁，而柿子中的白桦脂酸在研究中显示出抗肿瘤特性。",
+        "healthTags": [
+            "消化与肠道健康",
+            "抗氧化能力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "榅桲",
+            "柿子",
+            "苹果"
+        ],
+        "steps": "将半个榅桲煮软后放凉。与1个熟柿子果肉和1个甜苹果混合。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "消化与肠道健康",
+        "img": "/images/smoothies/quince_persimmon.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "baobab_sun",
+        "name": "猴面包树之日",
+        "title": "猴面包树之日",
+        "teaser": "非洲生命之树",
+        "color": "orange",
+        "description": "非洲生命之树。",
+        "benefits": "Baobab 含有6倍于橙子的维生素C和比牛奶更多的钙，同时支持胶原蛋白生成、骨密度和免疫力。",
+        "healthTags": [
+            "免疫力提升",
+            "能量与活力"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "Baobab",
+            "芒果",
+            "青柠"
+        ],
+        "steps": "将1汤匙 Baobab 粉与1杯冷冻芒果和1个青柠的汁混合。加入3/4杯水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "免疫力提升",
+        "img": "/images/smoothies/baobab_sun.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "durian_gold",
+        "name": "黄金榴莲",
+        "title": "黄金榴莲",
+        "teaser": "释放水果之王的力量",
+        "color": "amber",
+        "description": "释放水果之王的力量。",
+        "benefits": "榴莲富含维生素B群、铜和色氨酸，使其成为补充能量和改善情绪的最完整的天然食物之一。",
+        "healthTags": [
+            "能量与活力",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 新鲜水果",
+        "ingredients": [
+            "榴莲",
+            "椰子",
+            "香蕉"
+        ],
+        "steps": "将1/2杯新鲜榴莲果肉与1/4杯椰肉和1根冷冻香蕉混合。加入3/4杯椰子水，高速搅拌60秒。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "能量与活力",
+        "img": "/images/smoothies/durian_gold.webp",
+        "icon": "vaso"
+    }
+]
