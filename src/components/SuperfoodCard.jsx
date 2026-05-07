@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Heart } from 'lucide-react';
-import { useFavorites } from '../hooks/useFavorites';
 import { getBenefitStyle } from '../utils/benefitColors';
 import { useLanguage } from '../i18n/LanguageContext';
 import itemNamesI18n from '../data/item_names_i18n';
@@ -10,9 +8,7 @@ import itemTeasersI18n from '../data/item_teasers_i18n';
 import benefitLabelsI18n from '../data/benefit_labels_i18n';
 
 export default function SuperfoodCard({ superfood, index }) {
-    const { isFavorite, toggleFavorite } = useFavorites();
     const { language } = useLanguage();
-    const isFav = isFavorite(superfood.id);
     const displayName = (language !== 'en' && itemNamesI18n[language]?.[superfood.id]) || superfood.name;
     const displayTeaser = (language !== 'en' && itemTeasersI18n[language]?.[superfood.id]) || superfood.teaser;
     const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[superfood.benefit]) || superfood.benefit;
@@ -33,18 +29,6 @@ export default function SuperfoodCard({ superfood, index }) {
                             loading="lazy"
                             onError={e => { e.currentTarget.src = '/images/savage/cacao.webp'; }}
                         />
-                        <div
-                            role="button"
-                            tabIndex={0}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                e.stopPropagation();
-                                toggleFavorite(superfood);
-                            }}
-                            className={`absolute top-4 right-4 z-30 p-2 backdrop-blur-md rounded-full shadow-lg transition-colors cursor-pointer ${isFav ? 'bg-red-500/90 text-white' : 'bg-white/50 hover:bg-white text-gray-700'}`}
-                        >
-                            <Heart className={`w-5 h-5 ${isFav ? 'fill-current' : ''}`} />
-                        </div>
                     </div>
                     <div className="p-5 flex-grow flex flex-col">
                         <div className="mb-2">

@@ -9,9 +9,13 @@
 @layer base {
   html {
     scrollbar-gutter: stable;
+    overflow-x: hidden;
+    max-width: 100vw;
     @apply bg-fruit-light dark:bg-fruit-dark;
   }
   body {
+    overflow-x: hidden;
+    max-width: 100vw;
     @apply bg-fruit-light text-fruit-dark dark:bg-fruit-dark dark:text-fruit-light transition-colors duration-300 antialiased font-sans;
   }
   :root {

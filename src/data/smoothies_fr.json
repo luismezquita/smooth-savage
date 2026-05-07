@@ -60,7 +60,7 @@
         "description": "Un calme profond à chaque gorgée.",
         "benefits": "Réduit considérablement les niveaux de cortisol et procure une relaxation profonde du système nerveux, dissipant le stress quotidien et la fatigue mentale.",
         "healthTags": [
-            "Soulagement du Stress et Calme",
+            "Anti-Stress et Calme",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -162,7 +162,7 @@
         "description": "Combattez l'inflammation naturellement.",
         "benefits": "Inhibe les voies inflammatoires au niveau moléculaire, soulageant efficacement les douleurs articulaires et les gonflements systémiques.",
         "healthTags": [
-            "Anti-inflammatoire",
+            "Anti-Inflammatoire",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -187,7 +187,7 @@
         "description": "Rayonnez de beauté de l'intérieur.",
         "benefits": "Stimule l'élasticité de la peau et combat agressivement le vieillissement cutané, vous offrant un éclat intérieur radieux et visible.",
         "healthTags": [
-            "Éclat de la Peau et Beauté",
+            "Éclat et Beauté",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -289,7 +289,7 @@
         "description": "Mélange adaptogène anti-stress.",
         "benefits": "Atténue considérablement l'anxiété quotidienne et renforce la résilience à long terme de votre corps face au stress.",
         "healthTags": [
-            "Soulagement du Stress et Calme",
+            "Anti-Stress et Calme",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -314,7 +314,7 @@
         "description": "Élixir doré anti-inflammatoire.",
         "benefits": "Un élixir doré conçu spécifiquement pour inonder votre corps d'agents anti-inflammatoires naturels hautement absorbables.",
         "healthTags": [
-            "Anti-inflammatoire",
+            "Anti-Inflammatoire",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -339,7 +339,7 @@
         "description": "Mélange de récupération et de renouveau.",
         "benefits": "Booste la production d'oxyde nitrique pour améliorer massivement le flux sanguin et accélérer la récupération musculaire.",
         "healthTags": [
-            "Anti-inflammatoire",
+            "Anti-Inflammatoire",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -364,7 +364,7 @@
         "description": "Le pouvoir anti-inflammatoire du mangoustan.",
         "benefits": "Exploite de puissantes xanthones directement prouvées pour réduire l'inflammation cellulaire chronique et le stress oxydatif.",
         "healthTags": [
-            "Anti-inflammatoire",
+            "Anti-Inflammatoire",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -389,7 +389,7 @@
         "description": "Carburant de beauté aux super-baies.",
         "benefits": "Fournit une concentration d'antioxydants qui préviennent activement les rides et améliorent la luminosité de la peau.",
         "healthTags": [
-            "Éclat de la Peau et Beauté",
+            "Éclat et Beauté",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -415,7 +415,7 @@
         "description": "Éclat de la peau riche en oméga.",
         "benefits": "Fournit des acides gras Oméga-7 extrêmement rares, vitaux pour maintenir une peau éclatante et profondément hydratée.",
         "healthTags": [
-            "Éclat de la Peau et Beauté",
+            "Éclat et Beauté",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -441,7 +441,7 @@
         "description": "Un éclat intérieur violet profond.",
         "benefits": "Le score antioxydant le plus élevé de tous les fruits, protégeant votre peau des dommages liés aux UV et à la pollution.",
         "healthTags": [
-            "Éclat de la Peau et Beauté",
+            "Éclat et Beauté",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -467,7 +467,7 @@
         "description": "Protection cardiovasculaire quotidienne.",
         "benefits": "Améliore efficacement les profils lipidiques sanguins et garde les parois artérielles dégagées.",
         "healthTags": [
-            "Santé Cardiovasculaire",
+            "Santé Cardiaque",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -492,7 +492,7 @@
         "description": "Mélange de baies pour le cœur.",
         "benefits": "Dilate les vaisseaux sanguins en toute sécurité pour réguler la tension artérielle et fournit des acides gras Oméga-3 essentiels.",
         "healthTags": [
-            "Santé Cardiovasculaire",
+            "Santé Cardiaque",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -758,7 +758,7 @@
         "img": "/images/smoothies/electric_violet.webp",
         "icon": "vaso"
     },
-{
+    {
         "id": "goji_zen",
         "name": "Bouddha Rouge",
         "title": "Bouddha Rouge",
@@ -1474,7 +1474,7 @@
         "description": "Soulagement tropical du stress.",
         "benefits": "Le fruit de la passion réduit l'anxiété naturellement, tandis que le magnésium détend le système nerveux pour un calme profond et sans effort.",
         "healthTags": [
-            "Soulagement du Stress et Calme",
+            "Anti-Stress et Calme",
             "Bien-être"
         ],
         "synergies": "Superaliments + Fruits Frais",
@@ -1523,7 +1523,7 @@
         "description": "Double bouclier adaptogène contre le stress.",
         "benefits": "Associe l'ashwagandha et le reishi — deux des adaptogènes régulateurs de stress les plus puissants — pour réduire profondément le cortisol, calmer le système nerveux et renforcer la résilience à long terme face au stress quotidien.",
         "healthTags": [
-            "Soulagement du Stress et Calme",
+            "Anti-Stress et Calme",
             "Bien-être"
         ],
         "synergies": "Superaliments + Adaptogènes",
@@ -1699,7 +1699,7 @@
         "benefits": "La camomille se lie aux récepteurs GABA pour calmer le système nerveux, tandis que la muscade contient de la myristicine qui approfondit la qualité du sommeil et réduit les réveils nocturnes.",
         "healthTags": [
             "Sommeil et Récupération",
-            "Soulagement du Stress et Calme"
+            "Anti-Stress et Calme"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -1775,7 +1775,7 @@
         "benefits": "L'amla offre l'une des plus fortes concentrations naturelles de vitamine C sur terre, avec des tanins qui la maintiennent stable et biodisponible comme aucun autre fruit.",
         "healthTags": [
             "Renforcement Immunitaire",
-            "Éclat de la Peau et Beauté"
+            "Éclat et Beauté"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -1800,7 +1800,7 @@
         "benefits": "Le cupuaçu absorbe 3,5 fois son poids en eau, gardant les cellules profondément hydratées, tandis que son composé unique, la théacrine, fournit une énergie durable sans nervosité.",
         "healthTags": [
             "Énergie et Vitalité",
-            "Éclat de la Peau et Beauté"
+            "Éclat et Beauté"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -1825,7 +1825,7 @@
         "benefits": "La myrtille sauvage, le cassis et la groseille combinent trois des baies les plus denses en anthocyanes sur terre pour une protection maximale de la vision et une défense cellulaire.",
         "healthTags": [
             "Pouvoir Antioxydant",
-            "Éclat de la Peau et Beauté"
+            "Éclat et Beauté"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -1925,7 +1925,7 @@
         "benefits": "Le pomélo, le pamplemousse et le yuzu combinent des flavonoïdes uniques — naringénine et hespéridine — pour réduire le cholestérol, stimuler le métabolisme et fournir une vitamine C intense.",
         "healthTags": [
             "Renforcement Immunitaire",
-            "Santé Cardiovasculaire"
+            "Santé Cardiaque"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -2100,7 +2100,7 @@
         "benefits": "Le tamarillo contient de l'acide chlorogénique prouvé pour abaisser la glycémie et un profil caroténoïde unique qui protège contre la dégénérescence maculaire.",
         "healthTags": [
             "Pouvoir Antioxydant",
-            "Santé Cardiovasculaire"
+            "Santé Cardiaque"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -2125,7 +2125,7 @@
         "benefits": "La peau du kumquat contient plus de limonène et d'hespéridine que la pulpe — ce qui est unique parmi les agrumes — en faisant un puissant anti-inflammatoire et un accélérateur de métabolisme.",
         "healthTags": [
             "Renforcement Immunitaire",
-            "Anti-inflammatoire"
+            "Anti-Inflammatoire"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [

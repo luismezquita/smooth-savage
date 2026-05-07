@@ -3,8 +3,6 @@ import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
 import { benefitCategories, getItemsForBenefit } from '../data/benefits';
-import FruitCard from '../components/FruitCard';
-import SuperfoodCard from '../components/SuperfoodCard';
 import SmoothieCard from '../components/SmoothieCard';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import benefitCategoriesI18n from '../data/benefit_categories_i18n';
@@ -17,14 +15,7 @@ export default function BenefitDetail() {
     const catTitle = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.title) || category?.title || '';
     const catTagline = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.tagline) || category?.tagline || '';
 
-    const FRESH_CAP = 8;
-    const SAVAGE_CAP = 8;
-    const SMOOTHIE_CAP = 8;
-
-    const { fruits: allFruits, superfoods: allSuperfoods, smoothies: allSmoothies } = useMemo(() => getItemsForBenefit(id), [id]);
-    const fruits = allFruits.slice(0, FRESH_CAP);
-    const superfoods = allSuperfoods.slice(0, SAVAGE_CAP);
-    const smoothies = allSmoothies.slice(0, SMOOTHIE_CAP);
+    const { smoothies: allSmoothies } = useMemo(() => getItemsForBenefit(id), [id]);
 
     if (!category) {
         return <div className="pt-32 text-center text-3xl font-bold text-gray-900 dark:text-white">Benefit category not found.</div>;
@@ -52,49 +43,15 @@ export default function BenefitDetail() {
                 <div className="absolute bottom-0 left-0 w-64 h-64 bg-black/5 rounded-full blur-2xl -ml-10 -mb-10 pointer-events-none" />
             </motion.div>
 
-            {fruits.length > 0 && (
-                <div className="mb-20">
-                    <div className="flex items-center gap-3 mb-8">
-                        <h2 className="text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{t('benefitDetail.freshSection')}</h2>
-                        <span className="bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 py-1 px-3 rounded-full text-sm font-bold">{allFruits.length > FRESH_CAP ? t('benefitDetail.topN', { n: FRESH_CAP }) : t('benefitDetail.itemsCount', { n: fruits.length })}</span>
-                    </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 xl:gap-8">
-                        {fruits.map((fruit, index) => (
-                            <FruitCard key={fruit.id} fruit={fruit} index={index} />
-                        ))}
-                    </div>
-                </div>
-            )}
-
-            {superfoods.length > 0 && (
+            {allSmoothies.length > 0 ? (
                 <div className="mb-10">
-                    <div className="flex items-center gap-3 mb-8">
-                        <h2 className="text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{t('benefitDetail.savageSection')}</h2>
-                        <span className="bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 py-1 px-3 rounded-full text-sm font-bold">{allSuperfoods.length > SAVAGE_CAP ? t('benefitDetail.topN', { n: SAVAGE_CAP }) : t('benefitDetail.itemsCount', { n: superfoods.length })}</span>
-                    </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 xl:gap-8">
-                        {superfoods.map((sf, index) => (
-                            <SuperfoodCard key={sf.id} superfood={sf} index={index} />
-                        ))}
-                    </div>
-                </div>
-            )}
-
-            {smoothies.length > 0 && (
-                <div className="mb-10">
-                    <div className="flex items-center gap-3 mb-8">
-                        <h2 className="text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{t('benefitDetail.smoothiesSection')}</h2>
-                        <span className="bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 py-1 px-3 rounded-full text-sm font-bold">{allSmoothies.length > SMOOTHIE_CAP ? t('benefitDetail.topN', { n: SMOOTHIE_CAP }) : t('benefitDetail.itemsCount', { n: smoothies.length })}</span>
-                    </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 xl:gap-8">
-                        {smoothies.map((smoothie, index) => (
+                        {allSmoothies.map((smoothie, index) => (
                             <SmoothieCard key={smoothie.id} smoothie={smoothie} index={index} />
                         ))}
                     </div>
                 </div>
-            )}
-            
-            {fruits.length === 0 && superfoods.length === 0 && smoothies.length === 0 && (
+            ) : (
                 <div className="text-center py-20 bg-gray-50 dark:bg-gray-800/50 rounded-3xl border border-gray-100 dark:border-gray-800 text-gray-500">
                     <p className="text-xl">{t('benefitDetail.empty')}</p>
                 </div>

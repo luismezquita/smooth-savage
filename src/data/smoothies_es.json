@@ -7,9 +7,17 @@
         "color": "orange",
         "description": "La fortaleza definitiva de vitamina C.",
         "benefits": "Aporta una megadosis de vitamina C y antioxidantes potentes. Combate las enfermedades estacionales y refuerza tus defensas inmunitarias al instante.",
-        "healthTags": ["Immunity Boost", "Wellness"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Naranja", "Jengibre", "Camu Camu", "Cúrcuma"],
+        "ingredients": [
+            "Naranja",
+            "Jengibre",
+            "Camu Camu",
+            "Cúrcuma"
+        ],
         "steps": "Pela 1 naranja entera y añádela a la batidora. Agrega 1 cucharadita de jengibre recién rallado, 1 cucharadita de polvo de camu camu y 1/4 de cucharadita de cúrcuma en polvo. Vierte 1/2 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": true,
@@ -25,9 +33,17 @@
         "color": "orange",
         "description": "El escudo inmunitario más potente de la naturaleza.",
         "benefits": "Explota con niveles extremos de vitamina C, estimulando directamente la actividad de los glóbulos blancos y maximizando la protección celular frente a amenazas externas.",
-        "healthTags": ["Immunity Boost", "Wellness"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Acerola", "Limón", "Kiwi", "Miel de Manuka"],
+        "ingredients": [
+            "Acerola",
+            "Limón",
+            "Kiwi",
+            "Miel de Manuka"
+        ],
         "steps": "Combina 1/2 taza de pulpa fresca de acerola, 1 kiwi pelado, 1 cucharada de zumo de limón recién exprimido y 1 cucharada de miel de Manuka. Bate a velocidad alta durante 45 segundos hasta que quede completamente líquido.",
         "tier": "free",
         "isHero": true,
@@ -43,9 +59,17 @@
         "color": "purple",
         "description": "Calma profunda en cada sorbo.",
         "benefits": "Reduce drásticamente los niveles de cortisol y proporciona una relajación profunda del sistema nervioso, disolviendo el estrés diario y la fatiga mental.",
-        "healthTags": ["Stress Relief & Calm", "Wellness"],
+        "healthTags": [
+            "Antiestrés y Calma",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Ashwagandha", "Reishi", "Plátano", "Leche de Almendras"],
+        "ingredients": [
+            "Ashwagandha",
+            "Reishi",
+            "Plátano",
+            "Leche de Almendras"
+        ],
         "steps": "Añade 1 cucharadita de polvo de raíz de ashwagandha y 1/2 cucharadita de polvo de hongo reishi a 1,5 tazas de leche de almendras fría con 1 plátano maduro. Bate a velocidad alta durante 60 segundos hasta obtener una textura cremosa.",
         "tier": "free",
         "isHero": true,
@@ -61,9 +85,16 @@
         "color": "amber",
         "description": "Desbloquea el foco y la claridad mental.",
         "benefits": "Potencia la función cognitiva, mejora la retención de memoria y aporta energía mental limpia y sostenida sin el bajón nervioso.",
-        "healthTags": ["Energy & Vitality", "Wellness"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Melena de León", "Arándanos", "Nuez"],
+        "ingredients": [
+            "Melena de León",
+            "Arándanos",
+            "Nuez"
+        ],
         "steps": "Bate 1/2 cucharadita de extracto de hongo melena de león con 1 taza de arándanos congelados y un puñado pequeño de nueces. Añade 1 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": true,
@@ -79,9 +110,16 @@
         "color": "amber",
         "description": "Energía natural para cuerpo y mente.",
         "benefits": "Aumenta rápidamente la resistencia física y la energía usando raíces adaptogénicas ancestrales y carbohidratos complejos para un rendimiento sostenido.",
-        "healthTags": ["Energy & Vitality", "Wellness"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Maca", "Cordyceps", "Dátiles"],
+        "ingredients": [
+            "Maca",
+            "Cordyceps",
+            "Dátiles"
+        ],
         "steps": "Bate 1 cucharadita de polvo de raíz de maca, 1/2 cucharadita de polvo de hongo cordyceps y 4 dátiles sin hueso con 1 taza de agua. Bate a velocidad alta durante 60 segundos hasta obtener una textura espesa.",
         "tier": "free",
         "isHero": true,
@@ -97,9 +135,17 @@
         "color": "yellow",
         "description": "Sana tu intestino desde dentro.",
         "benefits": "Calma el delicado revestimiento del estómago mientras aporta grandes cantidades de probióticos beneficiosos y enzimas digestivas para reparar el microbioma intestinal.",
-        "healthTags": ["Digestion & Gut Health", "Wellness"],
+        "healthTags": [
+            "Digestión y Salud Intestinal",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Papaya", "Aloe Vera", "Semillas de Lino", "Kéfir"],
+        "ingredients": [
+            "Papaya",
+            "Aloe Vera",
+            "Semillas de Lino",
+            "Kéfir"
+        ],
         "steps": "Extrae 2 cucharadas de gel fresco de aloe vera y bate con 1 taza de papaya madura troceada, 1 cucharada de semillas de lino molidas y 1 taza de kéfir probiótico. Bate a velocidad baja durante 30 segundos para preservar los probióticos.",
         "tier": "free",
         "isHero": true,
@@ -115,9 +161,16 @@
         "color": "red",
         "description": "Combate la inflamación de forma natural.",
         "benefits": "Inhibe las vías inflamatorias a nivel molecular, aliviando el dolor articular y la inflamación sistémica de forma eficaz.",
-        "healthTags": ["Anti-Inflammatory", "Wellness"],
+        "healthTags": [
+            "Antiinflamatorio",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Cúrcuma", "Jengibre", "Piña"],
+        "ingredients": [
+            "Cúrcuma",
+            "Jengibre",
+            "Piña"
+        ],
         "steps": "Añade 1 cucharadita de cúrcuma fresca, 1 trozo de jengibre del tamaño de un pulgar y 1 taza de trozos de piña a la batidora. Agrega 1/2 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": true,
@@ -133,9 +186,17 @@
         "color": "pink",
         "description": "Irradia belleza desde dentro.",
         "benefits": "Estimula la elasticidad dérmica y combate activamente el envejecimiento cutáneo, recompensándote con un brillo interior visible y radiante.",
-        "healthTags": ["Skin Glow & Beauty", "Wellness"],
+        "healthTags": [
+            "Piel y Belleza",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Fresas", "Péptidos de Colágeno", "Aguacate", "Espinacas"],
+        "ingredients": [
+            "Fresas",
+            "Péptidos de Colágeno",
+            "Aguacate",
+            "Espinacas"
+        ],
         "steps": "Bate 1 taza de fresas frescas con 1/4 de aguacate maduro, 1 puñado de espinacas baby frescas y 1 medida de péptidos de colágeno sin sabor. Mezcla con 1/2 taza de agua hasta obtener una textura completamente suave.",
         "tier": "free",
         "isHero": true,
@@ -151,9 +212,16 @@
         "color": "indigo",
         "description": "Sueño reparador en un vaso.",
         "benefits": "Eleva de forma natural la producción de melatonina, garantizando un sueño profundo e ininterrumpido en fase REM y una poderosa recuperación muscular nocturna.",
-        "healthTags": ["Sleep & Recovery", "Wellness"],
+        "healthTags": [
+            "Sueño y Recuperación",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Valeriana", "Manzanilla", "Plátano"],
+        "ingredients": [
+            "Valeriana",
+            "Manzanilla",
+            "Plátano"
+        ],
         "steps": "Bate 1/2 cucharadita de polvo de raíz de valeriana y 1 cucharada de concentrado de infusión de manzanilla con 1 plátano maduro y 1 taza de leche de avena. Bate hasta obtener una textura suave y cremosa.",
         "tier": "free",
         "isHero": true,
@@ -169,9 +237,17 @@
         "color": "purple",
         "description": "Protección antioxidante máxima.",
         "benefits": "Inunda tu cuerpo con un amplio espectro de antocianinas, neutralizando los radicales libres y deteniendo el daño celular en seco.",
-        "healthTags": ["Antioxidant Power", "Wellness"],
+        "healthTags": [
+            "Poder Antioxidante",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Acai", "Bayas Goji", "Granada", "Chocolate Negro"],
+        "ingredients": [
+            "Acai",
+            "Bayas Goji",
+            "Granada",
+            "Chocolate Negro"
+        ],
         "steps": "Bate 1 paquete de acai congelado (100g) con 1 cucharada de bayas goji rehidratadas, 1/2 taza de zumo de granada puro y un trozo de 15g de chocolate negro al 85%.",
         "tier": "free",
         "isHero": true,
@@ -187,9 +263,16 @@
         "color": "yellow",
         "description": "Alivio digestivo reconfortante.",
         "benefits": "Una mezcla increíblemente reconfortante que frena las náuseas al instante y calienta suavemente el tracto digestivo.",
-        "healthTags": ["Digestion & Gut Health", "Wellness"],
+        "healthTags": [
+            "Digestión y Salud Intestinal",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Manzana", "Jengibre", "Menta"],
+        "ingredients": [
+            "Manzana",
+            "Jengibre",
+            "Menta"
+        ],
         "steps": "Bate 1 manzana dulce con 1 trozo de jengibre fresco del tamaño de un pulgar y un puñado pequeño de hojas de menta fresca. Añade 1 taza de agua y bate a velocidad alta durante 45 segundos.",
         "tier": "free",
         "isHero": false,
@@ -205,9 +288,16 @@
         "color": "purple",
         "description": "Mezcla adaptogénica disuelve-estrés.",
         "benefits": "Mitiga significativamente la ansiedad diaria y construye la resiliencia a largo plazo del cuerpo frente a los desencadenantes del estrés.",
-        "healthTags": ["Stress Relief & Calm", "Wellness"],
+        "healthTags": [
+            "Antiestrés y Calma",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Ashwagandha", "Plátano", "Lúcuma"],
+        "ingredients": [
+            "Ashwagandha",
+            "Plátano",
+            "Lúcuma"
+        ],
         "steps": "Bate 1 cucharadita de polvo de raíz de ashwagandha con 1 plátano maduro y 1 cucharada de polvo de lúcuma. Añade 1 taza de leche de almendras y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -223,9 +313,16 @@
         "color": "red",
         "description": "Elixir dorado antiinflamatorio.",
         "benefits": "Un elixir dorado diseñado específicamente para inundar tu cuerpo con agentes antiinflamatorios naturales de alta absorción.",
-        "healthTags": ["Anti-Inflammatory", "Wellness"],
+        "healthTags": [
+            "Antiinflamatorio",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Cúrcuma", "Pimienta Negra", "Coco"],
+        "ingredients": [
+            "Cúrcuma",
+            "Pimienta Negra",
+            "Coco"
+        ],
         "steps": "Bate 1 cucharadita de cúrcuma en polvo con una pizca de pimienta negra y 1/2 taza de pulpa de coco fresco. Añade 1 taza de agua de coco y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -241,9 +338,16 @@
         "color": "red",
         "description": "Mezcla de recuperación y renovación.",
         "benefits": "Potencia la producción de óxido nítrico para mejorar masivamente el flujo sanguíneo y acelerar la recuperación muscular.",
-        "healthTags": ["Anti-Inflammatory", "Wellness"],
+        "healthTags": [
+            "Antiinflamatorio",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Cereza Ácida", "Remolacha", "Apio"],
+        "ingredients": [
+            "Cereza Ácida",
+            "Remolacha",
+            "Apio"
+        ],
         "steps": "Bate 1/2 taza de cerezas ácidas con 1/2 taza de remolacha cruda en trozos y 2 tallos de apio. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -259,9 +363,16 @@
         "color": "red",
         "description": "El poder antiinflamatorio del mangostán.",
         "benefits": "Aprovecha las potentes xantonas directamente probadas para reducir la inflamación celular crónica y el estrés oxidativo.",
-        "healthTags": ["Anti-Inflammatory", "Wellness"],
+        "healthTags": [
+            "Antiinflamatorio",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Mangostán", "Melocotón", "Pera"],
+        "ingredients": [
+            "Mangostán",
+            "Melocotón",
+            "Pera"
+        ],
         "steps": "Extrae la pulpa de 2 mangostanes y bate con 1 melocotón maduro y 1 pera madura. Añade 1/2 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -277,9 +388,17 @@
         "color": "pink",
         "description": "Superbayas para la belleza.",
         "benefits": "Aporta una concentración de antioxidantes que previenen activamente las arrugas y potencian la luminosidad de la piel.",
-        "healthTags": ["Skin Glow & Beauty", "Wellness"],
+        "healthTags": [
+            "Piel y Belleza",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Base de Acai", "Arándanos", "Colágeno", "Leche de Almendras"],
+        "ingredients": [
+            "Base de Acai",
+            "Arándanos",
+            "Colágeno",
+            "Leche de Almendras"
+        ],
         "steps": "Bate 1 paquete de acai (100g) con 1/2 taza de arándanos, 1 medida de colágeno y 1/2 taza de leche de almendras.",
         "tier": "free",
         "isHero": false,
@@ -295,9 +414,17 @@
         "color": "pink",
         "description": "Luminosidad cutánea con omega.",
         "benefits": "Aporta ácidos grasos omega-7 extremadamente raros, vitales para mantener una piel radiante e hidratada en profundidad.",
-        "healthTags": ["Skin Glow & Beauty", "Wellness"],
+        "healthTags": [
+            "Piel y Belleza",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Zumo de Espino Marino", "Naranja", "Zanahoria", "Jengibre"],
+        "ingredients": [
+            "Zumo de Espino Marino",
+            "Naranja",
+            "Zanahoria",
+            "Jengibre"
+        ],
         "steps": "Bate 2 cucharadas de zumo de espino marino con 1 naranja dulce, 1 zanahoria fresca y 1 cm de jengibre.",
         "tier": "free",
         "isHero": false,
@@ -313,9 +440,17 @@
         "color": "pink",
         "description": "Brillo interior color púrpura intenso.",
         "benefits": "La puntuación antioxidante más alta de cualquier fruta, protegiendo tu piel del daño UV y de la contaminación.",
-        "healthTags": ["Skin Glow & Beauty", "Wellness"],
+        "healthTags": [
+            "Piel y Belleza",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Polvo de Baya Maqui", "Plátano", "Espinacas", "Leche de Avena"],
+        "ingredients": [
+            "Polvo de Baya Maqui",
+            "Plátano",
+            "Espinacas",
+            "Leche de Avena"
+        ],
         "steps": "Mezcla 1 cucharadita de polvo de maqui con 1 plátano, 1 puñado de espinacas y 1 taza de leche de avena.",
         "tier": "free",
         "isHero": false,
@@ -331,9 +466,16 @@
         "color": "red",
         "description": "Protección cardiovascular diaria.",
         "benefits": "Mejora eficazmente los perfiles lipídicos en sangre y mantiene las paredes arteriales limpias.",
-        "healthTags": ["Heart Health", "Wellness"],
+        "healthTags": [
+            "Salud Cardíaca",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Granada", "Nuez", "Avena"],
+        "ingredients": [
+            "Granada",
+            "Nuez",
+            "Avena"
+        ],
         "steps": "Bate 1/2 taza de granos de granada con un puñado pequeño de nueces y 1/4 taza de copos de avena. Añade 1 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -349,9 +491,16 @@
         "color": "red",
         "description": "Mezcla de bayas para el corazón.",
         "benefits": "Dilata los vasos sanguíneos de forma segura para regular la presión arterial y aporta ácidos grasos omega-3 esenciales.",
-        "healthTags": ["Heart Health", "Wellness"],
+        "healthTags": [
+            "Salud Cardíaca",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Granada", "Remolacha", "Arándanos"],
+        "ingredients": [
+            "Granada",
+            "Remolacha",
+            "Arándanos"
+        ],
         "steps": "Bate 1/4 taza de granos de granada con 1/2 taza de remolacha cruda en trozos y 1/2 taza de arándanos. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -367,9 +516,16 @@
         "color": "green",
         "description": "Apoyo suave para el detox diario.",
         "benefits": "Se une a los metales pesados en el torrente sanguíneo y ayuda al hígado a eliminar toxinas.",
-        "healthTags": ["Detox & Cleansing", "Wellness"],
+        "healthTags": [
+            "Detox y Limpieza",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Vitamins",
-        "ingredients": ["Clorela", "Espirulina", "Limón"],
+        "ingredients": [
+            "Clorela",
+            "Espirulina",
+            "Limón"
+        ],
         "steps": "Mezcla 1 cucharadita de polvo de clorela y 1 cucharadita de espirulina con el zumo de 1 limón fresco. Añade 1 taza de agua fría y bate durante 30 segundos.",
         "tier": "free",
         "isHero": false,
@@ -385,9 +541,16 @@
         "color": "green",
         "description": "Cargado de energía y nutrientes vitales para impulsarte durante el día.",
         "benefits": "Una mezcla sinérgica para los máximos beneficios Smooth Savage.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Kale", "Brócoli", "Piña"],
+        "ingredients": [
+            "Kale",
+            "Brócoli",
+            "Piña"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -403,9 +566,16 @@
         "color": "amber",
         "description": "Poder natural para vivir al máximo rendimiento.",
         "benefits": "Potencia la vitalidad con polen de pino y minerales tropicales.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Mango", "Coco", "Polen de Pino"],
+        "ingredients": [
+            "Mango",
+            "Coco",
+            "Polen de Pino"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -421,9 +591,16 @@
         "color": "amber",
         "description": "Refuerzo inmunitario con toque tropical.",
         "benefits": "Alto contenido en vitamina C y antioxidantes únicos de la carambola.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Pera", "Kiwi", "Anís Estrellado"],
+        "ingredients": [
+            "Pera",
+            "Kiwi",
+            "Anís Estrellado"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -439,9 +616,16 @@
         "color": "amber",
         "description": "Medicina ancestral para la vida moderna.",
         "benefits": "Los poderosos beneficios del aceite de semilla negra para la salud total del sistema.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Saúco", "Arándanos", "Aceite de Semilla Negra"],
+        "ingredients": [
+            "Saúco",
+            "Arándanos",
+            "Aceite de Semilla Negra"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -457,9 +641,16 @@
         "color": "amber",
         "description": "Dosis máxima de vitamina C para una inmunidad de titanio.",
         "benefits": "Aprovecha las bayas de camu camu para un bienestar óptimo.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Guayaba", "Fresas", "Camu Camu"],
+        "ingredients": [
+            "Guayaba",
+            "Fresas",
+            "Camu Camu"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -475,9 +666,16 @@
         "color": "purple",
         "description": "Sueña más profundo y despierta más lúcido.",
         "benefits": "Hongos reishi combinados con cerezas ricas en melatonina.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Cereza", "Arándanos", "Reishi"],
+        "ingredients": [
+            "Cereza",
+            "Arándanos",
+            "Reishi"
+        ],
         "steps": "Bate 1/2 taza de cerezas ácidas y 1/2 taza de arándanos con 1/2 cucharadita de polvo de hongo reishi. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -493,9 +691,16 @@
         "color": "amber",
         "description": "92 de los 102 minerales que tu cuerpo necesita.",
         "benefits": "Infusión mineral de musgo marino y fucus.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Musgo Marino", "Piña", "Fucus"],
+        "ingredients": [
+            "Musgo Marino",
+            "Piña",
+            "Fucus"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -511,9 +716,16 @@
         "color": "amber",
         "description": "Enzimas de papaína para alivio inmediato.",
         "benefits": "Apoya un microbioma intestinal limpio y saludable.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Papaya", "Jengibre", "Anís Estrellado"],
+        "ingredients": [
+            "Papaya",
+            "Jengibre",
+            "Anís Estrellado"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -529,9 +741,16 @@
         "color": "amber",
         "description": "Energía eléctrica de las bayas goji negras.",
         "benefits": "Protección antioxidante masiva con un tono violeta intenso.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Goji Negro", "Baya Haskap", "Uvas"],
+        "ingredients": [
+            "Goji Negro",
+            "Baya Haskap",
+            "Uvas"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -547,9 +766,16 @@
         "color": "amber",
         "description": "Energía equilibrada para una mente centrada.",
         "benefits": "Apoya la visión y la vitalidad a largo plazo.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Goji Negro", "Moras", "Vainilla"],
+        "ingredients": [
+            "Goji Negro",
+            "Moras",
+            "Vainilla"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -565,9 +791,16 @@
         "color": "amber",
         "description": "Protección diaria frente a la inflamación.",
         "benefits": "Curcumina activada para máxima biodisponibilidad.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Piña", "Cúrcuma", "Pimienta Negra"],
+        "ingredients": [
+            "Piña",
+            "Cúrcuma",
+            "Pimienta Negra"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -583,9 +816,16 @@
         "color": "amber",
         "description": "Foco tranquilo para los días más exigentes.",
         "benefits": "Cafeína sin los nervios.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Matcha", "Espinacas", "Mango"],
+        "ingredients": [
+            "Matcha",
+            "Espinacas",
+            "Mango"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -601,9 +841,17 @@
         "color": "amber",
         "description": "Elimina los metales pesados con clorela y cilantro.",
         "benefits": "Detox celular profundo para un sistema más limpio.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Clorela", "Manzana Verde", "Limón", "Cilantro"],
+        "ingredients": [
+            "Clorela",
+            "Manzana Verde",
+            "Limón",
+            "Cilantro"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -619,9 +867,17 @@
         "color": "amber",
         "description": "Energía del shilajit para el máximo rendimiento.",
         "benefits": "Mineralización y apoyo en cada gota.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Plátano", "Shilajit", "Mantequilla de Cacahuete", "Mezquite"],
+        "ingredients": [
+            "Plátano",
+            "Shilajit",
+            "Mantequilla de Cacahuete",
+            "Mezquite"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -637,9 +893,16 @@
         "color": "amber",
         "description": "Combustible sostenido para el largo recorrido.",
         "benefits": "Alta fibra y nutrientes tropicales complejos.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Jackfruit", "Coco", "Semillas de Lino"],
+        "ingredients": [
+            "Jackfruit",
+            "Coco",
+            "Semillas de Lino"
+        ],
         "steps": "Bate 1 taza de jackfruit madura en trozos con 1/2 taza de pulpa de coco fresco y 1 cucharada de semillas de lino molidas. Añade 3/4 taza de agua de coco y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -655,9 +918,16 @@
         "color": "amber",
         "description": "Limpia tu sistema con enzimas actinidina.",
         "benefits": "Regularidad y sensación de ligereza intestinal.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Kiwi", "Manzana", "Semillas de Lino"],
+        "ingredients": [
+            "Kiwi",
+            "Manzana",
+            "Semillas de Lino"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -673,9 +943,16 @@
         "color": "amber",
         "description": "Azúcar en sangre estable, alta energía.",
         "benefits": "El 'Oro de los Incas' para el poder diario.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Lúcuma", "Anacardo", "Dátiles"],
+        "ingredients": [
+            "Lúcuma",
+            "Anacardo",
+            "Dátiles"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -691,9 +968,16 @@
         "color": "amber",
         "description": "Fortaleza digestiva prehistórica.",
         "benefits": "Frutas ricas en fibra para una limpieza intestinal profunda.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Higo", "Ciruela", "Psyllium"],
+        "ingredients": [
+            "Higo",
+            "Ciruela",
+            "Psyllium"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -709,9 +993,17 @@
         "color": "amber",
         "description": "Hidratación profunda con espino marino.",
         "benefits": "Ácidos grasos raros para un brillo luminoso.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Espino Marino", "Mango", "Aguacate", "Naranja"],
+        "ingredients": [
+            "Espino Marino",
+            "Mango",
+            "Aguacate",
+            "Naranja"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -727,9 +1019,16 @@
         "color": "amber",
         "description": "El reset post-comida definitivo.",
         "benefits": "Papaya y lima para una descomposición rápida de proteínas.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Papaya", "Lima", "Jengibre"],
+        "ingredients": [
+            "Papaya",
+            "Lima",
+            "Jengibre"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -745,9 +1044,16 @@
         "color": "amber",
         "description": "Calma la inflamación con fibras de nopal.",
         "benefits": "Hidratación profunda de las paredes intestinales.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Tuna", "Sandía", "Aloe Vera"],
+        "ingredients": [
+            "Tuna",
+            "Sandía",
+            "Aloe Vera"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -763,9 +1069,16 @@
         "color": "amber",
         "description": "Eleva tu estado de ánimo con el azafrán ancestral.",
         "benefits": "Bienestar mental y equilibrio emocional.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Albaricoque", "Papaya", "Azafrán"],
+        "ingredients": [
+            "Albaricoque",
+            "Papaya",
+            "Azafrán"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -781,9 +1094,17 @@
         "color": "amber",
         "description": "Adaptógenos para el equilibrio hormonal femenino.",
         "benefits": "Apoya la salud reproductiva y la radiancia.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Albaricoque", "Zanahoria", "Nectarina", "Semillas de Lino"],
+        "ingredients": [
+            "Albaricoque",
+            "Zanahoria",
+            "Nectarina",
+            "Semillas de Lino"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -799,9 +1120,16 @@
         "color": "amber",
         "description": "Micronutrientes tropicales únicos para la inmunidad.",
         "benefits": "Sistema de defensa con alto perfil de zinc.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Carambola", "Limón", "Pepino"],
+        "ingredients": [
+            "Carambola",
+            "Limón",
+            "Pepino"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -817,9 +1145,16 @@
         "color": "amber",
         "description": "Protección del ADN con astragalus y bayas.",
         "benefits": "Ralentiza el reloj biológico.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Bayas Goji", "Espinacas", "Arándanos"],
+        "ingredients": [
+            "Bayas Goji",
+            "Espinacas",
+            "Arándanos"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -835,9 +1170,17 @@
         "color": "amber",
         "description": "Brillo de polvo de perla y hongo tremella.",
         "benefits": "Hidratación máxima y reparación celular.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Melocotón", "Coco", "Tremella", "Perla"],
+        "ingredients": [
+            "Melocotón",
+            "Coco",
+            "Tremella",
+            "Perla"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -853,9 +1196,17 @@
         "color": "amber",
         "description": "Bayas de schisandra para el rendimiento atlético.",
         "benefits": "Soporte multiorgánico y resistencia enfocada.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Remolacha", "Sandía", "Lima", "Schisandra"],
+        "ingredients": [
+            "Remolacha",
+            "Sandía",
+            "Lima",
+            "Schisandra"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -871,9 +1222,17 @@
         "color": "amber",
         "description": "Deshincha y desintoxica con diente de león y apio.",
         "benefits": "Elimina el exceso de agua y toxinas de forma segura.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Apio", "Pepino", "Lima", "Diente de León"],
+        "ingredients": [
+            "Apio",
+            "Pepino",
+            "Lima",
+            "Diente de León"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -889,9 +1248,16 @@
         "color": "amber",
         "description": "Construcción inmunitaria con astragalus y jengibre.",
         "benefits": "Hierbas ancestrales para la defensa ambiental moderna.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Jengibre", "Limón", "Astragalus"],
+        "ingredients": [
+            "Jengibre",
+            "Limón",
+            "Astragalus"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -907,9 +1273,17 @@
         "color": "amber",
         "description": "Piel luminosa desde dentro hacia fuera.",
         "benefits": "Hongo tremella para retención de agua 500 veces su peso.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Aloe Vera", "Melón de Invierno", "Pepino", "Tremella"],
+        "ingredients": [
+            "Aloe Vera",
+            "Melón de Invierno",
+            "Pepino",
+            "Tremella"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -925,9 +1299,16 @@
         "color": "amber",
         "description": "Combustible MCT para la mente guerrera.",
         "benefits": "Foco agudo con cacao y bayas haskap.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Matcha", "Baya Haskap", "Manzana Verde"],
+        "ingredients": [
+            "Matcha",
+            "Baya Haskap",
+            "Manzana Verde"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -943,9 +1324,16 @@
         "color": "amber",
         "description": "Polvo de perla para la piel y los nervios.",
         "benefits": "Calma indulgente con un final de lichi y vainilla.",
-        "healthTags": ["Wellness", "Energy & Vitality"],
+        "healthTags": [
+            "Bienestar",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Lichi", "Plátano", "Perla"],
+        "ingredients": [
+            "Lichi",
+            "Plátano",
+            "Perla"
+        ],
         "steps": "Bate todos los ingredientes hasta obtener una textura suave.",
         "tier": "free",
         "isHero": false,
@@ -961,9 +1349,16 @@
         "color": "purple",
         "description": "Defensa antiviral ancestral en un vaso.",
         "benefits": "Los potentes compuestos antivirales del saúco bloquean la replicación viral mientras el clavo y la manzana aportan antioxidantes inmunoestimulantes.",
-        "healthTags": ["Immunity Boost", "Wellness"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Saúco", "Clavo", "Manzana"],
+        "ingredients": [
+            "Saúco",
+            "Clavo",
+            "Manzana"
+        ],
         "steps": "Bate 1/2 taza de sirope de saúco con 1 manzana entera y una pizca de clavo molido. Añade 1/2 taza de agua y bate a velocidad alta durante 45 segundos.",
         "tier": "free",
         "isHero": false,
@@ -979,9 +1374,16 @@
         "color": "orange",
         "description": "Explosión tropical de vitamina C.",
         "benefits": "La guayaba y la acerola aportan un golpe masivo de vitamina C mientras la naranja añade flavonoides que amplifican la actividad de las células inmunitarias.",
-        "healthTags": ["Immunity Boost", "Wellness"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Guayaba", "Naranja", "Acerola"],
+        "ingredients": [
+            "Guayaba",
+            "Naranja",
+            "Acerola"
+        ],
         "steps": "Bate 1 guayaba entera con 1 naranja pelada y 1/4 taza de pulpa fresca de acerola. Añade 1/2 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -997,9 +1399,15 @@
         "color": "red",
         "description": "Fortaleza inmunitaria de bayas.",
         "benefits": "Una mezcla concentrada de bayas silvestres aporta antocianinas y vitamina C extrema del camu camu para una respuesta inmunitaria rápida.",
-        "healthTags": ["Immunity Boost", "Wellness"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Bayas Mixtas", "Camu Camu"],
+        "ingredients": [
+            "Bayas Mixtas",
+            "Camu Camu"
+        ],
         "steps": "Bate 1 taza de bayas mixtas congeladas con 1 cucharadita de polvo de camu camu. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1015,9 +1423,16 @@
         "color": "green",
         "description": "Protección celular de graviola.",
         "benefits": "La guanábana y la graviola son legendarias por sus potentes acetogeninas que apoyan la defensa celular y la resiliencia inmunitaria.",
-        "healthTags": ["Immunity Boost", "Wellness"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Guanábana", "Graviola", "Manzana"],
+        "ingredients": [
+            "Guanábana",
+            "Graviola",
+            "Manzana"
+        ],
         "steps": "Bate 1 taza de pulpa de guanábana con 2 cucharadas de extracto de graviola y 1 manzana dulce entera. Añade 1/2 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1033,9 +1448,16 @@
         "color": "amber",
         "description": "Combustible tropical para la resistencia.",
         "benefits": "El coco aporta ácidos grasos de cadena media de rápida absorción mientras la maca y la piña impulsan la energía física sostenida y la recuperación.",
-        "healthTags": ["Energy & Vitality", "Wellness"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Coco", "Maca", "Piña"],
+        "ingredients": [
+            "Coco",
+            "Maca",
+            "Piña"
+        ],
         "steps": "Bate 1/2 taza de pulpa de coco fresco con 1 cucharadita de polvo de raíz de maca y 1 taza de trozos de piña. Añade 3/4 taza de agua de coco y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1051,9 +1473,15 @@
         "color": "purple",
         "description": "Alivio tropical del estrés.",
         "benefits": "La fruta de la pasión reduce la ansiedad de forma natural mientras el magnesio relaja el sistema nervioso para una calma profunda y sin esfuerzo.",
-        "healthTags": ["Stress Relief & Calm", "Wellness"],
+        "healthTags": [
+            "Antiestrés y Calma",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Maracuyá", "Magnesio"],
+        "ingredients": [
+            "Maracuyá",
+            "Magnesio"
+        ],
         "steps": "Bate la pulpa de 3 maracuyás frescos con 1 medida de suplemento de magnesio iónico. Añade 1 taza de agua fría y bate a velocidad alta durante 45 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1069,9 +1497,16 @@
         "color": "purple",
         "description": "La nicotina de la naturaleza — limpia y vegetal.",
         "benefits": "La berenjena y la coliflor son de las fuentes vegetales naturales más ricas en nicotina, apoyando la producción de acetilcolina para una cognición más aguda, foco y equilibrio del sistema nervioso — sin adicción ni químicos del tabaco.",
-        "healthTags": ["Energy & Vitality", "Wellness"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Berenjena", "Coliflor", "Pera"],
+        "ingredients": [
+            "Berenjena",
+            "Coliflor",
+            "Pera"
+        ],
         "steps": "Cuece al vapor ligeramente 1/2 taza de berenjena y 1/2 taza de coliflor y deja enfriar. Bate con 1 pera madura y 3/4 taza de agua fría. Bate a velocidad alta durante 90 segundos hasta que quede completamente suave.",
         "tier": "free",
         "isHero": false,
@@ -1087,9 +1522,16 @@
         "color": "purple",
         "description": "Escudo doble adaptogénico contra el estrés.",
         "benefits": "Combina ashwagandha y reishi — dos de los adaptógenos más potentes reguladores del estrés — para reducir profundamente el cortisol, calmar el sistema nervioso y construir resiliencia a largo plazo frente al estrés diario.",
-        "healthTags": ["Stress Relief & Calm", "Wellness"],
+        "healthTags": [
+            "Antiestrés y Calma",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Adaptogens",
-        "ingredients": ["Reishi", "Ashwagandha", "Leche de Almendras"],
+        "ingredients": [
+            "Reishi",
+            "Ashwagandha",
+            "Leche de Almendras"
+        ],
         "steps": "Añade 1/2 cucharadita de polvo de hongo reishi y 1 cucharadita de polvo de raíz de ashwagandha a 1,5 tazas de leche de almendras fría. Bate a velocidad alta durante 60 segundos hasta que quede suave y cremoso.",
         "tier": "free",
         "isHero": false,
@@ -1105,9 +1547,16 @@
         "color": "amber",
         "description": "Elevación del estado de ánimo con chocolate crudo.",
         "benefits": "El cacao crudo inunda el cerebro de teobromina y feniletilamina, desencadenando una elevación natural del estado de ánimo y energía sostenida sin el bajón de la cafeína.",
-        "healthTags": ["Energy & Vitality", "Wellness"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Cacao", "Plátano", "Leche de Almendras"],
+        "ingredients": [
+            "Cacao",
+            "Plátano",
+            "Leche de Almendras"
+        ],
         "steps": "Bate 1 cucharada de cacao puro en polvo con 1 plátano maduro congelado y 1,5 tazas de leche de almendras. Bate a velocidad alta durante 60 segundos hasta obtener una textura espesa y cremosa.",
         "tier": "free",
         "isHero": false,
@@ -1123,9 +1572,16 @@
         "color": "green",
         "description": "El árbol milagroso en un vaso.",
         "benefits": "La moringa contiene 92 nutrientes y 46 antioxidantes, apoyando la reparación celular, la desintoxicación y una vitalidad diaria sostenida.",
-        "healthTags": ["Detox & Cleansing", "Wellness"],
+        "healthTags": [
+            "Detox y Limpieza",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Moringa", "Mango", "Agua de Coco"],
+        "ingredients": [
+            "Moringa",
+            "Mango",
+            "Agua de Coco"
+        ],
         "steps": "Bate 1 cucharadita de polvo de hojas de moringa con 1 taza de trozos de mango congelado y 1 taza de agua de coco. Bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1141,9 +1597,16 @@
         "color": "amber",
         "description": "Defensa del rey de los hongos.",
         "benefits": "El chaga tiene la puntuación antioxidante ORAC más alta de cualquier alimento en la tierra, neutralizando radicales libres y fortaleciendo las defensas inmunitarias a nivel celular.",
-        "healthTags": ["Immunity Boost", "Antioxidant Power"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Poder Antioxidante"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Chaga", "Arándanos", "Leche de Avena"],
+        "ingredients": [
+            "Chaga",
+            "Arándanos",
+            "Leche de Avena"
+        ],
         "steps": "Prepara 1 cucharadita de polvo de chaga en agua tibia y deja enfriar. Bate con 1 taza de arándanos congelados y 1 taza de leche de avena durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1159,9 +1622,16 @@
         "color": "green",
         "description": "Reset diario con hierba de trigo.",
         "benefits": "La hierba de trigo lleva clorofila directamente al torrente sanguíneo, alcalinizando el cuerpo, desintoxicando el hígado y aportando un rápido impulso de energía.",
-        "healthTags": ["Detox & Cleansing", "Energy & Vitality"],
+        "healthTags": [
+            "Detox y Limpieza",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Hierba de Trigo", "Manzana", "Limón"],
+        "ingredients": [
+            "Hierba de Trigo",
+            "Manzana",
+            "Limón"
+        ],
         "steps": "Bate 1 cucharadita de polvo de hierba de trigo con 1 manzana entera y el zumo de medio limón. Añade 3/4 taza de agua y bate a velocidad alta durante 45 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1177,9 +1647,16 @@
         "color": "amber",
         "description": "Mezcla completa de proteína vegetal.",
         "benefits": "Las semillas de cáñamo son una de las pocas fuentes vegetales con los 9 aminoácidos esenciales, aportando proteína completa junto con omega-3 y omega-6 en proporción perfecta.",
-        "healthTags": ["Energy & Vitality", "Wellness"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Semillas de Cáñamo", "Plátano", "Leche de Almendras"],
+        "ingredients": [
+            "Semillas de Cáñamo",
+            "Plátano",
+            "Leche de Almendras"
+        ],
         "steps": "Bate 2 cucharadas de semillas de cáñamo crudas con 1 plátano congelado y 1,5 tazas de leche de almendras. Bate a velocidad alta durante 60 segundos hasta que quede suave.",
         "tier": "free",
         "isHero": false,
@@ -1195,9 +1672,16 @@
         "color": "amber",
         "description": "Combustible ancestral para la resistencia.",
         "benefits": "Las semillas de chía se expanden hasta 10 veces su tamaño en el estómago, ralentizando la digestión y aportando hidratación sostenida, fibra y omega-3 durante horas.",
-        "healthTags": ["Digestion & Gut Health", "Energy & Vitality"],
+        "healthTags": [
+            "Digestión y Salud Intestinal",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Semillas de Chía", "Mango", "Leche de Coco"],
+        "ingredients": [
+            "Semillas de Chía",
+            "Mango",
+            "Leche de Coco"
+        ],
         "steps": "Remoja 1 cucharada de semillas de chía en leche de coco durante 10 minutos. Bate con 1 taza de mango congelado y el resto de la leche de coco hasta que quede suave.",
         "tier": "free",
         "isHero": false,
@@ -1213,9 +1697,17 @@
         "color": "purple",
         "description": "Ritual nocturno cálido para dormir.",
         "benefits": "La manzanilla se une a los receptores GABA para calmar el sistema nervioso mientras la nuez moscada contiene miristicina que profundiza la calidad del sueño y reduce los despertares nocturnos.",
-        "healthTags": ["Sleep & Recovery", "Stress Relief & Calm"],
+        "healthTags": [
+            "Sueño y Recuperación",
+            "Antiestrés y Calma"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Manzanilla", "Nuez Moscada", "Plátano", "Leche de Avena"],
+        "ingredients": [
+            "Manzanilla",
+            "Nuez Moscada",
+            "Plátano",
+            "Leche de Avena"
+        ],
         "steps": "Infusiona la manzanilla en leche de avena tibia durante 5 minutos y deja enfriar. Bate con 1 plátano maduro y una pizca de nuez moscada durante 45 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1231,9 +1723,16 @@
         "color": "red",
         "description": "Activador termogénico del metabolismo.",
         "benefits": "La capsaicina de la cayena activa la termogénesis para quemar grasa mientras el jengibre potencia el fuego digestivo y la bromelina de la piña acelera la absorción de nutrientes.",
-        "healthTags": ["Energy & Vitality", "Detox & Cleansing"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Detox y Limpieza"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Cayena", "Piña", "Jengibre"],
+        "ingredients": [
+            "Cayena",
+            "Piña",
+            "Jengibre"
+        ],
         "steps": "Bate 1 taza de trozos de piña con 1 trozo de jengibre fresco del tamaño de un pulgar y una pizca pequeña de pimienta de cayena. Añade 3/4 taza de agua y bate a velocidad alta durante 45 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1249,9 +1748,16 @@
         "color": "amber",
         "description": "Equilibrio glucémico y calidez.",
         "benefits": "El cinamaldehído de la canela imita a la insulina para estabilizar el azúcar en sangre mientras la mantequilla de almendras aporta grasas saludables que ralentizan la absorción de glucosa de forma natural.",
-        "healthTags": ["Energy & Vitality", "Wellness"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Canela", "Mantequilla de Almendras", "Plátano"],
+        "ingredients": [
+            "Canela",
+            "Mantequilla de Almendras",
+            "Plátano"
+        ],
         "steps": "Bate 1 cucharadita de canela en polvo con 1 cucharada de mantequilla de almendras cruda y 1 plátano congelado. Añade 1 taza de leche de avena y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1267,9 +1773,16 @@
         "color": "green",
         "description": "20 veces más vitamina C que una naranja.",
         "benefits": "El amla aporta una de las concentraciones más altas de vitamina C natural en la tierra, con taninos que la mantienen estable y biodisponible como ninguna otra fruta.",
-        "healthTags": ["Immunity Boost", "Skin Glow & Beauty"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Piel y Belleza"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Amla", "Jengibre", "Miel"],
+        "ingredients": [
+            "Amla",
+            "Jengibre",
+            "Miel"
+        ],
         "steps": "Bate 2 cucharadas de pulpa fresca de amla con 1 trozo de jengibre del tamaño de un pulgar y 1 cucharadita de miel cruda. Añade 1 taza de agua y bate a velocidad alta durante 45 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1285,9 +1798,16 @@
         "color": "amber",
         "description": "El superfuto más poderoso de Brasil.",
         "benefits": "El cupuaçu absorbe agua 3,5 veces su peso manteniendo las células profundamente hidratadas, mientras su compuesto único de teacrina aporta energía duradera sin nerviosismo.",
-        "healthTags": ["Energy & Vitality", "Skin Glow & Beauty"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Piel y Belleza"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Cupuaçu", "Plátano", "Coco"],
+        "ingredients": [
+            "Cupuaçu",
+            "Plátano",
+            "Coco"
+        ],
         "steps": "Bate 1/2 taza de pulpa de cupuaçu con 1 plátano maduro y 1/4 taza de pulpa de coco fresco. Añade 3/4 taza de agua de coco y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1303,9 +1823,16 @@
         "color": "purple",
         "description": "Triple golpe antioxidante de bayas oscuras.",
         "benefits": "El arándano silvestre, la grosella negra y la grosella roja combinan tres de las bayas más densas en antocianinas para máxima protección de la visión y defensa celular.",
-        "healthTags": ["Antioxidant Power", "Skin Glow & Beauty"],
+        "healthTags": [
+            "Poder Antioxidante",
+            "Piel y Belleza"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Arándano Silvestre", "Grosella Negra", "Grosella Roja"],
+        "ingredients": [
+            "Arándano Silvestre",
+            "Grosella Negra",
+            "Grosella Roja"
+        ],
         "steps": "Bate 1/3 taza de cada uno: arándanos silvestres, grosellas negras y grosellas rojas. Añade 1 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1321,9 +1848,16 @@
         "color": "red",
         "description": "Impulso inmunitario de bayas ácidas.",
         "benefits": "Las frambuesas y el arándano rojo son ricos en ácido elágico y proantocianidinas que combaten infecciones, reducen la inflamación y protegen el tracto urinario.",
-        "healthTags": ["Immunity Boost", "Antioxidant Power"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Poder Antioxidante"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Frambuesas", "Arándano Rojo", "Manzana"],
+        "ingredients": [
+            "Frambuesas",
+            "Arándano Rojo",
+            "Manzana"
+        ],
         "steps": "Bate 1/2 taza de frambuesas con 1/4 taza de arándanos rojos y 1 manzana dulce. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1339,9 +1873,16 @@
         "color": "amber",
         "description": "Frutas asiáticas de la longevidad.",
         "benefits": "El longan nutre el corazón y calma la mente según la medicina china mientras el níspero suaviza el sistema respiratorio y aporta betacaroteno potente.",
-        "healthTags": ["Wellness", "Immunity Boost"],
+        "healthTags": [
+            "Bienestar",
+            "Refuerzo Inmune"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Longan", "Níspero", "Pera"],
+        "ingredients": [
+            "Longan",
+            "Níspero",
+            "Pera"
+        ],
         "steps": "Pela y deshuesa 6 longanes y 3 nísperos. Bate con 1 pera madura y 3/4 taza de agua a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1357,9 +1898,16 @@
         "color": "green",
         "description": "Fusión inmunitaria de exóticos raros.",
         "benefits": "El contenido único de yodo de la feijoa apoya la función tiroidea mientras las vitanólidas del physalis potencian la respuesta inmune y protegen contra el estrés oxidativo.",
-        "healthTags": ["Immunity Boost", "Wellness"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Feijoa", "Physalis", "Lima"],
+        "ingredients": [
+            "Feijoa",
+            "Physalis",
+            "Lima"
+        ],
         "steps": "Extrae la pulpa de 4 feijoas y bate con 8 bayas de physalis y el zumo de 1 lima. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1375,9 +1923,16 @@
         "color": "yellow",
         "description": "Tres cítricos raros, un solo golpe.",
         "benefits": "El pomelo, el pomelo rosado y el yuzu combinan flavonoides únicos — naringenina y hesperidina — para reducir el colesterol, potenciar el metabolismo y aportar vitamina C intensa.",
-        "healthTags": ["Immunity Boost", "Heart Health"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Salud Cardíaca"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Pomelo", "Pomelo Rosado", "Yuzu"],
+        "ingredients": [
+            "Pomelo",
+            "Pomelo Rosado",
+            "Yuzu"
+        ],
         "steps": "Pela y trocea 1/4 de pomelo, 1/2 pomelo rosado y exprime el zumo de 1 yuzu. Bate junto con 1/2 taza de agua a velocidad alta durante 45 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1393,9 +1948,16 @@
         "color": "red",
         "description": "Trío de frutas oscuras para la longevidad.",
         "benefits": "Las cerezas, la mora y el jujube son venerados en la medicina tradicional por su longevidad, protección hepática y su poderoso contenido en antocianinas.",
-        "healthTags": ["Antioxidant Power", "Sleep & Recovery"],
+        "healthTags": [
+            "Poder Antioxidante",
+            "Sueño y Recuperación"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Cerezas", "Mora", "Jujube"],
+        "ingredients": [
+            "Cerezas",
+            "Mora",
+            "Jujube"
+        ],
         "steps": "Bate 1/2 taza de cerezas deshuesadas con 1/3 taza de moras y 4 jujubes deshuesados. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1411,9 +1973,16 @@
         "color": "yellow",
         "description": "Combustible de almidón tropical y enzimas.",
         "benefits": "Las enzimas papaína del pawpaw descomponen proteínas y reducen la hinchazón mientras el plátano macho aporta almidón resistente que alimenta las bacterias intestinales beneficiosas.",
-        "healthTags": ["Digestion & Gut Health", "Energy & Vitality"],
+        "healthTags": [
+            "Digestión y Salud Intestinal",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Papaya", "Plátano Macho", "Coco"],
+        "ingredients": [
+            "Papaya",
+            "Plátano Macho",
+            "Coco"
+        ],
         "steps": "Bate 1 taza de pulpa de papaya madura con 1/2 plátano macho maduro y 1/4 taza de coco fresco. Añade 3/4 taza de agua de coco y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1429,9 +1998,16 @@
         "color": "amber",
         "description": "Poder terroso de las raíces.",
         "benefits": "El boniato y la calabaza están cargados de betacaroteno que se convierte en vitamina A, protegiendo simultáneamente la visión, la piel y la función inmunitaria.",
-        "healthTags": ["Immunity Boost", "Energy & Vitality"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Boniato", "Calabaza", "Jengibre"],
+        "ingredients": [
+            "Boniato",
+            "Calabaza",
+            "Jengibre"
+        ],
         "steps": "Cuece al vapor 1/2 taza de boniato y 1/2 taza de calabaza y deja enfriar. Bate con 1 trozo de jengibre fresco del tamaño de un pulgar y 1 taza de leche de almendras a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1447,9 +2023,16 @@
         "color": "green",
         "description": "La fruta más deliciosa según Mark Twain.",
         "benefits": "La chirimoya contiene acetogeninas estudiadas por sus poderosas propiedades anticancerígenas, además de un rico complejo de vitaminas B que apoya la función nerviosa y la energía.",
-        "healthTags": ["Immunity Boost", "Wellness"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Chirimoya", "Lima", "Agua de Coco"],
+        "ingredients": [
+            "Chirimoya",
+            "Lima",
+            "Agua de Coco"
+        ],
         "steps": "Extrae la pulpa de 1 chirimoya madura retirando las semillas. Bate con el zumo de 1 lima y 1 taza de agua de coco a velocidad alta durante 45 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1465,9 +2048,16 @@
         "color": "amber",
         "description": "Superfruta sedosa mesoamericana.",
         "benefits": "El níspero americano y el mamey sapote aportan polifenoles raros que refuerzan la integridad del revestimiento intestinal, con altos niveles de vitamina B6 para la producción de serotonina.",
-        "healthTags": ["Digestion & Gut Health", "Wellness"],
+        "healthTags": [
+            "Digestión y Salud Intestinal",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Níspero Americano", "Mamey Sapote", "Plátano"],
+        "ingredients": [
+            "Níspero Americano",
+            "Mamey Sapote",
+            "Plátano"
+        ],
         "steps": "Bate 1/2 taza de pulpa de níspero americano con 1/2 taza de mamey sapote y 1 plátano maduro. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1483,9 +2073,16 @@
         "color": "amber",
         "description": "Tónico digestivo ancestral.",
         "benefits": "El tamarindo es rico en ácido tartárico e hidroxicítrico que estimulan la producción de bilis para una digestión de grasas más rápida y una limpieza hepática natural.",
-        "healthTags": ["Digestion & Gut Health", "Detox & Cleansing"],
+        "healthTags": [
+            "Digestión y Salud Intestinal",
+            "Detox y Limpieza"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Tamarindo", "Mango", "Jengibre"],
+        "ingredients": [
+            "Tamarindo",
+            "Mango",
+            "Jengibre"
+        ],
         "steps": "Disuelve 2 cucharadas de pasta de tamarindo en agua tibia. Bate con 1 taza de mango congelado y 1 trozo de jengibre. Añade 3/4 taza de agua y bate durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1501,9 +2098,16 @@
         "color": "red",
         "description": "Explosión antioxidante del tomate árbol.",
         "benefits": "El tamarillo contiene ácido clorogénico que reduce el azúcar en sangre y un perfil único de carotenoides que protege contra la degeneración macular.",
-        "healthTags": ["Antioxidant Power", "Heart Health"],
+        "healthTags": [
+            "Poder Antioxidante",
+            "Salud Cardíaca"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Tamarillo", "Naranja", "Jengibre"],
+        "ingredients": [
+            "Tamarillo",
+            "Naranja",
+            "Jengibre"
+        ],
         "steps": "Corta 2 tamarillos por la mitad y extrae la pulpa. Bate con 1 naranja pelada y 1 trozo de jengibre. Añade 1/2 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1519,9 +2123,16 @@
         "color": "orange",
         "description": "La fruta que comes entera.",
         "benefits": "La piel del kumquat contiene más limoneno y hesperidina que la pulpa —algo único en los cítricos— convirtiéndolo en un potente antiinflamatorio y acelerador del metabolismo.",
-        "healthTags": ["Immunity Boost", "Anti-Inflammatory"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Antiinflamatorio"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Kumquat", "Naranja", "Cúrcuma"],
+        "ingredients": [
+            "Kumquat",
+            "Naranja",
+            "Cúrcuma"
+        ],
         "steps": "Bate 6 kumquats enteros (con piel) con 1 naranja pelada y 1/2 cucharadita de cúrcuma. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1537,9 +2148,16 @@
         "color": "green",
         "description": "Energía de almidón polinesio.",
         "benefits": "El fruto del pan es una fuente completa de proteína con todos los aminoácidos esenciales, algo raro en alimentos vegetales, con alta fibra que alimenta el microbioma intestinal durante horas.",
-        "healthTags": ["Energy & Vitality", "Digestion & Gut Health"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Digestión y Salud Intestinal"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Fruto del Pan", "Coco", "Canela"],
+        "ingredients": [
+            "Fruto del Pan",
+            "Coco",
+            "Canela"
+        ],
         "steps": "Cuece al vapor 1 taza de fruto del pan maduro hasta que esté blando y deja enfriar. Bate con 1/4 taza de coco fresco y 1/2 cucharadita de canela. Añade 1 taza de leche de coco y bate durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1555,9 +2173,16 @@
         "color": "amber",
         "description": "Superfrutos de otoño olvidados.",
         "benefits": "El membrillo contiene taninos y pectina potentes que sanan el revestimiento intestinal, mientras el ácido betulínico del caqui ha demostrado propiedades antitumorales en investigación.",
-        "healthTags": ["Digestion & Gut Health", "Antioxidant Power"],
+        "healthTags": [
+            "Digestión y Salud Intestinal",
+            "Poder Antioxidante"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Membrillo", "Caqui", "Manzana"],
+        "ingredients": [
+            "Membrillo",
+            "Caqui",
+            "Manzana"
+        ],
         "steps": "Cuece 1/2 membrillo hasta que esté blando y deja enfriar. Bate con la pulpa de 1 caqui maduro y 1 manzana dulce. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1573,9 +2198,16 @@
         "color": "orange",
         "description": "El árbol de la vida africano.",
         "benefits": "El baobab tiene 6 veces más vitamina C que las naranjas y más calcio que la leche, apoyando la producción de colágeno, la densidad ósea y la fortaleza inmunitaria de forma simultánea.",
-        "healthTags": ["Immunity Boost", "Energy & Vitality"],
+        "healthTags": [
+            "Refuerzo Inmune",
+            "Energía y Vitalidad"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Baobab", "Mango", "Lima"],
+        "ingredients": [
+            "Baobab",
+            "Mango",
+            "Lima"
+        ],
         "steps": "Bate 1 cucharada de polvo de baobab con 1 taza de mango congelado y el zumo de 1 lima. Añade 3/4 taza de agua y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,
@@ -1591,9 +2223,16 @@
         "color": "amber",
         "description": "El rey de las frutas desatado.",
         "benefits": "El durian es excepcionalmente rico en vitaminas del grupo B, cobre y triptófano, siendo uno de los alimentos naturales más completos para la energía y el estado de ánimo.",
-        "healthTags": ["Energy & Vitality", "Wellness"],
+        "healthTags": [
+            "Energía y Vitalidad",
+            "Bienestar"
+        ],
         "synergies": "Superfoods + Fresh Fruits",
-        "ingredients": ["Durian", "Coco", "Plátano"],
+        "ingredients": [
+            "Durian",
+            "Coco",
+            "Plátano"
+        ],
         "steps": "Bate 1/2 taza de pulpa fresca de durian con 1/4 taza de pulpa de coco y 1 plátano congelado. Añade 3/4 taza de agua de coco y bate a velocidad alta durante 60 segundos.",
         "tier": "free",
         "isHero": false,

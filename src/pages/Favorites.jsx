@@ -1,43 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Heart } from 'lucide-react';
 import { useFavorites } from '../hooks/useFavorites';
-import FruitCard from '../components/FruitCard';
 import SmoothieCard from '../components/SmoothieCard';
-import SuperfoodCard from '../components/SuperfoodCard';
-import { Link } from 'react-router-dom';
-import { savageFoods } from '../data/superfoods';
 import { useT } from '../i18n/LanguageContext';
-
-// Internal keys stay in English so categorize() matches correctly
-const FILTERS = ['Fresh', 'Savage', 'Smoothies'];
 
 export default function Favorites() {
     const t = useT();
     const { favorites } = useFavorites();
-    const [active, setActive] = useState(new Set(FILTERS));
 
-    const toggle = (key) => {
-        setActive(prev => {
-            const next = new Set(prev);
-            next.has(key) ? next.delete(key) : next.add(key);
-            return next;
-        });
-    };
-
-    const categorize = (item) => {
-        if (savageFoods.find(s => s.id === item.id)) return 'Savage';
-        if (item.ingredients) return 'Smoothies';
-        return 'Fresh';
-    };
-
-    const displayed = favorites.filter(item => active.has(categorize(item)));
-
-    const filterLabels = {
-        Fresh: t('favorites.filterFresh'),
-        Savage: t('favorites.filterSavage'),
-        Smoothies: t('favorites.filterSmoothies'),
-    };
+    // Only smoothies have ingredients — filter just in case old data exists
+    const smoothieFavorites = favorites.filter(item => item.ingredients);
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -58,19 +31,7 @@ export default function Favorites() {
                 </div>
             </motion.div>
 
-            <div className="flex gap-3 mb-8 flex-wrap">
-                {FILTERS.map(key => (
-                    <button
-                        key={key}
-                        onClick={() => toggle(key)}
-                        className={`px-5 py-2 rounded-full text-sm font-bold transition-colors ${active.has(key) ? 'bg-green-500 text-white' : 'bg-orange-500 text-white'}`}
-                    >
-                        {filterLabels[key]}
-                    </button>
-                ))}
-            </div>
-
-            {favorites.length === 0 ? (
+            {smoothieFavorites.length === 0 ? (
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -82,15 +43,9 @@ export default function Favorites() {
                 </motion.div>
             ) : (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-8">
-                    {displayed.map((item, i) => {
-                        if (savageFoods.find(s => s.id === item.id)) {
-                            return <SuperfoodCard key={`superfood-${item.id}`} superfood={item} index={i} />;
-                        }
-                        if (item.ingredients) {
-                            return <SmoothieCard key={`smoothie-${item.id}`} smoothie={item} index={i} />;
-                        }
-                        return <FruitCard key={`fruit-${item.id}`} fruit={item} index={i} />;
-                    })}
+                    {smoothieFavorites.map((smoothie, i) => (
+                        <SmoothieCard key={smoothie.id} smoothie={smoothie} index={i} />
+                    ))}
                 </div>
             )}
         </div>

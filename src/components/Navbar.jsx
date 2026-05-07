@@ -30,7 +30,7 @@ export default function Navbar() {
                     {/* LOGO */}
                     <NavLink to="/" onClick={handleFreshClick} className="flex items-center group">
                         <div className="flex items-center transform group-hover:scale-105 transition-transform duration-300">
-                            <span className="text-4xl flex items-center gap-1.5" style={{ fontFamily: "'Poppins', sans-serif" }}>
+                            <span className="text-2xl md:text-4xl flex items-center gap-1" style={{ fontFamily: "'Poppins', sans-serif" }}>
                                 <span className="font-black" style={{ color: '#16a34a', textShadow: '0 0 18px rgba(34,197,94,0.7), 0 0 6px rgba(34,197,94,0.4)' }}>smooth</span>
                                 <span className="font-black text-gray-900 dark:text-white" style={{ letterSpacing: '0.03em' }}>savage</span>
                             </span>
@@ -61,7 +61,7 @@ export default function Navbar() {
                         </NavLink>
                     </div>
 
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-2 md:gap-4">
                         <button
                             onClick={() => setLangOpen(true)}
                             className="p-2 rounded-full text-amber-800 dark:text-gray-300 hover:bg-amber-200/50 dark:hover:bg-gray-800 transition-colors"

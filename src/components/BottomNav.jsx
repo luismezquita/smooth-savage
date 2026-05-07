@@ -4,7 +4,16 @@ import { Heart, CupSoda, MountainSnow } from 'lucide-react';
 import { StrawberryIcon } from './StrawberryIcon';
 import { useT } from '../i18n/LanguageContext';
 
-const scrollToTop = () => window.scrollTo(0, 0);
+const scrollToTop = () => {
+    // Clear saved scroll positions so pages always start at top when navigating via nav
+    sessionStorage.removeItem('freshListScrollPos');
+    sessionStorage.removeItem('freshListShowAll');
+    sessionStorage.removeItem('savageListScrollPos');
+    sessionStorage.removeItem('savageListShowAll');
+    sessionStorage.removeItem('smoothiesListScrollPos');
+    sessionStorage.removeItem('smoothiesListShowAll');
+    window.scrollTo(0, 0);
+};
 
 export default function BottomNav() {
     const t = useT();
