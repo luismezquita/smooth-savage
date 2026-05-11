@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Heart, Info, Sparkles, Zap, Target, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, Info, Sparkles, Zap, Target, CheckCircle2 } from 'lucide-react';
 import { savageFoods } from '../data/superfoods';
-import { useFavorites } from '../hooks/useFavorites';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import itemTipsI18n from '../data/item_tips_i18n';
 import itemNamesI18n from '../data/item_names_i18n';
@@ -18,8 +17,6 @@ export default function SuperfoodDetail() {
     const { language } = useLanguage();
     const { id } = useParams();
     const navigate = useNavigate();
-    const { isFavorite, toggleFavorite } = useFavorites();
-
     const superfood = savageFoods.find(s => s.id === id);
 
     useEffect(() => {
@@ -44,7 +41,6 @@ export default function SuperfoodDetail() {
         }
     }, [language]);
 
-    const isFav = isFavorite(superfood.id);
     const displayName = (language !== 'en' && itemNamesI18n[language]?.[superfood.id]) || superfood.name;
     const displayTeaser = (language !== 'en' && itemTeasersI18n[language]?.[superfood.id]) || superfood.teaser;
     const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[superfood.benefit]) || superfood.benefit;
@@ -62,13 +58,6 @@ export default function SuperfoodDetail() {
                 >
                     <ArrowLeft className="w-6 h-6" />
                 </button>
-                <button
-                    onClick={() => toggleFavorite(superfood)}
-                    className={`absolute top-6 right-6 z-30 p-3 backdrop-blur-md rounded-full transition-colors ${isFav ? 'bg-red-500/90 text-white' : 'bg-white/20 dark:bg-black/20 text-white hover:bg-white/40'}`}
-                >
-                    <Heart className={`w-6 h-6 ${isFav ? 'fill-current' : ''}`} />
-                </button>
-
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent z-10" />
                 <img src={superfood.image} alt={superfood.name} className="w-full h-full object-cover" />
 

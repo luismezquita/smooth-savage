@@ -33,10 +33,10 @@ export default function BenefitDetail() {
                 className={`rounded-[2.5rem] p-8 md:p-12 mb-16 bg-gradient-to-br ${category.color} text-white shadow-2xl relative overflow-hidden`}
             >
                 <div className="text-7xl mb-6 relative z-10 drop-shadow-lg">{category.icon}</div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 relative z-10 tracking-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 relative z-10 tracking-tight text-black">
                     {catTitle}
                 </h1>
-                <p className="text-xl md:text-2xl text-white/90 max-w-3xl relative z-10 font-medium">
+                <p className="text-xl md:text-2xl text-black font-bold max-w-3xl relative z-10">
                     {catTagline}. {t('benefitDetail.itemSuffix')}
                 </p>
                 <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none" />

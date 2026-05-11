@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, Search, X } from 'lucide-react';
 import { savageFoods } from '../data/superfoods';
 import SuperfoodCard from '../components/SuperfoodCard';
-import { useT } from '../i18n/LanguageContext';
+import { useT, useLanguage } from '../i18n/LanguageContext';
+import itemNamesI18n from '../data/item_names_i18n';
 
 const INITIAL_LIMIT = 8;
 const SCROLL_KEY = 'savageListScrollPos';
@@ -10,6 +11,7 @@ const SHOW_ALL_KEY = 'savageListShowAll';
 
 export default function Savage() {
     const t = useT();
+    const { language } = useLanguage();
     const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
     const [query, setQuery] = useState('');
 
@@ -30,7 +32,7 @@ export default function Savage() {
     }, []);
 
     const filtered = query.trim()
-        ? savageFoods.filter(f => f.name.toLowerCase().includes(query.toLowerCase()))
+        ? savageFoods.filter(f => (itemNamesI18n[language]?.[f.id] || f.name).toLowerCase().includes(query.toLowerCase()))
         : savageFoods;
 
     const displaySavage = showAll ? filtered : filtered.slice(0, INITIAL_LIMIT);
