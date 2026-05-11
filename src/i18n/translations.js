@@ -41,6 +41,7 @@ const translations = {
             allSub: 'Explore our delicious blends',
             viewAll: 'View All Smoothies',
             noResults: 'No smoothies found with that ingredient.',
+            slogan: 'Drink Smooth, Live Savage',
         },
         favorites: {
             title: 'Your Favorites',
@@ -128,6 +129,7 @@ const translations = {
             allSub: 'Explora nuestras deliciosas mezclas',
             viewAll: 'Ver Todos los Batidos',
             noResults: 'No se encontraron batidos con ese ingrediente.',
+            slogan: 'Bebe Suave, Vive Salvaje',
         },
         favorites: {
             title: 'Tus Favoritos',
@@ -215,6 +217,7 @@ const translations = {
             allSub: 'Explorez nos délicieux mélanges',
             viewAll: 'Voir tous les smoothies',
             noResults: 'Aucun smoothie trouvé avec cet ingrédient.',
+            slogan: 'Bois Smooth, Vis Savage',
         },
         favorites: {
             title: 'Vos Favoris',
@@ -302,6 +305,7 @@ const translations = {
             allSub: '探索我们美味的配方',
             viewAll: '查看全部果昔',
             noResults: '未找到含该食材的果昔。',
+            slogan: '喝得顺滑，活得狂野',
         },
         favorites: {
             title: '我的收藏',
@@ -389,6 +393,7 @@ const translations = {
             allSub: 'おいしいブレンドを探す',
             viewAll: 'すべてのスムージーを見る',
             noResults: 'その食材を含むスムージーが見つかりません。',
+            slogan: 'スムーズに飲んで、サベージに生きる',
         },
         favorites: {
             title: 'お気に入り',
@@ -476,6 +481,7 @@ const translations = {
             allSub: '맛있는 블렌드 탐색하기',
             viewAll: '스무디 전체 보기',
             noResults: '해당 재료가 포함된 스무디를 찾을 수 없습니다.',
+            slogan: '부드럽게 마시고, 새비지하게 살아',
         },
         favorites: {
             title: '나의 즐겨찾기',
@@ -563,6 +569,7 @@ const translations = {
             allSub: 'استكشف مزيجاتنا اللذيذة',
             viewAll: 'عرض جميع العصائر',
             noResults: 'لم يُعثر على عصائر بهذا المكون.',
+            slogan: 'اشرب بسلاسة، عش بشراسة',
         },
         favorites: {
             title: 'مفضلتك',

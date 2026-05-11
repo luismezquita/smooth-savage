@@ -50,14 +50,15 @@ export default function Smoothies() {
 
     return (
         <div className="min-h-screen pt-8 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            {/* Slogan */}
             <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="mb-12 text-center max-w-2xl mx-auto"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.1 }}
+                className="w-screen relative left-1/2 -translate-x-1/2 bg-fruit-dark py-6 text-center mb-0"
             >
-                <h1 className="text-4xl md:text-5xl font-black mb-4">{t('smoothies.title')}</h1>
-                <p className="text-lg text-gray-600 dark:text-gray-400">
-                    {t('smoothies.subtitle')}
+                <p className="text-3xl md:text-4xl font-black italic tracking-wide px-4" style={{ color: '#F5E6C8' }}>
+                    {t('smoothies.slogan')}
                 </p>
             </motion.div>
 
