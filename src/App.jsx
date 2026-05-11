@@ -21,7 +21,8 @@ function App() {
             <BrowserRouter>
                 <Layout>
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path="/" element={<Navigate to="/smoothies" replace />} />
+                        <Route path="/fresh" element={<Home />} />
                         <Route path="/savage" element={<Savage />} />
                         <Route path="/smoothies" element={<Smoothies />} />
 

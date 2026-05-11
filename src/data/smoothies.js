@@ -98,7 +98,7 @@ export const smoothies = [
         "steps": "Blend 1/2 teaspoon of Lion's Mane mushroom extract with 1 cup of frozen blueberries and a small handful of walnuts. Add 1 cup of water and blend on high for 60 seconds until smooth.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Energy & Vitality",
+        "benefit": "Brain & Memory",
         "img": "/images/smoothies/brain_and_focus_hero.webp",
         "icon": "vaso"
     },
@@ -253,6 +253,31 @@ export const smoothies = [
         "isHero": true,
         "benefit": "Antioxidant Power",
         "img": "/images/smoothies/anti_oxidant_god_mode.webp",
+        "icon": "vaso"
+    },
+    {
+        "id": "smooth_savage",
+        "name": "Smooth Savage",
+        "title": "Smooth Savage",
+        "teaser": "Amazon antioxidants. No filter.",
+        "color": "purple",
+        "description": "Amazon antioxidants. No filter.",
+        "benefits": "Delivers a triple antioxidant surge from açaí, raw cacao, and banana — protecting cells, fueling energy, and hitting the body with pure, unfiltered plant power.",
+        "healthTags": [
+            "Antioxidant Power",
+            "Wellness"
+        ],
+        "synergies": "Superfoods + Vitamins",
+        "ingredients": [
+            "Açaí",
+            "Cacao",
+            "Banana"
+        ],
+        "steps": "Blend 1 frozen açaí packet (100g) with 1 teaspoon of raw cacao powder and 1 ripe banana. Add 1/2 cup of water and blend on high for 45 seconds until thick and smooth.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Antioxidant Power",
+        "img": "/images/smoothies/smooth_savage.webp",
         "icon": "vaso"
     },
     {
@@ -829,7 +854,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Brain & Memory",
         "img": "/images/smoothies/green_matcha_surge.webp",
         "icon": "vaso"
     },
@@ -1312,7 +1337,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Brain & Memory",
         "img": "/images/smoothies/viking_focus.webp",
         "icon": "vaso"
     },
@@ -1510,7 +1535,7 @@ export const smoothies = [
         "steps": "Steam 1/2 cup of eggplant and 1/2 cup of cauliflower lightly, then cool. Blend with 1 ripe pear and 3/4 cup of cold water. Blend on high for 90 seconds until completely smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Energy & Vitality",
+        "benefit": "Brain & Memory",
         "img": "/images/smoothies/nightshade_pulse.webp",
         "icon": "vaso"
     },

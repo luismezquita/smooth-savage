@@ -256,6 +256,31 @@
         "icon": "vaso"
     },
     {
+        "id": "smooth_savage",
+        "name": "Smooth Savage",
+        "title": "Smooth Savage",
+        "teaser": "アマゾンの抗酸化。フィルターなし。",
+        "color": "purple",
+        "description": "アマゾンの抗酸化。フィルターなし。",
+        "benefits": "アサイー、生カカオ、バナナからの三重抗酸化サージ——細胞を守り、エネルギーを補給し、純粋な植物パワーで身体を打つ。",
+        "healthTags": [
+            "抗酸化力",
+            "ウェルネス"
+        ],
+        "synergies": "スーパーフード ＋ ビタミン",
+        "ingredients": [
+            "アサイー",
+            "カカオ",
+            "バナナ"
+        ],
+        "steps": "冷凍アサイーパック1袋（100g）に生カカオパウダー小さじ1と熟したバナナ1本を加えてブレンド。水1/2カップを加え、高速で45秒間、とろみがつくまで混ぜる。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗酸化力",
+        "img": "/images/smoothies/smooth_savage.webp",
+        "icon": "vaso"
+    },
+    {
         "id": "apple_ginger_soothe",
         "name": "オータムサムライ",
         "title": "オータムサムライ",

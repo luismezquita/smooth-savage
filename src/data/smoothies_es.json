@@ -256,6 +256,31 @@
         "icon": "vaso"
     },
     {
+        "id": "smooth_savage",
+        "name": "Smooth Savage",
+        "title": "Smooth Savage",
+        "teaser": "Antioxidantes del Amazonas. Sin filtros.",
+        "color": "purple",
+        "description": "Antioxidantes del Amazonas. Sin filtros.",
+        "benefits": "Triple descarga antioxidante de açaí, cacao puro y plátano — protege células, recarga energía y golpea el cuerpo con poder vegetal puro.",
+        "healthTags": [
+            "Poder Antioxidante",
+            "Bienestar"
+        ],
+        "synergies": "Superfoods + Vitamins",
+        "ingredients": [
+            "Açaí",
+            "Cacao",
+            "Plátano"
+        ],
+        "steps": "Mezcla 1 paquete de açaí congelado (100g) con 1 cucharadita de cacao puro en polvo y 1 plátano maduro. Añade 1/2 taza de agua y bate 45 segundos a potencia alta.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Poder Antioxidante",
+        "img": "/images/smoothies/smooth_savage.webp",
+        "icon": "vaso"
+    },
+    {
         "id": "apple_ginger_soothe",
         "name": "Samurái de Otoño",
         "title": "Samurái de Otoño",

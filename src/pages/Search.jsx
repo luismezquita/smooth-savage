@@ -4,12 +4,13 @@ import { smoothies } from '../data/smoothies';
 import smoothiesTranslations from '../data/smoothies_translations';
 import SmoothieCard from '../components/SmoothieCard';
 import { useLanguage } from '../i18n/LanguageContext';
+import { normalize } from '../utils/benefitColors';
 
 const Search = () => {
     const { t, language } = useLanguage();
     const [query, setQuery] = useState('');
     const inputRef = React.useRef(null);
-    const q = query.trim().toLowerCase();
+    const q = normalize(query.trim());
 
     React.useEffect(() => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -19,9 +20,9 @@ const Search = () => {
     const results = q
         ? smoothies.filter(s => {
             const tr = language !== 'en' ? smoothiesTranslations[language]?.[s.id] : null;
-            const name = (tr?.name || s.name || '').toLowerCase();
+            const name = normalize(tr?.name || s.name || '');
             const ingredients = tr?.ingredients || s.ingredients || [];
-            return name.includes(q) || ingredients.some(ing => ing.toLowerCase().includes(q));
+            return name.includes(q) || ingredients.some(ing => normalize(ing).includes(q));
         })
         : smoothies;
 

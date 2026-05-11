@@ -256,6 +256,31 @@
         "icon": "vaso"
     },
     {
+        "id": "smooth_savage",
+        "name": "Smooth Savage",
+        "title": "Smooth Savage",
+        "teaser": "亚马逊抗氧化。无过滤。",
+        "color": "purple",
+        "description": "亚马逊抗氧化。无过滤。",
+        "benefits": "从巴西莓、生可可和香蕉中释放三重抗氧化激增——保护细胞、补充能量，以纯净植物力量冲击身体。",
+        "healthTags": [
+            "抗氧化力",
+            "健康养生"
+        ],
+        "synergies": "超级食物 + 维生素",
+        "ingredients": [
+            "巴西莓",
+            "可可",
+            "香蕉"
+        ],
+        "steps": "将1包冷冻巴西莓（100克）与1茶匙生可可粉和1根熟香蕉混合。加入1/2杯水，高速搅拌45秒，直至浓稠顺滑。",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "抗氧化力",
+        "img": "/images/smoothies/smooth_savage.webp",
+        "icon": "vaso"
+    },
+    {
         "id": "apple_ginger_soothe",
         "name": "秋日武士",
         "title": "秋日武士",

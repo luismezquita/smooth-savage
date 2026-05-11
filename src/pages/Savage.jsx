@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { ArrowRight, Search, X } from 'lucide-react';
 import { savageFoods } from '../data/superfoods';
 import SuperfoodCard from '../components/SuperfoodCard';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import itemNamesI18n from '../data/item_names_i18n';
+import { normalize } from '../utils/benefitColors';
 
 const INITIAL_LIMIT = 8;
 const SCROLL_KEY = 'savageListScrollPos';
@@ -14,6 +15,19 @@ export default function Savage() {
     const { language } = useLanguage();
     const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
     const [query, setQuery] = useState('');
+    const heroRef = useRef(null);
+    const [searchVisible, setSearchVisible] = useState(false);
+
+    useEffect(() => {
+        const el = heroRef.current;
+        if (!el) return;
+        const observer = new IntersectionObserver(
+            ([entry]) => setSearchVisible(!entry.isIntersecting),
+            { threshold: 0 }
+        );
+        observer.observe(el);
+        return () => observer.disconnect();
+    }, []);
 
     useEffect(() => {
         const saved = sessionStorage.getItem(SCROLL_KEY);
@@ -32,7 +46,7 @@ export default function Savage() {
     }, []);
 
     const filtered = query.trim()
-        ? savageFoods.filter(f => (itemNamesI18n[language]?.[f.id] || f.name).toLowerCase().includes(query.toLowerCase()))
+        ? savageFoods.filter(f => normalize(itemNamesI18n[language]?.[f.id] || f.name).includes(normalize(query)))
         : savageFoods;
 
     const displaySavage = showAll ? filtered : filtered.slice(0, INITIAL_LIMIT);
@@ -55,12 +69,12 @@ export default function Savage() {
             </div>
 
             {/* Hero */}
-            <div className="savage-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
+            <div ref={heroRef} className="savage-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
                 <img src="/images/savage/cover_hero.jpg" className="w-full h-full object-cover object-center" alt="" />
             </div>
 
-            {/* Search bar */}
-            <div className="max-w-xl mx-auto mb-8">
+            {/* Search bar — visible only after hero leaves viewport */}
+            <div className={`max-w-xl mx-auto mb-8 ${searchVisible ? '' : 'hidden'}`}>
                 <div className="relative">
                     <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 pointer-events-none" style={{ color: '#F97316' }} />
                     <input

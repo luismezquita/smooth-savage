@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
@@ -14,6 +14,8 @@ export default function BenefitDetail() {
     const category = benefitCategories.find(c => c.id === id);
     const catTitle = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.title) || category?.title || '';
     const catTagline = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.tagline) || category?.tagline || '';
+
+    useEffect(() => { window.scrollTo(0, 0); }, []);
 
     const { smoothies: allSmoothies } = useMemo(() => getItemsForBenefit(id), [id]);
 

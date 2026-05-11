@@ -7,6 +7,7 @@ import tipsEN from '../data/tips.json';
 import tipsTranslations from '../data/tips_i18n';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import itemNamesI18n from '../data/item_names_i18n';
+import { normalize } from '../utils/benefitColors';
 
 const INITIAL_LIMIT = 20;
 const SCROLL_KEY = 'freshListScrollPos';
@@ -20,7 +21,7 @@ export default function Home() {
     const [dailyTipIndex, setDailyTipIndex] = useState(null);
 
     const filtered = query.trim()
-        ? fruits.filter(f => (itemNamesI18n[language]?.[f.id] || f.name).toLowerCase().includes(query.toLowerCase()))
+        ? fruits.filter(f => normalize(itemNamesI18n[language]?.[f.id] || f.name).includes(normalize(query)))
         : fruits;
 
     const sortedFruits = [...filtered].sort((a, b) => a.name.localeCompare(b.name));

@@ -4,6 +4,7 @@ import { ArrowRight, Search, X } from 'lucide-react';
 import { smoothies } from '../data/smoothies';
 import SmoothieCard from '../components/SmoothieCard';
 import { useT, useLanguage } from '../i18n/LanguageContext';
+import { normalize } from '../utils/benefitColors';
 import smoothiesTranslations from '../data/smoothies_translations';
 
 const INITIAL_LIMIT = 10;
@@ -35,7 +36,7 @@ export default function Smoothies() {
     const filtered = query.trim()
         ? smoothies.filter(s => {
             const ingredients = (language !== 'en' && smoothiesTranslations[language]?.[s.id]?.ingredients) || s.ingredients;
-            return ingredients?.some(ing => ing.toLowerCase().includes(query.toLowerCase()));
+            return ingredients?.some(ing => normalize(ing).includes(normalize(query)));
         })
         : smoothies;
 
@@ -63,10 +64,17 @@ export default function Smoothies() {
             {/* Hero image */}
             <div className="w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
                 <img
-                    src="/images/smoothies/mesozoic_fiber.webp"
+                    src="/images/smoothies/smooth_savage.jpg"
                     alt="Savage Smoothies"
                     className="w-full h-full object-cover"
                 />
+            </div>
+
+            <div className="flex justify-between items-end mb-8">
+                <div>
+                    <h2 className="text-3xl font-bold mb-2">{t('smoothies.allHeading')}</h2>
+                    <p className="text-gray-500 dark:text-gray-400">{t('smoothies.allSub')}</p>
+                </div>
             </div>
 
             {/* Ingredient search bar */}
@@ -96,13 +104,6 @@ export default function Smoothies() {
                             : t('smoothies.searchResults', { n: filtered.length, query })}
                     </p>
                 )}
-            </div>
-
-            <div className="flex justify-between items-end mb-8">
-                <div>
-                    <h2 className="text-3xl font-bold mb-2">{t('smoothies.allHeading')}</h2>
-                    <p className="text-gray-500 dark:text-gray-400">{t('smoothies.allSub')}</p>
-                </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 max-w-6xl mx-auto">

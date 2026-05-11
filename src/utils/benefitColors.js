@@ -1,3 +1,6 @@
+export const normalize = (str) =>
+    (str || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
 export const getBenefitStyle = (benefit) => {
     const key = benefit ? benefit.toLowerCase().trim() : '';
 

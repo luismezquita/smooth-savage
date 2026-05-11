@@ -256,6 +256,31 @@
         "icon": "vaso"
     },
     {
+        "id": "smooth_savage",
+        "name": "Smooth Savage",
+        "title": "Smooth Savage",
+        "teaser": "Antioxydants d'Amazonie. Sans filtre.",
+        "color": "purple",
+        "description": "Antioxydants d'Amazonie. Sans filtre.",
+        "benefits": "Triple poussée antioxydante d'açaí, cacao brut et banane — protège les cellules, alimente l'énergie et frappe le corps d'une puissance végétale pure.",
+        "healthTags": [
+            "Pouvoir Antioxydant",
+            "Bien-être"
+        ],
+        "synergies": "Superaliments + Vitamines",
+        "ingredients": [
+            "Açaí",
+            "Cacao",
+            "Banane"
+        ],
+        "steps": "Mélangez 1 sachet d'açaí congelé (100g) avec 1 cuillère à café de poudre de cacao brut et 1 banane mûre. Ajoutez 1/2 tasse d'eau et mixez 45 secondes à puissance maximale.",
+        "tier": "free",
+        "isHero": false,
+        "benefit": "Pouvoir Antioxydant",
+        "img": "/images/smoothies/smooth_savage.webp",
+        "icon": "vaso"
+    },
+    {
         "id": "apple_ginger_soothe",
         "name": "Samouraï d'Automne",
         "title": "Samouraï d'Automne",

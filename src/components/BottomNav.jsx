@@ -19,10 +19,10 @@ export default function BottomNav() {
     const t = useT();
 
     const navItems = [
-        { id: 'fresh',     path: '/',          label: t('nav.fresh'),     Icon: StrawberryIcon },
-        { id: 'savage',    path: '/savage',     label: t('nav.savage'),    Icon: MountainSnow },
         { id: 'smoothies', path: '/smoothies',  label: t('nav.smoothies'), Icon: CupSoda },
-        { id: 'favorites', path: '/favorites',  label: t('nav.favorites'), Icon: Heart },
+        { id: 'fresh',     path: '/fresh',       label: t('nav.fresh'),     Icon: StrawberryIcon },
+        { id: 'savage',    path: '/savage',      label: t('nav.savage'),    Icon: MountainSnow },
+        { id: 'favorites', path: '/favorites',   label: t('nav.favorites'), Icon: Heart },
     ];
 
     return (

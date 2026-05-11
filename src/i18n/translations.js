@@ -33,7 +33,7 @@ const translations = {
         },
         smoothies: {
             title: 'Savage Smoothies',
-            subtitle: '60 blends. Every one built to do something.',
+            subtitle: '90 blends. Every one built to do something.',
             searchPlaceholder: 'Search by ingredient...',
             searchResults: '{n} smoothie with "{query}"',
             searchResultsPlural: '{n} smoothies with "{query}"',
@@ -120,7 +120,7 @@ const translations = {
         },
         smoothies: {
             title: 'Batidos Salvajes',
-            subtitle: '60 mezclas. Cada una hecha para algo.',
+            subtitle: '90 mezclas. Cada una hecha para algo.',
             searchPlaceholder: 'Buscar por ingrediente...',
             searchResults: '{n} batido con "{query}"',
             searchResultsPlural: '{n} batidos con "{query}"',
@@ -207,7 +207,7 @@ const translations = {
         },
         smoothies: {
             title: 'Smoothies Sauvages',
-            subtitle: '60 mélanges. Chacun conçu pour agir.',
+            subtitle: '90 mélanges. Chacun conçu pour agir.',
             searchPlaceholder: 'Rechercher par ingrédient...',
             searchResults: '{n} smoothie avec "{query}"',
             searchResultsPlural: '{n} smoothies avec "{query}"',
@@ -294,7 +294,7 @@ const translations = {
         },
         smoothies: {
             title: '野性果昔',
-            subtitle: '60种配方，每一种都有其功效。',
+            subtitle: '90种配方，每一种都有其功效。',
             searchPlaceholder: '按食材搜索...',
             searchResults: '含 "{query}" 的 {n} 款果昔',
             searchResultsPlural: '含 "{query}" 的 {n} 款果昔',
@@ -381,7 +381,7 @@ const translations = {
         },
         smoothies: {
             title: 'サベージスムージー',
-            subtitle: '60のブレンド。それぞれ目的がある。',
+            subtitle: '90のブレンド。それぞれ目的がある。',
             searchPlaceholder: '食材で検索...',
             searchResults: '"{query}" を含むスムージー {n} 件',
             searchResultsPlural: '"{query}" を含むスムージー {n} 件',
@@ -468,7 +468,7 @@ const translations = {
         },
         smoothies: {
             title: '새비지 스무디',
-            subtitle: '60가지 블렌드. 각각 목적이 있다.',
+            subtitle: '90가지 블렌드. 각각 목적이 있다.',
             searchPlaceholder: '재료로 검색...',
             searchResults: '"{query}" 포함 스무디 {n}개',
             searchResultsPlural: '"{query}" 포함 스무디 {n}개',
