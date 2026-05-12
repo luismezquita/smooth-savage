@@ -60,17 +60,14 @@ export default function Savage() {
     return (
         <div className="min-h-screen pt-8 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
 
-            {/* Header */}
-            <div className="mb-10 text-center max-w-2xl mx-auto">
-                <h1 className="text-4xl md:text-5xl font-black mb-4">{t('savage.title')}</h1>
-                <p className="text-lg text-gray-600 dark:text-gray-400">
-                    {t('savage.subtitle')}
-                </p>
-            </div>
-
-            {/* Hero */}
-            <div ref={heroRef} className="savage-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 overflow-hidden" style={{ height: 'calc(100dvh - 220px)' }}>
+            {/* Hero with title overlay */}
+            <div ref={heroRef} className="savage-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 overflow-hidden" style={{ height: 'calc(100dvh - 60px)' }}>
                 <img src="/images/savage/cover_hero.jpg" className="w-full h-full object-cover object-center" alt="" />
+                <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(30,0,60,0.7) 0%, transparent 40%)' }} />
+                <div className="absolute top-0 left-0 right-0 pt-8 text-center px-4">
+                    <h1 className="text-4xl md:text-5xl font-black mb-2 text-white">{t('savage.title')}</h1>
+                    <p className="text-base text-gray-200">{t('savage.subtitle')}</p>
+                </div>
             </div>
 
             {/* Search bar — visible only after hero leaves viewport */}
