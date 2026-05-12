@@ -65,14 +65,16 @@ export default function Smoothies() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
                 dir="ltr"
-                className="w-full py-6 px-4 text-center bg-fruit-dark"
+                className="w-full px-4 text-center bg-fruit-dark flex flex-col items-center justify-center"
+                style={{ minHeight: 'calc(100dvh - 100vw - 60px)', paddingTop: '1.5rem', paddingBottom: '1.5rem' }}
             >
-                <p className="text-4xl md:text-5xl font-black italic tracking-wide leading-tight" style={{ color: '#F5E6C8' }}>
+                <p className="font-black italic tracking-wide leading-tight whitespace-nowrap" style={{ color: '#F5E6C8', fontSize: 'clamp(1.4rem, 7vw, 3rem)' }}>
                     {t('smoothies.slogan1')}
                 </p>
                 <p
-                    className="text-4xl md:text-5xl font-black italic tracking-wide leading-tight"
+                    className="font-black italic tracking-wide leading-tight whitespace-nowrap"
                     style={{
+                        fontSize: 'clamp(1.4rem, 7vw, 3rem)',
                         backgroundImage: 'url(/images/fresh/savage_fill.jpg)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
