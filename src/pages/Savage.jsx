@@ -69,7 +69,7 @@ export default function Savage() {
             </div>
 
             {/* Hero */}
-            <div ref={heroRef} className="savage-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 overflow-hidden" style={{ height: 'calc(100dvh - 120px)' }}>
+            <div ref={heroRef} className="savage-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 overflow-hidden" style={{ height: 'calc(100dvh - 220px)' }}>
                 <img src="/images/savage/cover_hero.jpg" className="w-full h-full object-cover object-center" alt="" />
             </div>
 
