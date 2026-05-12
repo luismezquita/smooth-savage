@@ -31,16 +31,8 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,jpg,webp,woff2,svg}'],
-        runtimeCaching: [
-          {
-            urlPattern: /^https:\/\/.*\.netlify\.app\/.*/i,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'app-cache',
-              expiration: { maxEntries: 500, maxAgeSeconds: 60 * 60 * 24 * 30 }
-            }
-          }
-        ]
+        navigateFallback: '/index.html',
+        navigateFallbackDenylist: [/^\/api\//]
       }
     })
   ],
