@@ -67,6 +67,9 @@ export default function Smoothies() {
                 dir="ltr"
                 className="w-full py-6 px-4 text-center bg-fruit-dark"
             >
+                <p className="text-4xl md:text-5xl font-black italic tracking-wide leading-tight" style={{ color: '#F5E6C8' }}>
+                    {t('smoothies.slogan1')}
+                </p>
                 <p
                     className="text-4xl md:text-5xl font-black italic tracking-wide leading-tight"
                     style={{
@@ -78,7 +81,7 @@ export default function Smoothies() {
                         backgroundClip: 'text',
                     }}
                 >
-                    {t('smoothies.slogan1')}<br />{t('smoothies.slogan2')}
+                    {t('smoothies.slogan2')}
                 </p>
             </motion.div>
 
