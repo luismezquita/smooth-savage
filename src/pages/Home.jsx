@@ -80,7 +80,7 @@ export default function Home() {
             </section>
 
             {/* HERO */}
-            <div className="fresh-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 aspect-square overflow-hidden">
+            <div className="fresh-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 overflow-hidden" style={{ height: 'calc(100dvh - 120px)' }}>
                 <img src="/images/fresh/cover_hero.jpg" className="w-full h-full object-cover object-center" alt="" />
             </div>
 
