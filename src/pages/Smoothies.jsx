@@ -50,20 +50,7 @@ export default function Smoothies() {
 
     return (
         <>
-            {/* Full-width slogan strip */}
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.1 }}
-                dir="ltr"
-                className="w-full bg-fruit-dark py-6 text-center"
-            >
-                <p className="text-3xl md:text-4xl font-black italic tracking-wide px-6" style={{ color: '#F5E6C8' }}>
-                    {t('smoothies.slogan')}
-                </p>
-            </motion.div>
-
-            {/* Full-width hero image */}
+            {/* Full-width hero image — clean */}
             <div className="w-full aspect-square overflow-hidden">
                 <img
                     src="/images/smoothies/smooth_savage.jpg"
@@ -71,6 +58,29 @@ export default function Smoothies() {
                     className="w-full h-full object-cover object-center"
                 />
             </div>
+
+            {/* Slogan with fruit image fill */}
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.2 }}
+                dir="ltr"
+                className="w-full py-6 px-4 text-center bg-fruit-dark"
+            >
+                <p
+                    className="text-4xl md:text-5xl font-black italic tracking-wide leading-tight"
+                    style={{
+                        backgroundImage: 'url(/images/fresh/savage_fill.jpg)',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        WebkitBackgroundClip: 'text',
+                        WebkitTextFillColor: 'transparent',
+                        backgroundClip: 'text',
+                    }}
+                >
+                    {t('smoothies.slogan1')}<br />{t('smoothies.slogan2')}
+                </p>
+            </motion.div>
 
             {/* Padded content */}
             <div className="min-h-screen pt-8 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">

@@ -41,7 +41,8 @@ const translations = {
             allSub: 'Explore our delicious blends',
             viewAll: 'View All Smoothies',
             noResults: 'No smoothies found with that ingredient.',
-            slogan: 'Drink Smooth, Live Savage',
+            slogan1: 'Fresh Foods.',
+            slogan2: 'Savage Results.',
         },
         favorites: {
             title: 'Your Favorites',
@@ -129,7 +130,8 @@ const translations = {
             allSub: 'Explora nuestras deliciosas mezclas',
             viewAll: 'Ver Todos los Batidos',
             noResults: 'No se encontraron batidos con ese ingrediente.',
-            slogan: 'Bebe Suave, Vive Salvaje',
+            slogan1: 'Alimentos frescos.',
+            slogan2: 'Resultados salvajes.',
         },
         favorites: {
             title: 'Tus Favoritos',
@@ -217,7 +219,8 @@ const translations = {
             allSub: 'Explorez nos délicieux mélanges',
             viewAll: 'Voir tous les smoothies',
             noResults: 'Aucun smoothie trouvé avec cet ingrédient.',
-            slogan: 'Bois Smooth, Vis Savage',
+            slogan1: 'Aliments frais.',
+            slogan2: 'Résultats sauvages.',
         },
         favorites: {
             title: 'Vos Favoris',
@@ -305,7 +308,8 @@ const translations = {
             allSub: '探索我们美味的配方',
             viewAll: '查看全部果昔',
             noResults: '未找到含该食材的果昔。',
-            slogan: '喝得顺滑，活得狂野',
+            slogan1: '新鲜食材。',
+            slogan2: '野性成果。',
         },
         favorites: {
             title: '我的收藏',
@@ -393,7 +397,8 @@ const translations = {
             allSub: 'おいしいブレンドを探す',
             viewAll: 'すべてのスムージーを見る',
             noResults: 'その食材を含むスムージーが見つかりません。',
-            slogan: 'スムーズに飲んで、サベージに生きる',
+            slogan1: '新鮮な食材。',
+            slogan2: 'サベージな結果。',
         },
         favorites: {
             title: 'お気に入り',
@@ -481,7 +486,8 @@ const translations = {
             allSub: '맛있는 블렌드 탐색하기',
             viewAll: '스무디 전체 보기',
             noResults: '해당 재료가 포함된 스무디를 찾을 수 없습니다.',
-            slogan: '부드럽게 마시고, 새비지하게 살아',
+            slogan1: '신선한 식재료.',
+            slogan2: '강렬한 결과.',
         },
         favorites: {
             title: '나의 즐겨찾기',
@@ -569,7 +575,8 @@ const translations = {
             allSub: 'استكشف مزيجاتنا اللذيذة',
             viewAll: 'عرض جميع العصائر',
             noResults: 'لم يُعثر على عصائر بهذا المكون.',
-            slogan: 'اشرب بسلاسة، عش بشراسة',
+            slogan1: 'أطعمة طازجة.',
+            slogan2: 'نتائج شرسة.',
         },
         favorites: {
             title: 'مفضلتك',

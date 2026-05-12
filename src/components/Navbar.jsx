@@ -31,8 +31,8 @@ export default function Navbar() {
                     <NavLink to="/" onClick={handleFreshClick} className="flex items-center group">
                         <div className="flex items-center transform group-hover:scale-105 transition-transform duration-300">
                             <span className="text-2xl md:text-4xl flex items-center gap-1" dir="ltr" style={{ fontFamily: "'Poppins', sans-serif" }}>
-                                <span className="font-black" style={{ color: '#16a34a', textShadow: '0 0 18px rgba(34,197,94,0.7), 0 0 6px rgba(34,197,94,0.4)' }}>smooth</span>
-                                <span className="font-black text-white" style={{ letterSpacing: '0.03em' }}>savage</span>
+                                <span className="font-black" style={{ color: '#F5E6C8' }}>Smooth</span>
+                                <span className="font-black" style={{ color: '#F97316', letterSpacing: '0.03em' }}>Savage</span>
                             </span>
                         </div>
                     </NavLink>
