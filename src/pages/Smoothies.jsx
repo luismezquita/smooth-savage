@@ -51,13 +51,13 @@ export default function Smoothies() {
     return (
         <>
             {/* Hero + slogan — full viewport cover */}
-            <div className="flex flex-col" style={{ height: 'calc(100dvh - 120px)' }}>
+            <div className="flex flex-col h-[calc(100dvh-144px)] md:h-[calc(100dvh-80px)]">
                 {/* Hero image — flexible, takes available space */}
                 <div className="w-full flex-1 overflow-hidden">
                     <img
                         src="/images/smoothies/smooth_savage.jpg"
                         alt="Savage Smoothies"
-                        className="w-full h-full object-cover object-center"
+                        className="w-full h-full object-cover object-[50%_70%]"
                     />
                 </div>
 
@@ -67,7 +67,7 @@ export default function Smoothies() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.2 }}
                     dir="ltr"
-                    className="w-full px-4 py-4 text-center bg-fruit-dark flex flex-col items-center justify-center"
+                    className="w-full px-4 py-6 text-center bg-fruit-dark flex flex-col items-center justify-center"
                 >
                 <p className="font-black italic tracking-wide leading-tight whitespace-nowrap" style={{ color: '#F5E6C8', fontSize: 'clamp(1.4rem, 7vw, 3rem)' }}>
                     {t('smoothies.slogan1')}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom';
-import { Moon, Sun, Search, Zap, CupSoda, Heart, Globe } from 'lucide-react';
+import { Moon, Sun, Info, Zap, CupSoda, Heart, Globe } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 import { StrawberryIcon } from './StrawberryIcon';
 import LanguagePicker from './LanguagePicker';
@@ -25,12 +25,12 @@ export default function Navbar() {
     return (
         <nav className="sticky top-0 z-50 bg-fruit-dark/90 backdrop-blur-md border-b border-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-16">
+                <div className="flex justify-between items-center h-20">
 
                     {/* LOGO */}
                     <NavLink to="/" onClick={handleFreshClick} className="flex items-center group">
                         <div className="flex items-center transform group-hover:scale-105 transition-transform duration-300">
-                            <span className="text-2xl md:text-4xl flex items-center gap-1" dir="ltr" style={{ fontFamily: "'Poppins', sans-serif" }}>
+                            <span className="flex items-center gap-1" dir="ltr" style={{ fontFamily: "'Poppins', sans-serif", fontSize: 'clamp(22px, 5vw, 36px)' }}>
                                 <span className="font-black" style={{ color: '#F5E6C8' }}>Smooth</span>
                                 <span className="font-black" style={{ color: '#F97316', letterSpacing: '0.03em' }}>Savage</span>
                             </span>
@@ -69,8 +69,8 @@ export default function Navbar() {
                         >
                             <Globe className="w-5 h-5" />
                         </button>
-                        <NavLink to="/search" className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors">
-                            <Search className="w-5 h-5" />
+                        <NavLink to="/benefits" className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors">
+                            <Info className="w-5 h-5" />
                         </NavLink>
                         <button onClick={toggleTheme} className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors outline-none focus:outline-none focus-visible:outline-none">
                             {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
