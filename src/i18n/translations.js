@@ -92,6 +92,16 @@ const translations = {
             title: 'Language',
             done: 'Done',
         },
+        info: {
+            subtitle: 'About this app',
+            disclaimerTitle: 'Health Disclaimer',
+            disclaimerText: 'The nutritional benefit information in this app has been gathered from internet sources and artificial intelligence. It does not constitute professional medical advice. Always consult a healthcare professional.',
+            aboutTitle: 'About',
+            aboutText: 'Smooth Savage was created and coordinated by Fernando Mezquita of Offline Rules.',
+            contactTitle: 'Contact',
+            privacyTitle: 'Privacy Policy',
+            privacyLink: 'Read our Privacy Policy',
+        },
     },
 
     // ─── SPANISH ───────────────────────────────────────────────────────────────
@@ -180,6 +190,16 @@ const translations = {
         langPicker: {
             title: 'Idioma',
             done: 'Listo',
+        },
+        info: {
+            subtitle: 'Sobre la app',
+            disclaimerTitle: 'Aviso de Salud',
+            disclaimerText: 'La información sobre beneficios nutricionales de esta app ha sido recopilada de fuentes de internet e inteligencia artificial. No constituye consejo médico profesional. Consulta siempre con un profesional de la salud.',
+            aboutTitle: 'Sobre la app',
+            aboutText: 'Smooth Savage ha sido creada y coordinada por Fernando Mezquita de Offline Rules.',
+            contactTitle: 'Contacto',
+            privacyTitle: 'Política de Privacidad',
+            privacyLink: 'Leer nuestra Política de Privacidad',
         },
     },
 
@@ -270,6 +290,16 @@ const translations = {
             title: 'Langue',
             done: 'Terminé',
         },
+        info: {
+            subtitle: "À propos de l'app",
+            disclaimerTitle: 'Avertissement Santé',
+            disclaimerText: "Les informations sur les bienfaits nutritionnels de cette app ont été recueillies à partir de sources internet et d'intelligence artificielle. Elles ne constituent pas un avis médical professionnel. Consultez toujours un professionnel de santé.",
+            aboutTitle: 'À propos',
+            aboutText: "Smooth Savage a été créée et coordonnée par Fernando Mezquita d'Offline Rules.",
+            contactTitle: 'Contact',
+            privacyTitle: 'Politique de Confidentialité',
+            privacyLink: 'Lire notre Politique de Confidentialité',
+        },
     },
 
     // ─── CHINESE (SIMPLIFIED) ──────────────────────────────────────────────────
@@ -358,6 +388,16 @@ const translations = {
         langPicker: {
             title: '语言',
             done: '完成',
+        },
+        info: {
+            subtitle: '关于此应用',
+            disclaimerTitle: '健康免责声明',
+            disclaimerText: '本应用中的营养功效信息来源于互联网及人工智能。不构成专业医疗建议。请务必咨询专业医疗人员。',
+            aboutTitle: '关于',
+            aboutText: 'Smooth Savage 由 Offline Rules 的 Fernando Mezquita 创建和协调。',
+            contactTitle: '联系我们',
+            privacyTitle: '隐私政策',
+            privacyLink: '阅读我们的隐私政策',
         },
     },
 
@@ -448,6 +488,16 @@ const translations = {
             title: '言語',
             done: '完了',
         },
+        info: {
+            subtitle: 'アプリについて',
+            disclaimerTitle: '健康免責事項',
+            disclaimerText: 'このアプリの栄養効能に関する情報は、インターネットおよび人工知能のソースから収集されたものです。専門的な医療アドバイスを構成するものではありません。常に医療専門家にご相談ください。',
+            aboutTitle: 'について',
+            aboutText: 'Smooth Savage は Offline Rules の Fernando Mezquita によって制作・統括されました。',
+            contactTitle: 'お問い合わせ',
+            privacyTitle: 'プライバシーポリシー',
+            privacyLink: 'プライバシーポリシーを読む',
+        },
     },
 
     // ─── KOREAN ────────────────────────────────────────────────────────────────
@@ -537,6 +587,16 @@ const translations = {
             title: '언어',
             done: '완료',
         },
+        info: {
+            subtitle: '앱 소개',
+            disclaimerTitle: '건강 면책 조항',
+            disclaimerText: '이 앱의 영양 효능 정보는 인터넷 및 인공지능 소스에서 수집되었습니다. 전문적인 의료 조언을 구성하지 않습니다. 항상 의료 전문가와 상담하십시오.',
+            aboutTitle: '소개',
+            aboutText: 'Smooth Savage는 Offline Rules의 Fernando Mezquita가 제작하고 총괄했습니다.',
+            contactTitle: '문의',
+            privacyTitle: '개인정보 처리방침',
+            privacyLink: '개인정보 처리방침 읽기',
+        },
     },
 
     // ─── ARABIC ────────────────────────────────────────────────────────────────
@@ -625,6 +685,16 @@ const translations = {
         langPicker: {
             title: 'اللغة',
             done: 'تم',
+        },
+        info: {
+            subtitle: 'حول التطبيق',
+            disclaimerTitle: 'إخلاء مسؤولية صحية',
+            disclaimerText: 'تم جمع معلومات الفوائد الغذائية في هذا التطبيق من مصادر الإنترنت والذكاء الاصطناعي. لا تمثل نصيحة طبية متخصصة. استشر دائماً مختصاً في الرعاية الصحية.',
+            aboutTitle: 'حول',
+            aboutText: 'تم إنشاء Smooth Savage وتنسيقه بواسطة Fernando Mezquita من Offline Rules.',
+            contactTitle: 'اتصل بنا',
+            privacyTitle: 'سياسة الخصوصية',
+            privacyLink: 'اقرأ سياسة الخصوصية',
         },
     },
 };
