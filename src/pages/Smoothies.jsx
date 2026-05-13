@@ -72,19 +72,20 @@ export default function Smoothies() {
                 <p className="font-black italic tracking-wide leading-tight whitespace-nowrap" style={{ color: '#F5E6C8', fontSize: 'clamp(1.4rem, 7vw, 3rem)' }}>
                     {t('smoothies.slogan1')}
                 </p>
-                <p
-                    className="font-black italic tracking-wide leading-tight whitespace-nowrap"
-                    style={{
-                        fontSize: 'clamp(1.4rem, 7vw, 3rem)',
+                <p className="font-black italic tracking-wide leading-tight whitespace-nowrap" style={{ fontSize: 'clamp(1.4rem, 7vw, 3rem)' }}>
+                    <span style={{
                         backgroundImage: 'url(/images/fresh/savage_fill.jpg)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         WebkitBackgroundClip: 'text',
                         WebkitTextFillColor: 'transparent',
                         backgroundClip: 'text',
-                    }}
-                >
-                    {t('smoothies.slogan2')}
+                    }}>
+                        {t('smoothies.slogan2a')}
+                    </span>
+                    <span style={{ color: '#F97316' }}>
+                        {t('smoothies.slogan2b')}
+                    </span>
                 </p>
                 </motion.div>
             </div>

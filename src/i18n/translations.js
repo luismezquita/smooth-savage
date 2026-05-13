@@ -42,7 +42,8 @@ const translations = {
             viewAll: 'View All Smoothies',
             noResults: 'No smoothies found with that ingredient.',
             slogan1: 'Fresh Foods.',
-            slogan2: 'Savage Results.',
+            slogan2a: 'Savage',
+            slogan2b: ' Results.',
         },
         favorites: {
             title: 'Your Favorites',
@@ -141,7 +142,8 @@ const translations = {
             viewAll: 'Ver Todos los Batidos',
             noResults: 'No se encontraron batidos con ese ingrediente.',
             slogan1: 'Alimentos frescos.',
-            slogan2: 'Resultados salvajes.',
+            slogan2a: 'Salvajes',
+            slogan2b: ' Resultados.',
         },
         favorites: {
             title: 'Tus Favoritos',
@@ -240,7 +242,8 @@ const translations = {
             viewAll: 'Voir tous les smoothies',
             noResults: 'Aucun smoothie trouvé avec cet ingrédient.',
             slogan1: 'Aliments frais.',
-            slogan2: 'Résultats sauvages.',
+            slogan2a: 'Sauvages',
+            slogan2b: ' Résultats.',
         },
         favorites: {
             title: 'Vos Favoris',
@@ -339,7 +342,8 @@ const translations = {
             viewAll: '查看全部果昔',
             noResults: '未找到含该食材的果昔。',
             slogan1: '新鲜食材。',
-            slogan2: '野性成果。',
+            slogan2a: '野性',
+            slogan2b: '成果。',
         },
         favorites: {
             title: '我的收藏',
@@ -438,7 +442,8 @@ const translations = {
             viewAll: 'すべてのスムージーを見る',
             noResults: 'その食材を含むスムージーが見つかりません。',
             slogan1: '新鮮な食材。',
-            slogan2: 'サベージな結果。',
+            slogan2a: 'サベージ',
+            slogan2b: 'な結果。',
         },
         favorites: {
             title: 'お気に入り',
@@ -537,7 +542,8 @@ const translations = {
             viewAll: '스무디 전체 보기',
             noResults: '해당 재료가 포함된 스무디를 찾을 수 없습니다.',
             slogan1: '신선한 식재료.',
-            slogan2: '강렬한 결과.',
+            slogan2a: '강렬한',
+            slogan2b: ' 결과.',
         },
         favorites: {
             title: '나의 즐겨찾기',
@@ -636,7 +642,8 @@ const translations = {
             viewAll: 'عرض جميع العصائر',
             noResults: 'لم يُعثر على عصائر بهذا المكون.',
             slogan1: 'أطعمة طازجة.',
-            slogan2: 'نتائج شرسة.',
+            slogan2a: 'شرسة',
+            slogan2b: ' نتائج.',
         },
         favorites: {
             title: 'مفضلتك',
