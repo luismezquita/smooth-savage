@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ShieldAlert, Leaf, Mail, Lock } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useT } from '../i18n/LanguageContext';
 
 const Section = ({ icon: Icon, title, children }) => (
@@ -45,7 +46,7 @@ export default function Info() {
                 {/* Medical disclaimer */}
                 <Section icon={ShieldAlert} title={t('info.disclaimerTitle') || 'Medical Disclaimer'}>
                     {t('info.disclaimerText') ||
-                        'La información sobre beneficios nutricionales ha sido recopilada de fuentes de internet e inteligencia artificial. No constituye consejo médico profesional. Consulta siempre con un profesional de la salud.'}
+                        'La información sobre beneficios nutricionales de esta app ha sido recopilada de fuentes de internet e inteligencia artificial. No constituye consejo médico profesional. Consulta siempre con un profesional de la salud.'}
                 </Section>
 
                 {/* About the app */}
@@ -78,15 +79,13 @@ export default function Info() {
 
                 {/* Privacy Policy */}
                 <Section icon={Lock} title={t('info.privacyTitle') || 'Privacy Policy'}>
-                    <a
-                        href="https://luismezquita.github.io/smooth-savage/privacy-policy.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <Link
+                        to="/privacy"
                         className="underline underline-offset-2 font-semibold"
                         style={{ color: '#F97316' }}
                     >
                         {t('info.privacyLink') || 'View Privacy Policy'}
-                    </a>
+                    </Link>
                 </Section>
             </div>
         </div>
