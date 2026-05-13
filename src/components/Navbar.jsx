@@ -61,7 +61,7 @@ export default function Navbar() {
                         </NavLink>
                     </div>
 
-                    <div className="flex-shrink-0 flex items-center gap-2 md:gap-4 mr-4">
+                    <div className="flex-shrink-0 flex items-center gap-1 md:gap-4 mr-2">
                         <button
                             onClick={() => setLangOpen(true)}
                             className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors"
