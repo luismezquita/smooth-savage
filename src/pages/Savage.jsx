@@ -58,7 +58,7 @@ export default function Savage() {
     };
 
     return (
-        <div className="min-h-screen pt-8 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="min-h-screen pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
 
             {/* Hero with title overlay */}
             <div ref={heroRef} className="savage-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 overflow-hidden" style={{ height: 'calc(100dvh - 60px)' }}>

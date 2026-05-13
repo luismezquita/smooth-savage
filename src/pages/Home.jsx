@@ -62,18 +62,18 @@ export default function Home() {
         <div className="relative min-h-screen pb-32">
 
             {/* DAILY TIP + EXPLORE BENEFITS — at top like original */}
-            <section className="relative z-10 pt-4 px-4 mb-6">
+            <section className="relative z-10 pt-2 px-4 mb-3">
                 <div className="max-w-md mx-auto text-center">
                     {dailyTip && (
-                        <div className="mb-5 bg-orange-50/60 dark:bg-orange-900/10 px-4 py-3 rounded-2xl border border-orange-200/60 dark:border-orange-100/20 backdrop-blur-md">
-                            <p className="text-sm font-semibold text-gray-700 dark:text-gray-200 leading-snug">
+                        <div className="mb-3 bg-orange-50/60 dark:bg-orange-900/10 px-3 py-2 rounded-2xl border border-orange-200/60 dark:border-orange-100/20 backdrop-blur-md">
+                            <p className="text-xs font-semibold text-gray-700 dark:text-gray-200 leading-snug">
                                 <Leaf className="inline w-3 h-3 mb-0.5 mr-1 text-orange-500" />
                                 "{dailyTip.text}"
                             </p>
-                            <p className="mt-1.5 text-xs font-bold text-orange-500 uppercase tracking-widest not-italic">{dailyTip.fruit}</p>
+                            <p className="mt-1 text-xs font-bold text-orange-500 uppercase tracking-widest not-italic">{dailyTip.fruit}</p>
                         </div>
                     )}
-                    <Link to="/benefits" className="inline-flex items-center gap-2 bg-orange-500 text-gray-900 px-10 py-3 rounded-full font-black shadow-lg text-[13px] uppercase tracking-[0.2em] active:scale-95 transition-all whitespace-nowrap">
+                    <Link to="/benefits" className="inline-flex items-center gap-2 bg-orange-500 text-gray-900 px-8 py-2 rounded-full font-black shadow-lg text-[12px] uppercase tracking-[0.2em] active:scale-95 transition-all whitespace-nowrap">
                         <HeartPulse className="w-4 h-4" /> {t('home.exploreBtn')}
                     </Link>
                 </div>
