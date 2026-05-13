@@ -69,7 +69,7 @@ export default function Navbar() {
                         >
                             <Globe className="w-5 h-5" />
                         </button>
-                        <NavLink to="/benefits" className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors">
+                        <NavLink to="/info" className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors">
                             <Info className="w-5 h-5" />
                         </NavLink>
                         <button onClick={toggleTheme} className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors outline-none focus:outline-none focus-visible:outline-none">

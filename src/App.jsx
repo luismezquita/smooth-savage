@@ -11,6 +11,7 @@ import Favorites from './pages/Favorites';
 import Search from './pages/Search';
 import Benefits from './pages/Benefits';
 import BenefitDetail from './pages/BenefitDetail';
+import Info from './pages/Info';
 import { ThemeProvider } from './hooks/useTheme';
 import { LanguageProvider } from './i18n/LanguageContext';
 
@@ -37,6 +38,7 @@ function App() {
                         <Route path="/benefits" element={<Benefits />} />
                         <Route path="/benefits/:id" element={<BenefitDetail />} />
 
+                        <Route path="/info" element={<Info />} />
                         <Route path="*" element={<Navigate to="/" replace />} />
                     </Routes>
                 </Layout>
