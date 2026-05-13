@@ -30,7 +30,7 @@ export default function Navbar() {
                     {/* LOGO */}
                     <NavLink to="/" onClick={handleFreshClick} className="flex items-center group">
                         <div className="flex items-center transform group-hover:scale-105 transition-transform duration-300">
-                            <span className="flex items-center gap-1" dir="ltr" style={{ fontFamily: "'Poppins', sans-serif", fontSize: 'clamp(22px, 5vw, 36px)' }}>
+                            <span className="flex items-center gap-1" dir="ltr" style={{ fontFamily: "'Poppins', sans-serif", fontSize: 'clamp(28px, 5vw, 40px)' }}>
                                 <span className="font-black" style={{ color: '#F5E6C8' }}>Smooth</span>
                                 <span className="font-black" style={{ color: '#F97316', letterSpacing: '0.03em' }}>Savage</span>
                             </span>
