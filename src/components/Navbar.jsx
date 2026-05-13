@@ -28,8 +28,8 @@ export default function Navbar() {
                 <div className="flex justify-between items-center h-20">
 
                     {/* LOGO */}
-                    <NavLink to="/" onClick={handleFreshClick} className="flex items-center group">
-                        <div className="flex items-center transform group-hover:scale-105 transition-transform duration-300">
+                    <NavLink to="/" onClick={handleFreshClick} className="flex items-center group min-w-0">
+                        <div className="flex items-center transform group-hover:scale-105 transition-transform duration-300 min-w-0">
                             <span className="flex items-center gap-1" dir="ltr" style={{ fontFamily: "'Poppins', sans-serif", fontSize: 'clamp(28px, 5vw, 40px)' }}>
                                 <span className="font-black" style={{ color: '#F5E6C8' }}>Smooth</span>
                                 <span className="font-black" style={{ color: '#F97316', letterSpacing: '0.03em' }}>Savage</span>
@@ -61,7 +61,7 @@ export default function Navbar() {
                         </NavLink>
                     </div>
 
-                    <div className="flex items-center gap-2 md:gap-4 mr-3">
+                    <div className="flex-shrink-0 flex items-center gap-2 md:gap-4 mr-4">
                         <button
                             onClick={() => setLangOpen(true)}
                             className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors"
