@@ -23,12 +23,12 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="sticky top-0 z-50 bg-fruit-dark/90 backdrop-blur-md border-b border-gray-800">
+        <nav className="sticky top-0 z-50 w-full overflow-hidden bg-fruit-dark/90 backdrop-blur-md border-b border-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-20">
+                <div className="flex justify-between items-center h-16 md:h-20">
 
                     {/* LOGO */}
-                    <NavLink to="/" onClick={handleFreshClick} className="flex items-center group min-w-0 max-w-[65%]">
+                    <NavLink to="/" onClick={handleFreshClick} className="flex items-center group min-w-0 max-w-[60%] overflow-hidden">
                         <div className="flex items-center transform group-hover:scale-105 transition-transform duration-300 min-w-0">
                             <span className="flex items-center gap-1" dir="ltr" style={{ fontFamily: "'Poppins', sans-serif", fontSize: 'clamp(28px, 4vw, 40px)' }}>
                                 <span className="font-black" style={{ color: '#F5E6C8' }}>Smooth</span>
@@ -61,7 +61,7 @@ export default function Navbar() {
                         </NavLink>
                     </div>
 
-                    <div className="flex-shrink-0 flex items-center gap-1 md:gap-4">
+                    <div className="flex-shrink-0 flex items-center gap-0.5 md:gap-4">
                         <button
                             onClick={() => setLangOpen(true)}
                             className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors"
