@@ -28,9 +28,9 @@ export default function Navbar() {
                 <div className="flex justify-between items-center h-20">
 
                     {/* LOGO */}
-                    <NavLink to="/" onClick={handleFreshClick} className="flex items-center group min-w-0">
+                    <NavLink to="/" onClick={handleFreshClick} className="flex items-center group min-w-0 max-w-[65%]">
                         <div className="flex items-center transform group-hover:scale-105 transition-transform duration-300 min-w-0">
-                            <span className="flex items-center gap-1" dir="ltr" style={{ fontFamily: "'Poppins', sans-serif", fontSize: 'clamp(28px, 5vw, 40px)' }}>
+                            <span className="flex items-center gap-1" dir="ltr" style={{ fontFamily: "'Poppins', sans-serif", fontSize: 'clamp(28px, 4vw, 40px)' }}>
                                 <span className="font-black" style={{ color: '#F5E6C8' }}>Smooth</span>
                                 <span className="font-black" style={{ color: '#F97316', letterSpacing: '0.03em' }}>Savage</span>
                             </span>
@@ -61,19 +61,19 @@ export default function Navbar() {
                         </NavLink>
                     </div>
 
-                    <div className="flex-shrink-0 flex items-center gap-1 md:gap-4 mr-2">
+                    <div className="flex-shrink-0 flex items-center gap-1 md:gap-4">
                         <button
                             onClick={() => setLangOpen(true)}
-                            className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors"
+                            className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors"
                             aria-label={t('nav.language')}
                         >
-                            <Globe className="w-5 h-5" />
+                            <Globe className="w-4 h-4 md:w-5 md:h-5" />
                         </button>
-                        <NavLink to="/info" className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors">
-                            <Info className="w-5 h-5" />
+                        <NavLink to="/info" className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors">
+                            <Info className="w-4 h-4 md:w-5 md:h-5" />
                         </NavLink>
-                        <button onClick={toggleTheme} className="p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors outline-none focus:outline-none focus-visible:outline-none">
-                            {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+                        <button onClick={toggleTheme} className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors outline-none focus:outline-none focus-visible:outline-none">
+                            {isDark ? <Sun className="w-4 h-4 md:w-5 md:h-5" /> : <Moon className="w-4 h-4 md:w-5 md:h-5" />}
                         </button>
                     </div>
 
