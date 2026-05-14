@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ShieldAlert, Leaf, Mail, Lock } from 'lucide-react';
-import { Link } from 'react-router-dom';
+
 import { useT } from '../i18n/LanguageContext';
 
 const Section = ({ icon: Icon, title, children }) => (
@@ -79,13 +79,15 @@ export default function Info() {
 
                 {/* Privacy Policy */}
                 <Section icon={Lock} title={t('info.privacyTitle') || 'Privacy Policy'}>
-                    <Link
-                        to="/privacy"
+                    <a
+                        href="https://smooth-savage.vercel.app/privacy"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="underline underline-offset-2 font-semibold"
                         style={{ color: '#F97316' }}
                     >
                         {t('info.privacyLink') || 'View Privacy Policy'}
-                    </Link>
+                    </a>
                 </Section>
             </div>
         </div>
