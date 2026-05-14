@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Info, Target, Sparkles, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, Info, Target, Sparkles, CheckCircle2, AlertTriangle } from 'lucide-react';
 import { fruits } from '../data/fruits';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import itemTipsI18n from '../data/item_tips_i18n';
@@ -81,6 +81,18 @@ export default function FruitDetail() {
                     </motion.div>
                 </div>
             </div>
+
+            {fruit.id === 'durian' && (
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+                    <div className="flex items-start gap-3 rounded-2xl px-5 py-4 border border-yellow-500/40" style={{ background: 'rgba(234,179,8,0.1)' }}>
+                        <AlertTriangle className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} />
+                        <div>
+                            <p className="font-bold text-sm mb-0.5" style={{ color: '#EAB308' }}>{t('info.durianTitle') || 'Durian Warning'}</p>
+                            <p className="text-sm leading-relaxed" style={{ color: '#F5E6C8' }}>{t('info.durianText') || 'Do not consume Durian with alcohol. This combination can cause serious adverse reactions including nausea, palpitations and severe discomfort.'}</p>
+                        </div>
+                    </div>
+                </div>
+            )}
 
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
                 <div className="grid md:grid-cols-3 gap-8">

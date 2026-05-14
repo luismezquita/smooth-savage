@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ShieldAlert, Leaf, Mail, Lock } from 'lucide-react';
+import { ShieldAlert, Leaf, Mail, Lock, Droplets, AlertTriangle } from 'lucide-react';
 
 import { useT } from '../i18n/LanguageContext';
 
@@ -47,6 +47,18 @@ export default function Info() {
                 <Section icon={ShieldAlert} title={t('info.disclaimerTitle') || 'Medical Disclaimer'}>
                     {t('info.disclaimerText') ||
                         'La información sobre beneficios nutricionales de esta app ha sido recopilada de fuentes de internet e inteligencia artificial. No constituye consejo médico profesional. Consulta siempre con un profesional de la salud.'}
+                </Section>
+
+                {/* Preparation tip */}
+                <Section icon={Droplets} title={t('info.prepTitle') || 'Preparation Tip'}>
+                    {t('info.prepText') ||
+                        'Smoothies are prepared with the liquid of your choice: water, plant-based milk, regular milk or oat drink. Adjust consistency to your preference.'}
+                </Section>
+
+                {/* Durian warning */}
+                <Section icon={AlertTriangle} title={t('info.durianTitle') || 'Durian Warning'}>
+                    {t('info.durianText') ||
+                        'Do not consume Durian with alcohol. This combination can cause serious adverse reactions including nausea, palpitations and severe discomfort.'}
                 </Section>
 
                 {/* About the app */}
