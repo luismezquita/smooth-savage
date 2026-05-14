@@ -74,18 +74,18 @@ export default function LanguagePicker({ isOpen, onClose }) {
                     }
                 `}</style>
 
-                <div className="rounded-t-3xl shadow-2xl px-6 pt-5 pb-10 max-w-lg mx-auto" style={{ background: '#FDF6E3' }}>
+                <div className="rounded-t-3xl shadow-2xl px-6 pt-5 pb-10 max-w-lg mx-auto" style={{ background: '#3D0070' }}>
 
                     {/* Handle bar */}
-                    <div className="w-10 h-1 rounded-full mx-auto mb-5" style={{ background: '#D4A84B' }} />
+                    <div className="w-10 h-1 rounded-full mx-auto mb-5" style={{ background: 'rgba(245,230,200,0.3)' }} />
 
                     {/* Header */}
                     <div className="flex items-center justify-between mb-6">
-                        <h2 className="text-lg font-bold text-gray-900">{t('langPicker.title')}</h2>
+                        <h2 className="text-lg font-bold" style={{ color: '#F5E6C8' }}>{t('langPicker.title')}</h2>
                         <button
                             onClick={handleClose}
-                            className="p-2 rounded-full text-amber-700 transition-colors"
-                            style={{ background: 'rgba(212,168,75,0.15)' }}
+                            className="p-2 rounded-full transition-colors"
+                            style={{ background: 'rgba(245,230,200,0.1)', color: '#F5E6C8' }}
                         >
                             <X className="w-5 h-5" />
                         </button>
@@ -99,24 +99,21 @@ export default function LanguagePicker({ isOpen, onClose }) {
                                 <button
                                     key={lang.code}
                                     onClick={() => handleSelect(lang.code)}
-                                    className={`w-full flex items-center gap-4 px-4 py-3.5 rounded-2xl transition-all duration-200 ${
-                                        isSelected
-                                            ? 'border-2 border-green-500'
-                                            : 'border-2 border-transparent'
-                                    }`}
+                                    className="w-full flex items-center gap-4 px-4 py-3.5 rounded-2xl transition-all duration-200 border-2"
                                     style={{
-                                        background: isSelected ? 'rgba(34,197,94,0.08)' : 'rgba(212,168,75,0.12)',
+                                        borderColor: isSelected ? '#F97316' : 'transparent',
+                                        background: isSelected ? 'rgba(249,115,22,0.12)' : 'rgba(255,255,255,0.05)',
                                     }}
                                 >
                                     <span className="text-3xl">{lang.flag}</span>
                                     <div className="flex flex-col items-start">
-                                        <span className={`font-semibold text-base ${isSelected ? 'text-green-700' : 'text-gray-900'}`}>
+                                        <span className="font-semibold text-base" style={{ color: '#F5E6C8' }}>
                                             {lang.native}
                                         </span>
-                                        <span className="text-xs text-amber-700">{lang.label}</span>
+                                        <span className="text-xs" style={{ color: 'rgba(245,230,200,0.6)' }}>{lang.label}</span>
                                     </div>
                                     {isSelected && (
-                                        <div className="ml-auto w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
+                                        <div className="ml-auto w-5 h-5 rounded-full flex items-center justify-center" style={{ background: '#F97316' }}>
                                             <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                                                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                                             </svg>
@@ -130,7 +127,8 @@ export default function LanguagePicker({ isOpen, onClose }) {
                     {/* Done button */}
                     <button
                         onClick={handleClose}
-                        className="mt-5 w-full py-3.5 rounded-2xl bg-green-500 hover:bg-green-600 active:bg-green-700 text-white font-bold text-base transition-colors duration-200"
+                        className="mt-5 w-full py-3.5 rounded-2xl font-bold text-base text-white transition-colors duration-200"
+                        style={{ background: '#F97316' }}
                     >
                         {t('langPicker.done')}
                     </button>

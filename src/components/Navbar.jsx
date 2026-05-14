@@ -65,10 +65,10 @@ export default function Navbar() {
                             className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors"
                             aria-label={t('nav.language')}
                         >
-                            <Globe className="w-5 h-5 md:w-6 md:h-6" />
+                            <Globe className="w-6 h-6 md:w-7 md:h-7" />
                         </button>
                         <NavLink to="/info" className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors">
-                            <Info className="w-5 h-5 md:w-6 md:h-6" />
+                            <Info className="w-6 h-6 md:w-7 md:h-7" />
                         </NavLink>
                     </div>
 
