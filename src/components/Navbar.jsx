@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom';
-import { Moon, Sun, Info, Zap, CupSoda, Heart, Globe } from 'lucide-react';
-import { useTheme } from '../hooks/useTheme';
+import { Info, Zap, CupSoda, Heart, Globe } from 'lucide-react';
 import { StrawberryIcon } from './StrawberryIcon';
 import LanguagePicker from './LanguagePicker';
 import { useLanguage } from '../i18n/LanguageContext';
 
 export default function Navbar() {
-    const { isDark, toggleTheme } = useTheme();
     const navigate = useNavigate();
     const location = useLocation();
     const [langOpen, setLangOpen] = useState(false);
@@ -67,14 +65,11 @@ export default function Navbar() {
                             className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors"
                             aria-label={t('nav.language')}
                         >
-                            <Globe className="w-4 h-4 md:w-5 md:h-5" />
+                            <Globe className="w-5 h-5 md:w-6 md:h-6" />
                         </button>
                         <NavLink to="/info" className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors">
-                            <Info className="w-4 h-4 md:w-5 md:h-5" />
+                            <Info className="w-5 h-5 md:w-6 md:h-6" />
                         </NavLink>
-                        <button onClick={toggleTheme} className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors outline-none focus:outline-none focus-visible:outline-none">
-                            {isDark ? <Sun className="w-4 h-4 md:w-5 md:h-5" /> : <Moon className="w-4 h-4 md:w-5 md:h-5" />}
-                        </button>
                     </div>
 
                     <LanguagePicker
