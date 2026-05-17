@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Heart, CupSoda } from 'lucide-react';
+import { Heart, CupSoda, Lock } from 'lucide-react';
 import { useFavorites } from '../hooks/useFavorites';
-
 import { getBenefitStyle } from '../utils/benefitColors';
 import { useLanguage } from '../i18n/LanguageContext';
-import smoothieI18n from '../data/smoothie_i18n';
 import smoothiesTranslations from '../data/smoothies_translations';
 import benefitLabelsI18n from '../data/benefit_labels_i18n';
+import { usePremium } from '../hooks/usePremium';
+import PaywallOverlay from './PaywallOverlay';
 
-export default function SmoothieCard({ smoothie, index = 0 }) {
+export default function SmoothieCard({ smoothie, index = 0, locked = false }) {
+    const { isPremium } = usePremium();
+    const isLocked = locked && !isPremium;
+    const [showPaywall, setShowPaywall] = useState(false);
     const { isFavorite, toggleFavorite } = useFavorites();
     const isFav = isFavorite(smoothie.id);
     const { language } = useLanguage();
@@ -20,11 +23,46 @@ export default function SmoothieCard({ smoothie, index = 0 }) {
     const displayIngredients = tr?.ingredients || smoothie.ingredients;
     const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[smoothie.benefit]) || smoothie.benefit;
 
-    // Dynamic Premium Fallback Logic
     const imagePath = smoothie.img && smoothie.img.endsWith('.webp')
         ? smoothie.img
         : '/images/smoothies/elderberry-shield.webp';
 
+    // Locked card: only image + name, no ingredients, no teaser, no favorite, no link
+    if (isLocked) {
+        return (
+            <>
+                {showPaywall && <PaywallOverlay onClose={() => setShowPaywall(false)} />}
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.4, delay: index * 0.1 }}
+                    onClick={() => setShowPaywall(true)}
+                    className="cursor-pointer h-full"
+                >
+                    <div className="bg-white dark:bg-fruit-dark rounded-3xl md:overflow-hidden shadow-lg transition-all duration-300 border-0 flex flex-col h-full">
+                        <div className="relative w-full aspect-square overflow-hidden rounded-t-3xl">
+                            <img
+                                src={imagePath}
+                                alt={displayName}
+                                className="block w-full h-full object-cover opacity-70"
+                                loading="lazy"
+                            />
+                            <div className="absolute inset-0 bg-black/30 flex items-center justify-center z-20">
+                                <div className="bg-white/20 backdrop-blur-sm rounded-full p-3">
+                                    <Lock className="w-6 h-6 text-white" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p-4 flex flex-col gap-1">
+                            <h3 className="text-lg font-bold text-gray-900 dark:text-white">{displayName}</h3>
+                        </div>
+                    </div>
+                </motion.div>
+            </>
+        );
+    }
+
+    // Free / premium card: full content
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}

@@ -107,7 +107,7 @@ export default function Savage() {
                             sessionStorage.setItem(SHOW_ALL_KEY, showAll);
                         }}
                     >
-                        <SuperfoodCard superfood={food} index={i} />
+                        <SuperfoodCard superfood={food} index={i} locked={i >= 7} />
                     </div>
                 ))}
                 {filtered.length === 0 && (

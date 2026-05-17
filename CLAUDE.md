@@ -15,6 +15,9 @@
 A premium wellness PWA (Progressive Web App) called **Smooth Savage**. It covers exotic fresh foods, superfoods ("Savage"), and smoothie recipes. Built with React + Vite + Tailwind CSS. Offline-capable. Target platforms: Web PWA, Google Play, App Store.
 
 Owner: Luis Fernando (luismezquita@gmail.com)
+Live (Vercel): https://appdefernando.vercel.app
+Privacy Policy: https://smooth-savage.vercel.app/privacy
+Domain: smoothsavage.app (Squarespace, expires May 2027)
 
 ---
 
@@ -35,27 +38,32 @@ src/
     fruits.js        — Fresh food items (~103 items)
     superfoods.js    — Savage food items (superfoods, adaptogens, mushrooms)
     smoothies.js     — Smoothie recipes (89 smoothies)
+    benefits.js      — 11 benefit categories
   pages/
     Home.jsx         — Fresh foods page (/)
     Savage.jsx       — Savage foods page (/savage)
     Smoothies.jsx    — Smoothies page (/smoothies)
-    Favorites.jsx    — Favorites page (/favorites) — has Fresh/Savage/Smoothies filter buttons
+    Favorites.jsx    — Favorites page (/favorites)
     Search.jsx       — Global search (/search)
     FruitDetail.jsx  — Fresh food detail page
     SuperfoodDetail.jsx — Savage food detail page
     SmoothieDetail.jsx  — Smoothie detail page
-    Benefits.jsx     — Benefits overview page
+    Benefits.jsx     — Benefits overview page (/benefits)
     BenefitDetail.jsx   — Individual benefit page
+    Info.jsx         — About / Privacy / Dev premium toggle
   components/
     Navbar.jsx       — Top nav with logo, Globe icon, Search, Dark/Light toggle
     BottomNav.jsx    — Mobile bottom navigation (Fresh, Savage, Smoothies, Favorites)
-    LanguagePicker.jsx — Language bottom sheet (6 languages, Portal-rendered)
-    FruitCard.jsx    — Fresh food card
-    SuperfoodCard.jsx — Savage food card
-    SmoothieCard.jsx — Smoothie card
+    LanguagePicker.jsx — Language bottom sheet (Portal-rendered)
+    FruitCard.jsx    — Fresh food card (supports locked prop)
+    SuperfoodCard.jsx — Savage food card (supports locked prop)
+    SmoothieCard.jsx — Smoothie card (supports locked prop)
+    PaywallOverlay.jsx — Freemium paywall modal ← NUEVO
     Layout.jsx       — App layout wrapper
   hooks/
     useTheme.jsx     — Dark/light mode hook
+    useFavorites.jsx — Favorites hook
+    usePremium.js    — Freemium hook ← NUEVO
 
 public/
   images/
@@ -63,6 +71,51 @@ public/
     savage/    — Savage food images (.webp)
     smoothies/ — Smoothie images (.webp)
 ```
+
+---
+
+## Freemium System — COMPLETADO Mayo 16, 2026 ✅
+
+El sistema freemium está completamente implementado y funcionando.
+
+### Lógica
+- `isPremium = false` → ítems bloqueados muestran imagen + nombre + candado, al tocar abre PaywallOverlay
+- `isPremium = true` → todo visible y accesible
+- Estado guardado en `localStorage` key `ss_premium`
+- Precio: $9.99 pago único, sin suscripción, sin anuncios
+
+### Límites gratuitos
+- Fresh Foods: primeros 16 libres (`locked={i >= 16}` en Home.jsx)
+- Smoothies: primeros 8 libres (`locked={i >= 8}` en Smoothies.jsx)
+- Savage Foods: primeros 7 libres (`locked={i >= 7}` en Savage.jsx)
+- Benefits: primeras 2 categorías libres (`FREE_BENEFITS_COUNT = 2` en Benefits.jsx)
+
+### Hook usePremium.js
+```js
+const { isPremium, unlock, togglePremium } = usePremium();
+// unlock() → sets isPremium true (para el botón de compra real)
+// togglePremium() → alterna true/false (solo para testing en dev)
+// Constantes: FREE_SMOOTHIES_COUNT=8, FREE_FRESH_COUNT=16, FREE_SAVAGE_COUNT=7, FREE_BENEFITS_COUNT=2
+```
+
+### Dev toggle (solo en localhost)
+- Página Info → botón al final que alterna entre modo gratuito y premium
+- Visible solo cuando `import.meta.env.DEV === true` (no aparece en Vercel)
+
+### Pendiente del freemium
+- RevenueCat — conectar botón "$9.99" con pagos reales de App Store y Google Play
+- Restore Purchase — botón obligatorio en Apple
+- Verificar que Search, Favorites y URLs directas respetan el freemium
+
+---
+
+## Language System — COMPLETADO ✅
+
+La app funciona completa en **7 idiomas**: EN 🇬🇧, ZH 🇨🇳, JA 🇯🇵, KO 🇰🇷, ES 🇪🇸, AR 🇸🇦 + (francés)
+- Globe icon en Navbar → LanguagePicker bottom sheet (Portal-rendered)
+- Selected language guardado en `localStorage` key `ss_language`
+- Todo el contenido traducido y funcionando en todos los idiomas
+- RTL para árabe: implementado
 
 ---
 
@@ -111,23 +164,33 @@ public/
 
 ---
 
-## Language System
-- Globe icon in Navbar → opens LanguagePicker bottom sheet (Portal-rendered)
-- 6 languages: EN 🇬🇧, ZH 🇨🇳, JA 🇯🇵, KO 🇰🇷, ES 🇪🇸, AR 🇸🇦
-- Selected language saved to `localStorage` key `ss_language`
-- **Status**: Architecture only — NO translations yet. Content stays in English.
-- RTL for Arabic: architecture ready, not activated until translations are added
+## Estado actual — Mayo 16, 2026
 
----
+### ✅ COMPLETADO
+- Todo el contenido principal (fresh foods, superfoods, 89 smoothies)
+- App completa en 7 idiomas con todo el contenido traducido
+- Freemium visual completo (candados, PaywallOverlay, usePremium hook)
+- Dark/Light mode
+- Explore Benefits (11 categorías)
+- Favorites
+- PWA offline-capable
+- Privacy Policy (URL live)
+- Vercel deployment activo
+- App icons e imágenes
+- App Store descriptions en 7 idiomas (en Drive)
 
-## Pending Tasks (as of April 2026)
-1. **Smoothie images** — 28 new smoothie images to generate in Grok (prompts saved)
-2. **Fresh food images** — 12 replacement images (Apricot, Cranberry, Kumquat, Lime, Mangosteen, Loquat, Mulberry, Nectarine, Ugli Fruit, Amla, Acerola, Bilberry)
-3. **Smoothie naming** — rename smoothies to more appealing names (last step before languages)
-4. **mainBenefits restoration** — restore to all fruits.js and superfoods.js items (was stripped in refactor, use git history). Batch 30 items at a time to avoid token limits.
-5. **SuperfoodDetail.jsx** — add mainBenefits UI section (copy pattern from FruitDetail.jsx)
-6. **Translations** — add actual content for ZH, JA, KO, ES, AR languages
-7. **CLAUDE.md** — this file ✅
+### ⏳ PENDIENTE — Contenido
+- 28 imágenes de smoothies nuevas (prompts guardados en Grok)
+- 12 imágenes de fresh foods para reemplazar (Apricot, Cranberry, Kumquat, Lime, Mangosteen, Loquat, Mulberry, Nectarine, Ugli Fruit, Amla, Acerola, Bilberry)
+- Renombrar smoothies a nombres más atractivos
+- Restaurar mainBenefits en fruits.js y superfoods.js (batch 30 items)
+- Añadir sección mainBenefits en SuperfoodDetail.jsx
+
+### ⏳ PENDIENTE — Para las tiendas
+1. Empaquetar PWA como app nativa (PWABuilder o Capacitor)
+2. Google Play Console — retomar proceso (se paró al descubrir que faltaba el freemium, ahora está listo)
+3. App Store Connect — dar de alta ($99/año) y subir IPA
+4. RevenueCat — conectar pagos reales ($9.99 Non-Consumable en ambas tiendas)
 
 ---
 
@@ -141,7 +204,7 @@ public/
 ## Git
 - Branch: `main`
 - Always commit before major changes
-- Last commit: Major smoothies overhaul + language picker (April 2026)
+- Last commit: Freemium implementation (Mayo 2026)
 
 ---
 
@@ -149,5 +212,4 @@ public/
 - Never reference FDA in content
 - No tomato references
 - Don't exceed 30 items per batch when writing to fruits.js (token limit)
-- Don't apply `dir="rtl"` to document until full Arabic translations are ready
 - CLAUDE.md is never imported by any code — safe for App Store / Play Store builds

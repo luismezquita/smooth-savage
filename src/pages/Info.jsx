@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ShieldAlert, Leaf, Mail, Lock, Droplets, AlertTriangle } from 'lucide-react';
 
 import { useT } from '../i18n/LanguageContext';
+import { usePremium } from '../hooks/usePremium';
 
 const Section = ({ icon: Icon, title, children }) => (
     <motion.div
@@ -23,8 +24,11 @@ const Section = ({ icon: Icon, title, children }) => (
     </motion.div>
 );
 
+const DEV_TOGGLE = import.meta.env.DEV;
+
 export default function Info() {
     const t = useT();
+    const { isPremium, togglePremium } = usePremium();
 
     return (
         <div className="min-h-screen pb-24 px-4 sm:px-6 lg:px-8 max-w-2xl mx-auto pt-10" style={{ color: '#F5E6C8' }}>
@@ -63,19 +67,8 @@ export default function Info() {
 
                 {/* About the app */}
                 <Section icon={Leaf} title={t('info.aboutTitle') || 'About the app'}>
-                    <span>
-                        {t('info.aboutText') ||
-                            'Smooth Savage ha sido creada y coordinada por Fernando Mezquita de Offline Rules.'}{' '}
-                        <a
-                            href="https://smoothsavage.app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="underline underline-offset-2 font-semibold"
-                            style={{ color: '#F97316' }}
-                        >
-                            smoothsavage.app
-                        </a>
-                    </span>
+                    {t('info.aboutText') ||
+                        'Smooth Savage ha sido creada y coordinada por Fernando Mezquita de Offline Rules.'}
                 </Section>
 
                 {/* Contact */}
@@ -102,6 +95,23 @@ export default function Info() {
                     </a>
                 </Section>
             </div>
+
+            {/* DEV ONLY — toggle premium */}
+            {DEV_TOGGLE && (
+                <div className="mt-10 text-center">
+                    <button
+                        onClick={togglePremium}
+                        className="px-6 py-3 rounded-2xl text-xs font-black uppercase tracking-widest border transition-all active:scale-95"
+                        style={{
+                            background: isPremium ? 'rgba(34,197,94,0.15)' : 'rgba(249,115,22,0.15)',
+                            borderColor: isPremium ? '#22C55E' : '#F97316',
+                            color: isPremium ? '#22C55E' : '#F97316',
+                        }}
+                    >
+                        {isPremium ? '🔓 Modo Premium — tocar para volver a Gratuito' : '🔒 Modo Gratuito — tocar para simular Premium'}
+                    </button>
+                </div>
+            )}
         </div>
     );
 }

@@ -119,7 +119,7 @@ export default function Home() {
                                 sessionStorage.setItem(SHOW_ALL_KEY, showAll);
                             }}
                         >
-                            <FruitCard fruit={fruit} index={i} />
+                            <FruitCard fruit={fruit} index={i} locked={i >= 16} />
                         </div>
                     ))}
                     {filtered.length === 0 && (

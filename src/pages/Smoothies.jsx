@@ -137,7 +137,7 @@ export default function Smoothies() {
                                 sessionStorage.setItem(SHOW_ALL_KEY, showAll);
                             }}
                         >
-                            <SmoothieCard smoothie={smoothie} index={i} />
+                            <SmoothieCard smoothie={smoothie} index={i} locked={i >= 8} />
                         </div>
                     ))}
                 </div>
