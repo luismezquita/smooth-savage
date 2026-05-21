@@ -15,6 +15,7 @@ import Info from './pages/Info';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import { ThemeProvider } from './hooks/useTheme';
 import { LanguageProvider } from './i18n/LanguageContext';
+import WelcomePage from './WelcomePage';
 
 function App() {
     return (
@@ -23,7 +24,7 @@ function App() {
             <BrowserRouter>
                 <Layout>
                     <Routes>
-                        <Route path="/" element={<Navigate to="/smoothies" replace />} />
+                        <Route path="/" element={<WelcomePage />} />
                         <Route path="/fresh" element={<Home />} />
                         <Route path="/savage" element={<Savage />} />
                         <Route path="/smoothies" element={<Smoothies />} />
