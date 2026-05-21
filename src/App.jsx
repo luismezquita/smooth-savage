@@ -13,6 +13,7 @@ import Benefits from './pages/Benefits';
 import BenefitDetail from './pages/BenefitDetail';
 import Info from './pages/Info';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import WelcomePage from './WelcomePage';
 import { ThemeProvider } from './hooks/useTheme';
 import { LanguageProvider } from './i18n/LanguageContext';
 
@@ -21,9 +22,10 @@ function App() {
         <LanguageProvider>
         <ThemeProvider>
             <BrowserRouter>
-                <Layout>
-                    <Routes>
-                        <Route path="/" element={<Navigate to="/smoothies" replace />} />
+                <Routes>
+                    <Route path="/" element={<WelcomePage />} />
+
+                    <Route element={<Layout />}>
                         <Route path="/fresh" element={<Home />} />
                         <Route path="/savage" element={<Savage />} />
                         <Route path="/smoothies" element={<Smoothies />} />
@@ -42,8 +44,8 @@ function App() {
                         <Route path="/info" element={<Info />} />
                         <Route path="/privacy" element={<PrivacyPolicy />} />
                         <Route path="*" element={<Navigate to="/" replace />} />
-                    </Routes>
-                </Layout>
+                    </Route>
+                </Routes>
             </BrowserRouter>
         </ThemeProvider>
         </LanguageProvider>

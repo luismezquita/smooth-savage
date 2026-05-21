@@ -18,34 +18,13 @@ export default defineConfig({
         start_url: '/',
         icons: [
           {
-            src: '/icons/icon-76.png',
-            sizes: '76x76',
-            type: 'image/png'
-          },
-          {
-            src: '/icons/icon-120.png',
-            sizes: '120x120',
-            type: 'image/png'
-          },
-          {
-            src: '/icons/icon-152.png',
-            sizes: '152x152',
-            type: 'image/png'
-          },
-          {
-            src: '/icons/icon-192.png',
+            src: '/icons/rayo-hoja-192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: '/icons/icon-512.png',
+            src: '/icons/rayo-hoja-512.png',
             sizes: '512x512',
-            type: 'image/png',
-            purpose: 'any maskable'
-          },
-          {
-            src: '/icons/icon-1024.png',
-            sizes: '1024x1024',
             type: 'image/png'
           }
         ]
