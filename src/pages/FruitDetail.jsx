@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Info, Target, Sparkles, CheckCircle2, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Info, Target, Sparkles, CheckCircle2, AlertTriangle, CupSoda } from 'lucide-react';
 import { fruits } from '../data/fruits';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import itemTipsI18n from '../data/item_tips_i18n';
@@ -55,6 +55,12 @@ export default function FruitDetail() {
                     className="absolute top-6 left-6 z-30 p-3 bg-white/20 dark:bg-black/20 backdrop-blur-md rounded-full text-white hover:bg-white/40 transition-colors"
                 >
                     <ArrowLeft className="w-6 h-6" />
+                </button>
+                <button
+                    onClick={() => navigate('/smoothies', { state: { filterIngredient: displayName } })}
+                    className="absolute top-6 right-6 z-30 p-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full text-white shadow-[0_0_15px_rgba(219,39,119,0.6)] hover:scale-105 transition-transform"
+                >
+                    <CupSoda className="w-6 h-6" />
                 </button>
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent z-10" />
                 <img src={fruit.image} alt={fruit.name} className="w-full h-full object-cover" />

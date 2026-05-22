@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Search, X } from 'lucide-react';
 import { smoothies } from '../data/smoothies';
@@ -14,7 +15,8 @@ const SHOW_ALL_KEY = 'smoothiesListShowAll';
 export default function Smoothies() {
     const t = useT();
     const { language } = useLanguage();
-    const [query, setQuery] = useState('');
+    const location = useLocation();
+    const [query, setQuery] = useState(location.state?.filterIngredient || '');
     const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
 
     useEffect(() => {
