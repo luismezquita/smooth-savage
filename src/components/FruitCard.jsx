@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Lock } from 'lucide-react';
 import { getBenefitStyle } from '../utils/benefitColors';
@@ -11,6 +11,7 @@ import { usePremium } from '../hooks/usePremium';
 import PaywallOverlay from './PaywallOverlay';
 
 export default function FruitCard({ fruit, index, locked = false }) {
+    const navigate = useNavigate();
     const { isPremium } = usePremium();
     const isLocked = locked && !isPremium;
     const [showPaywall, setShowPaywall] = useState(false);
@@ -36,6 +37,19 @@ export default function FruitCard({ fruit, index, locked = false }) {
                             <Lock className="w-6 h-6 text-white" />
                         </div>
                     </div>
+                )}
+                {!isLocked && (
+                    <button
+                        onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            navigate('/smoothies', { state: { filterIngredient: fruit.name } });
+                        }}
+                        className="absolute top-3 right-3 z-30 p-2.5 bg-white/20 dark:bg-black/40 backdrop-blur-md rounded-full text-white hover:bg-white/40 dark:hover:bg-white/20 transition-colors flex items-center justify-center shadow-lg transform hover:scale-110"
+                        title="Find Smoothies"
+                    >
+                        🥤
+                    </button>
                 )}
             </div>
             <div className="p-5 flex-grow flex flex-col">
