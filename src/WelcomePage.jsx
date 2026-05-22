@@ -8,9 +8,9 @@ const WelcomePage = () => {
   const { t } = useLanguage();
 
   const mainCards = [
+    { key: 'smoothies', path: '/smoothies', img: '/images/smoothies/brain_and_focus_hero.webp', className: 'card-smoothies' },
     { key: 'fresh', path: '/fresh', img: '/images/fresh/cranberry.webp', className: 'card-fresh' },
-    { key: 'savage', path: '/savage', img: '/images/savage/chaga_mushroom.webp', className: 'card-savage' },
-    { key: 'smoothies', path: '/smoothies', img: '/images/smoothies/brain_and_focus_hero.webp', className: 'card-smoothies' }
+    { key: 'savage', path: '/savage', img: '/images/savage/chaga_mushroom.webp', className: 'card-savage' }
   ];
 
   return (

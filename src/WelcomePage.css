@@ -1,34 +1,39 @@
 /* ==========================================================================
-   Smooth Savage — Welcome Page (Original Elegant Restored & Scaling Fixed)
+   Smooth Savage — Welcome Page (No-Scroll, Exact Fit)
    ========================================================================== */
 
-/* 1. Contenedor Principal (Fondo oscuro premium) */
+/* 1. Contenedor Principal (CERO SCROLL) */
 .welcome-container {
   background-color: #0c0b0e;
-  min-height: 100vh;
+  height: 100dvh; 
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
-  padding-bottom: 2rem; 
+  /* Margen de seguridad para salvar la barra de navegación inferior */
+  padding-bottom: 135px; 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   box-sizing: border-box;
 }
 
-/* 2. Encabezado y Título Masivo en Porcentaje (Hero Typography) */
+/* 2. Encabezado y Título */
 .hero-header {
+  flex: 0 0 auto; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem; /* Distancia equilibrada hacia las tarjetas */
-  padding-top: env(safe-area-inset-top, 3rem); /* Integración perfecta con iOS Status Bar */
+  padding-top: env(safe-area-inset-top, 1.5rem); 
+  margin-top: 2rem;
+  padding-bottom: 0.5rem; 
   padding-left: 1rem;
   padding-right: 1rem;
   box-sizing: border-box;
 }
 
 .slogan {
-  /* Escala dinámicamente según el ancho de la pantalla */
-  font-size: 14vw; 
-  line-height: 0.95; /* Da espacio vertical para evitar colisiones de texto */
+  font-size: 12vw; 
+  line-height: 0.95; 
   margin: 0;
   text-align: center;
   font-weight: 700;
@@ -36,43 +41,44 @@
 }
 
 .highlight {
-  /* Toque editorial itálico, Serif y color coral cálido sólido */
   font-family: 'Instrument Serif', Georgia, serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 16vw; /* Un poco más grande que "Smooth" */
-  color: #FF6B4A; /* Warm coral accent */
+  font-size: 14vw; 
+  color: #FF6B4A; 
   display: block;
   letter-spacing: 0;
-  padding-bottom: 0.2rem; /* Margen de seguridad para que la 'g' no se corte */
+  padding-bottom: 0.2rem; 
 }
 
-/* 3. Contenedor de Tarjetas */
+/* 3. Contenedor de Tarjetas (Elástico) */
 .cards-container {
+  flex: 1; 
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly; 
   align-items: center;
-  gap: 1.2rem;
-  padding: 0 1.25rem;
+  gap: 0.6rem; 
+  padding: 0 1.25rem 0 1.25rem;
   width: 100%;
   box-sizing: border-box;
 }
 
-/* 4. Tarjetas Individuales (Restaurado Diseño Elegante y Scaling Fijo) */
+/* 4. Tarjetas Individuales (Fluidas) */
 .card {
   position: relative;
   width: 100%;
   max-width: 500px;
-  height: 160px; /* Altura optimizada y más compacta */
-  border-radius: 16px; /* Bordes sutiles más elegantes */
+  flex: 1; 
+  min-height: 90px; 
+  max-height: 160px; 
+  border-radius: 16px; 
   overflow: hidden;
   cursor: pointer;
   background-color: #1a1820;
-  /* Transición suave para el efecto de profundidad */
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
 }
 
-/* Efecto al tocar la pantalla (Tap / Active / Hover) - MUY sutil para no romper legibilidad */
 .card:active, .card:hover {
   transform: translateY(-2px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
@@ -94,25 +100,23 @@
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* No zoom on ingredient image to prevent legibility breaking */
 .card:active .card-image img, 
 .card:hover .card-image img {
   transform: scale(1.0); 
 }
 
-/* 5. Degradado Negro Elegante Restaurado a la Izquierda */
+/* 5. Degradado Negro Elegante a la Izquierda */
 .text-protection-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* Cubre toda la tarjeta */
-  /* Negro elegante profundo a la izquierda que se funde suavemente hacia la derecha */
-  background: linear-gradient(to right, rgba(12, 11, 14, 0.95) 0%, rgba(12, 11, 14, 0.8) 40%, rgba(12, 11, 14, 0) 100%);
+  height: 100%; 
+  background: linear-gradient(to right, rgba(12, 11, 14, 0.95) 0%, rgba(12, 11, 14, 0.8) 45%, rgba(12, 11, 14, 0) 100%);
   z-index: 2;
 }
 
-/* 6. Textos dentro de las Tarjetas (Alineados a la izquierda) */
+/* 6. Textos dentro de las Tarjetas */
 .card-content {
   position: absolute;
   top: 0;
@@ -121,34 +125,32 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centrado verticalmente */
-  padding: 1.5rem;
+  justify-content: center; 
+  padding: clamp(0.7rem, 3vw, 1.5rem);
   z-index: 3;
   box-sizing: border-box;
 }
 
-/* Texto limitado a la zona oscura */
 .text-group {
-  max-width: 65%;
+  max-width: 70%;
 }
 
 .text-group h3 {
-  font-size: 1.8rem;
-  margin: 0 0 0.15rem 0;
+  font-size: clamp(1.3rem, 5vw, 1.7rem); 
+  margin: 0 0 0.1rem 0;
   font-weight: 700;
   color: #ffffff;
   letter-spacing: -0.5px;
 }
 
 .description-two-lines {
-  font-size: 0.95rem;
+  font-size: clamp(0.8rem, 3vw, 0.95rem); 
   color: rgba(255, 255, 255, 0.75);
   margin: 0;
-  line-height: 1.3;
+  line-height: 1.25;
   font-weight: 400;
 }
 
-/* 7. Espacio de seguridad inferior */
 .welcome-footer-space {
-  height: 90px;
+  display: none;
 }
