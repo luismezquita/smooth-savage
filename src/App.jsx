@@ -13,6 +13,7 @@ import Benefits from './pages/Benefits';
 import BenefitDetail from './pages/BenefitDetail';
 import Info from './pages/Info';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import WelcomePage from './WelcomePage';
 import { ThemeProvider } from './hooks/useTheme';
 import { LanguageProvider } from './i18n/LanguageContext';
 
@@ -23,7 +24,9 @@ function App() {
             <BrowserRouter>
                 <Layout>
                     <Routes>
-                        <Route path="/" element={<Navigate to="/smoothies" replace />} />
+                        {/* La ruta raíz ahora carga la pantalla de bienvenida */}
+                        <Route path="/" element={<WelcomePage />} />
+                        
                         <Route path="/fresh" element={<Home />} />
                         <Route path="/savage" element={<Savage />} />
                         <Route path="/smoothies" element={<Smoothies />} />
