@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Lock } from 'lucide-react';
+import { Lock, CupSoda } from 'lucide-react';
 import { getBenefitStyle } from '../utils/benefitColors';
 import { useLanguage } from '../i18n/LanguageContext';
 import itemNamesI18n from '../data/item_names_i18n';
@@ -48,7 +48,7 @@ export default function FruitCard({ fruit, index, locked = false }) {
                         className="absolute top-3 right-3 z-30 p-2.5 bg-white/20 dark:bg-black/40 backdrop-blur-md rounded-full text-white hover:bg-white/40 dark:hover:bg-white/20 transition-colors flex items-center justify-center shadow-lg transform hover:scale-110"
                         title="Find Smoothies"
                     >
-                        🥤
+                        <CupSoda className="w-5 h-5 text-white" />
                     </button>
                 )}
             </div>

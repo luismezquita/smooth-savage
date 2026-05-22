@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Info, Sparkles, Zap, Target, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Leaf, Shield, Heart, Zap, Info, Share2, Target, CheckCircle2, CupSoda } from 'lucide-react';
 import { savageFoods } from '../data/superfoods';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import itemTipsI18n from '../data/item_tips_i18n';
@@ -63,7 +63,7 @@ export default function SuperfoodDetail() {
                     className="absolute top-6 right-6 z-30 p-3 bg-white/20 dark:bg-black/20 backdrop-blur-md rounded-full text-white hover:bg-white/40 transition-colors flex items-center justify-center text-xl shadow-lg"
                     title="Find Smoothies with this ingredient"
                 >
-                    🥤
+                    <CupSoda className="w-6 h-6 text-white" />
                 </button>
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent z-10" />
                 <img src={superfood.image} alt={superfood.name} className="w-full h-full object-cover" />

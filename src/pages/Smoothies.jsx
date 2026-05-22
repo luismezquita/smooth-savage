@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Search, X } from 'lucide-react';
+import { ArrowRight, Search, X, CupSoda } from 'lucide-react';
 import { smoothies } from '../data/smoothies';
 import SmoothieCard from '../components/SmoothieCard';
 import { useT, useLanguage } from '../i18n/LanguageContext';
@@ -128,7 +128,8 @@ export default function Smoothies() {
                 {activeFilter && (
                     <div className="flex justify-center mb-6">
                         <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-500/30 text-purple-700 dark:text-purple-300 px-4 py-2 rounded-full backdrop-blur-sm shadow-sm">
-                            <span className="text-sm font-medium">🥤 {activeFilter}</span>
+                            <CupSoda className="w-4 h-4" />
+                            <span className="text-sm font-medium">{activeFilter}</span>
                             <button
                                 onClick={clearActiveFilter}
                                 className="p-1 hover:bg-black/10 dark:hover:bg-white/10 rounded-full transition-colors"
