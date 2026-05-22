@@ -15,6 +15,7 @@ export default function FruitCard({ fruit, index, locked = false }) {
     const isLocked = locked && !isPremium;
     const [showPaywall, setShowPaywall] = useState(false);
     const { language } = useLanguage();
+    
     const displayName = (language !== 'en' && itemNamesI18n[language]?.[fruit.id]) || fruit.name;
     const displayTeaser = (language !== 'en' && itemTeasersI18n[language]?.[fruit.id]) || fruit.teaser;
     const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[fruit.benefit]) || fruit.benefit;
