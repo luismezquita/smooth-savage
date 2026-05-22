@@ -21,6 +21,16 @@ const translations = {
             viewAll: 'View All Fresh Items',
             exploreBtn: 'Explore Benefits',
             noResults: 'No results for "{query}"',
+            cards: {
+                fresh: { title: "Fresh", desc: "Nature at its\nmaximum expression" },
+                savage: { title: "Savage", desc: "Extreme power\nfrom the earth" },
+                smoothies: { title: "Smoothies", desc: "Wild and delicious\ncombinations" }
+            },
+            goals: {
+                energia: "Energy", enfoque: "Focus", musculo: "Muscle", inmunidad: "Immunity",
+                detox: "Detox", piel: "Skin", digestion: "Digestion", sueno: "Sleep",
+                antioxidante: "Antioxidant", corazon: "Heart", memoria: "Memory"
+            }
         },
         savage: {
             title: 'Savage Foods',
@@ -145,6 +155,16 @@ const translations = {
             viewAll: 'Ver Todos los Frescos',
             exploreBtn: 'Explorar Beneficios',
             noResults: 'Sin resultados para "{query}"',
+            cards: {
+                fresh: { title: "Fresco", desc: "Naturaleza en su\nmáxima expresión" },
+                savage: { title: "Salvaje", desc: "Potencia extrema\ndesde la tierra" },
+                smoothies: { title: "Smoothies", desc: "Combinaciones salvajes\ny deliciosas" }
+            },
+            goals: {
+                energia: "Energía", enfoque: "Enfoque", musculo: "Músculo", inmunidad: "Inmunidad",
+                detox: "Detox", piel: "Piel", digestion: "Digestión", sueno: "Sueño",
+                antioxidante: "Antioxidante", corazon: "Corazón", memoria: "Memoria"
+            }
         },
         savage: {
             title: 'Alimentos Salvajes',
@@ -269,6 +289,16 @@ const translations = {
             viewAll: 'Voir tous les frais',
             exploreBtn: 'Explorer les bienfaits',
             noResults: 'Aucun résultat pour "{query}"',
+            cards: {
+                fresh: { title: "Frais", desc: "La nature dans sa\nplus haute expression" },
+                savage: { title: "Sauvage", desc: "Puissance extrême\nde la terre" },
+                smoothies: { title: "Smoothies", desc: "Combinaisons sauvages\net délicieuses" }
+            },
+            goals: {
+                energia: "Énergie", enfoque: "Focus", musculo: "Muscle", inmunidad: "Immunité",
+                detox: "Détox", piel: "Peau", digestion: "Digestion", sueno: "Sommeil",
+                antioxidante: "Antioxydant", corazon: "Cœur", memoria: "Mémoire"
+            }
         },
         savage: {
             title: 'Aliments Sauvages',
@@ -393,6 +423,16 @@ const translations = {
             viewAll: '查看全部新鲜食物',
             exploreBtn: '探索功效',
             noResults: '"{query}" 无结果',
+            cards: {
+                fresh: { title: "新鲜", desc: "大自然的力量\n极致的呈现" },
+                savage: { title: "野性", desc: "源自大地的\n极致潜能" },
+                smoothies: { title: "果昔", desc: "狂野与美味的\n完美结合" }
+            },
+            goals: {
+                energia: "能量", enfoque: "专注", musculo: "肌肉", inmunidad: "免疫",
+                detox: "排毒", piel: "美肌", digestion: "消化", sueno: "睡眠",
+                antioxidante: "抗氧化", corazon: "护心", memoria: "记忆"
+            }
         },
         savage: {
             title: '野性食物',
@@ -517,6 +557,16 @@ const translations = {
             viewAll: 'すべてのフレッシュを見る',
             exploreBtn: '効能を探る',
             noResults: '"{query}" の結果なし',
+            cards: {
+                fresh: { title: "新鮮", desc: "ありのままの自然\n最高の表現" },
+                savage: { title: "野生", desc: "大地から湧き出る\n究極のパワー" },
+                smoothies: { title: "スムージー", desc: "ワイルドで美味しい\nブレンド" }
+            },
+            goals: {
+                energia: "エネルギー", enfoque: "集中力", musculo: "筋肉", inmunidad: "免疫力",
+                detox: "デトックス", piel: "美肌", digestion: "消化", sueno: "睡眠",
+                antioxidante: "抗酸化", corazon: "ハート", memoria: "記憶力"
+            }
         },
         savage: {
             title: 'サベージフード',
@@ -641,6 +691,16 @@ const translations = {
             viewAll: '신선 식품 전체 보기',
             exploreBtn: '효능 탐색',
             noResults: '"{query}" 검색 결과 없음',
+            cards: {
+                fresh: { title: "신선함", desc: "자연 그대로의\n최상의 표현" },
+                savage: { title: "야생", desc: "대지로부터 오는\n강렬한 에너지" },
+                smoothies: { title: "스무디", desc: "거칠고 매혹적인\n딜리셔스 조합" }
+            },
+            goals: {
+                energia: "에너지", enfoque: "집중력", musculo: "머슬", inmunidad: "면역력",
+                detox: "디톡스", piel: "스킨케어", digestion: "소화", sueno: "수면",
+                antioxidante: "항산화", corazon: "하트", memoria: "기억력"
+            }
         },
         savage: {
             title: '새비지 식품',
@@ -677,7 +737,7 @@ const translations = {
             placeholder: '재료로 검색...',
             freshSection: '신선',
             savageSection: '새비지',
-            noResults: '결과를 찾을 수 없습니다',
+            noResults: '결 결과를 찾을 수 없습니다',
         },
         benefits: {
             back: '뒤로',
@@ -765,6 +825,16 @@ const translations = {
             viewAll: 'عرض جميع الأغذية الطازجة',
             exploreBtn: 'استكشف الفوائد',
             noResults: 'لا نتائج لـ "{query}"',
+            cards: {
+                fresh: { title: "طازج", desc: "الطبيعة في أبهى\nوصورها الحقيقية" },
+                savage: { title: "بري", desc: "طاقة قصوى\nمن أعماق الأرض" },
+                smoothies: { title: "سموثي", desc: "مزيج بري\nولذيذ للغاية" }
+            },
+            goals: {
+                energia: "طاقة", enfoque: "تركيز", musculo: "عضلات", inmunidad: "مناعة",
+                detox: "ديتوكس", piel: "بشرة", digestion: "هضم", sueno: "نوم",
+                antioxidante: "مضاد أكسدة", corazon: "قلب", memoria: "ذاكرة"
+            }
         },
         savage: {
             title: 'الأغذية الوحشية',
@@ -867,7 +937,7 @@ const translations = {
             noSharingTitle: 'لا مشاركة مع أطراف ثالثة',
             noSharingText: 'لا نبيع أو نتبادل أو نشارك أي بيانات مع أطراف ثالثة — لأننا لا نجمع أي بيانات من الأساس.',
             childrenTitle: 'خصوصية الأطفال',
-            childrenText: 'لا يجمع هذا التطبيق عن قصد بيانات من الأطفال دون سن 13 عاماً. نظراً لعدم جمع أي بيانات من أي مستخدم، يمكن للأطفال استخدام التطبيق بأمان.',
+            childrenText: 'لا يجمع هذا التطبيق عن قصد بيانات من الأطفال دون سن 13 عاماً. نظراً لعدم جمع أي بيانات من أي مستخدم، يمكن الأطفال استخدام التطبيق بأمان.',
             contactTitle: 'اتصل بنا',
             contactText: 'لأي استفسارات حول سياسة الخصوصية هذه، تواصل معنا على',
         },
