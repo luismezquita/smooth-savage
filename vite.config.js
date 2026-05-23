@@ -16,6 +16,7 @@ export default defineConfig({
         theme_color: '#2E1065',
         background_color: '#2E1065',
         display: 'standalone',
+        orientation: 'portrait',
         start_url: '/',
         icons: [
           {
@@ -57,7 +58,7 @@ export default defineConfig({
             options: {
               cacheName: 'images-cache',
               expiration: {
-                maxEntries: 200,
+                maxEntries: 300,
                 maxAgeSeconds: 60 * 60 * 24 * 30
               }
             }
