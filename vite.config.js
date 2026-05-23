@@ -16,6 +16,7 @@ export default defineConfig({
         theme_color: '#2E1065',
         background_color: '#2E1065',
         display: 'standalone',
+        orientation: 'portrait',
         start_url: '/',
         icons: [
           {
@@ -32,13 +33,13 @@ export default defineConfig({
         ],
         screenshots: [
           {
-            src: '/images/screenshots/fotosmoothie.png',
+            src: '/screenshots/fotosmoothie.png',
             sizes: '750x1334',
             type: 'image/png',
             form_factor: 'narrow'
           },
           {
-            src: '/images/screenshots/fotofresh.png',
+            src: '/screenshots/fotofresh.png',
             sizes: '750x1334',
             type: 'image/png',
             form_factor: 'narrow'
