@@ -26,6 +26,10 @@ export default function Smoothies() {
             setShowAll(false);
             // Limpia el estado de la navegación para evitar que se quede fijo al recargar
             window.history.replaceState({}, document.title);
+        } else if (location.state?.resetSearch) {
+            setQuery('');
+            setShowAll(false);
+            window.history.replaceState({}, document.title);
         }
     }, [location.state]);
 

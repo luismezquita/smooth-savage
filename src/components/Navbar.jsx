@@ -20,6 +20,18 @@ export default function Navbar() {
         }
     };
 
+    const handleNavClick = (e, path) => {
+        if (location.pathname === path) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+            navigate(path, { replace: true, state: { resetSearch: Date.now() } });
+        } else {
+            window.scrollTo(0, 0);
+        }
+    };
+
     return (
         <nav className="sticky top-0 z-50 w-full overflow-hidden bg-fruit-dark/90 backdrop-blur-md border-b border-gray-800">
             <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
@@ -39,18 +51,26 @@ export default function Navbar() {
                     <div className="hidden md:flex items-center gap-8">
                         <NavLink
                             to="/fresh"
-                            onClick={handleFreshClick}
+                            onClick={(e) => handleNavClick(e, '/fresh')}
                             className={({ isActive }) => `flex items-center gap-1.5 font-medium transition-colors ${isActive ? 'text-fruit-green' : 'text-gray-300 hover:text-fruit-green'}`}
                         >
                             <StrawberryIcon className="w-4 h-4" strokeWidth={2} />
                             {t('nav.fresh')}
                         </NavLink>
 
-                        <NavLink to="/savage" className="flex items-center gap-1.5 font-medium text-gray-300 hover:text-fruit-green">
+                        <NavLink
+                            to="/savage"
+                            onClick={(e) => handleNavClick(e, '/savage')}
+                            className="flex items-center gap-1.5 font-medium text-gray-300 hover:text-fruit-green"
+                        >
                             <Zap className="w-4 h-4" /> {t('nav.savage')}
                         </NavLink>
 
-                        <NavLink to="/smoothies" className="flex items-center gap-1.5 font-medium text-gray-300 hover:text-fruit-green">
+                        <NavLink
+                            to="/smoothies"
+                            onClick={(e) => handleNavClick(e, '/smoothies')}
+                            className="flex items-center gap-1.5 font-medium text-gray-300 hover:text-fruit-green"
+                        >
                             <CupSoda className="w-4 h-4" /> {t('nav.smoothies')}
                         </NavLink>
 

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 import { ArrowRight, Search, X } from 'lucide-react';
 import { savageFoods } from '../data/superfoods';
 import SuperfoodCard from '../components/SuperfoodCard';
@@ -17,6 +18,15 @@ export default function Savage() {
     const [query, setQuery] = useState('');
     const heroRef = useRef(null);
     const [searchVisible, setSearchVisible] = useState(false);
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.state?.resetSearch) {
+            setQuery('');
+            setShowAll(false);
+            window.history.replaceState({}, document.title);
+        }
+    }, [location.state]);
 
     useEffect(() => {
         const el = heroRef.current;
