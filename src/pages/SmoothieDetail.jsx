@@ -8,12 +8,17 @@ import { useT, useLanguage } from '../i18n/LanguageContext';
 import smoothieI18n from '../data/smoothie_i18n';
 import smoothiesTranslations from '../data/smoothies_translations';
 import benefitLabelsI18n from '../data/benefit_labels_i18n';
+import { usePremium } from '../hooks/usePremium';
+import PremiumLockScreen from '../components/PremiumLockScreen';
+import { isSmoothiePremium } from '../utils/premiumAccess';
 
 export default function SmoothieDetail() {
     const t = useT();
     const { id } = useParams();
     const navigate = useNavigate();
     const { isFavorite, toggleFavorite } = useFavorites();
+    const { isPremium } = usePremium();
+    const { language } = useLanguage();
 
     const smoothie = smoothies.find(s => s.id.toString() === id);
 
@@ -30,8 +35,11 @@ export default function SmoothieDetail() {
         );
     }
 
+    if (isSmoothiePremium(smoothie.id) && !isPremium) {
+        return <PremiumLockScreen title={smoothie.name} onBack={() => navigate('/smoothies')} />;
+    }
+
     const isFav = isFavorite(smoothie.id);
-    const { language } = useLanguage();
     const tr = language !== 'en' ? smoothiesTranslations[language]?.[smoothie.id] : null;
     const displayName = tr?.name || smoothie.name;
     const displayTeaser = tr?.teaser || smoothie.teaser;

@@ -6,11 +6,15 @@ import { benefitCategories, getItemsForBenefit } from '../data/benefits';
 import SmoothieCard from '../components/SmoothieCard';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import benefitCategoriesI18n from '../data/benefit_categories_i18n';
+import { isBenefitPremium, isSmoothiePremium } from '../utils/premiumAccess';
+import { usePremium } from '../hooks/usePremium';
+import PremiumLockScreen from '../components/PremiumLockScreen';
 
 export default function BenefitDetail() {
     const t = useT();
     const { language } = useLanguage();
     const { id } = useParams();
+    const { isPremium } = usePremium();
     const category = benefitCategories.find(c => c.id === id);
     const catTitle = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.title) || category?.title || '';
     const catTagline = (language !== 'en' && benefitCategoriesI18n[language]?.[id]?.tagline) || category?.tagline || '';
@@ -21,6 +25,10 @@ export default function BenefitDetail() {
 
     if (!category) {
         return <div className="pt-32 text-center text-3xl font-bold text-gray-900 dark:text-white">Benefit category not found.</div>;
+    }
+
+    if (isBenefitPremium(category.id) && !isPremium) {
+        return <PremiumLockScreen title={catTitle} />;
     }
 
     return (
@@ -49,7 +57,7 @@ export default function BenefitDetail() {
                 <div className="mb-10">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 xl:gap-8">
                         {allSmoothies.map((smoothie, index) => (
-                            <SmoothieCard key={smoothie.id} smoothie={smoothie} index={index} />
+                            <SmoothieCard key={smoothie.id} smoothie={smoothie} index={index} locked={isSmoothiePremium(smoothie.id)} />
                         ))}
                     </div>
                 </div>

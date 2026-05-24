@@ -4,6 +4,7 @@ import { Heart } from 'lucide-react';
 import { useFavorites } from '../hooks/useFavorites';
 import SmoothieCard from '../components/SmoothieCard';
 import { useT } from '../i18n/LanguageContext';
+import { isSmoothiePremium } from '../utils/premiumAccess';
 
 export default function Favorites() {
     const t = useT();
@@ -44,7 +45,7 @@ export default function Favorites() {
             ) : (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-8">
                     {smoothieFavorites.map((smoothie, i) => (
-                        <SmoothieCard key={smoothie.id} smoothie={smoothie} index={i} />
+                        <SmoothieCard key={smoothie.id} smoothie={smoothie} index={i} locked={isSmoothiePremium(smoothie.id)} />
                     ))}
                 </div>
             )}

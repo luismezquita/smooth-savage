@@ -12,6 +12,9 @@ import nutrientsI18n from '../data/nutrients_i18n';
 import synergiesI18n from '../data/synergies_i18n';
 import { getMainBenefits } from '../i18n/mainBenefits_i18n';
 import SmoothieLink from '../components/SmoothieLink';
+import { usePremium } from '../hooks/usePremium';
+import PremiumLockScreen from '../components/PremiumLockScreen';
+import { isSavagePremium } from '../utils/premiumAccess';
 
 export default function SuperfoodDetail() {
     const t = useT();
@@ -19,10 +22,20 @@ export default function SuperfoodDetail() {
     const { id } = useParams();
     const navigate = useNavigate();
     const superfood = savageFoods.find(s => s.id === id);
+    const { isPremium } = usePremium();
+    const [benefitsData, setBenefitsData] = useState({});
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    useEffect(() => {
+        if (language !== 'en') {
+            getMainBenefits(language).then(setBenefitsData);
+        } else {
+            setBenefitsData({});
+        }
+    }, [language]);
 
     if (!superfood) {
         return (
@@ -33,14 +46,9 @@ export default function SuperfoodDetail() {
         );
     }
 
-    const [benefitsData, setBenefitsData] = useState({});
-    useEffect(() => {
-        if (language !== 'en') {
-            getMainBenefits(language).then(setBenefitsData);
-        } else {
-            setBenefitsData({});
-        }
-    }, [language]);
+    if (isSavagePremium(superfood.id) && !isPremium) {
+        return <PremiumLockScreen title={superfood.name} onBack={() => navigate('/savage')} />;
+    }
 
     const displayName = (language !== 'en' && itemNamesI18n[language]?.[superfood.id]) || superfood.name;
     const displayTeaser = (language !== 'en' && itemTeasersI18n[language]?.[superfood.id]) || superfood.teaser;

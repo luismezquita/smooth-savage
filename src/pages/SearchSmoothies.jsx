@@ -6,6 +6,7 @@ import SmoothieCard from '../components/SmoothieCard';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import { normalize } from '../utils/benefitColors';
 import smoothiesTranslations from '../data/smoothies_translations';
+import { isSmoothiePremium } from '../utils/premiumAccess';
 
 export default function SearchSmoothies() {
   const t = useT();
@@ -93,7 +94,7 @@ export default function SearchSmoothies() {
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 max-w-6xl mx-auto">
             {filtered.map((smoothie, i) => (
-              <SmoothieCard key={smoothie.id} smoothie={smoothie} index={i} locked={i >= 8} />
+              <SmoothieCard key={smoothie.id} smoothie={smoothie} index={i} locked={isSmoothiePremium(smoothie.id)} />
             ))}
           </div>
         )}

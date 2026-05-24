@@ -5,6 +5,7 @@ import SuperfoodCard from '../components/SuperfoodCard';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import itemNamesI18n from '../data/item_names_i18n';
 import { normalize } from '../utils/benefitColors';
+import { isSavagePremium } from '../utils/premiumAccess';
 
 const INITIAL_LIMIT = 8;
 const SCROLL_KEY = 'savageListScrollPos';
@@ -107,7 +108,7 @@ export default function Savage() {
                             sessionStorage.setItem(SHOW_ALL_KEY, showAll);
                         }}
                     >
-                        <SuperfoodCard superfood={food} index={i} locked={i >= 7} />
+                        <SuperfoodCard superfood={food} index={i} locked={isSavagePremium(food.id)} />
                     </div>
                 ))}
                 {filtered.length === 0 && (

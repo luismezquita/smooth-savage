@@ -11,6 +11,9 @@ import benefitLabelsI18n from '../data/benefit_labels_i18n';
 import nutrientsI18n from '../data/nutrients_i18n';
 import { getMainBenefits } from '../i18n/mainBenefits_i18n';
 import SmoothieLink from '../components/SmoothieLink';
+import { usePremium } from '../hooks/usePremium';
+import PremiumLockScreen from '../components/PremiumLockScreen';
+import { isFruitPremium } from '../utils/premiumAccess';
 
 export default function FruitDetail() {
     const t = useT();
@@ -18,10 +21,20 @@ export default function FruitDetail() {
     const { id } = useParams();
     const navigate = useNavigate();
     const fruit = fruits.find(f => f.id === id);
+    const { isPremium } = usePremium();
+    const [benefitsData, setBenefitsData] = useState({});
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    useEffect(() => {
+        if (language !== 'en') {
+            getMainBenefits(language).then(setBenefitsData);
+        } else {
+            setBenefitsData({});
+        }
+    }, [language]);
 
     if (!fruit) {
         return (
@@ -32,14 +45,9 @@ export default function FruitDetail() {
         );
     }
 
-    const [benefitsData, setBenefitsData] = useState({});
-    useEffect(() => {
-        if (language !== 'en') {
-            getMainBenefits(language).then(setBenefitsData);
-        } else {
-            setBenefitsData({});
-        }
-    }, [language]);
+    if (isFruitPremium(fruit.id) && !isPremium) {
+        return <PremiumLockScreen title={fruit.name} onBack={() => navigate('/fresh')} />;
+    }
 
     const displayName = (language !== 'en' && itemNamesI18n[language]?.[fruit.id]) || fruit.name;
     const displayTeaser = (language !== 'en' && itemTeasersI18n[language]?.[fruit.id]) || fruit.teaser;

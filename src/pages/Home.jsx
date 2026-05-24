@@ -8,6 +8,7 @@ import tipsTranslations from '../data/tips_i18n';
 import { useT, useLanguage } from '../i18n/LanguageContext';
 import itemNamesI18n from '../data/item_names_i18n';
 import { normalize } from '../utils/benefitColors';
+import { isFruitPremium } from '../utils/premiumAccess';
 
 const INITIAL_LIMIT = 20;
 const SCROLL_KEY = 'freshListScrollPos';
@@ -119,7 +120,7 @@ export default function Home() {
                                 sessionStorage.setItem(SHOW_ALL_KEY, showAll);
                             }}
                         >
-                            <FruitCard fruit={fruit} index={i} locked={i >= 16} />
+                            <FruitCard fruit={fruit} index={i} locked={isFruitPremium(fruit.id)} />
                         </div>
                     ))}
                     {filtered.length === 0 && (

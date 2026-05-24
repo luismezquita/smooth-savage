@@ -1,26 +1,43 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import {
+    FREE_BENEFITS_COUNT,
+    FREE_FRESH_COUNT,
+    FREE_SAVAGE_COUNT,
+    FREE_SMOOTHIES_COUNT,
+} from '../utils/premiumAccess';
 
 const PREMIUM_KEY = 'ss_premium';
-
-export const FREE_SMOOTHIES_COUNT = 8;
-export const FREE_FRESH_COUNT = 16;
-export const FREE_SAVAGE_COUNT = 7;
-export const FREE_BENEFITS_COUNT = 2;
+const PREMIUM_EVENT = 'ss-premium-update';
 
 export function usePremium() {
     // TODO: conectar con RevenueCat cuando se integren los pagos reales
     // TODO: conectar con RevenueCat cuando se integren los pagos reales
     const [isPremium, setIsPremium] = useState(() => localStorage.getItem(PREMIUM_KEY) === 'true');
 
+    useEffect(() => {
+        const syncPremium = () => {
+            setIsPremium(localStorage.getItem(PREMIUM_KEY) === 'true');
+        };
+
+        window.addEventListener(PREMIUM_EVENT, syncPremium);
+        window.addEventListener('storage', syncPremium);
+        return () => {
+            window.removeEventListener(PREMIUM_EVENT, syncPremium);
+            window.removeEventListener('storage', syncPremium);
+        };
+    }, []);
+
     const unlock = () => {
         localStorage.setItem(PREMIUM_KEY, 'true');
         setIsPremium(true);
+        window.dispatchEvent(new Event(PREMIUM_EVENT));
     };
 
     const togglePremium = () => {
         const newValue = !isPremium;
         localStorage.setItem(PREMIUM_KEY, newValue.toString());
         setIsPremium(newValue);
+        window.dispatchEvent(new Event(PREMIUM_EVENT));
     };
 
     return {
