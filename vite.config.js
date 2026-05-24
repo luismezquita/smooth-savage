@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'icons/*.png', 'images/**/*'],
+      includeAssets: ['favicon.ico', 'icons/*.png'],
       manifest: {
         id: '/',
         name: 'Smooth Savage',
@@ -32,14 +32,14 @@ export default defineConfig({
         ],
         screenshots: [
           {
-            src: '/images/screenshots/fotosmoothie.png',
-            sizes: '750x1334',
+            src: '/screenshots/fotosmoothie.png',
+            sizes: '1080x2052',
             type: 'image/png',
             form_factor: 'narrow'
           },
           {
-            src: '/images/screenshots/fotofresh.png',
-            sizes: '750x1334',
+            src: '/screenshots/fotofresh.png',
+            sizes: '1047x2036',
             type: 'image/png',
             form_factor: 'narrow'
           }
@@ -52,7 +52,7 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/api\//],
         runtimeCaching: [
           {
-            urlPattern: /\/images\//,
+            urlPattern: ({ url }) => url.pathname.startsWith('/images/') || url.pathname.startsWith('/screenshots/'),
             handler: 'CacheFirst',
             options: {
               cacheName: 'images-cache',
