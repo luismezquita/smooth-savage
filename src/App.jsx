@@ -7,6 +7,7 @@ import SuperfoodDetail from './pages/SuperfoodDetail';
 import Savage from './pages/Savage';
 import SmoothieDetail from './pages/SmoothieDetail';
 import Smoothies from './pages/Smoothies';
+import SmoothiesLayout from './components/SmoothiesLayout';
 import Favorites from './pages/Favorites';
 import Search from './pages/Search';
 import Benefits from './pages/Benefits';
@@ -29,7 +30,10 @@ function App() {
                         
                         <Route path="/fresh" element={<Home />} />
                         <Route path="/savage" element={<Savage />} />
-                        <Route path="/smoothies" element={<Smoothies />} />
+
+                        <Route element={<SmoothiesLayout />}>
+                            <Route path="/smoothies" element={<Smoothies />} />
+                        </Route>
 
                         {/* Details */}
                         <Route path="/fruit/:id" element={<FruitDetail />} />

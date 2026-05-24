@@ -50,9 +50,12 @@ export default function Navbar() {
                             <Zap className="w-4 h-4" /> {t('nav.savage')}
                         </NavLink>
 
-                        <NavLink to="/smoothies" className="flex items-center gap-1.5 font-medium text-gray-300 hover:text-fruit-green">
+                        <button
+                            onClick={() => navigate('/smoothies', { replace: true, state: { resetSearch: true } })}
+                            className={`flex items-center gap-1.5 font-medium transition-colors ${location.pathname === '/smoothies' ? 'text-fruit-green' : 'text-gray-300 hover:text-fruit-green'}`}
+                        >
                             <CupSoda className="w-4 h-4" /> {t('nav.smoothies')}
-                        </NavLink>
+                        </button>
 
                         <NavLink to="/favorites" className="flex items-center gap-1.5 font-medium text-gray-300 hover:text-fruit-green">
                             <Heart className="w-4 h-4" /> {t('nav.favorites')}
