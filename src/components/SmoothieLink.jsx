@@ -37,13 +37,12 @@ export default function SmoothieLink({ baseName, translatedName }) {
 
     // Si existe, dibujamos el vaso y enviamos el nombre traducido al buscador de Grok
     return (
-        <Link 
-            to="/smoothies" 
-            state={{ searchIngredientId: translatedName }} 
-            className="block p-3 bg-black/20 backdrop-blur-sm rounded-full border border-white/10 transition-all duration-300 group hover:bg-black/90 hover:border-white/40 hover:shadow-[0_0_20px_rgba(255,255,255,0.2)]"
+        <Link
+            to={`/search-smoothies?ingredient=${encodeURIComponent(translatedName)}`}
+            className="block p-3 bg-black/80 backdrop-blur-sm rounded-full border border-white/25 shadow-[0_8px_24px_rgba(0,0,0,0.35)] transition-all duration-300 group hover:bg-black hover:border-white/50 hover:shadow-[0_0_20px_rgba(255,255,255,0.22)]"
             title="Savage Smoothies"
         >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white/80 group-hover:text-white transition-all duration-300 drop-shadow-sm group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.15" strokeLinecap="round" strokeLinejoin="round" className="text-white transition-all duration-300 drop-shadow-sm group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">
                 <path d="M18 8L16.5 20C16.5 21.1 15.6 22 14.5 22H9.5C8.4 22 7.5 21.1 7.5 20L6 8" />
                 <path d="M5 8H19" />
                 <path d="M12 8V4M10 4H14" />

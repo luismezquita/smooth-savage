@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom';
-import { Info, Zap, CupSoda, Heart, Globe } from 'lucide-react';
+import { Info, Zap, CupSoda, Heart, Globe, Search } from 'lucide-react';
 import { StrawberryIcon } from './StrawberryIcon';
 import LanguagePicker from './LanguagePicker';
 import { useLanguage } from '../i18n/LanguageContext';
@@ -66,6 +66,9 @@ export default function Navbar() {
                             aria-label={t('nav.language')}
                         >
                             <Globe className="w-6 h-6 md:w-7 md:h-7" />
+                        </button>
+                        <button onClick={() => navigate('/search-smoothies')} className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors" aria-label="Search smoothies">
+                            <Search className="w-6 h-6 md:w-7 md:h-7" />
                         </button>
                         <NavLink to="/info" className="p-1.5 md:p-2 rounded-full text-gray-300 hover:bg-white/10 transition-colors">
                             <Info className="w-6 h-6 md:w-7 md:h-7" />

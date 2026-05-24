@@ -7,8 +7,8 @@ import SuperfoodDetail from './pages/SuperfoodDetail';
 import Savage from './pages/Savage';
 import SmoothieDetail from './pages/SmoothieDetail';
 import Smoothies from './pages/Smoothies';
+import SearchSmoothies from './pages/SearchSmoothies';
 import Favorites from './pages/Favorites';
-import Search from './pages/Search';
 import Benefits from './pages/Benefits';
 import BenefitDetail from './pages/BenefitDetail';
 import Info from './pages/Info';
@@ -30,6 +30,7 @@ function App() {
                         <Route path="/fresh" element={<Home />} />
                         <Route path="/savage" element={<Savage />} />
                         <Route path="/smoothies" element={<Smoothies />} />
+                        <Route path="/search-smoothies" element={<SearchSmoothies />} />
 
                         {/* Details */}
                         <Route path="/fruit/:id" element={<FruitDetail />} />
@@ -38,7 +39,6 @@ function App() {
 
                         {/* Others */}
                         <Route path="/favorites" element={<Favorites />} />
-                        <Route path="/search" element={<Search />} />
                         <Route path="/benefits" element={<Benefits />} />
                         <Route path="/benefits/:id" element={<BenefitDetail />} />
 
