@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { HeartPulse, Leaf, ArrowRight, Search, X } from 'lucide-react';
 import { fruits } from '../data/fruits';
 import FruitCard from '../components/FruitCard';
@@ -19,6 +19,15 @@ export default function Home() {
     const [showAll, setShowAll] = useState(() => sessionStorage.getItem(SHOW_ALL_KEY) === 'true');
     const [query, setQuery] = useState('');
     const [dailyTipIndex, setDailyTipIndex] = useState(null);
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.state?.resetSearch) {
+            setQuery('');
+            setShowAll(false);
+            window.history.replaceState({}, document.title);
+        }
+    }, [location.state]);
 
     const filtered = query.trim()
         ? fruits.filter(f => normalize(itemNamesI18n[language]?.[f.id] || f.name).includes(normalize(query)))

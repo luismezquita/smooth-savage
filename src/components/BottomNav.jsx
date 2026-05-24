@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { Heart, CupSoda, MountainSnow } from 'lucide-react';
 import { StrawberryIcon } from './StrawberryIcon';
 import { useT } from '../i18n/LanguageContext';
@@ -17,6 +17,18 @@ const scrollToTop = () => {
 
 export default function BottomNav() {
     const t = useT();
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const handleNavClick = (e, path) => {
+        if (location.pathname === path) {
+            e.preventDefault();
+            scrollToTop();
+            navigate(path, { replace: true, state: { resetSearch: Date.now() } });
+        } else {
+            scrollToTop();
+        }
+    };
 
     const navItems = [
         { id: 'smoothies', path: '/smoothies',  label: t('nav.smoothies'), Icon: CupSoda },
@@ -32,7 +44,7 @@ export default function BottomNav() {
                     <NavLink
                         key={id}
                         to={path}
-                        onClick={scrollToTop}
+                        onClick={(e) => handleNavClick(e, path)}
                         className={({ isActive }) =>
                             `nav-item flex flex-col items-center gap-1 ${isActive ? 'active' : ''} hover:text-[#ffcc00] opacity-90 hover:opacity-100`
                         }
