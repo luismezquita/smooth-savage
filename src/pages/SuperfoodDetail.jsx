@@ -11,6 +11,7 @@ import benefitLabelsI18n from '../data/benefit_labels_i18n';
 import nutrientsI18n from '../data/nutrients_i18n';
 import synergiesI18n from '../data/synergies_i18n';
 import { getMainBenefits } from '../i18n/mainBenefits_i18n';
+import SmoothieLink from '../components/SmoothieLink';
 
 export default function SuperfoodDetail() {
     const t = useT();
@@ -46,18 +47,25 @@ export default function SuperfoodDetail() {
     const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[superfood.benefit]) || superfood.benefit;
     const displaySynergy = (language !== 'en' && synergiesI18n[language]?.[superfood.id]) || superfood.synergy;
     const translateNutrient = (n) => (language !== 'en' && nutrientsI18n[language]?.[n]) || n;
-    const displayMainBenefits = (language !== 'en' && benefitsData[superfood.id]) || superfood.mainBenefits;
+    
+    const displayMainBenefits = (language !== 'en' && benefitsData[superfood.id]) || superfood.mainBenefits || [];
 
     return (
         <div className="pb-16 bg-fruit-light/60 dark:bg-fruit-dark/50 min-h-[calc(100vh-64px)]">
-            {/* Hero Image */}
             <div className="relative h-72 md:h-96 w-full">
-                <button
-                    onClick={() => navigate(-1)}
-                    className="absolute top-6 left-6 z-30 p-3 bg-white/20 dark:bg-black/20 backdrop-blur-md rounded-full text-white hover:bg-white/40 transition-colors"
-                >
-                    <ArrowLeft className="w-6 h-6" />
-                </button>
+                
+                <div className="absolute top-6 left-6 right-6 z-30 flex justify-between items-start">
+                    <button
+                        onClick={() => navigate(-1)}
+                        className="p-3 bg-black/20 backdrop-blur-sm rounded-full border border-white/10 transition-all duration-300 cursor-pointer group hover:bg-black/90 hover:border-white/40 hover:shadow-[0_0_20px_rgba(255,255,255,0.2)]"
+                        aria-label="Volver"
+                    >
+                        <ArrowLeft className="w-6 h-6 text-white/80 group-hover:text-white transition-all duration-300 drop-shadow-sm group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
+                    </button>
+
+                    <SmoothieLink baseName={superfood.name} translatedName={displayName} />
+                </div>
+
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent z-10" />
                 <img src={superfood.image} alt={superfood.name} className="w-full h-full object-cover" />
 
@@ -78,9 +86,7 @@ export default function SuperfoodDetail() {
 
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
                 <div className="grid md:grid-cols-3 gap-8">
-
                     <div className="md:col-span-2 space-y-8">
-                        {/* Main Benefits */}
                         {superfood.mainBenefits && (
                             <motion.section
                                 initial={{ opacity: 0, x: -20 }}
@@ -93,7 +99,7 @@ export default function SuperfoodDetail() {
                                     {t('detail.mainBenefits')}
                                 </h2>
                                 <div className="space-y-6">
-                                    {displayMainBenefits.map((benefit, i) => (
+                                    {displayMainBenefits && displayMainBenefits.map((benefit, i) => (
                                         <div key={i} className="flex gap-4">
                                             <div className={`mt-1 bg-${superfood.color || 'purple'}-100 dark:bg-${superfood.color || 'purple'}-900/30 p-2 rounded-xl h-fit`}>
                                                 <CheckCircle2 className={`w-5 h-5 text-${superfood.color || 'purple'}-600 dark:text-${superfood.color || 'purple'}-400`} />
@@ -108,7 +114,6 @@ export default function SuperfoodDetail() {
                             </motion.section>
                         )}
 
-                        {/* Synergy tip */}
                         {superfood.synergy && (
                             <motion.section
                                 initial={{ opacity: 0, x: -20 }}
@@ -126,7 +131,6 @@ export default function SuperfoodDetail() {
                             </motion.section>
                         )}
 
-                        {/* Daily Tip */}
                         {superfood.tips && (
                             <motion.section
                                 initial={{ opacity: 0, y: 20 }}
@@ -146,7 +150,6 @@ export default function SuperfoodDetail() {
                     </div>
 
                     <div className="space-y-6">
-                        {/* Key Nutrients */}
                         {superfood.nutrients && superfood.nutrients.length > 0 && (
                             <motion.section
                                 initial={{ opacity: 0, x: 20 }}
@@ -160,17 +163,14 @@ export default function SuperfoodDetail() {
                                 </h2>
                                 <div className="flex flex-wrap gap-2">
                                     {superfood.nutrients.map((n, i) => (
-                                        // translated nutrient
-
                                         <span key={i} className="px-3 py-1.5 bg-gray-100 dark:bg-gray-700/50 text-gray-700 dark:text-gray-300 rounded-lg text-sm font-medium">
-                                            {n}
+                                            {translateNutrient(n)}
                                         </span>
                                     ))}
                                 </div>
                             </motion.section>
                         )}
                     </div>
-
                 </div>
             </div>
         </div>
