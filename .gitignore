@@ -5,3 +5,5 @@ dist
 dist-ssr
 *.local
 .claude/
+smooth-savage-landing/
+vite.config.js.timestamp-*.mjs

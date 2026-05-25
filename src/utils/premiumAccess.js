@@ -10,7 +10,7 @@ export const FREE_BENEFITS_COUNT = 2;
 
 const indexById = (items) => new Map(items.map((item, index) => [item.id, index]));
 
-const fruitIndex = indexById(fruits);
+const fruitIndex = indexById([...fruits].sort((a, b) => a.name.localeCompare(b.name)));
 const savageIndex = indexById(savageFoods);
 const smoothieIndex = indexById(smoothies);
 const benefitIndex = indexById(benefitCategories);
