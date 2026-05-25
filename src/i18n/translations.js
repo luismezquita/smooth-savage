@@ -99,6 +99,18 @@ const translations = {
             goToSmoothies: 'Go to Smoothies',
             goBack: 'Go Back',
         },
+        paywall: {
+            title: 'Unlock Everything',
+            body: '250+ smoothies, fruits & superfoods. Full benefit profiles. 7 languages. 100% offline.',
+            cta: 'Unlock all - $4.99',
+            note: 'One payment · No subscription · No ads · In-app purchase coming next',
+        },
+        premiumLock: {
+            title: 'Premium content',
+            description: 'Unlock Premium to view the full profile, benefits, ingredients, and preparation notes.',
+            unlock: 'Unlock Premium',
+            goBack: 'Go back',
+        },
         langPicker: {
             title: 'Language',
             done: 'Done',
@@ -231,6 +243,18 @@ const translations = {
             notFound: 'No encontrado',
             goHome: 'Ir al Inicio',
             goToSmoothies: 'Ir a Batidos',
+            goBack: 'Volver',
+        },
+        paywall: {
+            title: 'Desbloquea todo',
+            body: '250+ batidos, alimentos frescos y superalimentos. Perfiles completos de beneficios. 7 idiomas. 100% sin conexión.',
+            cta: 'Desbloquear todo - $4.99',
+            note: 'Pago único · Sin suscripción · Sin anuncios · Compra integrada próximamente',
+        },
+        premiumLock: {
+            title: 'Contenido Premium',
+            description: 'Desbloquea Premium para ver el perfil completo, beneficios, ingredientes y notas de preparación.',
+            unlock: 'Desbloquear Premium',
             goBack: 'Volver',
         },
         langPicker: {
@@ -367,6 +391,18 @@ const translations = {
             goToSmoothies: 'Voir les smoothies',
             goBack: 'Retour',
         },
+        paywall: {
+            title: 'Tout débloquer',
+            body: '250+ smoothies, aliments frais et superaliments. Profils complets de bienfaits. 7 langues. 100 % hors ligne.',
+            cta: 'Tout débloquer - 4,99 $',
+            note: 'Paiement unique · Sans abonnement · Sans publicité · Achat intégré bientôt disponible',
+        },
+        premiumLock: {
+            title: 'Contenu Premium',
+            description: 'Débloquez Premium pour voir le profil complet, les bienfaits, les ingrédients et les notes de préparation.',
+            unlock: 'Débloquer Premium',
+            goBack: 'Retour',
+        },
         langPicker: {
             title: 'Langue',
             done: 'Terminé',
@@ -499,6 +535,18 @@ const translations = {
             notFound: '未找到',
             goHome: '返回首页',
             goToSmoothies: '前往果昔',
+            goBack: '返回',
+        },
+        paywall: {
+            title: '解锁全部内容',
+            body: '250+ 款果昔、新鲜食物和超级食物。完整功效档案。7 种语言。100% 离线可用。',
+            cta: '解锁全部 - $4.99',
+            note: '一次付费 · 无订阅 · 无广告 · 应用内购买即将推出',
+        },
+        premiumLock: {
+            title: '高级内容',
+            description: '解锁高级版即可查看完整档案、功效、食材和制作说明。',
+            unlock: '解锁高级版',
             goBack: '返回',
         },
         langPicker: {
@@ -635,6 +683,18 @@ const translations = {
             goToSmoothies: 'スムージーへ',
             goBack: '戻る',
         },
+        paywall: {
+            title: 'すべてをアンロック',
+            body: '250以上のスムージー、フレッシュフード、スーパーフード。完全な効能プロフィール。7言語。100%オフライン。',
+            cta: 'すべてをアンロック - $4.99',
+            note: '一回払い · サブスクなし · 広告なし · アプリ内購入は近日対応',
+        },
+        premiumLock: {
+            title: 'プレミアムコンテンツ',
+            description: 'プレミアムをアンロックすると、完全なプロフィール、効能、材料、準備メモを確認できます。',
+            unlock: 'プレミアムをアンロック',
+            goBack: '戻る',
+        },
         langPicker: {
             title: '言語',
             done: '完了',
@@ -769,6 +829,18 @@ const translations = {
             goToSmoothies: '스무디로',
             goBack: '뒤로',
         },
+        paywall: {
+            title: '전체 잠금 해제',
+            body: '250개 이상의 스무디, 신선 식품, 슈퍼푸드. 전체 효능 프로필. 7개 언어. 100% 오프라인.',
+            cta: '전체 잠금 해제 - $4.99',
+            note: '1회 결제 · 구독 없음 · 광고 없음 · 인앱 구매 곧 제공',
+        },
+        premiumLock: {
+            title: '프리미엄 콘텐츠',
+            description: '프리미엄을 잠금 해제하면 전체 프로필, 효능, 재료와 준비 노트를 볼 수 있습니다.',
+            unlock: '프리미엄 잠금 해제',
+            goBack: '뒤로',
+        },
         langPicker: {
             title: '언어',
             done: '완료',
@@ -901,6 +973,18 @@ const translations = {
             notFound: 'غير موجود',
             goHome: 'الصفحة الرئيسية',
             goToSmoothies: 'العصائر',
+            goBack: 'رجوع',
+        },
+        paywall: {
+            title: 'افتح كل المحتوى',
+            body: 'أكثر من 250 عصيراً وطعاماً طازجاً وطعاماً خارقاً. ملفات فوائد كاملة. 7 لغات. يعمل 100% دون اتصال.',
+            cta: 'افتح الكل - $4.99',
+            note: 'دفعة واحدة · بلا اشتراك · بلا إعلانات · الشراء داخل التطبيق قريباً',
+        },
+        premiumLock: {
+            title: 'محتوى مميز',
+            description: 'افتح Premium لعرض الملف الكامل والفوائد والمكونات وملاحظات التحضير.',
+            unlock: 'فتح Premium',
             goBack: 'رجوع',
         },
         langPicker: {

@@ -1,7 +1,10 @@
 import React from 'react';
 import { Lock } from 'lucide-react';
+import { useT } from '../i18n/LanguageContext';
 
 export default function PaywallOverlay({ onClose }) {
+    const t = useT();
+
     return (
         <div
             className="fixed inset-0 z-50 flex items-end justify-center pb-10 px-4"
@@ -16,19 +19,19 @@ export default function PaywallOverlay({ onClose }) {
                     <Lock className="w-8 h-8 text-orange-500" />
                 </div>
                 <h2 className="text-2xl font-black mb-2 text-gray-900 dark:text-white">
-                    Unlock Everything
+                    {t('paywall.title')}
                 </h2>
                 <p className="text-gray-500 dark:text-gray-400 text-sm mb-6 leading-relaxed">
-                    250+ smoothies, fruits & superfoods. Full benefit profiles. 7 languages. 100% offline.
+                    {t('paywall.body')}
                 </p>
                 <div className="space-y-3">
                     <button
                         disabled
-                        className="w-full bg-orange-500/70 text-white font-black py-4 rounded-2xl text-lg cursor-not-allowed"
+                        className="w-full bg-orange-500/70 text-white font-black py-4 px-3 rounded-2xl text-base leading-tight cursor-not-allowed"
                     >
-                        Unlock all — $4.99
+                        {t('paywall.cta')}
                     </button>
-                    <p className="text-xs text-gray-400">One payment · No subscription · No ads · In-app purchase coming next</p>
+                    <p className="text-xs text-gray-400">{t('paywall.note')}</p>
                 </div>
             </div>
         </div>
