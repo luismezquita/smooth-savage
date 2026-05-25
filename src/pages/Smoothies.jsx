@@ -27,7 +27,7 @@ export default function Smoothies() {
                         className="font-black italic text-4xl leading-tight"
                         style={{ color: '#F5E6C8' }}
                     >
-                        Fresh Foods.
+                        {t('smoothies.slogan1')}
                     </p>
 
                     <p
@@ -38,7 +38,7 @@ export default function Smoothies() {
                             WebkitTextFillColor: 'transparent'
                         }}
                     >
-                        Savage Results.
+                        {t('smoothies.slogan2a')}{t('smoothies.slogan2b')}
                     </p>
                 </div>
             </div>

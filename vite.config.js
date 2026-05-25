@@ -46,8 +46,8 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,woff2,svg}'],
-        globIgnores: ['**/images/**'],
+        globPatterns: ['**/*.{js,css,html,ico,woff2,woff,svg,png,jpg,jpeg,webp,webmanifest}'],
+        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         navigateFallback: '/index.html',
         navigateFallbackDenylist: [/^\/api\//],
         runtimeCaching: [
@@ -57,7 +57,7 @@ export default defineConfig({
             options: {
               cacheName: 'images-cache',
               expiration: {
-                maxEntries: 200,
+                maxEntries: 400,
                 maxAgeSeconds: 60 * 60 * 24 * 30
               }
             }
