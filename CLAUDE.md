@@ -15,7 +15,7 @@
 A premium wellness PWA (Progressive Web App) called **Smooth Savage**. It covers exotic fresh foods, superfoods ("Savage"), and smoothie recipes. Built with React + Vite + Tailwind CSS. Offline-capable. Target platforms: Web PWA, Google Play, App Store.
 
 Owner: Luis Fernando (luismezquita@gmail.com)
-Live (Vercel): https://appdefernando.vercel.app
+Live (Vercel): https://smooth-savage.vercel.app/
 Privacy Policy: https://smooth-savage.vercel.app/privacy
 Domain: smoothsavage.app (Squarespace, expires May 2027)
 
@@ -74,15 +74,15 @@ public/
 
 ---
 
-## Freemium System — COMPLETADO Mayo 16, 2026 ✅
+## Freemium System — EN PREPARACION Mayo 2026
 
-El sistema freemium está completamente implementado y funcionando.
+El sistema freemium visual está implementado: muestra contenido gratuito, bloquea contenido premium y abre el paywall. La compra real queda pendiente de RevenueCat.
 
 ### Lógica
 - `isPremium = false` → ítems bloqueados muestran imagen + nombre + candado, al tocar abre PaywallOverlay
 - `isPremium = true` → todo visible y accesible
-- Estado guardado en `localStorage` key `ss_premium`
-- Precio: $9.99 pago único, sin suscripción, sin anuncios
+- Estado premium pendiente de conectar con RevenueCat
+- Precio recomendado de lanzamiento: $4.99 pago único, sin suscripción, sin anuncios
 
 ### Límites gratuitos
 - Fresh Foods: primeros 16 libres (`locked={i >= 16}` en Home.jsx)
@@ -93,17 +93,13 @@ El sistema freemium está completamente implementado y funcionando.
 ### Hook usePremium.js
 ```js
 const { isPremium, unlock, togglePremium } = usePremium();
-// unlock() → sets isPremium true (para el botón de compra real)
-// togglePremium() → alterna true/false (solo para testing en dev)
+// unlock() → reservado para activar premium tras validar compra real con RevenueCat
+// togglePremium() → reservado para testing interno si se vuelve a necesitar
 // Constantes: FREE_SMOOTHIES_COUNT=8, FREE_FRESH_COUNT=16, FREE_SAVAGE_COUNT=7, FREE_BENEFITS_COUNT=2
 ```
 
-### Dev toggle (solo en localhost)
-- Página Info → botón al final que alterna entre modo gratuito y premium
-- Visible solo cuando `import.meta.env.DEV === true` (no aparece en Vercel)
-
 ### Pendiente del freemium
-- RevenueCat — conectar botón "$9.99" con pagos reales de App Store y Google Play
+- RevenueCat — conectar botón "$4.99" con pagos reales de App Store y Google Play
 - Restore Purchase — botón obligatorio en Apple
 - Verificar que Search, Favorites y URLs directas respetan el freemium
 
@@ -190,7 +186,7 @@ La app funciona completa en **7 idiomas**: EN 🇬🇧, ZH 🇨🇳, JA 🇯🇵
 1. Empaquetar PWA como app nativa (PWABuilder o Capacitor)
 2. Google Play Console — retomar proceso (se paró al descubrir que faltaba el freemium, ahora está listo)
 3. App Store Connect — dar de alta ($99/año) y subir IPA
-4. RevenueCat — conectar pagos reales ($9.99 Non-Consumable en ambas tiendas)
+4. RevenueCat — conectar pagos reales ($4.99 Non-Consumable en ambas tiendas)
 
 ---
 

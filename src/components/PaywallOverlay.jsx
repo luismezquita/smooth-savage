@@ -1,15 +1,7 @@
 import React from 'react';
 import { Lock } from 'lucide-react';
-import { usePremium } from '../hooks/usePremium';
 
 export default function PaywallOverlay({ onClose }) {
-    const { unlock } = usePremium();
-
-    const handleUnlock = () => {
-        unlock();
-        if (onClose) onClose();
-    };
-
     return (
         <div
             className="fixed inset-0 z-50 flex items-end justify-center pb-10 px-4"
@@ -31,12 +23,12 @@ export default function PaywallOverlay({ onClose }) {
                 </p>
                 <div className="space-y-3">
                     <button
-                        onClick={handleUnlock}
-                        className="w-full bg-orange-500 hover:bg-orange-600 text-white font-black py-4 rounded-2xl text-lg transition-all active:scale-95"
+                        disabled
+                        className="w-full bg-orange-500/70 text-white font-black py-4 rounded-2xl text-lg cursor-not-allowed"
                     >
-                        Unlock all — $9.99
+                        Unlock all — $4.99
                     </button>
-                    <p className="text-xs text-gray-400">One payment · No subscription · No ads</p>
+                    <p className="text-xs text-gray-400">One payment · No subscription · No ads · In-app purchase coming next</p>
                 </div>
             </div>
         </div>

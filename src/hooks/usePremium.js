@@ -11,7 +11,6 @@ const PREMIUM_EVENT = 'ss-premium-update';
 
 export function usePremium() {
     // TODO: conectar con RevenueCat cuando se integren los pagos reales
-    // TODO: conectar con RevenueCat cuando se integren los pagos reales
     const [isPremium, setIsPremium] = useState(() => localStorage.getItem(PREMIUM_KEY) === 'true');
 
     useEffect(() => {

@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { ShieldAlert, Leaf, Mail, Lock, Droplets, AlertTriangle } from 'lucide-react';
 
 import { useT } from '../i18n/LanguageContext';
-import { usePremium } from '../hooks/usePremium';
 
 const Section = ({ icon: Icon, title, children }) => (
     <motion.div
@@ -24,11 +23,8 @@ const Section = ({ icon: Icon, title, children }) => (
     </motion.div>
 );
 
-const DEV_TOGGLE = import.meta.env.DEV;
-
 export default function Info() {
     const t = useT();
-    const { isPremium, togglePremium } = usePremium();
 
     return (
         <div className="min-h-screen pb-24 px-4 sm:px-6 lg:px-8 max-w-2xl mx-auto pt-10" style={{ color: '#F5E6C8' }}>
@@ -96,22 +92,6 @@ export default function Info() {
                 </Section>
             </div>
 
-            {/* DEV ONLY — toggle premium */}
-            {DEV_TOGGLE && (
-                <div className="mt-10 text-center">
-                    <button
-                        onClick={togglePremium}
-                        className="px-6 py-3 rounded-2xl text-xs font-black uppercase tracking-widest border transition-all active:scale-95"
-                        style={{
-                            background: isPremium ? 'rgba(34,197,94,0.15)' : 'rgba(249,115,22,0.15)',
-                            borderColor: isPremium ? '#22C55E' : '#F97316',
-                            color: isPremium ? '#22C55E' : '#F97316',
-                        }}
-                    >
-                        {isPremium ? '🔓 Modo Premium — tocar para volver a Gratuito' : '🔒 Modo Gratuito — tocar para simular Premium'}
-                    </button>
-                </div>
-            )}
         </div>
     );
 }
