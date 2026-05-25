@@ -43,10 +43,10 @@ export default function Info() {
             </motion.div>
 
             <div className="flex flex-col gap-5">
-                {/* Medical disclaimer */}
-                <Section icon={ShieldAlert} title={t('info.disclaimerTitle') || 'Medical Disclaimer'}>
+                {/* Nutrition and wellness disclaimer */}
+                <Section icon={ShieldAlert} title={t('info.disclaimerTitle') || 'Nutrition & Wellness Disclaimer'}>
                     {t('info.disclaimerText') ||
-                        'La información sobre beneficios nutricionales de esta app ha sido recopilada de fuentes de internet e inteligencia artificial. No constituye consejo médico profesional. Consulta siempre con un profesional de la salud.'}
+                        'Smooth Savage is an educational food catalog. It describes nutrients, traditional uses, and general wellness support associated with foods, superfoods, and smoothie ingredients. It is not medical advice and is not intended to diagnose, treat, cure, or prevent any disease or health condition. Food choices may support wellbeing, but they are not therapy, medicine, or a remedy. Always consult a qualified healthcare professional for medical questions, symptoms, treatments, medications, allergies, pregnancy, or specific health conditions.'}
                 </Section>
 
                 {/* Preparation tip */}
