@@ -14,38 +14,62 @@ export default function SearchSmoothies() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const [query, setQuery] = useState(() => searchParams.get('ingredient') || '');
+  const [baseQuery, setBaseQuery] = useState(() => searchParams.get('baseIngredient') || '');
 
   // Sincronizar query si cambia el param de URL (viene desde SmoothieLink)
   useEffect(() => {
     const param = searchParams.get('ingredient') || '';
+    const baseParam = searchParams.get('baseIngredient') || '';
     setQuery(param);
+    setBaseQuery(baseParam);
   }, [searchParams]);
 
   // FILTRADO SÍNCRONO con useMemo — instantáneo, sin async
   const filtered = useMemo(() => {
     if (!query.trim()) return smoothies;
-    const q = normalize(query).toLowerCase().trim();
-    const qClean = q.replace(/s$/, '');
-    const queryTokens = qClean.split(/\s+/).filter(Boolean);
+
+    const buildQuery = (value) => {
+      const q = normalize(value).toLowerCase().trim();
+      const qClean = q.replace(/s$/, '');
+      return {
+        clean: qClean,
+        tokens: qClean.split(/\s+/).filter(Boolean),
+      };
+    };
+
+    const searchQueries = [query, baseQuery]
+      .filter(Boolean)
+      .map(buildQuery)
+      .filter((q, index, arr) => q.clean && arr.findIndex(item => item.clean === q.clean) === index);
+
+    const isMatch = (text, searchQuery) => {
+      const normalizedText = normalize(text).toLowerCase();
+      const normalizedTextClean = normalizedText.replace(/s\b/g, '');
+      const tokens = normalizedText.split(/[\s,]+/).filter(Boolean);
+
+      return (
+        normalizedText.includes(searchQuery.clean) ||
+        normalizedTextClean.includes(searchQuery.clean) ||
+        searchQuery.clean.includes(normalizedText) ||
+        searchQuery.clean.includes(normalizedTextClean) ||
+        searchQuery.tokens.every(queryToken =>
+          tokens.some(token => token.replace(/s$/, '') === queryToken)
+        )
+      );
+    };
+
     return smoothies.filter(s => {
       const ingredients = (language !== 'en' && smoothiesTranslations[language]?.[s.id]?.ingredients) || s.ingredients;
       const name = (language !== 'en' && smoothiesTranslations[language]?.[s.id]?.name) || s.name;
-      const isMatch = (text) => {
-        const normalizedText = normalize(text).toLowerCase();
-        const normalizedTextClean = normalizedText.replace(/s\b/g, '');
-        const tokens = normalizedText.split(/[\s,]+/).filter(Boolean);
+      const translatedFields = [name, ...ingredients];
+      const englishFields = [s.name, ...s.ingredients];
 
-        return (
-          normalizedText.includes(qClean) ||
-          normalizedTextClean.includes(qClean) ||
-          queryTokens.every(queryToken =>
-            tokens.some(token => token.replace(/s$/, '') === queryToken)
-          )
-        );
-      };
-      return isMatch(name) || ingredients.some(isMatch);
+      return searchQueries.some(searchQuery =>
+        translatedFields.some(text => isMatch(text, searchQuery)) ||
+        englishFields.some(text => isMatch(text, searchQuery))
+      );
     });
-  }, [query, language]);
+  }, [query, baseQuery, language]);
 
   return (
     <div className="min-h-[100dvh] w-full bg-fruit-dark pb-24 overflow-x-hidden">

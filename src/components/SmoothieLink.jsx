@@ -35,10 +35,15 @@ export default function SmoothieLink({ baseName, translatedName }) {
     // Si el ingrediente no está en ninguna receta, el vaso no se pinta
     if (!hasSmoothie) return null;
 
-    // Si existe, dibujamos el vaso y enviamos el nombre traducido al buscador de Grok
+    const params = new URLSearchParams({
+        ingredient: translatedName,
+        baseIngredient: baseName,
+    });
+
+    // Si existe, dibujamos el vaso y enviamos el nombre visible junto con la llave base
     return (
         <Link
-            to={`/search-smoothies?ingredient=${encodeURIComponent(translatedName)}`}
+            to={`/search-smoothies?${params.toString()}`}
             className="block p-3 bg-black/80 backdrop-blur-sm rounded-full border border-white/25 shadow-[0_8px_24px_rgba(0,0,0,0.35)] transition-all duration-300 group hover:bg-black hover:border-white/50 hover:shadow-[0_0_20px_rgba(255,255,255,0.22)]"
             title="Savage Smoothies"
         >
