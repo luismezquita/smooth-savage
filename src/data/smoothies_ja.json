@@ -128,7 +128,7 @@
         "icon": "vaso"
     },
     {
-        "id": "gut_supporting_hero",
+        "id": "gut_healing_hero",
         "name": "インナーテンプル",
         "title": "インナーテンプル",
         "teaser": "内側から腸を癒す",
@@ -150,11 +150,11 @@
         "tier": "free",
         "isHero": true,
         "benefit": "消化＆腸内環境",
-        "img": "/images/smoothies/gut_supporting_hero.webp",
+        "img": "/images/smoothies/gut_healing_hero.webp",
         "icon": "vaso"
     },
     {
-        "id": "anti_body-stress_hero",
+        "id": "anti_inflammatory_hero",
         "name": "アイスドラゴン",
         "title": "アイスドラゴン",
         "teaser": "自然の力で身体压力と戦う",
@@ -175,7 +175,7 @@
         "tier": "free",
         "isHero": true,
         "benefit": "身体平衡症",
-        "img": "/images/smoothies/anti_body-stress_hero.webp",
+        "img": "/images/smoothies/anti_inflammatory_hero.webp",
         "icon": "vaso"
     },
     {
@@ -331,7 +331,7 @@
         "icon": "vaso"
     },
     {
-        "id": "golden_anti_body-stress",
+        "id": "golden_anti_inflammatory",
         "name": "ゴールデンカーン",
         "title": "ゴールデンカーン",
         "teaser": "黄金の身体平衡症エリクサー",
@@ -352,7 +352,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "身体平衡症",
-        "img": "/images/smoothies/golden_anti_body-stress.webp",
+        "img": "/images/smoothies/golden_anti_inflammatory.webp",
         "icon": "vaso"
     },
     {
@@ -534,7 +534,7 @@
         "icon": "vaso"
     },
     {
-        "id": "deep_cleanse",
+        "id": "deep_detox",
         "name": "シャドウクレンズ",
         "title": "シャドウクレンズ",
         "teaser": "毎日の優しいクリーン栄養サポート",
@@ -555,7 +555,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "クリーン栄養＆クレンズ",
-        "img": "/images/smoothies/deep_cleanse.webp",
+        "img": "/images/smoothies/deep_detox.webp",
         "icon": "vaso"
     },
     {
@@ -634,7 +634,7 @@
         "icon": "vaso"
     },
     {
-        "id": "black_seed_wellness ritual",
+        "id": "black_seed_cure",
         "name": "ブラックシードリチュアル",
         "title": "ブラックシードリチュアル",
         "teaser": "伝説のウェルネスブースト",
@@ -655,7 +655,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "抗酸化パワー",
-        "img": "/images/smoothies/black_seed_wellness ritual.webp",
+        "img": "/images/smoothies/black_seed_cure.webp",
         "icon": "vaso"
     },
     {
@@ -1240,7 +1240,7 @@
         "icon": "vaso"
     },
     {
-        "id": "the_fluid_refresh",
+        "id": "the_fluid_flush",
         "name": "リバー・オブ・ゴッズ",
         "title": "リバー・オブ・ゴッズ",
         "teaser": "腎臓とリンパのクリーン栄養",
@@ -1262,7 +1262,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "抗酸化パワー",
-        "img": "/images/smoothies/the_fluid_refresh.webp",
+        "img": "/images/smoothies/the_fluid_flush.webp",
         "icon": "vaso"
     },
     {
@@ -1791,7 +1791,7 @@
         "icon": "vaso"
     },
     {
-        "id": "amla_support",
+        "id": "amla_boost",
         "name": "ヴェーディックサン",
         "title": "ヴェーディックサン",
         "teaser": "オレンジの20倍のビタミンC",
@@ -1812,7 +1812,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "免疫力アップ",
-        "img": "/images/smoothies/amla_support.webp",
+        "img": "/images/smoothies/amla_boost.webp",
         "icon": "vaso"
     },
     {

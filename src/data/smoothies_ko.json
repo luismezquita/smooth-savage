@@ -128,7 +128,7 @@
         "icon": "vaso"
     },
     {
-        "id": "gut_supporting_hero",
+        "id": "gut_healing_hero",
         "name": "이너 템플",
         "title": "이너 템플",
         "teaser": "내면부터 장을 웰니스 지원하다",
@@ -150,11 +150,11 @@
         "tier": "free",
         "isHero": true,
         "benefit": "소화 및 장 건강",
-        "img": "/images/smoothies/gut_supporting_hero.webp",
+        "img": "/images/smoothies/gut_healing_hero.webp",
         "icon": "vaso"
     },
     {
-        "id": "anti_body-stress_hero",
+        "id": "anti_inflammatory_hero",
         "name": "아이스 드래곤",
         "title": "아이스 드래곤",
         "teaser": "자연스럽게 신체 스트레스과 싸우다",
@@ -175,7 +175,7 @@
         "tier": "free",
         "isHero": true,
         "benefit": "신체 균형",
-        "img": "/images/smoothies/anti_body-stress_hero.webp",
+        "img": "/images/smoothies/anti_inflammatory_hero.webp",
         "icon": "vaso"
     },
     {
@@ -331,7 +331,7 @@
         "icon": "vaso"
     },
     {
-        "id": "golden_anti_body-stress",
+        "id": "golden_anti_inflammatory",
         "name": "골든 칸",
         "title": "골든 칸",
         "teaser": "황금빛 신체 균형 엘릭서",
@@ -352,7 +352,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "신체 균형",
-        "img": "/images/smoothies/golden_anti_body-stress.webp",
+        "img": "/images/smoothies/golden_anti_inflammatory.webp",
         "icon": "vaso"
     },
     {
@@ -534,7 +534,7 @@
         "icon": "vaso"
     },
     {
-        "id": "deep_cleanse",
+        "id": "deep_detox",
         "name": "섀도우 클렌즈",
         "title": "섀도우 클렌즈",
         "teaser": "부드러운 데일리 디톡스 지원",
@@ -555,7 +555,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "디톡스 및 클렌즈",
-        "img": "/images/smoothies/deep_cleanse.webp",
+        "img": "/images/smoothies/deep_detox.webp",
         "icon": "vaso"
     },
     {
@@ -634,7 +634,7 @@
         "icon": "vaso"
     },
     {
-        "id": "black_seed_wellness ritual",
+        "id": "black_seed_cure",
         "name": "블랙 씨드 리추얼",
         "title": "블랙 씨드 리추얼",
         "teaser": "전설적인 웰니스 부스트",
@@ -655,7 +655,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "항산화 파워",
-        "img": "/images/smoothies/black_seed_wellness ritual.webp",
+        "img": "/images/smoothies/black_seed_cure.webp",
         "icon": "vaso"
     },
     {
@@ -1240,7 +1240,7 @@
         "icon": "vaso"
     },
     {
-        "id": "the_fluid_refresh",
+        "id": "the_fluid_flush",
         "name": "리버 오브 갓",
         "title": "리버 오브 갓",
         "teaser": "신장 및 림프 디톡스",
@@ -1262,7 +1262,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "항산화 파워",
-        "img": "/images/smoothies/the_fluid_refresh.webp",
+        "img": "/images/smoothies/the_fluid_flush.webp",
         "icon": "vaso"
     },
     {
@@ -1791,7 +1791,7 @@
         "icon": "vaso"
     },
     {
-        "id": "amla_support",
+        "id": "amla_boost",
         "name": "베딕 선",
         "title": "베딕 선",
         "teaser": "오렌지의 20배에 달하는 비타민 C",
@@ -1812,7 +1812,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "면역력 강화",
-        "img": "/images/smoothies/amla_support.webp",
+        "img": "/images/smoothies/amla_boost.webp",
         "icon": "vaso"
     },
     {

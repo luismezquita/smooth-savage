@@ -128,7 +128,7 @@
         "icon": "vaso"
     },
     {
-        "id": "gut_supporting_hero",
+        "id": "gut_healing_hero",
         "name": "المعبد الداخلي",
         "title": "المعبد الداخلي",
         "teaser": "عالج أمعاءك من الداخل",
@@ -150,11 +150,11 @@
         "tier": "free",
         "isHero": true,
         "benefit": "توازن الهضم",
-        "img": "/images/smoothies/gut_supporting_hero.webp",
+        "img": "/images/smoothies/gut_healing_hero.webp",
         "icon": "vaso"
     },
     {
-        "id": "anti_body-stress_hero",
+        "id": "anti_inflammatory_hero",
         "name": "تنين الجليد",
         "title": "تنين الجليد",
         "teaser": "حارب إجهاد الجسمات بشكل غذائيعي",
@@ -175,7 +175,7 @@
         "tier": "free",
         "isHero": true,
         "benefit": "توازن الجسمات",
-        "img": "/images/smoothies/anti_body-stress_hero.webp",
+        "img": "/images/smoothies/anti_inflammatory_hero.webp",
         "icon": "vaso"
     },
     {
@@ -331,7 +331,7 @@
         "icon": "vaso"
     },
     {
-        "id": "golden_anti_body-stress",
+        "id": "golden_anti_inflammatory",
         "name": "الخان الذهبي",
         "title": "الخان الذهبي",
         "teaser": "إكسير ذهبي توازن الجسمات",
@@ -352,7 +352,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "توازن الجسمات",
-        "img": "/images/smoothies/golden_anti_body-stress.webp",
+        "img": "/images/smoothies/golden_anti_inflammatory.webp",
         "icon": "vaso"
     },
     {
@@ -534,7 +534,7 @@
         "icon": "vaso"
     },
     {
-        "id": "deep_cleanse",
+        "id": "deep_detox",
         "name": "تطهير الظل",
         "title": "تطهير الظل",
         "teaser": "دعم يومي لطيف للتخلص من الأعباء غير المرغوبة",
@@ -555,7 +555,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "تغذية نظيفة وتجديد يومي",
-        "img": "/images/smoothies/deep_cleanse.webp",
+        "img": "/images/smoothies/deep_detox.webp",
         "icon": "vaso"
     },
     {
@@ -634,7 +634,7 @@
         "icon": "vaso"
     },
     {
-        "id": "black_seed_wellness ritual",
+        "id": "black_seed_cure",
         "name": "دعم الحبة السوداء",
         "title": "دعم الحبة السوداء",
         "teaser": "دفعة العافية الأسطورية",
@@ -655,7 +655,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "قوة مضادات الأكسدة",
-        "img": "/images/smoothies/black_seed_wellness ritual.webp",
+        "img": "/images/smoothies/black_seed_cure.webp",
         "icon": "vaso"
     },
     {
@@ -1240,7 +1240,7 @@
         "icon": "vaso"
     },
     {
-        "id": "the_fluid_refresh",
+        "id": "the_fluid_flush",
         "name": "نهر الآلهة",
         "title": "نهر الآلهة",
         "teaser": "تطهير الكلى والجهاز اللمفاوي",
@@ -1262,7 +1262,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "قوة مضادات الأكسدة",
-        "img": "/images/smoothies/the_fluid_refresh.webp",
+        "img": "/images/smoothies/the_fluid_flush.webp",
         "icon": "vaso"
     },
     {
@@ -1791,7 +1791,7 @@
         "icon": "vaso"
     },
     {
-        "id": "amla_support",
+        "id": "amla_boost",
         "name": "شمس الفيدية",
         "title": "شمس الفيدية",
         "teaser": "20 ضعف فيتامين سي الموجود في البرتقال",
@@ -1812,7 +1812,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "الدفاعات الغذائيعية",
-        "img": "/images/smoothies/amla_support.webp",
+        "img": "/images/smoothies/amla_boost.webp",
         "icon": "vaso"
     },
     {

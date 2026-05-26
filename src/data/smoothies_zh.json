@@ -128,7 +128,7 @@
         "icon": "vaso"
     },
     {
-        "id": "gut_supporting_hero",
+        "id": "gut_healing_hero",
         "name": "内在圣殿",
         "title": "内在圣殿",
         "teaser": "由内而外恢复肠道",
@@ -150,11 +150,11 @@
         "tier": "free",
         "isHero": true,
         "benefit": "消化平衡健康",
-        "img": "/images/smoothies/gut_supporting_hero.webp",
+        "img": "/images/smoothies/gut_healing_hero.webp",
         "icon": "vaso"
     },
     {
-        "id": "anti_body-stress_hero",
+        "id": "anti_inflammatory_hero",
         "name": "冰霜之龙",
         "title": "冰霜之龙",
         "teaser": "以自然之力对身体平衡症",
@@ -175,7 +175,7 @@
         "tier": "free",
         "isHero": true,
         "benefit": "身体平衡",
-        "img": "/images/smoothies/anti_body-stress_hero.webp",
+        "img": "/images/smoothies/anti_inflammatory_hero.webp",
         "icon": "vaso"
     },
     {
@@ -331,7 +331,7 @@
         "icon": "vaso"
     },
     {
-        "id": "golden_anti_body-stress",
+        "id": "golden_anti_inflammatory",
         "name": "黄金可汗",
         "title": "黄金可汗",
         "teaser": "黄金身体平衡灵丹妙药",
@@ -352,7 +352,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "身体平衡",
-        "img": "/images/smoothies/golden_anti_body-stress.webp",
+        "img": "/images/smoothies/golden_anti_inflammatory.webp",
         "icon": "vaso"
     },
     {
@@ -534,7 +534,7 @@
         "icon": "vaso"
     },
     {
-        "id": "deep_cleanse",
+        "id": "deep_detox",
         "name": "暗影净化",
         "title": "暗影净化",
         "teaser": "温和的日常清洁营养支持",
@@ -555,7 +555,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "清洁营养与净化",
-        "img": "/images/smoothies/deep_cleanse.webp",
+        "img": "/images/smoothies/deep_detox.webp",
         "icon": "vaso"
     },
     {
@@ -634,7 +634,7 @@
         "icon": "vaso"
     },
     {
-        "id": "black_seed_wellness ritual",
+        "id": "black_seed_cure",
         "name": "黑籽健康支持",
         "title": "黑籽健康支持",
         "teaser": "传奇的健康提升",
@@ -655,7 +655,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "抗氧化支持能力",
-        "img": "/images/smoothies/black_seed_wellness ritual.webp",
+        "img": "/images/smoothies/black_seed_cure.webp",
         "icon": "vaso"
     },
     {
@@ -1240,7 +1240,7 @@
         "icon": "vaso"
     },
     {
-        "id": "the_fluid_refresh",
+        "id": "the_fluid_flush",
         "name": "众神之河",
         "title": "众神之河",
         "teaser": "肾脏与淋巴清洁营养",
@@ -1262,7 +1262,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "抗氧化支持能力",
-        "img": "/images/smoothies/the_fluid_refresh.webp",
+        "img": "/images/smoothies/the_fluid_flush.webp",
         "icon": "vaso"
     },
     {
@@ -1791,7 +1791,7 @@
         "icon": "vaso"
     },
     {
-        "id": "amla_support",
+        "id": "amla_boost",
         "name": "吠陀之日",
         "title": "吠陀之日",
         "teaser": "相当于橙子20倍的维生素C",
@@ -1812,7 +1812,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "免疫力提升",
-        "img": "/images/smoothies/amla_support.webp",
+        "img": "/images/smoothies/amla_boost.webp",
         "icon": "vaso"
     },
     {

@@ -128,7 +128,7 @@ export const smoothies = [
         "icon": "vaso"
     },
     {
-        "id": "gut_supporting_hero",
+        "id": "gut_healing_hero",
         "name": "Inner Temple",
         "title": "Inner Temple",
         "teaser": "Support your inner balance",
@@ -150,11 +150,11 @@ export const smoothies = [
         "tier": "free",
         "isHero": true,
         "benefit": "Digestive Balance",
-        "img": "/images/smoothies/gut_supporting_hero.webp",
+        "img": "/images/smoothies/gut_healing_hero.webp",
         "icon": "vaso"
     },
     {
-        "id": "anti_body-stress_hero",
+        "id": "anti_inflammatory_hero",
         "name": "Ice Dragon",
         "title": "Ice Dragon",
         "teaser": "Fight body stress naturally",
@@ -175,7 +175,7 @@ export const smoothies = [
         "tier": "free",
         "isHero": true,
         "benefit": "Body Balance",
-        "img": "/images/smoothies/anti_body-stress_hero.webp",
+        "img": "/images/smoothies/anti_inflammatory_hero.webp",
         "icon": "vaso"
     },
     {
@@ -331,7 +331,7 @@ export const smoothies = [
         "icon": "vaso"
     },
     {
-        "id": "golden_anti_body-stress",
+        "id": "golden_anti_inflammatory",
         "name": "Golden Khan",
         "title": "Golden Khan",
         "teaser": "Golden body stress fighter",
@@ -352,7 +352,7 @@ export const smoothies = [
         "tier": "free",
         "isHero": false,
         "benefit": "Body Balance",
-        "img": "/images/smoothies/golden_anti_body-stress.webp",
+        "img": "/images/smoothies/golden_anti_inflammatory.webp",
         "icon": "vaso"
     },
     {
@@ -534,7 +534,7 @@ export const smoothies = [
         "icon": "vaso"
     },
     {
-        "id": "deep_cleanse",
+        "id": "deep_detox",
         "name": "Shadow Clean Nutrition",
         "title": "Shadow Clean Nutrition",
         "teaser": "Gentle daily clean nutrition support",
@@ -555,7 +555,7 @@ export const smoothies = [
         "tier": "free",
         "isHero": false,
         "benefit": "Clean Nutrition",
-        "img": "/images/smoothies/deep_cleanse.webp",
+        "img": "/images/smoothies/deep_detox.webp",
         "icon": "vaso"
     },
     {
@@ -634,7 +634,7 @@ export const smoothies = [
         "icon": "vaso"
     },
     {
-        "id": "black_seed_wellness ritual",
+        "id": "black_seed_cure",
         "name": "Black Seed Ritual",
         "title": "Black Seed Ritual",
         "teaser": "The legendary wellness support",
@@ -655,7 +655,7 @@ export const smoothies = [
         "tier": "free",
         "isHero": false,
         "benefit": "Antioxidant Support",
-        "img": "/images/smoothies/black_seed_wellness ritual.webp",
+        "img": "/images/smoothies/black_seed_cure.webp",
         "icon": "vaso"
     },
     {
@@ -1240,7 +1240,7 @@ export const smoothies = [
         "icon": "vaso"
     },
     {
-        "id": "the_fluid_refresh",
+        "id": "the_fluid_flush",
         "name": "River of the Gods",
         "title": "River of the Gods",
         "teaser": "Kidney and lymph clean nutrition",
@@ -1262,7 +1262,7 @@ export const smoothies = [
         "tier": "free",
         "isHero": false,
         "benefit": "Antioxidant Support",
-        "img": "/images/smoothies/the_fluid_refresh.webp",
+        "img": "/images/smoothies/the_fluid_flush.webp",
         "icon": "vaso"
     },
     {
@@ -1791,7 +1791,7 @@ export const smoothies = [
         "icon": "vaso"
     },
     {
-        "id": "amla_support",
+        "id": "amla_boost",
         "name": "Vedic Sun",
         "title": "Vedic Sun",
         "teaser": "20x more Vitamin C than an orange",
@@ -1812,7 +1812,7 @@ export const smoothies = [
         "tier": "free",
         "isHero": false,
         "benefit": "Natural Defenses",
-        "img": "/images/smoothies/amla_support.webp",
+        "img": "/images/smoothies/amla_boost.webp",
         "icon": "vaso"
     },
     {
