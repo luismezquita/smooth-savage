@@ -7,55 +7,94 @@ import { useT, useLanguage } from '../i18n/LanguageContext';
 import { normalize } from '../utils/benefitColors';
 import smoothiesTranslations from '../data/smoothies_translations';
 import { isSmoothiePremium } from '../utils/premiumAccess';
+import { fruits } from '../data/fruits';
+import { savageFoods } from '../data/superfoods';
+import itemNamesI18n from '../data/item_names_i18n';
+
+const canonical = (value) =>
+  normalize(value || '')
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+const canonicalLooseSingular = (value) =>
+  canonical(value)
+    .split(' ')
+    .map((token) => (token.length > 3 ? token.replace(/s$/i, '') : token))
+    .join(' ')
+    .trim();
+
+const tokenize = (value) =>
+  canonical(value)
+    .split(' ')
+    .filter(Boolean)
+    .map((token) => (token.length > 3 ? token.replace(/s$/i, '') : token));
 
 export default function SearchSmoothies() {
   const t = useT();
   const { language } = useLanguage();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
+  const [ingredientId, setIngredientId] = useState(() => searchParams.get('ingredientId') || '');
   const [query, setQuery] = useState(() => searchParams.get('ingredient') || '');
   const [baseQuery, setBaseQuery] = useState(() => searchParams.get('baseIngredient') || '');
 
   // Sincronizar query si cambia el param de URL (viene desde SmoothieLink)
   useEffect(() => {
+    const idParam = searchParams.get('ingredientId') || '';
     const param = searchParams.get('ingredient') || '';
     const baseParam = searchParams.get('baseIngredient') || '';
+    setIngredientId(idParam);
     setQuery(param);
     setBaseQuery(baseParam);
   }, [searchParams]);
 
-  // FILTRADO SÍNCRONO con useMemo — instantáneo, sin async
+  // FILTRADO SÍNCRONO con useMemo
   const filtered = useMemo(() => {
     if (!query.trim()) return smoothies;
 
-    const buildQuery = (value) => {
-      const q = normalize(value).toLowerCase().trim();
-      const qClean = q.replace(/s$/, '');
-      return {
-        clean: qClean,
-        tokens: qClean.split(/\s+/).filter(Boolean),
-      };
-    };
+    const item = ingredientId
+      ? [...fruits, ...savageFoods].find((entry) => entry.id === ingredientId)
+      : null;
 
-    const searchQueries = [query, baseQuery]
-      .filter(Boolean)
-      .map(buildQuery)
-      .filter((q, index, arr) => q.clean && arr.findIndex(item => item.clean === q.clean) === index);
+    const translatedById = ingredientId ? itemNamesI18n[language]?.[ingredientId] : '';
+    const exactMode = Boolean(ingredientId);
 
-    const isMatch = (text, searchQuery) => {
-      const normalizedText = normalize(text).toLowerCase();
-      const normalizedTextClean = normalizedText.replace(/s\b/g, '');
-      const tokens = normalizedText.split(/[\s,]+/).filter(Boolean);
-
-      return (
-        normalizedText.includes(searchQuery.clean) ||
-        normalizedTextClean.includes(searchQuery.clean) ||
-        searchQuery.clean.includes(normalizedText) ||
-        searchQuery.clean.includes(normalizedTextClean) ||
-        searchQuery.tokens.every(queryToken =>
-          tokens.some(token => token.replace(/s$/, '') === queryToken)
-        )
+    if (exactMode) {
+      const exactCandidates = new Set(
+        [query, baseQuery, translatedById, item?.name]
+          .filter(Boolean)
+          .flatMap((raw) => {
+            const strict = canonical(raw);
+            const loose = canonicalLooseSingular(raw);
+            return [strict, loose].filter(Boolean);
+          })
       );
+
+      if (exactCandidates.size === 0) return [];
+
+      return smoothies.filter((s) => {
+        const translatedIngredients = (language !== 'en' && smoothiesTranslations[language]?.[s.id]?.ingredients) || s.ingredients;
+        const allIngredients = [...translatedIngredients, ...s.ingredients];
+        return allIngredients.some((ing) => {
+          const strict = canonical(ing);
+          const loose = canonicalLooseSingular(ing);
+          return exactCandidates.has(strict) || exactCandidates.has(loose);
+        });
+      });
+    }
+
+    const searchPhrase = canonical(query);
+    const queryTokens = tokenize(query);
+
+    const isLooseMatch = (text) => {
+      const strict = canonical(text);
+      if (!strict) return false;
+      if (strict.includes(searchPhrase)) return true;
+      if (queryTokens.length === 0) return false;
+      const textTokens = tokenize(text);
+      return queryTokens.every((qToken) => textTokens.includes(qToken));
     };
 
     return smoothies.filter(s => {
@@ -64,12 +103,12 @@ export default function SearchSmoothies() {
       const translatedFields = [name, ...ingredients];
       const englishFields = [s.name, ...s.ingredients];
 
-      return searchQueries.some(searchQuery =>
-        translatedFields.some(text => isMatch(text, searchQuery)) ||
-        englishFields.some(text => isMatch(text, searchQuery))
+      return (
+        translatedFields.some(isLooseMatch) ||
+        englishFields.some(isLooseMatch)
       );
     });
-  }, [query, baseQuery, language]);
+  }, [query, baseQuery, ingredientId, language]);
 
   return (
     <div className="min-h-[100dvh] w-full bg-fruit-dark pb-24 overflow-x-hidden">

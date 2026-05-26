@@ -5,28 +5,44 @@ import { useLanguage } from '../i18n/LanguageContext';
 import { normalize } from '../utils/benefitColors';
 import smoothiesTranslations from '../data/smoothies_translations';
 
-export default function SmoothieLink({ baseName, translatedName }) {
+const canonical = (value) =>
+    normalize(value || '')
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+const canonicalLooseSingular = (value) =>
+    canonical(value)
+        .split(' ')
+        .map((token) => (token.length > 3 ? token.replace(/s$/i, '') : token))
+        .join(' ')
+        .trim();
+
+export default function SmoothieLink({ ingredientId, baseName, translatedName }) {
     const { language } = useLanguage();
 
     if (!baseName || !translatedName) return null;
 
-    // VALIDACIÓN INTELIGENTE: Búsqueda bidireccional y multilingüe
+    const translatedQuery = canonical(translatedName);
+    const baseQuery = canonical(baseName);
+    const translatedQueryLoose = canonicalLooseSingular(translatedName);
+    const baseQueryLoose = canonicalLooseSingular(baseName);
+
+    // Mostrar vaso solo cuando existe una coincidencia real de ingrediente
     const hasSmoothie = smoothies.some(s => {
-        // 1. Array de ingredientes en el idioma actual (o en inglés si falla)
         const translatedIngredients = (language !== 'en' && smoothiesTranslations[language]?.[s.id]?.ingredients) || s.ingredients;
-        
-        // 2. Comprobación bidireccional en el idioma del usuario (Ej: Chino, Francés)
-        const matchTranslated = translatedIngredients?.some(ing => {
-            const normIng = normalize(ing);
-            const normQuery = normalize(translatedName);
-            return normIng.includes(normQuery) || normQuery.includes(normIng);
+
+        const matchTranslated = translatedIngredients?.some((ing) => {
+            const c = canonical(ing);
+            const cl = canonicalLooseSingular(ing);
+            return c === translatedQuery || cl === translatedQueryLoose;
         });
 
-        // 3. Comprobación bidireccional en inglés (Respaldo de seguridad)
-        const matchEnglish = s.ingredients.some(ing => {
-            const normIng = normalize(ing);
-            const normBase = normalize(baseName);
-            return normIng.includes(normBase) || normBase.includes(normIng);
+        const matchEnglish = s.ingredients.some((ing) => {
+            const c = canonical(ing);
+            const cl = canonicalLooseSingular(ing);
+            return c === baseQuery || cl === baseQueryLoose;
         });
 
         return matchTranslated || matchEnglish;
@@ -36,6 +52,7 @@ export default function SmoothieLink({ baseName, translatedName }) {
     if (!hasSmoothie) return null;
 
     const params = new URLSearchParams({
+        ingredientId: ingredientId || '',
         ingredient: translatedName,
         baseIngredient: baseName,
     });

@@ -68,7 +68,7 @@ export default function FruitDetail() {
                         <ArrowLeft className="w-6 h-6 text-white/80 group-hover:text-white transition-all duration-300 drop-shadow-sm group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
                     </button>
 
-                    <SmoothieLink baseName={fruit.name} translatedName={displayName} />
+                    <SmoothieLink ingredientId={fruit.id} baseName={fruit.name} translatedName={displayName} />
                 </div>
 
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent z-10" />
