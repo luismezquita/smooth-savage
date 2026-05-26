@@ -46,7 +46,7 @@ export default function Info() {
                 {/* Nutrition and wellness disclaimer */}
                 <Section icon={ShieldAlert} title={t('info.disclaimerTitle') || 'Nutrition & Wellness Disclaimer'}>
                     {t('info.disclaimerText') ||
-                        'Smooth Savage is an educational food catalog. It describes nutrients, traditional uses, and general wellness support associated with foods, superfoods, and smoothie ingredients. It is not medical advice and is not intended to diagnose, treat, cure, or prevent any disease or health condition. Food choices may support wellbeing, but they are not therapy, medicine, or a remedy. Always consult a qualified healthcare professional for medical questions, symptoms, treatments, medications, allergies, pregnancy, or specific health conditions.'}
+                        'Smooth Savage is an educational food catalog about foods, superfoods, and smoothie ingredients. It shares nutritional information, traditional context, and general wellness inspiration. It is not professional advice and does not evaluate personal situations or promise specific results. Food choices can support everyday wellbeing, but they are not a substitute for qualified guidance. For food sensitivities, pregnancy, supplement use, or personal concerns, consult a qualified professional.'}
                 </Section>
 
                 {/* Preparation tip */}
@@ -58,7 +58,7 @@ export default function Info() {
                 {/* Durian warning */}
                 <Section icon={AlertTriangle} title={t('info.durianTitle') || 'Durian Warning'}>
                     {t('info.durianText') ||
-                        'Do not consume Durian with alcohol. This combination can cause serious adverse reactions including nausea, palpitations and severe discomfort.'}
+                        'Do not consume Durian with alcohol. This combination can cause serious adverse reactions including digestive unease and strong discomfort.'}
                 </Section>
 
                 {/* About the app */}
