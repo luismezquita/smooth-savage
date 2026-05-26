@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { smoothies } from '../data/smoothies';
-import { useLanguage } from '../i18n/LanguageContext';
 import { normalize } from '../utils/benefitColors';
-import smoothiesTranslations from '../data/smoothies_translations';
 
 const canonical = (value) =>
     normalize(value || '')
@@ -12,40 +10,35 @@ const canonical = (value) =>
         .replace(/\s+/g, ' ')
         .trim();
 
+const singularizeToken = (token) => {
+    if (!token || token.length <= 3) return token;
+    if (/[aeiou]ces$/i.test(token) && token.length > 4) return `${token.slice(0, -3)}z`;
+    if (token.endsWith('ies') && token.length > 4) return `${token.slice(0, -3)}y`;
+    if (/(oes|ses|xes|zes|ches|shes)$/i.test(token) && token.length > 4) return token.slice(0, -2);
+    if (token.endsWith('s') && !token.endsWith('ss')) return token.slice(0, -1);
+    return token;
+};
+
 const canonicalLooseSingular = (value) =>
     canonical(value)
         .split(' ')
-        .map((token) => (token.length > 3 ? token.replace(/s$/i, '') : token))
+        .map(singularizeToken)
         .join(' ')
         .trim();
 
 export default function SmoothieLink({ ingredientId, baseName, translatedName }) {
-    const { language } = useLanguage();
-
     if (!baseName || !translatedName) return null;
 
-    const translatedQuery = canonical(translatedName);
     const baseQuery = canonical(baseName);
-    const translatedQueryLoose = canonicalLooseSingular(translatedName);
     const baseQueryLoose = canonicalLooseSingular(baseName);
 
     // Mostrar vaso solo cuando existe una coincidencia real de ingrediente
     const hasSmoothie = smoothies.some(s => {
-        const translatedIngredients = (language !== 'en' && smoothiesTranslations[language]?.[s.id]?.ingredients) || s.ingredients;
-
-        const matchTranslated = translatedIngredients?.some((ing) => {
-            const c = canonical(ing);
-            const cl = canonicalLooseSingular(ing);
-            return c === translatedQuery || cl === translatedQueryLoose;
-        });
-
-        const matchEnglish = s.ingredients.some((ing) => {
+        return s.ingredients.some((ing) => {
             const c = canonical(ing);
             const cl = canonicalLooseSingular(ing);
             return c === baseQuery || cl === baseQueryLoose;
         });
-
-        return matchTranslated || matchEnglish;
     });
 
     // Si el ingrediente no está en ninguna receta, el vaso no se pinta

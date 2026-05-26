@@ -18,10 +18,19 @@ const canonical = (value) =>
     .replace(/\s+/g, ' ')
     .trim();
 
+const singularizeToken = (token) => {
+  if (!token || token.length <= 3) return token;
+  if (/[aeiou]ces$/i.test(token) && token.length > 4) return `${token.slice(0, -3)}z`;
+  if (token.endsWith('ies') && token.length > 4) return `${token.slice(0, -3)}y`;
+  if (/(oes|ses|xes|zes|ches|shes)$/i.test(token) && token.length > 4) return token.slice(0, -2);
+  if (token.endsWith('s') && !token.endsWith('ss')) return token.slice(0, -1);
+  return token;
+};
+
 const canonicalLooseSingular = (value) =>
   canonical(value)
     .split(' ')
-    .map((token) => (token.length > 3 ? token.replace(/s$/i, '') : token))
+    .map(singularizeToken)
     .join(' ')
     .trim();
 
@@ -29,7 +38,7 @@ const tokenize = (value) =>
   canonical(value)
     .split(' ')
     .filter(Boolean)
-    .map((token) => (token.length > 3 ? token.replace(/s$/i, '') : token));
+    .map(singularizeToken);
 
 export default function SearchSmoothies() {
   const t = useT();
@@ -62,8 +71,10 @@ export default function SearchSmoothies() {
     const exactMode = Boolean(ingredientId);
 
     if (exactMode) {
+      // En modo detalle (vaso), priorizamos el ingrediente canónico por ID/base
+      // para evitar colisiones semánticas entre traducciones de distintos ingredientes.
       const exactCandidates = new Set(
-        [query, baseQuery, translatedById, item?.name]
+        [baseQuery, item?.name]
           .filter(Boolean)
           .flatMap((raw) => {
             const strict = canonical(raw);
@@ -75,9 +86,7 @@ export default function SearchSmoothies() {
       if (exactCandidates.size === 0) return [];
 
       return smoothies.filter((s) => {
-        const translatedIngredients = (language !== 'en' && smoothiesTranslations[language]?.[s.id]?.ingredients) || s.ingredients;
-        const allIngredients = [...translatedIngredients, ...s.ingredients];
-        return allIngredients.some((ing) => {
+        return s.ingredients.some((ing) => {
           const strict = canonical(ing);
           const loose = canonicalLooseSingular(ing);
           return exactCandidates.has(strict) || exactCandidates.has(loose);
