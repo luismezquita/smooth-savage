@@ -6,8 +6,8 @@
         "teaser": "La forteresse ultime de vitamine C",
         "color": "orange",
         "description": "La forteresse ultime de vitamine C.",
-        "benefits": "Apporte une mégadose de vitamine C et de puissants antioxydants. Combat les maladies saisonnières et renforce instantanément vos défenses immunitaires.",
-        "healthTags": [
+        "benefits": "Apporte une mégadose de vitamine C et de puissants antioxydants. Combat les préoccupations de bien-être saisonnières et renforce instantanément vos défenses immunitaires.",
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Bien-être"
         ],
@@ -32,8 +32,8 @@
         "teaser": "Le bouclier immunitaire le plus puissant de la nature",
         "color": "orange",
         "description": "Le bouclier immunitaire le plus puissant de la nature.",
-        "benefits": "Explose avec des niveaux extrêmes de vitamine C, stimulant directement l'activité des globules blancs et maximisant la protection cellulaire contre les menaces externes.",
-        "healthTags": [
+        "benefits": "Explose avec des niveaux extrêmes de vitamine C, stimulant directement l'activité des globules blancs et maximisant la support cellulaire contre les menaces externes.",
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Bien-être"
         ],
@@ -58,8 +58,8 @@
         "teaser": "Un calme profond à chaque gorgée",
         "color": "purple",
         "description": "Un calme profond à chaque gorgée.",
-        "benefits": "Réduit considérablement les niveaux de cortisol et procure une relaxation profonde du système nerveux, dissipant le stress quotidien et la fatigue mentale.",
-        "healthTags": [
+        "benefits": "Réduit considérablement les niveaux de cortisol et prowellness ritual une relaxation profonde du système nerveux, dissipant le stress quotidien et la fatigue mentale.",
+        "wellnessTags": [
             "Anti-Stress et Calme",
             "Bien-être"
         ],
@@ -85,7 +85,7 @@
         "color": "amber",
         "description": "Débloquez une concentration et une clarté mentale optimales.",
         "benefits": "Stimule la fonction cognitive, améliore la rétention de la mémoire et fournit une énergie mentale propre et durable, sans nervosité.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
             "Bien-être"
         ],
@@ -110,7 +110,7 @@
         "color": "amber",
         "description": "Énergie naturelle pour le corps et l'esprit.",
         "benefits": "Augmente rapidement l'endurance physique grâce à des racines adaptogènes ancestrales et des glucides complexes pour un effort soutenu.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
             "Bien-être"
         ],
@@ -128,14 +128,14 @@
         "icon": "vaso"
     },
     {
-        "id": "gut_healing_hero",
+        "id": "gut_supporting_hero",
         "name": "Temple Intérieur",
         "title": "Temple Intérieur",
-        "teaser": "Guérissez votre intestin de l'intérieur",
+        "teaser": "Soutenez votre intestin de l'intérieur",
         "color": "yellow",
-        "description": "Guérissez votre intestin de l'intérieur.",
+        "description": "Soutenez votre intestin de l'intérieur.",
         "benefits": "Apaise la muqueuse délicate de l'estomac tout en apportant d'énormes quantités de probiotiques bénéfiques et d'enzymes digestives pour réparer le microbiome intestinal.",
-        "healthTags": [
+        "wellnessTags": [
             "Digestion et Santé Intestinale",
             "Bien-être"
         ],
@@ -150,19 +150,19 @@
         "tier": "free",
         "isHero": true,
         "benefit": "Digestion et Santé Intestinale",
-        "img": "/images/smoothies/gut_healing_hero.webp",
+        "img": "/images/smoothies/gut_supporting_hero.webp",
         "icon": "vaso"
     },
     {
-        "id": "anti_inflammatory_hero",
+        "id": "anti_body-stress_hero",
         "name": "Dragon de Glace",
         "title": "Dragon de Glace",
-        "teaser": "Combattez l'inflammation naturellement",
+        "teaser": "Combattez l'body stress naturellement",
         "color": "red",
-        "description": "Combattez l'inflammation naturellement.",
+        "description": "Combattez l'body stress naturellement.",
         "benefits": "Inhibe les voies inflammatoires au niveau moléculaire, soulageant efficacement les douleurs articulaires et les gonflements systémiques.",
-        "healthTags": [
-            "Anti-Inflammatoire",
+        "wellnessTags": [
+            "Équilibre Corporel",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -174,8 +174,8 @@
         "steps": "Ajoutez 1 cuillère à café de curcuma frais, 1 pouce de gingembre et 1 tasse de morceaux d'ananas au blender. Ajoutez 1/2 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Anti-inflammatoire",
-        "img": "/images/smoothies/anti_inflammatory_hero.webp",
+        "benefit": "Équilibrant corporel",
+        "img": "/images/smoothies/anti_body-stress_hero.webp",
         "icon": "vaso"
     },
     {
@@ -186,7 +186,7 @@
         "color": "pink",
         "description": "Rayonnez de beauté de l'intérieur.",
         "benefits": "Stimule l'élasticité de la peau et combat agressivement le vieillissement cutané, vous offrant un éclat intérieur radieux et visible.",
-        "healthTags": [
+        "wellnessTags": [
             "Éclat et Beauté",
             "Bien-être"
         ],
@@ -212,7 +212,7 @@
         "color": "indigo",
         "description": "Le sommeil réparateur dans un verre.",
         "benefits": "Élève naturellement la production de mélatonine, garantissant un sommeil paradoxal profond et ininterrompu ainsi qu'une puissante récupération musculaire nocturne.",
-        "healthTags": [
+        "wellnessTags": [
             "Sommeil et Récupération",
             "Bien-être"
         ],
@@ -233,12 +233,12 @@
         "id": "anti_oxidant_god_mode",
         "name": "Mode Dieu",
         "title": "Mode Dieu",
-        "teaser": "Protection antioxydante maximale",
+        "teaser": "Support antioxydante maximale",
         "color": "purple",
-        "description": "Protection antioxydante maximale.",
+        "description": "Support antioxydante maximale.",
         "benefits": "Inonde votre corps d'un spectre massif d'anthocyanes, neutralisant les radicaux libres et stoppant instantanément les dommages cellulaires.",
-        "healthTags": [
-            "Pouvoir Antioxydant",
+        "wellnessTags": [
+            "Soutien Antioxydant",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -251,7 +251,7 @@
         "steps": "Mixez 1 sachet d'acai surgelé (100 g) avec 1 cuillère à soupe de baies de goji réhydratées, 1/2 tasse de pur jus de grenade et 15 g de copeaux de chocolat noir à 85 %.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/anti_oxidant_god_mode.webp",
         "icon": "vaso"
     },
@@ -263,8 +263,8 @@
         "color": "purple",
         "description": "Antioxydants d'Amazonie. Sans filtre.",
         "benefits": "Triple poussée antioxydante d'açaí, cacao brut et banane — protège les cellules, alimente l'énergie et frappe le corps d'une puissance végétale pure.",
-        "healthTags": [
-            "Pouvoir Antioxydant",
+        "wellnessTags": [
+            "Soutien Antioxydant",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -276,7 +276,7 @@
         "steps": "Mélangez 1 sachet d'açaí congelé (100g) avec 1 cuillère à café de poudre de cacao brut et 1 banane mûre. Ajoutez 1/2 tasse d'eau et mixez 45 secondes à puissance maximale.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/smooth_savage.webp",
         "icon": "vaso"
     },
@@ -288,7 +288,7 @@
         "color": "yellow",
         "description": "Aide digestive apaisante.",
         "benefits": "Un mélange incroyablement réconfortant qui stoppe les nausées net et réchauffe doucement le tractus digestif.",
-        "healthTags": [
+        "wellnessTags": [
             "Digestion et Santé Intestinale",
             "Bien-être"
         ],
@@ -312,8 +312,8 @@
         "teaser": "Mélange adaptogène anti-stress",
         "color": "purple",
         "description": "Mélange adaptogène anti-stress.",
-        "benefits": "Atténue considérablement l'anxiété quotidienne et renforce la résilience à long terme de votre corps face au stress.",
-        "healthTags": [
+        "benefits": "Atténue considérablement l'tension de stress quotidienne et renforce la résilience à long terme de votre corps face au stress.",
+        "wellnessTags": [
             "Anti-Stress et Calme",
             "Bien-être"
         ],
@@ -331,15 +331,15 @@
         "icon": "vaso"
     },
     {
-        "id": "golden_anti_inflammatory",
+        "id": "golden_anti_body-stress",
         "name": "Khan Doré",
         "title": "Khan Doré",
-        "teaser": "Élixir doré anti-inflammatoire",
+        "teaser": "Élixir doré équilibrant corporel",
         "color": "red",
-        "description": "Élixir doré anti-inflammatoire.",
-        "benefits": "Un élixir doré conçu spécifiquement pour inonder votre corps d'agents anti-inflammatoires naturels hautement absorbables.",
-        "healthTags": [
-            "Anti-Inflammatoire",
+        "description": "Élixir doré équilibrant corporel.",
+        "benefits": "Un élixir doré conçu spécifiquement pour inonder votre corps d'agents équilibrant corporels naturels hautement absorbables.",
+        "wellnessTags": [
+            "Équilibre Corporel",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -351,8 +351,8 @@
         "steps": "Mixez 1 cuillère à café de curcuma en poudre avec une pincée de poivre noir et 1/2 tasse de chair de noix de coco fraîche. Ajoutez 1 tasse d'eau de coco et mixez à haute vitesse pendant 60 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Anti-inflammatoire",
-        "img": "/images/smoothies/golden_anti_inflammatory.webp",
+        "benefit": "Équilibrant corporel",
+        "img": "/images/smoothies/golden_anti_body-stress.webp",
         "icon": "vaso"
     },
     {
@@ -362,9 +362,9 @@
         "teaser": "Mélange de récupération et de renouveau",
         "color": "red",
         "description": "Mélange de récupération et de renouveau.",
-        "benefits": "Booste la production d'oxyde nitrique pour améliorer massivement le flux sanguin et accélérer la récupération musculaire.",
-        "healthTags": [
-            "Anti-Inflammatoire",
+        "benefits": "Supporte la production d'oxyde nitrique pour améliorer massivement le flux sanguin et accélérer la récupération musculaire.",
+        "wellnessTags": [
+            "Équilibre Corporel",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -376,7 +376,7 @@
         "steps": "Mixez 1/2 tasse de cerises griottes avec 1/2 tasse de morceaux de betterave crue et 2 branches de céleri. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Anti-inflammatoire",
+        "benefit": "Équilibrant corporel",
         "img": "/images/smoothies/cherry_beet_recovery.webp",
         "icon": "vaso"
     },
@@ -384,12 +384,12 @@
         "id": "mangosteen_relief",
         "name": "Reine de Siam",
         "title": "Reine de Siam",
-        "teaser": "Le pouvoir anti-inflammatoire du mangoustan",
+        "teaser": "Le pouvoir équilibrant corporel du mangoustan",
         "color": "red",
-        "description": "Le pouvoir anti-inflammatoire du mangoustan.",
-        "benefits": "Exploite de puissantes xanthones directement prouvées pour réduire l'inflammation cellulaire chronique et le stress oxydatif.",
-        "healthTags": [
-            "Anti-Inflammatoire",
+        "description": "Le pouvoir équilibrant corporel du mangoustan.",
+        "benefits": "Exploite de puissantes xanthones directement prouvées pour réduire l'body stress cellulaire chronique et le stress oxydatif.",
+        "wellnessTags": [
+            "Équilibre Corporel",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -401,7 +401,7 @@
         "steps": "Extrayez la chair de 2 mangoustans et mixez-la avec 1 pêche mûre et 1 poire mûre. Ajoutez 1/2 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Anti-inflammatoire",
+        "benefit": "Équilibrant corporel",
         "img": "/images/smoothies/mangosteen_relief.webp",
         "icon": "vaso"
     },
@@ -413,7 +413,7 @@
         "color": "pink",
         "description": "Carburant de beauté aux super-baies.",
         "benefits": "Fournit une concentration d'antioxydants qui préviennent activement les rides et améliorent la luminosité de la peau.",
-        "healthTags": [
+        "wellnessTags": [
             "Éclat et Beauté",
             "Bien-être"
         ],
@@ -439,7 +439,7 @@
         "color": "pink",
         "description": "Éclat de la peau riche en oméga.",
         "benefits": "Fournit des acides gras Oméga-7 extrêmement rares, vitaux pour maintenir une peau éclatante et profondément hydratée.",
-        "healthTags": [
+        "wellnessTags": [
             "Éclat et Beauté",
             "Bien-être"
         ],
@@ -465,7 +465,7 @@
         "color": "pink",
         "description": "Un éclat intérieur violet profond.",
         "benefits": "Le score antioxydant le plus élevé de tous les fruits, protégeant votre peau des dommages liés aux UV et à la pollution.",
-        "healthTags": [
+        "wellnessTags": [
             "Éclat et Beauté",
             "Bien-être"
         ],
@@ -487,12 +487,12 @@
         "id": "heart_protector",
         "name": "La Sentinelle",
         "title": "La Sentinelle",
-        "teaser": "Protection cardiovasculaire quotidienne",
+        "teaser": "Support cardiovasculaire quotidienne",
         "color": "red",
-        "description": "Protection cardiovasculaire quotidienne.",
+        "description": "Support cardiovasculaire quotidienne.",
         "benefits": "Améliore efficacement les profils lipidiques sanguins et garde les parois artérielles dégagées.",
-        "healthTags": [
-            "Santé Cardiaque",
+        "wellnessTags": [
+            "Bien-être Cardiovasculaire",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -516,8 +516,8 @@
         "color": "red",
         "description": "Mélange de baies pour le cœur.",
         "benefits": "Dilate les vaisseaux sanguins en toute sécurité pour réguler la tension artérielle et fournit des acides gras Oméga-3 essentiels.",
-        "healthTags": [
-            "Santé Cardiaque",
+        "wellnessTags": [
+            "Bien-être Cardiovasculaire",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -534,15 +534,15 @@
         "icon": "vaso"
     },
     {
-        "id": "deep_detox",
-        "name": "Purification dans l'Ombre",
-        "title": "Purification dans l'Ombre",
-        "teaser": "Soutien détox quotidien doux",
+        "id": "deep_cleanse",
+        "name": "Daily Reset dans l'Ombre",
+        "title": "Daily Reset dans l'Ombre",
+        "teaser": "Soutien nutrition propre quotidien doux",
         "color": "green",
-        "description": "Soutien détox quotidien doux.",
-        "benefits": "Se lie aux métaux lourds dans la circulation sanguine et aide le foie à éliminer les toxines.",
-        "healthTags": [
-            "Détox et Purification",
+        "description": "Soutien nutrition propre quotidien doux.",
+        "benefits": "Se lie aux métaux lourds dans la circulation sanguine et aide le foie à éliminer les unwanted compoundes.",
+        "wellnessTags": [
+            "Nutrition propre et Daily Reset",
             "Bien-être"
         ],
         "synergies": "Superaliments + Vitamines",
@@ -554,8 +554,8 @@
         "steps": "Mélangez 1 cuillère à café de poudre de chlorelle et 1 cuillère à café de poudre de spiruline avec le jus d'un citron frais. Ajoutez 1 tasse d'eau froide et mixez pendant 30 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Détox et Purification",
-        "img": "/images/smoothies/deep_detox.webp",
+        "benefit": "Nutrition propre et Daily Reset",
+        "img": "/images/smoothies/deep_cleanse.webp",
         "icon": "vaso"
     },
     {
@@ -566,7 +566,7 @@
         "color": "green",
         "description": "Rempli d'énergie et de nutriments vitaux pour vous propulser tout au long de la journée.",
         "benefits": "Un mélange synergique pour des bénéfices Smooth Savage maximaux.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -579,7 +579,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/alkaline_king.webp",
         "icon": "vaso"
     },
@@ -591,7 +591,7 @@
         "color": "amber",
         "description": "Puissance naturelle pour une vie à haute performance.",
         "benefits": "Stimule la vitalité en utilisant du pollen de pin et des minéraux tropicaux.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -604,7 +604,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/androgenic_peak.webp",
         "icon": "vaso"
     },
@@ -612,11 +612,11 @@
         "id": "anti_viral_star",
         "name": "Étoile Coréenne",
         "title": "Étoile Coréenne",
-        "teaser": "Défense antivirale à la carambole",
+        "teaser": "Défense seasonal-supporte à la carambole",
         "color": "amber",
         "description": "Soutien immunitaire avec une touche tropicale.",
         "benefits": "Haute teneur en vitamine C et antioxydants uniques de carambole.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -629,19 +629,19 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/anti_viral_star.webp",
         "icon": "vaso"
     },
     {
-        "id": "black_seed_cure",
+        "id": "black_seed_wellness ritual",
         "name": "Remède à la Graine Noire",
         "title": "Remède à la Graine Noire",
-        "teaser": "Le boost de bien-être légendaire",
+        "teaser": "Le support de bien-être légendaire",
         "color": "amber",
         "description": "Médecine ancienne pour la vie moderne.",
         "benefits": "Puissants bienfaits de l'huile de nigelle pour la santé globale du système.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -654,8 +654,8 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
-        "img": "/images/smoothies/black_seed_cure.webp",
+        "benefit": "Soutien Antioxydant",
+        "img": "/images/smoothies/black_seed_wellness ritual.webp",
         "icon": "vaso"
     },
     {
@@ -666,7 +666,7 @@
         "color": "amber",
         "description": "Dose maximale de vitamine C pour une immunité en titane.",
         "benefits": "Exploite les baies de camu-camu pour un bien-être optimal.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -679,7 +679,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/camu_camu_titan.webp",
         "icon": "vaso"
     },
@@ -691,7 +691,7 @@
         "color": "purple",
         "description": "Rêvez plus profondément et réveillez-vous l'esprit vif.",
         "benefits": "Champignons Reishi associés à des cerises riches en mélatonine.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -704,7 +704,7 @@
         "steps": "Mixez 1/2 tasse de cerises acidulées et 1/2 tasse de myrtilles avec 1/2 cuillère à café de poudre de champignon reishi. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/cherry_reishi_dream.webp",
         "icon": "vaso"
     },
@@ -716,7 +716,7 @@
         "color": "amber",
         "description": "92 des 102 minéraux dont votre corps a besoin.",
         "benefits": "Infusion minérale de mousse de mer et de fucus.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -729,7 +729,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/deep_sea_mineral.webp",
         "icon": "vaso"
     },
@@ -741,7 +741,7 @@
         "color": "amber",
         "description": "Enzymes de papaïne pour un soulagement instantané.",
         "benefits": "Soutient un microbiome intestinal propre et sain.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -754,7 +754,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/digestive_star.webp",
         "icon": "vaso"
     },
@@ -765,8 +765,8 @@
         "teaser": "Poussée d'anthocyanes",
         "color": "amber",
         "description": "Énergie électrique des baies de goji noir.",
-        "benefits": "Protection antioxydante massive avec une teinte violette.",
-        "healthTags": [
+        "benefits": "Support antioxydante massive avec une teinte violette.",
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -779,7 +779,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/electric_violet.webp",
         "icon": "vaso"
     },
@@ -791,7 +791,7 @@
         "color": "amber",
         "description": "Énergie équilibrée pour un esprit centré.",
         "benefits": "Soutient la vision et la vitalité à long terme.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -804,7 +804,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/goji_zen.webp",
         "icon": "vaso"
     },
@@ -814,9 +814,9 @@
         "title": "Bouclier Doré",
         "teaser": "La barricade de curcuma",
         "color": "amber",
-        "description": "Protection quotidienne contre l'inflammation.",
+        "description": "Support quotidienne contre l'body stress.",
         "benefits": "Curcumine activée pour une biodisponibilité maximale.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -829,7 +829,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/golden_shield.webp",
         "icon": "vaso"
     },
@@ -841,7 +841,7 @@
         "color": "amber",
         "description": "Concentration calme pour les journées les plus exigeantes.",
         "benefits": "Caféine sans nervosité.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -854,7 +854,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/green_matcha_surge.webp",
         "icon": "vaso"
     },
@@ -862,11 +862,11 @@
         "id": "heavy_metal_cleanse",
         "name": "Exil de Fer",
         "title": "Exil de Fer",
-        "teaser": "Purification systémique profonde",
+        "teaser": "Daily Reset systémique profonde",
         "color": "amber",
         "description": "Élimine les métaux lourds avec de la chlorelle et de la coriandre.",
-        "benefits": "Détox cellulaire profond pour un système plus propre.",
-        "healthTags": [
+        "benefits": "Nutrition propre cellulaire profond pour un système plus propre.",
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -880,7 +880,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/heavy_metal_cleanse.webp",
         "icon": "vaso"
     },
@@ -892,7 +892,7 @@
         "color": "amber",
         "description": "Énergie du shilajit pour une performance maximale.",
         "benefits": "Minéralisation et soutien à chaque goutte.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -906,7 +906,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/himalayan_resin.webp",
         "icon": "vaso"
     },
@@ -918,7 +918,7 @@
         "color": "amber",
         "description": "Carburant soutenu pour les longues distances.",
         "benefits": "Riche en fibres et nutriments tropicaux complexes.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -931,7 +931,7 @@
         "steps": "Mixez 1 tasse de jacquier mûr en morceaux avec 1/2 tasse de chair de noix de coco fraîche et 1 cuillère à soupe de graines de lin moulues. Ajoutez 3/4 de tasse d'eau de coco et mixez à haute vitesse pendant 60 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/jackfruit_fuel.webp",
         "icon": "vaso"
     },
@@ -943,7 +943,7 @@
         "color": "amber",
         "description": "Nettoyez votre système avec l'enzyme actinidine.",
         "benefits": "Régularité et sensation de légèreté intestinale.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -956,7 +956,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/kiwi_cleanse.webp",
         "icon": "vaso"
     },
@@ -968,7 +968,7 @@
         "color": "amber",
         "description": "Glycémie stable, haute énergie.",
         "benefits": "L'« Or des Incas » pour la force quotidienne.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -981,7 +981,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/lucuma_power.webp",
         "icon": "vaso"
     },
@@ -993,7 +993,7 @@
         "color": "amber",
         "description": "Forteresse digestive préhistorique.",
         "benefits": "Fruits riches en fibres pour un nettoyage intestinal profond.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1006,7 +1006,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/mesozoic_fiber.webp",
         "icon": "vaso"
     },
@@ -1018,7 +1018,7 @@
         "color": "amber",
         "description": "Hydratation profonde à l'argousier.",
         "benefits": "Acides gras rares pour un éclat lumineux.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1032,7 +1032,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/omega_7_radiance.webp",
         "icon": "vaso"
     },
@@ -1044,7 +1044,7 @@
         "color": "amber",
         "description": "La réinitialisation post-repas ultime.",
         "benefits": "Papaye et citron vert pour une dégradation rapide des protéines.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1057,7 +1057,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/papaya_digestive.webp",
         "icon": "vaso"
     },
@@ -1067,9 +1067,9 @@
         "title": "Prophète du Désert",
         "teaser": "Soulagement intestinal avec le pouvoir du cactus",
         "color": "amber",
-        "description": "Apaisez l'inflammation avec des fibres de nopal.",
+        "description": "Apaisez l'body stress avec des fibres de nopal.",
         "benefits": "Hydratation profonde des parois intestinales.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1082,7 +1082,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/prickly_gut_reset.webp",
         "icon": "vaso"
     },
@@ -1094,7 +1094,7 @@
         "color": "amber",
         "description": "Élevez votre humeur avec le safran ancestral.",
         "benefits": "Bien-être mental et équilibre émotionnel.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1107,7 +1107,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/saffron_sun.webp",
         "icon": "vaso"
     },
@@ -1119,7 +1119,7 @@
         "color": "amber",
         "description": "Adaptogènes pour l'équilibre hormonal féminin.",
         "benefits": "Soutient la santé reproductive et l'éclat.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1133,7 +1133,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/shatavari_bloom.webp",
         "icon": "vaso"
     },
@@ -1145,7 +1145,7 @@
         "color": "amber",
         "description": "Micronutriments tropicaux uniques pour l'immunité.",
         "benefits": "Système de défense à profil élevé en zinc.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1158,7 +1158,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/star_defense.webp",
         "icon": "vaso"
     },
@@ -1168,9 +1168,9 @@
         "title": "Tonique de Télomères",
         "teaser": "Carburant pour la longévité cellulaire",
         "color": "amber",
-        "description": "Protection de l'ADN avec de l'astragale et des baies.",
+        "description": "Support de l'ADN avec de l'astragale et des baies.",
         "benefits": "Ralentissez l'horloge biologique.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1183,7 +1183,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/telomere_tonic.webp",
         "icon": "vaso"
     },
@@ -1195,7 +1195,7 @@
         "color": "amber",
         "description": "Éclat avec la poudre de perle et le champignon tremella.",
         "benefits": "Hydratation maximale et réparation cellulaire.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1209,7 +1209,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/the_empress_glow.webp",
         "icon": "vaso"
     },
@@ -1221,7 +1221,7 @@
         "color": "amber",
         "description": "Baies de schisandra pour la performance athlétique.",
         "benefits": "Soutien multi-organes et endurance ciblée.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1235,19 +1235,19 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/the_five_flavour_runner.webp",
         "icon": "vaso"
     },
     {
-        "id": "the_fluid_flush",
+        "id": "the_fluid_refresh",
         "name": "Rivière des Dieux",
         "title": "Rivière des Dieux",
-        "teaser": "Détox rénale et lymphatique",
+        "teaser": "Nutrition propre rénale et lymphatique",
         "color": "amber",
-        "description": "Dégonflez et détoxifiez avec du pissenlit et du céleri.",
-        "benefits": "Éliminez l'excès d'eau et les toxines en toute sécurité.",
-        "healthTags": [
+        "description": "Dégonflez et nutrition propreifiez avec du pissenlit et du céleri.",
+        "benefits": "Éliminez l'excès d'eau et les unwanted compoundes en toute sécurité.",
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1261,8 +1261,8 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
-        "img": "/images/smoothies/the_fluid_flush.webp",
+        "benefit": "Soutien Antioxydant",
+        "img": "/images/smoothies/the_fluid_refresh.webp",
         "icon": "vaso"
     },
     {
@@ -1273,7 +1273,7 @@
         "color": "amber",
         "description": "Construction immunitaire avec de l'astragale et du gingembre.",
         "benefits": "Herbes ancestrales pour la défense environnementale moderne.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1286,7 +1286,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/the_great_wall.webp",
         "icon": "vaso"
     },
@@ -1298,7 +1298,7 @@
         "color": "amber",
         "description": "Peau lumineuse de l'intérieur vers l'extérieur.",
         "benefits": "Champignon tremella pour une rétention d'eau de 500 fois son poids.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1312,7 +1312,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/tremella_dew.webp",
         "icon": "vaso"
     },
@@ -1324,7 +1324,7 @@
         "color": "amber",
         "description": "Carburant MCT pour l'esprit guerrier.",
         "benefits": "Concentration aiguë avec du cacao et des baies d'haskap.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1337,7 +1337,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/viking_focus.webp",
         "icon": "vaso"
     },
@@ -1349,7 +1349,7 @@
         "color": "amber",
         "description": "Poudre de perle pour la peau et les nerfs.",
         "benefits": "Calme indulgent avec une finale litchi-vanille.",
-        "healthTags": [
+        "wellnessTags": [
             "Bien-être",
             "Énergie et Vitalité"
         ],
@@ -1362,7 +1362,7 @@
         "steps": "Mixez tous les ingrédients jusqu'à obtenir un mélange homogène.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/white_pearl_zen.webp",
         "icon": "vaso"
     },
@@ -1370,11 +1370,11 @@
         "id": "elderberry_shield",
         "name": "Bastion Nordique",
         "title": "Bastion Nordique",
-        "teaser": "Défense antivirale ancestrale dans un verre",
+        "teaser": "Défense seasonal-supporte ancestrale dans un verre",
         "color": "purple",
-        "description": "Défense antivirale ancestrale dans un verre.",
+        "description": "Défense seasonal-supporte ancestrale dans un verre.",
         "benefits": "Les puissants composés antiviraux du sureau bloquent la réplication virale, tandis que le clou de girofle et la pomme apportent des antioxydants stimulants l'immunité.",
-        "healthTags": [
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Bien-être"
         ],
@@ -1399,7 +1399,7 @@
         "color": "orange",
         "description": "Explosion tropicale de vitamine C.",
         "benefits": "La goyave et l'acérola apportent une dose massive de vitamine C, tandis que l'orange ajoute des flavonoïdes qui amplifient l'activité des cellules immunitaires.",
-        "healthTags": [
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Bien-être"
         ],
@@ -1424,7 +1424,7 @@
         "color": "red",
         "description": "Forteresse immunitaire aux baies.",
         "benefits": "Un mélange concentré de baies sauvages apporte des anthocyanes et une vitamine C extrême grâce au camu camu pour une réponse immunitaire rapide.",
-        "healthTags": [
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Bien-être"
         ],
@@ -1444,11 +1444,11 @@
         "id": "soursop_guardian",
         "name": "Dieu Graviola",
         "title": "Dieu Graviola",
-        "teaser": "Protection cellulaire au graviola",
+        "teaser": "Support cellulaire au graviola",
         "color": "green",
-        "description": "Protection cellulaire au graviola.",
+        "description": "Support cellulaire au graviola.",
         "benefits": "Le corossol et le graviola sont légendaires pour leurs puissantes acétogénines qui soutiennent la défense cellulaire et la résilience immunitaire.",
-        "healthTags": [
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Bien-être"
         ],
@@ -1473,7 +1473,7 @@
         "color": "amber",
         "description": "Carburant tropical pour l'endurance.",
         "benefits": "La noix de coco apporte des acides gras à chaîne moyenne à absorption rapide, tandis que la maca et l'ananas stimulent l'énergie physique soutenue et la récupération.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
             "Bien-être"
         ],
@@ -1497,8 +1497,8 @@
         "teaser": "Soulagement tropical du stress",
         "color": "purple",
         "description": "Soulagement tropical du stress.",
-        "benefits": "Le fruit de la passion réduit l'anxiété naturellement, tandis que le magnésium détend le système nerveux pour un calme profond et sans effort.",
-        "healthTags": [
+        "benefits": "Le fruit de la passion réduit l'tension de stress naturellement, tandis que le magnésium détend le système nerveux pour un calme profond et sans effort.",
+        "wellnessTags": [
             "Anti-Stress et Calme",
             "Bien-être"
         ],
@@ -1522,7 +1522,7 @@
         "color": "purple",
         "description": "La nicotine de la nature — propre et végétale.",
         "benefits": "L'aubergine et le chou-fleur figurent parmi les sources végétales naturelles les plus riches en nicotine, soutenant la production d'acétylcholine pour une cognition plus vive, une meilleure concentration et l'équilibre du système nerveux — sans l'addiction ni les produits chimiques du tabac.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
             "Bien-être"
         ],
@@ -1547,7 +1547,7 @@
         "color": "purple",
         "description": "Double bouclier adaptogène contre le stress.",
         "benefits": "Associe l'ashwagandha et le reishi — deux des adaptogènes régulateurs de stress les plus puissants — pour réduire profondément le cortisol, calmer le système nerveux et renforcer la résilience à long terme face au stress quotidien.",
-        "healthTags": [
+        "wellnessTags": [
             "Anti-Stress et Calme",
             "Bien-être"
         ],
@@ -1572,7 +1572,7 @@
         "color": "amber",
         "description": "Élévation de l'humeur au chocolat cru.",
         "benefits": "Le cacao cru inonde le cerveau de théobromine et de phényléthylamine, déclenchant une élévation naturelle de l'humeur et une énergie soutenue sans le crash de la caféine.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
             "Bien-être"
         ],
@@ -1596,9 +1596,9 @@
         "teaser": "L'arbre miracle dans un verre",
         "color": "green",
         "description": "L'arbre miracle dans un verre.",
-        "benefits": "Le moringa contient 92 nutriments et 46 antioxydants, soutenant la réparation cellulaire, la détoxification et une vitalité quotidienne soutenue.",
-        "healthTags": [
-            "Détox et Purification",
+        "benefits": "Le moringa contient 92 nutriments et 46 antioxydants, soutenant la réparation cellulaire, la nutrition propreification et une vitalité quotidienne soutenue.",
+        "wellnessTags": [
+            "Nutrition propre et Daily Reset",
             "Bien-être"
         ],
         "synergies": "Superaliments + Fruits Frais",
@@ -1610,7 +1610,7 @@
         "steps": "Mixez 1 cuillère à café de poudre de feuilles de moringa avec 1 tasse de morceaux de mangue surgelée et 1 tasse d'eau de coco. Mixez à haute vitesse pendant 60 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Détox et Purification",
+        "benefit": "Nutrition propre et Daily Reset",
         "img": "/images/smoothies/moringa_green.webp",
         "icon": "vaso"
     },
@@ -1622,9 +1622,9 @@
         "color": "amber",
         "description": "La défense du roi des champignons.",
         "benefits": "Le chaga possède le score antioxydant ORAC le plus élevé de tous les aliments sur terre, neutralisant les radicaux libres et fortifiant les défenses immunitaires au niveau cellulaire.",
-        "healthTags": [
+        "wellnessTags": [
             "Renforcement Immunitaire",
-            "Pouvoir Antioxydant"
+            "Soutien Antioxydant"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -1646,9 +1646,9 @@
         "teaser": "Réinitialisation quotidienne à l'herbe de blé",
         "color": "green",
         "description": "Réinitialisation quotidienne à l'herbe de blé.",
-        "benefits": "L'herbe de blé délivre la chlorophylle directement dans la circulation sanguine, alcalinisant le corps, détoxifiant le foie et fournissant un regain d'énergie rapide.",
-        "healthTags": [
-            "Détox et Purification",
+        "benefits": "L'herbe de blé délivre la chlorophylle directement dans la circulation sanguine, alcalinisant le corps, nutrition propreifiant le foie et fournissant un regain d'énergie rapide.",
+        "wellnessTags": [
+            "Nutrition propre et Daily Reset",
             "Énergie et Vitalité"
         ],
         "synergies": "Superaliments + Fruits Frais",
@@ -1660,7 +1660,7 @@
         "steps": "Mixez 1 cuillère à café de poudre d'herbe de blé avec 1 pomme entière et le jus d'un demi-citron. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 45 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Détox et Purification",
+        "benefit": "Nutrition propre et Daily Reset",
         "img": "/images/smoothies/green_shot.webp",
         "icon": "vaso"
     },
@@ -1672,7 +1672,7 @@
         "color": "amber",
         "description": "Mélange complet de protéines végétales.",
         "benefits": "Les graines de chanvre sont l'une des rares sources végétales contenant les 9 acides aminés essentiels, fournissant des protéines complètes ainsi que des oméga-3 et oméga-6 dans des proportions parfaites.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
             "Bien-être"
         ],
@@ -1697,7 +1697,7 @@
         "color": "amber",
         "description": "Carburant d'endurance ancestral.",
         "benefits": "Les graines de chia se dilatent jusqu'à 10 fois leur taille dans l'estomac, ralentissant la digestion et fournissant une hydratation soutenue, des fibres et des oméga-3 pour des heures d'énergie.",
-        "healthTags": [
+        "wellnessTags": [
             "Digestion et Santé Intestinale",
             "Énergie et Vitalité"
         ],
@@ -1722,7 +1722,7 @@
         "color": "purple",
         "description": "Rituel de sommeil chaud dans un verre.",
         "benefits": "La camomille se lie aux récepteurs GABA pour calmer le système nerveux, tandis que la muscade contient de la myristicine qui approfondit la qualité du sommeil et réduit les réveils nocturnes.",
-        "healthTags": [
+        "wellnessTags": [
             "Sommeil et Récupération",
             "Anti-Stress et Calme"
         ],
@@ -1748,9 +1748,9 @@
         "color": "red",
         "description": "Activateur de métabolisme thermogénique.",
         "benefits": "La capsaïcine du piment de Cayenne active la thermogenèse pour brûler les graisses, tandis que le gingembre stimule le feu digestif et la bromélaïne de l'ananas accélère l'absorption des nutriments.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
-            "Détox et Purification"
+            "Nutrition propre et Daily Reset"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -1773,7 +1773,7 @@
         "color": "amber",
         "description": "Équilibre de la glycémie et chaleur.",
         "benefits": "Le cinnamaldéhyde de la cannelle imite l'insuline pour stabiliser la glycémie, tandis que le beurre d'amande fournit des graisses saines qui ralentissent naturellement l'absorption du glucose.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
             "Bien-être"
         ],
@@ -1791,14 +1791,14 @@
         "icon": "vaso"
     },
     {
-        "id": "amla_boost",
+        "id": "amla_support",
         "name": "Soleil Védique",
         "title": "Soleil Védique",
         "teaser": "20 fois plus de vitamine C qu'une orange",
         "color": "green",
         "description": "20 fois plus de vitamine C qu'une orange.",
         "benefits": "L'amla offre l'une des plus fortes concentrations naturelles de vitamine C sur terre, avec des tanins qui la maintiennent stable et biodisponible comme aucun autre fruit.",
-        "healthTags": [
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Éclat et Beauté"
         ],
@@ -1812,7 +1812,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "Renforcement Immunitaire",
-        "img": "/images/smoothies/amla_boost.webp",
+        "img": "/images/smoothies/amla_support.webp",
         "icon": "vaso"
     },
     {
@@ -1823,7 +1823,7 @@
         "color": "amber",
         "description": "Le superfruit le plus puissant du Brésil.",
         "benefits": "Le cupuaçu absorbe 3,5 fois son poids en eau, gardant les cellules profondément hydratées, tandis que son composé unique, la théacrine, fournit une énergie durable sans nervosité.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
             "Éclat et Beauté"
         ],
@@ -1847,9 +1847,9 @@
         "teaser": "Triple choc antioxydant de baies noires",
         "color": "purple",
         "description": "Triple choc antioxydant de baies noires.",
-        "benefits": "La myrtille sauvage, le cassis et la groseille combinent trois des baies les plus denses en anthocyanes sur terre pour une protection maximale de la vision et une défense cellulaire.",
-        "healthTags": [
-            "Pouvoir Antioxydant",
+        "benefits": "La myrtille sauvage, le cassis et la groseille combinent trois des baies les plus denses en anthocyanes sur terre pour une support maximale de la vision et une défense cellulaire.",
+        "wellnessTags": [
+            "Soutien Antioxydant",
             "Éclat et Beauté"
         ],
         "synergies": "Superaliments + Fruits Frais",
@@ -1861,7 +1861,7 @@
         "steps": "Mixez 1/3 de tasse de myrtilles sauvages, 1/3 de tasse de cassis et 1/3 de tasse de groseilles. Ajoutez 1 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/purple_berry_blast.webp",
         "icon": "vaso"
     },
@@ -1869,13 +1869,13 @@
         "id": "ruby_berry",
         "name": "Baie Rubis",
         "title": "Baie Rubis",
-        "teaser": "Boost immunitaire de baies acidulées",
+        "teaser": "Support immunitaire de baies acidulées",
         "color": "red",
-        "description": "Boost immunitaire de baies acidulées.",
-        "benefits": "Les framboises et la canneberge sont riches en acide ellagique et en proanthocyanidines qui combattent les infections, réduisent l'inflammation et protègent les voies urinaires.",
-        "healthTags": [
+        "description": "Support immunitaire de baies acidulées.",
+        "benefits": "Les framboises et la canneberge sont riches en acide ellagique et en proanthocyanidines qui combattent les seasonal challenges, réduisent l'body stress et protègent les voies urinaires.",
+        "wellnessTags": [
             "Renforcement Immunitaire",
-            "Pouvoir Antioxydant"
+            "Soutien Antioxydant"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -1897,8 +1897,8 @@
         "teaser": "Fruits asiatiques de longévité",
         "color": "amber",
         "description": "Fruits asiatiques de longévité.",
-        "benefits": "Le longane nourrit le cœur et calme l'esprit dans la médecine traditionnelle chinoise, tandis que le nèfle apaise le système respiratoire et fournit un puissant bêta-carotène.",
-        "healthTags": [
+        "benefits": "Le longane nourrit le cœur et calme l'esprit dans la nutrition traditionnelle chinoise, tandis que le nèfle apaise le système respiratoire et fournit un puissant bêta-carotène.",
+        "wellnessTags": [
             "Bien-être",
             "Renforcement Immunitaire"
         ],
@@ -1923,7 +1923,7 @@
         "color": "green",
         "description": "Fusion immunitaire d'exotiques rares.",
         "benefits": "La teneur unique en iode du feijoa soutient la fonction thyroïdienne, tandis que les withanolides du physalis stimulent la réponse immunitaire et protègent contre le stress oxydatif.",
-        "healthTags": [
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Bien-être"
         ],
@@ -1947,10 +1947,10 @@
         "teaser": "Trois agrumes rares, un seul coup",
         "color": "yellow",
         "description": "Trois agrumes rares, un seul coup.",
-        "benefits": "Le pomélo, le pamplemousse et le yuzu combinent des flavonoïdes uniques — naringénine et hespéridine — pour réduire le cholestérol, stimuler le métabolisme et fournir une vitamine C intense.",
-        "healthTags": [
+        "benefits": "Le pomélo, le pamplemousse et le yuzu combinent des flavonoïdes uniques — naringénine et hespéridine — pour réduire le équilibre lipidique, stimuler le métabolisme et fournir une vitamine C intense.",
+        "wellnessTags": [
             "Renforcement Immunitaire",
-            "Santé Cardiaque"
+            "Bien-être Cardiovasculaire"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -1972,9 +1972,9 @@
         "teaser": "Trio de fruits noirs pour la longévité",
         "color": "red",
         "description": "Trio de fruits noirs pour la longévité.",
-        "benefits": "Les cerises, la mûre et le jujube sont vénérés dans la médecine traditionnelle pour la longévité, la protection du foie et leur puissante teneur en anthocyanes.",
-        "healthTags": [
-            "Pouvoir Antioxydant",
+        "benefits": "Les cerises, la mûre et le jujube sont vénérés dans la nutrition traditionnelle pour la longévité, la support du foie et leur puissante teneur en anthocyanes.",
+        "wellnessTags": [
+            "Soutien Antioxydant",
             "Sommeil et Récupération"
         ],
         "synergies": "Superaliments + Fruits Frais",
@@ -1986,7 +1986,7 @@
         "steps": "Mixez 1/2 tasse de cerises dénoyautées avec 1/3 de tasse de mûres et 4 jujubes dénoyautés. Ajoutez 3/4 de tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/cherry_mulberry.webp",
         "icon": "vaso"
     },
@@ -1998,7 +1998,7 @@
         "color": "yellow",
         "description": "Carburant d'amidon tropical et d'enzymes.",
         "benefits": "Les enzymes papaïne de la papaye décomposent les protéines et réduisent les ballonnements, tandis que la banane plantain fournit de l'amidon résistant qui nourrit les bonnes bactéries intestinales.",
-        "healthTags": [
+        "wellnessTags": [
             "Digestion et Santé Intestinale",
             "Énergie et Vitalité"
         ],
@@ -2023,7 +2023,7 @@
         "color": "amber",
         "description": "Pouvoir terreux des racines.",
         "benefits": "La patate douce et la citrouille sont chargées de bêta-carotène qui se convertit en vitamine A, protégeant simultanément la vision, la peau et la fonction immunitaire.",
-        "healthTags": [
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Énergie et Vitalité"
         ],
@@ -2048,7 +2048,7 @@
         "color": "green",
         "description": "Le fruit le plus délicieux selon Mark Twain.",
         "benefits": "La chérimole contient des acétogénines étudiées pour leurs puissantes propriétés anticancéreuses, ainsi qu'un riche complexe de vitamines B qui soutient la fonction nerveuse et l'énergie.",
-        "healthTags": [
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Bien-être"
         ],
@@ -2073,7 +2073,7 @@
         "color": "amber",
         "description": "Superfruit soyeux mésoaméricain.",
         "benefits": "La sapotille et le mamey sapote fournissent tous deux des polyphénols rares qui renforcent l'intégrité de la muqueuse intestinale, ainsi que des niveaux élevés de vitamine B6 pour la production de sérotonine.",
-        "healthTags": [
+        "wellnessTags": [
             "Digestion et Santé Intestinale",
             "Bien-être"
         ],
@@ -2098,9 +2098,9 @@
         "color": "amber",
         "description": "Tonique digestif ancestral.",
         "benefits": "Le tamarin est riche en acide tartrique et hydroxycitrique qui stimulent la production de bile pour une digestion plus rapide des graisses et un nettoyage naturel du foie.",
-        "healthTags": [
+        "wellnessTags": [
             "Digestion et Santé Intestinale",
-            "Détox et Purification"
+            "Nutrition propre et Daily Reset"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -2123,9 +2123,9 @@
         "color": "red",
         "description": "Explosion antioxydante de la tomate en arbre.",
         "benefits": "Le tamarillo contient de l'acide chlorogénique prouvé pour abaisser la glycémie et un profil caroténoïde unique qui protège contre la dégénérescence maculaire.",
-        "healthTags": [
-            "Pouvoir Antioxydant",
-            "Santé Cardiaque"
+        "wellnessTags": [
+            "Soutien Antioxydant",
+            "Bien-être Cardiovasculaire"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -2136,7 +2136,7 @@
         "steps": "Coupez 2 tamarillos en deux et extrayez la pulpe. Mixez avec 1 orange pelée et 1 pouce de gingembre. Ajoutez 1/2 tasse d'eau et mixez à haute vitesse pendant 60 secondes.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Pouvoir Antioxydant",
+        "benefit": "Soutien Antioxydant",
         "img": "/images/smoothies/tamarillo_fire.webp",
         "icon": "vaso"
     },
@@ -2147,10 +2147,10 @@
         "teaser": "Le fruit qui se mange entier",
         "color": "orange",
         "description": "Le fruit qui se mange entier.",
-        "benefits": "La peau du kumquat contient plus de limonène et d'hespéridine que la pulpe — ce qui est unique parmi les agrumes — en faisant un puissant anti-inflammatoire et un accélérateur de métabolisme.",
-        "healthTags": [
+        "benefits": "La peau du kumquat contient plus de limonène et d'hespéridine que la pulpe — ce qui est unique parmi les agrumes — en faisant un puissant équilibrant corporel et un accélérateur de métabolisme.",
+        "wellnessTags": [
             "Renforcement Immunitaire",
-            "Anti-Inflammatoire"
+            "Équilibre Corporel"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -2173,7 +2173,7 @@
         "color": "green",
         "description": "Énergie d'amidon polynésien.",
         "benefits": "Le fruit à pain est une source complète de protéines avec tous les acides aminés essentiels, ce qui est rare dans les aliments végétaux, ainsi qu'une teneur élevée en fibres qui nourrit le microbiome intestinal pendant des heures.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
             "Digestion et Santé Intestinale"
         ],
@@ -2197,10 +2197,10 @@
         "teaser": "Superfruits d'automne oubliés",
         "color": "amber",
         "description": "Superfruits d'automne oubliés.",
-        "benefits": "Le coing contient de puissants tanins et de la pectine qui guérissent la muqueuse intestinale, tandis que l'acide bétulinique du kaki a démontré des propriétés antitumorales dans la recherche.",
-        "healthTags": [
+        "benefits": "Le coing contient de puissants tanins et de la pectine qui guérissent la muqueuse intestinale, tandis que l'acide bétulinique du kaki a démontré des propriétés anticellular stressales dans la recherche.",
+        "wellnessTags": [
             "Digestion et Santé Intestinale",
-            "Pouvoir Antioxydant"
+            "Soutien Antioxydant"
         ],
         "synergies": "Superaliments + Fruits Frais",
         "ingredients": [
@@ -2223,7 +2223,7 @@
         "color": "orange",
         "description": "L'arbre de vie africain.",
         "benefits": "Le baobab contient 6 fois plus de vitamine C que les oranges et plus de calcium que le lait, soutenant simultanément la production de collagène, la densité osseuse et la force immunitaire.",
-        "healthTags": [
+        "wellnessTags": [
             "Renforcement Immunitaire",
             "Énergie et Vitalité"
         ],
@@ -2248,7 +2248,7 @@
         "color": "amber",
         "description": "Le roi des fruits déchaîné.",
         "benefits": "Le durian est exceptionnellement riche en vitamines B, en cuivre et en tryptophane, ce qui en fait l'un des aliments naturels les plus complets pour l'énergie et l'humeur.",
-        "healthTags": [
+        "wellnessTags": [
             "Énergie et Vitalité",
             "Bien-être"
         ],

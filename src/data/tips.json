@@ -25,8 +25,8 @@
   },
   {
     "id": 5,
-    "category": "Heart Health",
-    "text": "Pomegranate seeds actively prevent the oxidation of LDL cholesterol, helping keep your arterial walls clear.",
+    "category": "Cardiovascular Wellness",
+    "text": "Pomegranate seeds actively support the oxidation of lipid balance lipid balance, helping keep your arterial walls clear.",
     "fruit": "Pomegranate"
   },
   {
@@ -37,20 +37,20 @@
   },
   {
     "id": 7,
-    "category": "Brain Health",
-    "text": "Blueberries are packed with potent anthocyanins that cross the blood-brain barrier to protect delicate neurons.",
+    "category": "Brain Wellness",
+    "text": "Blueberries are packed with potent anthocyanins that cross the brain barrier to support delicate neurons.",
     "fruit": "Blueberries"
   },
   {
     "id": 8,
-    "category": "Anti-Inflammatory",
+    "category": "Body Balance",
     "text": "Adding a tiny pinch of black pepper to turmeric increases the absorption of curcumin by 2000%.",
     "fruit": "Turmeric"
   },
   {
     "id": 9,
     "category": "Digestion",
-    "text": "Papaya is exclusively rich in papain, an elite enzyme that immediately helps digest heavy protein meals.",
+    "text": "Papaya is exclusively rich in padiscomfort, an elite enzyme that immediately helps digest heavy protein meals.",
     "fruit": "Papaya"
   },
   {
@@ -67,13 +67,13 @@
   },
   {
     "id": 12,
-    "category": "Detox",
-    "text": "Lemon juice paired with warm water in the morning gently signals your liver to begin its daily flushing process.",
+    "category": "Clean Nutrition",
+    "text": "Lemon juice paired with warm water in the morning gently signals your liver to begin its daily refreshing process.",
     "fruit": "Lemon"
   },
   {
     "id": 13,
-    "category": "Heart Health",
+    "category": "Cardiovascular Wellness",
     "text": "Walnuts are uniquely shaped like a brain, but they are most famous for providing elite levels of cardiovascular Omega-3s.",
     "fruit": "Walnuts"
   },
@@ -98,13 +98,13 @@
   {
     "id": 17,
     "category": "Immunity",
-    "text": "Elderberry syrup actively binds to viruses, drastically reducing their ability to enter and infect your cells.",
+    "text": "Elderberry syrup actively binds to seasonal stressors, drastically supporting their ability to enter and infect your cells.",
     "fruit": "Elderberry"
   },
   {
     "id": 18,
     "category": "Stress Relief",
-    "text": "Ashwagandha has been shown in hundreds of clinical trials to dramatically lower circulating cortisol levels.",
+    "text": "Ashwagandha is traditionally associated with supporting circulating cortisol levels.",
     "fruit": "Ashwagandha"
   },
   {
@@ -133,14 +133,14 @@
   },
   {
     "id": 23,
-    "category": "Anti-Inflammatory",
-    "text": "Mangosteen rind contains extremely rare compounds called xanthones which instantly neutralize systemic inflammation.",
+    "category": "Body Balance",
+    "text": "Mangosteen rind contains extremely rare compounds called xanthones which instantly neutralize systemic body stress.",
     "fruit": "Mangosteen"
   },
   {
     "id": 24,
     "category": "Hydration",
-    "text": "Coconut water is incredibly similar to human blood plasma and is nature's purest form of isotonic hydration.",
+    "text": "Coconut water is incredibly similar to human electrolyte profile and is nature's purest form of isotonic hydration.",
     "fruit": "Coconut"
   },
   {
@@ -158,13 +158,13 @@
   {
     "id": 27,
     "category": "Digestion",
-    "text": "Prickly Pear cactus fruit significantly lowers gut inflammation and helps hydrate the beneficial gut flora.",
+    "text": "Prickly Pear cactus fruit significantly supports gut body stress and helps hydrate the beneficial gut flora.",
     "fruit": "Prickly Pear"
   },
   {
     "id": 28,
-    "category": "Heart Health",
-    "text": "Beetroot juice is incredibly rich in natural dietary nitrates, directly dilating blood vessels and lowering blood pressure.",
+    "category": "Cardiovascular Wellness",
+    "text": "Beetroot juice is incredibly rich in natural dietary nitrates, directly dilating circulatorys and supporting cardiovascular balance.",
     "fruit": "Beetroot"
   },
   {
@@ -175,26 +175,26 @@
   },
   {
     "id": 30,
-    "category": "Detox",
+    "category": "Clean Nutrition",
     "text": "Cilantro acts as a profound chelating botanical, binding tightly to heavy metals and forcing them out of the blood.",
     "fruit": "Cilantro"
   },
   {
     "id": 31,
-    "category": "Heart Health",
-    "text": "Strawberries are rich in fisetin, a flavonoid currently highly studied for its extreme anti-aging and cardioprotective effects.",
+    "category": "Cardiovascular Wellness",
+    "text": "Strawberries are rich in fisetin, a flavonoid currently highly studied for its extreme anti-aging and cardiovascular-supportive effects.",
     "fruit": "Strawberries"
   },
   {
     "id": 32,
     "category": "Sleep",
-    "text": "Jujube dates contain potent natural saponins that gently sedate the nervous system, curing restless mind loops.",
+    "text": "Jujube dates contain potent natural saponins that gently sedate the nervous system, restoring restless mind loops.",
     "fruit": "Jujube"
   },
   {
     "id": 33,
     "category": "Digestion",
-    "text": "Ginger root directly accelerates the emptying of the stomach, making it the perfect immediate cure for severe bloating.",
+    "text": "Ginger root directly accelerates the emptying of the stomach, making it the perfect immediate wellness ritual for severe digestive heaviness.",
     "fruit": "Ginger"
   },
   {
@@ -206,7 +206,7 @@
   {
     "id": 35,
     "category": "Immunity",
-    "text": "Starfruit is highly effective at sweeping heavy toxins from the body, though it should be avoided by those with kidney issues.",
+    "text": "Starfruit is highly effective at supporting everyday clean nutrition from the body, though it should be avoided by those with kidney issues.",
     "fruit": "Starfruit"
   },
   {
@@ -217,26 +217,26 @@
   },
   {
     "id": 37,
-    "category": "Heart Health",
+    "category": "Cardiovascular Wellness",
     "text": "Blackberries contain incredibly distinct tannins that tighten tissues and actively restrict bleeding in the digestive tract.",
     "fruit": "Blackberries"
   },
   {
     "id": 38,
     "category": "Energy",
-    "text": "Sapodilla tastes exactly like brown sugar and rapidly cures physical exhaustion via its unique fructose structure.",
+    "text": "Sapodilla tastes exactly like brown sugar and rapidly restores physical exhaustion via its unique fructose structure.",
     "fruit": "Sapodilla"
   },
   {
     "id": 39,
     "category": "Immunity",
-    "text": "Soursop is traditionally revered in tropical regions for instantaneously breaking high fevers and fighting severe acute infections.",
+    "text": "Soursop is traditionally revered in tropical regions for instantaneously breaking high fevers and fighting severe acute seasonal challenges.",
     "fruit": "Soursop"
   },
   {
     "id": 40,
     "category": "Skin Glow",
-    "text": "Passionfruit seeds are packed with piceatannol, a compound that visibly protects the skin against aggressive sun damage.",
+    "text": "Passionfruit seeds are packed with piceatannol, a compound that visibly supports the skin against aggressive sun damage.",
     "fruit": "Passionfruit"
   },
   {
@@ -247,7 +247,7 @@
   },
   {
     "id": 42,
-    "category": "Heart Health",
+    "category": "Cardiovascular Wellness",
     "text": "Blood Oranges derive their dark color from anthocyanins, making them the only citrus fruit with massive cardiovascular benefits.",
     "fruit": "Blood Orange"
   },
@@ -266,13 +266,13 @@
   {
     "id": 45,
     "category": "Digestion",
-    "text": "Pineapple cores contain the absolute highest concentration of bromelain, perfect for reducing inflammation and aiding digestion.",
+    "text": "Pineapple cores contain the absolute highest concentration of bromelain, perfect for supporting body stress and aiding digestion.",
     "fruit": "Pineapple"
   },
   {
     "id": 46,
-    "category": "Heart Health",
-    "text": "Acai berries contain nearly zero sugar, making them essentially a pure delivery system for heart-protecting healthy fats.",
+    "category": "Cardiovascular Wellness",
+    "text": "Acai berries contain nearly zero sugar, making them essentially a pure delivery system for heart-protecting balanced fats.",
     "fruit": "Acai"
   },
   {
@@ -284,13 +284,13 @@
   {
     "id": 48,
     "category": "Energy",
-    "text": "Dates are widely considered nature's perfect energy gel, efficiently delivering complex carbs without crashing blood sugar.",
+    "text": "Dates are widely considered nature's perfect energy gel, efficiently delivering complex carbs without crashing glucose balance.",
     "fruit": "Dates"
   },
   {
     "id": 49,
     "category": "Immunity",
-    "text": "Yuzu peel has a uniquely high concentration of flavonoids; simply inhaling its aroma has been proven to significantly drop cortisol.",
+    "text": "Yuzu peel has a uniquely high concentration of flavonoids; simply inhaling its aroma is traditionally associated with calm sensory rituals.",
     "fruit": "Yuzu"
   },
   {

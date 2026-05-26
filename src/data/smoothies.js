@@ -6,9 +6,9 @@ export const smoothies = [
         "teaser": "The ultimate vitamin C fortress",
         "color": "orange",
         "description": "The ultimate vitamin C fortress.",
-        "benefits": "Provides a megadose of Vitamin C and potent antioxidants. Fights off seasonal illnesses and fortifies your immune defenses instantly.",
-        "healthTags": [
-            "Immunity Boost",
+        "benefits": "Provides a megadose of Vitamin C and potent antioxidants. Fights off seasonal illnesses and fortifies your natural defensess instantly.",
+        "wellnessTags": [
+            "Natural Defenses",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -21,7 +21,7 @@ export const smoothies = [
         "steps": "Peel 1 whole orange and add it to the blender. Add 1 teaspoon of freshly grated ginger, 1 teaspoon of camu camu powder, and 1/4 teaspoon of turmeric powder. Pour in 1/2 cup of water and blend on high speed for 60 seconds until perfectly smooth.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/ultimate_immunity_hero.webp",
         "icon": "vaso"
     },
@@ -32,9 +32,9 @@ export const smoothies = [
         "teaser": "Nature’s strongest immunity shield",
         "color": "orange",
         "description": "Nature’s strongest immunity shield.",
-        "benefits": "Explodes with extreme Vitamin C levels, directly boosting white blood cell activity and maximizing cellular protection against external threats.",
-        "healthTags": [
-            "Immunity Boost",
+        "benefits": "Explodes with extreme Vitamin C levels, directly supporting white blood cell activity and maximizing cellular support against external threats.",
+        "wellnessTags": [
+            "Natural Defenses",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -47,7 +47,7 @@ export const smoothies = [
         "steps": "Combine 1/2 cup of fresh acerola cherry pulp, 1 peeled kiwi, 1 tablespoon of freshly squeezed lemon juice, and 1 tablespoon of Manuka honey. Blend on high for 45 seconds until completely liquid.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/vitaminc_nuclear_bomb.webp",
         "icon": "vaso"
     },
@@ -58,9 +58,9 @@ export const smoothies = [
         "teaser": "Deep calm in every sip",
         "color": "purple",
         "description": "Deep calm in every sip.",
-        "benefits": "Dramatically reduces cortisol levels and provides deep nervous system relaxation, melting away daily stress and mental fatigue.",
-        "healthTags": [
-            "Stress Relief & Calm",
+        "benefits": "Dramatically supports cortisol levels and provides deep nervous system relaxation, melting away daily stress and mental fatigue.",
+        "wellnessTags": [
+            "Calm & Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -73,7 +73,7 @@ export const smoothies = [
         "steps": "Add 1 teaspoon of ashwagandha root powder and 1/2 teaspoon of reishi mushroom powder to 1.5 cups of cold almond milk with 1 ripe banana. Blend on high for 60 seconds until creamy and smooth.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Stress Relief & Calm",
+        "benefit": "Calm & Balance",
         "img": "/images/smoothies/adaptogen_calm_hero.webp",
         "icon": "vaso"
     },
@@ -85,7 +85,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Unlock sharp focus and mental clarity.",
         "benefits": "Supercharges cognitive function, enhances memory retention, and provides clean, sustained mental energy without the jittery crash.",
-        "healthTags": [
+        "wellnessTags": [
             "Energy & Vitality",
             "Wellness"
         ],
@@ -98,7 +98,7 @@ export const smoothies = [
         "steps": "Blend 1/2 teaspoon of Lion's Mane mushroom extract with 1 cup of frozen blueberries and a small handful of walnuts. Add 1 cup of water and blend on high for 60 seconds until smooth.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Brain & Memory",
+        "benefit": "Focus & Clarity",
         "img": "/images/smoothies/brain_and_focus_hero.webp",
         "icon": "vaso"
     },
@@ -109,8 +109,8 @@ export const smoothies = [
         "teaser": "Natural power for body and mind",
         "color": "amber",
         "description": "Natural power for body and mind.",
-        "benefits": "Boosts physical endurance and stamina rapidly using ancient adaptogenic roots and complex carbohydrates for sustained output.",
-        "healthTags": [
+        "benefits": "Supports physical endurance and stamina rapidly using ancient adaptogenic roots and complex carbohydrates for sustained output.",
+        "wellnessTags": [
             "Energy & Vitality",
             "Wellness"
         ],
@@ -128,15 +128,15 @@ export const smoothies = [
         "icon": "vaso"
     },
     {
-        "id": "gut_healing_hero",
+        "id": "gut_supporting_hero",
         "name": "Inner Temple",
         "title": "Inner Temple",
-        "teaser": "Heal your gut from within",
+        "teaser": "Support your inner balance",
         "color": "yellow",
-        "description": "Heal your gut from within.",
-        "benefits": "Soothes the delicate stomach lining while delivering massive amounts of beneficial probiotics and digestive enzymes to repair the gut microbiome.",
-        "healthTags": [
-            "Digestion & Gut Health",
+        "description": "Support your inner balance.",
+        "benefits": "Soothes the delicate stomach lining while delivering massive amounts of beneficial probiotics and digestive enzymes to support microbiome balance.",
+        "wellnessTags": [
+            "Digestive Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -149,20 +149,20 @@ export const smoothies = [
         "steps": "Extract 2 tablespoons of fresh aloe vera gel and blend with 1 cup of ripe papaya chunks, 1 tablespoon of ground flaxseed, and 1 cup of probiotic kefir. Blend on low speed for 30 seconds to preserve probiotics.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Digestion & Gut Health",
-        "img": "/images/smoothies/gut_healing_hero.webp",
+        "benefit": "Digestive Balance",
+        "img": "/images/smoothies/gut_supporting_hero.webp",
         "icon": "vaso"
     },
     {
-        "id": "anti_inflammatory_hero",
+        "id": "anti_body-stress_hero",
         "name": "Ice Dragon",
         "title": "Ice Dragon",
-        "teaser": "Fight inflammation naturally",
+        "teaser": "Fight body stress naturally",
         "color": "red",
-        "description": "Fight inflammation naturally.",
-        "benefits": "Inhibits inflammatory pathways at the molecular level, relieving joint pain and systemic swelling effectively.",
-        "healthTags": [
-            "Anti-Inflammatory",
+        "description": "Fight body stress naturally.",
+        "benefits": "Inhibits body-stress pathways at the molecular level, relieving joint discomfort and systemic swelling effectively.",
+        "wellnessTags": [
+            "Body Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -174,8 +174,8 @@ export const smoothies = [
         "steps": "Add 1 teaspoon of fresh turmeric, 1 thumb of ginger, and 1 cup of pineapple chunks to the blender. Add 1/2 cup of water and blend on high for 60 seconds until smooth.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Anti-Inflammatory",
-        "img": "/images/smoothies/anti_inflammatory_hero.webp",
+        "benefit": "Body Balance",
+        "img": "/images/smoothies/anti_body-stress_hero.webp",
         "icon": "vaso"
     },
     {
@@ -186,7 +186,7 @@ export const smoothies = [
         "color": "pink",
         "description": "Radiate beauty from the inside.",
         "benefits": "Stimulates dermal elasticity and aggressively fights skin aging, rewarding you with a noticeable, radiant inner glow.",
-        "healthTags": [
+        "wellnessTags": [
             "Skin Glow & Beauty",
             "Wellness"
         ],
@@ -212,8 +212,8 @@ export const smoothies = [
         "color": "indigo",
         "description": "Restorative sleep in a glass.",
         "benefits": "Naturally elevates melatonin production, guaranteeing deep, uninterrupted REM sleep and powerful overnight muscle recovery.",
-        "healthTags": [
-            "Sleep & Recovery",
+        "wellnessTags": [
+            "Rest & Renewal",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -225,7 +225,7 @@ export const smoothies = [
         "steps": "Blend 1/2 teaspoon of valerian root powder and 1 tablespoon of chamomile tea concentrate with 1 ripe banana and 1 cup of oat milk. Blend until smooth and creamy.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Sleep & Recovery",
+        "benefit": "Rest & Renewal",
         "img": "/images/smoothies/deep_sleep_and_recovery_hero.webp",
         "icon": "vaso"
     },
@@ -233,12 +233,12 @@ export const smoothies = [
         "id": "anti_oxidant_god_mode",
         "name": "God Mode",
         "title": "God Mode",
-        "teaser": "Maximum antioxidant protection",
+        "teaser": "Maximum antioxidant support",
         "color": "purple",
-        "description": "Maximum antioxidant protection.",
+        "description": "Maximum antioxidant support.",
         "benefits": "Floods your body with a massive spectrum of anthocyanins, neutralizing free radicals and halting cellular damage in its tracks.",
-        "healthTags": [
-            "Antioxidant Power",
+        "wellnessTags": [
+            "Antioxidant Support",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -251,7 +251,7 @@ export const smoothies = [
         "steps": "Blend 1 frozen acai packet (100g) with 1 tablespoon of rehydrated goji berries, 1/2 cup of pure pomegranate juice, and a 1/2 ounce shaving of 85% dark chocolate.",
         "tier": "free",
         "isHero": true,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/anti_oxidant_god_mode.webp",
         "icon": "vaso"
     },
@@ -263,8 +263,8 @@ export const smoothies = [
         "color": "purple",
         "description": "Amazon antioxidants. No filter.",
         "benefits": "Delivers a triple antioxidant surge from açaí, raw cacao, and banana — protecting cells, fueling energy, and hitting the body with pure, unfiltered plant power.",
-        "healthTags": [
-            "Antioxidant Power",
+        "wellnessTags": [
+            "Antioxidant Support",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -276,7 +276,7 @@ export const smoothies = [
         "steps": "Blend 1 frozen açaí packet (100g) with 1 teaspoon of raw cacao powder and 1 ripe banana. Add 1/2 cup of water and blend on high for 45 seconds until thick and smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/smooth_savage.webp",
         "icon": "vaso"
     },
@@ -287,9 +287,9 @@ export const smoothies = [
         "teaser": "Soothing digestive aid",
         "color": "yellow",
         "description": "Soothing digestive aid.",
-        "benefits": "An incredibly comforting blend that stops nausea in its tracks and gently warms the digestive tract.",
-        "healthTags": [
-            "Digestion & Gut Health",
+        "benefits": "An incredibly comforting blend that brings digestive comfort and gently warms the digestive tract.",
+        "wellnessTags": [
+            "Digestive Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -301,7 +301,7 @@ export const smoothies = [
         "steps": "Blend 1 sweet apple with 1 thumb of fresh ginger and a small handful of fresh mint leaves. Add 1 cup of water and blend on high for 45 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Digestion & Gut Health",
+        "benefit": "Digestive Balance",
         "img": "/images/smoothies/apple_ginger_soothe.webp",
         "icon": "vaso"
     },
@@ -312,9 +312,9 @@ export const smoothies = [
         "teaser": "Stress-melting adaptogenic blend",
         "color": "purple",
         "description": "Stress-melting adaptogenic blend.",
-        "benefits": "Significantly mitigates daily anxiety and builds your body's long-term resilience to stress triggers.",
-        "healthTags": [
-            "Stress Relief & Calm",
+        "benefits": "Significantly mitigates daily stress tension and builds your body's long-term resilience to stress triggers.",
+        "wellnessTags": [
+            "Calm & Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -326,20 +326,20 @@ export const smoothies = [
         "steps": "Blend 1 teaspoon of ashwagandha root powder with 1 ripe banana and 1 tablespoon of lucuma powder. Add 1 cup of almond milk and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Stress Relief & Calm",
+        "benefit": "Calm & Balance",
         "img": "/images/smoothies/ashwagandha_calm.webp",
         "icon": "vaso"
     },
     {
-        "id": "golden_anti_inflammatory",
+        "id": "golden_anti_body-stress",
         "name": "Golden Khan",
         "title": "Golden Khan",
-        "teaser": "Golden inflammation fighter",
+        "teaser": "Golden body stress fighter",
         "color": "red",
-        "description": "Golden inflammation fighter.",
-        "benefits": "A golden elixir designed specifically to flood your body with natural, highly absorbable anti-inflammatory agents.",
-        "healthTags": [
-            "Anti-Inflammatory",
+        "description": "Golden body stress fighter.",
+        "benefits": "A golden elixir designed specifically to flood your body with natural, highly absorbable body-balancing agents.",
+        "wellnessTags": [
+            "Body Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -351,8 +351,8 @@ export const smoothies = [
         "steps": "Blend 1 teaspoon of turmeric powder with a pinch of black pepper and 1/2 cup of fresh coconut flesh. Add 1 cup of coconut water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Anti-Inflammatory",
-        "img": "/images/smoothies/golden_anti_inflammatory.webp",
+        "benefit": "Body Balance",
+        "img": "/images/smoothies/golden_anti_body-stress.webp",
         "icon": "vaso"
     },
     {
@@ -362,9 +362,9 @@ export const smoothies = [
         "teaser": "Recovery and renewal blend",
         "color": "red",
         "description": "Recovery and renewal blend.",
-        "benefits": "Boosts nitric oxide production to massively improve blood flow and accelerate muscular recovery.",
-        "healthTags": [
-            "Anti-Inflammatory",
+        "benefits": "Supports nitric oxide production to massively improve circulatory flow and accelerate muscular recovery.",
+        "wellnessTags": [
+            "Body Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -376,7 +376,7 @@ export const smoothies = [
         "steps": "Blend 1/2 cup of tart cherries with 1/2 cup of raw beet chunks and 2 stalks of celery. Add 3/4 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Anti-Inflammatory",
+        "benefit": "Body Balance",
         "img": "/images/smoothies/cherry_beet_recovery.webp",
         "icon": "vaso"
     },
@@ -384,12 +384,12 @@ export const smoothies = [
         "id": "mangosteen_relief",
         "name": "Queen of Siam",
         "title": "Queen of Siam",
-        "teaser": "Mangosteen anti-inflammatory power",
+        "teaser": "Mangosteen body-balancing power",
         "color": "red",
-        "description": "Mangosteen anti-inflammatory power.",
-        "benefits": "Harnesses powerful xanthones directly proven to reduce chronic cellular inflammation and oxidative stress.",
-        "healthTags": [
-            "Anti-Inflammatory",
+        "description": "Mangosteen body-balancing power.",
+        "benefits": "Harnesses powerful xanthones directly proven to support chronic cellular body stress and oxidative stress.",
+        "wellnessTags": [
+            "Body Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -401,7 +401,7 @@ export const smoothies = [
         "steps": "Extract the flesh of 2 mangosteens and blend with 1 ripe peach and 1 ripe pear. Add 1/2 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Anti-Inflammatory",
+        "benefit": "Body Balance",
         "img": "/images/smoothies/mangosteen_relief.webp",
         "icon": "vaso"
     },
@@ -412,8 +412,8 @@ export const smoothies = [
         "teaser": "Super berry beauty fuel",
         "color": "pink",
         "description": "Super berry beauty fuel.",
-        "benefits": "Delivers a concentration of antioxidants that actively prevent wrinkles and enhance skin luminosity.",
-        "healthTags": [
+        "benefits": "Delivers a concentration of antioxidants that actively support wrinkles and enhance skin luminosity.",
+        "wellnessTags": [
             "Skin Glow & Beauty",
             "Wellness"
         ],
@@ -439,7 +439,7 @@ export const smoothies = [
         "color": "pink",
         "description": "Omega-rich skin radiance.",
         "benefits": "Provides extremely rare Omega-7 fatty acids that are vital for maintaining glowing, deeply hydrated skin.",
-        "healthTags": [
+        "wellnessTags": [
             "Skin Glow & Beauty",
             "Wellness"
         ],
@@ -465,7 +465,7 @@ export const smoothies = [
         "color": "pink",
         "description": "Deep purple glow from within.",
         "benefits": "Highest antioxidant score of any fruit, protecting your skin from UV and pollution damage.",
-        "healthTags": [
+        "wellnessTags": [
             "Skin Glow & Beauty",
             "Wellness"
         ],
@@ -487,12 +487,12 @@ export const smoothies = [
         "id": "heart_protector",
         "name": "The Sentinel",
         "title": "The Sentinel",
-        "teaser": "Daily heart protection",
+        "teaser": "Daily heart support",
         "color": "red",
-        "description": "Daily heart protection.",
+        "description": "Daily heart support.",
         "benefits": "Improves blood lipid profiles effectively and keeps arterial walls clear.",
-        "healthTags": [
-            "Heart Health",
+        "wellnessTags": [
+            "Cardiovascular Wellness",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -504,7 +504,7 @@ export const smoothies = [
         "steps": "Blend 1/2 cup of pomegranate seeds with a small handful of walnuts and 1/4 cup of rolled oats. Add 1 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Heart Health",
+        "benefit": "Cardiovascular Wellness",
         "img": "/images/smoothies/heart_protector.webp",
         "icon": "vaso"
     },
@@ -515,9 +515,9 @@ export const smoothies = [
         "teaser": "Heart-loving berry blend",
         "color": "red",
         "description": "Heart-loving berry blend.",
-        "benefits": "Dilates blood vessels safely to regulate blood pressure and provides crucial Omega-3 fatty acids.",
-        "healthTags": [
-            "Heart Health",
+        "benefits": "Dilates circulatorys safely to regulate cardiovascular balance and provides crucial Omega-3 fatty acids.",
+        "wellnessTags": [
+            "Cardiovascular Wellness",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -529,20 +529,20 @@ export const smoothies = [
         "steps": "Blend 1/4 cup of pomegranate seeds with 1/2 cup of raw beetroot chunks and 1/2 cup of blueberries. Add 3/4 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Heart Health",
+        "benefit": "Cardiovascular Wellness",
         "img": "/images/smoothies/beet_berry_heart.webp",
         "icon": "vaso"
     },
     {
-        "id": "deep_detox",
-        "name": "Shadow Cleanse",
-        "title": "Shadow Cleanse",
-        "teaser": "Gentle daily detox support",
+        "id": "deep_cleanse",
+        "name": "Shadow Clean Nutrition",
+        "title": "Shadow Clean Nutrition",
+        "teaser": "Gentle daily clean nutrition support",
         "color": "green",
-        "description": "Gentle daily detox support.",
-        "benefits": "Binds to heavy metals in the bloodstream and assists the liver in flushing out toxins.",
-        "healthTags": [
-            "Detox & Cleansing",
+        "description": "Gentle daily clean nutrition support.",
+        "benefits": "Binds to heavy metals in the circulatory flow and assists the liver in refreshing out unwanted compounds.",
+        "wellnessTags": [
+            "Clean Nutrition",
             "Wellness"
         ],
         "synergies": "Superfoods + Vitamins",
@@ -554,8 +554,8 @@ export const smoothies = [
         "steps": "Mix 1 teaspoon of chlorella powder and 1 teaspoon of spirulina powder with the juice of 1 fresh lemon. Add 1 cup of cold water and blend for 30 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Detox & Cleansing",
-        "img": "/images/smoothies/deep_detox.webp",
+        "benefit": "Clean Nutrition",
+        "img": "/images/smoothies/deep_cleanse.webp",
         "icon": "vaso"
     },
     {
@@ -566,7 +566,7 @@ export const smoothies = [
         "color": "green",
         "description": "Packed with energy and vital nutrients to power you through the day.",
         "benefits": "A synergistic blend for maximum smooth savage benefits.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -579,7 +579,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/alkaline_king.webp",
         "icon": "vaso"
     },
@@ -590,8 +590,8 @@ export const smoothies = [
         "teaser": "Ancient hormone support",
         "color": "amber",
         "description": "Natural power for high-performance living.",
-        "benefits": "Boosts vitality using pine pollen and tropical minerals.",
-        "healthTags": [
+        "benefits": "Supports vitality using pine pollen and tropical minerals.",
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -604,7 +604,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/androgenic_peak.webp",
         "icon": "vaso"
     },
@@ -616,7 +616,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Immune support with a tropical twist.",
         "benefits": "High vitamin C and unique starfruit antioxidants.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -629,19 +629,19 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/anti_viral_star.webp",
         "icon": "vaso"
     },
     {
-        "id": "black_seed_cure",
-        "name": "Black Seed Cure",
-        "title": "Black Seed Cure",
-        "teaser": "The legendary wellness boost",
+        "id": "black_seed_wellness ritual",
+        "name": "Black Seed Ritual",
+        "title": "Black Seed Ritual",
+        "teaser": "The legendary wellness support",
         "color": "amber",
-        "description": "Ancient medicine for modern life.",
-        "benefits": "Powerful black seed oil benefits for total system health.",
-        "healthTags": [
+        "description": "Ancient nutrition for modern life.",
+        "benefits": "Black seed oil notes for whole-body wellness.",
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -654,8 +654,8 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
-        "img": "/images/smoothies/black_seed_cure.webp",
+        "benefit": "Antioxidant Support",
+        "img": "/images/smoothies/black_seed_wellness ritual.webp",
         "icon": "vaso"
     },
     {
@@ -666,7 +666,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Max dose vitamin C for titanium immunity.",
         "benefits": "Harnesses camu-camu berries for peak wellness.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -679,7 +679,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/camu_camu_titan.webp",
         "icon": "vaso"
     },
@@ -691,7 +691,7 @@ export const smoothies = [
         "color": "purple",
         "description": "Dream deeper and wake up sharper.",
         "benefits": "Reishi mushrooms paired with melatonin-rich cherries.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -704,7 +704,7 @@ export const smoothies = [
         "steps": "Blend 1/2 cup of tart cherries and 1/2 cup of blueberries with 1/2 teaspoon of reishi mushroom powder. Add 3/4 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/cherry_reishi_dream.webp",
         "icon": "vaso"
     },
@@ -716,7 +716,7 @@ export const smoothies = [
         "color": "amber",
         "description": "92 of the 102 minerals your body needs.",
         "benefits": "Sea moss and bladderwrack mineral infusion.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -729,7 +729,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/deep_sea_mineral.webp",
         "icon": "vaso"
     },
@@ -739,9 +739,9 @@ export const smoothies = [
         "title": "Silk Road Belly",
         "teaser": "The enzyme powerhouse",
         "color": "amber",
-        "description": "Papain enzymes for instant relief.",
-        "benefits": "Supports a clean and healthy gut microbiome.",
-        "healthTags": [
+        "description": "Padiscomfort enzymes for instant relief.",
+        "benefits": "Supports a clean and balanced gut microbiome.",
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -754,7 +754,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/digestive_star.webp",
         "icon": "vaso"
     },
@@ -765,8 +765,8 @@ export const smoothies = [
         "teaser": "Anthocyanin surge",
         "color": "amber",
         "description": "Electric energy from black goji berries.",
-        "benefits": "Massive antioxidant protection with a violet hue.",
-        "healthTags": [
+        "benefits": "Massive antioxidant support with a violet hue.",
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -779,7 +779,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/electric_violet.webp",
         "icon": "vaso"
     },
@@ -791,7 +791,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Balanced energy for a centered mind.",
         "benefits": "Supports vision and long-term vitality.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -804,7 +804,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/goji_zen.webp",
         "icon": "vaso"
     },
@@ -814,9 +814,9 @@ export const smoothies = [
         "title": "Golden Shield",
         "teaser": "The turmeric barricade",
         "color": "amber",
-        "description": "Daily protection against inflammation.",
+        "description": "Daily support against body stress.",
         "benefits": "Activated curcumin for maximum bio-availability.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -829,7 +829,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/golden_shield.webp",
         "icon": "vaso"
     },
@@ -841,7 +841,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Calm focus for high-stakes days.",
         "benefits": "Caffeine without the jitters.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -854,7 +854,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Brain & Memory",
+        "benefit": "Focus & Clarity",
         "img": "/images/smoothies/green_matcha_surge.webp",
         "icon": "vaso"
     },
@@ -862,11 +862,11 @@ export const smoothies = [
         "id": "heavy_metal_cleanse",
         "name": "Iron Exile",
         "title": "Iron Exile",
-        "teaser": "Systemic purification",
+        "teaser": "Systemic daily reset",
         "color": "amber",
-        "description": "Purge heavy metals with chlorella and cilantro.",
-        "benefits": "Deep cellular detox for a cleaner system.",
-        "healthTags": [
+        "description": "Support mineral balance with chlorella and cilantro.",
+        "benefits": "Deep cellular clean nutrition for a cleaner system.",
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -880,7 +880,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/heavy_metal_cleanse.webp",
         "icon": "vaso"
     },
@@ -892,7 +892,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Shilajit energy for peak performance.",
         "benefits": "Mineralization and test-support in every drop.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -906,7 +906,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/himalayan_resin.webp",
         "icon": "vaso"
     },
@@ -918,7 +918,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Sustained fuel for the long haul.",
         "benefits": "High fiber and complex tropical nutrients.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -931,19 +931,19 @@ export const smoothies = [
         "steps": "Blend 1 cup of ripe jackfruit chunks with 1/2 cup of fresh coconut flesh and 1 tablespoon of ground flaxseeds. Add 3/4 cup of coconut water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/jackfruit_fuel.webp",
         "icon": "vaso"
     },
     {
         "id": "kiwi_cleanse",
-        "name": "Emerald Flush",
-        "title": "Emerald Flush",
+        "name": "Emerald Refresh",
+        "title": "Emerald Refresh",
         "teaser": "Fiber-sweep gut reset",
         "color": "amber",
         "description": "Clean your system with actinidin enzymes.",
         "benefits": "Regularity and light gut feeling.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -956,7 +956,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/kiwi_cleanse.webp",
         "icon": "vaso"
     },
@@ -966,9 +966,9 @@ export const smoothies = [
         "title": "Inca Gold",
         "teaser": "Low-glycemic caramel energy",
         "color": "amber",
-        "description": "Stable blood sugar, high energy.",
+        "description": "Stable glucose balance, high energy.",
         "benefits": "The 'Gold of the Incas' for daily power.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -981,7 +981,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/lucuma_power.webp",
         "icon": "vaso"
     },
@@ -993,7 +993,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Pre-historic digestive strength.",
         "benefits": "High-fiber fruits for a heavy digestive sweep.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1006,7 +1006,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/mesozoic_fiber.webp",
         "icon": "vaso"
     },
@@ -1014,11 +1014,11 @@ export const smoothies = [
         "id": "omega_7_radiance",
         "name": "Northern Light",
         "title": "Northern Light",
-        "teaser": "Mucosal and skin health",
+        "teaser": "Mucosal and skin wellness",
         "color": "amber",
         "description": "Deep hydration with sea buckthorn.",
         "benefits": "Rare fatty acids for a luminous glow.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1032,7 +1032,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/omega_7_radiance.webp",
         "icon": "vaso"
     },
@@ -1040,11 +1040,11 @@ export const smoothies = [
         "id": "papaya_digestive",
         "name": "Mayan Dawn",
         "title": "Mayan Dawn",
-        "teaser": "Proteolytic enzyme boost",
+        "teaser": "Proteolytic enzyme support",
         "color": "amber",
         "description": "The ultimate post-meal reset.",
         "benefits": "Papaya and lime for rapid protein breakdown.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1057,7 +1057,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/papaya_digestive.webp",
         "icon": "vaso"
     },
@@ -1067,9 +1067,9 @@ export const smoothies = [
         "title": "Desert Prophet",
         "teaser": "Cactus-powered gut relief",
         "color": "amber",
-        "description": "Soothe inflammation with nopal fibers.",
+        "description": "Soothe body stress with nopal fibers.",
         "benefits": "Deep hydration for intestinal walls.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1082,7 +1082,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/prickly_gut_reset.webp",
         "icon": "vaso"
     },
@@ -1090,11 +1090,11 @@ export const smoothies = [
         "id": "saffron_sun",
         "name": "Saffron Sun",
         "title": "Saffron Sun",
-        "teaser": "Dopamine-boosting nectar",
+        "teaser": "Dopamine-supporting nectar",
         "color": "amber",
         "description": "Lift your mood with ancient saffron.",
         "benefits": "Mental well-being and emotional balance.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1107,7 +1107,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/saffron_sun.webp",
         "icon": "vaso"
     },
@@ -1118,8 +1118,8 @@ export const smoothies = [
         "teaser": "Hormonal harmony",
         "color": "amber",
         "description": "Adaptogens for female hormonal balance.",
-        "benefits": "Supports reproductive health and radiance.",
-        "healthTags": [
+        "benefits": "Supports reproductive wellness and radiance.",
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1133,7 +1133,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/shatavari_bloom.webp",
         "icon": "vaso"
     },
@@ -1145,7 +1145,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Unique tropical micronutrients for immunity.",
         "benefits": "High zinc-profile defense system.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1158,7 +1158,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/star_defense.webp",
         "icon": "vaso"
     },
@@ -1168,9 +1168,9 @@ export const smoothies = [
         "title": "Telomere Tonic",
         "teaser": "Cellular longevity fuel",
         "color": "amber",
-        "description": "DNA protection with astragalus and berries.",
+        "description": "DNA support with astragalus and berries.",
         "benefits": "Slow down the biological clock.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1183,7 +1183,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/telomere_tonic.webp",
         "icon": "vaso"
     },
@@ -1195,7 +1195,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Pearl powder and tremella mushroom glow.",
         "benefits": "Maximum hydration and cellular repair.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1209,7 +1209,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/the_empress_glow.webp",
         "icon": "vaso"
     },
@@ -1221,7 +1221,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Schisandra berries for athletic output.",
         "benefits": "Multi-organ support and focused stamina.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1235,19 +1235,19 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/the_five_flavour_runner.webp",
         "icon": "vaso"
     },
     {
-        "id": "the_fluid_flush",
+        "id": "the_fluid_refresh",
         "name": "River of the Gods",
         "title": "River of the Gods",
-        "teaser": "Kidney and lymph detox",
+        "teaser": "Kidney and lymph clean nutrition",
         "color": "amber",
-        "description": "De-puff and detoxify with dandelion and celery.",
-        "benefits": "Flush excess water and toxins safely.",
-        "healthTags": [
+        "description": "Light daily refresh with dandelion and celery.",
+        "benefits": "Refresh excess water and unwanted compounds safely.",
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1261,8 +1261,8 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
-        "img": "/images/smoothies/the_fluid_flush.webp",
+        "benefit": "Antioxidant Support",
+        "img": "/images/smoothies/the_fluid_refresh.webp",
         "icon": "vaso"
     },
     {
@@ -1273,7 +1273,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Immunity build with astragalus and ginger.",
         "benefits": "Ancient herbs for modern environmental defense.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1286,7 +1286,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/the_great_wall.webp",
         "icon": "vaso"
     },
@@ -1298,7 +1298,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Dewy skin from the inside out.",
         "benefits": "Tremella mushroom for 500x water retention.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1312,7 +1312,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/tremella_dew.webp",
         "icon": "vaso"
     },
@@ -1324,7 +1324,7 @@ export const smoothies = [
         "color": "amber",
         "description": "MCT fuel for the warrior mind.",
         "benefits": "Sharp focus with cacao and haksap berries.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1337,7 +1337,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Brain & Memory",
+        "benefit": "Focus & Clarity",
         "img": "/images/smoothies/viking_focus.webp",
         "icon": "vaso"
     },
@@ -1349,7 +1349,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Pearl powder for skin and nerves.",
         "benefits": "Indulgent calm with a lychee-vanilla finish.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
             "Energy & Vitality"
         ],
@@ -1362,7 +1362,7 @@ export const smoothies = [
         "steps": "Blend all ingredients until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/white_pearl_zen.webp",
         "icon": "vaso"
     },
@@ -1373,9 +1373,9 @@ export const smoothies = [
         "teaser": "Ancient viral defense in a glass",
         "color": "purple",
         "description": "Ancient viral defense in a glass.",
-        "benefits": "Elderberry's potent antiviral compounds block viral replication while clove and apple deliver immune-boosting antioxidants.",
-        "healthTags": [
-            "Immunity Boost",
+        "benefits": "Elderberry's potent seasonal-support compounds block seasonal stress activity while clove and apple deliver natural-defense-supporting antioxidants.",
+        "wellnessTags": [
+            "Natural Defenses",
             "Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1387,7 +1387,7 @@ export const smoothies = [
         "steps": "Blend 1/2 cup of elderberry syrup with 1 whole apple and a pinch of ground clove. Add 1/2 cup of water and blend on high for 45 seconds until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/elderberry_shield.webp",
         "icon": "vaso"
     },
@@ -1399,8 +1399,8 @@ export const smoothies = [
         "color": "orange",
         "description": "Tropical vitamin C surge.",
         "benefits": "Guava and acerola deliver a massive vitamin C hit while orange provides flavonoids that amplify immune cell activity.",
-        "healthTags": [
-            "Immunity Boost",
+        "wellnessTags": [
+            "Natural Defenses",
             "Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1412,7 +1412,7 @@ export const smoothies = [
         "steps": "Blend 1 whole guava with 1 peeled orange and 1/4 cup of fresh acerola cherry pulp. Add 1/2 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/tropical_immunity.webp",
         "icon": "vaso"
     },
@@ -1424,8 +1424,8 @@ export const smoothies = [
         "color": "red",
         "description": "Berry-powered immune fortress.",
         "benefits": "A concentrated mix of wild berries delivers anthocyanins and extreme Vitamin C from camu camu for rapid immune response.",
-        "healthTags": [
-            "Immunity Boost",
+        "wellnessTags": [
+            "Natural Defenses",
             "Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1436,7 +1436,7 @@ export const smoothies = [
         "steps": "Blend 1 cup of mixed frozen berries with 1 teaspoon of camu camu powder. Add 3/4 cup of water and blend on high for 60 seconds until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/berry_immune.webp",
         "icon": "vaso"
     },
@@ -1444,12 +1444,12 @@ export const smoothies = [
         "id": "soursop_guardian",
         "name": "Graviola God",
         "title": "Graviola God",
-        "teaser": "Graviola cellular protection",
+        "teaser": "Graviola cellular support",
         "color": "green",
-        "description": "Graviola cellular protection.",
+        "description": "Graviola cellular support.",
         "benefits": "Soursop and graviola are legendary for their powerful acetogenins that support cellular defense and immune resilience.",
-        "healthTags": [
-            "Immunity Boost",
+        "wellnessTags": [
+            "Natural Defenses",
             "Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1461,7 +1461,7 @@ export const smoothies = [
         "steps": "Blend 1 cup of soursop pulp with 2 tablespoons of graviola extract and 1 whole sweet apple. Add 1/2 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/soursop_guardian.webp",
         "icon": "vaso"
     },
@@ -1473,7 +1473,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Tropical endurance fuel.",
         "benefits": "Coconut provides rapid medium-chain fatty acids while maca and pineapple drive sustained physical energy and recovery.",
-        "healthTags": [
+        "wellnessTags": [
             "Energy & Vitality",
             "Wellness"
         ],
@@ -1497,9 +1497,9 @@ export const smoothies = [
         "teaser": "Tropical stress relief",
         "color": "purple",
         "description": "Tropical stress relief.",
-        "benefits": "Passion fruit naturally reduces anxiety while magnesium relaxes the nervous system for deep, effortless calm.",
-        "healthTags": [
-            "Stress Relief & Calm",
+        "benefits": "Passion fruit naturally supports stress tension while magnesium relaxes the nervous system for deep, effortless calm.",
+        "wellnessTags": [
+            "Calm & Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1510,7 +1510,7 @@ export const smoothies = [
         "steps": "Blend the pulp of 3 fresh passion fruits with 1 measuring scoop of ionic magnesium supplement. Add 1 cup of cold water and blend on high for 45 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Stress Relief & Calm",
+        "benefit": "Calm & Balance",
         "img": "/images/smoothies/tropical_calm.webp",
         "icon": "vaso"
     },
@@ -1522,7 +1522,7 @@ export const smoothies = [
         "color": "purple",
         "description": "Nature's nicotine — clean and plant-based.",
         "benefits": "Eggplant and cauliflower are among the highest natural plant sources of nicotine, supporting acetylcholine production for sharper cognition, focus, and nervous system balance — without the addiction or chemicals of tobacco.",
-        "healthTags": [
+        "wellnessTags": [
             "Energy & Vitality",
             "Wellness"
         ],
@@ -1535,7 +1535,7 @@ export const smoothies = [
         "steps": "Steam 1/2 cup of eggplant and 1/2 cup of cauliflower lightly, then cool. Blend with 1 ripe pear and 3/4 cup of cold water. Blend on high for 90 seconds until completely smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Brain & Memory",
+        "benefit": "Focus & Clarity",
         "img": "/images/smoothies/nightshade_pulse.webp",
         "icon": "vaso"
     },
@@ -1546,9 +1546,9 @@ export const smoothies = [
         "teaser": "Double adaptogen stress shield",
         "color": "purple",
         "description": "Double adaptogen stress shield.",
-        "benefits": "Combines ashwagandha and reishi — two of the most powerful stress-regulating adaptogens — to deeply lower cortisol, calm the nervous system, and build long-term resilience to daily stress.",
-        "healthTags": [
-            "Stress Relief & Calm",
+        "benefits": "Combines ashwagandha and reishi — two of the most powerful stress-regulating adaptogens — to deeply support cortisol, calm the nervous system, and build long-term resilience to daily stress.",
+        "wellnessTags": [
+            "Calm & Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Adaptogens",
@@ -1560,7 +1560,7 @@ export const smoothies = [
         "steps": "Add 1/2 teaspoon of reishi mushroom powder and 1 teaspoon of ashwagandha root powder to 1.5 cups of cold almond milk. Blend on high for 60 seconds until smooth and creamy.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Stress Relief & Calm",
+        "benefit": "Calm & Balance",
         "img": "/images/smoothies/ashwaganshi.webp",
         "icon": "vaso"
     },
@@ -1572,7 +1572,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Raw chocolate mood lift.",
         "benefits": "Raw cacao floods the brain with theobromine and phenylethylamine, triggering a natural mood elevation and sustained energy without the caffeine crash.",
-        "healthTags": [
+        "wellnessTags": [
             "Energy & Vitality",
             "Wellness"
         ],
@@ -1596,9 +1596,9 @@ export const smoothies = [
         "teaser": "The miracle tree in a glass",
         "color": "green",
         "description": "The miracle tree in a glass.",
-        "benefits": "Moringa contains 92 nutrients and 46 antioxidants, supporting cellular repair, detoxification, and sustained daily vitality.",
-        "healthTags": [
-            "Detox & Cleansing",
+        "benefits": "Moringa contains 92 nutrients and 46 antioxidants, supporting cellular repair, clean nutrition support, and sustained daily vitality.",
+        "wellnessTags": [
+            "Clean Nutrition",
             "Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1610,7 +1610,7 @@ export const smoothies = [
         "steps": "Blend 1 teaspoon of moringa leaf powder with 1 cup of frozen mango chunks and 1 cup of coconut water. Blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Detox & Cleansing",
+        "benefit": "Clean Nutrition",
         "img": "/images/smoothies/moringa_green.webp",
         "icon": "vaso"
     },
@@ -1621,10 +1621,10 @@ export const smoothies = [
         "teaser": "King of mushrooms defense",
         "color": "amber",
         "description": "King of mushrooms defense.",
-        "benefits": "Chaga contains the highest ORAC antioxidant score of any food on earth, neutralizing free radicals and fortifying immune defenses at a cellular level.",
-        "healthTags": [
-            "Immunity Boost",
-            "Antioxidant Power"
+        "benefits": "Chaga contains the highest ORAC antioxidant score of any food on earth, neutralizing free radicals and fortifying natural defensess at a cellular level.",
+        "wellnessTags": [
+            "Natural Defenses",
+            "Antioxidant Support"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -1635,7 +1635,7 @@ export const smoothies = [
         "steps": "Brew 1 teaspoon of chaga powder in warm water, let cool. Blend with 1 cup of frozen blueberries and 1 cup of oat milk for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/chaga_shield.webp",
         "icon": "vaso"
     },
@@ -1646,9 +1646,9 @@ export const smoothies = [
         "teaser": "Wheatgrass daily reset",
         "color": "green",
         "description": "Wheatgrass daily reset.",
-        "benefits": "Wheatgrass delivers chlorophyll directly into the bloodstream, alkalizing the body, detoxifying the liver, and providing a rapid energy boost.",
-        "healthTags": [
-            "Detox & Cleansing",
+        "benefits": "Wheatgrass delivers chlorophyll directly into the circulatory flow, alkalizing the body, clean-nutrition the liver, and providing a rapid energy support.",
+        "wellnessTags": [
+            "Clean Nutrition",
             "Energy & Vitality"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1660,7 +1660,7 @@ export const smoothies = [
         "steps": "Blend 1 teaspoon of wheatgrass powder with 1 whole apple and the juice of half a lemon. Add 3/4 cup of water and blend on high for 45 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Detox & Cleansing",
+        "benefit": "Clean Nutrition",
         "img": "/images/smoothies/green_shot.webp",
         "icon": "vaso"
     },
@@ -1672,7 +1672,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Complete plant protein blend.",
         "benefits": "Hemp seeds are one of the only plant sources with all 9 essential amino acids, delivering complete protein alongside Omega-3 and Omega-6 in perfect ratio.",
-        "healthTags": [
+        "wellnessTags": [
             "Energy & Vitality",
             "Wellness"
         ],
@@ -1697,8 +1697,8 @@ export const smoothies = [
         "color": "amber",
         "description": "Ancient warrior endurance fuel.",
         "benefits": "Chia seeds expand to 10x their size in the stomach, slowing digestion and delivering sustained hydration, fiber, and Omega-3s for hours of energy.",
-        "healthTags": [
-            "Digestion & Gut Health",
+        "wellnessTags": [
+            "Digestive Balance",
             "Energy & Vitality"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1721,10 +1721,10 @@ export const smoothies = [
         "teaser": "Warm sleep ritual in a glass",
         "color": "purple",
         "description": "Warm sleep ritual in a glass.",
-        "benefits": "Chamomile binds to GABA receptors to calm the nervous system while nutmeg contains myristicin which deepens sleep quality and reduces night waking.",
-        "healthTags": [
-            "Sleep & Recovery",
-            "Stress Relief & Calm"
+        "benefits": "Chamomile binds to GABA receptors to calm the nervous system while nutmeg contains myristicin which deepens sleep quality and supports night waking.",
+        "wellnessTags": [
+            "Rest & Renewal",
+            "Calm & Balance"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -1736,7 +1736,7 @@ export const smoothies = [
         "steps": "Steep chamomile tea in warm oat milk for 5 minutes, then cool. Blend with 1 ripe banana and a pinch of nutmeg for 45 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Sleep & Recovery",
+        "benefit": "Rest & Renewal",
         "img": "/images/smoothies/dream_dust.webp",
         "icon": "vaso"
     },
@@ -1747,10 +1747,10 @@ export const smoothies = [
         "teaser": "Thermogenic metabolism igniter",
         "color": "red",
         "description": "Thermogenic metabolism igniter.",
-        "benefits": "Cayenne's capsaicin activates thermogenesis to burn fat while ginger boosts digestive fire and pineapple bromelain accelerates nutrient absorption.",
-        "healthTags": [
+        "benefits": "Cayenne's capsaicin activates thermogenesis to burn fat while ginger supports digestive fire and pineapple bromelain accelerates nutrient absorption.",
+        "wellnessTags": [
             "Energy & Vitality",
-            "Detox & Cleansing"
+            "Clean Nutrition"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -1769,11 +1769,11 @@ export const smoothies = [
         "id": "cinnamon_butter",
         "name": "Spice Road",
         "title": "Spice Road",
-        "teaser": "Blood sugar balance and warmth",
+        "teaser": "Glucose balance and warmth",
         "color": "amber",
-        "description": "Blood sugar balance and warmth.",
-        "benefits": "Cinnamon's cinnamaldehyde mimics insulin to stabilize blood sugar while almond butter provides healthy fats that slow glucose absorption naturally.",
-        "healthTags": [
+        "description": "Glucose balance and warmth.",
+        "benefits": "Cinnamon's cinnamaldehyde mimics insulin to stabilize glucose balance while almond butter provides balanced fats that slow glucose absorption naturally.",
+        "wellnessTags": [
             "Energy & Vitality",
             "Wellness"
         ],
@@ -1791,15 +1791,15 @@ export const smoothies = [
         "icon": "vaso"
     },
     {
-        "id": "amla_boost",
+        "id": "amla_support",
         "name": "Vedic Sun",
         "title": "Vedic Sun",
         "teaser": "20x more Vitamin C than an orange",
         "color": "green",
         "description": "20x more Vitamin C than an orange.",
         "benefits": "Amla delivers one of the highest natural Vitamin C concentrations on earth, with tannins that keep it stable and bioavailable unlike any other fruit.",
-        "healthTags": [
-            "Immunity Boost",
+        "wellnessTags": [
+            "Natural Defenses",
             "Skin Glow & Beauty"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1811,8 +1811,8 @@ export const smoothies = [
         "steps": "Blend 2 tablespoons of fresh amla pulp with 1 thumb of ginger and 1 teaspoon of raw honey. Add 1 cup of water and blend on high for 45 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
-        "img": "/images/smoothies/amla_boost.webp",
+        "benefit": "Natural Defenses",
+        "img": "/images/smoothies/amla_support.webp",
         "icon": "vaso"
     },
     {
@@ -1823,7 +1823,7 @@ export const smoothies = [
         "color": "amber",
         "description": "Brazil's most powerful superfruit.",
         "benefits": "Cupuacu absorbs water at 3.5x its weight keeping cells deeply hydrated, while its unique theacrine compound provides long-lasting energy without jitters.",
-        "healthTags": [
+        "wellnessTags": [
             "Energy & Vitality",
             "Skin Glow & Beauty"
         ],
@@ -1847,9 +1847,9 @@ export const smoothies = [
         "teaser": "Triple dark berry antioxidant hit",
         "color": "purple",
         "description": "Triple dark berry antioxidant hit.",
-        "benefits": "Bilberry, blackcurrant and red currant combine three of the most anthocyanin-dense berries on earth for maximum vision protection and cellular defense.",
-        "healthTags": [
-            "Antioxidant Power",
+        "benefits": "Bilberry, blackcurrant and red currant combine three of the most anthocyanin-dense berries on earth for maximum vision support and cellular defense.",
+        "wellnessTags": [
+            "Antioxidant Support",
             "Skin Glow & Beauty"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1861,7 +1861,7 @@ export const smoothies = [
         "steps": "Blend 1/3 cup each of bilberries, blackcurrants, and red currants. Add 1 cup of water and blend on high for 60 seconds until smooth.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/purple_berry_blast.webp",
         "icon": "vaso"
     },
@@ -1869,13 +1869,13 @@ export const smoothies = [
         "id": "ruby_berry",
         "name": "Ruby Berry",
         "title": "Ruby Berry",
-        "teaser": "Tart berry immunity boost",
+        "teaser": "Tart berry immunity support",
         "color": "red",
-        "description": "Tart berry immunity boost.",
-        "benefits": "Raspberries and cranberry are rich in ellagic acid and proanthocyanidins that fight infections, reduce inflammation and protect the urinary tract.",
-        "healthTags": [
-            "Immunity Boost",
-            "Antioxidant Power"
+        "description": "Tart berry immunity support.",
+        "benefits": "Raspberries and cranberry are rich in ellagic acid and proanthocyanidins that fight seasonal challenges, support body stress and support the urinary tract.",
+        "wellnessTags": [
+            "Natural Defenses",
+            "Antioxidant Support"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -1886,7 +1886,7 @@ export const smoothies = [
         "steps": "Blend 1/2 cup of raspberries with 1/4 cup of cranberries and 1 sweet apple. Add 3/4 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/ruby_berry.webp",
         "icon": "vaso"
     },
@@ -1898,9 +1898,9 @@ export const smoothies = [
         "color": "amber",
         "description": "Asian longevity fruits.",
         "benefits": "Longan nourishes the heart and calms the mind in TCM while loquat soothes the respiratory system and delivers powerful beta-carotene.",
-        "healthTags": [
+        "wellnessTags": [
             "Wellness",
-            "Immunity Boost"
+            "Natural Defenses"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -1911,7 +1911,7 @@ export const smoothies = [
         "steps": "Peel and seed 6 longans and 3 loquats. Blend with 1 ripe pear and 3/4 cup of water on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/longan_loquat.webp",
         "icon": "vaso"
     },
@@ -1922,9 +1922,9 @@ export const smoothies = [
         "teaser": "Rare exotic immunity fusion",
         "color": "green",
         "description": "Rare exotic immunity fusion.",
-        "benefits": "Feijoa's unique iodine content supports thyroid function while physalis withanolides boost immune response and protect against oxidative stress.",
-        "healthTags": [
-            "Immunity Boost",
+        "benefits": "Feijoa's unique iodine content supports thyroid function while physalis withanolides support immune response and support against oxidative stress.",
+        "wellnessTags": [
+            "Natural Defenses",
             "Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -1936,7 +1936,7 @@ export const smoothies = [
         "steps": "Scoop the flesh of 4 feijoas and blend with 8 physalis berries and the juice of 1 lime. Add 3/4 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/feijoa_physalis.webp",
         "icon": "vaso"
     },
@@ -1947,10 +1947,10 @@ export const smoothies = [
         "teaser": "Three rare citruses one punch",
         "color": "yellow",
         "description": "Three rare citruses one punch.",
-        "benefits": "Pomelo, grapefruit and yuzu combine unique flavonoids naringenin and hesperidin to reduce cholesterol, boost metabolism and deliver intense Vitamin C.",
-        "healthTags": [
-            "Immunity Boost",
-            "Heart Health"
+        "benefits": "Pomelo, grapefruit and yuzu combine unique flavonoids naringenin and hesperidin to support lipid balance, support metabolism and deliver intense Vitamin C.",
+        "wellnessTags": [
+            "Natural Defenses",
+            "Cardiovascular Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -1961,7 +1961,7 @@ export const smoothies = [
         "steps": "Peel and segment 1/4 pomelo, 1/2 grapefruit, and squeeze in the juice of 1 yuzu. Blend together with 1/2 cup of water on high for 45 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/citrus_trinity.webp",
         "icon": "vaso"
     },
@@ -1972,10 +1972,10 @@ export const smoothies = [
         "teaser": "Dark fruit longevity trio",
         "color": "red",
         "description": "Dark fruit longevity trio.",
-        "benefits": "Cherries, mulberry and jujube are revered in traditional medicine for longevity, liver protection, and their powerful anthocyanin content.",
-        "healthTags": [
-            "Antioxidant Power",
-            "Sleep & Recovery"
+        "benefits": "Cherries, mulberry and jujube are revered in traditional nutrition for longevity, liver support, and their powerful anthocyanin content.",
+        "wellnessTags": [
+            "Antioxidant Support",
+            "Rest & Renewal"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -1986,7 +1986,7 @@ export const smoothies = [
         "steps": "Blend 1/2 cup of pitted cherries with 1/3 cup of mulberries and 4 pitted jujubes. Add 3/4 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/cherry_mulberry.webp",
         "icon": "vaso"
     },
@@ -1997,9 +1997,9 @@ export const smoothies = [
         "teaser": "Tropical starch and enzyme fuel",
         "color": "yellow",
         "description": "Tropical starch and enzyme fuel.",
-        "benefits": "Pawpaw's papain enzymes break down protein and reduce bloating while plantain provides resistant starch that feeds beneficial gut bacteria.",
-        "healthTags": [
-            "Digestion & Gut Health",
+        "benefits": "Pawpaw's padiscomfort enzymes break down protein and support digestive heaviness while plantain provides resistant starch that feeds beneficial gut microbes.",
+        "wellnessTags": [
+            "Digestive Balance",
             "Energy & Vitality"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -2011,7 +2011,7 @@ export const smoothies = [
         "steps": "Blend 1 cup of ripe pawpaw flesh with 1/2 ripe plantain and 1/4 cup of fresh coconut. Add 3/4 cup of coconut water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Digestion & Gut Health",
+        "benefit": "Digestive Balance",
         "img": "/images/smoothies/pawpaw_plantain.webp",
         "icon": "vaso"
     },
@@ -2023,8 +2023,8 @@ export const smoothies = [
         "color": "amber",
         "description": "Earthy root vegetable power.",
         "benefits": "Sweet potato and pumpkin are loaded with beta-carotene that converts to Vitamin A, protecting vision, skin and immune function simultaneously.",
-        "healthTags": [
-            "Immunity Boost",
+        "wellnessTags": [
+            "Natural Defenses",
             "Energy & Vitality"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -2047,9 +2047,9 @@ export const smoothies = [
         "teaser": "Mark Twain's most delicious fruit",
         "color": "green",
         "description": "Mark Twain's most delicious fruit.",
-        "benefits": "Cherimoya contains acetogenins studied for their powerful anti-cancer properties, alongside a rich B-vitamin complex that supports nerve function and energy.",
-        "healthTags": [
-            "Immunity Boost",
+        "benefits": "Cherimoya contains acetogenins studied for their powerful cellular wellness properties, alongside a rich B-vitamin complex that supports nerve function and energy.",
+        "wellnessTags": [
+            "Natural Defenses",
             "Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -2061,7 +2061,7 @@ export const smoothies = [
         "steps": "Scoop the flesh of 1 ripe cherimoya, removing seeds. Blend with the juice of 1 lime and 1 cup of coconut water on high for 45 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/cherimoya_mist.webp",
         "icon": "vaso"
     },
@@ -2073,8 +2073,8 @@ export const smoothies = [
         "color": "amber",
         "description": "Silky Mesoamerican superfruit.",
         "benefits": "Sapodilla and mamey sapote both deliver rare polyphenols that support gut lining integrity, and high levels of Vitamin B6 for serotonin production.",
-        "healthTags": [
-            "Digestion & Gut Health",
+        "wellnessTags": [
+            "Digestive Balance",
             "Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -2086,7 +2086,7 @@ export const smoothies = [
         "steps": "Blend 1/2 cup of sapodilla flesh with 1/2 cup of mamey sapote and 1 ripe banana. Add 3/4 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Digestion & Gut Health",
+        "benefit": "Digestive Balance",
         "img": "/images/smoothies/sapote_silk.webp",
         "icon": "vaso"
     },
@@ -2098,9 +2098,9 @@ export const smoothies = [
         "color": "amber",
         "description": "Ancient digestive tonic.",
         "benefits": "Tamarind is rich in tartaric acid and hydroxy citric acid that stimulate bile production for faster fat digestion and natural liver cleansing.",
-        "healthTags": [
-            "Digestion & Gut Health",
-            "Detox & Cleansing"
+        "wellnessTags": [
+            "Digestive Balance",
+            "Clean Nutrition"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -2111,7 +2111,7 @@ export const smoothies = [
         "steps": "Dissolve 2 tablespoons of tamarind paste in warm water. Blend with 1 cup of frozen mango and 1 thumb of ginger. Add 3/4 cup of water and blend for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Digestion & Gut Health",
+        "benefit": "Digestive Balance",
         "img": "/images/smoothies/tamarind_tang.webp",
         "icon": "vaso"
     },
@@ -2122,10 +2122,10 @@ export const smoothies = [
         "teaser": "Tree tomato antioxidant surge",
         "color": "red",
         "description": "Tree tomato antioxidant surge.",
-        "benefits": "Tamarillo contains chlorogenic acid proven to lower blood sugar and a unique carotenoid profile that protects against macular degeneration.",
-        "healthTags": [
-            "Antioxidant Power",
-            "Heart Health"
+        "benefits": "Tamarillo contains chlorogenic acid proven to support glucose balance and a unique carotenoid profile that supports against age-related vision stress.",
+        "wellnessTags": [
+            "Antioxidant Support",
+            "Cardiovascular Wellness"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -2136,7 +2136,7 @@ export const smoothies = [
         "steps": "Halve 2 tamarillos and scoop the flesh. Blend with 1 peeled orange and 1 thumb of ginger. Add 1/2 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Antioxidant Power",
+        "benefit": "Antioxidant Support",
         "img": "/images/smoothies/tamarillo_fire.webp",
         "icon": "vaso"
     },
@@ -2147,10 +2147,10 @@ export const smoothies = [
         "teaser": "The fruit you eat whole",
         "color": "orange",
         "description": "The fruit you eat whole.",
-        "benefits": "Kumquat skin contains more limonene and hesperidin than the flesh — unique among citrus — making the whole fruit a powerful anti-inflammatory and metabolism booster.",
-        "healthTags": [
-            "Immunity Boost",
-            "Anti-Inflammatory"
+        "benefits": "Kumquat skin contains more limonene and hesperidin than the flesh — unique among citrus — making the whole fruit a powerful body-balancing and metabolism supporter.",
+        "wellnessTags": [
+            "Natural Defenses",
+            "Body Balance"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -2161,7 +2161,7 @@ export const smoothies = [
         "steps": "Blend 6 whole kumquats (unpeeled) with 1 peeled orange and 1/2 teaspoon of turmeric. Add 3/4 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/kumquat_zest.webp",
         "icon": "vaso"
     },
@@ -2173,9 +2173,9 @@ export const smoothies = [
         "color": "green",
         "description": "Polynesian starch energy.",
         "benefits": "Breadfruit is a complete protein source with all essential amino acids, rare in plant foods, alongside high fiber that feeds the gut microbiome for hours.",
-        "healthTags": [
+        "wellnessTags": [
             "Energy & Vitality",
-            "Digestion & Gut Health"
+            "Digestive Balance"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -2197,10 +2197,10 @@ export const smoothies = [
         "teaser": "Forgotten autumn superfruits",
         "color": "amber",
         "description": "Forgotten autumn superfruits.",
-        "benefits": "Quince contains powerful tannins and pectin that heal the gut lining while persimmon's betulinic acid has demonstrated anti-tumor properties in research.",
-        "healthTags": [
-            "Digestion & Gut Health",
-            "Antioxidant Power"
+        "benefits": "Quince contains powerful tannins and pectin that support the gut lining while persimmon's betulinic acid has demonstrated cellular-balance properties in research.",
+        "wellnessTags": [
+            "Digestive Balance",
+            "Antioxidant Support"
         ],
         "synergies": "Superfoods + Fresh Fruits",
         "ingredients": [
@@ -2211,7 +2211,7 @@ export const smoothies = [
         "steps": "Cook 1/2 quince until soft then cool. Blend with the flesh of 1 ripe persimmon and 1 sweet apple. Add 3/4 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Digestion & Gut Health",
+        "benefit": "Digestive Balance",
         "img": "/images/smoothies/quince_persimmon.webp",
         "icon": "vaso"
     },
@@ -2223,8 +2223,8 @@ export const smoothies = [
         "color": "orange",
         "description": "African tree of life.",
         "benefits": "Baobab has 6x the Vitamin C of oranges and more calcium than milk, supporting collagen production, bone density and immune strength simultaneously.",
-        "healthTags": [
-            "Immunity Boost",
+        "wellnessTags": [
+            "Natural Defenses",
             "Energy & Vitality"
         ],
         "synergies": "Superfoods + Fresh Fruits",
@@ -2236,7 +2236,7 @@ export const smoothies = [
         "steps": "Blend 1 tablespoon of baobab powder with 1 cup of frozen mango and the juice of 1 lime. Add 3/4 cup of water and blend on high for 60 seconds.",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/baobab_sun.webp",
         "icon": "vaso"
     },
@@ -2247,8 +2247,8 @@ export const smoothies = [
         "teaser": "King of fruits unleashed",
         "color": "amber",
         "description": "King of fruits unleashed.",
-        "benefits": "Durian is exceptionally rich in B vitamins, copper and tryptophan, making it one of the most complete natural energy and mood-boosting foods available.",
-        "healthTags": [
+        "benefits": "Durian is exceptionally rich in B vitamins, copper and tryptophan, making it one of the most complete natural energy and mood-supporting foods available.",
+        "wellnessTags": [
             "Energy & Vitality",
             "Wellness"
         ],

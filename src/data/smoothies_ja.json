@@ -7,7 +7,7 @@
         "color": "orange",
         "description": "究極のビタミンC要塞。",
         "benefits": "ビタミンCと強力な抗酸化物質を大量に供給します。季節の変わり目の不調を跳ね返し、免疫防御を即座に強化します。",
-        "healthTags": [
+        "wellnessTags": [
             "免疫サポート",
             "ウェルネス"
         ],
@@ -33,7 +33,7 @@
         "color": "orange",
         "description": "自然界最強の免疫シールド。",
         "benefits": "極限レベルのビタミンCを爆発させ、白血球の働きを直接刺激し、外部の脅威から細胞を最大限に保護します。",
-        "healthTags": [
+        "wellnessTags": [
             "免疫サポート",
             "ウェルネス"
         ],
@@ -59,8 +59,8 @@
         "color": "purple",
         "description": "一口ごとに広がる深い落ち着き。",
         "benefits": "コルチゾール値を劇的に下げ、神経系を深くリラックスさせ、日々のストレスや精神的疲労を溶かします。",
-        "healthTags": [
-            "ストレス解消",
+        "wellnessTags": [
+            "落ち着きとバランス",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -85,7 +85,7 @@
         "color": "amber",
         "description": "鋭い集中力とクリアな思考を解き放つ。",
         "benefits": "認知機能を活性化し、記憶力を高め、イライラするクラッシュなしにクリーンで持続的な精神エネルギーを提供します。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
             "ウェルネス"
         ],
@@ -110,7 +110,7 @@
         "color": "amber",
         "description": "心と体のための自然な力。",
         "benefits": "古代の適応促進ルート（アダプトゲン）と複合炭水化物を使用し、肉体的な持久力とスタミナを急速に高め、持続的なパフォーマンスを実現します。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
             "ウェルネス"
         ],
@@ -128,14 +128,14 @@
         "icon": "vaso"
     },
     {
-        "id": "gut_healing_hero",
+        "id": "gut_supporting_hero",
         "name": "インナーテンプル",
         "title": "インナーテンプル",
         "teaser": "内側から腸を癒す",
         "color": "yellow",
         "description": "内側から腸を癒す。",
         "benefits": "デリケートな胃の粘膜を落ち着かせながら、有益なプロバイオティクスと消化酵素を大量に届け、腸内環境（マイクロバイオーム）を修復します。",
-        "healthTags": [
+        "wellnessTags": [
             "消化と腸内環境",
             "ウェルネス"
         ],
@@ -150,19 +150,19 @@
         "tier": "free",
         "isHero": true,
         "benefit": "消化＆腸内環境",
-        "img": "/images/smoothies/gut_healing_hero.webp",
+        "img": "/images/smoothies/gut_supporting_hero.webp",
         "icon": "vaso"
     },
     {
-        "id": "anti_inflammatory_hero",
+        "id": "anti_body-stress_hero",
         "name": "アイスドラゴン",
         "title": "アイスドラゴン",
-        "teaser": "自然の力で炎症と戦う",
+        "teaser": "自然の力で身体压力と戦う",
         "color": "red",
-        "description": "自然の力で炎症と戦う。",
-        "benefits": "分子レベルで炎症経路を阻害し、関節の痛みや全身の腫れを効果的に和らげます。",
-        "healthTags": [
-            "抗炎症",
+        "description": "自然の力で身体压力と戦う。",
+        "benefits": "分子レベルで身体压力経路を阻害し、関節の痛みや全身の腫れを効果的に和らげます。",
+        "wellnessTags": [
+            "身体平衡症",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -174,8 +174,8 @@
         "steps": "新鮮なターメリック小さじ1、親指大の生姜、パイナップルの塊1カップをミキサーに入れます。水1/2カップを加え、滑らかになるまで高速で60秒間ブレンドします。",
         "tier": "free",
         "isHero": true,
-        "benefit": "抗炎症",
-        "img": "/images/smoothies/anti_inflammatory_hero.webp",
+        "benefit": "身体平衡症",
+        "img": "/images/smoothies/anti_body-stress_hero.webp",
         "icon": "vaso"
     },
     {
@@ -186,7 +186,7 @@
         "color": "pink",
         "description": "内側から輝く美しさ。",
         "benefits": "肌の弾力を刺激し、肌の老化と積極的に戦い、目に見えて輝く内面からの美しさをもたらします。",
-        "healthTags": [
+        "wellnessTags": [
             "美肌と美容",
             "ウェルネス"
         ],
@@ -212,8 +212,8 @@
         "color": "indigo",
         "description": "グラス一杯の回復睡眠。",
         "benefits": "メラトニンの生成を自然に高め、深く途切れないレム睡眠と、夜間の強力な筋肉回復を保証します。",
-        "healthTags": [
-            "睡眠と回復",
+        "wellnessTags": [
+            "休息とリニューアル",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -237,8 +237,8 @@
         "color": "purple",
         "description": "最大限の抗酸化保護。",
         "benefits": "広範囲のアントシアニンを体内に溢れさせ、フリーラジカルを中和し、細胞のダメージをその場で食い止めます。",
-        "healthTags": [
-            "抗酸化力",
+        "wellnessTags": [
+            "抗酸化サポート",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -263,8 +263,8 @@
         "color": "purple",
         "description": "アマゾンの抗酸化。フィルターなし。",
         "benefits": "アサイー、生カカオ、バナナからの三重抗酸化サージ——細胞を守り、エネルギーを補給し、純粋な植物パワーで身体を打つ。",
-        "healthTags": [
-            "抗酸化力",
+        "wellnessTags": [
+            "抗酸化サポート",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -276,7 +276,7 @@
         "steps": "冷凍アサイーパック1袋（100g）に生カカオパウダー小さじ1と熟したバナナ1本を加えてブレンド。水1/2カップを加え、高速で45秒間、とろみがつくまで混ぜる。",
         "tier": "free",
         "isHero": false,
-        "benefit": "抗酸化力",
+        "benefit": "抗酸化サポート",
         "img": "/images/smoothies/smooth_savage.webp",
         "icon": "vaso"
     },
@@ -288,7 +288,7 @@
         "color": "yellow",
         "description": "心を落ち着かせる消化サポート。",
         "benefits": "吐き気を即座に止め、消化管を優しく温める、信じられないほど心地よいブレンドです。",
-        "healthTags": [
+        "wellnessTags": [
             "消化と腸内環境",
             "ウェルネス"
         ],
@@ -313,8 +313,8 @@
         "color": "purple",
         "description": "ストレスを溶かすアダプトゲンブレンド。",
         "benefits": "日々の不安を大幅に和らげ、ストレスの引き金に対する体の長期的な回復力を構築します。",
-        "healthTags": [
-            "ストレス解消",
+        "wellnessTags": [
+            "落ち着きとバランス",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -331,15 +331,15 @@
         "icon": "vaso"
     },
     {
-        "id": "golden_anti_inflammatory",
+        "id": "golden_anti_body-stress",
         "name": "ゴールデンカーン",
         "title": "ゴールデンカーン",
-        "teaser": "黄金の抗炎症エリクサー",
+        "teaser": "黄金の身体平衡症エリクサー",
         "color": "red",
-        "description": "黄金の抗炎症エリクサー。",
-        "benefits": "吸収性の高い天然の抗炎症成分を体に浸透させるために特別に設計された黄金のエリクサーです。",
-        "healthTags": [
-            "抗炎症",
+        "description": "黄金の身体平衡症エリクサー。",
+        "benefits": "吸収性の高い天然の身体平衡症成分を体に浸透させるために特別に設計された黄金のエリクサーです。",
+        "wellnessTags": [
+            "身体平衡症",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -351,8 +351,8 @@
         "steps": "ターメリックパウダー小さじ1、ひとつまみの黒胡椒、新鮮なココナッツの果肉1/2カップをブレンドします。ココナッツウォーター1カップを加え、高速で60秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "抗炎症",
-        "img": "/images/smoothies/golden_anti_inflammatory.webp",
+        "benefit": "身体平衡症",
+        "img": "/images/smoothies/golden_anti_body-stress.webp",
         "icon": "vaso"
     },
     {
@@ -363,8 +363,8 @@
         "color": "red",
         "description": "回復と再生のブレンド。",
         "benefits": "一酸化窒素の生成を促進して血流を劇的に改善し、筋肉の回復を加速させます。",
-        "healthTags": [
-            "抗炎症",
+        "wellnessTags": [
+            "身体平衡症",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -376,7 +376,7 @@
         "steps": "タルトチェリー1/2カップ、生のビーツの塊1/2カップ、セロリ2本をブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "抗炎症",
+        "benefit": "身体平衡症",
         "img": "/images/smoothies/cherry_beet_recovery.webp",
         "icon": "vaso"
     },
@@ -384,12 +384,12 @@
         "id": "mangosteen_relief",
         "name": "クイーンオブシャム",
         "title": "クイーンオブシャム",
-        "teaser": "マンゴスチンの抗炎症パワー",
+        "teaser": "マンゴスチンの身体平衡症パワー",
         "color": "red",
-        "description": "マンゴスチンの抗炎症パワー。",
-        "benefits": "慢性の細胞炎症と酸化ストレスを減らすことが直接証明されている強力なキサントンを利用します。",
-        "healthTags": [
-            "抗炎症",
+        "description": "マンゴスチンの身体平衡症パワー。",
+        "benefits": "慢性の細胞身体压力と酸化ストレスを減らすことが直接証明されている強力なキサントンを利用します。",
+        "wellnessTags": [
+            "身体平衡症",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -401,7 +401,7 @@
         "steps": "マンゴスチン2個の果肉を取り出し、熟した桃1個、熟した梨1個とブレンドします。水1/2カップを加え、高速で60秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "抗炎症",
+        "benefit": "身体平衡症",
         "img": "/images/smoothies/mangosteen_relief.webp",
         "icon": "vaso"
     },
@@ -413,7 +413,7 @@
         "color": "pink",
         "description": "スーパーベリーの美の燃料。",
         "benefits": "シワを積極的に防ぎ、肌の輝きを高める抗酸化物質の濃縮液を提供します。",
-        "healthTags": [
+        "wellnessTags": [
             "美肌と美容",
             "ウェルネス"
         ],
@@ -439,7 +439,7 @@
         "color": "pink",
         "description": "オメガ豊富な肌の輝き。",
         "benefits": "輝くような深い潤いのある肌を保つために不可欠な、非常に希少なオメガ7脂肪酸を提供します。",
-        "healthTags": [
+        "wellnessTags": [
             "美肌と美容",
             "ウェルネス"
         ],
@@ -465,7 +465,7 @@
         "color": "pink",
         "description": "内側からの深い紫の輝き。",
         "benefits": "すべての果物の中で最も高い抗酸化スコアを持ち、紫外線や汚染のダメージから肌を守ります。",
-        "healthTags": [
+        "wellnessTags": [
             "美肌と美容",
             "ウェルネス"
         ],
@@ -491,8 +491,8 @@
         "color": "red",
         "description": "毎日の心臓保護。",
         "benefits": "血中脂質プロファイルを効果的に改善し、動脈壁をきれいに保ちります。",
-        "healthTags": [
-            "心臓の健康",
+        "wellnessTags": [
+            "心血管ウェルネス",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -504,7 +504,7 @@
         "steps": "ザクロの種1/2カップと少量のクルミ、ロールドオーツ1/4カップをブレンドします。水1カップを加え、高速で60秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "心臓の健康",
+        "benefit": "心血管ウェルネス",
         "img": "/images/smoothies/heart_protector.webp",
         "icon": "vaso"
     },
@@ -515,9 +515,9 @@
         "teaser": "心臓を愛するベリーブレンド",
         "color": "red",
         "description": "心臓を愛するベリーブレンド。",
-        "benefits": "血管を安全に広げて血圧を調整し、重要なオメガ3脂肪酸を提供します。",
-        "healthTags": [
-            "心臓の健康",
+        "benefits": "血管を安全に広げて心血管バランスを調整し、重要なオメガ3脂肪酸を提供します。",
+        "wellnessTags": [
+            "心血管ウェルネス",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -529,20 +529,20 @@
         "steps": "ザクロの種1/4カップと、生のビーツの塊1/2カップ、ブルーベリー1/2カップをブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "心臓の健康",
+        "benefit": "心血管ウェルネス",
         "img": "/images/smoothies/beet_berry_heart.webp",
         "icon": "vaso"
     },
     {
-        "id": "deep_detox",
+        "id": "deep_cleanse",
         "name": "シャドウクレンズ",
         "title": "シャドウクレンズ",
-        "teaser": "毎日の優しいデトックスサポート",
+        "teaser": "毎日の優しいクリーン栄養サポート",
         "color": "green",
-        "description": "毎日の優しいデトックスサポート。",
-        "benefits": "血流中の重金属に結合し、肝臓が毒素を排出するのを助けます。",
-        "healthTags": [
-            "デトックス",
+        "description": "毎日の優しいクリーン栄養サポート。",
+        "benefits": "血流中の重金属に結合し、肝臓が多余负担を排出するのを助けます。",
+        "wellnessTags": [
+            "クリーン栄養",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ ビタミン",
@@ -554,8 +554,8 @@
         "steps": "Chlorellaパウダー小さじ1とSpirulinaパウダー小さじ1を、新鮮なレモン1個分の果汁と混ぜます。冷水1カップを加え、30秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "デトックス＆クレンズ",
-        "img": "/images/smoothies/deep_detox.webp",
+        "benefit": "クリーン栄養＆クレンズ",
+        "img": "/images/smoothies/deep_cleanse.webp",
         "icon": "vaso"
     },
     {
@@ -566,7 +566,7 @@
         "color": "green",
         "description": "一日を乗り切るためのエネルギーと必須栄養素が詰まっています。",
         "benefits": "スムースサベージのメリットを最大限に引き出す相乗効果のあるブレンド。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -591,7 +591,7 @@
         "color": "amber",
         "description": "ハイパフォーマンスな生活のための自然な力。",
         "benefits": "松の花粉と熱帯のミネラルを使用して活力を高めます。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -612,11 +612,11 @@
         "id": "anti_viral_star",
         "name": "コリアンスター",
         "title": "コリアンスター",
-        "teaser": "スターフルーツの抗ウイルス防御",
+        "teaser": "スターフルーツの季節サポート防御",
         "color": "amber",
         "description": "トロピカルなひねりを加えた免疫サポート。",
         "benefits": "高いビタミンCとスターフルーツ独自の抗酸化物質。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -634,14 +634,14 @@
         "icon": "vaso"
     },
     {
-        "id": "black_seed_cure",
-        "name": "ブラックシードキュア",
-        "title": "ブラックシードキュア",
+        "id": "black_seed_wellness ritual",
+        "name": "ブラックシードリチュアル",
+        "title": "ブラックシードリチュアル",
         "teaser": "伝説のウェルネスブースト",
         "color": "amber",
-        "description": "現代生活のための古代の医学。",
+        "description": "現代生活のための古代の营养。",
         "benefits": "システム全体の健康のための強力なブラックシードオイルの利点。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -655,7 +655,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "抗酸化パワー",
-        "img": "/images/smoothies/black_seed_cure.webp",
+        "img": "/images/smoothies/black_seed_wellness ritual.webp",
         "icon": "vaso"
     },
     {
@@ -666,7 +666,7 @@
         "color": "amber",
         "description": "チタン級の免疫のための最大用量のビタミンC。",
         "benefits": "Camu Camuベリーを活用して最高のウェルネスを実現します。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -691,7 +691,7 @@
         "color": "purple",
         "description": "より深く夢を見て、よりスッキリと目覚めます。",
         "benefits": "Reishiマッシュルームとメラトニン豊富なチェリーの組み合わせ。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -716,7 +716,7 @@
         "color": "amber",
         "description": "体が必要とする102種類のミネラルのうち92種類を含みます。",
         "benefits": "シーモス（海苔）とヒバマタのミネラル注入。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -741,7 +741,7 @@
         "color": "amber",
         "description": "即効性のある安心のためのパパイン酵素。",
         "benefits": "クリーンで健康的な腸内環境（マイクロバイオーム）をサポートします。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -766,7 +766,7 @@
         "color": "amber",
         "description": "ブラックゴジベリーからの電気的なエネルギー。",
         "benefits": "紫色の色合いを持つ強力な抗酸化保護。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -791,7 +791,7 @@
         "color": "amber",
         "description": "集中した心のためのバランスの取れたエネルギー。",
         "benefits": "視力と長期的な活力をサポートします。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -814,9 +814,9 @@
         "title": "ゴールデンシールド",
         "teaser": "ターメリックの防壁",
         "color": "amber",
-        "description": "炎症に対する毎日の保護。",
+        "description": "身体压力に対する毎日の保護。",
         "benefits": "最大の生体利用効率のための活性化クルクミン。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -841,7 +841,7 @@
         "color": "amber",
         "description": "最も過酷な日のための穏やかな集中力。",
         "benefits": "イライラしないカフェイン。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -862,11 +862,11 @@
         "id": "heavy_metal_cleanse",
         "name": "アイアンエグザイル",
         "title": "アイアンエグザイル",
-        "teaser": "深い全身の浄化",
+        "teaser": "深い全身のクリーン栄養",
         "color": "amber",
         "description": "Chlorellaとパクチーで重金属を排出します。",
-        "benefits": "よりクリーンなシステムのための深い細胞デトックス。",
-        "healthTags": [
+        "benefits": "よりクリーンなシステムのための深い細胞クリーン栄養。",
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -892,7 +892,7 @@
         "color": "amber",
         "description": "最大のパフォーマンスのためのShilajitエネルギー。",
         "benefits": "一滴一滴にミネラルとサポートを。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -918,7 +918,7 @@
         "color": "amber",
         "description": "長時間の活動のための持続的な燃料。",
         "benefits": "高食物繊維と複合的なトロピカル栄養素。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -941,9 +941,9 @@
         "title": "エメラルドフラッシュ",
         "teaser": "食物繊維の掃除による腸内リセット",
         "color": "amber",
-        "description": "アクチニジン酵素でシステムを浄化します。",
+        "description": "アクチニジン酵素でシステムをクリーン栄養します。",
         "benefits": "規則正しいお通じと腸の軽快感。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -968,7 +968,7 @@
         "color": "amber",
         "description": "安定した血糖値、高いエネルギー。",
         "benefits": "毎日の活力のための「インカの黄金」。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -993,7 +993,7 @@
         "color": "amber",
         "description": "先史時代の消化の要塞。",
         "benefits": "深い腸内洗浄のための食物繊維が豊富なフルーツ。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1018,7 +1018,7 @@
         "color": "amber",
         "description": "サジーによる深い保湿。",
         "benefits": "輝くような艶のための希少な脂肪酸。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1044,7 +1044,7 @@
         "color": "amber",
         "description": "究極の食後リセット。",
         "benefits": "タンパク質を素早く分解するパパイヤとライム。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1067,9 +1067,9 @@
         "title": "デザートプロフェット",
         "teaser": "サボテンパワーで腸を癒す",
         "color": "amber",
-        "description": "ウチワサボテンの繊維で炎症を鎮めます。",
+        "description": "ウチワサボテンの繊維で身体压力を鎮めます。",
         "benefits": "腸壁の深い水分補給。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1094,7 +1094,7 @@
         "color": "amber",
         "description": "古代のサフランで気分を高めます。",
         "benefits": "精神的なウェルネスと感情のバランス。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1119,7 +1119,7 @@
         "color": "amber",
         "description": "女性のホルモンバランスのためのアダプトゲン。",
         "benefits": "生殖の健康と輝きをサポートします。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1145,7 +1145,7 @@
         "color": "amber",
         "description": "免疫のためのユニークなトロピカル微量栄養素。",
         "benefits": "亜鉛プロファイルが高い防衛システム。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1170,7 +1170,7 @@
         "color": "amber",
         "description": "アストラガルスとベリーによるDNA保護。",
         "benefits": "生体内時計を遅らせます。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1195,7 +1195,7 @@
         "color": "amber",
         "description": "Tremellaマッシュルームと真珠パウダーの輝き。",
         "benefits": "最大の水分補給と細胞の修復。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1221,7 +1221,7 @@
         "color": "amber",
         "description": "アスリートのパフォーマンスのためのSchisandraベリー。",
         "benefits": "多臓器のサポートと集中したスタミナ。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1240,14 +1240,14 @@
         "icon": "vaso"
     },
     {
-        "id": "the_fluid_flush",
+        "id": "the_fluid_refresh",
         "name": "リバー・オブ・ゴッズ",
         "title": "リバー・オブ・ゴッズ",
-        "teaser": "腎臓とリンパのデトックス",
+        "teaser": "腎臓とリンパのクリーン栄養",
         "color": "amber",
-        "description": "タンポポとセロリでむくみを取り、解毒します。",
-        "benefits": "余分な水分と毒素を安全に排出します。",
-        "healthTags": [
+        "description": "タンポポとセロリでむくみを取り、清洁营养します。",
+        "benefits": "余分な水分と多余负担を安全に排出します。",
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1262,7 +1262,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "抗酸化パワー",
-        "img": "/images/smoothies/the_fluid_flush.webp",
+        "img": "/images/smoothies/the_fluid_refresh.webp",
         "icon": "vaso"
     },
     {
@@ -1273,7 +1273,7 @@
         "color": "amber",
         "description": "アストラガルスと生姜による免疫力の構築。",
         "benefits": "現代の環境防御のための古代のハーブ。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1298,7 +1298,7 @@
         "color": "amber",
         "description": "内側から輝く肌へ。",
         "benefits": "自身の重量の500倍の保水力を持つTremellaマッシュルーム。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1324,7 +1324,7 @@
         "color": "amber",
         "description": "戦士の心のためのMCT燃料。",
         "benefits": "カカオとハスカップベリーによる鋭い集中力。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1349,7 +1349,7 @@
         "color": "amber",
         "description": "肌と神経のための真珠パウダー。",
         "benefits": "ライチとバニラの後味を持つ贅沢な落ち着き。",
-        "healthTags": [
+        "wellnessTags": [
             "ウェルネス",
             "エネルギーと活力"
         ],
@@ -1370,11 +1370,11 @@
         "id": "elderberry_shield",
         "name": "ノルディックランパート",
         "title": "ノルディックランパート",
-        "teaser": "グラス一杯の古代の抗ウイルス防御",
+        "teaser": "グラス一杯の古代の季節サポート防御",
         "color": "purple",
-        "description": "グラス一杯の古代の抗ウイルス防御。",
-        "benefits": "エルダーベリーの強力な抗ウイルス成分がウイルスの複製をブロックし、クローブとリンゴが免疫力を高める抗酸化物質を提供します。",
-        "healthTags": [
+        "description": "グラス一杯の古代の季節サポート防御。",
+        "benefits": "エルダーベリーの強力な季節サポート成分がウイルスの複製をブロックし、クローブとリンゴが免疫力を高める抗酸化物質を提供します。",
+        "wellnessTags": [
             "免疫サポート",
             "ウェルネス"
         ],
@@ -1387,7 +1387,7 @@
         "steps": "エルダーベリーシロップ1/2カップと、リンゴ丸ごと1個、挽いたクローブひとつまみをブレンドします。水1/2カップを加え、高速で45秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/elderberry_shield.webp",
         "icon": "vaso"
     },
@@ -1399,7 +1399,7 @@
         "color": "orange",
         "description": "トロピカルなビタミンCの爆発。",
         "benefits": "グアバとAcerolaが大量のビタミンCをもたらし、オレンジが免疫細胞の活動を増幅させるフラボノイドを加えます。",
-        "healthTags": [
+        "wellnessTags": [
             "免疫サポート",
             "ウェルネス"
         ],
@@ -1412,7 +1412,7 @@
         "steps": "グアバ丸ごと1個と、皮をむいたオレンジ1個、新鮮なAcerolaパルプ1/4カップをブレンドします。水1/2カップを加え、高速で60秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/tropical_immunity.webp",
         "icon": "vaso"
     },
@@ -1424,7 +1424,7 @@
         "color": "red",
         "description": "ベリーの免疫要塞。",
         "benefits": "野生ベリーの濃縮ブレンドがアントシアニンをもたらし、Camu Camuからの極限のビタミンCが迅速な免疫反応をサポートします。",
-        "healthTags": [
+        "wellnessTags": [
             "免疫サポート",
             "ウェルネス"
         ],
@@ -1436,7 +1436,7 @@
         "steps": "冷凍ミックスベリー1カップとCamu Camuパウダー小さじ1をブレンドします。水3/4カップを加え、高速で60秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/berry_immune.webp",
         "icon": "vaso"
     },
@@ -1448,7 +1448,7 @@
         "color": "green",
         "description": "サワーソップの細胞保護。",
         "benefits": "サワーソップとグラヴィオラは、細胞の防御と免疫の回復力をサポートする強力なアセトゲニンで伝説的です。",
-        "healthTags": [
+        "wellnessTags": [
             "免疫サポート",
             "ウェルネス"
         ],
@@ -1461,7 +1461,7 @@
         "steps": "サワーソップの果肉1カップと、グラヴィオラエキス大さじ2、甘いリンゴ丸ごと1個をブレンドします。水1/2カップを加え、高速で60秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "Immunity Boost",
+        "benefit": "Natural Defenses",
         "img": "/images/smoothies/soursop_guardian.webp",
         "icon": "vaso"
     },
@@ -1473,7 +1473,7 @@
         "color": "amber",
         "description": "持久力のためのトロピカル燃料。",
         "benefits": "ココナッツが素早く吸収される中鎖脂肪酸を提供し、Macaとパイナップルが持続的な肉体的エネルギーと回復を促進します。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
             "ウェルネス"
         ],
@@ -1498,8 +1498,8 @@
         "color": "purple",
         "description": "トロピカルなストレス緩和。",
         "benefits": "パッションフルーツが自然に不安を減らし、マグネシウムが神経系をリラックスさせて、深く無理のない落ち着きをもたらします。",
-        "healthTags": [
-            "ストレス解消",
+        "wellnessTags": [
+            "落ち着きとバランス",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
@@ -1510,7 +1510,7 @@
         "steps": "新鮮なパッションフルーツ3個分の果肉と、イオン化マグネシウムサプリメント1スクープをブレンドします。冷水1カップを加え、高速で45秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "Stress Relief & Calm",
+        "benefit": "Calm & Balance",
         "img": "/images/smoothies/tropical_calm.webp",
         "icon": "vaso"
     },
@@ -1522,7 +1522,7 @@
         "color": "purple",
         "description": "自然界のニコチン — クリーンで植物性。",
         "benefits": "ナスとカリフラワーは、自然界で最もニコチンが豊富な植物源の一つであり、より鋭い認知力、集中力、神経系のバランスのためのアセチルコリン産生をサポートします。タバコの依存性や化学物質はありません。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
             "ウェルネス"
         ],
@@ -1547,8 +1547,8 @@
         "color": "purple",
         "description": "ダブルアダプトゲンのストレスシールド。",
         "benefits": "AshwagandhaとReishiという、ストレスを調整する最も強力な2つのアダプトゲンを組み合わせることで、コルチゾールを深く下げ、神経系を落ち着かせ、日々のストレスに対する長期的な回復力を構築します。",
-        "healthTags": [
-            "ストレス解消",
+        "wellnessTags": [
+            "落ち着きとバランス",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ アダプトゲン",
@@ -1572,7 +1572,7 @@
         "color": "amber",
         "description": "生チョコレートの気分高揚。",
         "benefits": "生カカオが脳をテオブロミンとフェニルエチルアミンで満たし、カフェインのクラッシュなしに自然な気分の高揚と持続的なエネルギーを引き起こします。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
             "ウェルネス"
         ],
@@ -1596,9 +1596,9 @@
         "teaser": "グラスの中の奇跡の木",
         "color": "green",
         "description": "グラスの中の奇跡の木。",
-        "benefits": "Moringaは92の栄養素と46の抗酸化物質を含み、細胞の修復、解毒、持続的な毎日の活力をサポートします。",
-        "healthTags": [
-            "デトックス",
+        "benefits": "Moringaは92の栄養素と46の抗酸化物質を含み、細胞の修復、清洁营养、持続的な毎日の活力をサポートします。",
+        "wellnessTags": [
+            "クリーン栄養",
             "ウェルネス"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
@@ -1610,7 +1610,7 @@
         "steps": "Moringaリーフパウダー小さじ1を冷凍マンゴーの塊1カップ、ココナッツウォーター1カップと一緒にブレンドします。高速で60秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "デトックス＆クレンズ",
+        "benefit": "クリーン栄養＆クレンズ",
         "img": "/images/smoothies/moringa_green.webp",
         "icon": "vaso"
     },
@@ -1622,9 +1622,9 @@
         "color": "amber",
         "description": "キノコの王様の防御力。",
         "benefits": "Chagaは地球上のあらゆる食品の中で最も高いORAC抗酸化スコアを持ち、フリーラジカルを中和し、細胞レベルで免疫防御を強化します。",
-        "healthTags": [
+        "wellnessTags": [
             "免疫サポート",
-            "抗酸化力"
+            "抗酸化サポート"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
         "ingredients": [
@@ -1646,9 +1646,9 @@
         "teaser": "ウィートグラスの毎日リセット",
         "color": "green",
         "description": "ウィートグラスの毎日リセット。",
-        "benefits": "ウィートグラスはクロロフィルを血流に直接届け、体をアルカリ化し、肝臓を解毒し、素早いエネルギーブーストを提供します。",
-        "healthTags": [
-            "デトックス",
+        "benefits": "ウィートグラスはクロロフィルを血流に直接届け、体をアルカリ化し、肝臓を清洁营养し、素早いエネルギーブーストを提供します。",
+        "wellnessTags": [
+            "クリーン栄養",
             "エネルギーと活力"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
@@ -1660,7 +1660,7 @@
         "steps": "ウィートグラスパウダー小さじ1を、リンゴ丸ごと1個、レモン半分の絞り汁と一緒にブレンドします。水3/4カップを加え、高速で45秒間ブレンドします。",
         "tier": "free",
         "isHero": false,
-        "benefit": "デトックス＆クレンズ",
+        "benefit": "クリーン栄養＆クレンズ",
         "img": "/images/smoothies/green_shot.webp",
         "icon": "vaso"
     },
@@ -1672,7 +1672,7 @@
         "color": "amber",
         "description": "完全な植物性プロテインブレンド。",
         "benefits": "ヘンプシードは9つの必須アミノ酸すべてを含む数少ない植物源の1つであり、完全なタンパク質と完璧な比率のオメガ3およびオメガ6を提供します。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
             "ウェルネス"
         ],
@@ -1697,7 +1697,7 @@
         "color": "amber",
         "description": "古代戦士の持久力燃料。",
         "benefits": "チアシードは胃の中で10倍に膨らみ、消化を遅らせ、持続的な水分補給、食物繊維、オメガ3を何時間も提供します。",
-        "healthTags": [
+        "wellnessTags": [
             "消化と腸内環境",
             "エネルギーと活力"
         ],
@@ -1722,9 +1722,9 @@
         "color": "purple",
         "description": "グラス一杯の温かい睡眠儀式。",
         "benefits": "カモミールはGABA受容体に結合して神経系を落ち着かせ、ナツメグには睡眠の質を深め、夜中の目覚めを減らすミリスチシンが含まれています。",
-        "healthTags": [
-            "睡眠と回復",
-            "ストレス解消"
+        "wellnessTags": [
+            "休息とリニューアル",
+            "落ち着きとバランス"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
         "ingredients": [
@@ -1748,9 +1748,9 @@
         "color": "red",
         "description": "熱発生代謝イグナイター。",
         "benefits": "カイエンヌのカプサイシンが熱発生を活性化して脂肪を燃焼させ、生姜が消化の火を高め、パイナップルのブロメラインが栄養素の吸収を加速させます。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
-            "デトックス"
+            "クリーン栄養"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
         "ingredients": [
@@ -1773,7 +1773,7 @@
         "color": "amber",
         "description": "血糖バランスと温かさ。",
         "benefits": "シナモンのシンナムアルデヒドがインスリンを模倣して血糖値を安定させ、アーモンドバターがグルコースの吸収を自然に遅らせる健康的な脂肪を提供します。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
             "ウェルネス"
         ],
@@ -1791,14 +1791,14 @@
         "icon": "vaso"
     },
     {
-        "id": "amla_boost",
+        "id": "amla_support",
         "name": "ヴェーディックサン",
         "title": "ヴェーディックサン",
         "teaser": "オレンジの20倍のビタミンC",
         "color": "green",
         "description": "オレンジの20倍のビタミンC。",
         "benefits": "Amlaは地球上で最も高い天然ビタミンC濃度の1つを提供し、他のどの果物とも異なり、安定して生体利用可能な状態を保つタンニンが含まれています。",
-        "healthTags": [
+        "wellnessTags": [
             "免疫サポート",
             "美肌と美容"
         ],
@@ -1812,7 +1812,7 @@
         "tier": "free",
         "isHero": false,
         "benefit": "免疫力アップ",
-        "img": "/images/smoothies/amla_boost.webp",
+        "img": "/images/smoothies/amla_support.webp",
         "icon": "vaso"
     },
     {
@@ -1823,7 +1823,7 @@
         "color": "amber",
         "description": "ブラジル最強のスーパーフルーツ。",
         "benefits": "Cupuacuは自重の3.5倍の水分を吸収して細胞を深く潤し、独自のテアクリン化合物がイライラすることなく長期的なエネルギーを提供します。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
             "美肌と美容"
         ],
@@ -1848,8 +1848,8 @@
         "color": "purple",
         "description": "ダークベリーのトリプル抗酸化ヒット。",
         "benefits": "ビルベリー、ブラックカラント、レッドカラントは、地球上で最もアントシアニンが豊富な3つのベリーを組み合わせ、最大限の視力保護と細胞防御を実現します。",
-        "healthTags": [
-            "抗酸化力",
+        "wellnessTags": [
+            "抗酸化サポート",
             "美肌と美容"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
@@ -1872,10 +1872,10 @@
         "teaser": "酸味のあるベリーの免疫力アップ",
         "color": "red",
         "description": "酸味のあるベリーの免疫力アップ。",
-        "benefits": "ラズベリーとクランベリーにはエラグ酸とプロアントシアニジンが豊富に含まれており、感染症と戦い、炎症を抑え、尿路を保護します。",
-        "healthTags": [
+        "benefits": "ラズベリーとクランベリーにはエラグ酸とプロアントシアニジンが豊富に含まれており、季节性挑战症と戦い、身体压力を抑え、尿路を保護します。",
+        "wellnessTags": [
             "免疫サポート",
-            "抗酸化力"
+            "抗酸化サポート"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
         "ingredients": [
@@ -1897,8 +1897,8 @@
         "teaser": "アジアの長寿フルーツ",
         "color": "amber",
         "description": "アジアの長寿フルーツ。",
-        "benefits": "伝統中医学において、龍眼は心臓に栄養を与え心を落ち着かせ、ビワは呼吸器系を和らげ、強力なベータカロテンを提供します。",
-        "healthTags": [
+        "benefits": "伝統中营养において、龍眼は心臓に栄養を与え心を落ち着かせ、ビワは呼吸器系を和らげ、強力なベータカロテンを提供します。",
+        "wellnessTags": [
             "ウェルネス",
             "免疫サポート"
         ],
@@ -1923,7 +1923,7 @@
         "color": "green",
         "description": "珍しいエキゾチックな免疫の融合。",
         "benefits": "フェイジョアの独自のヨウ素含有量は甲状腺機能をサポートし、ホオズキのウィタノリドは免疫反応を高め、酸化ストレスから保護します。",
-        "healthTags": [
+        "wellnessTags": [
             "免疫サポート",
             "ウェルネス"
         ],
@@ -1947,10 +1947,10 @@
         "teaser": "3つの希少な柑橘類の一撃",
         "color": "yellow",
         "description": "3つの希少な柑橘類の一撃。",
-        "benefits": "ポメロ、グレープフルーツ、柚子は、独自のフラボノイドであるナリンゲニンとヘスペリジンを組み合わせることで、コレステロールを下げ、代謝を高め、強力なビタミンCを提供します。",
-        "healthTags": [
+        "benefits": "ポメロ、グレープフルーツ、柚子は、独自のフラボノイドであるナリンゲニンとヘスペリジンを組み合わせることで、脂質バランスを下げ、代謝を高め、強力なビタミンCを提供します。",
+        "wellnessTags": [
             "免疫サポート",
-            "心臓の健康"
+            "心血管ウェルネス"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
         "ingredients": [
@@ -1972,10 +1972,10 @@
         "teaser": "ダークフルーツの長寿トリオ",
         "color": "red",
         "description": "ダークフルーツの長寿トリオ。",
-        "benefits": "チェリー、マルベリー、ナツメは、長寿、肝臓の保護、強力なアントシアニン含有量のために伝統医学で崇められています。",
-        "healthTags": [
-            "抗酸化力",
-            "睡眠と回復"
+        "benefits": "チェリー、マルベリー、ナツメは、長寿、肝臓の保護、強力なアントシアニン含有量のために伝統营养で崇められています。",
+        "wellnessTags": [
+            "抗酸化サポート",
+            "休息とリニューアル"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
         "ingredients": [
@@ -1998,7 +1998,7 @@
         "color": "yellow",
         "description": "トロピカルなでんぷんと酵素の燃料。",
         "benefits": "パパイヤのパパイン酵素がタンパク質を分解して膨満感を和らげ、プランテンが有益な腸内細菌を養う難消化性デンプンを提供します。",
-        "healthTags": [
+        "wellnessTags": [
             "消化と腸内環境",
             "エネルギーと活力"
         ],
@@ -2023,7 +2023,7 @@
         "color": "amber",
         "description": "大地に根ざした根菜の力。",
         "benefits": "サツマイモとカボチャには、ビタミンAに変換されるベータカロテンが豊富に含まれており、視力、皮膚、免疫機能を同時に保護します。",
-        "healthTags": [
+        "wellnessTags": [
             "免疫サポート",
             "エネルギーと活力"
         ],
@@ -2047,8 +2047,8 @@
         "teaser": "マーク・トウェインが愛した最も美味しい果物",
         "color": "green",
         "description": "マーク・トウェインが愛した最も美味しい果物。",
-        "benefits": "チェリモヤには、強力な抗がん作用が研究されているアセトゲニンのほか、神経機能とエネルギーをサポートする豊富なビタミンB群が含まれています。",
-        "healthTags": [
+        "benefits": "チェリモヤには、強力な抗細胞ストレス作用が研究されているアセトゲニンのほか、神経機能とエネルギーをサポートする豊富なビタミンB群が含まれています。",
+        "wellnessTags": [
             "免疫サポート",
             "ウェルネス"
         ],
@@ -2073,7 +2073,7 @@
         "color": "amber",
         "description": "シルクのようなメソアメリカのスーパーフルーツ。",
         "benefits": "サポジラとマメイサポテはどちらも、腸壁の完全性をサポートする希少なポリフェノールと、セロトニン生成のための高レベルのビタミンB6を提供します。",
-        "healthTags": [
+        "wellnessTags": [
             "消化と腸内環境",
             "ウェルネス"
         ],
@@ -2097,10 +2097,10 @@
         "teaser": "古代の消化トニック",
         "color": "amber",
         "description": "古代の消化トニック。",
-        "benefits": "タマリンドには酒石酸とヒドロキシクエン酸が豊富に含まれており、胆汁の分泌を刺激して脂肪の消化を早め、肝臓を自然に浄化します。",
-        "healthTags": [
+        "benefits": "タマリンドには酒石酸とヒドロキシクエン酸が豊富に含まれており、胆汁の分泌を刺激して脂肪の消化を早め、肝臓を自然にクリーン栄養します。",
+        "wellnessTags": [
             "消化と腸内環境",
-            "デトックス"
+            "クリーン栄養"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
         "ingredients": [
@@ -2123,9 +2123,9 @@
         "color": "red",
         "description": "ツリートマトの抗酸化サージ。",
         "benefits": "タマリロには血糖値を下げることが証明されているクロロゲン酸と、黄斑変性から保護する独自のカロテノイドプロファイルが含まれています。",
-        "healthTags": [
-            "抗酸化力",
-            "心臓の健康"
+        "wellnessTags": [
+            "抗酸化サポート",
+            "心血管ウェルネス"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
         "ingredients": [
@@ -2147,10 +2147,10 @@
         "teaser": "丸ごと食べるフルーツ",
         "color": "orange",
         "description": "丸ごと食べるフルーツ。",
-        "benefits": "キンカンの皮には果肉よりも多くのリモネンとヘスペリジンが含まれており（柑橘類の中では珍しい）、果実全体が強力な抗炎症剤であり、代謝のブースターとなります。",
-        "healthTags": [
+        "benefits": "キンカンの皮には果肉よりも多くのリモネンとヘスペリジンが含まれており（柑橘類の中では珍しい）、果実全体が強力な身体平衡症剤であり、代謝のブースターとなります。",
+        "wellnessTags": [
             "免疫サポート",
-            "抗炎症"
+            "身体平衡症"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
         "ingredients": [
@@ -2173,7 +2173,7 @@
         "color": "green",
         "description": "ポリネシアのでんぷんエネルギー。",
         "benefits": "パンノキの実は、植物性食品としては珍しく、すべての必須アミノ酸を含む完全なタンパク源であり、何時間も腸内細菌を養う高繊維を含んでいます。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
             "消化と腸内環境"
         ],
@@ -2197,10 +2197,10 @@
         "teaser": "忘れられた秋のスーパーフルーツ",
         "color": "amber",
         "description": "忘れられた秋のスーパーフルーツ。",
-        "benefits": "マルメロには腸壁を治癒する強力なタンニンとペクチンが含まれており、柿のベツリン酸は研究で抗腫瘍特性が実証されています。",
-        "healthTags": [
+        "benefits": "マルメロには腸壁を回復する強力なタンニンとペクチンが含まれており、柿のベツリン酸は研究で抗細胞ストレス特性が実証されています。",
+        "wellnessTags": [
             "消化と腸内環境",
-            "抗酸化力"
+            "抗酸化サポート"
         ],
         "synergies": "スーパーフード ＋ フレッシュフルーツ",
         "ingredients": [
@@ -2223,7 +2223,7 @@
         "color": "orange",
         "description": "アフリカの生命の木。",
         "benefits": "Baobabにはオレンジの6倍のビタミンCと牛乳以上のカルシウムが含まれており、コラーゲン生成、骨密度、免疫力を同時にサポートします。",
-        "healthTags": [
+        "wellnessTags": [
             "免疫サポート",
             "エネルギーと活力"
         ],
@@ -2248,7 +2248,7 @@
         "color": "amber",
         "description": "フルーツの王様が解き放たれる。",
         "benefits": "ドリアンはビタミンB群、銅、トリプトファンを非常に豊富に含んでおり、エネルギーと気分を高めるための最も完全な天然食品の1つです。",
-        "healthTags": [
+        "wellnessTags": [
             "エネルギーと活力",
             "ウェルネス"
         ],

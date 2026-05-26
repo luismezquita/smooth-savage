@@ -28,7 +28,7 @@ const translations = {
             },
             goals: {
                 energia: "Energy", enfoque: "Focus", musculo: "Muscle", inmunidad: "Immunity",
-                detox: "Detox", piel: "Skin", digestion: "Digestion", sueno: "Sleep",
+                detox: "Clean Nutrition", piel: "Skin", digestion: "Digestion", sueno: "Sleep",
                 antioxidante: "Antioxidant", corazon: "Heart", memoria: "Memory"
             }
         },
@@ -73,7 +73,7 @@ const translations = {
             back: 'Back',
             title: 'Explore Nutrition',
             titleHighlight: 'Nutrition',
-            description: 'Explore foods by general wellness goals and nutritional focus. Smooth Savage is an educational catalog, not medical guidance.',
+            description: 'Explore foods by general wellness goals and nutritional focus. Smooth Savage is an educational catalog, not professional guidance.',
         },
         benefitDetail: {
             back: 'Back to Explore Nutrition',
@@ -118,7 +118,7 @@ const translations = {
         info: {
             subtitle: 'About this app',
             disclaimerTitle: 'Nutrition & Wellness Disclaimer',
-            disclaimerText: 'Smooth Savage is an educational food catalog. It describes nutrients, traditional uses, and general wellness support associated with foods, superfoods, and smoothie ingredients. It is not medical advice and is not intended to diagnose, treat, cure, or prevent any disease or health condition. Food choices may support wellbeing, but they are not therapy, medicine, or a remedy. Always consult a qualified healthcare professional for medical questions, symptoms, treatments, medications, allergies, pregnancy, or specific health conditions.',
+            disclaimerText: 'Smooth Savage is an educational food catalog about foods, superfoods, and smoothie ingredients. It shares nutritional information, traditional context, and general wellness inspiration. It is not professional advice and does not evaluate personal situations or promise specific results. Food choices can support everyday wellbeing, but they are not a substitute for qualified guidance. For food sensitivities, pregnancy, supplement use, or personal concerns, consult a qualified professional.',
             aboutTitle: 'About',
             aboutText: 'Smooth Savage was created and coordinated by Fernando Mezquita of Offline Rules.',
             contactTitle: 'Contact',
@@ -127,7 +127,7 @@ const translations = {
             prepTitle: 'Preparation Tip',
             prepText: 'Smoothies are prepared with the liquid of your choice: water, plant-based milk, regular milk or oat drink. Adjust consistency to your preference.',
             durianTitle: 'Durian Warning',
-            durianText: 'Do not consume Durian with alcohol. This combination can cause serious adverse reactions including nausea, palpitations and severe discomfort.',
+            durianText: 'Do not consume Durian with alcohol. This combination can cause serious adverse reactions including digestive unease, strong discomfort and strong discomfort.',
         },
         privacy: {
             title: 'Privacy Policy',
@@ -174,7 +174,7 @@ const translations = {
             },
             goals: {
                 energia: "Energía", enfoque: "Enfoque", musculo: "Músculo", inmunidad: "Inmunidad",
-                detox: "Detox", piel: "Piel", digestion: "Digestión", sueno: "Sueño",
+                detox: "Clean Nutrition", piel: "Piel", digestion: "Digestión", sueno: "Sueño",
                 antioxidante: "Antioxidante", corazon: "Corazón", memoria: "Memoria"
             }
         },
@@ -219,7 +219,7 @@ const translations = {
             back: 'Volver',
             title: 'Explorar Nutrición',
             titleHighlight: 'Nutrición',
-            description: 'Explora alimentos por objetivos generales de bienestar y enfoque nutricional. Smooth Savage es un catálogo educativo, no una guía médica.',
+            description: 'Explora alimentos por objetivos generales de bienestar y enfoque nutricional. Smooth Savage es un catálogo educativo, no una guía profesional.',
         },
         benefitDetail: {
             back: 'Volver a Explorar Nutrición',
@@ -264,7 +264,7 @@ const translations = {
         info: {
             subtitle: 'Sobre la app',
             disclaimerTitle: 'Aviso de Nutrición y Bienestar',
-            disclaimerText: 'Smooth Savage es un catálogo educativo de alimentos. Describe nutrientes, usos tradicionales y apoyo general al bienestar asociado con alimentos, superalimentos e ingredientes de batidos. No es consejo médico y no está destinado a diagnosticar, tratar, curar ni prevenir ninguna enfermedad o condición de salud. Las elecciones alimentarias pueden apoyar el bienestar, pero no son terapia, medicina ni remedio. Consulta siempre con un profesional sanitario cualificado para preguntas médicas, síntomas, tratamientos, medicamentos, alergias, embarazo o condiciones de salud específicas.',
+            disclaimerText: 'Smooth Savage es un catálogo educativo sobre alimentos, superalimentos e ingredientes para batidos. Comparte información nutricional, contexto tradicional e inspiración general de bienestar. No es consejo profesional, no evalúa condiciones personales ni promete resultados concretos. La alimentación puede apoyar el bienestar diario, pero no sustituye la orientación cualificada. Para alergias, embarazo, uso de suplementos o situaciones personales, consulta con un profesional cualificado.',
             aboutTitle: 'Sobre la app',
             aboutText: 'Smooth Savage ha sido creada y coordinada por Fernando Mezquita de Offline Rules.',
             contactTitle: 'Contacto',
@@ -320,7 +320,7 @@ const translations = {
             },
             goals: {
                 energia: "Énergie", enfoque: "Focus", musculo: "Muscle", inmunidad: "Immunité",
-                detox: "Détox", piel: "Peau", digestion: "Digestion", sueno: "Sommeil",
+                detox: "Nutrition propre", piel: "Peau", digestion: "Digestion", sueno: "Sommeil",
                 antioxidante: "Antioxydant", corazon: "Cœur", memoria: "Mémoire"
             }
         },
@@ -365,7 +365,7 @@ const translations = {
             back: 'Retour',
             title: 'Explorer la Nutrition',
             titleHighlight: 'Nutrition',
-            description: "Explorez les aliments par objectifs généraux de bien-être et par profil nutritionnel. Smooth Savage est un catalogue éducatif, pas un guide médical.",
+            description: "Explorez les aliments par objectifs généraux de bien-être et par profil nutritionnel. Smooth Savage est un catalogue éducatif, pas un guide professionnel.",
         },
         benefitDetail: {
             back: 'Retour à la nutrition',
@@ -410,7 +410,7 @@ const translations = {
         info: {
             subtitle: "À propos de l'app",
             disclaimerTitle: 'Avertissement Nutrition et Bien-être',
-            disclaimerText: "Smooth Savage est un catalogue alimentaire éducatif. Il décrit les nutriments, les usages traditionnels et le soutien général au bien-être associés aux aliments, superaliments et ingrédients de smoothies. Ce n'est pas un avis médical et il n'est pas destiné à diagnostiquer, traiter, guérir ou prévenir une maladie ou un problème de santé. Les choix alimentaires peuvent soutenir le bien-être, mais ne sont ni une thérapie, ni un médicament, ni un remède. Consultez toujours un professionnel de santé qualifié pour toute question médicale, symptôme, traitement, médicament, allergie, grossesse ou condition de santé spécifique.",
+            disclaimerText: "Smooth Savage est un catalogue éducatif sur les aliments, les superaliments et les ingrédients de smoothies. Il partage des informations nutritionnelles, un contexte traditionnel et une inspiration générale pour le bien-être. Ce n'est pas un avis professionnel, n'évalue pas les situations personnelles et ne promet pas de résultat précis. L'alimentation peut accompagner le bien-être quotidien, mais ne remplace pas un accompagnement qualifié. Pour les food sensitivities, la grossesse, l'usage de compléments ou toute situation personnelle, consultez un professionnel qualifié.",
             aboutTitle: 'À propos',
             aboutText: "Smooth Savage a été créée et coordonnée par Fernando Mezquita d'Offline Rules.",
             contactTitle: 'Contact',
@@ -419,7 +419,7 @@ const translations = {
             prepTitle: 'Conseil de Préparation',
             prepText: "Les smoothies sont préparés avec le liquide de votre choix : eau, lait végétal, lait ordinaire ou boisson à l'avoine. Ajustez la consistance selon vos préférences.",
             durianTitle: 'Avertissement Durian',
-            durianText: "Ne consommez pas de Durian avec de l'alcool. Cette combinaison peut provoquer des réactions indésirables graves, notamment des nausées, des palpitations et un inconfort sévère.",
+            durianText: "Ne consommez pas de Durian avec de l'alcool. Cette combinaison peut provoquer des réactions indésirables graves, notamment des nausées, des strong discomfort et un inconfort sévère.",
         },
         privacy: {
             title: 'Politique de Confidentialité',
@@ -466,8 +466,8 @@ const translations = {
             },
             goals: {
                 energia: "能量", enfoque: "专注", musculo: "肌肉", inmunidad: "免疫",
-                detox: "排毒", piel: "美肌", digestion: "消化", sueno: "睡眠",
-                antioxidante: "抗氧化", corazon: "护心", memoria: "记忆"
+                detox: "清洁营养", piel: "美肌", digestion: "消化", sueno: "睡眠",
+                antioxidante: "抗氧化支持", corazon: "护心", memoria: "记忆"
             }
         },
         savage: {
@@ -556,7 +556,7 @@ const translations = {
         info: {
             subtitle: '关于此应用',
             disclaimerTitle: '营养与健康免责声明',
-            disclaimerText: 'Smooth Savage 是一个教育性食物目录。它介绍与食物、超级食物和果昔食材相关的营养成分、传统用途和一般健康支持。本应用不提供医疗建议，也无意用于诊断、治疗、治愈或预防任何疾病或健康状况。食物选择可以支持身心健康，但不是疗法、药物或补救措施。如有医疗问题、症状、治疗、药物、过敏、怀孕或特定健康状况，请务必咨询合格的医疗专业人士。',
+            disclaimerText: 'Smooth Savage 是一个关于食物、超级食物和果昔食材的教育目录。内容分享营养信息、传统背景和一般性的身心健康灵感。本应用不是专业建议，不评估个人状况，也不承诺具体结果。饮食选择可以支持日常健康生活，但不能替代合格专业人士的指导。如涉及过敏、怀孕、用药或个人情况，请咨询合格专业人士。',
             aboutTitle: '关于',
             aboutText: 'Smooth Savage 由 Offline Rules 的 Fernando Mezquita 创建和协调。',
             contactTitle: '联系我们',
@@ -612,7 +612,7 @@ const translations = {
             },
             goals: {
                 energia: "エネルギー", enfoque: "集中力", musculo: "筋肉", inmunidad: "免疫力",
-                detox: "デトックス", piel: "美肌", digestion: "消化", sueno: "睡眠",
+                detox: "クリーン栄養", piel: "美肌", digestion: "消化", sueno: "睡眠",
                 antioxidante: "抗酸化", corazon: "ハート", memoria: "記憶力"
             }
         },
@@ -702,7 +702,7 @@ const translations = {
         info: {
             subtitle: 'アプリについて',
             disclaimerTitle: '栄養とウェルネスに関する免責事項',
-            disclaimerText: 'Smooth Savage は教育用の食品カタログです。食品、スーパーフード、スムージーの材料に関連する栄養素、伝統的な利用、一般的なウェルネスサポートについて説明します。これは医療アドバイスではなく、病気や健康状態を診断、治療、治癒、予防することを目的としていません。食事の選択はウェルビーイングを支えることがありますが、治療、薬、または治療法ではありません。医療上の質問、症状、治療、薬、アレルギー、妊娠、特定の健康状態については、必ず資格のある医療専門家に相談してください。',
+            disclaimerText: 'Smooth Savage は、食品、スーパーフード、スムージー材料について学ぶための教育カタログです。栄養情報、伝統的な背景、日々のウェルネスのヒントを紹介します。専門的な助言ではなく、個人の状態を評価したり、特定の結果を約束したりするものではありません。食事の選択は毎日のウェルビーイングを支えることがありますが、資格ある専門家の助言に代わるものではありません。アレルギー、妊娠、薬の使用、個人的な不安がある場合は、資格ある専門家に相談してください。',
             aboutTitle: 'について',
             aboutText: 'Smooth Savage は Offline Rules の Fernando Mezquita によって制作・統括されました。',
             contactTitle: 'お問い合わせ',
@@ -758,7 +758,7 @@ const translations = {
             },
             goals: {
                 energia: "에너지", enfoque: "집중력", musculo: "머슬", inmunidad: "면역력",
-                detox: "디톡스", piel: "스킨케어", digestion: "소화", sueno: "수면",
+                detox: "클린 영양", piel: "스킨케어", digestion: "소화", sueno: "수면",
                 antioxidante: "항산화", corazon: "하트", memoria: "기억력"
             }
         },
@@ -848,7 +848,7 @@ const translations = {
         info: {
             subtitle: '앱 소개',
             disclaimerTitle: '영양 및 웰니스 면책 조항',
-            disclaimerText: 'Smooth Savage는 교육용 식품 카탈로그입니다. 식품, 슈퍼푸드, 스무디 재료와 관련된 영양소, 전통적 사용, 일반적인 웰니스 지원 정보를 설명합니다. 이는 의료 조언이 아니며 질병이나 건강 상태를 진단, 치료, 치유 또는 예방하기 위한 것이 아닙니다. 음식 선택은 웰빙을 도울 수 있지만 치료, 의약품 또는 치료법이 아닙니다. 의학적 질문, 증상, 치료, 약물, 알레르기, 임신 또는 특정 건강 상태에 대해서는 반드시 자격 있는 의료 전문가와 상담하세요.',
+            disclaimerText: 'Smooth Savage는 식품, 슈퍼푸드, 스무디 재료를 소개하는 교육용 카탈로그입니다. 영양 정보, 전통적 배경, 일상 웰니스 영감을 제공합니다. 전문 조언이 아니며 개인 상태를 평가하거나 특정 결과를 약속하지 않습니다. 음식 선택은 일상 웰빙을 도울 수 있지만 자격 있는 전문가의 안내를 대신하지 않습니다. 알레르기, 임신, 약물 사용 또는 개인적인 우려가 있다면 자격 있는 전문가와 상담하세요.',
             aboutTitle: '소개',
             aboutText: 'Smooth Savage는 Offline Rules의 Fernando Mezquita가 제작하고 총괄했습니다.',
             contactTitle: '문의',
@@ -898,13 +898,13 @@ const translations = {
             exploreBtn: 'استكشف الفوائد',
             noResults: 'لا نتائج لـ "{query}"',
             cards: {
-                fresh: { title: "طازج", desc: "الطبيعة في أبهى\nوصورها الحقيقية" },
+                fresh: { title: "طازج", desc: "الغذائيعة في أبهى\nوصورها الحقيقية" },
                 savage: { title: "بري", desc: "طاقة قصوى\nمن أعماق الأرض" },
                 smoothies: { title: "سموثي", desc: "مزيج بري\nولذيذ للغاية" }
             },
             goals: {
                 energia: "طاقة", enfoque: "تركيز", musculo: "عضلات", inmunidad: "مناعة",
-                detox: "ديتوكس", piel: "بشرة", digestion: "هضم", sueno: "نوم",
+                detox: "تغذية نظيفة", piel: "بشرة", digestion: "هضم", sueno: "نوم",
                 antioxidante: "مضاد أكسدة", corazon: "قلب", memoria: "ذاكرة"
             }
         },
@@ -949,12 +949,12 @@ const translations = {
             back: 'رجوع',
             title: 'استكشف التغذية',
             titleHighlight: 'التغذية',
-            description: 'استكشف الأطعمة حسب أهداف العافية العامة والتركيز الغذائي. Smooth Savage كتالوج تعليمي للأطعمة، وليس دليلاً طبياً.',
+            description: 'استكشف الأطعمة حسب أهداف العافية العامة والتركيز الغذائي. Smooth Savage كتالوج تعليمي للأطعمة، وليس دليلاً غذائياً.',
         },
         benefitDetail: {
             back: 'العودة إلى استكشاف التغذية',
             itemSuffix: 'كل عنصر أدناه مصنف حسب ملفه الغذائي وتركيزه العام على العافية.',
-            freshSection: 'ترسانة الطبيعة',
+            freshSection: 'ترسانة الغذائيعة',
             savageSection: 'أطعمة خارقة فعّالة',
             smoothiesSection: 'عصائر العافية',
             empty: 'لا توجد عناصر محددة لهذه الفائدة بعد.',
@@ -979,7 +979,7 @@ const translations = {
             title: 'افتح كل المحتوى',
             body: 'أكثر من 250 عصيراً وطعاماً طازجاً وطعاماً خارقاً. ملفات فوائد كاملة. 7 لغات. يعمل 100% دون اتصال.',
             cta: 'افتح الكل - $4.99',
-            note: 'دفعة واحدة · بلا اشتراك · بلا إعلانات · الشراء داخل التطبيق قريباً',
+            note: 'دفعة واحدة · بلا اشتراك · بلا إعلانات · الشراء داخل التغذائيق قريباً',
         },
         premiumLock: {
             title: 'محتوى مميز',
@@ -992,9 +992,9 @@ const translations = {
             done: 'تم',
         },
         info: {
-            subtitle: 'حول التطبيق',
+            subtitle: 'حول التغذائيق',
             disclaimerTitle: 'إخلاء مسؤولية التغذية والعافية',
-            disclaimerText: 'Smooth Savage هو كتالوج تعليمي للأطعمة. يصف العناصر الغذائية والاستخدامات التقليدية والدعم العام للعافية المرتبط بالأطعمة والأطعمة الخارقة ومكونات العصائر. لا يمثل نصيحة طبية ولا يهدف إلى تشخيص أو علاج أو شفاء أو الوقاية من أي مرض أو حالة صحية. قد تدعم الاختيارات الغذائية الرفاهية، لكنها ليست علاجاً أو دواءً أو وصفة علاجية. استشر دائماً مختصاً مؤهلاً في الرعاية الصحية بشأن الأسئلة الطبية أو الأعراض أو العلاجات أو الأدوية أو الحساسية أو الحمل أو الحالات الصحية الخاصة.',
+            disclaimerText: 'Smooth Savage كتالوج تعليمي عن الأطعمة والأطعمة الخارقة ومكونات العصائر. يشارك معلومات غذائية وسياقاً تقليدياً وإلهاماً عاماً للعافية اليومية. لا يقدم نصيحة مهنية، ولا يقيّم الحالات الشخصية، ولا يعد بنتائج محددة. يمكن للاختيارات الغذائية أن تدعم الرفاه اليومي، لكنها لا تغني عن إرشاد مختص مؤهل. في حالات الحساسية أو الحمل أو استخدام الأدوية أو أي اعتبارات شخصية، استشر مختصاً مؤهلاً.',
             aboutTitle: 'حول',
             aboutText: 'تم إنشاء Smooth Savage وتنسيقه بواسطة Fernando Mezquita من Offline Rules.',
             contactTitle: 'اتصل بنا',
@@ -1009,19 +1009,19 @@ const translations = {
             title: 'سياسة الخصوصية',
             effectiveDate: 'تاريخ السريان: مايو 2026',
             overviewTitle: 'نظرة عامة',
-            overviewText: 'Smooth Savage هو تطبيق جوال مصمم لمساعدتك على اكتشاف الأطعمة الطازجة والمواد الغذائية الخارقة ووصفات العصائر. صممناه مع مراعاة الخصوصية — لا يقوم التطبيق بجمع أو تخزين أو نقل أي معلومات شخصية.',
+            overviewText: 'Smooth Savage هو تغذائيق جوال مصمم لمساعدتك على اكتشاف الأطعمة الطازجة والمواد الغذائية الخارقة ووصفات العصائر. صممناه مع مراعاة الخصوصية — لا يقوم التغذائيق بجمع أو تخزين أو نقل أي معلومات شخصية.',
             noDataTitle: 'لا يتم جمع بيانات شخصية',
-            noDataText: 'لا يتم جمع أي اسم أو بريد إلكتروني أو هاتف أو موقع أو أي معلومات شخصية أخرى. يعمل التطبيق بالكامل دون حساب أو تسجيل دخول.',
+            noDataText: 'لا يتم جمع أي اسم أو بريد إلكتروني أو هاتف أو موقع أو أي معلومات شخصية أخرى. يعمل التغذائيق بالكامل دون حساب أو تسجيل دخول.',
             noTrackingTitle: 'لا تتبع ولا تحليلات',
-            noTrackingText: 'لا يستخدم Smooth Savage أي أدوات تحليلية أو أدوات تتبع إعلانية أو مراقبة للاستخدام. ليس لدينا أي معرفة بكيفية استخدامك للتطبيق.',
+            noTrackingText: 'لا يستخدم Smooth Savage أي أدوات تحليلية أو أدوات تتبع إعلانية أو مراقبة للاستخدام. ليس لدينا أي معرفة بكيفية استخدامك للتغذائيق.',
             favoritesTitle: 'المفضلة مخزنة محلياً فقط',
             favoritesText: 'تُخزَّن العناصر التي تضيفها إلى المفضلة حصرياً على جهازك باستخدام التخزين المحلي. لا تغادر هذه البيانات جهازك أبداً ولا تُشارَك.',
-            offlineTitle: 'تطبيق يعمل بدون إنترنت',
+            offlineTitle: 'تغذائيق يعمل بدون إنترنت',
             offlineText: 'تم تصميم Smooth Savage للعمل بدون اتصال بالإنترنت. يتم تخزين المحتوى مؤقتاً على جهازك للاستخدام دون اتصال، مما يحافظ على خصوصيتك.',
             noSharingTitle: 'لا مشاركة مع أطراف ثالثة',
             noSharingText: 'لا نبيع أو نتبادل أو نشارك أي بيانات مع أطراف ثالثة — لأننا لا نجمع أي بيانات من الأساس.',
             childrenTitle: 'خصوصية الأطفال',
-            childrenText: 'لا يجمع هذا التطبيق عن قصد بيانات من الأطفال دون سن 13 عاماً. نظراً لعدم جمع أي بيانات من أي مستخدم، يمكن الأطفال استخدام التطبيق بأمان.',
+            childrenText: 'لا يجمع هذا التغذائيق عن قصد بيانات من الأطفال دون سن 13 عاماً. نظراً لعدم جمع أي بيانات من أي مستخدم، يمكن الأطفال استخدام التغذائيق بأمان.',
             contactTitle: 'اتصل بنا',
             contactText: 'لأي استفسارات حول سياسة الخصوصية هذه، تواصل معنا على',
         },
