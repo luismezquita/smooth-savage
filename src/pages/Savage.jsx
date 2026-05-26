@@ -52,6 +52,7 @@ export default function Savage() {
 
     const displaySavage = showAll ? filtered : filtered.slice(0, INITIAL_LIMIT);
     const hasMore = !showAll && filtered.length > INITIAL_LIMIT;
+    const isArabic = language === 'ar';
 
     const handleQueryChange = (val) => {
         setQuery(val);
@@ -65,7 +66,7 @@ export default function Savage() {
             <div ref={heroRef} className="savage-hero-glow w-screen relative left-1/2 -translate-x-1/2 mb-10 overflow-hidden" style={{ height: 'calc(100dvh - 60px)' }}>
                 <img src="/images/savage/cover_hero.jpg" className="w-full h-full object-cover object-center" alt="" />
                 <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(30,0,60,0.7) 0%, transparent 40%)' }} />
-                <div className="absolute top-0 left-0 right-0 pt-8 text-center px-4">
+                <div className={`absolute top-0 left-0 right-0 pt-8 text-center px-4 ${isArabic ? 'translate-x-5' : ''}`} dir={isArabic ? 'rtl' : undefined}>
                     <h1 className="text-4xl md:text-5xl font-black mb-2 text-white">{t('savage.title')}</h1>
                     <p className="text-base text-gray-200">{t('savage.subtitle')}</p>
                 </div>
