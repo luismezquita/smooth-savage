@@ -7,3 +7,5 @@ dist-ssr
 .claude/
 smooth-savage-landing/
 vite.config.js.timestamp-*.mjs
+.npm-cache/
+.gradle-local/
