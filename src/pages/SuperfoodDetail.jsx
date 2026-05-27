@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Info, Sparkles, Zap, Target, CheckCircle2 } from 'lucide-react';
@@ -10,7 +10,6 @@ import itemTeasersI18n from '../data/item_teasers_i18n';
 import benefitLabelsI18n from '../data/benefit_labels_i18n';
 import nutrientsI18n from '../data/nutrients_i18n';
 import synergiesI18n from '../data/synergies_i18n';
-import { getMainBenefits } from '../i18n/mainBenefits_i18n';
 import SmoothieLink from '../components/SmoothieLink';
 import { usePremium } from '../hooks/usePremium';
 import PremiumLockScreen from '../components/PremiumLockScreen';
@@ -23,19 +22,10 @@ export default function SuperfoodDetail() {
     const navigate = useNavigate();
     const superfood = savageFoods.find(s => s.id === id);
     const { isPremium } = usePremium();
-    const [benefitsData, setBenefitsData] = useState({});
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-
-    useEffect(() => {
-        if (language !== 'en') {
-            getMainBenefits(language).then(setBenefitsData);
-        } else {
-            setBenefitsData({});
-        }
-    }, [language]);
 
     if (!superfood) {
         return (
@@ -56,7 +46,7 @@ export default function SuperfoodDetail() {
     const displaySynergy = (language !== 'en' && synergiesI18n[language]?.[superfood.id]) || superfood.synergy;
     const translateNutrient = (n) => (language !== 'en' && nutrientsI18n[language]?.[n]) || n;
     
-    const displayMainBenefits = (language !== 'en' && benefitsData[superfood.id]) || superfood.mainBenefits || [];
+    const displayMainBenefits = superfood.mainBenefits || [];
 
     return (
         <div className="pb-16 bg-fruit-light/60 dark:bg-fruit-dark/50 min-h-[calc(100vh-64px)]">

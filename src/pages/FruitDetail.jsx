@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Info, Target, Sparkles, CheckCircle2, AlertTriangle } from 'lucide-react';
@@ -9,7 +9,6 @@ import itemNamesI18n from '../data/item_names_i18n';
 import itemTeasersI18n from '../data/item_teasers_i18n';
 import benefitLabelsI18n from '../data/benefit_labels_i18n';
 import nutrientsI18n from '../data/nutrients_i18n';
-import { getMainBenefits } from '../i18n/mainBenefits_i18n';
 import SmoothieLink from '../components/SmoothieLink';
 import { usePremium } from '../hooks/usePremium';
 import PremiumLockScreen from '../components/PremiumLockScreen';
@@ -22,19 +21,10 @@ export default function FruitDetail() {
     const navigate = useNavigate();
     const fruit = fruits.find(f => f.id === id);
     const { isPremium } = usePremium();
-    const [benefitsData, setBenefitsData] = useState({});
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-
-    useEffect(() => {
-        if (language !== 'en') {
-            getMainBenefits(language).then(setBenefitsData);
-        } else {
-            setBenefitsData({});
-        }
-    }, [language]);
 
     if (!fruit) {
         return (
@@ -53,7 +43,7 @@ export default function FruitDetail() {
     const displayTeaser = (language !== 'en' && itemTeasersI18n[language]?.[fruit.id]) || fruit.teaser;
     const displayBenefit = (language !== 'en' && benefitLabelsI18n[language]?.[fruit.benefit]) || fruit.benefit;
     const translateNutrient = (n) => (language !== 'en' && nutrientsI18n[language]?.[n]) || n;
-    const displayMainBenefits = (language !== 'en' && benefitsData[fruit.id]) || fruit.mainBenefits;
+    const displayMainBenefits = fruit.mainBenefits;
 
     return (
         <div className="pb-16 bg-fruit-light/60 dark:bg-fruit-dark/50 min-h-[calc(100vh-64px)]">
