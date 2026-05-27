@@ -114,7 +114,7 @@ const translations = {
             featureOfflineTitle: '100% offline catalog',
             featureOfflineBody: 'Keep exploring even without connection once the app is installed.',
             cta: 'Unlock everything - $4.99',
-            note: 'No subscription · No ads · In-app purchase coming next',
+            note: 'No subscription · No ads · One-time unlock',
         },
         premiumLock: {
             title: 'Premium content',
@@ -271,7 +271,7 @@ const translations = {
             featureOfflineTitle: 'Catálogo 100% offline',
             featureOfflineBody: 'Sigue explorando sin conexión una vez instalada la app.',
             cta: 'Desbloquear todo - $4.99',
-            note: 'Sin suscripción · Sin anuncios · Compra integrada próximamente',
+            note: 'Sin suscripción · Sin anuncios · Desbloqueo único',
         },
         premiumLock: {
             title: 'Contenido Premium',

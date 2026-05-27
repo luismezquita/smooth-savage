@@ -1,10 +1,12 @@
 import React from 'react';
 import { BookOpenText, CheckCircle2, Globe2, Lock, Sparkles, WifiOff } from 'lucide-react';
 import { useLanguage, useT } from '../i18n/LanguageContext';
+import { usePremium } from '../hooks/usePremium';
 
 export default function PaywallOverlay({ onClose }) {
     const t = useT();
     const { language } = useLanguage();
+    const { isPurchasing, premiumError, purchasePremium, restorePremium } = usePremium();
     const isArabic = language === 'ar';
 
     const features = [
@@ -63,11 +65,28 @@ export default function PaywallOverlay({ onClose }) {
 
                 <div className="relative space-y-3">
                     <button
-                        disabled
-                        className="w-full cursor-not-allowed rounded-2xl bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-4 text-base font-black leading-tight text-white shadow-lg shadow-orange-950/30"
+                        onClick={async () => {
+                            const ok = await purchasePremium();
+                            if (ok) onClose?.();
+                        }}
+                        disabled={isPurchasing}
+                        className="w-full rounded-2xl bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-4 text-base font-black leading-tight text-white shadow-lg shadow-orange-950/30 disabled:cursor-not-allowed disabled:opacity-70"
                     >
-                        {t('paywall.cta')}
+                        {isPurchasing ? 'Processing…' : t('paywall.cta')}
                     </button>
+                    <button
+                        onClick={async () => {
+                            const ok = await restorePremium();
+                            if (ok) onClose?.();
+                        }}
+                        disabled={isPurchasing}
+                        className="w-full rounded-2xl border border-white/20 bg-white/[0.05] px-4 py-3 text-sm font-bold text-slate-200 disabled:cursor-not-allowed disabled:opacity-70"
+                    >
+                        Restore purchase
+                    </button>
+                    {premiumError ? (
+                        <p className="text-xs font-semibold text-rose-300">{premiumError}</p>
+                    ) : null}
                     <div className="flex items-center justify-center gap-2 text-xs font-semibold text-slate-400">
                         <CheckCircle2 className="h-4 w-4 text-orange-300" />
                         <span>{t('paywall.note')}</span>
